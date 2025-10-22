@@ -44,8 +44,11 @@ public class GameLogger : MonoBehaviour
         string logDir = Path.Combine(exeDir, "log");
         Directory.CreateDirectory(logDir);
 
-        string fileName = $"GameLog_{DateTime.Now:yyyy-MM-dd_HH-mm-ss}.txt";
+        string fileName = $"GameLog_{DateTime.Now:yyyy-MM-dd_HH-mm-ss}.csv";
         logFilePath = Path.Combine(logDir, fileName);
+
+        string header = "Timestamp, Level, Source, Message" + Environment.NewLine;
+        File.AppendAllText(logFilePath, header);
 
         // 유니티 로그만 처리
         Application.logMessageReceived += HandleUnityLog;
@@ -106,11 +109,17 @@ public class GameLogger : MonoBehaviour
         {
             return;
         }
-        // 3-2. 출처 가져오기
+
+        // 3-2. CSV형식에 맞는 데이트 준비
+        string timestamp = DateTime.Now.ToString("HH:mm:ss.fff");
+        string levelStr = level.ToString();
         string sourceName = (source != null) ? source.GetType().Name : "Unknown";
 
+        string[] columns = {timestamp, levelStr, sourceName, message};
+
         // 3-3. 포맷 맞추기
-        string formatted = $"[{DateTime.Now:HH:mm:ss}] [{level}] [{sourceName}] {message}";
+        string formatted = string.Join(",", Array.ConvertAll(columns, EscapeCsvField)); //문서용 포맷
+        string consoleFormatted = $"[{timestamp}] [{levelStr}] [{sourceName}] {message}"; //유니티 콘솔용 포맷
 
         // 3-4. 파일에 먼저 쓰기 (중요!)
         File.AppendAllText(logFilePath, formatted + Environment.NewLine);
@@ -123,14 +132,14 @@ public class GameLogger : MonoBehaviour
         {
             case LogLevel.DEBUG:
             case LogLevel.INFO:
-                Debug.Log(formatted);
+                Debug.Log(consoleFormatted);
                 break;
             case LogLevel.WARNING:
-                Debug.LogWarning(formatted);
+                Debug.LogWarning(consoleFormatted);
                 break;
             case LogLevel.ERROR:
             case LogLevel.CRITICAL:
-                Debug.LogError(formatted);
+                Debug.LogError(consoleFormatted);
                 break;
         }
     }
@@ -144,30 +153,58 @@ public class GameLogger : MonoBehaviour
         if (logString.StartsWith("["))
             return;
 
+        string timestamp = DateTime.Now.ToString("HH:mm:ss.fff");
+        string levelStr;
+        string sourceName = "Unity"; // 출처는 "Unity"로 고정
+        string message = logString;
+
         // 4-2. GameLogger를 쓰지 않은 다른 스크립트의 Debug.Log, Error 등을 처리
         // (Unity의 LogType을 우리의 LogLevel로 매핑)
-        string formatted;
-        string sourceName = "[Unity]"; //GameLogger안썼으므로
         switch (type)
         {
             case LogType.Log:
-                // GameLogger.LogInfo()를 안 쓴 그냥 Debug.Log()는 [INFO]로 처리
-                if (LogLevel.INFO < currentLogLevel) return; // 필터링
-                formatted = $"[{DateTime.Now:HH:mm:ss}] [INFO] {sourceName} {logString}"; break;
+                levelStr = LogLevel.INFO.ToString();
+                if (LogLevel.INFO < currentLogLevel) return;
+                break;
             case LogType.Warning:
-                if (LogLevel.WARNING < currentLogLevel) return; // 필터링
-                formatted = $"[{DateTime.Now:HH:mm:ss}] [WARNING] {sourceName} {logString}"; break;
+                levelStr = LogLevel.WARNING.ToString();
+                if (LogLevel.WARNING < currentLogLevel) return;
+                break;
             case LogType.Error:
             case LogType.Exception:
             case LogType.Assert:
-                if (LogLevel.ERROR < currentLogLevel) return; // 필터링
-                formatted = $"[{DateTime.Now:HH:mm:ss}] [ERROR] {sourceName} {logString}\n{stackTrace}"; break;
+                levelStr = LogLevel.ERROR.ToString();
+                message += $"\n{stackTrace}"; // 에러일 경우 스택트레이스를 메시지에 포함
+                if (LogLevel.ERROR < currentLogLevel) return;
+                break;
             default:
-                return; // 처리 안 함
+                return;
         }
+
+        string[] columns = { timestamp, levelStr, sourceName, message };
+        string formatted = string.Join(",", Array.ConvertAll(columns, EscapeCsvField));
 
         File.AppendAllText(logFilePath, formatted + Environment.NewLine);
     }
+
+    /// <summary>
+    /// 메시지 안에 콤마나 큰따옴표가 있어도 엑셀이 깨지지않게
+    /// </summary>
+    /// <param name="field"></param>
+    /// <returns></returns>
+    private string EscapeCsvField(string field)
+    {
+        //1. 메시지 안의 큰따옴표(")를 두 개("")로
+        string escapedField = field.Replace("\"", "\"\"");
+
+        //2. 메시지에 콤마나 줄바꿈이 있다면 전체를 큰 따옴표로
+        if (escapedField.Contains(",") || escapedField.Contains("\n"))
+        {
+            escapedField = $"\"{escapedField}\"";
+        }
+        return escapedField;
+    }
+
     #endregion
 
 }
