@@ -2,7 +2,7 @@
 using UnityEngine.InputSystem;
 
 [RequireComponent(typeof(Player))]
-[RequireComponent(typeof(UnityEngine.InputSystem.PlayerInput))]
+[RequireComponent(typeof(PlayerInput))]
 public class PlayerInputHandler : MonoBehaviour
 {
     private Player player;
@@ -12,21 +12,26 @@ public class PlayerInputHandler : MonoBehaviour
         player = GetComponent<Player>();
     }
 
-    // PlayerInput 컴포넌트에서 Move 액션 호출
-    public void OnMove(InputAction.CallbackContext context)
+    public void OnMove(InputAction.CallbackContext ctx)
     {
-        Vector2 move = context.ReadValue<Vector2>();
+        var move = ctx.ReadValue<Vector2>();
         player.SetDirectionalInput(move);
+        InputSnapshot.Move = move;
     }
-
-    // PlayerInput 컴포넌트에서 Jump 액션 호출
-    public void OnJump(InputAction.CallbackContext context)
+    public void OnJump(InputAction.CallbackContext ctx)
     {
-        if (context.started)
+        if (ctx.started)
+        {
             player.OnJumpInputDown();
-        
-        if (context.canceled)
-            player.OnJumpInputUp();
-    }
+            InputSnapshot.JumpHeld = true;
+            InputSnapshot.JumpDown = true;
+        }
 
+        if (ctx.canceled)
+        {
+            player.OnJumpInputUp();
+            InputSnapshot.JumpHeld = false;
+            InputSnapshot.JumpUp = true;
+        }
+    }
 }
