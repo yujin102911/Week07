@@ -2,31 +2,60 @@
 using UnityEngine.InputSystem;
 
 [RequireComponent(typeof(Player))]
-[RequireComponent(typeof(UnityEngine.InputSystem.PlayerInput))]
+[RequireComponent(typeof(PlayerCarrying))]
+[RequireComponent(typeof(PlayerInput))]
 public class PlayerInputHandler : MonoBehaviour
 {
     private Player player;
+    private PlayerCarrying playerCarrying;
 
     private void Awake()
     {
         player = GetComponent<Player>();
+        playerCarrying = GetComponent<PlayerCarrying>();
     }
 
-    // PlayerInput 컴포넌트에서 Move 액션 호출
     public void OnMove(InputAction.CallbackContext context)
     {
-        Vector2 move = context.ReadValue<Vector2>();
+        var move = context.ReadValue<Vector2>();
         player.SetDirectionalInput(move);
+        InputSnapshot.Move = move;
     }
 
-    // PlayerInput 컴포넌트에서 Jump 액션 호출
     public void OnJump(InputAction.CallbackContext context)
     {
         if (context.started)
+        {
             player.OnJumpInputDown();
-        
+            InputSnapshot.JumpHeld = true;
+            InputSnapshot.JumpDown = true;
+        }
+
         if (context.canceled)
+        {
             player.OnJumpInputUp();
+            InputSnapshot.JumpHeld = false;
+            InputSnapshot.JumpUp = true;
+        }
     }
 
+    public void OnInteract(InputAction.CallbackContext context)
+    {
+        Debug.Log("OnInteract called");
+
+        if (context.performed)
+        {
+            playerCarrying.TryInteract();
+            InputSnapshot.Interact = true;
+        }
+    }
+
+    public void OnDrop(InputAction.CallbackContext context)
+    {
+        if (context.performed)
+        {
+            playerCarrying.TryDrop();
+            InputSnapshot.Drop = true;
+        }
+    }
 }
