@@ -1,27 +1,26 @@
-// ReplayPicker.cs
 using UnityEngine;
+using TMPro;
 using UnityEngine.UI;
 using System.IO;
 using System.Linq;
-using TMPro; // 꼭 필요
+using System;
+using System.Collections.Generic;
 
-public class ReplayPicker : MonoBehaviour
+public class ReplayPickerTMP : MonoBehaviour
 {
-    public InputReplayer replayer;  // 더미 Player에 붙은 InputReplayer    
-    public TMP_Dropdown dropdown;      // UGUI Dropdown
-    public Slider speedSlider;      // 1~10 배속 슬라이더(옵션)
-
-    string[] files;
+    [SerializeField] private InputReplayer replayer;
+    [SerializeField] private TMP_Dropdown dropdown;
+    [SerializeField] private Button playButton;
+    [SerializeField] private Button pauseButton;
+    [SerializeField] private Button stopButton;
+    [SerializeField] private Slider speedSlider;
+    [SerializeField] private bool enableSpaceToggle;
+    private string[] files;
+    private bool isPaused = false;
 
     void Start()
     {
-        files = Directory.Exists(LogPathUtil.Root)
-            ? Directory.GetFiles(LogPathUtil.Root, "input*.jsonl", SearchOption.AllDirectories)
-                      .OrderByDescending(File.GetLastWriteTimeUtc).ToArray()
-            : new string[0];
-
-        dropdown.ClearOptions();
-        dropdown.AddOptions(files.Select(Path.GetFileName).ToList());
+        RefreshList();
 
         if (speedSlider != null)
         {
@@ -31,28 +30,77 @@ public class ReplayPicker : MonoBehaviour
             speedSlider.wholeNumbers = true;
             speedSlider.onValueChanged.AddListener(SetSpeed);
         }
+
+        if (playButton) playButton.onClick.AddListener(PlaySelected);
+        if (stopButton) stopButton.onClick.AddListener(Stop);
+        if (pauseButton) pauseButton.onClick.AddListener(TogglePauseUI);
+    }
+
+    void Update()
+    {
+        if (enableSpaceToggle && Input.GetKeyDown(KeyCode.Space)) TogglePauseUI();
+    }
+
+    public void RefreshList()
+    {
+        files = Directory.Exists(LogPathUtil.Root)
+            ? Directory.GetFiles(LogPathUtil.Root, "input*.jsonl", SearchOption.AllDirectories)
+                      .OrderByDescending(File.GetLastWriteTimeUtc).ToArray()
+            : Array.Empty<string>();
+
+        var labels = new List<string>(files.Length);
+        foreach (var f in files)
+        {
+            DateTime t = File.GetLastWriteTime(f);
+            labels.Add(t.ToString("yyMMdd_HH:mm:ss"));
+        }
+
+        dropdown.ClearOptions();
+        dropdown.AddOptions(labels);
     }
 
     public void PlaySelected()
     {
         if (files == null || files.Length == 0) return;
-        var idx = Mathf.Clamp(dropdown.value, 0, files.Length - 1);
+        int idx = Mathf.Clamp(dropdown.value, 0, files.Length - 1);
         replayer.LoadAndPlay(files[idx]);
+        isPaused = false;
+        Debug.Log("[ReplayPickerTMP] Playing: " + files[idx]);
     }
 
-    public void Stop() => replayer.Stop();
+    public void Stop()
+    {
+        replayer.Stop();
+        isPaused = false;
+    }
 
     public void SetSpeed(float x)
     {
-        replayer.playbackSpeed = Mathf.Clamp(x, 1f, 10f);
-        if (replayer.enabled) Time.timeScale = replayer.playbackSpeed;
+        replayer.SetPlaybackSpeed(Mathf.Clamp(x, 1f, 10f));
     }
 
-    // 최신 로그 자동 재생용(옵션)
-    [ContextMenu("Play Latest")]
-    void PlayLatest()
+    public void TogglePauseUI()
     {
-        var latest = InputReplayer.FindLatestInputLog();
-        if (latest != null) replayer.LoadAndPlay(latest);
+        isPaused = !isPaused;
+        if (isPaused) replayer.Pause();
+        else replayer.Resume();
+    }
+
+    public void PauseUI()
+    {
+        isPaused = true;
+        replayer.Pause();
+    }
+
+    public void ResumeUI()
+    {
+        isPaused = false;
+        replayer.Resume();
+    }
+
+    [ContextMenu("Log Save Folder")]
+    public void LogSaveFolder()
+    {
+        Debug.Log("[Logs] " + LogPathUtil.Root);
     }
 }

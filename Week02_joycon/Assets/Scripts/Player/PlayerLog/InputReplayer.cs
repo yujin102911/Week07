@@ -1,4 +1,4 @@
-// InputReplayer.cs (업데이트 버전)
+// InputReplayer.cs  (Pause/Resume 전용, 현재 구조 기반 보강)
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
@@ -7,38 +7,58 @@ using UnityEngine;
 public class InputReplayer : MonoBehaviour
 {
     [Range(1f, 10f)] public float playbackSpeed = 1f;
-    public Rigidbody2D rb2D;         // 2D면 이걸로
+    private Rigidbody2D rb;
 
-    Player player;
+    private Player player;
+    private PlayerCarrying playerCarrying;
 
-    // 로그 로우 구조
-    struct Row { public int tick; public float mx, my; public int jumpHeld, jumpDown, jumpUp; }
-    List<Row> rows = new();
-    int cursor, currentTick;
-    float fixedDt;
+    private struct Row
+    {
+        public int tick;
+        public float mx;
+        public float my;
+        public int jumpHeld;
+        public int jumpDown;
+        public int jumpUp;
+        public int interact;
+        public int drop;
+    }
 
-    // 시작 Transform 저장
-    Vector3 startPos;
-    Quaternion startRot;
+    private readonly List<Row> rows = new();
+    private int cursor;
+    private int currentTick;
+    private float fixedDt;
+
+    private Vector3 startPos;
+    private Quaternion startRot;
+
+    private bool isPaused = false;
 
     void Awake()
     {
         player = GetComponent<Player>();
-        if (rb2D == null) rb2D = GetComponent<Rigidbody2D>();
+        playerCarrying = GetComponent<PlayerCarrying>();
+        rb = GetComponent<Rigidbody2D>();
 
-        // 현재 위치/회전을 "시작점"으로 저장
         startPos = transform.position;
         startRot = transform.rotation;
     }
 
+    void OnDisable()
+    {
+        Time.timeScale = 1f;
+        isPaused = false;
+    }
+
     public void LoadAndPlay(string filePath)
     {
-        // 1) 파일 읽기
         rows.Clear(); cursor = 0; currentTick = 0; fixedDt = 0f;
 
         var lines = File.ReadAllLines(filePath);
         foreach (var ln in lines)
         {
+            if (string.IsNullOrWhiteSpace(ln)) continue;
+
             if (ln.Contains("\"meta\""))
             {
                 var i = ln.IndexOf("\"fixedDt\":");
@@ -54,10 +74,9 @@ public class InputReplayer : MonoBehaviour
         }
         if (fixedDt <= 0f) fixedDt = Time.fixedDeltaTime;
 
-        // 2) 시작 위치로 리셋(+ 속도 0)
         ResetToStartTransformAndVel();
 
-        // 3) 배속 적용 & 재생 시작
+        isPaused = false;
         Time.timeScale = Mathf.Clamp(playbackSpeed, 1f, 10f);
         enabled = true;
 
@@ -67,53 +86,66 @@ public class InputReplayer : MonoBehaviour
     public void Stop()
     {
         enabled = false;
+        isPaused = false;
         Time.timeScale = 1f;
+        ResetToStartTransformAndVel();
     }
 
-    void OnDisable()
+    // --- 일시정지 컨트롤 ---
+    public void Pause()
     {
-        Time.timeScale = 1f;
+        if (isPaused) return;
+        isPaused = true;
+        Time.timeScale = 0f;
+    }
+
+    public void Resume()
+    {
+        if (!isPaused) return;
+        isPaused = false;
+        Time.timeScale = Mathf.Clamp(playbackSpeed, 1f, 10f);
+    }
+
+    public void TogglePause()
+    {
+        if (isPaused) Resume(); else Pause();
+    }
+
+    public void SetPlaybackSpeed(float speed01to10)
+    {
+        playbackSpeed = Mathf.Clamp(speed01to10, 1f, 10f);
+        if (!isPaused) Time.timeScale = playbackSpeed;
     }
 
     void FixedUpdate()
     {
-        if (rows.Count == 0) return;
+        if (rows.Count == 0 || isPaused) return;
 
-        // 현재 틱까지의 입력을 소비하며 최신 상태 유지
+        // 현재 틱까지 입력 소비
         while (cursor < rows.Count && rows[cursor].tick <= currentTick)
         {
             var r = rows[cursor++];
             player.SetDirectionalInput(new Vector2(r.mx, r.my));
             if (r.jumpDown == 1) player.OnJumpInputDown();
             if (r.jumpUp == 1) player.OnJumpInputUp();
+            if (r.interact == 1) playerCarrying.TryInteract();
+            if (r.drop == 1) playerCarrying.TryDrop();
         }
 
         currentTick++;
-    }
-
-    /// <summary>
-    /// 시작 위치·회전으로 되돌리고 속도 0, 틱도 0으로 되감기
-    /// (UI에서 "Rewind" 버튼으로도 호출 가능)
-    /// </summary>
-    public void ResetToStartAndRewind()
-    {
-        ResetToStartTransformAndVel();
-        cursor = 0;
-        currentTick = 0;
     }
 
     void ResetToStartTransformAndVel()
     {
         transform.SetPositionAndRotation(startPos, startRot);
 
-        if (rb2D != null)
+        if (rb != null)
         {
-            rb2D.linearVelocity = Vector2.zero;
-            rb2D.angularVelocity = 0f;
+            rb.linearVelocity = Vector2.zero;
+            rb.angularVelocity = 0f;
         }
     }
 
-    // 최신 로그 자동 찾기(기존 그대로)
     public static string FindLatestInputLog()
     {
         if (!Directory.Exists(LogPathUtil.Root)) return null;

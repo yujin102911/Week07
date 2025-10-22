@@ -27,8 +27,10 @@ public class InputRecorder : MonoBehaviour
         int held = InputSnapshot.JumpHeld ? 1 : 0;
         int dwn = InputSnapshot.JumpDown ? 1 : 0;
         int up = InputSnapshot.JumpUp ? 1 : 0;
+        int interact = InputSnapshot.Interact ? 1 : 0;
+        int drop = InputSnapshot.Drop ? 1 : 0;
 
-        var line = $"{{\"tick\":{tick},\"dt\":{fixedDt:F4},\"mx\":{m.x:F3},\"my\":{m.y:F3},\"jumpHeld\":{held},\"jumpDown\":{dwn},\"jumpUp\":{up}}}\n";
+        var line = $"{{\"tick\":{tick},\"dt\":{fixedDt:F4},\"mx\":{m.x:F3},\"my\":{m.y:F3},\"jumpHeld\":{held},\"jumpDown\":{dwn},\"jumpUp\":{up},\"interact\":{interact},\"drop\":{drop}}}\n";
         File.AppendAllText(path, line, Encoding.UTF8);
 
         tick++;
