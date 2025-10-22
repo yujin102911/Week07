@@ -231,7 +231,7 @@ public sealed class InteractionScanner2D : MonoBehaviour
 
         // 선행 조건 재검증
         if (!_focus.HasRequiredFlags(QuestFlags.Has)) return;
-        if (!_focus.CheckItem(Inventory.HasItem)) return;
+        // if (!_focus.CheckItem(Inventory.HasItem)) return;
 
 
 
@@ -297,11 +297,11 @@ public sealed class InteractionScanner2D : MonoBehaviour
             if (!c || !c.TryGetComponent(out Interactable2D it)) continue;
 
             if (!it.HasRequiredFlags(QuestFlags.Has)) continue;
-            if (!it.CheckItem(Inventory.HasItem)) continue;
+            // if (!it.CheckItem(Inventory.HasItem)) continue;
 
             float d2 = ((Vector2)it.transform.position - pos).sqrMagnitude;
 
-            Carryable cb= it.GetComponent<Carryable>();
+            Carryable cb = it.GetComponent<Carryable>();
 
             if (cb != null && cb.carrying == true)
                 continue;

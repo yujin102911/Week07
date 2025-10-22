@@ -23,7 +23,7 @@ public class PlayerCarrying : MonoBehaviour
     Vector2 lastDropPos;
     Vector2 dropPos;
     float lastObjRadius = 0.25f;
-    public int collideCarrying=0;//충돌한 짐 넘버 (현재 들고있는 것보다 높게 유지해야 안떨어짐)닿은거 이상 다 떨어질거야
+    public int collideCarrying = 0;//충돌한 짐 넘버 (현재 들고있는 것보다 높게 유지해야 안떨어짐)닿은거 이상 다 떨어질거야
 
     public List<GameObject> carriedObjects = new List<GameObject>();
 
@@ -39,7 +39,7 @@ public class PlayerCarrying : MonoBehaviour
         hp.transform.localPosition = new Vector2(0, 0.5f);
         holdPoint = hp.transform;
         carryingTop = 0f; // 높이 초기화
-        controller2D=GetComponent<Controller2D>();
+        controller2D = GetComponent<Controller2D>();
 
     }
     private void Update()
@@ -145,7 +145,7 @@ public class PlayerCarrying : MonoBehaviour
             {
                 // 선행 조건 재검증
                 if (!_focus.HasRequiredFlags(QuestFlags.Has)) return;
-                if (!_focus.CheckItem(Inventory.HasItem)) return;
+                // if (!_focus.CheckItem(Inventory.HasItem)) return;
 
                 QuestEvents.RaiseInteract(_focus.Id, _focus.transform.position, InteractionKind.Press);
 
@@ -179,16 +179,16 @@ public class PlayerCarrying : MonoBehaviour
                     checkSize = obj.transform.localScale;
 
                 // 플레이어가 바라보는 방향에 드롭 위치 계산
-                dropOffset = new Vector2((obj.transform.localScale.x+transform.localScale.x)/2,0);//들고있는 것 /2+플레이어 크기
+                dropOffset = new Vector2((obj.transform.localScale.x + transform.localScale.x) / 2, 0);//들고있는 것 /2+플레이어 크기
                 Vector2 dropPos = (Vector2)transform.position + dropOffset * controller2D.collisions.faceDir;
 
                 //  기즈모용 위치 저장
                 lastDropPos = dropPos;
-                lastObjSize = obj.GetComponent<Collider2D>().bounds.size*0.9f;//사이즈
+                lastObjSize = obj.GetComponent<Collider2D>().bounds.size * 0.9f;//사이즈
                 showDropGizmo = true;
 
                 //  레이캐스트로 드롭할 공간 확인
-                Collider2D hit = Physics2D.OverlapBox(dropPos, lastObjSize,0, LayerMask.GetMask("Obstacle"));
+                Collider2D hit = Physics2D.OverlapBox(dropPos, lastObjSize, 0, LayerMask.GetMask("Obstacle"));
                 if (hit != null)
                 {
                     Debug.Log("막혔어");
@@ -231,7 +231,7 @@ public class PlayerCarrying : MonoBehaviour
                 rb.bodyType = RigidbodyType2D.Dynamic;
                 rb.freezeRotation = false;
             }
-                
+
 
             if (go.TryGetComponent<Carryable>(out var car))
                 car.carrying = false;
