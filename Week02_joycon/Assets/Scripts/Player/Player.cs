@@ -25,7 +25,7 @@ public class Player : MonoBehaviour
 
     float timeToWallUnstick;
     float gravity;
-    float gravityWeight=0.1f;
+    float gravityWeight=0.01f;
     float maxJumpVelocity;
     float minJumpVelocity;
     Vector3 velocity;
@@ -122,7 +122,6 @@ public class Player : MonoBehaviour
     void Start()
     {
         gravity = -(2f * maxJumpHeight) / Mathf.Pow(timeToJumpApex, 2f);
-        Debug.Log("Gravity: " + gravity);
         maxJumpVelocity = Mathf.Abs(gravity) * timeToJumpApex;
         minJumpVelocity = Mathf.Sqrt(2f * Mathf.Abs(gravity) * minJumpHeight);
     }
@@ -244,6 +243,8 @@ public class Player : MonoBehaviour
         // 3) 벽 점프
         if (wallSliding)
         {
+            if (playerCarrying.CarryAbleWeight > 0)//들고 있는게 있으면
+                return false;//벽점프 못함
             Debug.Log("벽 점프");
             _jumpBufferTimer = 0f;
 
@@ -271,7 +272,7 @@ public class Player : MonoBehaviour
             //Debug.Log("지상 점프");
 
             _jumpBufferTimer = 0f;
-            maxJumpVelocity= timeToJumpApex*(Mathf.Abs(gravity) + playerCarrying.CarryAbleWeight* gravityWeight);
+            maxJumpVelocity= (2f * maxJumpHeight)/ timeToJumpApex/(1+playerCarrying.CarryAbleWeight*gravityWeight);
 
             Debug.Log("maxJumpVelocity"+maxJumpVelocity);
             if (controller.collisions.slidingDownMaxSlope)
