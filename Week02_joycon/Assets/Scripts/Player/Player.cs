@@ -21,9 +21,11 @@ public class Player : MonoBehaviour
 
     [SerializeField] float wallSlideSpeedMax = 3f;
     [SerializeField] float wallStickTime = .25f;
+    [SerializeField] PlayerCarrying playerCarrying;
 
     float timeToWallUnstick;
     float gravity;
+    float gravityWeight=0.1f;
     float maxJumpVelocity;
     float minJumpVelocity;
     Vector3 velocity;
@@ -120,6 +122,7 @@ public class Player : MonoBehaviour
     void Start()
     {
         gravity = -(2f * maxJumpHeight) / Mathf.Pow(timeToJumpApex, 2f);
+        Debug.Log("Gravity: " + gravity);
         maxJumpVelocity = Mathf.Abs(gravity) * timeToJumpApex;
         minJumpVelocity = Mathf.Sqrt(2f * Mathf.Abs(gravity) * minJumpHeight);
     }
@@ -268,7 +271,9 @@ public class Player : MonoBehaviour
             //Debug.Log("지상 점프");
 
             _jumpBufferTimer = 0f;
+            maxJumpVelocity= timeToJumpApex*(Mathf.Abs(gravity) + playerCarrying.CarryAbleWeight* gravityWeight);
 
+            Debug.Log("maxJumpVelocity"+maxJumpVelocity);
             if (controller.collisions.slidingDownMaxSlope)
             {
                 if (Mathf.RoundToInt(directionalInput.x) != -Mathf.Sign(controller.collisions.slopeNormal.x))
@@ -332,9 +337,12 @@ public class Player : MonoBehaviour
     /// 기본 이동 속도 계산(수평 스무딩, 중력 적용).
     /// </summary>
     /// <param name="dt">델타타임</param>
-    void CalculateVelocityBase(float dt)
+    void CalculateVelocityBase(float dt)//기본 이동 계산
     {
-        float targetVelocityX = directionalInput.x * moveSpeed;
+        float targetVelocityX = directionalInput.x * moveSpeed
+             //* Mathf.Exp(playerCarrying.CarryAbleWeight * 0.1f);
+             / (1f + playerCarrying.CarryAbleWeight * 0.1f);
+
         velocity.x = Mathf.SmoothDamp(
             velocity.x, targetVelocityX, ref velocityXSmoothing,
             (controller.collisions.below) ? accelerationTimeGrounded : accelerationTimeAirborne);

@@ -1,8 +1,8 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 
 public class Carryable : MonoBehaviour
 {
-    public bool carrying = false;//µå´ÂÁß
+    public bool carrying = false;//ë“œëŠ”ì¤‘
     public float large = -1;
     public float weight=1;
     private float lxw;
@@ -13,15 +13,17 @@ public class Carryable : MonoBehaviour
 
     private PlayerCarrying player;
     private LayerMask maskObstacle;
+    [SerializeField]private Rigidbody2D rb;
 
     void Start()
-    {if (large < 0)//Å©±â ¼³Á¤ µû·Î ¾ÈÇßÀ¸¸é
+    {if (large < 0)//í¬ê¸° ì„¤ì • ë”°ë¡œ ì•ˆí–ˆìœ¼ë©´
         {
-            large = transform.localScale.x* transform.localScale.y;//Å©±â x*y·Î ÀúÀå
+            large = transform.localScale.x* transform.localScale.y;//í¬ê¸° x*yë¡œ ì €ì¥
         }
-        lxw = large*weight;//Å©±â*¹«°Ô=½ÇÁ¦ ¹«°Ô
-        GetComponent<Rigidbody2D>().mass = lxw;//¹«°Ô Àû¿ë
-        player = GameObject.Find("Player").GetComponent<PlayerCarrying>();//ÇÃ·¹ÀÌ¾î Ã£¾Æ³Ö±â
+        lxw = large*weight;//í¬ê¸°*ë¬´ê²Œ=ì‹¤ì œ ë¬´ê²Œ
+        rb.gravityScale=weight*0.1f;//ë¬´ê²Œ ì ìš© 
+        GetComponent<Rigidbody2D>().mass = lxw;//ë¬´ê²Œ ì ìš©
+        player = GameObject.Find("Player").GetComponent<PlayerCarrying>();//í”Œë ˆì´ì–´ ì°¾ì•„ë„£ê¸°
         maskObstacle = LayerMask.GetMask("Obstacle");
     }
     private void OnCollisionStay2D(Collision2D collision)
@@ -30,8 +32,8 @@ public class Carryable : MonoBehaviour
         {
             if (collision.gameObject.layer== LayerMask.NameToLayer("Obstacle"))
             {
-                // ÇÃ·¹ÀÌ¾î°¡ µé°í ÀÖ´Â ¿ÀºêÁ§Æ® ¸®½ºÆ®¿¡¼­ »ó´ë ¿ÀºêÁ§Æ®ÀÇ ÀÎµ¦½º È®ÀÎ
-                int myIndex = player.carriedObjects.IndexOf(gameObject); // ÀÚ±â ÀÚ½ÅÀÌ ¸î¹øÂ° ÁüÀÎÁö
+                // í”Œë ˆì´ì–´ê°€ ë“¤ê³  ìˆëŠ” ì˜¤ë¸Œì íŠ¸ ë¦¬ìŠ¤íŠ¸ì—ì„œ ìƒëŒ€ ì˜¤ë¸Œì íŠ¸ì˜ ì¸ë±ìŠ¤ í™•ì¸
+                int myIndex = player.carriedObjects.IndexOf(gameObject); // ìê¸° ìì‹ ì´ ëª‡ë²ˆì§¸ ì§ì¸ì§€
                 if (myIndex != -1)
                 {
                     if (player.collideCarrying > myIndex)
@@ -39,11 +41,11 @@ public class Carryable : MonoBehaviour
                         Debug.Log("indexChamge");
                         player.collideCarrying = myIndex;
                     }
-                    Debug.Log($"Áü {myIndex + 1}Ãæµ¹");
+                    Debug.Log($"ì§ {myIndex + 1}ì¶©ëŒ");
                 }
                 else
                 {
-                    Debug.Log("Á¶Á³"+myIndex);
+                    Debug.Log("ì¡°ì¡Œ"+myIndex);
                 }
             }
         }
