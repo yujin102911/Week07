@@ -72,7 +72,6 @@ public class PlayerCarrying : MonoBehaviour
 
     public void TryInteract()
     {
-        Debug.Log(Time.time - lastInteractTime + " " + interactCooldown);
         if (Time.time - lastInteractTime < interactCooldown) return;
 
         lastInteractTime = Time.time;
@@ -143,7 +142,6 @@ public class PlayerCarrying : MonoBehaviour
                 if (!_focus.CheckItem(Inventory.HasItem)) return;
 
                 QuestEvents.RaiseInteract(_focus.Id, _focus.transform.position, InteractionKind.Press);
-
             }
             else
             {

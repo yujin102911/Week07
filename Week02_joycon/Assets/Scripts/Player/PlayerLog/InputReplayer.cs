@@ -6,7 +6,7 @@ using UnityEngine;
 [RequireComponent(typeof(Player))]
 public class InputReplayer : MonoBehaviour
 {
-    [Range(1f, 10f)] public float playbackSpeed = 1f;
+    private float playbackSpeed = 1f;
     private Rigidbody2D rb;
 
     private Player player;
@@ -42,6 +42,8 @@ public class InputReplayer : MonoBehaviour
 
         startPos = transform.position;
         startRot = transform.rotation;
+
+        playbackSpeed = 1f;
     }
 
     void OnDisable()
@@ -88,7 +90,6 @@ public class InputReplayer : MonoBehaviour
         enabled = false;
         isPaused = false;
         Time.timeScale = 1f;
-        ResetToStartTransformAndVel();
     }
 
     // --- 일시정지 컨트롤 ---
