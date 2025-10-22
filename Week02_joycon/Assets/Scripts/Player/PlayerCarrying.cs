@@ -163,11 +163,10 @@ public class PlayerCarrying : MonoBehaviour
         if (context.performed && Time.time - lastInteractTime >= interactCooldown)
         {
             lastInteractTime = Time.time; // 드랍 쿨타임
-
+            
             if (carriedObjects.Count > 0)
             {
                 GameObject obj = carriedObjects[carriedObjects.Count - 1];//젤 위에 들고있는 오브젝 가져옴.
-                Debug.Log("log.드롭 위치:" + obj.transform);
                 Rigidbody2D rb = obj.GetComponent<Rigidbody2D>();
                 BoxCollider2D box = obj.GetComponent<BoxCollider2D>();
                 Vector2 checkSize;
@@ -223,6 +222,7 @@ public class PlayerCarrying : MonoBehaviour
         for (int i = count - 1; i >= startIndex; --i)
         {
             var go = carriedObjects[i];
+            GameLogger.Instance.LogDebug(LogLevel.DEBUG, "떨어트린 위치 X="+go.transform.position.x+" Y="+ go.transform.position.y);
             if (!go) { carriedObjects.RemoveAt(i); continue; }
 
             if (go.TryGetComponent<Rigidbody2D>(out var rb))
@@ -230,7 +230,6 @@ public class PlayerCarrying : MonoBehaviour
                 rb.bodyType = RigidbodyType2D.Dynamic;
                 rb.freezeRotation = false;
             }
-                
 
             if (go.TryGetComponent<Carryable>(out var car))
                 car.carrying = false;
@@ -260,7 +259,7 @@ public class PlayerCarrying : MonoBehaviour
     {
         CarryAbleWeight = 0;//들고 있는 것 초기화
         if (carriedObjects.Count <= 0) 
-        { 
+        {
             return;//들고있는게 없으면 리턴
         }
         else
