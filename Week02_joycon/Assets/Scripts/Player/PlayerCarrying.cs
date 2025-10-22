@@ -13,6 +13,7 @@ public class PlayerCarrying : MonoBehaviour
     public Vector2 dropOffset; // 플레이어 기준 드롭 위치
     public LayerMask carryableMask;
     public LayerMask maskObstacle;
+    public float CarryAbleWeight;//들고있는 짐들 무게
 
     private Vector2 lastObjSize;//들고있는 것중 제일 마지막 오브젝 간격
     public float pickUpRange = 1.5f;
@@ -26,6 +27,7 @@ public class PlayerCarrying : MonoBehaviour
     public int collideCarrying=0;//충돌한 짐 넘버 (현재 들고있는 것보다 높게 유지해야 안떨어짐)닿은거 이상 다 떨어질거야
 
     public List<GameObject> carriedObjects = new List<GameObject>();
+    public List<Carryable> carryable = new List<Carryable>();
 
     [Header("Interaction Cooldown")]
     public float interactCooldown = 0.5f; // 쿨타임
@@ -55,8 +57,6 @@ public class PlayerCarrying : MonoBehaviour
     }
     private void LateUpdate()
     {
-
-
         carryingTop = 0f; // 누적 높이 초기화
         for (int i = 0; i < carriedObjects.Count; i++)
         {
@@ -126,16 +126,11 @@ public class PlayerCarrying : MonoBehaviour
                 rb.freezeRotation = true;
             }
 
-
-
-
             carriedObjects.Add(closestObj);
-
             collideCarrying++;//충돌 할 수 있는 물체+ (최대치+1유지해야 안떨어짐)
             Carryable carryable = closestObj.GetComponent<Carryable>();
             if (carryable != null)
                 carryable.carrying = true;
-
 
             #region Events
             Interactable2D _focus;
@@ -156,7 +151,7 @@ public class PlayerCarrying : MonoBehaviour
             }
 
             #endregion
-
+            WeightUpdate();
         }
     }
 
@@ -203,7 +198,6 @@ public class PlayerCarrying : MonoBehaviour
                     rb.freezeRotation = false;
                 }
 
-
                 Carryable carryable = obj.GetComponent<Carryable>();
                 if (carryable != null)
                     carryable.carrying = false;
@@ -211,6 +205,7 @@ public class PlayerCarrying : MonoBehaviour
                 carriedObjects.RemoveAt(carriedObjects.Count - 1);
             }
         }
+        WeightUpdate();
     }
     public void CarryingDrop()
     {
@@ -241,6 +236,7 @@ public class PlayerCarrying : MonoBehaviour
 
         // 남은 개수에 맞춰 정리
         collideCarrying = carriedObjects.Count;
+        WeightUpdate();
     }
 
     private void OnDrawGizmos()
@@ -250,5 +246,22 @@ public class PlayerCarrying : MonoBehaviour
             Gizmos.color = Color.red;
             Gizmos.DrawWireCube(lastDropPos, lastObjSize);
         }
+    }
+
+    public void WeightUpdate()
+    {
+        CarryAbleWeight = 0;//들고 있는 것 초기화
+        if (carriedObjects.Count <= 0) 
+        { 
+            return;//들고있는게 없으면 리턴
+        }
+        else
+        {
+            for (int i = 0; i < carriedObjects.Count; i++) 
+            {
+                CarryAbleWeight += carriedObjects[i].GetComponent<Carryable>().weight;
+            }
+        }
+            
     }
 }
