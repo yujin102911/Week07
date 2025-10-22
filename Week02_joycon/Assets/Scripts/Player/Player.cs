@@ -14,6 +14,7 @@ public class Player : MonoBehaviour
     [SerializeField] float accelerationTimeAirborne = .2f;
     [SerializeField] float accelerationTimeGrounded = .1f;
     [SerializeField] float moveSpeed = 6f;
+    [SerializeField] float moveWeight = 0.1f;
 
     public Vector2 wallJumpClimb = new Vector2(7.5f, 16f);
     public Vector2 wallJumpOff = new Vector2(8f, 7f);
@@ -25,7 +26,8 @@ public class Player : MonoBehaviour
 
     float timeToWallUnstick;
     float gravity;
-    float gravityWeight=0.01f;
+    [SerializeField] float gravityWeight=0.01f;
+
     float maxJumpVelocity;
     float minJumpVelocity;
     Vector3 velocity;
@@ -47,7 +49,7 @@ public class Player : MonoBehaviour
     [SerializeField] bool snapToCenterX = true;
     [SerializeField, Range(0f, 10f)] float detachPush = 3.0f;
 
-    bool onLadder;
+    public bool onLadder;
     Collider2D _ladderCol;
     float _ladderCenterX;
 

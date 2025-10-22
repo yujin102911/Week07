@@ -14,16 +14,17 @@ public class PlayerCarrying : MonoBehaviour
     public LayerMask carryableMask;
     public LayerMask maskObstacle;
     public float CarryAbleWeight;//들고있는 짐들 무게
+    [SerializeField] Player player;//플레이어 스크립트
 
     private Vector2 lastObjSize;//들고있는 것중 제일 마지막 오브젝 간격
-    public float pickUpRange = 1.5f;
+    public float pickUpRange = 0f;//들 수 있는 범위(x값) 없으면 스타트에서 내 콜라이더*2로 설정
     public int maxCarryCount = 3;
     public float stackOffsetY = 0.5f; // 오브젝트 간격
     Controller2D controller2D;
+    BoxCollider2D playerCollider;
     private bool showDropGizmo = false;
     Vector2 lastDropPos;
-    Vector2 dropPos;
-    float lastObjRadius = 0.25f;
+
     public int collideCarrying=0;//충돌한 짐 넘버 (현재 들고있는 것보다 높게 유지해야 안떨어짐)닿은거 이상 다 떨어질거야
 
     public List<GameObject> carriedObjects = new List<GameObject>();
@@ -35,6 +36,8 @@ public class PlayerCarrying : MonoBehaviour
 
     private void Start()
     {
+        if (player == null)
+            player = GetComponent<Player>();
         // HoldPoint 생성
         GameObject hp = new GameObject("HoldPoint");
         hp.transform.parent = transform;
@@ -42,17 +45,15 @@ public class PlayerCarrying : MonoBehaviour
         holdPoint = hp.transform;
         carryingTop = 0f; // 높이 초기화
         controller2D=GetComponent<Controller2D>();
+        playerCollider=GetComponent<BoxCollider2D>();
+        if (pickUpRange==0) pickUpRange =playerCollider.bounds.size.x * 2;//내 콜라이더*2
 
     }
     private void Update()
     {
-        if (collideCarrying < carriedObjects.Count)
+        if (collideCarrying < carriedObjects.Count)//collideCarrying은 Carryable에서 충돌할 때마다 조정됨
         {   //짐이 충돌하여 그 넘버를 받으면
             CarryingDrop();
-        }
-        if (collideCarrying < 0)
-        {
-            //Debug.Log(999);
         }
     }
     private void LateUpdate()
@@ -81,14 +82,21 @@ public class PlayerCarrying : MonoBehaviour
 
     void TryPickUp()
     {
+        if (player.onLadder||!controller2D.collisions.below)//땅에 닿지 않거나 사다리 타는 중이면
+        {//생각해보니 사다리 탈 때는 땅위가 아니니 하나만 체크해도 될듯?
+            Debug.LogWarning("땅에 닿거나 사다리 타는 중에는 픽업 불가");
+            return;
+        }
         if (carriedObjects.Count >= maxCarryCount)
         {
-            Debug.Log("Cannot pick up: Max carry count reached");
+            Debug.LogWarning("픽업 최대 수 초과");
             return;
         }
 
         // 주변 오브젝트 배열 가져오기
-        Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, pickUpRange, carryableMask);
+        Collider2D[] hits = Physics2D.OverlapBoxAll(
+            new Vector2(transform.position.x+ (pickUpRange/2*controller2D.collisions.faceDir), transform.position.y),//내 위치의 절반만큼 앞으로
+            new Vector2(pickUpRange, playerCollider.bounds.size.y),0f, carryableMask);//내 높이와 픽업 범위만큼 체크
         GameObject closestObj = null;
         float minDistance = Mathf.Infinity;
 
@@ -145,11 +153,6 @@ public class PlayerCarrying : MonoBehaviour
                 QuestEvents.RaiseInteract(_focus.Id, _focus.transform.position, InteractionKind.Press);
 
             }
-            else
-            {
-                Debug.Log("_focus is null");
-            }
-
             #endregion
             WeightUpdate();
         }
@@ -163,7 +166,8 @@ public class PlayerCarrying : MonoBehaviour
 
             if (carriedObjects.Count > 0)
             {
-                GameObject obj = carriedObjects[carriedObjects.Count - 1];//젤 위에 들고있는 오브젝
+                GameObject obj = carriedObjects[carriedObjects.Count - 1];//젤 위에 들고있는 오브젝 가져옴.
+                Debug.Log("log.드롭 위치:" + obj.transform);
                 Rigidbody2D rb = obj.GetComponent<Rigidbody2D>();
                 BoxCollider2D box = obj.GetComponent<BoxCollider2D>();
                 Vector2 checkSize;
@@ -246,6 +250,10 @@ public class PlayerCarrying : MonoBehaviour
             Gizmos.color = Color.red;
             Gizmos.DrawWireCube(lastDropPos, lastObjSize);
         }
+        Gizmos.color = Color.yellow;//픽업 범위
+        Gizmos.DrawWireCube(
+            new Vector2(transform.position.x + (pickUpRange / 2 * controller2D.collisions.faceDir), transform.position.y),//내 위치의 절반만큼 앞으로
+            new Vector2(pickUpRange, playerCollider.bounds.size.y));//영역
     }
 
     public void WeightUpdate()
@@ -261,7 +269,6 @@ public class PlayerCarrying : MonoBehaviour
             {
                 CarryAbleWeight += carriedObjects[i].GetComponent<Carryable>().weight;
             }
-        }
-            
+        }            
     }
 }
