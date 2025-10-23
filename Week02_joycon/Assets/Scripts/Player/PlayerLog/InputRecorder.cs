@@ -5,24 +5,37 @@ using UnityEngine.SceneManagement;
 
 public class InputRecorder : MonoBehaviour
 {
-    public bool recording = true;
-    string path;
-    int tick;
-    float fixedDt;
+    [SerializeField] private bool recording = true;
+    private string path;
+    private int tick;
+    private float fixedDt;
 
     void Start()
     {
+        if (recording == false)
+        {
+            enabled = false;
+            return;
+        }
+
         fixedDt = Time.fixedDeltaTime;
         var level = SceneManager.GetActiveScene().name;
         var dir = Path.Combine(LogPathUtil.Root, level, SessionBootstrap.SessionId);
+
+        Directory.CreateDirectory(dir);
         path = LogPathUtil.GetUniquePath(dir, "input");
-        File.AppendAllText(path, $"{{\"meta\":\"input_v1\",\"session\":\"{SessionBootstrap.SessionId}\",\"fixedDt\":{fixedDt:F4}}}\n", Encoding.UTF8);
-        Debug.Log($"[InputRecorder] {path}");
+
+        File.AppendAllText(
+            path,
+            $"{{\"meta\":\"input_v1\",\"session\":\"{SessionBootstrap.SessionId}\",\"fixedDt\":{fixedDt:F4}}}\n",
+            Encoding.UTF8
+        );
     }
 
     void FixedUpdate()
     {
-        if (!recording) return;
+        if (recording == false || string.IsNullOrEmpty(path)) return;
+
         var m = InputSnapshot.Move;
         int held = InputSnapshot.JumpHeld ? 1 : 0;
         int dwn = InputSnapshot.JumpDown ? 1 : 0;
@@ -30,7 +43,10 @@ public class InputRecorder : MonoBehaviour
         int interact = InputSnapshot.Interact ? 1 : 0;
         int drop = InputSnapshot.Drop ? 1 : 0;
 
-        var line = $"{{\"tick\":{tick},\"dt\":{fixedDt:F4},\"mx\":{m.x:F3},\"my\":{m.y:F3},\"jumpHeld\":{held},\"jumpDown\":{dwn},\"jumpUp\":{up},\"interact\":{interact},\"drop\":{drop}}}\n";
+        var line =
+            $"{{\"tick\":{tick},\"dt\":{fixedDt:F4},\"mx\":{m.x:F3},\"my\":{m.y:F3}," +
+            $"\"jumpHeld\":{held},\"jumpDown\":{dwn},\"jumpUp\":{up},\"interact\":{interact},\"drop\":{drop}}}\n";
+
         File.AppendAllText(path, line, Encoding.UTF8);
 
         tick++;
