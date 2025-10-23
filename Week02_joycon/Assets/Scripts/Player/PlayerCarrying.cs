@@ -24,7 +24,7 @@ public class PlayerCarrying : MonoBehaviour
     Vector2 lastDropPos;
     Vector2 dropPos;
     float lastObjRadius = 0.25f;
-    public int collideCarrying=0;//충돌한 짐 넘버 (현재 들고있는 것보다 높게 유지해야 안떨어짐)닿은거 이상 다 떨어질거야
+    public int collideCarrying = 0;//충돌한 짐 넘버 (현재 들고있는 것보다 높게 유지해야 안떨어짐)닿은거 이상 다 떨어질거야
 
     public List<GameObject> carriedObjects = new List<GameObject>();
     public List<Carryable> carryable = new List<Carryable>();
@@ -41,7 +41,7 @@ public class PlayerCarrying : MonoBehaviour
         hp.transform.localPosition = new Vector2(0, 0.5f);
         holdPoint = hp.transform;
         carryingTop = 0f; // 높이 초기화
-        controller2D=GetComponent<Controller2D>();
+        controller2D = GetComponent<Controller2D>();
 
     }
     private void Update()
@@ -70,13 +70,12 @@ public class PlayerCarrying : MonoBehaviour
         }
     }
 
-    public void OnInteract(InputAction.CallbackContext context)
+    public void TryInteract()
     {
-        if (context.performed && Time.time - lastInteractTime >= interactCooldown)
-        {
-            lastInteractTime = Time.time;
-            TryPickUp();
-        }
+        if (Time.time - lastInteractTime < interactCooldown) return;
+
+        lastInteractTime = Time.time;
+        TryPickUp();
     }
 
     void TryPickUp()
@@ -143,7 +142,6 @@ public class PlayerCarrying : MonoBehaviour
                 if (!_focus.CheckItem(Inventory.HasItem)) return;
 
                 QuestEvents.RaiseInteract(_focus.Id, _focus.transform.position, InteractionKind.Press);
-
             }
             else
             {
@@ -155,58 +153,60 @@ public class PlayerCarrying : MonoBehaviour
         }
     }
 
-    public void OnDrop(InputAction.CallbackContext context)
+    public void TryDrop()
     {
-        if (context.performed && Time.time - lastInteractTime >= interactCooldown)
+        if (Time.time - lastInteractTime < interactCooldown) return;
+
+        lastInteractTime = Time.time; // 드랍 쿨타임
+
+        if (carriedObjects.Count > 0)
         {
-            lastInteractTime = Time.time; // 드랍 쿨타임
+            GameObject obj = carriedObjects[carriedObjects.Count - 1];//젤 위에 들고있는 오브젝
+            Rigidbody2D rb = obj.GetComponent<Rigidbody2D>();
+            BoxCollider2D box = obj.GetComponent<BoxCollider2D>();
+            Vector2 checkSize;
+            float carru = obj.transform.localScale.y;
+            if (box != null)
+                checkSize = box.size; // 실제 콜라이더 크기 사용
+            else
+                checkSize = obj.transform.localScale;
 
-            if (carriedObjects.Count > 0)
+            // 플레이어가 바라보는 방향에 드롭 위치 계산
+            dropOffset = new Vector2((obj.transform.localScale.x + transform.localScale.x) / 2, 0);//들고있는 것 /2+플레이어 크기
+            Vector2 dropPos = (Vector2)transform.position + dropOffset * controller2D.collisions.faceDir;
+
+            //  기즈모용 위치 저장
+            lastDropPos = dropPos;
+            lastObjSize = obj.GetComponent<Collider2D>().bounds.size * 0.9f;//사이즈
+            showDropGizmo = true;
+
+            //  레이캐스트로 드롭할 공간 확인
+            Collider2D hit = Physics2D.OverlapBox(dropPos, lastObjSize, 0, LayerMask.GetMask("Obstacle"));
+            if (hit != null)
             {
-                GameObject obj = carriedObjects[carriedObjects.Count - 1];//젤 위에 들고있는 오브젝
-                Rigidbody2D rb = obj.GetComponent<Rigidbody2D>();
-                BoxCollider2D box = obj.GetComponent<BoxCollider2D>();
-                Vector2 checkSize;
-                float carru = obj.transform.localScale.y;
-                if (box != null)
-                    checkSize = box.size; // 실제 콜라이더 크기 사용
-                else
-                    checkSize = obj.transform.localScale;
-
-                // 플레이어가 바라보는 방향에 드롭 위치 계산
-                dropOffset = new Vector2((obj.transform.localScale.x+transform.localScale.x)/2,0);//들고있는 것 /2+플레이어 크기
-                Vector2 dropPos = (Vector2)transform.position + dropOffset * controller2D.collisions.faceDir;
-
-                //  기즈모용 위치 저장
-                lastDropPos = dropPos;
-                lastObjSize = obj.GetComponent<Collider2D>().bounds.size*0.9f;//사이즈
-                showDropGizmo = true;
-
-                //  레이캐스트로 드롭할 공간 확인
-                Collider2D hit = Physics2D.OverlapBox(dropPos, lastObjSize,0, LayerMask.GetMask("Obstacle"));
-                if (hit != null)
-                {
-                    Debug.Log("막혔어");
-                    return; // 벽에 막혀 있으면 드롭 취소
-                }
-
-                //  안전한 위치라면 드롭 진행
-                if (rb != null)
-                {
-                    rb.transform.position = dropPos;
-                    rb.bodyType = RigidbodyType2D.Dynamic;
-                    rb.freezeRotation = false;
-                }
-
-                Carryable carryable = obj.GetComponent<Carryable>();
-                if (carryable != null)
-                    carryable.carrying = false;
-
-                carriedObjects.RemoveAt(carriedObjects.Count - 1);
+                Debug.Log("막혔어");
+                return; // 벽에 막혀 있으면 드롭 취소
             }
+
+            //  안전한 위치라면 드롭 진행
+            if (rb != null)
+            {
+                rb.transform.position = dropPos;
+                rb.bodyType = RigidbodyType2D.Dynamic;
+                rb.freezeRotation = false;
+            }
+
+            Carryable carryable = obj.GetComponent<Carryable>();
+            if (carryable != null)
+                carryable.carrying = false;
+
+            carriedObjects.RemoveAt(carriedObjects.Count - 1);
         }
+
         WeightUpdate();
     }
+
+
     public void CarryingDrop()
     {
         int count = carriedObjects.Count;
@@ -226,7 +226,7 @@ public class PlayerCarrying : MonoBehaviour
                 rb.bodyType = RigidbodyType2D.Dynamic;
                 rb.freezeRotation = false;
             }
-                
+
 
             if (go.TryGetComponent<Carryable>(out var car))
                 car.carrying = false;
@@ -251,17 +251,16 @@ public class PlayerCarrying : MonoBehaviour
     public void WeightUpdate()
     {
         CarryAbleWeight = 0;//들고 있는 것 초기화
-        if (carriedObjects.Count <= 0) 
-        { 
+        if (carriedObjects.Count <= 0)
+        {
             return;//들고있는게 없으면 리턴
         }
         else
         {
-            for (int i = 0; i < carriedObjects.Count; i++) 
+            for (int i = 0; i < carriedObjects.Count; i++)
             {
                 CarryAbleWeight += carriedObjects[i].GetComponent<Carryable>().weight;
             }
         }
-            
     }
 }
