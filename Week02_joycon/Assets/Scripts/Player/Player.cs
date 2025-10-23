@@ -14,6 +14,7 @@ public class Player : MonoBehaviour
     [SerializeField] float accelerationTimeAirborne = .2f;
     [SerializeField] float accelerationTimeGrounded = .1f;
     [SerializeField] float moveSpeed = 6f;
+    [SerializeField] float moveSpeedWeight = .1f;
 
     public Vector2 wallJumpClimb = new Vector2(7.5f, 16f);
     public Vector2 wallJumpOff = new Vector2(8f, 7f);
@@ -25,7 +26,7 @@ public class Player : MonoBehaviour
 
     float timeToWallUnstick;
     float gravity;
-    float gravityWeight=0.01f;
+    [SerializeField] float gravityWeight=0.01f;
     float maxJumpVelocity;
     float minJumpVelocity;
     Vector3 velocity;
@@ -342,7 +343,7 @@ public class Player : MonoBehaviour
     {
         float targetVelocityX = directionalInput.x * moveSpeed
              //* Mathf.Exp(playerCarrying.CarryAbleWeight * 0.1f);
-             / (1f + playerCarrying.CarryAbleWeight * 0.1f);
+             / (1f + playerCarrying.CarryAbleWeight * moveSpeedWeight);
 
         velocity.x = Mathf.SmoothDamp(
             velocity.x, targetVelocityX, ref velocityXSmoothing,
