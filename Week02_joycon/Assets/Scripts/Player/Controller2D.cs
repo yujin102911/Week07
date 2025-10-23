@@ -56,7 +56,7 @@ public class Controller2D : RaycastController
 
         if (standingOnPlatform)
         {
-            collisions.below = true;
+            collisions.below = true;//지면에 있는가?
         }
     }
 
