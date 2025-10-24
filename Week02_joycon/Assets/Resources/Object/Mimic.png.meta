@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: bc689cd72dbc1b247a26cdf2ac553cc0
+guid: d3a3739bffe06944787bb0335a303cb3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -413800416329549740
-    second: Mimic_0
+      213: 8633854993135074359
+    second: "ChatGPT Image 2025\uB144 10\uC6D4 24\uC77C \uC624\uD6C4 07_07_11-Photoroom_0"
+  - first:
+      213: 7483973266555852768
+    second: "ChatGPT Image 2025\uB144 10\uC6D4 24\uC77C \uC624\uD6C4 07_07_11-Photoroom_1"
+  - first:
+      213: 4334042207286550961
+    second: "ChatGPT Image 2025\uB144 10\uC6D4 24\uC77C \uC624\uD6C4 07_07_11-Photoroom_2"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +57,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 600
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -100,23 +106,67 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Mimic_0
+      name: "ChatGPT Image 2025\uB144 10\uC6D4 24\uC77C \uC624\uD6C4 07_07_11-Photoroom_0"
       rect:
         serializedVersion: 2
-        x: 223
-        y: 241
-        width: 577
-        height: 548
+        x: 0
+        y: 239
+        width: 390
+        height: 374
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 458b4c8b6b2e14af0800000000000000
-      internalID: -413800416329549740
+      spriteID: 73c7c044f5d91d770800000000000000
+      internalID: 8633854993135074359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ChatGPT Image 2025\uB144 10\uC6D4 24\uC77C \uC624\uD6C4 07_07_11-Photoroom_1"
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 240
+        width: 390
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e7d49db80a6cd760800000000000000
+      internalID: 7483973266555852768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ChatGPT Image 2025\uB144 10\uC6D4 24\uC77C \uC624\uD6C4 07_07_11-Photoroom_2"
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 240
+        width: 390
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b16ddebc6c952c30800000000000000
+      internalID: 4334042207286550961
       vertices: []
       indices: 
       edges: []
@@ -125,7 +175,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 6e0c8dcfd5de29d4baf71b27878caa99
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +185,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Mimic_0: -413800416329549740
+      "ChatGPT Image 2025\uB144 10\uC6D4 24\uC77C \uC624\uD6C4 07_07_11-Photoroom_0": 8633854993135074359
+      "ChatGPT Image 2025\uB144 10\uC6D4 24\uC77C \uC624\uD6C4 07_07_11-Photoroom_1": 7483973266555852768
+      "ChatGPT Image 2025\uB144 10\uC6D4 24\uC77C \uC624\uD6C4 07_07_11-Photoroom_2": 4334042207286550961
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
