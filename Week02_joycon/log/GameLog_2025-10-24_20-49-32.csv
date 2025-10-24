@@ -1,0 +1,8 @@
+Timestamp, Level, Source, Message
+20:49:32.425,INFO,GameLogger,=== Game Session Started ===
+20:49:34.463,INFO,Unity,maxJumpVelocity20
+20:49:35.529,DEBUG,PlayerCarrying,쿨타임 지났음
+20:49:36.485,INFO,Unity,maxJumpVelocity20
+20:49:37.585,INFO,Unity,maxJumpVelocity20
+20:49:38.371,DEBUG,PlayerCarrying,쿨타임 지났음
+20:49:38.775,DEBUG,PlayerCarrying,쿨타임 지났음

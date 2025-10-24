@@ -1,0 +1,25 @@
+Timestamp, Level, Source, Message
+20:37:25.185,INFO,GameLogger,=== Game Session Started ===
+20:37:30.661,INFO,Unity,maxJumpVelocity20
+20:37:31.281,DEBUG,PlayerCarrying,쿨타임 지났음
+20:37:31.284,DEBUG,PlayerCarrying,집기 조작PiggyBank (UnityEngine.BoxCollider2D)
+20:37:31.285,INFO,Unity,_focus is null
+20:37:31.671,INFO,Unity,maxJumpVelocity18.18182
+20:37:32.438,INFO,Unity,maxJumpVelocity18.18182
+20:37:33.653,INFO,Unity,maxJumpVelocity18.18182
+20:37:36.873,DEBUG,PlayerCarrying,쿨타임 지났음
+20:37:36.874,DEBUG,PlayerCarrying,집기 조작Coin(Clone) (UnityEngine.BoxCollider2D)
+20:37:36.878,DEBUG,PlayerCarrying,집기 조작Coin(Clone) (UnityEngine.BoxCollider2D)
+20:37:36.878,DEBUG,PlayerCarrying,집기 조작Coin(Clone) (UnityEngine.BoxCollider2D)
+20:37:36.879,INFO,Unity,_focus is null
+20:37:37.234,DEBUG,PlayerCarrying,쿨타임 지났음
+20:37:37.235,DEBUG,PlayerCarrying,집기 조작Coin(Clone) (UnityEngine.BoxCollider2D)
+20:37:37.235,DEBUG,PlayerCarrying,집기 조작Coin(Clone) (UnityEngine.BoxCollider2D)
+20:37:37.236,INFO,Unity,_focus is null
+20:37:37.556,DEBUG,PlayerCarrying,쿨타임 지났음
+20:37:37.557,DEBUG,PlayerCarrying,집기 조작Coin(Clone) (UnityEngine.BoxCollider2D)
+20:37:37.558,INFO,Unity,_focus is null
+20:37:38.380,INFO,Unity,maxJumpVelocity19.41747
+20:37:39.540,INFO,Unity,maxJumpVelocity19.41747
+20:37:42.273,DEBUG,PlayerCarrying,쿨타임 지났음
+20:37:42.274,INFO,Unity,Cannot pick up: Max carry count reached
