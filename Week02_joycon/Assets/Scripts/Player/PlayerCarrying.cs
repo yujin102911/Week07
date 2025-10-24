@@ -25,6 +25,7 @@ public class PlayerCarrying : MonoBehaviour
     Vector2 dropPos;
     float lastObjRadius = 0.25f;
     public int collideCarrying = 0;//충돌한 짐 넘버 (현재 들고있는 것보다 높게 유지해야 안떨어짐)닿은거 이상 다 떨어질거야
+    BoxCollider2D playerCollider;
 
     public List<GameObject> carriedObjects = new List<GameObject>();
     public List<Carryable> carryable = new List<Carryable>();
@@ -60,6 +61,7 @@ public class PlayerCarrying : MonoBehaviour
         carryingTop = 0f; // 높이 초기화
         controller2D = GetComponent<Controller2D>();
 
+
         interactableFilter = new ContactFilter2D();
         interactableFilter.SetLayerMask(interactableMask); // 인스펙터에서 설정한 'WorldInteractable' 레이어를 사용
         interactableFilter.useTriggers = true; // 'Is Trigger'가 체크된 콜라이더도 감지
@@ -67,6 +69,10 @@ public class PlayerCarrying : MonoBehaviour
         spriteChangerFilter = new ContactFilter2D();
         spriteChangerFilter.SetLayerMask(spriteChangerMask);
         spriteChangerFilter.useTriggers = true;
+
+
+        if (playerCollider == null)
+            playerCollider = GetComponent<BoxCollider2D>();
 
     }
     private void Update()
@@ -100,7 +106,7 @@ public class PlayerCarrying : MonoBehaviour
         if (Time.time - lastInteractTime < interactCooldown) return; //만약 쿨타임 안지났으면 걍 종료
         lastInteractTime = Time.time; //만약 쿨타임 지난 상태면 지난 상호작용 시간을 지금 시간으로 설정
         GameLogger.Instance.LogDebug(this, "쿨타임 지났음");
-        
+
         if (TryChangeSprite())
         {
             return; // 성공했으니 줍기/아이템사용 안 함
@@ -110,7 +116,7 @@ public class PlayerCarrying : MonoBehaviour
         {
             return; //만약 아이템과 상호작용을 시도하여 성공했으면 줍기 시도 X
         }
-        
+
 
         TryPickUp();
     }
@@ -122,14 +128,15 @@ public class PlayerCarrying : MonoBehaviour
             Debug.Log("Cannot pick up: Max carry count reached");
             return;
         }
-
         // 주변 오브젝트 배열 가져오기
-        Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, pickUpRange, carryableMask);
+        Collider2D[] hits = Physics2D.OverlapBoxAll(
+        new Vector2(transform.position.x + (pickUpRange / 2 * controller2D.collisions.faceDir), transform.position.y),//내 위치의 절반만큼 앞으로
+        new Vector2(pickUpRange, playerCollider.bounds.size.y), 0f, carryableMask);//내 높이와 픽업 범위만큼 체크
         GameObject closestObj = null;
         float minDistance = Mathf.Infinity;
-
         foreach (Collider2D hit in hits)
         {
+            GameLogger.Instance.LogDebug(this, "집기 조작" + hit);
             Carryable carryable = hit.GetComponent<Carryable>();
             if (carryable != null && carryable.carrying)
             {
@@ -165,8 +172,9 @@ public class PlayerCarrying : MonoBehaviour
             carriedObjects.Add(closestObj);
             collideCarrying++;//충돌 할 수 있는 물체+ (최대치+1유지해야 안떨어짐)
             Carryable carryable = closestObj.GetComponent<Carryable>();
-            if (carryable != null)
-                carryable.carrying = true;
+            if (carryable != null) carryable.carrying = true;
+            if (carryable.GetItemName() != ItemName.None)
+                InventoryManager.Instance.AddItem(carryable.GetItemName(), closestObj);
 
             #region Events
             Interactable2D _focus;
@@ -366,7 +374,7 @@ public class PlayerCarrying : MonoBehaviour
     private bool TryGeneralInteract()
     {
         int hitCount = Physics2D.OverlapCircle(transform.position, interactionRange, generalInteractableFilter, interactableHits);
-        if(hitCount > 0)
+        if (hitCount > 0)
         {
             // 가장 가까운 오브젝트의 IInteractable 가져오기
             Collider2D closestHit = interactableHits[0];
