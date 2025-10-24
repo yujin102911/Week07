@@ -1,0 +1,2748 @@
+Timestamp, Level, Source, Message
+11:16:22.660,INFO,GameLogger,=== Game Session Started ===
+11:16:23.016,WARNING,Unity,Minimap: no renderers found for bounds. Check includeLayers.
+11:16:23.021,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path3
+System.IO.Path.Combine (System.String path1, System.String path2, System.String path3) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.Start () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:17)
+"
+11:16:23.023,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:23.670,ERROR,Unity,"Screen position out of view frustum (screen pos 377.000000, 147.000000, 0.000000) (Camera rect 0 0 986 202)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+"
+11:16:23.673,ERROR,Unity,"Screen position out of view frustum (screen pos 377.000000, 147.000000, 0.000000) (Camera rect 0 0 986 202)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+"
+11:16:23.909,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:24.128,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:24.131,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:24.132,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:24.133,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:24.135,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:24.135,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:24.136,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:24.138,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:24.139,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:24.140,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:24.185,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:24.186,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:24.187,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:24.234,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:24.235,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:24.236,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:24.256,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:24.278,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:24.292,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:24.319,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:24.335,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:24.351,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:24.373,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:24.397,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:24.411,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:24.433,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:24.457,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:24.479,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:24.493,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:24.514,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:24.539,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:24.553,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:24.577,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:24.591,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:24.613,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:24.636,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:24.658,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:24.670,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:24.692,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:24.715,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:24.737,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:24.748,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:24.772,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:24.795,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:24.818,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:24.831,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:24.852,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:24.875,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:24.897,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:24.908,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:24.932,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:24.954,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:24.978,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:24.991,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:25.014,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:25.036,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:25.058,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:25.071,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:25.095,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:25.119,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:25.130,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:25.156,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:25.175,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:25.201,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:25.213,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:25.238,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:25.251,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:25.276,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:25.299,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:25.313,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:25.338,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:25.351,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:25.379,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:25.391,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:25.417,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:25.430,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:25.456,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:25.468,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:25.498,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:25.510,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:25.532,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:25.556,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:25.581,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:25.592,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:25.615,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:25.637,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:25.648,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:25.672,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:25.694,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:25.717,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:25.730,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:25.753,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:25.774,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:25.798,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:25.811,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:25.833,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:25.856,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:25.879,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:25.892,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:25.917,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:25.929,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:25.954,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:25.977,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:25.991,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:26.014,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:26.035,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:26.060,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:26.073,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:26.089,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:26.113,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:26.139,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:26.153,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:26.177,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:26.192,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:26.217,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:26.230,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:26.253,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:26.278,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:26.289,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:26.311,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:26.334,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:26.355,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:26.378,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:26.392,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:26.414,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:26.436,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:26.459,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:26.471,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:26.493,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:26.515,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:26.538,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:26.549,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:26.573,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:26.598,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:26.609,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:26.632,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:26.656,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:26.678,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:26.689,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:26.719,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:26.738,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:26.751,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:26.773,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:26.795,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:26.809,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:26.832,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:26.855,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:26.878,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:26.890,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:26.913,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:26.935,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:26.957,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:26.969,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:26.992,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:27.017,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:27.029,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:27.051,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:27.074,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:27.095,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:27.118,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:27.130,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:27.154,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:27.182,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:27.195,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:27.209,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:27.235,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:27.259,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:27.271,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:27.293,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:27.316,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:27.339,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:27.350,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:27.365,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+11:16:27.366,INFO,Unity,_focus is null
+11:16:27.379,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:27.393,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:27.415,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:27.439,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:27.452,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:27.474,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:27.496,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:27.508,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:27.532,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:27.554,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:27.577,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:27.599,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:27.610,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:27.635,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:27.658,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:27.669,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:27.690,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:27.714,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:27.737,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:27.749,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:27.771,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:27.793,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:27.815,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:27.840,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:27.852,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:27.875,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:27.888,INFO,Unity,maxJumpVelocity19.92032
+11:16:27.899,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:27.911,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:27.934,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:27.957,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:27.979,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:27.991,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:28.014,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:28.038,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:28.053,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:28.076,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:28.088,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:28.111,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:28.134,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:28.157,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:28.169,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:28.191,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:28.214,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:28.235,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:28.261,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:28.272,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:28.295,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:28.319,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:28.332,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:28.354,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:28.375,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:28.398,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:28.409,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:28.432,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:28.454,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:28.478,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:28.490,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:28.514,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:28.537,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:28.538,INFO,Unity,nal닿음
+11:16:28.549,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:28.574,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:28.598,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:28.609,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:28.632,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:28.655,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:28.669,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:28.692,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:28.714,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:28.737,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:28.749,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:28.771,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:28.795,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:28.818,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:28.831,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:28.853,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:28.868,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:28.894,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:28.916,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:28.938,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:28.949,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:28.972,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:28.996,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:29.010,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:29.032,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:29.055,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:29.077,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:29.092,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:29.114,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:29.137,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:29.149,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:29.170,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:29.193,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:29.216,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:29.238,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:29.251,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:29.274,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:29.298,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:29.311,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:29.334,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:29.355,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:29.379,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:29.391,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:29.415,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:29.438,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:29.451,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:29.474,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:29.499,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:29.511,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:29.535,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:29.556,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:29.569,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:29.592,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:29.614,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:29.637,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:29.649,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:29.671,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:29.695,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:29.709,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:29.732,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:29.754,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:29.777,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:29.789,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:29.813,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:29.835,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:29.857,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:29.871,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:29.893,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:29.918,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:29.930,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:29.953,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:29.975,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:29.987,INFO,Unity,maxJumpVelocity19.92032
+11:16:30.000,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:30.013,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:30.013,INFO,Unity,nal닿음
+11:16:30.036,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:30.049,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:30.071,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:30.093,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:30.116,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:30.132,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:30.155,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:30.177,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:30.190,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:30.212,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:30.235,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:30.258,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:30.272,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:30.294,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:30.317,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:30.332,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:30.356,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:30.380,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:30.392,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:30.415,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:30.438,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:30.452,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:30.473,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:30.496,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:30.519,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:30.533,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:30.556,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:30.579,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:30.591,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:30.613,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:30.636,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:30.636,INFO,Unity,Trigger닿음
+11:16:30.638,INFO,Unity,nal닿음
+11:16:30.652,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:30.683,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:30.694,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:30.719,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:30.731,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:30.758,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:30.772,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:30.796,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:30.810,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:30.835,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:30.860,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:30.874,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:30.901,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:30.919,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:30.932,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:30.957,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:30.968,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:30.992,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:31.015,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:31.036,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:31.059,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:31.071,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:31.093,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:31.118,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:31.129,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:31.154,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:31.177,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:31.190,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:31.214,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:31.237,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:31.251,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:31.275,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:31.299,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:31.312,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:31.338,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:31.352,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:31.378,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:31.392,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:31.415,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:31.439,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:31.452,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:31.477,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:31.489,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:31.513,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:31.539,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:31.554,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:31.571,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:31.598,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:31.613,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:31.641,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:31.656,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:31.671,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:31.686,INFO,Unity,maxJumpVelocity19.92032
+11:16:31.702,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:31.716,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:31.731,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:31.752,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:31.770,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:31.797,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:31.810,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:31.832,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:31.857,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:31.871,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:31.896,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:31.909,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:31.939,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:31.950,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:31.974,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:31.998,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:32.010,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:32.034,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:32.056,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:32.079,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:32.090,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:32.114,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:32.138,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:32.152,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:32.176,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:32.192,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:32.216,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:32.229,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:32.255,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:32.268,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:32.295,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:32.319,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:32.333,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:32.357,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:32.369,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:32.396,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:32.408,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:32.432,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:32.456,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:32.478,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:32.490,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:32.513,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:32.536,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:32.558,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:32.572,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:32.597,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:32.619,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:32.632,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:32.659,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:32.672,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:32.694,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:32.718,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:32.731,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:32.755,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:32.779,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:32.791,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:32.816,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:32.838,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:32.849,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:32.873,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:32.895,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:32.918,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:32.929,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:32.952,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:32.974,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:32.999,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:33.014,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:33.038,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:33.052,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:33.077,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:33.090,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:33.113,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:33.138,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:33.152,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:33.176,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:33.189,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:33.215,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:33.229,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:33.254,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:33.279,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:33.292,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:33.316,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:33.329,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:33.354,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:33.378,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:33.391,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:33.418,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:33.433,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:33.457,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:33.471,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:33.493,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:33.517,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:33.530,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:33.551,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:33.574,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:33.597,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:33.621,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:33.634,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:33.658,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:33.670,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:33.693,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:33.717,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:33.729,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:33.751,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:33.773,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:33.796,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:33.818,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:33.833,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:33.855,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:33.879,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:33.891,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:33.913,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:33.935,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:33.959,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:33.969,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:33.992,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:34.014,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:34.040,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:34.051,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:34.074,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:34.095,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:34.119,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:34.130,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:34.153,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:34.176,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:34.198,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:34.210,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:34.232,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:34.257,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:34.269,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:34.291,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:34.314,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:34.336,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:34.349,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:34.371,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:34.395,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:34.419,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:34.431,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:34.455,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:34.479,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:34.490,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:34.511,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:34.535,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:34.557,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:34.570,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:34.591,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:34.614,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:34.637,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:34.659,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:34.676,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:34.689,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:34.711,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:34.733,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:34.757,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"
+11:16:34.785,ERROR,Unity,"ArgumentNullException: Value cannot be null.
+Parameter name: path
+System.IO.File.AppendAllText (System.String path, System.String contents, System.Text.Encoding encoding) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+InputRecorder.FixedUpdate () (at Assets/Scripts/Player/PlayerLog/InputRecorder.cs:34)
+"

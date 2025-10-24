@@ -12,7 +12,7 @@ public class Controller2D : RaycastController
     public CollisionInfo collisions;
     [HideInInspector]
     public Vector2 playerInput;
-
+    public bool isFalling;
     public override void Start()
     {
         base.Start();
@@ -58,8 +58,15 @@ public class Controller2D : RaycastController
         {
             collisions.below = true;//지면에 있는가?
         }
+        if (!collisions.below && moveAmount.y < 0)
+        {
+            isFalling = true;
+        }
+        else
+        {
+            isFalling = false;
+        }
     }
-
 
     void HorizontalCollisions(ref Vector2 moveAmount)
     {
