@@ -1,0 +1,83 @@
+Timestamp, Level, Source, Message
+02:01:47.423,INFO,GameLogger,=== Game Session Started ===
+02:01:49.048,WARNING,Unity,Minimap: no renderers found for bounds. Check includeLayers.
+02:01:52.701,DEBUG,PlayerCarrying,쿨타임 지났음
+02:01:53.477,DEBUG,PlayerCarrying,쿨타임 지났음
+02:01:53.479,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+02:01:53.480,INFO,Unity,_focus is null
+02:01:55.648,DEBUG,PlayerCarrying,쿨타임 지났음
+02:01:55.649,DEBUG,PlayerCarrying,집기 조작Wood (UnityEngine.BoxCollider2D)
+02:01:55.649,INFO,Unity,_focus is null
+02:01:55.893,INFO,Unity,maxJumpVelocity19.68504
+02:01:58.631,DEBUG,PlayerCarrying,쿨타임 지났음
+02:01:58.632,DEBUG,PlayerCarrying,집기 조작Wood (UnityEngine.BoxCollider2D)
+02:01:58.632,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+02:01:58.634,INFO,Unity,_focus is null
+02:02:00.239,INFO,Unity,maxJumpVelocity20
+02:02:01.143,INFO,Unity,maxJumpVelocity20
+02:02:01.630,DEBUG,PlayerCarrying,쿨타임 지났음
+02:02:01.632,DEBUG,PlayerCarrying,집기 조작box (4) (UnityEngine.BoxCollider2D)
+02:02:01.632,INFO,Unity,_focus is null
+02:02:08.201,DEBUG,PlayerCarrying,쿨타임 지났음
+02:02:08.202,DEBUG,PlayerCarrying,집기 조작box (UnityEngine.BoxCollider2D)
+02:02:08.202,DEBUG,PlayerCarrying,집기 조작box (4) (UnityEngine.BoxCollider2D)
+02:02:08.203,INFO,Unity,_focus is null
+02:02:08.666,INFO,Unity,maxJumpVelocity19.23077
+02:02:13.743,INFO,Unity,maxJumpVelocity20
+02:02:16.115,DEBUG,PlayerCarrying,쿨타임 지났음
+02:02:16.116,DEBUG,PlayerCarrying,집기 조작Wood (UnityEngine.BoxCollider2D)
+02:02:16.117,INFO,Unity,_focus is null
+02:02:16.591,INFO,Unity,maxJumpVelocity19.68504
+02:02:17.170,INFO,Unity,Dirty (4)닿음
+02:02:17.170,INFO,Unity,Dirty (11)닿음
+02:02:17.225,INFO,Unity,Dirty (2)닿음
+02:02:17.227,INFO,Unity,Dirty (9)닿음
+02:02:17.253,INFO,Unity,Dirty (1)닿음
+02:02:17.253,INFO,Unity,Dirty (8)닿음
+02:02:17.290,INFO,Unity,Dirty (3)닿음
+02:02:17.291,INFO,Unity,Dirty (10)닿음
+02:02:17.426,INFO,Unity,Dirty (13)닿음
+02:02:17.426,INFO,Unity,Dirty (6)닿음
+02:02:17.552,INFO,Unity,Dirty닿음
+02:02:18.414,INFO,Unity,Dirty닿음
+02:02:18.482,INFO,Unity,Dirty닿음
+02:02:18.507,INFO,Unity,Dirty닿음
+02:02:18.910,INFO,Unity,Dirty (13)닿음
+02:02:18.910,INFO,Unity,Dirty (6)닿음
+02:02:18.993,INFO,Unity,Dirty (10)닿음
+02:02:18.994,INFO,Unity,Dirty (3)닿음
+02:02:19.070,INFO,Unity,Dirty (8)닿음
+02:02:19.070,INFO,Unity,Dirty (1)닿음
+02:02:19.680,INFO,Unity,maxJumpVelocity19.68504
+02:02:20.385,INFO,Unity,Dirty닿음
+02:02:20.409,INFO,Unity,Water닿음
+02:02:20.410,INFO,Unity,Dirty닿음
+02:02:20.454,INFO,Unity,Dirty닿음
+02:02:20.480,INFO,Unity,maxJumpVelocity19.68504
+02:02:20.607,INFO,Unity,Dirty (18)닿음
+02:02:20.917,INFO,Unity,Dirty (19)닿음
+02:02:20.930,INFO,Unity,Dirty (16)닿음
+02:02:20.943,INFO,Unity,Dirty (16)닿음
+02:02:20.967,INFO,Unity,Dirty (21)닿음
+02:02:20.990,INFO,Unity,Dirty (17)닿음
+02:02:21.003,INFO,Unity,Dirty (20)닿음
+02:02:21.026,INFO,Unity,Dirty (15)닿음
+02:02:21.099,INFO,Unity,Dirty (15)닿음
+02:02:21.174,INFO,Unity,Water닿음
+02:02:21.206,INFO,Unity,Water닿음
+02:02:21.785,INFO,Unity,Dirty닿음
+02:02:21.814,INFO,Unity,Dirty닿음
+02:02:21.900,INFO,Unity,Dirty닿음
+02:02:21.959,INFO,Unity,Dirty닿음
+02:02:22.064,INFO,Unity,Dirty (6)닿음
+02:02:22.064,INFO,Unity,Dirty (13)닿음
+02:02:22.108,INFO,Unity,Dirty (13)닿음
+02:02:22.109,INFO,Unity,Dirty (6)닿음
+02:02:22.124,INFO,Unity,Dirty (3)닿음
+02:02:22.124,INFO,Unity,Dirty (10)닿음
+02:02:22.206,INFO,Unity,Dirty (1)닿음
+02:02:22.207,INFO,Unity,Dirty (8)닿음
+02:02:22.551,INFO,Unity,Dirty (6)닿음
+02:02:22.551,INFO,Unity,Dirty (13)닿음
+02:02:22.707,INFO,Unity,Dirty닿음
+02:02:22.843,INFO,Unity,Dirty닿음

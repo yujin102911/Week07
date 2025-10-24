@@ -1,0 +1,135 @@
+Timestamp, Level, Source, Message
+00:14:00.837,INFO,GameLogger,=== Game Session Started ===
+00:14:01.465,WARNING,Unity,Minimap: no renderers found for bounds. Check includeLayers.
+00:14:03.986,DEBUG,PlayerCarrying,쿨타임 지났음
+00:14:03.988,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+00:14:03.989,INFO,Unity,_focus is null
+00:14:05.064,INFO,Unity,nal닿음
+00:14:05.534,DEBUG,PlayerCarrying,쿨타임 지났음
+00:14:05.944,DEBUG,PlayerCarrying,쿨타임 지났음
+00:14:06.365,INFO,Unity,Trigger닿음
+00:14:06.431,DEBUG,PlayerCarrying,쿨타임 지났음
+00:14:06.434,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+00:14:06.434,INFO,Unity,_focus is null
+00:14:07.945,DEBUG,PlayerCarrying,쿨타임 지났음
+00:14:08.834,DEBUG,PlayerCarrying,쿨타임 지났음
+00:14:09.347,DEBUG,PlayerCarrying,쿨타임 지났음
+00:14:09.844,INFO,Unity,maxJumpVelocity20
+00:14:09.961,DEBUG,PlayerCarrying,쿨타임 지났음
+00:14:09.962,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+00:14:09.963,INFO,Unity,_focus is null
+00:14:11.823,INFO,Unity,maxJumpVelocity20
+00:14:12.069,DEBUG,PlayerCarrying,쿨타임 지났음
+00:14:12.274,DEBUG,PlayerCarrying,쿨타임 지났음
+00:14:12.679,DEBUG,PlayerCarrying,쿨타임 지났음
+00:14:12.680,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+00:14:12.681,INFO,Unity,_focus is null
+00:14:13.094,INFO,Unity,maxJumpVelocity19.68504
+00:14:13.836,INFO,Unity,maxJumpVelocity20
+00:14:13.928,DEBUG,PlayerCarrying,쿨타임 지났음
+00:14:13.928,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+00:14:13.929,INFO,Unity,_focus is null
+00:14:14.686,INFO,Unity,maxJumpVelocity19.68504
+00:14:15.734,DEBUG,PlayerCarrying,쿨타임 지났음
+00:14:15.903,INFO,Unity,maxJumpVelocity20
+00:14:16.153,DEBUG,PlayerCarrying,쿨타임 지났음
+00:14:16.489,DEBUG,PlayerCarrying,쿨타임 지났음
+00:14:16.934,INFO,Unity,maxJumpVelocity20
+00:14:17.254,DEBUG,PlayerCarrying,쿨타임 지났음
+00:14:17.575,DEBUG,PlayerCarrying,쿨타임 지났음
+00:14:17.576,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+00:14:17.577,INFO,Unity,_focus is null
+00:14:18.085,INFO,Unity,maxJumpVelocity19.68504
+00:14:19.002,INFO,Unity,maxJumpVelocity20
+00:14:19.129,DEBUG,PlayerCarrying,쿨타임 지났음
+00:14:19.476,DEBUG,PlayerCarrying,쿨타임 지났음
+00:14:19.799,INFO,Unity,maxJumpVelocity20
+00:14:19.912,DEBUG,PlayerCarrying,쿨타임 지났음
+00:14:20.543,INFO,Unity,maxJumpVelocity20
+00:14:21.143,DEBUG,PlayerCarrying,쿨타임 지났음
+00:14:22.135,INFO,Unity,maxJumpVelocity20
+00:14:22.347,DEBUG,PlayerCarrying,쿨타임 지났음
+00:14:22.662,DEBUG,PlayerCarrying,쿨타임 지났음
+00:14:23.507,INFO,Unity,maxJumpVelocity20
+00:14:24.362,INFO,Unity,maxJumpVelocity20
+00:14:25.601,INFO,Unity,maxJumpVelocity20
+00:14:26.640,DEBUG,PlayerCarrying,쿨타임 지났음
+00:14:26.642,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+00:14:26.642,INFO,Unity,_focus is null
+00:14:28.762,DEBUG,PlayerCarrying,쿨타임 지났음
+00:14:29.324,INFO,Unity,maxJumpVelocity20
+00:14:30.145,DEBUG,PlayerCarrying,쿨타임 지났음
+00:14:30.146,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+00:14:30.147,INFO,Unity,_focus is null
+00:14:30.892,INFO,Unity,maxJumpVelocity19.68504
+00:14:31.820,INFO,Unity,maxJumpVelocity19.68504
+00:14:33.067,INFO,Unity,maxJumpVelocity20
+00:14:35.828,DEBUG,PlayerCarrying,쿨타임 지났음
+00:14:35.829,DEBUG,PlayerCarrying,집기 조작Rag (UnityEngine.BoxCollider2D)
+00:14:35.829,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+00:14:35.830,INFO,Unity,_focus is null
+00:14:35.845,INFO,Unity,더러워짐
+00:14:35.903,INFO,Unity,더러워짐
+00:14:35.903,INFO,Unity,더러워짐
+00:14:36.026,INFO,Unity,더러워짐
+00:14:36.026,INFO,Unity,더러워짐
+00:14:38.466,INFO,Unity,maxJumpVelocity20
+00:14:40.307,DEBUG,PlayerCarrying,쿨타임 지났음
+00:14:40.308,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+00:14:40.309,INFO,Unity,_focus is null
+00:14:40.946,INFO,Unity,maxJumpVelocity19.68504
+00:14:42.329,DEBUG,PlayerCarrying,쿨타임 지났음
+00:14:42.944,INFO,Unity,maxJumpVelocity20
+00:14:43.731,DEBUG,PlayerCarrying,쿨타임 지났음
+00:14:44.657,DEBUG,PlayerCarrying,쿨타임 지났음
+00:14:45.049,DEBUG,PlayerCarrying,쿨타임 지났음
+00:14:45.536,DEBUG,PlayerCarrying,쿨타임 지났음
+00:14:45.824,DEBUG,PlayerCarrying,쿨타임 지났음
+00:14:46.270,DEBUG,PlayerCarrying,쿨타임 지났음
+00:14:46.632,DEBUG,PlayerCarrying,쿨타임 지났음
+00:14:47.002,INFO,Unity,maxJumpVelocity20
+00:14:47.941,DEBUG,PlayerCarrying,쿨타임 지났음
+00:14:48.143,DEBUG,PlayerCarrying,쿨타임 지났음
+00:14:48.464,INFO,Unity,maxJumpVelocity20
+00:14:50.653,INFO,Unity,maxJumpVelocity20
+00:14:51.515,INFO,Unity,maxJumpVelocity20
+00:14:53.299,DEBUG,PlayerCarrying,쿨타임 지났음
+00:14:54.292,DEBUG,PlayerCarrying,쿨타임 지났음
+00:14:54.294,DEBUG,PlayerCarrying,집기 조작box (5) (UnityEngine.BoxCollider2D)
+00:14:54.295,INFO,Unity,_focus is null
+00:14:55.725,DEBUG,PlayerCarrying,쿨타임 지났음
+00:14:56.226,DEBUG,PlayerCarrying,쿨타임 지났음
+00:14:56.553,DEBUG,PlayerCarrying,쿨타임 지났음
+00:14:57.319,DEBUG,PlayerCarrying,쿨타임 지났음
+00:14:57.670,DEBUG,PlayerCarrying,쿨타임 지났음
+00:14:58.722,DEBUG,PlayerCarrying,쿨타임 지났음
+00:14:59.067,DEBUG,PlayerCarrying,쿨타임 지났음
+00:15:00.039,DEBUG,PlayerCarrying,쿨타임 지났음
+00:15:00.377,DEBUG,PlayerCarrying,쿨타임 지났음
+00:15:05.482,DEBUG,PlayerCarrying,쿨타임 지났음
+00:15:05.841,DEBUG,PlayerCarrying,쿨타임 지났음
+00:15:06.490,DEBUG,PlayerCarrying,쿨타임 지났음
+00:15:06.832,DEBUG,PlayerCarrying,쿨타임 지났음
+00:15:07.089,DEBUG,PlayerCarrying,쿨타임 지났음
+00:15:07.408,DEBUG,PlayerCarrying,쿨타임 지났음
+00:15:11.952,DEBUG,PlayerCarrying,쿨타임 지났음
+00:15:12.809,DEBUG,PlayerCarrying,쿨타임 지났음
+00:15:13.120,DEBUG,PlayerCarrying,쿨타임 지났음
+00:15:14.147,DEBUG,PlayerCarrying,쿨타임 지났음
+00:15:14.524,DEBUG,PlayerCarrying,쿨타임 지났음
+00:15:14.853,DEBUG,PlayerCarrying,쿨타임 지났음
+00:15:15.203,DEBUG,PlayerCarrying,쿨타임 지났음
+00:15:15.564,DEBUG,PlayerCarrying,쿨타임 지났음
+00:15:15.914,DEBUG,PlayerCarrying,쿨타임 지났음
+00:15:16.249,DEBUG,PlayerCarrying,쿨타임 지났음
+00:15:16.622,DEBUG,PlayerCarrying,쿨타임 지났음
+00:15:16.955,DEBUG,PlayerCarrying,쿨타임 지났음
+00:15:17.296,DEBUG,PlayerCarrying,쿨타임 지났음
+00:15:17.651,DEBUG,PlayerCarrying,쿨타임 지났음
+00:15:18.012,DEBUG,PlayerCarrying,쿨타임 지났음
+00:15:18.376,DEBUG,PlayerCarrying,쿨타임 지났음
+00:15:35.009,DEBUG,PlayerCarrying,쿨타임 지났음
+00:15:35.010,DEBUG,PlayerCarrying,집기 조작box (5) (UnityEngine.BoxCollider2D)
+00:15:35.011,INFO,Unity,_focus is null
+00:15:36.769,DEBUG,PlayerCarrying,쿨타임 지났음
+00:15:37.542,DEBUG,PlayerCarrying,쿨타임 지났음
