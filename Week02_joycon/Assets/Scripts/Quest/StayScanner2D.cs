@@ -1,42 +1,39 @@
 using System.Collections.Generic;
 using UnityEngine;
-using Game.Quests; // QuestRuntime, QuestFlags
+using Game.Quests; // FlagId, QuestRuntime
 
 /// <summary>
-/// Slim StayScanner2D:
-/// - Tracks Carryable objects with matching ScannerID inside this trigger.
-/// - When at least `requiredCount` eligible objects stay for `requiredStaySeconds`, sets `flagToSet` once.
-/// - No Enter/Exit interact events, no cancel/undo. Flags only.
+/// StayScanner2D (enum-only):
+/// - 지정 ScannerID의 Carryable이 영역에 requiredCount개, requiredStaySeconds 이상 머물면 flagEnum 세트
+/// - 빠지면(조건 해제) 자동 Clear (oneShot=false인 경우)
 /// </summary>
 [DisallowMultipleComponent]
 [RequireComponent(typeof(Rigidbody2D), typeof(Collider2D))]
 public sealed class StayScanner2D : MonoBehaviour
 {
     [Header("Match")]
-    [SerializeField] private uint scannerId = 1;     // Carryable.ScannerID to accept
+    [SerializeField] private uint scannerId = 1;
     [SerializeField] private LayerMask actorMask = ~0;
     [SerializeField] private bool excludeCarried = true;
 
     [Header("Goal")]
-    [SerializeField] private int requiredCount = 1;  // how many eligible objects must be inside
+    [SerializeField] private int requiredCount = 1;
     [SerializeField] private float requiredStaySeconds = 0.8f;
-    [SerializeField] private string flagToSet = "Boxes.StoredAll";
+    [SerializeField] private FlagId flagEnum = FlagId.Boxes_StoredAll;
 
     [Header("Policy")]
-    [SerializeField] private bool oneShot = false; // dynamic by default
+    [SerializeField] private bool oneShot = false;
     [SerializeField] private float cooldown = 0f;
 
     [Header("Boot")]
     [SerializeField] private bool scanOnEnable = true;
 
-    // ─────────────────────────────────────────────────────────────────────
     private Collider2D _trigger;
     private ContactFilter2D _filter;
     private float _lastFireAt = -999f;
     private bool _firedOnce;
     private bool _flagActive;
 
-    // Tracking
     private readonly Dictionary<Carryable, float> _insideSince = new(64);
     private readonly Dictionary<Collider2D, Carryable> _col2Carry = new(128);
     private static readonly Collider2D[] _hits = new Collider2D[64];
@@ -51,18 +48,12 @@ public sealed class StayScanner2D : MonoBehaviour
         rb.freezeRotation = true;
         rb.simulated = true;
 
-        _filter = new ContactFilter2D
-        {
-            useTriggers = true,
-            useLayerMask = true,
-            layerMask = actorMask
-        };
+        _filter = new ContactFilter2D { useTriggers = true, useLayerMask = true, layerMask = actorMask };
     }
 
     void OnEnable()
     {
         _firedOnce = false;
-
         if (!scanOnEnable || _trigger == null) return;
 
 #if UNITY_6000_0_OR_NEWER
@@ -72,8 +63,7 @@ public sealed class StayScanner2D : MonoBehaviour
 #endif
         for (int i = 0; i < count; ++i)
         {
-            var c = _hits[i];
-            _hits[i] = null;
+            var c = _hits[i]; _hits[i] = null;
             if (!c) continue;
 
             var carry = ResolveCarryable(c);
@@ -88,9 +78,8 @@ public sealed class StayScanner2D : MonoBehaviour
     void Update()
     {
         if (oneShot && _firedOnce) return;
-        // we allow zero count to clear the flag below
 
-        // purge ineligible (carried, id mismatch, destroyed)
+        // Purge ineligible
         _toRemove.Clear();
         foreach (var kv in _insideSince)
         {
@@ -99,13 +88,10 @@ public sealed class StayScanner2D : MonoBehaviour
         }
         for (int i = 0; i < _toRemove.Count; ++i) _insideSince.Remove(_toRemove[i]);
 
-        if (_insideSince.Count < Mathf.Max(1, requiredCount)) return;
-
         float now = Time.time;
         bool allowFireNow = (now - _lastFireAt) >= cooldown;
         if (!allowFireNow) return;
 
-        // Check all eligible have stayed long enough (we only need requiredCount of them).
         int ok = 0;
         foreach (var kv in _insideSince)
         {
@@ -114,21 +100,19 @@ public sealed class StayScanner2D : MonoBehaviour
         }
 
         bool meets = ok >= requiredCount;
-        if (!string.IsNullOrEmpty(flagToSet))
+
+        if (meets && !_flagActive)
         {
-            if (meets && !_flagActive)
-            {
-                QuestRuntime.Instance.SetFlag(flagToSet);
-                _flagActive = true;
-                _lastFireAt = now;
-                _firedOnce = true;
-            }
-            else if (!meets && _flagActive && !oneShot)
-            {
-                QuestRuntime.Instance.ClearFlag(flagToSet);
-                _flagActive = false;
-                _lastFireAt = now;
-            }
+            QuestRuntime.Instance.SetFlag(flagEnum);
+            _flagActive = true;
+            _lastFireAt = now;
+            _firedOnce = true;
+        }
+        else if (!meets && _flagActive && !oneShot)
+        {
+            QuestRuntime.Instance.ClearFlag(flagEnum);
+            _flagActive = false;
+            _lastFireAt = now;
         }
     }
 
@@ -160,7 +144,6 @@ public sealed class StayScanner2D : MonoBehaviour
     void OnTriggerExit2D(Collider2D other)
     {
         _col2Carry.Remove(other);
-
         var carry = ResolveCarryable(other);
         if (!carry) return;
         _insideSince.Remove(carry);

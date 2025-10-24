@@ -6,9 +6,6 @@ namespace Game.Quests
     public static class QuestFlags
     {
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
-        public static bool Has(int flagHash) => QuestRuntime.Instance.HasFlag(flagHash);
-
-        [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public static bool Has(FlagId flag) => QuestRuntime.Instance.HasFlag(flag);
 
         [MethodImpl(MethodImplOptions.AggressiveInlining)]

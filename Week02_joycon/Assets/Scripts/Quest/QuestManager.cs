@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-/// <summary>Ultra-minimal manager: InteractSet + TriggerFlags only (hash-based).</summary>
+/// <summary>Minimal manager: InteractSet + TriggerFlags (enum-only public surface)</summary>
 [DisallowMultipleComponent]
 public sealed class QuestManager : MonoBehaviour
 {
@@ -12,7 +12,7 @@ public sealed class QuestManager : MonoBehaviour
     [Serializable]
     public struct SubTaskState
     {
-        public int targetHash;   // runtime match key
+        public InteractableId target; // enum 매칭
         public bool done;
     }
 
@@ -40,14 +40,14 @@ public sealed class QuestManager : MonoBehaviour
     void OnEnable()
     {
         QuestEvents.OnInteract += OnInteract;
-        QuestEvents.OnFlagRaised += OnFlagRaised;
-        QuestEvents.OnFlagCleared += OnFlagCleared;
+        QuestEvents.OnFlagRaised += OnFlagChanged;
+        QuestEvents.OnFlagCleared += OnFlagChanged;
     }
     void OnDisable()
     {
         QuestEvents.OnInteract -= OnInteract;
-        QuestEvents.OnFlagRaised -= OnFlagRaised;
-        QuestEvents.OnFlagCleared -= OnFlagCleared;
+        QuestEvents.OnFlagRaised -= OnFlagChanged;
+        QuestEvents.OnFlagCleared -= OnFlagChanged;
     }
 
     // --- Public API ---
@@ -96,13 +96,16 @@ public sealed class QuestManager : MonoBehaviour
             ref var def = ref objs[i];
             var os = new ObjectiveState { def = def, completed = false };
 
-            var th = def.targetHashes;
-            if (th != null && th.Length > 0)
+            // 대상 enum 집합 준비
+            var targets = (def.targetEnums != null && def.targetEnums.Length > 0)
+                ? def.targetEnums
+                : new InteractableId[] { def.targetEnum };
+
+            if (targets != null && targets.Length > 0)
             {
-                int n = th.Length;
-                os.subs = new SubTaskState[n];
-                for (int s = 0; s < n; ++s)
-                    os.subs[s] = new SubTaskState { targetHash = th[s], done = false };
+                os.subs = new SubTaskState[targets.Length];
+                for (int s = 0; s < targets.Length; ++s)
+                    os.subs[s] = new SubTaskState { target = targets[s], done = false };
             }
             else os.subs = Array.Empty<SubTaskState>();
 
@@ -190,8 +193,7 @@ public sealed class QuestManager : MonoBehaviour
         }
     }
 
-    void OnFlagRaised(string _flagId) => RecheckAllFlagsAndNotify();
-    void OnFlagCleared(string _flagId) => RecheckAllFlagsAndNotify();
+    void OnFlagChanged(FlagId _flag) => RecheckAllFlagsAndNotify();
 
     void RecheckAllFlagsAndNotify()
     {
@@ -206,18 +208,8 @@ public sealed class QuestManager : MonoBehaviour
             if (!qs.started) continue;
 
             bool changed = false;
-
-            if (qs.so.sequentialObjectives)
-            {
-                // Even if all are complete we still want to re-evaluate
-                for (int i = 0; i < qs.objectives.Length; ++i)
-                    changed |= TryProgressObjective_RecheckFlags(qs.objectives[i]);
-            }
-            else
-            {
-                for (int i = 0; i < qs.objectives.Length; ++i)
-                    changed |= TryProgressObjective_RecheckFlags(qs.objectives[i]);
-            }
+            for (int i = 0; i < qs.objectives.Length; ++i)
+                changed |= TryProgressObjective_RecheckFlags(qs.objectives[i]);
 
             if (changed)
             {
@@ -234,7 +226,7 @@ public sealed class QuestManager : MonoBehaviour
         }
     }
 
-    // --- Progress logic (hash-based) ---
+    // --- Progress logic (enum-based) ---
     static bool TryProgressObjective_OnInteract(ObjectiveState os, QuestEvents.InteractMsg msg)
     {
         if (os.completed) return false;
@@ -244,7 +236,7 @@ public sealed class QuestManager : MonoBehaviour
         bool touched = false;
         for (int s = 0; s < os.subs.Length; ++s)
         {
-            if (!os.subs[s].done && os.subs[s].targetHash == msg.idHash)
+            if (!os.subs[s].done && os.subs[s].target.Equals(msg.id))
             {
                 os.subs[s].done = true;
                 touched = true;
@@ -262,7 +254,12 @@ public sealed class QuestManager : MonoBehaviour
     static bool TryProgressObjective_RecheckFlags(ObjectiveState os)
     {
         if (os.def.type != ObjectiveType.TriggerFlags) return false;
-        var flags = os.def.requiredFlagHashes;
+
+        // 플래그 enum 집합 준비
+        var flags = (os.def.requiredFlagEnums != null && os.def.requiredFlagEnums.Length > 0)
+            ? os.def.requiredFlagEnums
+            : new FlagId[] { os.def.requiredFlagEnum };
+
         if (flags == null || flags.Length == 0) return false;
 
         bool before = os.completed;

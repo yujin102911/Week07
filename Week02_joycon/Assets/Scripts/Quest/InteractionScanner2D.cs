@@ -3,11 +3,11 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 
 /// <summary>
-/// Minimal 2D interaction scanner:
+/// Minimal 2D interaction scanner (enum-only):
 /// - Picks nearest Interactable2D within radius
 /// - Shows prompt
 /// - On press, raises QuestEvents.RaiseInteract with InteractionKind.Press
-/// - Filters by required flags only (items/hold/stay removed)
+/// - Filters by required flags only
 /// </summary>
 [DisallowMultipleComponent]
 public sealed class InteractionScanner2D : MonoBehaviour
@@ -137,7 +137,8 @@ public sealed class InteractionScanner2D : MonoBehaviour
         // only Press kind is handled in the slim quest system
         if (pressed && _focus.Kind == InteractionKind.Press)
         {
-            QuestEvents.RaiseInteract(_focus.Id, _focus.transform.position, InteractionKind.Press);
+            // ENUM-ONLY: pass InteractableId (not string / not hash)
+            QuestEvents.RaiseInteract(_focus.IdEnum, _focus.transform.position, InteractionKind.Press);
             GameLogger.Instance.LogDebug(this, $"Interaction {_focus.transform.name}");
         }
     }
@@ -157,7 +158,7 @@ public sealed class InteractionScanner2D : MonoBehaviour
             s_Hits[i] = null;
             if (!c || !c.TryGetComponent(out Interactable2D it)) continue;
 
-            // flags gate (items are removed from slim system)
+            // flags gate
             if (!it.HasRequiredFlags(QuestFlags.Has)) continue;
 
             // ignore carryables currently being carried (legacy behavior)
