@@ -1,0 +1,7 @@
+Timestamp, Level, Source, Message
+13:49:13.292,INFO,GameLogger,=== Game Session Started ===
+13:49:15.234,INFO,Unity,maxJumpVelocity20
+13:49:16.001,DEBUG,PlayerCarrying,집기 조작PiggyBank (UnityEngine.BoxCollider2D)
+13:49:16.003,INFO,Unity,_focus is null
+13:49:16.888,INFO,Unity,maxJumpVelocity18.18182
+13:49:17.771,INFO,Unity,maxJumpVelocity18.18182

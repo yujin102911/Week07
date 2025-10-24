@@ -1,11 +1,8 @@
 public class CarryableEquipment : Carryable
 {
-    protected ItemName itemName;
-    public ItemName GetItemName() => itemName;
-
     public virtual void GetItem()
     {
-        InventoryManager.Instance.AddItem(itemName);
+        InventoryManager.Instance.AddItem(itemName, gameObject);
     }
 
     public virtual bool UseItem(IInteractable interactable) { return false; }

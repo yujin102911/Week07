@@ -48,11 +48,6 @@ public class CarryableEquipmentRag : CarryableEquipment
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log(collision.name);
-        if (collision.TryGetComponent(out mirror) && canInteractAutomatically)
-        {
-            Debug.Log("Auto Clean Mirror");
-            UseItem(mirror);
-        }
+        if (collision.TryGetComponent(out mirror) && canInteractAutomatically) UseItem(mirror);
     }
 }

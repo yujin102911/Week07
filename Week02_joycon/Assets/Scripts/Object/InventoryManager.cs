@@ -1,3 +1,5 @@
+using UnityEngine;
+
 public class InventoryManager : Singleton<InventoryManager>
 {
     private Inventory inventory;
@@ -7,7 +9,8 @@ public class InventoryManager : Singleton<InventoryManager>
         inventory.Initialize();
     }
 
-    public void AddItem(ItemName itemName, int count = 1) => inventory.AddItem(itemName, count);
-    public void RemoveItem(ItemName itemName, int count = 1) => inventory.RemoveItem(itemName, count);
+    public void AddItem(ItemName itemName, GameObject itemObject) => inventory.AddItem(itemName, itemObject);
+    public void RemoveItem(ItemName itemName) => inventory.RemoveItem(itemName);
+    public void RemoveAndDestroyItem(ItemName itemName) => inventory.RemoveAndDestroyItem(itemName);
     public bool HasItem(ItemName itemName) => inventory.HasItem(itemName);
 }

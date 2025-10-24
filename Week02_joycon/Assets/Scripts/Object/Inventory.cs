@@ -1,32 +1,38 @@
 using System.Collections.Generic;
+using UnityEngine;
 
 public enum ItemName
 {
+    None,
     Rag,
+    Coin,
+    Bedding,
     Key,
 }
 
 public class Inventory
 {
-    private Dictionary<ItemName, int> OwnedItems;
+    private List<(ItemName, GameObject)> OwnedItems;
 
     public void Initialize()
     {
         OwnedItems = new();
     }
 
-    public bool HasItem(ItemName itemName) => OwnedItems.ContainsKey(itemName) && OwnedItems[itemName] > 0;
-    public void AddItem(ItemName itemName, int count = 1)
+    public bool HasItem(ItemName itemName) => OwnedItems.Exists(item => item.Item1 == itemName);
+    public void AddItem(ItemName itemName, GameObject itemObject) => OwnedItems.Add((itemName, itemObject));
+    public void RemoveItem(ItemName itemName)
     {
-        if (HasItem(itemName)) OwnedItems[itemName] += count;
-        else OwnedItems[itemName] = count;
+        var item = OwnedItems.Find(i => i.Item1 == itemName);
+        if (item != default) OwnedItems.Remove(item);
     }
-    public void RemoveItem(ItemName itemName, int count = 1)
+    public void RemoveAndDestroyItem(ItemName itemName)
     {
-        if (HasItem(itemName))
+        var item = OwnedItems.Find(i => i.Item1 == itemName);
+        if (item != default)
         {
-            OwnedItems[itemName] -= count;
-            if (OwnedItems[itemName] <= 0) OwnedItems.Remove(itemName);
+            OwnedItems.Remove(item);
+            GameObject.Destroy(item.Item2);
         }
     }
 

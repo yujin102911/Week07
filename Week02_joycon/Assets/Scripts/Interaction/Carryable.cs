@@ -2,7 +2,10 @@
 
 public class Carryable : MonoBehaviour
 {
-    public bool carrying = false;//드는중
+    [SerializeField] protected ItemName itemName;
+    public ItemName GetItemName() => itemName;
+
+    public bool carrying = false;
     public float large = -1;
     public float weight = 1;
     private float lxw;
@@ -12,7 +15,7 @@ public class Carryable : MonoBehaviour
     public int ScannerID;
 
     private PlayerCarrying player;
-    private LayerMask maskObstacle;
+    protected LayerMask maskObstacle;
     [SerializeField] private Rigidbody2D rb;
 
     protected virtual void Start()
