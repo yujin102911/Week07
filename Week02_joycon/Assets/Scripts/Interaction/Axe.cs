@@ -25,7 +25,7 @@ public class Axe : MonoBehaviour
     void Update()
     {
         falling = controller2D.isFalling?  true: false;
-        if (cutCount >= cutRequire)
+        /*if (cutCount >= cutRequire)
         {
             string[] targetId = soDef.objectives[objectivesNum].comp;//퀘스트 타겟 아이디 배열
             for (int i = 0; i < targetId.Length; i++)
@@ -37,6 +37,6 @@ public class Axe : MonoBehaviour
                 }
             }
             Destroy(gameObject);
-        }
+        }*/
     }
 }
