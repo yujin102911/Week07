@@ -25,6 +25,7 @@ public class PlayerCarrying : MonoBehaviour
     Vector2 dropPos;
     float lastObjRadius = 0.25f;
     public int collideCarrying = 0;//충돌한 짐 넘버 (현재 들고있는 것보다 높게 유지해야 안떨어짐)닿은거 이상 다 떨어질거야
+    BoxCollider2D playerCollider;
 
     public List<GameObject> carriedObjects = new List<GameObject>();
     public List<Carryable> carryable = new List<Carryable>();
@@ -42,7 +43,8 @@ public class PlayerCarrying : MonoBehaviour
         holdPoint = hp.transform;
         carryingTop = 0f; // 높이 초기화
         controller2D = GetComponent<Controller2D>();
-
+        if (playerCollider == null)
+            playerCollider = GetComponent<BoxCollider2D>();
     }
     private void Update()
     {
@@ -85,14 +87,15 @@ public class PlayerCarrying : MonoBehaviour
             Debug.Log("Cannot pick up: Max carry count reached");
             return;
         }
-
         // 주변 오브젝트 배열 가져오기
-        Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, pickUpRange, carryableMask);
+        Collider2D[] hits = Physics2D.OverlapBoxAll(
+        new Vector2(transform.position.x + (pickUpRange / 2 * controller2D.collisions.faceDir), transform.position.y),//내 위치의 절반만큼 앞으로
+        new Vector2(pickUpRange, playerCollider.bounds.size.y), 0f, carryableMask);//내 높이와 픽업 범위만큼 체크
         GameObject closestObj = null;
         float minDistance = Mathf.Infinity;
-
         foreach (Collider2D hit in hits)
         {
+            GameLogger.Instance.LogDebug(this, "집기 조작"+hit);
             Carryable carryable = hit.GetComponent<Carryable>();
             if (carryable != null && carryable.carrying)
             {
@@ -156,8 +159,8 @@ public class PlayerCarrying : MonoBehaviour
     public void TryDrop()
     {
         if (Time.time - lastInteractTime < interactCooldown) return;
-
-        lastInteractTime = Time.time; // 드랍 쿨타임
+        
+       lastInteractTime = Time.time; // 드랍 쿨타임
 
         if (carriedObjects.Count > 0)
         {
