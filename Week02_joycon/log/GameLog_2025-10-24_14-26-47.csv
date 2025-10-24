@@ -1,0 +1,3 @@
+Timestamp, Level, Source, Message
+14:26:47.728,INFO,GameLogger,=== Game Session Started ===
+14:26:49.470,INFO,Unity,maxJumpVelocity20

@@ -2,7 +2,10 @@
 
 public class Carryable : MonoBehaviour
 {
-    public bool carrying = false;//드는중
+    [SerializeField] protected ItemName itemName;
+    public ItemName GetItemName() => itemName;
+
+    public bool carrying = false;
     public float large = -1;
     public float weight = 1;
     private float lxw;
@@ -12,16 +15,18 @@ public class Carryable : MonoBehaviour
     public int ScannerID;
 
     private PlayerCarrying player;
-    private LayerMask maskObstacle;
+    protected LayerMask maskObstacle;
     [SerializeField] private Rigidbody2D rb;
 
-    void Start()
+    protected virtual void Start()
     {
         if (large < 0)//크기 설정 따로 안했으면
         {
             large = transform.localScale.x * transform.localScale.y;//크기 x*y로 저장
         }
         lxw = large * weight;//크기*무게=실제 무게
+        if (rb == null)
+            rb = GetComponent<Rigidbody2D>();
         rb.gravityScale = weight * 0.1f;//무게 적용 
         GetComponent<Rigidbody2D>().mass = lxw;//무게 적용
         player = GameObject.Find("Player").GetComponent<PlayerCarrying>();//플레이어 찾아넣기
