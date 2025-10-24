@@ -245,8 +245,9 @@ public sealed class InteractionScanner2D : MonoBehaviour
         switch (_focus.Kind)
         {
             case InteractionKind.Press:
+                if (pressed == false) break;
                 QuestEvents.RaiseInteract(_focus.Id, _focus.transform.position, InteractionKind.Press);
-                Debug.Log($"Interaction {_focus.transform.name}");
+                GameLogger.Instance.LogDebug(this, $"Interaction {_focus.transform.name}");
 
                 break;
 

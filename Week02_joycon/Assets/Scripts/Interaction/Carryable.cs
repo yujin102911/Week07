@@ -1,10 +1,13 @@
-using UnityEngine;
+Ôªøusing UnityEngine;
 
 public class Carryable : MonoBehaviour
 {
-    public bool carrying = false;//µÂ¥¬¡ﬂ
+    [SerializeField] protected ItemName itemName;
+    public ItemName GetItemName() => itemName;
+
+    public bool carrying = false;
     public float large = -1;
-    public float weight=1;
+    public float weight = 1;
     private float lxw;
 
     [Header("Event - Quest")]
@@ -12,26 +15,31 @@ public class Carryable : MonoBehaviour
     public int ScannerID;
 
     private PlayerCarrying player;
-    private LayerMask maskObstacle;
+    protected LayerMask maskObstacle;
+    [SerializeField] private Rigidbody2D rb;
 
-    void Start()
-    {if (large < 0)//≈©±‚ º≥¡§ µ˚∑Œ æ»«ﬂ¿∏∏È
+    protected virtual void Start()
+    {
+        if (large < 0)//ÌÅ¨Í∏∞ ÏÑ§Ï†ï Îî∞Î°ú ÏïàÌñàÏúºÎ©¥
         {
-            large = transform.localScale.x* transform.localScale.y;//≈©±‚ x*y∑Œ ¿˙¿Â
+            large = transform.localScale.x * transform.localScale.y;//ÌÅ¨Í∏∞ x*yÎ°ú Ï†ÄÏû•
         }
-        lxw = large*weight;//≈©±‚*π´∞‘=Ω«¡¶ π´∞‘
-        GetComponent<Rigidbody2D>().mass = lxw;//π´∞‘ ¿˚øÎ
-        player = GameObject.Find("Player").GetComponent<PlayerCarrying>();//«√∑π¿ÃæÓ √£æ∆≥÷±‚
+        lxw = large * weight;//ÌÅ¨Í∏∞*Î¨¥Í≤å=Ïã§Ï†ú Î¨¥Í≤å
+        if (rb == null)
+            rb = GetComponent<Rigidbody2D>();
+        rb.gravityScale = 1f+weight * 0.1f;//Î¨¥Í≤å Ï†ÅÏö© 
+        GetComponent<Rigidbody2D>().mass = lxw;//Î¨¥Í≤å Ï†ÅÏö©
+        player = GameObject.Find("Player").GetComponent<PlayerCarrying>();//ÌîåÎ†àÏù¥Ïñ¥ Ï∞æÏïÑÎÑ£Í∏∞
         maskObstacle = LayerMask.GetMask("Obstacle");
     }
     private void OnCollisionStay2D(Collision2D collision)
     {
         if (carrying)
         {
-            if (collision.gameObject.layer== LayerMask.NameToLayer("Obstacle"))
+            if (collision.gameObject.layer == LayerMask.NameToLayer("Obstacle"))
             {
-                // «√∑π¿ÃæÓ∞° µÈ∞Ì ¿÷¥¬ ø¿∫Í¡ß∆Æ ∏ÆΩ∫∆Æø°º≠ ªÛ¥Î ø¿∫Í¡ß∆Æ¿« ¿Œµ¶Ω∫ »Æ¿Œ
-                int myIndex = player.carriedObjects.IndexOf(gameObject); // ¿⁄±‚ ¿⁄Ω≈¿Ã ∏Óπ¯¬∞ ¡¸¿Œ¡ˆ
+                // ÌîåÎ†àÏù¥Ïñ¥Í∞Ä Îì§Í≥† ÏûàÎäî Ïò§Î∏åÏ†ùÌä∏ Î¶¨Ïä§Ìä∏ÏóêÏÑú ÏÉÅÎåÄ Ïò§Î∏åÏ†ùÌä∏Ïùò Ïù∏Îç±Ïä§ ÌôïÏù∏
+                int myIndex = player.carriedObjects.IndexOf(gameObject); // ÏûêÍ∏∞ ÏûêÏã†Ïù¥ Î™áÎ≤àÏß∏ ÏßêÏù∏ÏßÄ
                 if (myIndex != -1)
                 {
                     if (player.collideCarrying > myIndex)
@@ -39,11 +47,11 @@ public class Carryable : MonoBehaviour
                         Debug.Log("indexChamge");
                         player.collideCarrying = myIndex;
                     }
-                    Debug.Log($"¡¸ {myIndex + 1}√Êµπ");
+                    Debug.Log($"Ïßê {myIndex + 1}Ï∂©Îèå");
                 }
                 else
                 {
-                    Debug.Log("¡∂¡≥"+myIndex);
+                    Debug.Log("Ï°∞Ï°å" + myIndex);
                 }
             }
         }

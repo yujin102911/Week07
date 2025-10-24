@@ -1,4 +1,4 @@
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -14,6 +14,7 @@ public sealed class TeleportOnTrigger2D : MonoBehaviour
     [SerializeField] private LayerMask includeLayers = ~0;      // 포함 레이어
 
     [Header("Behavior")]
+    [SerializeField] private bool preserveCarryable = false;        // 짐들 유지
     [SerializeField] private bool alignRotation = false;        // 회전 동기화
     [SerializeField] private bool preserveVelocity = true;      // 속도 유지
     [SerializeField, Min(0f)] private float perObjectCooldown = 0.15f; // 왕복 방지(인스턴스 기준)
@@ -190,12 +191,15 @@ public sealed class TeleportOnTrigger2D : MonoBehaviour
     {
         var go = other.attachedRigidbody ? other.attachedRigidbody.gameObject : other.gameObject;
         if (((1 << go.layer) & _includeMask) == 0) return false;
-        if (!string.IsNullOrEmpty(requiredTag) && !go.CompareTag(requiredTag)) return false;
+        if (!string.IsNullOrEmpty(requiredTag) && !go.CompareTag(requiredTag)) return false;//태그에 맞지 않으면 false
         return true;
     }
 
     private void Teleport(Collider2D other)
     {
+        if (!preserveCarryable) //짐 보존 상태가 아니면
+            other.GetComponent<PlayerCarrying>().collideCarrying=0;//들고있는 짐 내려놓기
+
         // 이동시킬 루트 트랜스폼(리지드바디가 있으면 그 쪽으로)
         Transform root = other.attachedRigidbody ? other.attachedRigidbody.transform : other.transform;
 
