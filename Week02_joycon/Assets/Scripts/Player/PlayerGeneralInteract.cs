@@ -27,11 +27,7 @@ public class PlayerGeneralInteract : MonoBehaviour
                 closestObj = hit.gameObject;
             }
         }
-        Debug.Log("Interacted with " + closestObj);
-        if (closestObj != null && closestObj.TryGetComponent<IInteractable>(out IInteractable interactable))
-        {
-            Debug.Log("Interacted with " + closestObj.name);
-            interactable.Interact();
-        }
+
+        if (closestObj != null && closestObj.TryGetComponent<IInteractable>(out IInteractable interactable)) interactable.Interact();
     }
 }
