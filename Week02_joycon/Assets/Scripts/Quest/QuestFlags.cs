@@ -3,19 +3,18 @@ using System.Runtime.CompilerServices;
 
 namespace Game.Quests
 {
-    /// <summary>Thin facade over QuestRuntime (flags only).</summary>
     public static class QuestFlags
     {
-        [MethodImpl(MethodImplOptions.AggressiveInlining)]
-        public static bool Has(string? flagId) => QuestRuntime.Instance.HasFlag(flagId ?? string.Empty);
-
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public static bool Has(int flagHash) => QuestRuntime.Instance.HasFlag(flagHash);
 
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
-        public static bool Set(string flagId) => QuestRuntime.Instance.SetFlag(flagId ?? string.Empty);
+        public static bool Has(FlagId flag) => QuestRuntime.Instance.HasFlag(flag);
 
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
-        public static bool Clear(string flagId) => QuestRuntime.Instance.ClearFlag(flagId ?? string.Empty);
+        public static bool Set(FlagId flag) => QuestRuntime.Instance.SetFlag(flag);
+
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static bool Clear(FlagId flag) => QuestRuntime.Instance.ClearFlag(flag);
     }
 }

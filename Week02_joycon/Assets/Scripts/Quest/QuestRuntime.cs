@@ -1,8 +1,8 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
+using Game.Quests;
 
-/// <summary>Global quest runtime: flags only (kept simple).</summary>
 [DefaultExecutionOrder(-500)]
 public sealed class QuestRuntime : MonoBehaviour
 {
@@ -29,13 +29,15 @@ public sealed class QuestRuntime : MonoBehaviour
     }
     static QuestRuntime _inst;
 
-    [Header("Initial Flags (debug)")]
-    [SerializeField] private string[] initialFlags;
+    [Header("초기 플래그 (enum)")]
+    [SerializeField] private FlagId[] initialFlagEnums;
 
-    readonly HashSet<int> _flags = new(128);
+    // 내부 상태는 해시로만 관리 (외부로 노출 안 함)
+    private readonly HashSet<int> _flags = new(128);
 
-    public event Action<int> OnFlagRaised;
-    public event Action<int> OnFlagCleared;
+    // 퍼블릭 이벤트는 enum만 노출
+    public event Action<FlagId> OnFlagRaised;
+    public event Action<FlagId> OnFlagCleared;
 
     void Awake()
     {
@@ -43,54 +45,55 @@ public sealed class QuestRuntime : MonoBehaviour
         _inst = this;
         DontDestroyOnLoad(gameObject);
 
-        if (initialFlags != null)
-            for (int i = 0; i < initialFlags.Length; ++i)
-                _flags.Add(Animator.StringToHash(initialFlags[i] ?? string.Empty));
+        if (initialFlagEnums != null)
+        {
+            foreach (var f in initialFlagEnums)
+                _flags.Add(Hash(f));
+        }
     }
 
-    // ---- Flags ----
-    public bool HasFlag(int flagHash) => _flags.Contains(flagHash);
-    public bool HasFlag(string flagId) => _flags.Contains(Animator.StringToHash(flagId ?? string.Empty));
+    static int Hash(FlagId id) => Animator.StringToHash(id.ToString().Replace('_', '.'));
 
-    public bool SetFlag(string flagId)
+    // ---- 조회/설정 (enum만) ----
+    public bool HasFlag(FlagId flag) => _flags.Contains(Hash(flag));
+
+    public bool SetFlag(FlagId flag)
     {
-        int h = Animator.StringToHash(flagId ?? string.Empty);
+        int h = Hash(flag);
         if (_flags.Add(h))
         {
-            OnFlagRaised?.Invoke(h);
-            QuestEvents.RaiseFlag(flagId);
+            OnFlagRaised?.Invoke(flag);
+            QuestEvents.RaiseFlag(flag);
             return true;
         }
         return false;
     }
 
-    public bool ClearFlag(string flagId)
+    public bool ClearFlag(FlagId flag)
     {
-        int h = Animator.StringToHash(flagId ?? string.Empty);
+        int h = Hash(flag);
         if (_flags.Remove(h))
         {
-            OnFlagCleared?.Invoke(h);
-            QuestEvents.RaiseFlagCleared(flagId);
+            OnFlagCleared?.Invoke(flag);
+            QuestEvents.RaiseFlagCleared(flag);
             return true;
         }
         return false;
     }
 
-    // ---- (Optional) Tiny save/load for flags ----
+    // 선택: 저장/불러오기(내부는 해시로 저장)
     [Serializable] struct SaveBlob { public int[] flags; }
-
     public string ToJson()
     {
         var arr = new int[_flags.Count];
         int i = 0; foreach (var h in _flags) arr[i++] = h;
         return JsonUtility.ToJson(new SaveBlob { flags = arr }, false);
     }
-
     public void FromJson(string json)
     {
         if (string.IsNullOrEmpty(json)) return;
         var b = JsonUtility.FromJson<SaveBlob>(json);
         _flags.Clear();
-        if (b.flags != null) for (int i = 0; i < b.flags.Length; ++i) _flags.Add(b.flags[i]);
+        if (b.flags != null) foreach (var h in b.flags) _flags.Add(h);
     }
 }

@@ -3,7 +3,7 @@ using UnityEngine;
 [DisallowMultipleComponent]
 public sealed class Deliverable2D : MonoBehaviour
 {
-    [SerializeField] string receiverId = "NPC_A"; // Interactable Id¿Í µ¿ÀÏÇÏ°Ô
+    [SerializeField] string receiverId = "NPC_A"; // Interactable Idï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï°ï¿½
     [SerializeField] string itemId = "Key_A";
     [SerializeField] bool consumeOnDelivery = true;
 

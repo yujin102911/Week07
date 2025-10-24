@@ -1,47 +1,26 @@
 using System;
 using UnityEngine;
+using Game.Quests;
 
-/// <summary>Minimal quest event bus: Interact + Flag only.</summary>
 public static class QuestEvents
 {
-    // ---- Interact ----
     public struct InteractMsg
     {
-        public string id;      // Interactable Id
-        public int idHash;     // Animator.StringToHash(id)
-        public Vector3 pos;    // World position (optional)
-        public InteractionKind kind; // Keep type to avoid breaking callers
-
-        // ---- Backward-compat stub (no-op in slim build) ----
-        /// <summary>
-        /// Backward-compatible stub. Returns false and does nothing in the slim quest build.
-        /// Keep it to avoid compile errors in legacy callers.
-        /// </summary>
-        public static bool CancelLastInteract(string id) => false;
+        public InteractableId id;
+        public Vector3 pos;
+        public InteractionKind kind;
     }
 
     public static event Action<InteractMsg> OnInteract;
 
-    public static void RaiseInteract(string id, Vector3 pos, InteractionKind kind = InteractionKind.Press)
-    {
-        var msg = new InteractMsg
-        {
-            id = id ?? string.Empty,
-            idHash = Animator.StringToHash(id ?? string.Empty),
-            pos = pos,
-            kind = kind
-        };
-        OnInteract?.Invoke(msg);
-    }
+    public static void RaiseInteract(InteractableId id, Vector3 pos, InteractionKind kind = InteractionKind.Press)
+        => OnInteract?.Invoke(new InteractMsg { id = id, pos = pos, kind = kind });
 
-    // ---- Flags ----
-    public static event Action<string> OnFlagRaised;
+    public static event Action<FlagId> OnFlagRaised;
+    public static event Action<FlagId> OnFlagCleared;
 
-    public static event Action<string> OnFlagCleared;
+    public static void RaiseFlag(FlagId flag) => OnFlagRaised?.Invoke(flag);
+    public static void RaiseFlagCleared(FlagId flag) => OnFlagCleared?.Invoke(flag);
 
-    public static void RaiseFlag(string flagId)
-        => OnFlagRaised?.Invoke(flagId ?? string.Empty);
-
-    public static void RaiseFlagCleared(string flagId)
-        => OnFlagCleared?.Invoke(flagId ?? string.Empty);
+    public static bool CancelLastInteract(InteractableId id) => false;
 }
