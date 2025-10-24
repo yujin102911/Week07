@@ -1,4 +1,4 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 using UnityEngine.Events;
 using System;
 
@@ -9,7 +9,8 @@ public enum ObjectiveType : byte
     HoldOnTargets,      // Complete by holding on targets
     TriggerFlags,       // Complete when all required flags are raised
     StayInArea,         // Stay inside an area for N seconds (accumulated)
-    Delivery            // Deliver an item to the target (optionally consume)
+    Delivery,            // Deliver an item to the target (optionally consume)
+    Destroy             //ëª©í‘œ ì œê±°
 }
 
 [CreateAssetMenu(menuName = "Quest/Quest")]
@@ -29,14 +30,14 @@ public sealed class QuestSO : ScriptableObject
 
     // -------- Events --------
     [Header("Events")]
-    [Tooltip("Äù½ºÆ®ÀÇ (¼±ÅÃ Ç×¸ñ Á¦¿Ü) ¸ğµç ¸ñÇ¥°¡ ¿Ï·áµÇ¾úÀ» ¶§ È£ÃâµË´Ï´Ù.")]
+    [Tooltip("í€˜ìŠ¤íŠ¸ì˜ (ì„ íƒ í•­ëª© ì œì™¸) ëª¨ë“  ëª©í‘œê°€ ì™„ë£Œë˜ì—ˆì„ ë•Œ í˜¸ì¶œë©ë‹ˆë‹¤.")]
     [SerializeField] private UnityEvent onAllObjectivesCompleted;
-    /// <summary>C# ÄÚµå¿¡¼­ ±¸µ¶¿ë(ÀÎ½ºÆåÅÍ¿Í º°°³, ÇÒ´ç/ÇØÁ¦ ºü¸§)</summary>
+    /// <summary>C# ì½”ë“œì—ì„œ êµ¬ë…ìš©(ì¸ìŠ¤í™í„°ì™€ ë³„ê°œ, í• ë‹¹/í•´ì œ ë¹ ë¦„)</summary>
     public event Action<QuestSO> Completed;
 
     // -------- Caches (for runtime perf) --------
-    [NonSerialized] public int[][] targetIdHashesPerObjective;     // objectives[i]ÀÇ targetIds ÇØ½Ãµé
-    [NonSerialized] public int[][] requiredFlagHashesPerObjective; // objectives[i]ÀÇ requiredFlags ÇØ½Ãµé
+    [NonSerialized] public int[][] targetIdHashesPerObjective;     // objectives[i]ì˜ targetIds í•´ì‹œë“¤
+    [NonSerialized] public int[][] requiredFlagHashesPerObjective; // objectives[i]ì˜ requiredFlags í•´ì‹œë“¤
 
     void OnEnable() => BuildCaches();
 
@@ -97,16 +98,16 @@ public sealed class QuestSO : ScriptableObject
     }
 
     /// <summary>
-    /// Äù½ºÆ®°¡ "ÀüºÎ ¿Ï·á" µÇ¾úÀ» ¶§(¼±ÅÃ objective Á¦¿Ü) ¹İµå½Ã QuestManager°¡ È£Ãâ.
-    /// UnityEvent(ÀÎ½ºÆåÅÍ) ¡æ ¿ÜºÎ Action(ÄÚµå) ¼ø¼­·Î ¾ÈÀüÇÏ°Ô ºê·ÎµåÄ³½ºÆ®.
+    /// í€˜ìŠ¤íŠ¸ê°€ "ì „ë¶€ ì™„ë£Œ" ë˜ì—ˆì„ ë•Œ(ì„ íƒ objective ì œì™¸) ë°˜ë“œì‹œ QuestManagerê°€ í˜¸ì¶œ.
+    /// UnityEvent(ì¸ìŠ¤í™í„°) â†’ ì™¸ë¶€ Action(ì½”ë“œ) ìˆœì„œë¡œ ì•ˆì „í•˜ê²Œ ë¸Œë¡œë“œìºìŠ¤íŠ¸.
     /// </summary>
     public void RaiseCompleted()
     {
-        // ÄÚµå ÀÌº¥Æ®(±¸µ¶ÀÚ) ¸ÕÀú
-        var handler = Completed; // ·ÎÄÃ Ä³½Ã: ´ÙÁß ½º·¹µå/±¸µ¶ º¯°æ race ¹æÁö
+        // ì½”ë“œ ì´ë²¤íŠ¸(êµ¬ë…ì) ë¨¼ì €
+        var handler = Completed; // ë¡œì»¬ ìºì‹œ: ë‹¤ì¤‘ ìŠ¤ë ˆë“œ/êµ¬ë… ë³€ê²½ race ë°©ì§€
         handler?.Invoke(this);
 
-        // ÀÎ½ºÆåÅÍ ÀÌº¥Æ®
+        // ì¸ìŠ¤í™í„° ì´ë²¤íŠ¸
         onAllObjectivesCompleted?.Invoke();
     }
 }
