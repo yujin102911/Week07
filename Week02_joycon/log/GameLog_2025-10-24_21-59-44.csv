@@ -1,0 +1,116 @@
+Timestamp, Level, Source, Message
+21:59:44.106,INFO,GameLogger,=== Game Session Started ===
+21:59:44.496,WARNING,Unity,Minimap: no renderers found for bounds. Check includeLayers.
+21:59:46.056,INFO,Unity,maxJumpVelocity20
+21:59:47.192,DEBUG,PlayerCarrying,쿨타임 지났음
+21:59:47.194,DEBUG,PlayerCarrying,집기 조작장작 (4) (UnityEngine.BoxCollider2D)
+21:59:47.194,DEBUG,PlayerCarrying,집기 조작토마토 (UnityEngine.BoxCollider2D)
+21:59:47.195,DEBUG,PlayerCarrying,집기 조작토마토 (1) (UnityEngine.BoxCollider2D)
+21:59:47.196,INFO,Unity,_focus is null
+21:59:48.000,DEBUG,PlayerCarrying,쿨타임 지났음
+21:59:48.001,DEBUG,PlayerCarrying,집기 조작토마토 (1) (UnityEngine.BoxCollider2D)
+21:59:48.002,DEBUG,PlayerCarrying,집기 조작장작 (3) (UnityEngine.BoxCollider2D)
+21:59:48.002,INFO,Unity,_focus is null
+21:59:48.423,INFO,Unity,maxJumpVelocity19.84127
+21:59:49.310,DEBUG,PlayerCarrying,쿨타임 지났음
+21:59:49.312,DEBUG,PlayerCarrying,WorldInteractable 감지: 냄비
+21:59:49.313,DEBUG,WorldInteractable,냄비와 Tomato의 상호작용 성공
+21:59:49.313,DEBUG,Pot,냄비에 토마토 추가됨. 현재: 1개
+21:59:49.314,DEBUG,Pot,냄비에 토마토 추가됨. 현재: 2개
+21:59:49.314,DEBUG,PlayerCarrying,아이템 소모: 토마토
+21:59:49.316,DEBUG,PlayerCarrying,상호작용 성공함!!
+21:59:49.559,DEBUG,PlayerCarrying,쿨타임 지났음
+21:59:49.561,DEBUG,PlayerCarrying,WorldInteractable 감지: 냄비
+21:59:49.561,DEBUG,WorldInteractable,냄비와 Tomato의 상호작용 성공
+21:59:49.562,DEBUG,Pot,냄비에 토마토가 가득 찼습니다.
+21:59:49.562,DEBUG,Pot,냄비에 토마토가 가득 찼습니다.
+21:59:49.563,DEBUG,PlayerCarrying,아이템 소모: 토마토 (1)
+21:59:49.563,DEBUG,PlayerCarrying,상호작용 성공함!!
+21:59:49.815,DEBUG,PlayerCarrying,쿨타임 지났음
+21:59:49.815,DEBUG,PlayerCarrying,WorldInteractable 감지: 냄비
+21:59:49.817,DEBUG,WorldInteractable,냄비과 상호작용 가능한 Tomato가 없습니다.
+21:59:49.817,DEBUG,PlayerCarrying,상호작용 실패함 (아이템 불일치 등). 줍기 시도.
+21:59:49.817,DEBUG,PlayerCarrying,집기 조작냄비 (UnityEngine.BoxCollider2D)
+21:59:49.819,INFO,Unity,_focus is null
+21:59:51.008,INFO,Unity,막혔어
+21:59:51.264,INFO,Unity,maxJumpVelocity19.92032
+21:59:51.383,DEBUG,Stove,냄비가 스토브 위에 놓였습니다.
+21:59:51.384,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+21:59:52.408,DEBUG,PlayerCarrying,쿨타임 지났음
+21:59:52.409,DEBUG,PlayerCarrying,집기 조작장작 (1) (UnityEngine.BoxCollider2D)
+21:59:52.409,INFO,Unity,_focus is null
+21:59:52.623,DEBUG,PlayerCarrying,쿨타임 지났음
+21:59:52.623,DEBUG,PlayerCarrying,집기 조작장작 (2) (UnityEngine.BoxCollider2D)
+21:59:52.625,INFO,Unity,_focus is null
+21:59:52.991,DEBUG,PlayerCarrying,쿨타임 지났음
+21:59:52.992,DEBUG,PlayerCarrying,집기 조작장작 (3) (UnityEngine.BoxCollider2D)
+21:59:52.992,DEBUG,PlayerCarrying,집기 조작장작 (4) (UnityEngine.BoxCollider2D)
+21:59:52.993,INFO,Unity,_focus is null
+21:59:55.166,DEBUG,PlayerCarrying,쿨타임 지났음
+21:59:55.167,DEBUG,PlayerCarrying,WorldInteractable 감지: 화로
+21:59:55.168,DEBUG,WorldInteractable,화로와 Firewood의 상호작용 성공
+21:59:55.169,DEBUG,Stove,장작 추가됨 현재: 1개
+21:59:55.170,DEBUG,PlayerCarrying,아이템 소모: 장작 (1)
+21:59:55.171,DEBUG,PlayerCarrying,상호작용 성공함!!
+21:59:55.462,DEBUG,PlayerCarrying,쿨타임 지났음
+21:59:55.463,DEBUG,PlayerCarrying,WorldInteractable 감지: 화로
+21:59:55.463,DEBUG,WorldInteractable,화로와 Firewood의 상호작용 성공
+21:59:55.464,DEBUG,Stove,장작 추가됨 현재: 2개
+21:59:55.464,DEBUG,PlayerCarrying,아이템 소모: 장작 (2)
+21:59:55.464,DEBUG,PlayerCarrying,상호작용 성공함!!
+21:59:55.743,DEBUG,PlayerCarrying,쿨타임 지났음
+21:59:55.743,DEBUG,PlayerCarrying,WorldInteractable 감지: 화로
+21:59:55.744,DEBUG,WorldInteractable,화로와 Firewood의 상호작용 성공
+21:59:55.744,DEBUG,Stove,장작 추가됨 현재: 3개
+21:59:55.744,DEBUG,PlayerCarrying,아이템 소모: 장작 (3)
+21:59:55.744,DEBUG,PlayerCarrying,상호작용 성공함!!
+21:59:57.406,DEBUG,PlayerCarrying,쿨타임 지났음
+21:59:57.407,DEBUG,PlayerCarrying,집기 조작장작 (4) (UnityEngine.BoxCollider2D)
+21:59:57.408,INFO,Unity,_focus is null
+21:59:57.409,DEBUG,Player,플레이어 sprite ReaiRealPartySlime_0으로 변경 성공
+21:59:57.409,DEBUG,PlayerSpriteChanger,플레이어 스프라이트를 ReaiRealPartySlime_0으로 교체함
+21:59:59.248,DEBUG,PlayerCarrying,쿨타임 지났음
+21:59:59.248,DEBUG,PlayerCarrying,WorldInteractable 감지: 화로
+21:59:59.249,DEBUG,WorldInteractable,화로와 Firewood의 상호작용 성공
+21:59:59.249,DEBUG,Stove,장작 추가됨 현재: 4개
+21:59:59.251,DEBUG,Stove,스토브에 불을 붙였습니다
+21:59:59.251,DEBUG,Pot,요리 성공!
+21:59:59.252,DEBUG,Stove,스토브 초기화 완료!
+21:59:59.253,DEBUG,Pot,냄비 초기화 완료.
+21:59:59.253,DEBUG,PlayerCarrying,아이템 소모: 장작 (4)
+21:59:59.254,DEBUG,PlayerCarrying,상호작용 성공함!!
+21:59:59.324,DEBUG,Stove,냄비가 스토브에서 벗어났습니다.
+22:00:00.158,DEBUG,PlayerCarrying,쿨타임 지났음
+22:00:00.158,DEBUG,PlayerCarrying,WorldInteractable 감지: 화로
+22:00:00.160,DEBUG,WorldInteractable,화로과 상호작용 가능한 Firewood가 없습니다.
+22:00:00.160,DEBUG,PlayerCarrying,상호작용 실패함 (아이템 불일치 등). 줍기 시도.
+22:00:00.161,DEBUG,PlayerCarrying,집기 조작완성된 음식(Clone) (UnityEngine.BoxCollider2D)
+22:00:00.161,INFO,Unity,_focus is null
+22:00:00.873,INFO,Unity,maxJumpVelocity20
+22:00:01.226,INFO,Unity,벽 점프
+22:00:01.521,INFO,Unity,벽 점프
+22:00:01.867,INFO,Unity,벽 점프
+22:00:02.210,INFO,Unity,벽 점프
+22:00:02.546,INFO,Unity,벽 점프
+22:00:03.200,INFO,Unity,maxJumpVelocity20
+22:00:03.934,DEBUG,PlayerCarrying,쿨타임 지났음
+22:00:03.935,ERROR,PlayerCarrying,0번 인덱스에 있는 아이템이 carryable이 아님
+22:00:03.936,DEBUG,BathController,물탱크를 작동시키고 욕조에 물을 채우기 시작햇삼
+22:00:04.191,INFO,Unity,maxJumpVelocity20
+22:00:04.898,INFO,Unity,maxJumpVelocity20
+22:00:05.483,INFO,Unity,maxJumpVelocity20
+22:00:06.329,INFO,Unity,벽 점프
+22:00:06.687,INFO,Unity,벽 점프
+22:00:07.229,INFO,Unity,maxJumpVelocity20
+22:00:07.697,INFO,Unity,maxJumpVelocity20
+22:00:08.271,INFO,Unity,maxJumpVelocity20
+22:00:08.935,DEBUG,BathController,욕조에 물이 다찼다
+22:00:10.767,INFO,Unity,maxJumpVelocity20
+22:00:11.966,INFO,Unity,maxJumpVelocity20
+22:00:12.088,WARNING,Unity,Internal: JobTempAlloc has allocations that are more than the maximum lifespan of 4 frames old - this is not allowed and likely a leak
+22:00:12.089,WARNING,Unity,"To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations."
+22:00:12.094,WARNING,Unity,Internal: JobTempAlloc has allocations that are more than the maximum lifespan of 4 frames old - this is not allowed and likely a leak
+22:00:12.094,WARNING,Unity,"To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations."
+22:00:13.637,INFO,Unity,maxJumpVelocity20
+22:00:14.191,INFO,Unity,벽 점프
+22:00:15.143,INFO,Unity,maxJumpVelocity20

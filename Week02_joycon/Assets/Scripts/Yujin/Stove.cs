@@ -1,13 +1,11 @@
-using UnityEditor.Experimental.GraphView;
 using UnityEngine;
-using UnityEngine.EventSystems;
 
 public class Stove : MonoBehaviour
 {
-    [Header("Color Settings")]
+    [Header("Sprite Settings")]
     [SerializeField] private SpriteRenderer spriteRenderer;
-    [SerializeField] private Color fueledColor = Color.red; //연료 다 찼을 때 색깔
-    [SerializeField] private Color initialColor = Color.white; //연료 없을 때 색깔
+    [SerializeField] private Sprite fueledSprite;
+    [SerializeField] private Sprite initialSprite;
 
     [Header("Fuel Settings")]
     [SerializeField] private int requiredFirewood = 4;
@@ -24,7 +22,7 @@ public class Stove : MonoBehaviour
     private void Start()
     {
         if (spriteRenderer == null) spriteRenderer = GetComponent<SpriteRenderer>();
-        if (spriteRenderer != null) spriteRenderer.color = initialColor; //게임 시작 시 불 안킨 색상으로 설정
+        if (spriteRenderer != null) spriteRenderer.sprite = initialSprite; //게임 시작 시 불 안킨 색상으로 설정
 
         if (GetComponent<Collider2D>() == null || !GetComponent<Collider2D>().isTrigger)
         {
@@ -66,7 +64,7 @@ public class Stove : MonoBehaviour
             return;
         }
         currentFirewood = 0;
-        spriteRenderer.color = initialColor;
+        spriteRenderer.sprite = initialSprite;
         GameLogger.Instance.LogDebug(this, "스토브 초기화 완료!");
     }
 
@@ -81,7 +79,7 @@ public class Stove : MonoBehaviour
             GameLogger.Instance.LogError(this, "스토브에 spriteRenderer가 연결되지 않았습니다.");
             return;
         }
-        spriteRenderer.color = fueledColor;
+        spriteRenderer.sprite = fueledSprite;
         GameLogger.Instance.LogDebug(this, "스토브에 불을 붙였습니다");
     }
     ///<summary>냄비 감지 로직</summary>
