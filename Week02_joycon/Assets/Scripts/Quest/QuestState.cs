@@ -11,7 +11,7 @@ using static QuestManager;
         public ObjectiveState[] objectives;
     }
 
-    // TODO: ½ÇÁ¦·Î´Â ¼¼ÀÌºê/·Îµù/Dictionary µîÀ¸·Î °ü¸®
+    // TODO: ï¿½ï¿½ï¿½ï¿½ï¿½Î´ï¿½ ï¿½ï¿½ï¿½Ìºï¿½/ï¿½Îµï¿½/Dictionary ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
     public static bool HasFlag(string flagId)
     {
         // ex) return SaveData.Flags.Contains(flagId);
@@ -19,18 +19,10 @@ using static QuestManager;
     }
 }
 */
-public static class Inventory
-{
-    public static bool HasItem(string itemId)
-    {
-        // ex) return SaveData.Items.TryGetValue(itemId, out var count) && count > 0;
-        return false;
-    }
-}
 
 /*public static class QuestState
 {
-    public static bool HasFlag(string flagId) => false; // ÇÁ·ÎÁ§Æ® ¼¼ÀÌºê ½Ã½ºÅÛ°ú ¿¬°á
+    public static bool HasFlag(string flagId) => false; // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ® ï¿½ï¿½ï¿½Ìºï¿½ ï¿½Ã½ï¿½ï¿½Û°ï¿½ ï¿½ï¿½ï¿½ï¿½
 }
 
 public static class Inventory

@@ -15,7 +15,7 @@ public class Carryable : MonoBehaviour
     private LayerMask maskObstacle;
     [SerializeField] private Rigidbody2D rb;
 
-    void Start()
+    protected virtual void Start()
     {
         if (large < 0)//크기 설정 따로 안했으면
         {

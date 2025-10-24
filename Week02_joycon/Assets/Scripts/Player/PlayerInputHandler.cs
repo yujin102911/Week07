@@ -41,8 +41,6 @@ public class PlayerInputHandler : MonoBehaviour
 
     public void OnInteract(InputAction.CallbackContext context)
     {
-        Debug.Log("OnInteract called");
-
         if (context.performed)
         {
             playerCarrying.TryInteract();
