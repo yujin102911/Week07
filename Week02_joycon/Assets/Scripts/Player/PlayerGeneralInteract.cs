@@ -12,13 +12,13 @@ public class PlayerGeneralInteract : MonoBehaviour
     }
 
     private void FindAndInteract()
-    {   //내 주변 interactionRange반경 안에 있는 interactableMask레이어 오브젝트 찾음
+    {
         Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, interactionRange, interactableMask);
 
         GameObject closestObj = null;
         float minDistance = Mathf.Infinity;
 
-        foreach(Collider2D hit in hits)
+        foreach (Collider2D hit in hits)
         {
             float distance = Vector2.Distance(transform.position, hit.transform.position);
             if (distance < minDistance)
@@ -27,10 +27,11 @@ public class PlayerGeneralInteract : MonoBehaviour
                 closestObj = hit.gameObject;
             }
         }
-        if (closestObj != null && closestObj.TryGetComponent<IInteractable>(out IInteractable interactable)) interactable.Interact();
-
+        Debug.Log("Interacted with " + closestObj);
+        if (closestObj != null && closestObj.TryGetComponent<IInteractable>(out IInteractable interactable))
+        {
+            Debug.Log("Interacted with " + closestObj.name);
+            interactable.Interact();
+        }
     }
-
-    
-
 }

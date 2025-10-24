@@ -7,6 +7,7 @@ public class InteractableClothesline : MonoBehaviour, IInteractable
 
     public void Interact()
     {
+        Debug.Log("Clothesline Interacted");
         if (InventoryManager.Instance.HasItem(ItemName.Bedding) == false) return;
 
         emptyLine.SetActive(false);
