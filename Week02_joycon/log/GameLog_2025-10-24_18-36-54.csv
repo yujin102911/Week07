@@ -1,0 +1,152 @@
+Timestamp, Level, Source, Message
+18:36:54.858,INFO,GameLogger,=== Game Session Started ===
+18:36:54.863,WARNING,Unity,DontDestroyOnLoad only works for root GameObjects or components on root GameObjects.
+18:36:55.157,WARNING,Unity,Minimap: no renderers found for bounds. Check includeLayers.
+18:36:58.352,INFO,Unity,maxJumpVelocity20
+18:36:58.984,INFO,Unity,maxJumpVelocity20
+18:36:59.819,INFO,Unity,maxJumpVelocity20
+18:37:00.509,INFO,Unity,벽 점프
+18:37:01.228,INFO,Unity,maxJumpVelocity20
+18:37:01.962,INFO,Unity,maxJumpVelocity20
+18:37:02.751,INFO,Unity,maxJumpVelocity20
+18:37:03.878,INFO,Unity,maxJumpVelocity20
+18:37:04.662,INFO,Unity,maxJumpVelocity20
+18:37:07.671,INFO,Unity,maxJumpVelocity20
+18:37:08.321,INFO,Unity,maxJumpVelocity20
+18:37:09.258,INFO,Unity,maxJumpVelocity20
+18:37:10.139,INFO,Unity,maxJumpVelocity20
+18:37:10.861,INFO,Unity,maxJumpVelocity20
+18:37:11.464,INFO,Unity,maxJumpVelocity20
+18:37:12.523,INFO,Unity,사다리 점프
+18:37:15.887,INFO,Unity,maxJumpVelocity20
+18:37:16.955,INFO,Unity,사다리 점프
+18:37:18.163,INFO,Unity,maxJumpVelocity20
+18:37:18.972,INFO,Unity,maxJumpVelocity20
+18:37:19.861,INFO,Unity,사다리 점프
+18:37:22.529,INFO,Unity,maxJumpVelocity20
+18:37:24.550,INFO,Unity,maxJumpVelocity20
+18:37:25.646,INFO,Unity,사다리 코요테 점프
+18:37:26.090,INFO,Unity,사다리 점프
+18:37:27.362,INFO,Unity,벽 점프
+18:37:27.964,INFO,Unity,사다리 코요테 점프
+18:37:28.675,INFO,Unity,maxJumpVelocity20
+18:37:29.447,INFO,Unity,사다리 점프
+18:37:30.486,INFO,Unity,maxJumpVelocity20
+18:37:32.304,INFO,Unity,maxJumpVelocity20
+18:37:33.310,INFO,Unity,사다리 점프
+18:37:34.488,INFO,Unity,maxJumpVelocity20
+18:37:35.327,INFO,Unity,maxJumpVelocity20
+18:37:36.994,INFO,Unity,maxJumpVelocity20
+18:37:37.849,INFO,Unity,벽 점프
+18:37:38.427,INFO,Unity,벽 점프
+18:37:38.963,INFO,Unity,벽 점프
+18:37:39.513,INFO,Unity,벽 점프
+18:37:39.907,INFO,Unity,벽 점프
+18:37:40.335,INFO,Unity,벽 점프
+18:37:40.853,INFO,Unity,벽 점프
+18:37:41.351,INFO,Unity,벽 점프
+18:37:41.819,INFO,Unity,벽 점프
+18:37:42.237,INFO,Unity,벽 점프
+18:37:42.641,INFO,Unity,벽 점프
+18:37:43.095,INFO,Unity,벽 점프
+18:37:44.507,INFO,Unity,maxJumpVelocity20
+18:37:45.005,INFO,Unity,벽 점프
+18:37:45.448,INFO,Unity,벽 점프
+18:37:46.425,INFO,Unity,OnInteract called
+18:37:46.427,INFO,Unity,OnInteract called
+18:37:46.427,DEBUG,PlayerCarrying,집기 조작box 1 (1) (UnityEngine.BoxCollider2D)
+18:37:46.428,INFO,Unity,_focus is null
+18:37:46.583,INFO,Unity,OnInteract called
+18:37:48.471,INFO,Unity,maxJumpVelocity18.51852
+18:37:52.055,INFO,Unity,maxJumpVelocity18.51852
+18:37:54.074,INFO,Unity,사다리 점프
+18:37:54.833,INFO,Unity,maxJumpVelocity18.51852
+18:37:55.805,INFO,Unity,maxJumpVelocity18.51852
+18:37:57.249,INFO,Unity,사다리 점프
+18:37:58.438,INFO,Unity,maxJumpVelocity18.51852
+18:38:00.011,INFO,Unity,사다리 점프
+18:38:00.712,INFO,Unity,maxJumpVelocity18.51852
+18:38:01.675,INFO,Unity,사다리 점프
+18:38:03.601,INFO,Unity,maxJumpVelocity18.51852
+18:38:06.407,INFO,Unity,maxJumpVelocity20
+18:38:07.334,INFO,Unity,maxJumpVelocity20
+18:38:07.869,INFO,Unity,벽 점프
+18:38:09.684,INFO,Unity,OnInteract called
+18:38:09.685,INFO,Unity,OnInteract called
+18:38:09.685,DEBUG,PlayerCarrying,집기 조작box 1 (1) (UnityEngine.BoxCollider2D)
+18:38:09.685,INFO,Unity,_focus is null
+18:38:09.844,INFO,Unity,OnInteract called
+18:38:10.639,INFO,Unity,maxJumpVelocity18.51852
+18:38:11.527,INFO,Unity,maxJumpVelocity20
+18:38:12.492,INFO,Unity,maxJumpVelocity20
+18:38:13.083,INFO,Unity,벽 점프
+18:38:13.701,INFO,Unity,OnInteract called
+18:38:13.701,INFO,Unity,OnInteract called
+18:38:13.702,DEBUG,PlayerCarrying,집기 조작box (4) (UnityEngine.BoxCollider2D)
+18:38:13.702,INFO,Unity,_focus is null
+18:38:13.882,INFO,Unity,OnInteract called
+18:38:14.829,INFO,Unity,maxJumpVelocity19.23077
+18:38:18.104,INFO,Unity,maxJumpVelocity20
+18:38:18.987,INFO,Unity,maxJumpVelocity20
+18:38:19.751,INFO,Unity,maxJumpVelocity20
+18:38:21.635,INFO,Unity,maxJumpVelocity20
+18:38:24.652,INFO,Unity,maxJumpVelocity20
+18:38:25.682,INFO,Unity,maxJumpVelocity20
+18:38:26.563,INFO,Unity,maxJumpVelocity20
+18:38:27.244,INFO,Unity,maxJumpVelocity20
+18:38:28.508,INFO,Unity,maxJumpVelocity20
+18:38:29.098,INFO,Unity,maxJumpVelocity20
+18:38:30.062,INFO,Unity,maxJumpVelocity20
+18:38:31.497,INFO,Unity,사다리 점프
+18:38:31.978,INFO,Unity,사다리 점프
+18:38:32.670,INFO,Unity,사다리 점프
+18:38:33.694,INFO,Unity,OnInteract called
+18:38:33.695,INFO,Unity,OnInteract called
+18:38:33.695,DEBUG,PlayerCarrying,집기 조작box (4) (UnityEngine.BoxCollider2D)
+18:38:33.695,INFO,Unity,_focus is null
+18:38:33.857,INFO,Unity,OnInteract called
+18:38:37.753,INFO,Unity,indexChamge
+18:38:37.753,INFO,Unity,짐 1충돌
+18:38:37.823,INFO,Unity,벽 점프
+18:38:38.774,INFO,Unity,OnInteract called
+18:38:38.774,INFO,Unity,OnInteract called
+18:38:38.915,INFO,Unity,OnInteract called
+18:38:39.297,INFO,Unity,OnInteract called
+18:38:39.297,INFO,Unity,OnInteract called
+18:38:39.297,DEBUG,PlayerCarrying,집기 조작box (4) (UnityEngine.BoxCollider2D)
+18:38:39.298,INFO,Unity,_focus is null
+18:38:39.418,INFO,Unity,OnInteract called
+18:38:41.233,INFO,Unity,indexChamge
+18:38:41.233,INFO,Unity,짐 1충돌
+18:38:41.697,INFO,Unity,벽 점프
+18:38:42.145,INFO,Unity,사다리 점프
+18:38:42.339,INFO,Unity,OnInteract called
+18:38:42.341,INFO,Unity,OnInteract called
+18:38:42.341,DEBUG,PlayerCarrying,집기 조작box (4) (UnityEngine.BoxCollider2D)
+18:38:42.342,INFO,Unity,_focus is null
+18:38:42.487,INFO,Unity,OnInteract called
+18:38:46.791,INFO,Unity,사다리 점프
+18:38:47.968,INFO,Unity,막혔어
+18:38:48.253,INFO,Unity,maxJumpVelocity19.23077
+18:38:49.025,INFO,Unity,maxJumpVelocity20
+18:38:51.670,INFO,Unity,사다리 점프
+18:38:52.688,INFO,Unity,maxJumpVelocity20
+18:38:53.627,INFO,Unity,사다리 점프
+18:38:54.499,INFO,Unity,사다리 점프
+18:38:56.391,INFO,Unity,maxJumpVelocity20
+18:38:59.986,INFO,Unity,maxJumpVelocity20
+18:39:00.536,INFO,Unity,maxJumpVelocity20
+18:39:01.196,INFO,Unity,벽 점프
+18:39:01.905,INFO,Unity,벽 점프
+18:39:02.657,INFO,Unity,maxJumpVelocity20
+18:39:03.554,INFO,Unity,maxJumpVelocity20
+18:39:04.834,INFO,Unity,maxJumpVelocity20
+18:39:05.498,INFO,Unity,maxJumpVelocity20
+18:39:06.402,INFO,Unity,maxJumpVelocity20
+18:39:08.218,INFO,Unity,maxJumpVelocity20
+18:39:09.539,INFO,Unity,maxJumpVelocity20
+18:39:11.117,INFO,Unity,maxJumpVelocity20
+18:39:11.713,INFO,Unity,maxJumpVelocity20
+18:39:13.440,INFO,Unity,벽 점프
+18:39:14.154,INFO,Unity,maxJumpVelocity20
+18:39:14.879,INFO,Unity,maxJumpVelocity20
