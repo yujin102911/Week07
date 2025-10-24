@@ -1,19 +1,19 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(Collider2D))]
 public sealed class SpikeController : MonoBehaviour
 {
     [SerializeField] private string targetTag = "Player";
-    [SerializeField] private bool oneShot = false;     // ÇÑ ¹ø¸¸ ÀÛµ¿
-    [SerializeField] private float cooldown = 0f;      // Àç¹ßµ¿ Äğ´Ù¿î(ÃÊ)
+    [SerializeField] private bool oneShot = false;     // í•œ ë²ˆë§Œ ì‘ë™
+    [SerializeField] private float cooldown = 0f;      // ì¬ë°œë™ ì¿¨ë‹¤ìš´(ì´ˆ)
 
     bool _used;
     float _last;
 
     void Reset()
     {
-        // ½ºÆÄÀÌÅ© Äİ¶óÀÌ´õ´Â Æ®¸®°Å·Î!
+        // ìŠ¤íŒŒì´í¬ ì½œë¼ì´ë”ëŠ” íŠ¸ë¦¬ê±°ë¡œ!
         var c = GetComponent<Collider2D>();
         c.isTrigger = true;
     }
@@ -24,14 +24,14 @@ public sealed class SpikeController : MonoBehaviour
         if (cooldown > 0f && Time.time - _last < cooldown) return;
         if (!other.CompareTag(targetTag)) return;
 
-        // PlayerRespawn2D_RuntimeSO Ã£¾Æ¼­ Die()
-        // ¿ì¼± attachedRigidbody¿¡¼­ Ã£°í, ¾øÀ¸¸é »óÀ§ °èÃş¿¡¼­ ¹é¾÷ °Ë»ö
+        // PlayerRespawn2D_RuntimeSO ì°¾ì•„ì„œ Die()
+        // ìš°ì„  attachedRigidbodyì—ì„œ ì°¾ê³ , ì—†ìœ¼ë©´ ìƒìœ„ ê³„ì¸µì—ì„œ ë°±ì—… ê²€ìƒ‰
         PlayerRespawn2D_RuntimeSO respawn = null;
 
         var rb2d = other.attachedRigidbody;
         if (rb2d) respawn = rb2d.GetComponent<PlayerRespawn2D_RuntimeSO>();
         if (!respawn) respawn = other.GetComponentInParent<PlayerRespawn2D_RuntimeSO>();
-
+        rb2d.GetComponent<PlayerCarrying>().collideCarrying=0;//ìŠ¤íŒŒì´í¬ì— ë‹¿ìœ¼ë©´ ë“¤ê³ ìˆëŠ” ì§ ëª¨ë‘ ë–¨ì–´ëœ¨ë¦¬ê¸°
         if (respawn)
         {
             Debug.Log("Player Trigger");
