@@ -38,14 +38,14 @@ public class PlayerCarrying : MonoBehaviour
     [SerializeField] private float interactionRange = 1.5f; // 상호작용 감지 범위
     [SerializeField] private LayerMask interactableMask;    // "WorldInteractable" 레이어
     private Collider2D[] interactableHits = new Collider2D[3]; // 감지용 캐시
-    private ContactFilter2D interactableFilter; // [수정] NonAlloc 방식 변경으로 이 필터가 필요합니다.
+    private ContactFilter2D interactableFilter; // NonAlloc 방식 변경으로 이 필터가 필요합니다.
 
     [Header("General Interaction")]
-    [SerializeField] private LayerMask spriteChangerMask;
+    //[SerializeField] private LayerMask spriteChangerMask;
     private Player playerScript; // Player.cs 참조용
-    private ContactFilter2D spriteChangerFilter;
-    [SerializeField] private LayerMask generalInteractableMask;
-    private ContactFilter2D generalInteractableFilter;
+    //private ContactFilter2D spriteChangerFilter;
+    //[SerializeField] private LayerMask generalInteractableMask;
+    //private ContactFilter2D generalInteractableFilter;
     private void Start()
     {
         playerScript = GetComponent<Player>();
@@ -66,9 +66,9 @@ public class PlayerCarrying : MonoBehaviour
         interactableFilter.SetLayerMask(interactableMask); // 인스펙터에서 설정한 'WorldInteractable' 레이어를 사용
         interactableFilter.useTriggers = true; // 'Is Trigger'가 체크된 콜라이더도 감지
 
-        spriteChangerFilter = new ContactFilter2D();
-        spriteChangerFilter.SetLayerMask(spriteChangerMask);
-        spriteChangerFilter.useTriggers = true;
+        //spriteChangerFilter = new ContactFilter2D();
+        //spriteChangerFilter.SetLayerMask(spriteChangerMask);
+        //spriteChangerFilter.useTriggers = true;
 
 
         if (playerCollider == null)
@@ -107,10 +107,10 @@ public class PlayerCarrying : MonoBehaviour
         lastInteractTime = Time.time; //만약 쿨타임 지난 상태면 지난 상호작용 시간을 지금 시간으로 설정
         GameLogger.Instance.LogDebug(this, "쿨타임 지났음");
 
-        if (TryChangeSprite())
-        {
-            return; // 성공했으니 줍기/아이템사용 안 함
-        }
+        //if (TryChangeSprite())
+        //{
+        //    return; // 성공했으니 줍기/아이템사용 안 함
+        //}
 
         if (TryUseItemOnWorld())
         {
@@ -313,27 +313,61 @@ public class PlayerCarrying : MonoBehaviour
     ///상호작용 시도라도 했으면 -> True, 상호작용 시도할 객체도 없었으면 -> False
     private bool TryUseItemOnWorld()
     {
-        if (carriedObjects.Count == 0) return false; //내가 들고 있는 오브젝트가 없으면 false
-        GameLogger.Instance.LogDebug(this, "내가 들고 있는 오브젝트 있음");
-        //만약 들고 있는 아이템이 있으면
-        Carryable topItem = carriedObjects[0].GetComponent<Carryable>();//0번 인덱스의 Carryable아이템의 아이디를 가져옴
-        if (topItem == null) { GameLogger.Instance.LogError(this, "0번 인덱스에 있는 아이템이 carryable이 아님"); return false; }//만약 topItem이 carryable이 아닐 경우(에러 발생)
-
-        string heldItemId = topItem.Id; //0번째 인덱스 아이템 Id 저장
-
-        int hitCount = Physics2D.OverlapCircle(transform.position, interactionRange, interactableFilter, interactableHits); if (hitCount == 0) return false; //WorldInteractable 붙어있는 사물이 없으면 false
-        GameLogger.Instance.LogDebug(this, "WordInteractable할수 있음");
-        Collider2D closestHit = interactableHits[0]; //가장 가까운 사물 찾기
-
-        WorldInteractable interactable = closestHit.GetComponent<WorldInteractable>();
-        if (interactable != null)
+        // 1. 들고 있는 아이템 ID 가져오기 (맨손이면 null)
+        string heldItemId = null;
+        if (carriedObjects.Count > 0)
         {
-            interactable.AttemptInteraction(heldItemId, this);
-            GameLogger.Instance.LogDebug(this, "상호작용 성공함!!");
-            return true; //상호작용을 성공했던 안했던 시도했으면 true반환 
+            Carryable topItem = carriedObjects[0].GetComponent<Carryable>();
+            if (topItem == null) { GameLogger.Instance.LogError(this, "0번 인덱스에 있는 아이템이 carryable이 아님"); return false; }
+            heldItemId = topItem.Id;
         }
 
-        return false;
+        // 2. [수정] TryPickUp과 동일한 사각형 범위로 'interactableMask' 레이어 감지
+        Collider2D[] hits = Physics2D.OverlapBoxAll(
+            new Vector2(transform.position.x + (pickUpRange / 2 * controller2D.collisions.faceDir), transform.position.y),
+            new Vector2(pickUpRange, playerCollider.bounds.size.y), 0f, interactableMask); // *<- interactableMask 사용*
+
+        if (hits.Length == 0) return false; // 상호작용할 오브젝트 없음
+
+        // 3. [추가] 감지된 것들 중 가장 가까운 WorldInteractable 오브젝트 찾기
+        GameObject closestObj = null;
+        float minDistance = Mathf.Infinity;
+        WorldInteractable interactable = null; // 가장 가까운 오브젝트의 스크립트
+
+        foreach (Collider2D hit in hits)
+        {
+            // WorldInteractable 스크립트가 있는지 확인
+            if (hit.TryGetComponent<WorldInteractable>(out WorldInteractable tempInteractable))
+            {
+                float distance = Vector2.Distance(transform.position, hit.transform.position);
+                if (distance < minDistance)
+                {
+                    minDistance = distance;
+                    closestObj = hit.gameObject;
+                    interactable = tempInteractable; // 가장 가까운 오브젝트 정보 저장
+                }
+            }
+        }
+
+        // 4. [수정] 가장 가까운 스크립트를 찾았으면 상호작용 시도
+        if (interactable != null)
+        {
+            GameLogger.Instance.LogDebug(this, $"WorldInteractable 감지: {closestObj.name}");
+            bool success = interactable.AttemptInteraction(heldItemId, this); // 상호작용 시도
+
+            if (success)
+            {
+                GameLogger.Instance.LogDebug(this, "상호작용 성공함!!");
+                return true; // 성공했으므로 true 반환 (TryPickUp 실행 안 됨)
+            }
+            else
+            {
+                GameLogger.Instance.LogDebug(this, "상호작용 실패함 (아이템 불일치 등). 줍기 시도.");
+                return false; // 실패했으므로 false 반환 (TryPickUp 실행됨)
+            }
+        }
+
+        return false; // 감지된 콜라이더에 WorldInteractable 스크립트가 없었음
     }
     public void ConsumeItem(int index)
     {
@@ -350,44 +384,44 @@ public class PlayerCarrying : MonoBehaviour
     /// <summary>
     /// 주변의 'SpriteChangeStation'과 상호작용을 시도합니다.
     /// </summary>
-    private bool TryChangeSprite()
-    {
-        // 1. 스프라이트 변경 오브젝트 감지
-        // (이름을 interactionHits로 바꾼 범용 캐시 배열 사용)
-        int hitCount = Physics2D.OverlapCircle(transform.position, interactionRange, spriteChangerFilter, interactableHits);
+    //private bool TryChangeSprite()
+    //{
+    //    // 1. 스프라이트 변경 오브젝트 감지
+    //    // (이름을 interactionHits로 바꾼 범용 캐시 배열 사용)
+    //    int hitCount = Physics2D.OverlapCircle(transform.position, interactionRange, spriteChangerFilter, interactableHits);
 
-        if (hitCount > 0)
-        {
-            // 2. 스크립트 가져오기 (가장 가까운 것 - 0번 인덱스)
-            PlayerSpriteChanger station = interactableHits[0].GetComponent<PlayerSpriteChanger>();
-            if (station != null)
-            {
-                // 3. 내 Player.cs 스크립트의 함수 호출
-                station.ChangeSprite(playerScript); // 스테이션에 Player 참조를 넘겨줌
-                return true; // 상호작용 성공
-            }
-        }
-        return false; // 상호작용할 스테이션 없음
-    }
+    //    if (hitCount > 0)
+    //    {
+    //        // 2. 스크립트 가져오기 (가장 가까운 것 - 0번 인덱스)
+    //        PlayerSpriteChanger station = interactableHits[0].GetComponent<PlayerSpriteChanger>();
+    //        if (station != null)
+    //        {
+    //            // 3. 내 Player.cs 스크립트의 함수 호출
+    //            station.ChangeSprite(playerScript); // 스테이션에 Player 참조를 넘겨줌
+    //            return true; // 상호작용 성공
+    //        }
+    //    }
+    //    return false; // 상호작용할 스테이션 없음
+    //}
 
-    ///<summary>맨손으로 일반 상호작용을 시도</summary>
-    private bool TryGeneralInteract()
-    {
-        int hitCount = Physics2D.OverlapCircle(transform.position, interactionRange, generalInteractableFilter, interactableHits);
-        if (hitCount > 0)
-        {
-            // 가장 가까운 오브젝트의 IInteractable 가져오기
-            Collider2D closestHit = interactableHits[0];
-            // (참고: hitCount > 1일 때 진짜 가장 가까운 것을 찾는 로직 추가 가능)
+    /////<summary>맨손으로 일반 상호작용을 시도</summary>
+    //private bool TryGeneralInteract()
+    //{
+    //    int hitCount = Physics2D.OverlapCircle(transform.position, interactionRange, generalInteractableFilter, interactableHits);
+    //    if (hitCount > 0)
+    //    {
+    //        // 가장 가까운 오브젝트의 IInteractable 가져오기
+    //        Collider2D closestHit = interactableHits[0];
+    //        // (참고: hitCount > 1일 때 진짜 가장 가까운 것을 찾는 로직 추가 가능)
 
-            if (closestHit.TryGetComponent<IInteractable>(out IInteractable interactable))
-            {
-                interactable.Interact(); // Interact() 함수 호출
-                GameLogger.Instance.LogDebug(this, $"일반 상호작용 성공: {closestHit.name}");
-                return true; // 상호작용 성공
-            }
-        }
-        return false; // 상호작용할 IInteractable이 없음
-    }
+    //        if (closestHit.TryGetComponent<IInteractable>(out IInteractable interactable))
+    //        {
+    //            interactable.Interact(); // Interact() 함수 호출
+    //            GameLogger.Instance.LogDebug(this, $"일반 상호작용 성공: {closestHit.name}");
+    //            return true; // 상호작용 성공
+    //        }
+    //    }
+    //    return false; // 상호작용할 IInteractable이 없음
+    //}
 
 }

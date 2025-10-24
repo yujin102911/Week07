@@ -1,9 +1,0 @@
-Timestamp, Level, Source, Message
-14:22:49.813,INFO,GameLogger,=== Game Session Started ===
-14:22:52.524,INFO,Unity,maxJumpVelocity20
-14:22:53.185,DEBUG,PlayerCarrying,집기 조작Bedding (UnityEngine.BoxCollider2D)
-14:22:53.187,INFO,Unity,_focus is null
-14:22:53.756,INFO,Unity,maxJumpVelocity19.80198
-14:22:54.955,INFO,Unity,maxJumpVelocity19.80198
-14:22:57.914,WARNING,Unity,Internal: JobTempAlloc has allocations that are more than the maximum lifespan of 4 frames old - this is not allowed and likely a leak
-14:22:57.915,WARNING,Unity,"To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations."
