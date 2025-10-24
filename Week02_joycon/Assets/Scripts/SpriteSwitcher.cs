@@ -25,7 +25,7 @@ public class SpriteSwitcher : MonoBehaviour, IInteractable
             if (spriteObjectA != null) { spriteObjectA.SetActive(false); }
             if (spriteObjectB != null) { spriteObjectB.SetActive(true); }
             hasSwithced=true;
-            Debug.Log($"{spriteObjectA.name}를 비활성화하고 {spriteObjectB.name}을 활성화 했습니다.");
+            GameLogger.Instance.LogDebug(this, $"{spriteObjectA.name}를 비활성화하고 {spriteObjectB.name}을 활성화 했습니다.");
         }
     }
 
