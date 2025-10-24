@@ -1,0 +1,30 @@
+Timestamp, Level, Source, Message
+14:38:11.446,INFO,GameLogger,=== Game Session Started ===
+14:38:13.187,INFO,Unity,maxJumpVelocity20
+14:38:14.103,ERROR,Unity,"NotImplementedException: The method or operation is not implemented.
+InteractableMirror.IInteractable.Interact () (at Assets/Scripts/Object/InteractableMirror.cs:28)
+PlayerLight.FindAndInteract () (at Assets/Scripts/Player/PlayerLight.cs:31)
+PlayerLight.OnTnteract (UnityEngine.InputSystem.InputAction+CallbackContext context) (at Assets/Scripts/Player/PlayerLight.cs:12)
+UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) (at <435b7303fa1046c7aefb885a0b7d525b>:0)
+UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) (at <435b7303fa1046c7aefb885a0b7d525b>:0)
+UnityEngine.InputSystem.Utilities.DelegateHelpers.InvokeCallbacksSafe[TValue] (UnityEngine.InputSystem.Utilities.CallbackArray`1[System.Action`1[TValue]]& callbacks, TValue argument, System.String callbackName, System.Object context) (at ./Library/PackageCache/com.unity.inputsystem@be6c4fd0abf5/InputSystem/Utilities/DelegateHelpers.cs:46)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr)
+"
+14:38:14.108,ERROR,Unity,"NotImplementedException while executing 'performed' callbacks of 'Player/Interact[/Keyboard/e]'
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr)
+"
+14:38:15.191,DEBUG,PlayerCarrying,집기 조작PiggyBank (UnityEngine.BoxCollider2D)
+14:38:15.191,DEBUG,PlayerCarrying,집기 조작Bedding (UnityEngine.BoxCollider2D)
+14:38:15.193,INFO,Unity,_focus is null
+14:38:15.977,INFO,Unity,maxJumpVelocity18.18182
+14:38:17.228,INFO,Unity,maxJumpVelocity18.18182
+14:38:19.813,INFO,Unity,maxJumpVelocity18.18182
+14:38:22.503,DEBUG,PlayerCarrying,집기 조작Coin(Clone) (UnityEngine.BoxCollider2D)
+14:38:22.504,DEBUG,PlayerCarrying,집기 조작Coin(Clone) (UnityEngine.BoxCollider2D)
+14:38:22.504,DEBUG,PlayerCarrying,집기 조작Coin(Clone) (UnityEngine.BoxCollider2D)
+14:38:22.506,INFO,Unity,_focus is null
+14:38:23.118,INFO,Unity,maxJumpVelocity19.80198
+14:38:23.976,INFO,Unity,maxJumpVelocity19.80198
+14:38:28.668,INFO,Unity,maxJumpVelocity20
