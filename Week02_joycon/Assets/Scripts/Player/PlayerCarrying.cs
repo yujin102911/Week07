@@ -95,7 +95,7 @@ public class PlayerCarrying : MonoBehaviour
         float minDistance = Mathf.Infinity;
         foreach (Collider2D hit in hits)
         {
-            GameLogger.Instance.LogDebug(this, "집기 조작"+hit);
+            GameLogger.Instance.LogDebug(this, "집기 조작" + hit);
             Carryable carryable = hit.GetComponent<Carryable>();
             if (carryable != null && carryable.carrying)
             {
@@ -131,8 +131,9 @@ public class PlayerCarrying : MonoBehaviour
             carriedObjects.Add(closestObj);
             collideCarrying++;//충돌 할 수 있는 물체+ (최대치+1유지해야 안떨어짐)
             Carryable carryable = closestObj.GetComponent<Carryable>();
-            if (carryable != null)
-                carryable.carrying = true;
+            if (carryable != null) carryable.carrying = true;
+            if (carryable.GetItemName() != ItemName.None)
+                InventoryManager.Instance.AddItem(carryable.GetItemName(), closestObj);
 
             #region Events
             Interactable2D _focus;
@@ -159,8 +160,8 @@ public class PlayerCarrying : MonoBehaviour
     public void TryDrop()
     {
         if (Time.time - lastInteractTime < interactCooldown) return;
-        
-       lastInteractTime = Time.time; // 드랍 쿨타임
+
+        lastInteractTime = Time.time; // 드랍 쿨타임
 
         if (carriedObjects.Count > 0)
         {

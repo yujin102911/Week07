@@ -1,0 +1,16 @@
+Timestamp, Level, Source, Message
+14:38:52.237,INFO,GameLogger,=== Game Session Started ===
+14:38:55.621,INFO,Unity,maxJumpVelocity20
+14:38:56.488,INFO,Unity,maxJumpVelocity20
+14:38:57.175,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+14:38:57.176,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+14:38:57.176,INFO,Unity,_focus is null
+14:38:57.771,INFO,Unity,maxJumpVelocity19.80198
+14:38:58.559,INFO,Unity,maxJumpVelocity19.80198
+14:38:59.334,INFO,Unity,maxJumpVelocity19.80198
+14:38:59.919,INFO,Unity,indexChamge
+14:38:59.920,INFO,Unity,짐 1충돌
+14:39:00.679,INFO,Unity,maxJumpVelocity20
+14:39:01.921,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+14:39:01.923,INFO,Unity,_focus is null
+14:39:02.785,INFO,Unity,maxJumpVelocity19.80198
