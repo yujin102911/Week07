@@ -1,0 +1,60 @@
+Timestamp, Level, Source, Message
+21:03:07.655,INFO,GameLogger,=== Game Session Started ===
+21:03:09.419,INFO,Unity,maxJumpVelocity20
+21:03:10.138,INFO,Unity,maxJumpVelocity20
+21:03:10.781,DEBUG,PlayerCarrying,쿨타임 지났음
+21:03:10.785,DEBUG,PlayerCarrying,집기 조작Bedding (UnityEngine.BoxCollider2D)
+21:03:10.787,INFO,Unity,_focus is null
+21:03:10.788,INFO,Unity,Interacted with 
+21:03:11.324,INFO,Unity,maxJumpVelocity19.80198
+21:03:12.214,DEBUG,PlayerCarrying,쿨타임 지났음
+21:03:12.215,DEBUG,PlayerCarrying,집기 조작Rag (UnityEngine.BoxCollider2D)
+21:03:12.218,INFO,Unity,_focus is null
+21:03:12.218,INFO,Unity,Interacted with Mirror (UnityEngine.GameObject)
+21:03:12.220,INFO,Unity,Interacted with Mirror
+21:03:12.225,ERROR,Unity,"NotImplementedException: The method or operation is not implemented.
+InteractableMirror.IInteractable.Interact () (at Assets/Scripts/Object/InteractableMirror.cs:28)
+PlayerGeneralInteract.FindAndInteract () (at Assets/Scripts/Player/PlayerGeneralInteract.cs:34)
+PlayerGeneralInteract.OnInteract (UnityEngine.InputSystem.InputAction+CallbackContext context) (at Assets/Scripts/Player/PlayerGeneralInteract.cs:11)
+UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) (at <435b7303fa1046c7aefb885a0b7d525b>:0)
+UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) (at <435b7303fa1046c7aefb885a0b7d525b>:0)
+UnityEngine.InputSystem.Utilities.DelegateHelpers.InvokeCallbacksSafe[TValue] (UnityEngine.InputSystem.Utilities.CallbackArray`1[System.Action`1[TValue]]& callbacks, TValue argument, System.String callbackName, System.Object context) (at ./Library/PackageCache/com.unity.inputsystem@be6c4fd0abf5/InputSystem/Utilities/DelegateHelpers.cs:46)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr)
+"
+21:03:12.227,ERROR,Unity,"NotImplementedException while executing 'performed' callbacks of 'Player/Interact[/Keyboard/e]'
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr)
+"
+21:03:12.867,INFO,Unity,maxJumpVelocity19.60784
+21:03:13.715,INFO,Unity,maxJumpVelocity19.60784
+21:03:14.501,DEBUG,PlayerCarrying,쿨타임 지났음
+21:03:14.502,INFO,Unity,Interacted with Clothesline (UnityEngine.GameObject)
+21:03:14.503,INFO,Unity,Interacted with Clothesline
+21:03:14.503,INFO,Unity,Clothesline Interacted
+21:03:16.103,DEBUG,PlayerCarrying,쿨타임 지났음
+21:03:16.104,INFO,Unity,Interacted with Clothesline (UnityEngine.GameObject)
+21:03:16.104,INFO,Unity,Interacted with Clothesline
+21:03:16.105,INFO,Unity,Clothesline Interacted
+21:03:16.688,INFO,Unity,막혔어
+21:03:16.975,INFO,Unity,막혔어
+21:03:17.050,INFO,Unity,maxJumpVelocity19.80198
+21:03:18.436,DEBUG,PlayerCarrying,쿨타임 지났음
+21:03:18.437,INFO,Unity,Interacted with 
+21:03:18.615,INFO,Unity,maxJumpVelocity20
+21:03:18.862,DEBUG,PlayerCarrying,쿨타임 지났음
+21:03:18.864,INFO,Unity,Interacted with 
+21:03:19.755,DEBUG,PlayerCarrying,쿨타임 지났음
+21:03:19.755,INFO,Unity,Interacted with 
+21:03:20.417,DEBUG,PlayerCarrying,쿨타임 지났음
+21:03:20.418,INFO,Unity,Interacted with 
+21:03:22.144,DEBUG,PlayerCarrying,쿨타임 지났음
+21:03:22.144,DEBUG,PlayerCarrying,집기 조작Rag (UnityEngine.BoxCollider2D)
+21:03:22.145,INFO,Unity,_focus is null
+21:03:22.145,INFO,Unity,Interacted with 
+21:03:22.787,INFO,Unity,maxJumpVelocity19.80198
+21:03:24.298,INFO,Unity,maxJumpVelocity20
+21:03:24.652,DEBUG,PlayerCarrying,쿨타임 지났음
+21:03:24.653,DEBUG,PlayerCarrying,집기 조작Rag (UnityEngine.BoxCollider2D)
+21:03:24.654,INFO,Unity,_focus is null
+21:03:24.654,INFO,Unity,Interacted with 
