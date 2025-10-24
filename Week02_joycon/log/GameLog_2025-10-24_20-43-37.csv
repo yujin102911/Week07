@@ -1,0 +1,68 @@
+Timestamp, Level, Source, Message
+20:43:37.841,INFO,GameLogger,=== Game Session Started ===
+20:43:39.405,INFO,Unity,maxJumpVelocity20
+20:43:45.304,INFO,Unity,maxJumpVelocity20
+20:43:45.680,WARNING,Unity,Internal: JobTempAlloc has allocations that are more than the maximum lifespan of 4 frames old - this is not allowed and likely a leak
+20:43:45.682,WARNING,Unity,"To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations."
+20:43:46.135,WARNING,Unity,Internal: JobTempAlloc has allocations that are more than the maximum lifespan of 4 frames old - this is not allowed and likely a leak
+20:43:46.135,WARNING,Unity,"To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations."
+20:43:46.409,INFO,Unity,maxJumpVelocity20
+20:43:47.006,DEBUG,PlayerCarrying,쿨타임 지났음
+20:43:47.009,DEBUG,PlayerCarrying,집기 조작PiggyBank (UnityEngine.BoxCollider2D)
+20:43:47.011,INFO,Unity,_focus is null
+20:43:47.473,INFO,Unity,maxJumpVelocity18.18182
+20:43:48.155,INFO,Unity,maxJumpVelocity18.18182
+20:43:49.100,INFO,Unity,maxJumpVelocity18.18182
+20:43:51.195,WARNING,Unity,Internal: JobTempAlloc has allocations that are more than the maximum lifespan of 4 frames old - this is not allowed and likely a leak
+20:43:51.197,WARNING,Unity,"To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations."
+20:43:51.519,DEBUG,PlayerCarrying,쿨타임 지났음
+20:43:51.520,DEBUG,PlayerCarrying,집기 조작Coin(Clone) (UnityEngine.BoxCollider2D)
+20:43:51.520,DEBUG,PlayerCarrying,집기 조작Coin(Clone) (UnityEngine.BoxCollider2D)
+20:43:51.522,DEBUG,PlayerCarrying,집기 조작Coin(Clone) (UnityEngine.BoxCollider2D)
+20:43:51.522,DEBUG,PlayerCarrying,집기 조작Coin(Clone) (UnityEngine.BoxCollider2D)
+20:43:51.524,INFO,Unity,_focus is null
+20:43:51.816,DEBUG,PlayerCarrying,쿨타임 지났음
+20:43:51.817,DEBUG,PlayerCarrying,집기 조작Coin(Clone) (UnityEngine.BoxCollider2D)
+20:43:51.818,DEBUG,PlayerCarrying,집기 조작Coin(Clone) (UnityEngine.BoxCollider2D)
+20:43:51.818,DEBUG,PlayerCarrying,집기 조작Coin(Clone) (UnityEngine.BoxCollider2D)
+20:43:51.818,INFO,Unity,_focus is null
+20:43:52.736,INFO,Unity,maxJumpVelocity19.60784
+20:43:53.522,INFO,Unity,maxJumpVelocity19.60784
+20:43:56.517,WARNING,Unity,Internal: JobTempAlloc has allocations that are more than the maximum lifespan of 4 frames old - this is not allowed and likely a leak
+20:43:56.517,WARNING,Unity,"To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations."
+20:43:56.575,WARNING,Unity,Internal: JobTempAlloc has allocations that are more than the maximum lifespan of 4 frames old - this is not allowed and likely a leak
+20:43:56.576,WARNING,Unity,"To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations."
+20:43:59.555,WARNING,Unity,Internal: JobTempAlloc has allocations that are more than the maximum lifespan of 4 frames old - this is not allowed and likely a leak
+20:43:59.556,WARNING,Unity,"To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations."
+20:44:09.855,INFO,Unity,maxJumpVelocity20
+20:44:10.592,INFO,Unity,maxJumpVelocity20
+20:44:11.379,DEBUG,PlayerCarrying,쿨타임 지났음
+20:44:11.380,DEBUG,PlayerCarrying,집기 조작Coin(Clone) (UnityEngine.BoxCollider2D)
+20:44:11.381,INFO,Unity,_focus is null
+20:44:11.682,DEBUG,PlayerCarrying,쿨타임 지났음
+20:44:11.683,DEBUG,PlayerCarrying,집기 조작Bedding (UnityEngine.BoxCollider2D)
+20:44:11.683,INFO,Unity,_focus is null
+20:44:11.783,INFO,Unity,indexChamge
+20:44:11.784,INFO,Unity,짐 2충돌
+20:44:12.540,DEBUG,PlayerCarrying,쿨타임 지났음
+20:44:12.541,DEBUG,PlayerCarrying,집기 조작Coin(Clone) (UnityEngine.BoxCollider2D)
+20:44:12.542,INFO,Unity,_focus is null
+20:44:13.324,INFO,Unity,maxJumpVelocity19.60784
+20:44:14.238,INFO,Unity,maxJumpVelocity19.60784
+20:44:14.968,INFO,Unity,maxJumpVelocity19.60784
+20:44:17.585,WARNING,Unity,Internal: JobTempAlloc has allocations that are more than the maximum lifespan of 4 frames old - this is not allowed and likely a leak
+20:44:17.585,WARNING,Unity,"To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations."
+20:44:20.523,DEBUG,PlayerCarrying,쿨타임 지났음
+20:44:20.523,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+20:44:20.525,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+20:44:20.525,INFO,Unity,_focus is null
+20:44:21.491,INFO,Unity,막혔어
+20:44:22.041,INFO,Unity,maxJumpVelocity19.80198
+20:44:22.980,INFO,Unity,maxJumpVelocity19.80198
+20:44:25.343,DEBUG,PlayerCarrying,쿨타임 지났음
+20:44:25.878,DEBUG,PlayerCarrying,쿨타임 지났음
+20:44:25.879,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+20:44:25.880,INFO,Unity,_focus is null
+20:44:26.420,INFO,Unity,maxJumpVelocity19.80198
+20:44:26.835,WARNING,Unity,Internal: JobTempAlloc has allocations that are more than the maximum lifespan of 4 frames old - this is not allowed and likely a leak
+20:44:26.835,WARNING,Unity,"To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations."
