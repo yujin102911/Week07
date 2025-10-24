@@ -9,7 +9,6 @@ public sealed class QuestTodoUI : MonoBehaviour
     [SerializeField] private TMP_Text Titletext;
     [SerializeField] private TMP_Text ContentsText;
 
-    // 취소선 태그
     const string S_OPEN = "<s>";
     const string S_CLOSE = "</s>";
 
@@ -29,10 +28,8 @@ public sealed class QuestTodoUI : MonoBehaviour
     public void SetQuest(uint newId)
     {
         questId = newId;
-        Redraw(); // 변경 즉시 UI 갱신
+        Redraw();
     }
-
-
 
     void OnQuestUpdated(uint changedId)
     {
@@ -48,10 +45,10 @@ public sealed class QuestTodoUI : MonoBehaviour
             return;
         }
 
-        var sb = new StringBuilder(256); // 본문
-        var tb = new StringBuilder(256); // 제목
+        var sb = new StringBuilder(256); // body
+        var tb = new StringBuilder(128); // title
 
-        // 제목: 전체 완료 시 취소선
+        // Title with strike when whole quest completed
         AppendLineWithStrike(tb, qs.so.title, qs.completed);
 
         for (int i = 0; i < qs.objectives.Length; ++i)
@@ -72,52 +69,33 @@ public sealed class QuestTodoUI : MonoBehaviour
             }
             sb.AppendLine();
 
-            // --- 서브태스크 출력 (targetId가 '_'로 시작하면 숨김) ---
+            // Subtasks (InteractSet only): render enum labels aligned with subs
             var subs = o.subs;
-            if (subs != null && subs.Length > 0)
+            if (subs != null && subs.Length > 0 && o.def.type == ObjectiveType.InteractSet)
             {
-                bool hasVisible = false;
-                for (int s = 0; s < subs.Length; ++s)
-                {
-                    var tid = subs[s].targetId;
-                    if (!string.IsNullOrEmpty(tid) && !tid.StartsWith("_"))
-                    {
-                        hasVisible = true;
-                        break;
-                    }
-                }
+                // Prepare labels from enums (no strings in runtime)
+                var enumLabels = (o.def.targetEnums != null && o.def.targetEnums.Length > 0)
+                    ? o.def.targetEnums
+                    : new InteractableId[] { o.def.targetEnum };
 
-                if (hasVisible)
+                // If counts mismatch, we still try to render up to the smaller length
+                int count = Mathf.Min(subs.Length, enumLabels.Length);
+                if (count > 0)
                 {
                     sb.Append("   · ( ");
-                    bool firstPrinted = false;
-
-                    for (int s = 0; s < subs.Length; ++s)
+                    for (int s = 0; s < count; ++s)
                     {
-                        var st = subs[s];
-                        var tid = st.targetId;
-
-                        // 숨김 규칙
-                        if (string.IsNullOrEmpty(tid) || tid.StartsWith("_"))
-                            continue;
-
-                        if (firstPrinted) sb.Append(", ");
-                        firstPrinted = true;
-
-                        if (st.done)
-                            sb.Append(S_OPEN).Append(tid).Append(S_CLOSE);
+                        if (s > 0) sb.Append(", ");
+                        var label = enumLabels[s].ToString();
+                        if (subs[s].done)
+                            sb.Append(S_OPEN).Append(label).Append(S_CLOSE);
                         else
-                            sb.Append(tid);
+                            sb.Append(label);
                     }
-
                     sb.Append(" )");
-                    sb.AppendLine();
                 }
-                // hasVisible == false면 아무 것도 추가하지 않음
             }
-            // subs가 없으면 아무 것도 추가하지 않음
         }
-
 
         if (Titletext) { Titletext.richText = true; Titletext.text = tb.ToString(); }
         ContentsText.richText = true;

@@ -1,25 +1,30 @@
 using System.Collections.Generic;
 using UnityEngine;
-using Game.Quests; // QuestEvents, InteractionKind
+using Game.Quests; // QuestRuntime, QuestFlags
 
+/// <summary>
+/// Slim StayScanner2D:
+/// - Tracks Carryable objects with matching ScannerID inside this trigger.
+/// - When at least `requiredCount` eligible objects stay for `requiredStaySeconds`, sets `flagToSet` once.
+/// - No Enter/Exit interact events, no cancel/undo. Flags only.
+/// </summary>
 [DisallowMultipleComponent]
 [RequireComponent(typeof(Rigidbody2D), typeof(Collider2D))]
 public sealed class StayScanner2D : MonoBehaviour
 {
-    [Header("Scanner ID")]
-    [SerializeField] private uint scannerId = 1; // Carryable.ScannerID와 같아야 발동
-
-    [Header("Actor Filter (Carryable가 있는 레이어)")]
+    [Header("Match")]
+    [SerializeField] private uint scannerId = 1;     // Carryable.ScannerID to accept
     [SerializeField] private LayerMask actorMask = ~0;
+    [SerializeField] private bool excludeCarried = true;
 
-    [Header("Stay Tuning")]
-    [SerializeField, Min(0.01f)] private float requiredStaySeconds = 0.8f;
-    [SerializeField, Range(0f, 0.5f)] private float stayGrace = 0.1f;
-    [SerializeField] private bool excludeCarried = true; // 들고 있는 동안은 제외
+    [Header("Goal")]
+    [SerializeField] private int requiredCount = 1;  // how many eligible objects must be inside
+    [SerializeField] private float requiredStaySeconds = 0.8f;
+    [SerializeField] private string flagToSet = "Boxes.StoredAll";
 
-    [Header("Fire Policy")]
-    [SerializeField] private bool oneShot = true;
-    [SerializeField, Range(0f, 10f)] private float cooldown = 0f;
+    [Header("Policy")]
+    [SerializeField] private bool oneShot = false; // dynamic by default
+    [SerializeField] private float cooldown = 0f;
 
     [Header("Boot")]
     [SerializeField] private bool scanOnEnable = true;
@@ -29,21 +34,12 @@ public sealed class StayScanner2D : MonoBehaviour
     private ContactFilter2D _filter;
     private float _lastFireAt = -999f;
     private bool _firedOnce;
+    private bool _flagActive;
 
-    private sealed class State
-    {
-        public Carryable carry;
-        public float elapsed;
-        public float lastSeenAt;
-    }
-
-    // Carryable 단위 추적
-    private readonly Dictionary<Carryable, State> _tracked = new(64);
-    // Collider2D → Carryable 캐시 (OnTriggerStay 비용 절감)
+    // Tracking
+    private readonly Dictionary<Carryable, float> _insideSince = new(64);
     private readonly Dictionary<Collider2D, Carryable> _col2Carry = new(128);
-
-    private static readonly List<Carryable> _toRemove = new(32);
-    private static readonly Collider2D[] _hits = new Collider2D[32];
+    private static readonly Collider2D[] _hits = new Collider2D[64];
 
     void Awake()
     {
@@ -81,70 +77,71 @@ public sealed class StayScanner2D : MonoBehaviour
             if (!c) continue;
 
             var carry = ResolveCarryable(c);
-            if (!carry) continue;
-            if (carry.ScannerID != scannerId) continue; // 스캐너-타깃 매칭
+            if (!IsEligible(carry)) continue;
 
             _col2Carry[c] = carry;
-            TryTrack(carry, true);
+            if (!_insideSince.ContainsKey(carry))
+                _insideSince.Add(carry, Time.time);
         }
     }
 
     void Update()
     {
         if (oneShot && _firedOnce) return;
+        // we allow zero count to clear the flag below
+
+        // purge ineligible (carried, id mismatch, destroyed)
+        _toRemove.Clear();
+        foreach (var kv in _insideSince)
+        {
+            var carry = kv.Key;
+            if (!IsEligible(carry)) _toRemove.Add(carry);
+        }
+        for (int i = 0; i < _toRemove.Count; ++i) _insideSince.Remove(_toRemove[i]);
+
+        if (_insideSince.Count < Mathf.Max(1, requiredCount)) return;
 
         float now = Time.time;
         bool allowFireNow = (now - _lastFireAt) >= cooldown;
+        if (!allowFireNow) return;
 
-        if (_tracked.Count == 0 || !allowFireNow) return;
-
-        _toRemove.Clear();
-
-        foreach (var kv in _tracked)
+        // Check all eligible have stayed long enough (we only need requiredCount of them).
+        int ok = 0;
+        foreach (var kv in _insideSince)
         {
-            var st = kv.Value;
-            var carry = st.carry;
-            if (!carry) { _toRemove.Add(kv.Key); continue; }
-
-            // 매칭이 바뀌었다면 제거(안전)
-            if (carry.ScannerID != scannerId) { _toRemove.Add(kv.Key); continue; }
-
-            if (excludeCarried && carry.carrying) { _toRemove.Add(kv.Key); continue; }
-
-            bool seenRecently = (now - st.lastSeenAt) <= stayGrace;
-            if (!seenRecently) { _toRemove.Add(kv.Key); continue; }
-
-            st.elapsed += Time.deltaTime;
-            if (st.elapsed >= requiredStaySeconds)
-            {
-                // ★ Carryable.Id로 이벤트 발행 (위치는 스캐너 기준; 필요시 carry.transform.position)
-                QuestEvents.RaiseInteract(carry.Id, transform.position, InteractionKind.EnterArea);
-
-                _lastFireAt = now;
-                _firedOnce = true;
-
-                _toRemove.Add(kv.Key);
-                if (oneShot) break;
-            }
+            if (now - kv.Value >= requiredStaySeconds) ok++;
+            if (ok >= requiredCount) break;
         }
 
-        for (int i = 0; i < _toRemove.Count; ++i)
-            _tracked.Remove(_toRemove[i]);
+        bool meets = ok >= requiredCount;
+        if (!string.IsNullOrEmpty(flagToSet))
+        {
+            if (meets && !_flagActive)
+            {
+                QuestRuntime.Instance.SetFlag(flagToSet);
+                _flagActive = true;
+                _lastFireAt = now;
+                _firedOnce = true;
+            }
+            else if (!meets && _flagActive && !oneShot)
+            {
+                QuestRuntime.Instance.ClearFlag(flagToSet);
+                _flagActive = false;
+                _lastFireAt = now;
+            }
+        }
     }
 
-    // ─────────────────────────────────────────────────────────────────────
-    // Trigger Events
-    // ─────────────────────────────────────────────────────────────────────
     void OnTriggerEnter2D(Collider2D other)
     {
         if (((1 << other.gameObject.layer) & actorMask.value) == 0) return;
 
         var carry = ResolveCarryable(other);
-        if (!carry) return;
-        if (carry.ScannerID != scannerId) return;
+        if (!IsEligible(carry)) return;
 
         _col2Carry[other] = carry;
-        TryTrack(carry, true);
+        if (!_insideSince.ContainsKey(carry))
+            _insideSince.Add(carry, Time.time);
     }
 
     void OnTriggerStay2D(Collider2D other)
@@ -152,58 +149,31 @@ public sealed class StayScanner2D : MonoBehaviour
         if (!_col2Carry.TryGetValue(other, out var carry))
         {
             carry = ResolveCarryable(other);
-            if (!carry) return;
-            if (carry.ScannerID != scannerId) return;
+            if (!IsEligible(carry)) return;
             _col2Carry[other] = carry;
         }
 
-        if (_tracked.TryGetValue(carry, out var st))
-            st.lastSeenAt = Time.time;
+        if (!_insideSince.ContainsKey(carry))
+            _insideSince.Add(carry, Time.time);
     }
 
     void OnTriggerExit2D(Collider2D other)
     {
-        _col2Carry.Remove(other); // grace 만료는 Update에서 정리
+        _col2Carry.Remove(other);
 
-        if (!_col2Carry.TryGetValue(other, out var carry))
-        {
-            carry = ResolveCarryable(other);
-            if (!carry) return;
-            if (carry.ScannerID != scannerId) return;
-            //_col2Carry[other] = carry;
-
-            bool ok = QuestEvents.CancelLastInteract(carry.Id);
-            if (!ok)
-            {
-                Debug.LogWarning($"CancelLastInteract 실패: id={carry.Id}");
-            }
-
-            //QuestEvents.RaiseInteract(carry.Id, transform.position, InteractionKind.EnterArea);
-
-        }
+        var carry = ResolveCarryable(other);
+        if (!carry) return;
+        _insideSince.Remove(carry);
     }
 
-    // ─────────────────────────────────────────────────────────────────────
-    // Helpers
-    // ─────────────────────────────────────────────────────────────────────
-    private void TryTrack(Carryable carry, bool seenNow)
+    private static readonly List<Carryable> _toRemove = new(32);
+
+    private bool IsEligible(Carryable c)
     {
-        if (!carry) return;
-        if (excludeCarried && carry.carrying) return;
-
-        if (_tracked.ContainsKey(carry))
-        {
-            if (seenNow && _tracked.TryGetValue(carry, out var st))
-                st.lastSeenAt = Time.time;
-            return;
-        }
-
-        _tracked.Add(carry, new State
-        {
-            carry = carry,
-            elapsed = 0f,
-            lastSeenAt = seenNow ? Time.time : 0f
-        });
+        if (!c) return false;
+        if (excludeCarried && c.carrying) return false;
+        if (c.ScannerID != scannerId) return false;
+        return true;
     }
 
     private static Carryable ResolveCarryable(Collider2D col)
@@ -222,6 +192,8 @@ public sealed class StayScanner2D : MonoBehaviour
             rb.bodyType = RigidbodyType2D.Kinematic;
             rb.freezeRotation = true;
         }
+        requiredCount = Mathf.Max(1, requiredCount);
+        requiredStaySeconds = Mathf.Max(0.01f, requiredStaySeconds);
     }
 #endif
 }
