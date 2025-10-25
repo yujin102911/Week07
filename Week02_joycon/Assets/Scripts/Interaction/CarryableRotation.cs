@@ -2,19 +2,15 @@
 using UnityEngine;
 using static UnityEngine.RuleTile.TilingRuleOutput;
 
-public class AxeRotation : MonoBehaviour
+public class CarryableRotation : MonoBehaviour
 {
-    [SerializeField]Controller2D controller2D;
     [SerializeField]Carryable carryable;
     bool carried;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        if (controller2D == null)
-        {
-            controller2D = GameObject.FindWithTag("Player").GetComponent<Controller2D>();
-        }
+
 
     }
 
