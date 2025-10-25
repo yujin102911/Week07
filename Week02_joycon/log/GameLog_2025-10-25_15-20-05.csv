@@ -1,0 +1,57 @@
+Timestamp, Level, Source, Message
+15:20:05.157,INFO,GameLogger,=== Game Session Started ===
+15:20:05.625,WARNING,Unity,Minimap: no renderers found for bounds. Check includeLayers.
+15:20:06.377,ERROR,Unity,"Screen position out of view frustum (screen pos 464.000000, 230.000000, 0.000000) (Camera rect 0 0 985 456)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+"
+15:20:06.378,ERROR,Unity,"Screen position out of view frustum (screen pos 464.000000, 230.000000, 0.000000) (Camera rect 0 0 985 456)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+"
+15:20:08.288,DEBUG,PlayerCarrying,쿨타임 지났음
+15:20:08.289,DEBUG,PlayerCarrying,집기 조작WateringCan (UnityEngine.BoxCollider2D)
+15:20:08.290,INFO,Unity,_focus is null
+15:20:08.563,INFO,Unity,No hits detected.
+15:20:08.604,INFO,Unity,No hits detected.
+15:20:08.604,INFO,Unity,maxJumpVelocity19.84127
+15:20:12.196,INFO,Unity,No hits detected.
+15:20:12.234,INFO,Unity,No hits detected.
+15:20:12.267,INFO,Unity,No hits detected.
+15:20:12.300,INFO,Unity,No hits detected.
+15:20:12.338,INFO,Unity,No hits detected.
+15:20:12.380,INFO,Unity,No hits detected.
+15:20:12.419,INFO,Unity,No hits detected.
+15:20:12.458,INFO,Unity,No hits detected.
+15:20:12.496,INFO,Unity,No hits detected.
+15:20:12.535,INFO,Unity,No hits detected.
+15:20:12.576,INFO,Unity,No hits detected.
+15:20:12.615,INFO,Unity,No hits detected.
+15:20:12.626,INFO,Unity,No hits detected.
+15:20:12.654,INFO,Unity,No hits detected.
+15:20:12.692,INFO,Unity,No hits detected.
+15:20:12.705,INFO,Unity,No hits detected.
+15:20:12.733,INFO,Unity,No hits detected.
+15:20:12.745,INFO,Unity,No hits detected.
+15:20:12.773,INFO,Unity,No hits detected.
+15:20:12.787,INFO,Unity,No hits detected.
+15:20:12.816,INFO,Unity,No hits detected.
+15:20:12.854,INFO,Unity,No hits detected.
+15:20:12.867,INFO,Unity,No hits detected.
+15:20:12.895,INFO,Unity,No hits detected.
+15:20:12.934,INFO,Unity,No hits detected.
+15:20:12.946,INFO,Unity,No hits detected.
+15:20:12.974,INFO,Unity,No hits detected.
+15:20:12.989,INFO,Unity,No hits detected.
+15:20:13.017,INFO,Unity,No hits detected.
+15:20:13.045,INFO,Unity,No hits detected.
+15:20:13.072,INFO,Unity,No hits detected.
+15:20:13.084,INFO,Unity,No hits detected.
+15:20:13.112,INFO,Unity,No hits detected.
+15:20:13.124,INFO,Unity,No hits detected.
+15:20:13.153,INFO,Unity,No hits detected.
+15:20:13.165,INFO,Unity,No hits detected.
+15:20:13.193,INFO,Unity,No hits detected.
+15:20:13.225,INFO,Unity,No hits detected.
+15:20:13.253,INFO,Unity,No hits detected.
+15:20:13.265,INFO,Unity,No hits detected.
+15:20:13.295,INFO,Unity,No hits detected.
+15:20:13.335,INFO,Unity,No hits detected.
