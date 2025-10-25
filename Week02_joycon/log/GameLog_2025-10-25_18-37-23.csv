@@ -1,0 +1,481 @@
+Timestamp, Level, Source, Message
+18:37:23.072,INFO,GameLogger,=== Game Session Started ===
+18:37:23.485,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+"
+18:37:23.486,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+"
+18:37:23.487,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+"
+18:37:23.489,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+"
+18:37:23.490,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+"
+18:37:23.490,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+"
+18:37:23.493,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+"
+18:37:23.493,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+"
+18:37:23.494,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+"
+18:37:23.494,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+"
+18:37:23.494,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+"
+18:37:23.495,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+"
+18:37:23.495,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+"
+18:37:23.495,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+"
+18:37:23.497,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+"
+18:37:23.497,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+"
+18:37:23.498,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+"
+18:37:23.498,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+"
+18:37:23.499,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+"
+18:37:23.499,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+"
+18:37:23.500,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+"
+18:37:23.500,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+"
+18:37:23.502,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+"
+18:37:23.502,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+"
+18:37:23.503,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+"
+18:37:23.504,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+"
+18:37:23.504,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+"
+18:37:23.505,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+"
+18:37:23.505,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+"
+18:37:23.506,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+"
+18:37:23.507,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+"
+18:37:23.507,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+"
+18:37:23.508,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+"
+18:37:23.508,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+"
+18:37:23.510,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+"
+18:37:23.511,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+"
+18:37:23.513,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+"
+18:37:23.514,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+"
+18:37:23.514,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+"
+18:37:23.515,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+"
+18:37:23.516,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+"
+18:37:23.516,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+"
+18:37:23.516,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+"
+18:37:23.520,WARNING,Unity,Minimap: no renderers found for bounds. Check includeLayers.
+18:37:23.520,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+"
+18:37:23.522,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+"
+18:37:23.523,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+"
+18:37:23.524,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+"
+18:37:23.524,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+"
+18:37:23.525,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+"
+18:37:23.525,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+"
+18:37:23.526,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+CarryablePiggyBank.Start () (at Assets/Scripts/Object/CarryablePiggyBank.cs:20)
+"
+18:37:23.526,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+"
+18:37:23.527,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+"
+18:37:23.527,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+"
+18:37:23.528,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+"
+18:37:23.528,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+"
+18:37:23.528,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+"
+18:37:23.530,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+"
+18:37:23.530,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+"
+18:37:23.531,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+"
+18:37:23.531,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+"
+18:37:23.532,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+"
+18:37:23.532,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+"
+18:37:23.533,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+"
+18:37:23.533,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+"
+18:37:23.533,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+"
+18:37:23.535,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+"
+18:37:23.535,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+"
+18:37:23.535,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+"
+18:37:23.536,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+"
+18:37:23.537,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+"
+18:37:23.537,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+"
+18:37:23.538,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+"
+18:37:23.538,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+"
+18:37:23.539,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+"
+18:37:23.539,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+"
+18:37:23.540,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+"
+18:37:23.540,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+"
+18:37:23.541,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+"
+18:37:23.542,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+"
+18:37:23.542,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+"
+18:37:23.542,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+"
+18:37:23.544,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:32)
+"
+18:37:23.552,INFO,Unity,Trigger Entered with: 토마토 (3)
+18:37:23.554,INFO,Unity,Trigger Entered with: 토마토 (2)
+18:37:28.328,DEBUG,PlayerCarrying,집기 조작Box (UnityEngine.BoxCollider2D)
+18:37:28.329,INFO,Unity,_focus is null
+18:37:29.174,INFO,Unity,maxJumpVelocity19.23077
+18:37:29.250,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.OnCollisionStay2D (UnityEngine.Collision2D collision) (at Assets/Scripts/Interaction/Carryable.cs:42)
+"
+18:37:29.250,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.OnCollisionStay2D (UnityEngine.Collision2D collision) (at Assets/Scripts/Interaction/Carryable.cs:42)
+"
+18:37:29.252,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.OnCollisionStay2D (UnityEngine.Collision2D collision) (at Assets/Scripts/Interaction/Carryable.cs:42)
+"
+18:37:29.334,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.OnCollisionStay2D (UnityEngine.Collision2D collision) (at Assets/Scripts/Interaction/Carryable.cs:42)
+"
+18:37:29.335,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.OnCollisionStay2D (UnityEngine.Collision2D collision) (at Assets/Scripts/Interaction/Carryable.cs:42)
+"
+18:37:29.336,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.OnCollisionStay2D (UnityEngine.Collision2D collision) (at Assets/Scripts/Interaction/Carryable.cs:42)
+"
+18:37:29.336,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.OnCollisionStay2D (UnityEngine.Collision2D collision) (at Assets/Scripts/Interaction/Carryable.cs:42)
+"
+18:37:29.416,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.OnCollisionStay2D (UnityEngine.Collision2D collision) (at Assets/Scripts/Interaction/Carryable.cs:42)
+"
+18:37:29.416,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.OnCollisionStay2D (UnityEngine.Collision2D collision) (at Assets/Scripts/Interaction/Carryable.cs:42)
+"
+18:37:29.417,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.OnCollisionStay2D (UnityEngine.Collision2D collision) (at Assets/Scripts/Interaction/Carryable.cs:42)
+"
+18:37:29.418,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.OnCollisionStay2D (UnityEngine.Collision2D collision) (at Assets/Scripts/Interaction/Carryable.cs:42)
+"
+18:37:29.419,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.OnCollisionStay2D (UnityEngine.Collision2D collision) (at Assets/Scripts/Interaction/Carryable.cs:42)
+"
+18:37:29.499,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.OnCollisionStay2D (UnityEngine.Collision2D collision) (at Assets/Scripts/Interaction/Carryable.cs:42)
+"
+18:37:29.500,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.OnCollisionStay2D (UnityEngine.Collision2D collision) (at Assets/Scripts/Interaction/Carryable.cs:42)
+"
+18:37:29.501,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.OnCollisionStay2D (UnityEngine.Collision2D collision) (at Assets/Scripts/Interaction/Carryable.cs:42)
+"
+18:37:29.501,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.OnCollisionStay2D (UnityEngine.Collision2D collision) (at Assets/Scripts/Interaction/Carryable.cs:42)
+"
+18:37:30.128,INFO,Unity,maxJumpVelocity19.23077
+18:37:30.204,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.OnCollisionStay2D (UnityEngine.Collision2D collision) (at Assets/Scripts/Interaction/Carryable.cs:42)
+"
+18:37:30.205,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.OnCollisionStay2D (UnityEngine.Collision2D collision) (at Assets/Scripts/Interaction/Carryable.cs:42)
+"
+18:37:30.206,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.OnCollisionStay2D (UnityEngine.Collision2D collision) (at Assets/Scripts/Interaction/Carryable.cs:42)
+"
+18:37:30.288,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.OnCollisionStay2D (UnityEngine.Collision2D collision) (at Assets/Scripts/Interaction/Carryable.cs:42)
+"
+18:37:30.289,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.OnCollisionStay2D (UnityEngine.Collision2D collision) (at Assets/Scripts/Interaction/Carryable.cs:42)
+"
+18:37:30.290,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.OnCollisionStay2D (UnityEngine.Collision2D collision) (at Assets/Scripts/Interaction/Carryable.cs:42)
+"
+18:37:30.290,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.OnCollisionStay2D (UnityEngine.Collision2D collision) (at Assets/Scripts/Interaction/Carryable.cs:42)
+"
+18:37:30.681,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.OnCollisionStay2D (UnityEngine.Collision2D collision) (at Assets/Scripts/Interaction/Carryable.cs:42)
+"
+18:37:30.682,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.OnCollisionStay2D (UnityEngine.Collision2D collision) (at Assets/Scripts/Interaction/Carryable.cs:42)
+"
+18:37:30.682,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.OnCollisionStay2D (UnityEngine.Collision2D collision) (at Assets/Scripts/Interaction/Carryable.cs:42)
+"
+18:37:30.761,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.OnCollisionStay2D (UnityEngine.Collision2D collision) (at Assets/Scripts/Interaction/Carryable.cs:42)
+"
+18:37:30.761,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.OnCollisionStay2D (UnityEngine.Collision2D collision) (at Assets/Scripts/Interaction/Carryable.cs:42)
+"
+18:37:30.762,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.OnCollisionStay2D (UnityEngine.Collision2D collision) (at Assets/Scripts/Interaction/Carryable.cs:42)
+"
+18:37:30.763,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.OnCollisionStay2D (UnityEngine.Collision2D collision) (at Assets/Scripts/Interaction/Carryable.cs:42)
+"
+18:37:30.840,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.OnCollisionStay2D (UnityEngine.Collision2D collision) (at Assets/Scripts/Interaction/Carryable.cs:42)
+"
+18:37:30.841,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.OnCollisionStay2D (UnityEngine.Collision2D collision) (at Assets/Scripts/Interaction/Carryable.cs:42)
+"
+18:37:30.842,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.OnCollisionStay2D (UnityEngine.Collision2D collision) (at Assets/Scripts/Interaction/Carryable.cs:42)
+"
+18:37:30.842,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.OnCollisionStay2D (UnityEngine.Collision2D collision) (at Assets/Scripts/Interaction/Carryable.cs:42)
+"
+18:37:30.919,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.OnCollisionStay2D (UnityEngine.Collision2D collision) (at Assets/Scripts/Interaction/Carryable.cs:42)
+"
+18:37:30.920,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.OnCollisionStay2D (UnityEngine.Collision2D collision) (at Assets/Scripts/Interaction/Carryable.cs:42)
+"
+18:37:30.921,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.OnCollisionStay2D (UnityEngine.Collision2D collision) (at Assets/Scripts/Interaction/Carryable.cs:42)
+"
+18:37:30.921,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.OnCollisionStay2D (UnityEngine.Collision2D collision) (at Assets/Scripts/Interaction/Carryable.cs:42)
+"
+18:37:31.006,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.OnCollisionStay2D (UnityEngine.Collision2D collision) (at Assets/Scripts/Interaction/Carryable.cs:42)
+"
+18:37:31.007,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.OnCollisionStay2D (UnityEngine.Collision2D collision) (at Assets/Scripts/Interaction/Carryable.cs:42)
+"
+18:37:31.008,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.OnCollisionStay2D (UnityEngine.Collision2D collision) (at Assets/Scripts/Interaction/Carryable.cs:42)
+"
+18:37:31.009,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.OnCollisionStay2D (UnityEngine.Collision2D collision) (at Assets/Scripts/Interaction/Carryable.cs:42)
+"
+18:37:31.094,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.OnCollisionStay2D (UnityEngine.Collision2D collision) (at Assets/Scripts/Interaction/Carryable.cs:42)
+"
+18:37:31.095,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.OnCollisionStay2D (UnityEngine.Collision2D collision) (at Assets/Scripts/Interaction/Carryable.cs:42)
+"
+18:37:31.188,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.OnCollisionStay2D (UnityEngine.Collision2D collision) (at Assets/Scripts/Interaction/Carryable.cs:42)
+"
+18:37:31.189,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.OnCollisionStay2D (UnityEngine.Collision2D collision) (at Assets/Scripts/Interaction/Carryable.cs:42)
+"
+18:37:31.191,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.OnCollisionStay2D (UnityEngine.Collision2D collision) (at Assets/Scripts/Interaction/Carryable.cs:42)
+"
+18:37:31.857,INFO,Unity,maxJumpVelocity19.23077
+18:37:31.936,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.OnCollisionStay2D (UnityEngine.Collision2D collision) (at Assets/Scripts/Interaction/Carryable.cs:42)
+"
+18:37:31.937,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.OnCollisionStay2D (UnityEngine.Collision2D collision) (at Assets/Scripts/Interaction/Carryable.cs:42)
+"
+18:37:31.938,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.OnCollisionStay2D (UnityEngine.Collision2D collision) (at Assets/Scripts/Interaction/Carryable.cs:42)
+"
+18:37:32.018,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.OnCollisionStay2D (UnityEngine.Collision2D collision) (at Assets/Scripts/Interaction/Carryable.cs:42)
+"
+18:37:32.020,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.OnCollisionStay2D (UnityEngine.Collision2D collision) (at Assets/Scripts/Interaction/Carryable.cs:42)
+"
+18:37:32.021,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.OnCollisionStay2D (UnityEngine.Collision2D collision) (at Assets/Scripts/Interaction/Carryable.cs:42)
+"
+18:37:32.021,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.OnCollisionStay2D (UnityEngine.Collision2D collision) (at Assets/Scripts/Interaction/Carryable.cs:42)
+"
+18:37:32.419,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.OnCollisionStay2D (UnityEngine.Collision2D collision) (at Assets/Scripts/Interaction/Carryable.cs:42)
+"
+18:37:32.419,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.OnCollisionStay2D (UnityEngine.Collision2D collision) (at Assets/Scripts/Interaction/Carryable.cs:42)
+"
+18:37:32.420,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.OnCollisionStay2D (UnityEngine.Collision2D collision) (at Assets/Scripts/Interaction/Carryable.cs:42)
+"
+18:37:32.498,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.OnCollisionStay2D (UnityEngine.Collision2D collision) (at Assets/Scripts/Interaction/Carryable.cs:42)
+"
+18:37:32.499,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.OnCollisionStay2D (UnityEngine.Collision2D collision) (at Assets/Scripts/Interaction/Carryable.cs:42)
+"
+18:37:32.499,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.OnCollisionStay2D (UnityEngine.Collision2D collision) (at Assets/Scripts/Interaction/Carryable.cs:42)
+"
+18:37:32.499,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.OnCollisionStay2D (UnityEngine.Collision2D collision) (at Assets/Scripts/Interaction/Carryable.cs:42)
+"
+18:37:32.581,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.OnCollisionStay2D (UnityEngine.Collision2D collision) (at Assets/Scripts/Interaction/Carryable.cs:42)
+"
+18:37:32.582,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.OnCollisionStay2D (UnityEngine.Collision2D collision) (at Assets/Scripts/Interaction/Carryable.cs:42)
+"
+18:37:32.582,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.OnCollisionStay2D (UnityEngine.Collision2D collision) (at Assets/Scripts/Interaction/Carryable.cs:42)
+"
+18:37:32.583,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.OnCollisionStay2D (UnityEngine.Collision2D collision) (at Assets/Scripts/Interaction/Carryable.cs:42)
+"
+18:37:32.663,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.OnCollisionStay2D (UnityEngine.Collision2D collision) (at Assets/Scripts/Interaction/Carryable.cs:42)
+"
+18:37:32.664,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.OnCollisionStay2D (UnityEngine.Collision2D collision) (at Assets/Scripts/Interaction/Carryable.cs:42)
+"
+18:37:32.666,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.OnCollisionStay2D (UnityEngine.Collision2D collision) (at Assets/Scripts/Interaction/Carryable.cs:42)
+"
+18:37:32.666,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.OnCollisionStay2D (UnityEngine.Collision2D collision) (at Assets/Scripts/Interaction/Carryable.cs:42)
+"
+18:37:32.748,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.OnCollisionStay2D (UnityEngine.Collision2D collision) (at Assets/Scripts/Interaction/Carryable.cs:42)
+"
+18:37:32.749,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.OnCollisionStay2D (UnityEngine.Collision2D collision) (at Assets/Scripts/Interaction/Carryable.cs:42)
+"
+18:37:32.750,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.OnCollisionStay2D (UnityEngine.Collision2D collision) (at Assets/Scripts/Interaction/Carryable.cs:42)
+"
+18:37:32.750,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+Carryable.OnCollisionStay2D (UnityEngine.Collision2D collision) (at Assets/Scripts/Interaction/Carryable.cs:42)
+"
+18:37:33.138,INFO,Unity,Trigger Exit with: 토마토 (2)
+18:37:33.140,INFO,Unity,Trigger Exit with: 토마토 (3)
