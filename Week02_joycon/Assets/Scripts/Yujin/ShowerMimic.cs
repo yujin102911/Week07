@@ -5,58 +5,45 @@ using System.Collections;
 public class ShowerMimic : MonoBehaviour
 {
     [Header("Recipe")]
-    [SerializeField] private List<string> requiredItemIds; //ÇÊ¿äÇÑ ¾ÆÀÌÅÛ ¾ÆÀÌµğµé
-    [SerializeField] private GameObject resultPrefab; //°á°ú ¿ÀºêÁ§Æ® ÇÁ¸®ÆÕ
-    [SerializeField] private float processingTime = 1.0f; //°á°ú ¿ÀºêÁ§Æ®°¡ ³ª¿À±â±îÁö °É¸± ½Ã°£
+    [SerializeField] private List<string> requiredItemIds;
+    [SerializeField] private float processingTime = 1.0f;
 
     [Header("Transform")]
-    [SerializeField] private List<Transform> snapPoints; //ÇÊ¿äÇÑ ¾ÆÀÌÅÛµéÀÌ ½º³ÀµÉ À§Ä¡ (requiredItemIds¶û ¼ø¼­, °³¼ö ¸ÂÃç¾ßµÊ)
-    [SerializeField] private Transform resultSpawnPoint; //°á°ú¹°ÀÌ »ı¼ºµÉ À§Ä¡
+    [SerializeField] private List<Transform> snapPoints;
+    [SerializeField] private Transform resultSpawnPoint;
 
     [Header("State (Internal)")]
     private bool isComplete = false;
-    private HashSet<string> placedItemIds = new HashSet<string>(); //ÇöÀç ¿Ã·ÁÁø ¾ÆÀÌÅÛµéÀÇ ID¸¦ ÃßÀû
-    private List<GameObject> placedItemObjects = new List<GameObject>(); //ÇöÀç ¿Ã·ÁÁø ¾ÆÀÌÅÛµéÀÇ GameObject¸¦ ÀúÀå(³ªÁß¿¡ ÆÄ±«ÇÏ±âÀ§ÇØ¼­)
+    private HashSet<string> placedItemIds = new();
+    private List<GameObject> placedItemObjects = new();
 
     #region Lifecycle
-    private void Start()
-    {
-        Collider2D col = GetComponent<Collider2D>();
-        if (!col.isTrigger) { GameLogger.Instance.LogWarning(this, "IsTrigger¾ÈÄ×À½"); }
-        if (requiredItemIds.Count != snapPoints.Count)
-        {
-            GameLogger.Instance.LogError(this, $"ÇÊ¿äÇÑ ¾ÆÀÌÅÛÀÇ °³¼ö: {requiredItemIds.Count}¿Í ½º³À Æ÷ÀÎÆ® °³¼ö{snapPoints.Count}°¡ ÀÏÄ¡ÇÏÁö ¾ÊÀ½");
-        }
-        if (resultSpawnPoint == null)
-        {
-            GameLogger.Instance.LogWarning(this, "resultSpawnPoint°¡ ¼³Á¤µÇÁö¾ÊÀ½. ÀÓ½Ã·Î Çö ¾ÆÀÌÅÛÀÇ À§Ä¡¸¦ spawnPoint·Î ¼³Á¤");
-            resultSpawnPoint = transform;
-        }
-    }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (isComplete) return; //¸¸¾à ÀÌ¹Ì Á¶ÇÕÀÌ ³¡³µÀ¸¸é ³¡
-
-        if (!other.TryGetComponent<Carryable>(out Carryable carryable)) return; //¸¸¾à CarryableÀÌ ¾Æ´Ï¸é ³¡
+        if (isComplete) return;
+        if (!other.TryGetComponent(out Carryable carryable)) return;
 
         if (!carryable.carrying && requiredItemIds.Contains(carryable.Id) && !placedItemIds.Contains(carryable.Id))
-        {
             PlaceItem(carryable);
-        }
+
     }
     #endregion
 
     #region Private Methods
+    // ì•„ì´í…œì„ ë‹¤ìŒ ìŠ¤ëƒ… í¬ì¸íŠ¸ ìœ„ì¹˜ì— ê³ ì •/ë“±ë¡
     private void PlaceItem(Carryable item)
     {
         GameObject itemObject = item.gameObject;
 
+        // ë°°ì¹˜ ìˆœì„œëŒ€ë¡œ ìŠ¤ëƒ… í¬ì¸íŠ¸ ì„ íƒ
         Transform snapPoint = snapPoints[placedItemObjects.Count];
 
+        // ìœ„ì¹˜/íšŒì „ ê³ ì •
         itemObject.transform.position = snapPoint.position;
         itemObject.transform.rotation = Quaternion.identity;
 
+        // ë¬¼ë¦¬ ì¤‘ì§€(í”ë“¤ë¦¼ ë°©ì§€)
         if (itemObject.TryGetComponent<Rigidbody2D>(out var rb))
         {
             rb.bodyType = RigidbodyType2D.Kinematic;
@@ -64,78 +51,58 @@ public class ShowerMimic : MonoBehaviour
             rb.angularVelocity = 0f;
         }
 
+        // ë” ì´ìƒ ìƒí˜¸ì‘ìš©ë˜ì§€ ì•Šê²Œ ë¹„í™œì„±í™”
         item.enabled = false;
 
+        // ë‚´ë¶€ ìƒíƒœ ê°±ì‹ 
         placedItemIds.Add(item.Id);
         placedItemObjects.Add(itemObject);
-        GameLogger.Instance.LogDebug(this, $"Àç·á Ãß°¡! {item.Id}");
 
+        GameLogger.Instance.LogDebug(this, $"ì¬ë£Œ ë°°ì¹˜ ì™„ë£Œ: {item.Id}");
+
+        // ëª¨ë‘ ëª¨ì˜€ëŠ”ì§€ ê²€ì‚¬
         CheckForCompletion();
-
     }
 
-    ///<summary>¸ğµç Àç·á°¡ ´Ù ¸ğ¿´´ÂÁö È®ÀÎÇÏ´Â ÇÔ¼ö</summary>
+    /// <summary>
+    /// ëª¨ë“  í•„ìš”í•œ ì¬ë£Œê°€ ì •í™•íˆ ëª¨ì˜€ëŠ”ì§€ ê²€ì‚¬í•˜ê³ , ì™„ë£Œ ì‹œ ì²˜ë¦¬ ì‹œì‘
+    /// </summary>
     private void CheckForCompletion()
     {
-        // 1. ÇöÀç ³õÀÎ ¾ÆÀÌÅÛ ¼ö°¡ ÇÊ¿äÇÑ ¾ÆÀÌÅÛ ¼ö¿Í °°ÀºÁö È®ÀÎ
-        if (placedItemObjects.Count < requiredItemIds.Count)
-        {
-            // ¾ÆÁ÷ Àç·á°¡ ºÎÁ·ÇÔ
-            return;
-        }
+        // ê°œìˆ˜ ë¶€ì¡±ì´ë©´ ì•„ì§ ë¯¸ì™„ë£Œ
+        if (placedItemObjects.Count < requiredItemIds.Count) return;
 
-        // 2. (¼±ÅÃÀû) ¸ğµç ID°¡ Á¤È®È÷ ÀÏÄ¡ÇÏ´ÂÁö ÀçÈ®ÀÎ (º¸ÅëÀº À§ 1¹øÀ¸·Î ÃæºĞ)
-        // requiredItemIds ¸®½ºÆ®ÀÇ ¸ğµç ID°¡ placedItemIds ÇØ½Ã¼Â¿¡ Æ÷ÇÔµÇ¾î ÀÖ´ÂÁö È®ÀÎ
+        // í•„ìš”í•œ ëª¨ë“  IDê°€ ë°°ì¹˜ë˜ì—ˆëŠ”ì§€ í™•ì¸(ì¤‘ë³µ ì—†ëŠ” ê³ ìœ  IDë¥¼ ê°€ì •)
         foreach (string requiredId in requiredItemIds)
         {
             if (!placedItemIds.Contains(requiredId))
             {
-                // ÀÌ °æ¿ì´Â ·ÎÁ÷»ó °ÅÀÇ ¹ß»ıÇÏÁö ¾ÊÁö¸¸, ¾ÈÀüÀåÄ¡
-                GameLogger.Instance.LogError(this, "Àç·á °³¼ö´Â ¸ÂÀ¸³ª ID°¡ ºÒÀÏÄ¡ÇÕ´Ï´Ù. ·¹½ÃÇÇ È®ÀÎ ÇÊ¿ä.");
+                GameLogger.Instance.LogError(this, "í•„ìš”í•œ IDê°€ ëª¨ë‘ ë°°ì¹˜ë˜ì§€ ì•Šì•˜ìŠµë‹ˆë‹¤. ì„¤ì •ì„ í™•ì¸í•˜ì„¸ìš”.");
                 return;
             }
         }
 
-        // ¸ğµç Á¶°Ç ÃæÁ·! Á¶ÇÕ ½ÃÀÛ
-        isComplete = true; // Áßº¹ ½ÇÇà ¹æÁö
-        GameLogger.Instance.LogDebug(this, "Á¶ÇÕ ¼º°ø! °á°ú¹° »ı¼º ½ÃÀÛ...");
+        // ì—¬ê¸°ê¹Œì§€ ì™”ìœ¼ë©´ ì™„ì„±
+        isComplete = true;
+        GameLogger.Instance.LogDebug(this, "ì¡°í•© ì™„ë£Œ! ê²°ê³¼ ìƒì„± ì ˆì°¨ë¥¼ ì‹œì‘í•©ë‹ˆë‹¤...");
         StartCoroutine(ProcessCombination());
     }
 
-    ///<summary>µô·¹ÀÌ ÈÄ Àç·á¸¦ ÆÄ±«ÇÏ°í °á°ú¹°À» »ı¼º</summary>
     private IEnumerator ProcessCombination()
     {
-        // 1. À¯Àú°¡ º¼ ¼ö ÀÖµµ·Ï Àá½Ã ´ë±â
         yield return new WaitForSeconds(processingTime);
 
-        // 2. ¸ğµç Àç·á(´õ·¯¿î ¹Ì¹Í, ¼¤Çª) ¿ÀºêÁ§Æ® ÆÄ±«
         foreach (GameObject itemObject in placedItemObjects)
         {
-            Destroy(itemObject);
-        }
-        placedItemObjects.Clear(); // ¸®½ºÆ® ºñ¿ì±â
-
-        // 3. °á°ú¹°(¾Ä°ÜÁø ¹Ì¹Í) »ı¼º
-        if (resultPrefab != null)
-        {
-            Instantiate(resultPrefab, resultSpawnPoint.position, Quaternion.identity);
+            if (itemObject.TryGetComponent(out CarryableMimic carryableMimic))
+            {
+                carryableMimic.enabled = true;
+                carryableMimic.CleanUp();
+            }
+            else Destroy(itemObject);
         }
 
-        // 4. (¼±ÅÃ) Á¶ÇÕ´ë ÃÊ±âÈ­ (ÇÊ¿äÇÏ´Ù¸é)
-        // ResetStation();
+        placedItemObjects.Clear();
     }
-
-    /// <summary>
-    /// Á¶ÇÕ´ë¸¦ ´Ù½Ã »ç¿ëÇÏµµ·Ï ÃÊ±âÈ­ÇÏ´Â ÇÔ¼ö
-    /// </summary>
-    public void ResetStation()
-    {
-        isComplete = false;
-        placedItemIds.Clear();
-        // placedItemObjects´Â ÀÌ¹Ì ºñ¿öÁü
-        GameLogger.Instance.LogDebug(this, "Á¶ÇÕ´ë°¡ ÃÊ±âÈ­µÇ¾ú½À´Ï´Ù.");
-    }
-    
     #endregion
-
 }

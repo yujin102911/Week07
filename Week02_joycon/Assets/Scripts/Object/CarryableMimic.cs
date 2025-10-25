@@ -51,8 +51,7 @@ public class CarryableMimic : Carryable
         heartBubble.SetOn();
         if (coin) Destroy(coin.gameObject);
 
-        // All coins collected
-        if (requiredCoins == 0) QuestRuntime.Instance.SetFlag(FlagId.Mimic_Happy);
+        CheckQuest();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -94,7 +93,18 @@ public class CarryableMimic : Carryable
 
     public void CleanUp()
     {
-        spriteRenderer.sprite = cleanedSprite;
+        if (cleanedSprite) spriteRenderer.sprite = cleanedSprite;
         isCleaned = true;
+
+        CheckQuest();
+    }
+
+    private void CheckQuest()
+    {
+        if (requiredCoins > 0) return;
+        if (isCleaned == false) return;
+
+        QuestRuntime.Instance.SetFlag(FlagId.Mimic_Happy);
+        GameLogger.Instance.LogDebug(this, "미믹 퀘스트 완료");
     }
 }
