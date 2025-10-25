@@ -1,0 +1,172 @@
+Timestamp, Level, Source, Message
+00:11:45.489,INFO,GameLogger,=== Game Session Started ===
+00:11:45.714,WARNING,Unity,Minimap: no renderers found for bounds. Check includeLayers.
+00:11:45.737,INFO,Unity,Trigger Entered with: Wall2
+00:11:45.738,INFO,Unity,Trigger Entered with: Wall2
+00:11:45.739,INFO,Unity,Trigger Entered with: Wall2
+00:11:45.739,INFO,Unity,Trigger Entered with: Wall2
+00:11:45.740,INFO,Unity,Trigger Entered with: Wall2
+00:11:49.193,INFO,Unity,maxJumpVelocity20
+00:11:50.727,INFO,Unity,maxJumpVelocity20
+00:11:53.660,INFO,Unity,maxJumpVelocity20
+00:11:54.325,INFO,Unity,사다리 점프
+00:11:54.741,INFO,Unity,maxJumpVelocity20
+00:11:55.233,INFO,Unity,maxJumpVelocity20
+00:11:55.746,INFO,Unity,maxJumpVelocity20
+00:11:57.245,INFO,Unity,벽 점프
+00:11:57.903,INFO,Unity,maxJumpVelocity20
+00:11:58.508,INFO,Unity,maxJumpVelocity20
+00:12:01.411,INFO,Unity,maxJumpVelocity20
+00:12:02.690,INFO,Unity,사다리 점프
+00:12:03.389,INFO,Unity,maxJumpVelocity20
+00:12:03.895,INFO,Unity,사다리 점프
+00:12:08.529,DEBUG,PlayerCarrying,집기 조작Bedding (UnityEngine.BoxCollider2D)
+00:12:08.531,INFO,Unity,_focus is null
+00:12:08.532,INFO,Unity,Weight Update =0
+00:12:08.533,INFO,Unity,Weight Update2 =1
+00:12:08.862,INFO,Unity,maxJumpVelocity19.92032
+00:12:09.683,INFO,Unity,사다리 점프
+00:12:10.012,INFO,Unity,Clothesline Collision with Bedding
+00:12:10.025,INFO,Unity,Clothesline Collision with Bedding
+00:12:10.054,INFO,Unity,Clothesline Collision with Bedding
+00:12:10.086,INFO,Unity,Clothesline Collision with Bedding
+00:12:10.087,INFO,Unity,Clothesline Collision with Bedding
+00:12:10.115,INFO,Unity,Clothesline Collision with Bedding
+00:12:10.129,INFO,Unity,Clothesline Collision with Bedding
+00:12:10.158,INFO,Unity,Clothesline Collision with Bedding
+00:12:10.159,INFO,Unity,Clothesline Collision with Bedding
+00:12:10.200,INFO,Unity,Clothesline Collision with Bedding
+00:12:10.201,INFO,Unity,Clothesline Collision with Bedding
+00:12:10.241,INFO,Unity,Clothesline Collision with Bedding
+00:12:10.242,INFO,Unity,Clothesline Collision with Bedding
+00:12:10.284,INFO,Unity,Clothesline Collision with Bedding
+00:12:10.284,INFO,Unity,Clothesline Collision with Bedding
+00:12:10.297,INFO,Unity,Clothesline Collision with Bedding
+00:12:10.327,INFO,Unity,Clothesline Collision with Bedding
+00:12:10.341,INFO,Unity,Clothesline Collision with Bedding
+00:12:10.371,INFO,Unity,Clothesline Collision with Bedding
+00:12:10.400,INFO,Unity,Clothesline Collision with Bedding
+00:12:10.400,INFO,Unity,Clothesline Collision with Bedding
+00:12:10.430,INFO,Unity,Clothesline Collision with Bedding
+00:12:10.444,INFO,Unity,Clothesline Collision with Bedding
+00:12:10.473,INFO,Unity,Clothesline Collision with Bedding
+00:12:10.490,INFO,Unity,Clothesline Collision with Bedding
+00:12:10.519,INFO,Unity,Clothesline Collision with Bedding
+00:12:10.520,INFO,Unity,Clothesline Collision with Bedding
+00:12:10.561,INFO,Unity,Clothesline Collision with Bedding
+00:12:10.562,INFO,Unity,Clothesline Collision with Bedding
+00:12:10.603,INFO,Unity,Clothesline Collision with Bedding
+00:12:10.604,INFO,Unity,Clothesline Collision with Bedding
+00:12:10.620,INFO,Unity,Clothesline Collision with Bedding
+00:12:10.648,INFO,Unity,Clothesline Collision with Bedding
+00:12:10.662,INFO,Unity,Clothesline Collision with Bedding
+00:12:10.691,INFO,Unity,Clothesline Collision with Bedding
+00:12:10.721,INFO,Unity,Clothesline Collision with Bedding
+00:12:10.722,INFO,Unity,Clothesline Collision with Bedding
+00:12:10.751,INFO,Unity,Clothesline Collision with Bedding
+00:12:10.766,INFO,Unity,Clothesline Collision with Bedding
+00:12:10.794,INFO,Unity,Clothesline Collision with Bedding
+00:12:10.809,INFO,Unity,Clothesline Collision with Bedding
+00:12:10.838,INFO,Unity,Clothesline Collision with Bedding
+00:12:10.838,INFO,Unity,Clothesline Collision with Bedding
+00:12:10.880,INFO,Unity,Trigger Entered with: Bedding
+00:12:10.881,INFO,Unity,Clothesline Collision with Bedding
+00:12:10.881,INFO,Unity,Clothesline Collision with Bedding
+00:12:10.928,INFO,Unity,Clothesline Collision with Bedding
+00:12:10.928,INFO,Unity,Clothesline Collision with Bedding
+00:12:10.943,INFO,Unity,Clothesline Collision with Bedding
+00:12:10.944,INFO,Unity,Trigger Entered with: ===Player===
+00:12:10.976,INFO,Unity,Clothesline Collision with Bedding
+00:12:10.976,INFO,Unity,Clothesline Collision with Bedding
+00:12:11.023,INFO,Unity,Clothesline Collision with Bedding
+00:12:11.023,INFO,Unity,Clothesline Collision with Bedding
+00:12:11.085,INFO,Unity,Trigger Entered with: Bedding
+00:12:11.178,INFO,Unity,Trigger Entered with: ===Player===
+00:12:11.243,INFO,Unity,Trigger Exit with: ===Player===
+00:12:11.344,INFO,Unity,Trigger Entered with: ===Player===
+00:12:11.384,INFO,Unity,Trigger Exit with: ===Player===
+00:12:11.493,INFO,Unity,maxJumpVelocity19.92032
+00:12:11.510,INFO,Unity,Trigger Exit with: Bedding
+00:12:11.546,INFO,Unity,Clothesline Collision with Bedding
+00:12:11.583,INFO,Unity,Trigger Exit with: Bedding
+00:12:11.583,INFO,Unity,Clothesline Collision with Bedding
+00:12:11.584,INFO,Unity,Clothesline Collision with Bedding
+00:12:11.614,INFO,Unity,Clothesline Collision with Bedding
+00:12:11.630,INFO,Unity,Clothesline Collision with Bedding
+00:12:11.630,INFO,Unity,Trigger Exit with: ===Player===
+00:12:11.902,INFO,Unity,Clothesline Collision with Bedding
+00:12:11.942,INFO,Unity,Clothesline Collision with Bedding
+00:12:11.943,INFO,Unity,Clothesline Collision with Bedding
+00:12:11.957,INFO,Unity,Clothesline Collision with Bedding
+00:12:11.989,INFO,Unity,Clothesline Collision with Bedding
+00:12:12.018,INFO,Unity,Clothesline Collision with Bedding
+00:12:12.018,INFO,Unity,Clothesline Collision with Bedding
+00:12:12.047,INFO,Unity,Clothesline Collision with Bedding
+00:12:12.061,INFO,Unity,Clothesline Collision with Bedding
+00:12:12.091,INFO,Unity,Clothesline Collision with Bedding
+00:12:12.104,INFO,Unity,Clothesline Collision with Bedding
+00:12:12.133,INFO,Unity,Clothesline Collision with Bedding
+00:12:12.147,INFO,Unity,Clothesline Collision with Bedding
+00:12:12.176,INFO,Unity,Clothesline Collision with Bedding
+00:12:12.193,INFO,Unity,Clothesline Collision with Bedding
+00:12:12.222,INFO,Unity,Clothesline Collision with Bedding
+00:12:12.222,INFO,Unity,Clothesline Collision with Bedding
+00:12:12.264,INFO,Unity,Clothesline Collision with Bedding
+00:12:12.264,INFO,Unity,Clothesline Collision with Bedding
+00:12:12.280,INFO,Unity,Clothesline Collision with Bedding
+00:12:12.308,INFO,Unity,Clothesline Collision with Bedding
+00:12:12.336,INFO,Unity,Clothesline Collision with Bedding
+00:12:12.338,INFO,Unity,Clothesline Collision with Bedding
+00:12:12.368,INFO,Unity,Clothesline Collision with Bedding
+00:12:12.381,INFO,Unity,Clothesline Collision with Bedding
+00:12:12.411,INFO,Unity,Clothesline Collision with Bedding
+00:12:12.426,INFO,Unity,Clothesline Collision with Bedding
+00:12:12.453,INFO,Unity,Clothesline Collision with Bedding
+00:12:12.466,INFO,Unity,Clothesline Collision with Bedding
+00:12:12.495,INFO,Unity,Clothesline Collision with Bedding
+00:12:12.509,INFO,Unity,Clothesline Collision with Bedding
+00:12:12.540,INFO,Unity,Clothesline Collision with Bedding
+00:12:12.540,INFO,Unity,Clothesline Collision with Bedding
+00:12:12.581,INFO,Unity,Clothesline Collision with Bedding
+00:12:12.581,INFO,Unity,Clothesline Collision with Bedding
+00:12:12.624,INFO,Unity,Clothesline Collision with Bedding
+00:12:12.625,INFO,Unity,Clothesline Collision with Bedding
+00:12:12.654,INFO,Unity,Clothesline Collision with Bedding
+00:12:12.683,INFO,Unity,Clothesline Collision with Bedding
+00:12:12.684,INFO,Unity,Clothesline Collision with Bedding
+00:12:12.698,INFO,Unity,Clothesline Collision with Bedding
+00:12:12.727,INFO,Unity,Clothesline Collision with Bedding
+00:12:12.742,INFO,Unity,Clothesline Collision with Bedding
+00:12:12.771,INFO,Unity,Clothesline Collision with Bedding
+00:12:12.785,INFO,Unity,Clothesline Collision with Bedding
+00:12:12.813,INFO,Unity,Clothesline Collision with Bedding
+00:12:12.829,INFO,Unity,Clothesline Collision with Bedding
+00:12:12.858,INFO,Unity,Clothesline Collision with Bedding
+00:12:12.860,INFO,Unity,Clothesline Collision with Bedding
+00:12:12.901,INFO,Unity,Clothesline Collision with Bedding
+00:12:12.902,INFO,Unity,Clothesline Collision with Bedding
+00:12:12.943,INFO,Unity,Clothesline Collision with Bedding
+00:12:12.944,INFO,Unity,Clothesline Collision with Bedding
+00:12:12.975,INFO,Unity,Clothesline Collision with Bedding
+00:12:13.004,INFO,Unity,Clothesline Collision with Bedding
+00:12:13.005,INFO,Unity,Clothesline Collision with Bedding
+00:12:13.018,INFO,Unity,Clothesline Collision with Bedding
+00:12:13.049,INFO,Unity,Clothesline Collision with Bedding
+00:12:13.064,INFO,Unity,Clothesline Collision with Bedding
+00:12:13.092,INFO,Unity,Clothesline Collision with Bedding
+00:12:13.105,INFO,Unity,Clothesline Collision with Bedding
+00:12:13.133,INFO,Unity,Clothesline Collision with Bedding
+00:12:13.147,INFO,Unity,Clothesline Collision with Bedding
+00:12:13.176,INFO,Unity,Clothesline Collision with Bedding
+00:12:13.189,INFO,Unity,Clothesline Collision with Bedding
+00:12:13.216,INFO,Unity,Clothesline Collision with Bedding
+00:12:13.217,INFO,Unity,Clothesline Collision with Bedding
+00:12:13.261,INFO,Unity,Clothesline Collision with Bedding
+00:12:13.262,INFO,Unity,Clothesline Collision with Bedding
+00:12:13.264,INFO,Unity,Weight Update =0
+00:12:13.295,INFO,Unity,Clothesline Collision with Bedding
+00:12:16.008,INFO,Unity,Trigger Exit with: Wall2
+00:12:16.008,INFO,Unity,Trigger Exit with: Wall2
+00:12:16.009,INFO,Unity,Trigger Exit with: Wall2
+00:12:16.009,INFO,Unity,Trigger Exit with: Wall2
+00:12:16.010,INFO,Unity,Trigger Exit with: Wall2

@@ -1,0 +1,55 @@
+Timestamp, Level, Source, Message
+00:08:15.072,INFO,GameLogger,=== Game Session Started ===
+00:08:15.298,WARNING,Unity,Minimap: no renderers found for bounds. Check includeLayers.
+00:08:15.312,INFO,Unity,Trigger Entered with: Wall2
+00:08:15.313,INFO,Unity,Trigger Entered with: Wall2
+00:08:15.314,INFO,Unity,Trigger Entered with: Wall2
+00:08:15.314,INFO,Unity,Trigger Entered with: Wall2
+00:08:15.315,INFO,Unity,Trigger Entered with: Wall2
+00:08:23.670,INFO,Unity,maxJumpVelocity20
+00:08:24.783,INFO,Unity,사다리 점프
+00:08:25.327,INFO,Unity,maxJumpVelocity20
+00:08:25.996,INFO,Unity,사다리 점프
+00:08:26.777,INFO,Unity,maxJumpVelocity20
+00:08:28.487,DEBUG,PlayerCarrying,집기 조작Bedding (UnityEngine.BoxCollider2D)
+00:08:28.489,INFO,Unity,_focus is null
+00:08:28.490,INFO,Unity,Weight Update =0
+00:08:28.491,INFO,Unity,Weight Update2 =1
+00:08:29.120,INFO,Unity,Clothesline Collision with Bedding
+00:08:30.058,INFO,Unity,Weight Update =0
+00:08:30.101,INFO,Unity,Trigger Entered with: Bedding
+00:08:31.196,DEBUG,PlayerCarrying,집기 조작WateringCan (UnityEngine.BoxCollider2D)
+00:08:31.197,DEBUG,PlayerCarrying,집기 조작Bedding (UnityEngine.BoxCollider2D)
+00:08:31.198,INFO,Unity,_focus is null
+00:08:31.199,INFO,Unity,Weight Update =0
+00:08:31.199,INFO,Unity,Weight Update2 =2
+00:08:31.202,INFO,Unity,Trigger Exit with: Bedding
+00:08:32.649,INFO,Unity,No hits detected.
+00:08:32.661,INFO,Unity,No hits detected.
+00:08:32.674,INFO,Unity,No hits detected.
+00:08:32.687,INFO,Unity,No hits detected.
+00:08:32.700,INFO,Unity,No hits detected.
+00:08:32.715,INFO,Unity,No hits detected.
+00:08:32.728,INFO,Unity,No hits detected.
+00:08:32.742,INFO,Unity,No hits detected.
+00:08:32.791,INFO,Unity,Trigger Entered with: Watering
+00:08:32.805,INFO,Unity,Trigger Entered with: ===Player===
+00:08:32.825,INFO,Unity,Trigger Entered with: WateringCan
+00:08:32.923,INFO,Unity,Trigger Exit with: Watering
+00:08:32.938,INFO,Unity,No hits detected.
+00:08:32.953,INFO,Unity,No hits detected.
+00:08:32.967,INFO,Unity,No hits detected.
+00:08:32.982,INFO,Unity,Weight Update =0
+00:08:33.008,INFO,Unity,Trigger Exit with: WateringCan
+00:08:33.008,INFO,Unity,Trigger Entered with: WateringCan
+00:08:33.026,INFO,Unity,Trigger Entered with: ===Player===
+00:08:33.059,INFO,Unity,Trigger Exit with: ===Player===
+00:08:33.180,INFO,Unity,Trigger Exit with: WateringCan
+00:08:33.206,INFO,Unity,Trigger Entered with: WateringCan
+00:08:33.247,INFO,Unity,Trigger Entered with: ===Player===
+00:08:33.260,INFO,Unity,Trigger Exit with: ===Player===
+00:08:33.417,INFO,Unity,Trigger Entered with: ===Player===
+00:08:33.445,INFO,Unity,Trigger Exit with: ===Player===
+00:08:33.647,INFO,Unity,Trigger Entered with: ===Player===
+00:08:33.660,INFO,Unity,Trigger Exit with: ===Player===
+00:08:33.864,INFO,Unity,Trigger Exit with: ===Player===
