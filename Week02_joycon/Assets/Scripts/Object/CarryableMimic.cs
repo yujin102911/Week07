@@ -3,12 +3,16 @@ using UnityEngine;
 
 public class CarryableMimic : Carryable
 {
-    [SerializeField] private int requiredCoins = 3;
+    [SerializeField] private int requiredCoins;
+    [SerializeField] private SpriteRenderer spriteRenderer;
+    [SerializeField] private Sprite cleanedSprite;
     [SerializeField] private MimicBubble coinBubble;
     [SerializeField] private MimicBubble heartBubble;
+    [SerializeField] private MimicBubble cleanBubble;
     private HashSet<Carryable> coins = new();
     private List<Carryable> toRemove = new();
     private bool isEnumerating;
+    private bool isCleaned = false;
 
     private void Update()
     {
@@ -61,7 +65,8 @@ public class CarryableMimic : Carryable
 
         if (collision.CompareTag("Player"))
         {
-            if (requiredCoins > 0) coinBubble.SetOn();
+            if (isCleaned == false) cleanBubble.SetOn();
+            else if (requiredCoins > 0) coinBubble.SetOn();
             else heartBubble.SetOn();
         }
     }
@@ -85,5 +90,11 @@ public class CarryableMimic : Carryable
         toRemove.Clear();
 
         isEnumerating = false;
+    }
+
+    public void CleanUp()
+    {
+        spriteRenderer.sprite = cleanedSprite;
+        isCleaned = true;
     }
 }
