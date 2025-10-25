@@ -13,6 +13,8 @@ public class Stove : MonoBehaviour
 
     [Header("Cooking")]
     private Pot potOnStove = null;
+    [Tooltip("Pot Position")]
+    [SerializeField] private Transform potSnapPoint;
 
     #region Properties
     public bool isFueled => currentFirewood >= requiredFirewood; //현 장작의 개수가 요구 장작 개수를 넘어섰으면 true 반환
@@ -23,7 +25,11 @@ public class Stove : MonoBehaviour
     {
         if (spriteRenderer == null) spriteRenderer = GetComponent<SpriteRenderer>();
         if (spriteRenderer != null) spriteRenderer.sprite = initialSprite; //게임 시작 시 불 안킨 색상으로 설정
-
+        if (potSnapPoint == null)
+        {
+            GameLogger.Instance.LogWarning(this, "potSnapPoint가 설정되지 않았습니다. 냄비가 스냅되지 않습니다.");
+            potSnapPoint = transform; // 임시로 스토브 자신의 위치를 사용
+        }
         if (GetComponent<Collider2D>() == null || !GetComponent<Collider2D>().isTrigger)
         {
             GameLogger.Instance.LogWarning(this, "Stove에 isTrigger=true 인 Collider2D가 없습니다. 냄비를 감지할 수 없습니다.");
@@ -82,20 +88,41 @@ public class Stove : MonoBehaviour
         spriteRenderer.sprite = fueledSprite;
         GameLogger.Instance.LogDebug(this, "스토브에 불을 붙였습니다");
     }
-    ///<summary>냄비 감지 로직</summary>
+    ///<summary>냄비와 장작 감지 로직</summary>
     private void OnTriggerEnter2D(Collider2D other)
     {
         // 냄비가 내려놓아졌을 때만 감지 (들고 지나가는 것 방지)
         if (other.TryGetComponent<Pot>(out Pot pot))
         {
+            //냄비 감지 로직
             if (pot.GetComponent<Carryable>() != null && !pot.GetComponent<Carryable>().carrying)
             {
                 potOnStove = pot;
                 pot.SetCurrentStove(this); // 냄비에게 자신이 어떤 스토브 위에 있는지 알려줌
                 GameLogger.Instance.LogDebug(this, "냄비가 스토브 위에 놓였습니다.");
+
+                pot.transform.position = potSnapPoint.position;
+                pot.transform.rotation = Quaternion.identity;
+                if (pot.TryGetComponent<Rigidbody2D>(out var rb)) 
+                { 
+                    rb.bodyType = RigidbodyType2D.Kinematic;
+                    rb.linearVelocity = Vector2.zero;
+                    rb.angularVelocity = 0f;
+                }
+
                 pot.CheckCookingConditions(); // 냄비를 올려놓는 순간에도 요리 조건 확인
             }
         }
+        //장작 감지 로직
+        else if(other.TryGetComponent<Carryable>(out Carryable carryable))
+        {
+            if (carryable.GetComponent<Carryable>().Id == "Firewood" && !carryable.GetComponent<Carryable>().carrying)
+            {
+                AddFirewood();
+                Destroy(other.gameObject);
+            }
+        }
+
     }
     private void OnTriggerExit2D(Collider2D other)
     {
