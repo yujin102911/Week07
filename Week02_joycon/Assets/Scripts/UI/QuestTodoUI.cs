@@ -9,131 +9,69 @@ public sealed class QuestTodoUI : MonoBehaviour
     [SerializeField] private TMP_Text Titletext;
     [SerializeField] private TMP_Text ContentsText;
 
-    // 취소선 태그
+    [Header("Display Options")]
+    [SerializeField] private bool strikeTitleOnlyWhenAllDone = true; // true: 전체 완료 시에만 제목 취소선
+    [SerializeField] private bool strikeEachObjectiveWhenDone = true; // 완료된 목표는 취소선
+
     const string S_OPEN = "<s>";
     const string S_CLOSE = "</s>";
 
     void OnEnable()
     {
-        if (manager != null)
-            manager.OnQuestUpdated += OnQuestUpdated;
+        if (manager != null) manager.OnQuestUpdated += OnQuestUpdated;
         Redraw();
     }
-
     void OnDisable()
     {
-        if (manager != null)
-            manager.OnQuestUpdated -= OnQuestUpdated;
+        if (manager != null) manager.OnQuestUpdated -= OnQuestUpdated;
     }
-
-    public void SetQuest(uint newId)
-    {
-        questId = newId;
-        Redraw(); // 변경 즉시 UI 갱신
-    }
-
-
-
-    void OnQuestUpdated(uint changedId)
-    {
-        if (changedId == questId) Redraw();
-    }
+    public void SetQuest(uint newId) { questId = newId; Redraw(); }
+    void OnQuestUpdated(uint changedId) { if (changedId == questId) Redraw(); }
 
     void Redraw()
     {
-        if (!manager || !ContentsText) return;
+        if (!manager) return;
+
         if (!manager.TryGetSnapshot(questId, out var qs))
         {
-            ContentsText.text = "";
+            if (Titletext) Titletext.text = "";
+            if (ContentsText) ContentsText.text = "";
             return;
         }
 
-        var sb = new StringBuilder(256); // 본문
-        var tb = new StringBuilder(256); // 제목
-
-        // 제목: 전체 완료 시 취소선
-        AppendLineWithStrike(tb, qs.so.title, qs.completed);
-
-        for (int i = 0; i < qs.objectives.Length; ++i)
+        // --- 제목 ---
+        if (Titletext)
         {
-            var o = qs.objectives[i];
+            Titletext.richText = true;
 
-            sb.Append("- ");
-            if (o.completed)
+            bool strikeTitle = qs.completed;
+            if (!strikeTitle && !strikeTitleOnlyWhenAllDone)
             {
-                sb.Append(S_OPEN).Append(o.def.displayName);
-                if (o.def.optional) sb.Append(" (선택)");
-                sb.Append(S_CLOSE);
+                // 목표 중 하나라도 완료되면 제목에 취소선(옵션)
+                for (int i = 0; i < qs.objectives.Length; ++i)
+                    if (qs.objectives[i].completed) { strikeTitle = true; break; }
             }
-            else
-            {
-                sb.Append(o.def.displayName);
-                if (o.def.optional) sb.Append(" (선택)");
-            }
-            sb.AppendLine();
 
-            // --- 서브태스크 출력 (targetId가 '_'로 시작하면 숨김) ---
-            var subs = o.subs;
-            if (subs != null && subs.Length > 0)
-            {
-                bool hasVisible = false;
-                for (int s = 0; s < subs.Length; ++s)
-                {
-                    var tid = subs[s].targetId;
-                    if (!string.IsNullOrEmpty(tid) && !tid.StartsWith("_"))
-                    {
-                        hasVisible = true;
-                        break;
-                    }
-                }
-
-                if (hasVisible)
-                {
-                    sb.Append("   · ( ");
-                    bool firstPrinted = false;
-
-                    for (int s = 0; s < subs.Length; ++s)
-                    {
-                        var st = subs[s];
-                        var tid = st.targetId;
-
-                        // 숨김 규칙
-                        if (string.IsNullOrEmpty(tid) || tid.StartsWith("_"))
-                            continue;
-
-                        if (firstPrinted) sb.Append(", ");
-                        firstPrinted = true;
-
-                        if (st.done)
-                            sb.Append(S_OPEN).Append(tid).Append(S_CLOSE);
-                        else
-                            sb.Append(tid);
-                    }
-
-                    sb.Append(" )");
-                    sb.AppendLine();
-                }
-                // hasVisible == false면 아무 것도 추가하지 않음
-            }
-            // subs가 없으면 아무 것도 추가하지 않음
+            Titletext.text = strikeTitle ? $"{S_OPEN}{qs.so.title}{S_CLOSE}" : qs.so.title;
         }
 
-
-        if (Titletext) { Titletext.richText = true; Titletext.text = tb.ToString(); }
-        ContentsText.richText = true;
-        ContentsText.text = sb.ToString();
-    }
-
-    static void AppendLineWithStrike(StringBuilder sb, string str, bool strike)
-    {
-        if (strike)
+        // --- 본문: 목표 이름만, 체크기호/타깃명 없음 ---
+        if (ContentsText)
         {
-            sb.Append(S_OPEN).Append(str).Append(S_CLOSE);
-            sb.Append("              >> 완료!").AppendLine();
-        }
-        else
-        {
-            sb.AppendLine(str);
+            var sb = new StringBuilder(256);
+            for (int i = 0; i < qs.objectives.Length; ++i)
+            {
+                var os = qs.objectives[i];
+                var name = os.def.displayName;
+
+                if (strikeEachObjectiveWhenDone && os.completed)
+                    sb.Append(" - ").Append(S_OPEN).Append(name).Append(S_CLOSE).AppendLine();
+                else
+                    sb.Append(" - ").Append(name).AppendLine();
+            }
+
+            ContentsText.richText = true;
+            ContentsText.text = sb.ToString();
         }
     }
 }

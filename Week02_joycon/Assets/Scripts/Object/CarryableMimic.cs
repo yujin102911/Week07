@@ -46,6 +46,9 @@ public class CarryableMimic : Carryable
         requiredCoins--;
         heartBubble.SetOn();
         if (coin) Destroy(coin.gameObject);
+
+        // All coins collected
+        if (requiredCoins == 0) QuestRuntime.Instance.SetFlag(FlagId.Mimic_Happy);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

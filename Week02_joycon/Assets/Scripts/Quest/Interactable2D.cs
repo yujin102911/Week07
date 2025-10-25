@@ -1,42 +1,39 @@
-using Unity.Burst;
 using UnityEngine;
+using Game.Quests; // InteractableId, FlagId
 
 public enum InteractionKind : byte
 {
     None,
-    Press,          // Å° ´­·¶À» ¶§ Áï½Ã
-    Hold,           // ÀÏÁ¤ ½Ã°£ È¦µå
-    EnterArea,      // Æ®¸®°Å ÁøÀÔÇü(½ºÄ³³Ê ¾øÀÌ Æ®¸®°Å°¡ Raise)
-    UseItem         // Æ¯Á¤ ¾ÆÀÌÅÛ º¸À¯ Á¶°Ç µî
+    Press,      // í‚¤ ëˆŒë €ì„ ë•Œ
+    Hold,       // ì¼ì • ì‹œê°„ í™€ë“œ
+    EnterArea,  // íŠ¸ë¦¬ê±° ì§„ì…í˜•(ìŠ¤ìºë„ˆ ì—†ì´ íŠ¸ë¦¬ê±°ê°€ Raise)
+    UseItem     // (ì•„ì´í…œ ì‹œìŠ¤í…œ ì“°ë©´ ì¶”í›„ enumí™”í•´ì„œ ë¶™ì¼ ê²ƒ)
 }
 
 [DisallowMultipleComponent]
 public sealed class Interactable2D : MonoBehaviour
 {
     [Header("ID / Type")]
-    [SerializeField] string id = "Box_A";
-    [SerializeField] InteractionKind kind = InteractionKind.Press;
+    [SerializeField] private InteractableId idEnum = InteractableId.Table;
+    [SerializeField] private InteractionKind kind = InteractionKind.Press;
 
     [Header("Hold Option")]
-    [SerializeField, Min(0f)] float requiredHoldSeconds = 0.8f; // 0ÀÌ¸é ¹«½Ã
-    [SerializeField] bool cancelOnMove = false;
-
+    [SerializeField, Min(0f)] private float requiredHoldSeconds = 0.8f; // 0ì´ë©´ ë¬´ì‹œ
+    [SerializeField] private bool cancelOnMove = false;
 
     [Header("Stay Option")]
-    [SerializeField, Min(0f)] float requiredStaySeconds = 0.8f; // 0ÀÌ¸é ¹«½Ã
+    [SerializeField, Min(0f)] private float requiredStaySeconds = 0.8f; // 0ì´ë©´ ë¬´ì‹œ
 
+    [Header("Prompt (UI only)")]
+    [SerializeField] private string promptText = "ìƒí˜¸ì‘ìš©"; // UI í‘œì‹œìš© í…ìŠ¤íŠ¸ë§Œ ë¬¸ìì—´ í—ˆìš©
+    [SerializeField] private Transform promptAnchor;         // ì—†ìœ¼ë©´ this
+    [SerializeField] private Vector3 promptOffset = new Vector3(0, 1f, 0);
 
+    [Header("Preconditions (Flags)")]
+    [SerializeField] private FlagId[] requiredEventFlags;    // enumë§Œ
 
-    [Header("prompt")]
-    [SerializeField] string promptText = "»óÈ£ÀÛ¿ë";
-    [SerializeField] Transform promptAnchor;            // ¾øÀ¸¸é this
-    [SerializeField] Vector3 promptOffset = new Vector3(0, 1f, 0);
-
-    [Header("Preconditions (all satisfied if any)\r\n")]
-    [SerializeField] string[] requiredEventFlags;
-    [SerializeField] string requiredItemId;             // ºó ¹®ÀÚ¿­ÀÌ¸é ¹«½Ã
-
-    public string Id => id;
+    // ëŸ°íƒ€ì„ìš© í”„ë¡œí¼í‹°
+    public InteractableId IdEnum => idEnum;
     public InteractionKind Kind => kind;
     public float RequiredHoldSeconds => requiredHoldSeconds;
     public float RequiredStaySeconds => requiredStaySeconds;
@@ -48,9 +45,8 @@ public sealed class Interactable2D : MonoBehaviour
     public Vector3 PromptOffset => promptOffset;
     public string PromptText => promptText;
 
-
-
-    public bool HasRequiredFlags(System.Func<string, bool> flagChecker)
+    /// <summary>í•„ìš” í”Œë˜ê·¸ ì¶©ì¡± ì—¬ë¶€. enum ê¸°ë°˜ ë¸ë¦¬ê²Œì´íŠ¸ë§Œ ë°›ìŒ.</summary>
+    public bool HasRequiredFlags(System.Func<FlagId, bool> flagChecker)
     {
         if (requiredEventFlags == null || requiredEventFlags.Length == 0) return true;
         if (flagChecker == null) return false;
@@ -58,53 +54,4 @@ public sealed class Interactable2D : MonoBehaviour
             if (!flagChecker(requiredEventFlags[i])) return false;
         return true;
     }
-    public bool CheckItem(System.Func<string, bool> hasItem)
-        => string.IsNullOrEmpty(requiredItemId) || (hasItem != null && hasItem(requiredItemId));
-
-
-
-
-    /*   float ComputeScore(Interactable2D it, Vector2 pos, Vector2 facing)
-       {
-           Vector2 to = (Vector2)it.transform.position - pos;
-           float d2 = to.sqrMagnitude + 0.0001f;
-           float score = d2 * it.PriorityBias;
-
-           // Á¤¸é °¢µµ(¼±ÅÃ)
-           if (it.MinFacingDot > -0.999f)
-           {
-               float dot = Vector2.Dot(facing.normalized, to.normalized);
-               if (dot < it.MinFacingDot) return float.PositiveInfinity;
-               // Á¤¸éÀÏ¼ö·Ï °¡ÁßÄ¡¡é
-               score *= Mathf.Lerp(2f, 0.5f, (dot + 1f) * 0.5f);
-           }
-
-           // ½Ã¾ß(¼±ÅÃ)
-           if (it.LOSBlockMask != 0 && !HasLOS(pos, it.transform.position, it.LOSBlockMask))
-               score *= 10f; // ÆĞ³ÎÆ¼
-
-           // Äù½ºÆ® °ü·Ã¼º(ÀÖÀ¸¸é °¡ÁßÄ¡¡é)
-           if (QuestRuntime.IsRelevantTarget(it.Id)) score *= 0.5f;
-
-           return score;
-       }
-
-       bool HasLOS(Vector2 from, Vector2 to, LayerMask block)
-       {
-           Vector2 dir = to - from; float dist = dir.magnitude;
-           return dist <= 0.001f || !Physics2D.Raycast(from, dir / dist, dist, block);
-       }
-
-     [SerializeField] float hysteresis = 1.15f; // 15% ´õ ³ªºüÁö±â Àü±îÁø À¯Áö
-   Interactable2D _stickyTarget; float _stickyScore;
-
-   Interactable2D ApplyHysteresis(Interactable2D best, float bestScore)
-   {
-       if (_stickyTarget && _stickyTarget == best) { _stickyScore = bestScore; return best; }
-       if (_stickyTarget && _stickyScore * hysteresis < bestScore) return _stickyTarget;
-       _stickyTarget = best; _stickyScore = bestScore; return best;
-   }
-
-
-     */
 }
