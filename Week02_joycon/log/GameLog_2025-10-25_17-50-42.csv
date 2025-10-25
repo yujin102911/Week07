@@ -1,0 +1,99 @@
+Timestamp, Level, Source, Message
+17:50:42.932,INFO,GameLogger,=== Game Session Started ===
+17:50:43.531,WARNING,Unity,Minimap: no renderers found for bounds. Check includeLayers.
+17:50:43.538,INFO,Unity,Trigger Entered with: Tilemap
+17:50:45.980,DEBUG,PlayerCarrying,집기 조작WateringCan (UnityEngine.BoxCollider2D)
+17:50:45.982,INFO,Unity,_focus is null
+17:50:46.000,INFO,Unity,No hits detected.
+17:50:46.025,INFO,Unity,No hits detected.
+17:50:46.038,INFO,Unity,No hits detected.
+17:50:46.061,INFO,Unity,No hits detected.
+17:50:46.078,INFO,Unity,No hits detected.
+17:50:46.103,INFO,Unity,No hits detected.
+17:50:46.117,INFO,Unity,No hits detected.
+17:50:46.140,INFO,Unity,No hits detected.
+17:50:46.154,INFO,Unity,No hits detected.
+17:50:46.179,INFO,Unity,No hits detected.
+17:50:46.192,INFO,Unity,No hits detected.
+17:50:46.214,INFO,Unity,No hits detected.
+17:50:46.227,INFO,Unity,No hits detected.
+17:50:46.250,INFO,Unity,No hits detected.
+17:50:46.263,INFO,Unity,No hits detected.
+17:50:46.288,INFO,Unity,No hits detected.
+17:50:46.301,INFO,Unity,No hits detected.
+17:50:46.324,INFO,Unity,No hits detected.
+17:50:46.337,INFO,Unity,No hits detected.
+17:50:46.359,INFO,Unity,No hits detected.
+17:50:46.373,INFO,Unity,No hits detected.
+17:50:46.374,INFO,Unity,maxJumpVelocity19.84127
+17:50:46.397,INFO,Unity,No hits detected.
+17:50:46.411,INFO,Unity,No hits detected.
+17:50:46.436,INFO,Unity,No hits detected.
+17:50:46.453,INFO,Unity,No hits detected.
+17:50:46.483,INFO,Unity,No hits detected.
+17:50:46.503,INFO,Unity,No hits detected.
+17:50:46.528,INFO,Unity,No hits detected.
+17:50:46.541,INFO,Unity,No hits detected.
+17:50:46.564,INFO,Unity,No hits detected.
+17:50:46.578,INFO,Unity,No hits detected.
+17:50:46.602,INFO,Unity,No hits detected.
+17:50:46.614,INFO,Unity,No hits detected.
+17:50:46.638,INFO,Unity,No hits detected.
+17:50:46.651,INFO,Unity,No hits detected.
+17:50:46.676,INFO,Unity,No hits detected.
+17:50:46.688,INFO,Unity,No hits detected.
+17:50:46.715,INFO,Unity,No hits detected.
+17:50:46.729,INFO,Unity,No hits detected.
+17:50:46.752,INFO,Unity,No hits detected.
+17:50:46.765,INFO,Unity,No hits detected.
+17:50:46.789,INFO,Unity,No hits detected.
+17:50:46.803,INFO,Unity,No hits detected.
+17:50:46.826,INFO,Unity,No hits detected.
+17:50:46.840,INFO,Unity,No hits detected.
+17:50:46.862,INFO,Unity,No hits detected.
+17:50:46.875,INFO,Unity,No hits detected.
+17:50:46.898,INFO,Unity,Trigger Entered with: Player
+17:50:46.899,INFO,Unity,No hits detected.
+17:50:46.917,INFO,Unity,No hits detected.
+17:50:46.941,INFO,Unity,No hits detected.
+17:50:46.954,INFO,Unity,No hits detected.
+17:50:46.977,INFO,Unity,No hits detected.
+17:50:48.412,INFO,Unity,Trigger Entered with: WateringCan
+17:50:48.585,INFO,Unity,No hits detected.
+17:50:48.596,INFO,Unity,No hits detected.
+17:50:48.620,INFO,Unity,No hits detected.
+17:50:48.634,INFO,Unity,No hits detected.
+17:50:48.659,INFO,Unity,No hits detected.
+17:50:48.673,INFO,Unity,No hits detected.
+17:50:48.696,INFO,Unity,No hits detected.
+17:50:48.710,INFO,Unity,No hits detected.
+17:50:48.735,INFO,Unity,No hits detected.
+17:50:48.747,INFO,Unity,No hits detected.
+17:50:48.772,INFO,Unity,No hits detected.
+17:50:48.788,INFO,Unity,No hits detected.
+17:50:48.811,INFO,Unity,No hits detected.
+17:50:48.825,INFO,Unity,No hits detected.
+17:50:48.849,INFO,Unity,No hits detected.
+17:50:48.860,INFO,Unity,No hits detected.
+17:50:48.884,INFO,Unity,No hits detected.
+17:50:48.896,INFO,Unity,No hits detected.
+17:50:48.920,INFO,Unity,No hits detected.
+17:50:48.934,INFO,Unity,No hits detected.
+17:50:48.958,INFO,Unity,No hits detected.
+17:50:49.085,INFO,Unity,Trigger Exit with: WateringCan
+17:50:49.175,INFO,Unity,Trigger Exit with: Player
+17:50:53.022,INFO,Unity,Trigger Entered with: Player
+17:50:53.072,INFO,Unity,Trigger Entered with: WateringCan
+17:50:53.236,INFO,Unity,Trigger Exit with: WateringCan
+17:50:53.359,INFO,Unity,Trigger Exit with: Player
+17:50:53.527,INFO,Unity,Trigger Entered with: Player
+17:50:53.593,INFO,Unity,Trigger Entered with: WateringCan
+17:50:53.849,INFO,Unity,Trigger Exit with: WateringCan
+17:51:23.852,WARNING,Unity,"Assets\Scripts\Player\RaycastController.cs(22,23): warning CS0108: 'RaycastController.collider' hides inherited member 'Component.collider'. Use the new keyword if hiding was intended."
+17:51:23.852,WARNING,Unity,"Assets\Scripts\Minimap\Minimap.cs(43,18): warning CS0618: 'Object.FindObjectsOfType<T>()' is obsolete: 'Object.FindObjectsOfType has been deprecated. Use Object.FindObjectsByType instead which lets you decide whether you need the results sorted or not.  FindObjectsOfType sorts the results by InstanceID but if you do not need this using FindObjectSortMode.None is considerably faster.'"
+17:51:23.852,WARNING,Unity,"Assets\Scripts\Yujin\PlayerSpriteChanger.cs(11,31): warning CS0618: 'Object.FindObjectOfType<T>()' is obsolete: 'Object.FindObjectOfType has been deprecated. Use Object.FindFirstObjectByType instead or if finding any instance is acceptable the faster Object.FindAnyObjectByType'"
+17:51:23.853,WARNING,Unity,"Assets\Scripts\Rope\KinematicGrapple2D.cs(269,28): warning CS0618: 'Physics2D.LinecastNonAlloc(Vector2, Vector2, RaycastHit2D[], int)' is obsolete: 'Physics2D.LinecastNonAlloc is deprecated. Use Physics2D.Linecast instead.'"
+17:51:23.853,WARNING,Unity,"Assets\Scripts\Player\PlayerCarrying.cs(28,11): warning CS0414: The field 'PlayerCarrying.lastObjRadius' is assigned but its value is never used"
+17:51:23.854,WARNING,Unity,"Assets\Scripts\Player\PlayerCarrying.cs(40,36): warning CS0414: The field 'PlayerCarrying.interactionRange' is assigned but its value is never used"
+17:51:23.854,WARNING,Unity,"Assets\Scripts\Interaction\Axe.cs(6,34): warning CS0414: The field 'Axe.cutRequire' is assigned but its value is never used"
+17:51:23.854,WARNING,Unity,"Assets\Scripts\Interaction\CarryableRotation.cs(8,10): warning CS0414: The field 'CarryableRotation.carried' is assigned but its value is never used"
