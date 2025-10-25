@@ -1,0 +1,234 @@
+Timestamp, Level, Source, Message
+18:53:01.004,INFO,GameLogger,=== Game Session Started ===
+18:53:01.182,WARNING,Unity,Minimap: no renderers found for bounds. Check includeLayers.
+18:53:01.189,INFO,Unity,Trigger Entered with: Wall2
+18:53:01.190,INFO,Unity,Trigger Entered with: Wall2
+18:53:01.190,INFO,Unity,Trigger Entered with: Wall2
+18:53:01.191,INFO,Unity,Trigger Entered with: Wall2
+18:53:01.191,INFO,Unity,Trigger Entered with: Wall2
+18:53:04.887,DEBUG,PlayerCarrying,집기 조작샴푸 (UnityEngine.CapsuleCollider2D)
+18:53:04.888,INFO,Unity,_focus is null
+18:53:07.285,INFO,Unity,maxJumpVelocity19.92032
+18:53:07.542,INFO,Unity,indexChamge
+18:53:07.542,INFO,Unity,짐 1충돌
+18:53:07.546,ERROR,Unity,"ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+System.Collections.Generic.List`1[T].get_Item (System.Int32 index) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+PlayerCarrying.CarryingDrop () (at Assets/Scripts/Player/PlayerCarrying.cs:264)
+PlayerCarrying.Update () (at Assets/Scripts/Player/PlayerCarrying.cs:88)
+"
+18:53:28.246,INFO,Unity,maxJumpVelocity19.92032
+18:53:28.930,INFO,Unity,maxJumpVelocity19.92032
+18:53:30.161,INFO,Unity,사다리 점프
+18:53:31.030,INFO,Unity,maxJumpVelocity19.92032
+18:53:31.666,INFO,Unity,maxJumpVelocity19.92032
+18:53:34.130,INFO,Unity,사다리 점프
+18:53:35.066,INFO,Unity,maxJumpVelocity19.92032
+18:53:35.867,INFO,Unity,사다리 점프
+18:53:37.574,INFO,Unity,maxJumpVelocity19.92032
+18:53:38.183,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+18:53:38.184,INFO,Unity,_focus is null
+18:53:38.846,INFO,Unity,nal닿음
+18:53:38.847,INFO,Unity,Trigger닿음
+18:53:38.847,INFO,Unity,nal닿음
+18:53:38.867,INFO,Unity,Trigger닿음
+18:53:39.177,INFO,Unity,maxJumpVelocity19.68504
+18:53:39.823,INFO,Unity,nal닿음
+18:53:39.824,INFO,Unity,Trigger닿음
+18:53:39.959,INFO,Unity,maxJumpVelocity19.68504
+18:53:40.525,INFO,Unity,nal닿음
+18:53:40.564,INFO,Unity,Trigger닿음
+18:53:40.622,INFO,Unity,Trigger닿음
+18:53:40.622,INFO,Unity,nal닿음
+18:53:40.682,INFO,Unity,Trigger닿음
+18:53:40.683,INFO,Unity,nal닿음
+18:53:40.728,INFO,Unity,Trigger닿음
+18:53:40.729,INFO,Unity,nal닿음
+18:53:41.252,INFO,Unity,maxJumpVelocity19.68504
+18:53:42.299,INFO,Unity,maxJumpVelocity19.68504
+18:53:42.343,INFO,Unity,Trigger닿음
+18:53:42.343,INFO,Unity,nal닿음
+18:53:42.406,INFO,Unity,nal닿음
+18:53:42.407,INFO,Unity,Trigger닿음
+18:53:42.944,INFO,Unity,Trigger닿음
+18:53:42.945,INFO,Unity,nal닿음
+18:53:43.002,INFO,Unity,nal닿음
+18:53:43.002,INFO,Unity,Trigger닿음
+18:53:43.416,INFO,Unity,maxJumpVelocity19.68504
+18:53:43.481,INFO,Unity,Trigger닿음
+18:53:43.481,INFO,Unity,nal닿음
+18:53:44.146,INFO,Unity,Trigger닿음
+18:53:44.146,INFO,Unity,nal닿음
+18:53:45.507,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+18:53:45.508,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+18:53:45.508,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+18:53:45.508,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+18:53:45.509,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+18:53:45.510,INFO,Unity,_focus is null
+18:53:45.736,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+18:53:45.737,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+18:53:45.737,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+18:53:45.738,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+18:53:45.738,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+18:53:45.739,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+18:53:45.739,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+18:53:45.740,INFO,Unity,_focus is null
+18:53:45.997,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+18:53:46.235,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+18:53:46.236,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+18:53:46.236,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+18:53:46.236,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+18:53:46.237,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+18:53:46.237,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+18:53:46.237,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+18:53:46.237,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+18:53:46.239,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+18:53:46.239,INFO,Unity,_focus is null
+18:53:46.282,INFO,Unity,Collider닿음
+18:53:46.306,INFO,Unity,Collider닿음
+18:53:46.421,INFO,Unity,Collider닿음
+18:53:46.447,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+18:53:46.584,INFO,Unity,Collider닿음
+18:53:46.584,INFO,Unity,Collider닿음
+18:53:46.585,INFO,Unity,Collider닿음
+18:53:46.861,INFO,Unity,Collider닿음
+18:53:46.889,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+18:53:46.890,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+18:53:46.891,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+18:53:46.891,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+18:53:46.891,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+18:53:46.891,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+18:53:46.892,INFO,Unity,_focus is null
+18:53:46.987,INFO,Unity,Collider닿음
+18:53:47.024,INFO,Unity,Collider닿음
+18:53:47.171,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+18:53:47.171,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+18:53:47.172,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+18:53:47.172,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+18:53:47.172,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+18:53:47.173,INFO,Unity,_focus is null
+18:53:47.469,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+18:53:47.469,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+18:53:47.470,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+18:53:47.470,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+18:53:47.471,INFO,Unity,_focus is null
+18:53:47.684,INFO,Unity,maxJumpVelocity19.08397
+18:53:47.842,INFO,Unity,Collider닿음
+18:53:47.865,INFO,Unity,Collider닿음
+18:53:50.126,INFO,Unity,indexChamge
+18:53:50.126,INFO,Unity,짐 6충돌
+18:53:50.126,ERROR,Unity,"ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+System.Collections.Generic.List`1[T].get_Item (System.Int32 index) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+PlayerCarrying.CarryingDrop () (at Assets/Scripts/Player/PlayerCarrying.cs:264)
+PlayerCarrying.Update () (at Assets/Scripts/Player/PlayerCarrying.cs:88)
+"
+18:53:50.684,INFO,Unity,Collider닿음
+18:53:50.701,INFO,Unity,Collider닿음
+18:53:50.820,INFO,Unity,Collider닿음
+18:53:50.942,INFO,Unity,Collider닿음
+18:53:51.001,INFO,Unity,Collider닿음
+18:53:51.266,INFO,Unity,Collider닿음
+18:53:51.283,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+18:53:51.283,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+18:53:51.284,INFO,Unity,_focus is null
+18:53:51.323,INFO,Unity,Collider닿음
+18:53:51.345,INFO,Unity,Collider닿음
+18:53:54.325,INFO,Unity,maxJumpVelocity19.08397
+18:53:54.503,INFO,Unity,indexChamge
+18:53:54.503,INFO,Unity,짐 4충돌
+18:53:54.504,INFO,Unity,짐 5충돌
+18:53:54.504,INFO,Unity,짐 6충돌
+18:53:54.504,INFO,Unity,indexChamge
+18:53:54.504,INFO,Unity,짐 3충돌
+18:53:54.504,ERROR,Unity,"ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+System.Collections.Generic.List`1[T].get_Item (System.Int32 index) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+PlayerCarrying.CarryingDrop () (at Assets/Scripts/Player/PlayerCarrying.cs:264)
+PlayerCarrying.Update () (at Assets/Scripts/Player/PlayerCarrying.cs:88)
+"
+18:53:54.542,INFO,Unity,indexChamge
+18:53:54.542,INFO,Unity,짐 2충돌
+18:53:54.542,ERROR,Unity,"ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+System.Collections.Generic.List`1[T].get_Item (System.Int32 index) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+PlayerCarrying.CarryingDrop () (at Assets/Scripts/Player/PlayerCarrying.cs:264)
+PlayerCarrying.Update () (at Assets/Scripts/Player/PlayerCarrying.cs:88)
+"
+18:53:54.607,INFO,Unity,indexChamge
+18:53:54.608,INFO,Unity,짐 1충돌
+18:53:54.608,ERROR,Unity,"ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+System.Collections.Generic.List`1[T].get_Item (System.Int32 index) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+PlayerCarrying.CarryingDrop () (at Assets/Scripts/Player/PlayerCarrying.cs:264)
+PlayerCarrying.Update () (at Assets/Scripts/Player/PlayerCarrying.cs:88)
+"
+18:53:55.568,INFO,Unity,사다리 점프
+18:53:56.522,INFO,Unity,사다리 점프
+18:53:56.838,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+18:53:56.840,INFO,Unity,_focus is null
+18:53:57.121,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+18:53:57.121,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+18:53:57.122,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+18:53:57.122,INFO,Unity,_focus is null
+18:53:57.378,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+18:53:57.379,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+18:53:57.380,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+18:53:57.380,INFO,Unity,_focus is null
+18:53:57.602,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+18:53:57.602,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+18:53:57.603,INFO,Unity,_focus is null
+18:53:57.819,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+18:54:00.110,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+18:54:00.111,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+18:54:00.112,INFO,Unity,_focus is null
+18:54:03.150,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+18:54:03.151,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+18:54:03.152,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+18:54:03.153,INFO,Unity,_focus is null
+18:54:03.401,DEBUG,PlayerCarrying,집기 조작샴푸 (UnityEngine.CapsuleCollider2D)
+18:54:03.402,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+18:54:03.402,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+18:54:03.403,INFO,Unity,_focus is null
+18:54:05.051,INFO,Unity,maxJumpVelocity19.08397
+18:54:05.320,INFO,Unity,indexChamge
+18:54:05.320,INFO,Unity,짐 6충돌
+18:54:05.321,ERROR,Unity,"ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+System.Collections.Generic.List`1[T].get_Item (System.Int32 index) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+PlayerCarrying.CarryingDrop () (at Assets/Scripts/Player/PlayerCarrying.cs:264)
+PlayerCarrying.Update () (at Assets/Scripts/Player/PlayerCarrying.cs:88)
+"
+18:54:06.125,INFO,Unity,maxJumpVelocity19.08397
+18:54:07.074,INFO,Unity,사다리 점프
+18:54:07.567,DEBUG,Stove,장작 추가됨 현재: 1개
+18:54:07.867,INFO,Unity,maxJumpVelocity19.37984
+18:54:08.423,DEBUG,Stove,장작 추가됨 현재: 2개
+18:54:08.424,DEBUG,Stove,장작 추가됨 현재: 3개
+18:54:08.976,INFO,Unity,maxJumpVelocity19.84127
+18:54:09.900,DEBUG,Stove,장작 추가됨 현재: 4개
+18:54:09.901,DEBUG,Stove,스토브에 불을 붙였습니다
+18:54:10.988,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+18:54:14.589,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+18:54:19.509,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+18:54:20.729,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+18:54:22.368,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+18:54:26.669,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+18:54:31.648,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+18:54:35.129,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+18:54:38.871,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+18:54:40.412,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+18:54:43.249,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+18:54:45.170,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+18:54:47.729,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+18:54:52.573,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+18:54:53.610,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+18:54:56.429,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+18:54:58.493,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+18:55:01.451,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+18:55:04.331,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 17
+18:55:06.036,INFO,Unity,Trigger Exit with: Wall2
+18:55:06.036,INFO,Unity,Trigger Exit with: Wall2
+18:55:06.037,INFO,Unity,Trigger Exit with: Wall2
+18:55:06.037,INFO,Unity,Trigger Exit with: Wall2
+18:55:06.037,INFO,Unity,Trigger Exit with: Wall2
