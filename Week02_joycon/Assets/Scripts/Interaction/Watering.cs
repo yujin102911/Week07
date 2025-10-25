@@ -41,6 +41,10 @@ public class Watering : MonoBehaviour
                 }
             }
         }
+        else
+        {
+            treeDetact = false;
+        }
         if (treeDetact)
         {
             activeObject.SetActive(true);

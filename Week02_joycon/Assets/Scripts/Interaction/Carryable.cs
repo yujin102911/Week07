@@ -53,6 +53,7 @@ public class Carryable : MonoBehaviour
                 {
                     Debug.Log("조졌" + myIndex);
                 }
+                GameLogger.Instance.LogDebug(this, $"충돌로 인해 짐 떨어뜨림. Fall떨어트린 위치 : {transform.position}");
             }
         }
     }
