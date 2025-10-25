@@ -1,0 +1,65 @@
+Timestamp, Level, Source, Message
+02:00:15.460,INFO,GameLogger,=== Game Session Started ===
+02:00:17.065,WARNING,Unity,Minimap: no renderers found for bounds. Check includeLayers.
+02:00:18.925,ERROR,Unity,"Screen position out of view frustum (screen pos 398.000000, 279.000000, 0.000000) (Camera rect 0 0 985 456)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+"
+02:00:18.928,ERROR,Unity,"Screen position out of view frustum (screen pos 398.000000, 279.000000, 0.000000) (Camera rect 0 0 985 456)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+"
+02:00:21.196,DEBUG,PlayerCarrying,쿨타임 지났음
+02:00:21.199,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+02:00:21.200,INFO,Unity,_focus is null
+02:00:25.851,INFO,Unity,막혔어
+02:00:27.533,INFO,Unity,막혔어
+02:00:28.223,INFO,Unity,막혔어
+02:00:28.610,INFO,Unity,maxJumpVelocity19.68504
+02:00:30.778,INFO,Unity,maxJumpVelocity20
+02:00:31.479,DEBUG,PlayerCarrying,쿨타임 지났음
+02:00:31.480,DEBUG,PlayerCarrying,집기 조작Wood (UnityEngine.BoxCollider2D)
+02:00:31.481,INFO,Unity,_focus is null
+02:00:32.165,INFO,Unity,막혔어
+02:00:35.671,INFO,Unity,nal닿음
+02:00:35.672,INFO,Unity,Trigger닿음
+02:00:36.197,DEBUG,PlayerCarrying,쿨타임 지났음
+02:00:36.198,DEBUG,PlayerCarrying,집기 조작Wood (UnityEngine.BoxCollider2D)
+02:00:36.198,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+02:00:36.199,DEBUG,PlayerCarrying,집기 조작Rag (UnityEngine.BoxCollider2D)
+02:00:36.199,INFO,Unity,_focus is null
+02:00:37.066,INFO,Unity,막혔어
+02:00:37.796,INFO,Unity,maxJumpVelocity19.68504
+02:00:39.025,DEBUG,PlayerCarrying,쿨타임 지났음
+02:00:39.025,DEBUG,PlayerCarrying,집기 조작Rag (UnityEngine.BoxCollider2D)
+02:00:39.027,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+02:00:39.027,DEBUG,PlayerCarrying,집기 조작Wood (UnityEngine.BoxCollider2D)
+02:00:39.028,INFO,Unity,_focus is null
+02:00:39.044,INFO,Unity,Dirty (6)닿음
+02:00:39.044,INFO,Unity,Dirty (3)닿음
+02:00:39.045,INFO,Unity,Dirty (13)닿음
+02:00:39.045,INFO,Unity,Dirty (10)닿음
+02:00:39.320,INFO,Unity,Dirty (8)닿음
+02:00:39.322,INFO,Unity,Dirty (1)닿음
+02:00:39.994,INFO,Unity,maxJumpVelocity19.68504
+02:00:40.881,INFO,Unity,막혔어
+02:00:43.882,INFO,Unity,막혔어
+02:00:44.536,INFO,Unity,Dirty (1)닿음
+02:00:44.536,INFO,Unity,Dirty (8)닿음
+02:00:44.609,INFO,Unity,Dirty (3)닿음
+02:00:44.609,INFO,Unity,Dirty (10)닿음
+02:00:44.689,INFO,Unity,Dirty (13)닿음
+02:00:44.690,INFO,Unity,Dirty (6)닿음
+02:00:51.039,INFO,Unity,Dirty (1)닿음
+02:00:51.040,INFO,Unity,Dirty (8)닿음
+02:00:53.415,INFO,Unity,막혔어
+02:00:54.272,INFO,Unity,막혔어
+02:00:55.034,INFO,Unity,막혔어
+02:01:27.451,WARNING,Unity,"Assets\Scripts\Player\RaycastController.cs(22,23): warning CS0108: 'RaycastController.collider' hides inherited member 'Component.collider'. Use the new keyword if hiding was intended."
+02:01:27.452,WARNING,Unity,"Assets\Scripts\Minimap\Minimap.cs(43,18): warning CS0618: 'Object.FindObjectsOfType<T>()' is obsolete: 'Object.FindObjectsOfType has been deprecated. Use Object.FindObjectsByType instead which lets you decide whether you need the results sorted or not.  FindObjectsOfType sorts the results by InstanceID but if you do not need this using FindObjectSortMode.None is considerably faster.'"
+02:01:27.452,WARNING,Unity,"Assets\Scripts\Yujin\PlayerSpriteChanger.cs(11,31): warning CS0618: 'Object.FindObjectOfType<T>()' is obsolete: 'Object.FindObjectOfType has been deprecated. Use Object.FindFirstObjectByType instead or if finding any instance is acceptable the faster Object.FindAnyObjectByType'"
+02:01:27.452,WARNING,Unity,"Assets\Scripts\Rope\KinematicGrapple2D.cs(269,28): warning CS0618: 'Physics2D.LinecastNonAlloc(Vector2, Vector2, RaycastHit2D[], int)' is obsolete: 'Physics2D.LinecastNonAlloc is deprecated. Use Physics2D.Linecast instead.'"
+02:01:27.453,WARNING,Unity,"Assets\Scripts\Player\PlayerCarrying.cs(40,36): warning CS0414: The field 'PlayerCarrying.interactionRange' is assigned but its value is never used"
+02:01:27.454,WARNING,Unity,"Assets\Scripts\Player\PlayerCarrying.cs(28,11): warning CS0414: The field 'PlayerCarrying.lastObjRadius' is assigned but its value is never used"
+02:01:27.454,WARNING,Unity,"Assets\Scripts\Interaction\Axe.cs(6,34): warning CS0414: The field 'Axe.cutRequire' is assigned but its value is never used"
+02:01:27.512,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+UnityEditor.GameObjectInspector.OnDisable () (at <2c2557cc28ef491cb087583268e49902>:0)
+"

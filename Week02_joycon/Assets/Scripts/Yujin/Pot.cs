@@ -1,7 +1,7 @@
 using UnityEngine;
 
 // 냄비는 Carryable, WorldInteractable 컴포넌트가 모두 필요합니다.
-[RequireComponent(typeof(Carryable), typeof(WorldInteractable), typeof(Collider2D))]
+[RequireComponent(typeof(Carryable), typeof(Collider2D))]
 public class Pot : MonoBehaviour
 {
     [Header("Ingredients")]
@@ -16,22 +16,56 @@ public class Pot : MonoBehaviour
     [SerializeField] private GameObject cookedMealPrefab; // 요리 완료 시 생성할 완성된 요리 프리팹
     [SerializeField] private Transform spawnPoint; // 요리가 생성될 위치 (설정 안하면 냄비 위치)
 
+    private Carryable selfCarryable;
+    private IngredientReceiver ingredientReceiver;
+    private Collider2D ingredientCollider; // 자식의 콜라이더를 직접 참조
+
     private void Start()
     {
-        // 냄비의 WorldInteractable 설정 (토마토 받기용)
-        WorldInteractable interactable = GetComponent<WorldInteractable>();
-        interactable.requiredItemId = "Tomato"; // 토마토 아이템의 ID (Carryable의 ID와 일치해야 함)
-        interactable.consumeItemOnSuccess = true;
-        interactable.OnInteractionSuccess.AddListener(AddTomato); // 성공 시 AddTomato 함수 호출
+        selfCarryable = GetComponent<Carryable>();
+        ingredientReceiver = GetComponentInChildren<IngredientReceiver>(true);
+        if (selfCarryable == null)
+        {
+            GameLogger.Instance.LogError(this, "Pot에 Carryable 컴포넌트가 없습니다!");
+        }
+        if (ingredientReceiver == null)
+        {
+            GameLogger.Instance.LogError(this, "자식 오브젝트에서 IngredientReceiver.cs를 찾을 수 없습니다!");
+        }
+        else
+        {
+            // (추가) 자식 오브젝트의 Collider2D 컴포넌트를 찾아서 저장합니다.
+            ingredientCollider = ingredientReceiver.GetComponent<Collider2D>();
+            if (ingredientCollider == null)
+            {
+                GameLogger.Instance.LogError(this, "IngredientReceiver 오브젝트에서 Collider2D를 찾을 수 없습니다!");
+            }
+        }
 
         if (spawnPoint == null)
         {
             spawnPoint = transform;
         }
+        Collider2D col = GetComponent<Collider2D>();
+        if (col.isTrigger) { GameLogger.Instance.LogWarning(this, "Pot의 부모에는 IsTrigger가 켜져있으면 안되는데 켜져있음"); }
+        if (GetComponent<Rigidbody2D>() == null)
+        {
+            GameLogger.Instance.LogWarning(this, "Pot부모 오브젝트에 Rigidbody가 없음");
+            gameObject.AddComponent<Rigidbody2D>();
+        }
+    }
+    private void Update()
+    {
+        if (selfCarryable != null && ingredientCollider != null)
+        {
+            // (수정) 냄비가 들려있으면(carrying == true) IsTrigger를 끕니다(false).
+            // 냄비가 바닥에 있으면(carrying == false) IsTrigger를 다시 켭니다(true).
+            ingredientCollider.isTrigger = !selfCarryable.carrying;
+        }
     }
 
     /// <summary>
-    /// WorldInteractable에 의해 호출됨 (토마토 추가)
+    /// IngredientReceiver에 의해 호출됨 (토마토 추가)
     /// </summary>
     public void AddTomato()
     {

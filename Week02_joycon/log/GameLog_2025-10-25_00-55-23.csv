@@ -1,0 +1,54 @@
+Timestamp, Level, Source, Message
+00:55:23.206,INFO,GameLogger,=== Game Session Started ===
+00:55:23.439,WARNING,Unity,Minimap: no renderers found for bounds. Check includeLayers.
+00:55:24.749,ERROR,Unity,"Screen position out of view frustum (screen pos 458.000000, 163.000000, 0.000000) (Camera rect 0 0 985 456)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+"
+00:55:24.750,ERROR,Unity,"Screen position out of view frustum (screen pos 458.000000, 163.000000, 0.000000) (Camera rect 0 0 985 456)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+"
+00:55:26.044,INFO,Unity,maxJumpVelocity20
+00:55:27.188,DEBUG,PlayerCarrying,쿨타임 지났음
+00:55:27.190,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+00:55:27.191,INFO,Unity,_focus is null
+00:55:28.398,INFO,Unity,maxJumpVelocity20
+00:55:29.354,DEBUG,PlayerCarrying,쿨타임 지났음
+00:55:29.355,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+00:55:29.355,INFO,Unity,_focus is null
+00:55:30.018,INFO,Unity,maxJumpVelocity19.68504
+00:55:31.651,INFO,Unity,maxJumpVelocity20
+00:55:45.487,INFO,Unity,maxJumpVelocity20
+00:55:46.340,DEBUG,PlayerCarrying,쿨타임 지났음
+00:55:46.341,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+00:55:46.342,DEBUG,PlayerCarrying,집기 조작Wood (UnityEngine.BoxCollider2D)
+00:55:46.342,INFO,Unity,_focus is null
+00:55:47.407,INFO,Unity,maxJumpVelocity20
+00:55:48.203,DEBUG,PlayerCarrying,쿨타임 지났음
+00:55:48.203,DEBUG,PlayerCarrying,집기 조작Wood (UnityEngine.BoxCollider2D)
+00:55:48.205,INFO,Unity,_focus is null
+00:55:49.113,INFO,Unity,maxJumpVelocity20
+00:55:50.069,INFO,Unity,maxJumpVelocity20
+00:55:50.461,DEBUG,PlayerCarrying,쿨타임 지났음
+00:55:50.461,DEBUG,PlayerCarrying,집기 조작box (4) (UnityEngine.BoxCollider2D)
+00:55:50.463,DEBUG,PlayerCarrying,집기 조작box (5) (UnityEngine.BoxCollider2D)
+00:55:50.463,INFO,Unity,_focus is null
+00:55:51.723,INFO,Unity,막혔어
+00:55:53.214,INFO,Unity,막혔어
+00:55:53.532,INFO,Unity,막혔어
+00:55:58.243,INFO,Unity,막혔어
+01:02:15.730,INFO,Unity,막혔어
+01:02:16.154,INFO,Unity,maxJumpVelocity19.23077
+01:02:24.411,DEBUG,PlayerCarrying,쿨타임 지났음
+01:02:24.412,DEBUG,PlayerCarrying,집기 조작box (4) (UnityEngine.BoxCollider2D)
+01:02:24.413,INFO,Unity,_focus is null
+01:02:24.801,INFO,Unity,막혔어
+01:06:36.271,WARNING,Unity,"Assets\Scripts\Player\RaycastController.cs(22,23): warning CS0108: 'RaycastController.collider' hides inherited member 'Component.collider'. Use the new keyword if hiding was intended."
+01:06:36.272,WARNING,Unity,"Assets\Scripts\Minimap\Minimap.cs(43,18): warning CS0618: 'Object.FindObjectsOfType<T>()' is obsolete: 'Object.FindObjectsOfType has been deprecated. Use Object.FindObjectsByType instead which lets you decide whether you need the results sorted or not.  FindObjectsOfType sorts the results by InstanceID but if you do not need this using FindObjectSortMode.None is considerably faster.'"
+01:06:36.272,WARNING,Unity,"Assets\Scripts\Rope\KinematicGrapple2D.cs(269,28): warning CS0618: 'Physics2D.LinecastNonAlloc(Vector2, Vector2, RaycastHit2D[], int)' is obsolete: 'Physics2D.LinecastNonAlloc is deprecated. Use Physics2D.Linecast instead.'"
+01:06:36.272,WARNING,Unity,"Assets\Scripts\Yujin\PlayerSpriteChanger.cs(11,31): warning CS0618: 'Object.FindObjectOfType<T>()' is obsolete: 'Object.FindObjectOfType has been deprecated. Use Object.FindFirstObjectByType instead or if finding any instance is acceptable the faster Object.FindAnyObjectByType'"
+01:06:36.272,WARNING,Unity,"Assets\Scripts\Player\PlayerCarrying.cs(26,11): warning CS0414: The field 'PlayerCarrying.lastObjRadius' is assigned but its value is never used"
+01:06:36.273,WARNING,Unity,"Assets\Scripts\Interaction\Axe.cs(6,34): warning CS0414: The field 'Axe.cutRequire' is assigned but its value is never used"
+01:06:36.274,WARNING,Unity,"Assets\Scripts\Player\PlayerCarrying.cs(38,36): warning CS0414: The field 'PlayerCarrying.interactionRange' is assigned but its value is never used"
+01:06:36.402,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+UnityEditor.GameObjectInspector.OnDisable () (at <2c2557cc28ef491cb087583268e49902>:0)
+"
