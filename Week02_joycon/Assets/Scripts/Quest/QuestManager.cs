@@ -50,6 +50,11 @@ public sealed class QuestManager : MonoBehaviour
         QuestEvents.OnFlagCleared -= OnFlagChanged;
     }
 
+    void Start()
+    {
+        StartQuest(1000);
+    }
+
     // --- Public API ---
     public bool StartQuest(uint questId)
     {
