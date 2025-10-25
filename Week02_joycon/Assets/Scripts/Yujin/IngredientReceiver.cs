@@ -1,13 +1,13 @@
 using UnityEngine;
 
 /// <summary>
-/// PotÀÇ ÀÚ½Ä ¿ÀºêÁ§Æ®¿¡°Ô ºÙ¾î¼­ Åä¸¶Åä °¨Áö
+/// Potï¿½ï¿½ ï¿½Ú½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ï¿½ï¿½ ï¿½Ù¾î¼­ ï¿½ä¸¶ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 /// </summary>
 [RequireComponent(typeof(Collider2D))]
 public class IngredientReceiver : MonoBehaviour
 {
-    private Pot parentPot; //ºÎ¸ð ³¿ºñ
-    [SerializeField]private string RequiredId = "Tomato";
+    private Pot parentPot; //ï¿½Î¸ï¿½ ï¿½ï¿½ï¿½ï¿½
+    [SerializeField] private string RequiredId = "Tomato";
 
     #region Unity Lifecycle
     private void Start()
@@ -15,20 +15,20 @@ public class IngredientReceiver : MonoBehaviour
         parentPot = GetComponentInParent<Pot>();
         if (parentPot == null)
         {
-            GameLogger.Instance.LogWarning(this, "ºÎ¸ð ¿ÀºêÁ§Æ®¿¡¼­ Pot.cs¸¦ Ã£À» ¼ö ¾øÀ½");
+            GameLogger.Instance.LogWarning(this, "ï¿½Î¸ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ï¿½ï¿½ Pot.csï¿½ï¿½ Ã£ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
         }
         Collider2D col = GetComponent<Collider2D>();
         if (!col.isTrigger)
         {
-            GameLogger.Instance.LogWarning(this, $"{gameObject.name}¿¡°Ô IsTrigger°¡ ¾ÈÄÑÁ®ÀÖÀ½");
+            GameLogger.Instance.LogWarning(this, $"{gameObject.name}ï¿½ï¿½ï¿½ï¿½ IsTriggerï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
         }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (parentPot == null) return; //ºÎ¸ð ³¿ºñ ¾øÀ¸¸é Áß´Ü
+        if (parentPot == null) return; //ï¿½Î¸ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ß´ï¿½
 
-        if (other.TryGetComponent<Carryable>(out Carryable carryable)) //µé¾î¿Â°Ô CarryableÀÌ¸é
+        if (other.TryGetComponent<Carryable>(out Carryable carryable)) //ï¿½ï¿½ï¿½Â°ï¿½ Carryableï¿½Ì¸ï¿½
         {
             if (carryable.carrying) return;
 
@@ -38,7 +38,22 @@ public class IngredientReceiver : MonoBehaviour
                 Destroy(other.gameObject);
             }
         }
+    }
 
+    private void OnTriggerStay2D(Collider2D other)
+    {
+        if (parentPot == null) return; //ï¿½Î¸ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ß´ï¿½
+
+        if (other.TryGetComponent<Carryable>(out Carryable carryable)) //ï¿½ï¿½ï¿½Â°ï¿½ Carryableï¿½Ì¸ï¿½
+        {
+            if (carryable.carrying) return;
+
+            if (carryable.Id == RequiredId)
+            {
+                parentPot.AddTomato();
+                Destroy(other.gameObject);
+            }
+        }
     }
     #endregion
 }

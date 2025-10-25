@@ -26,7 +26,15 @@ public class ShowerMimic : MonoBehaviour
 
         if (!carryable.carrying && requiredItemIds.Contains(carryable.Id) && !placedItemIds.Contains(carryable.Id))
             PlaceItem(carryable);
+    }
 
+    private void OnTriggerStay2D(Collider2D other)
+    {
+        if (isComplete) return;
+        if (!other.TryGetComponent(out Carryable carryable)) return;
+
+        if (!carryable.carrying && requiredItemIds.Contains(carryable.Id) && !placedItemIds.Contains(carryable.Id))
+            PlaceItem(carryable);
     }
     #endregion
 

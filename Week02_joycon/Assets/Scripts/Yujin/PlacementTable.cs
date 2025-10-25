@@ -28,12 +28,22 @@ public class PlacementTable : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (itemPlaced) return; //�̹� �������� ���������� �ƹ��͵� ����
-        if (other.TryGetComponent<Carryable>(out Carryable carryable))
+        if (itemPlaced) return;
+        if (other.TryGetComponent(out Carryable carryable))
         {
             if (!carryable.carrying && carryable.Id == requiredItemId) PlaceItem(carryable);
         }
     }
+
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (itemPlaced) return;
+        if (collision.TryGetComponent(out Carryable carryable))
+        {
+            if (!carryable.carrying && carryable.Id == requiredItemId) PlaceItem(carryable);
+        }
+    }
+
     #endregion
 
     #region Private Methods
