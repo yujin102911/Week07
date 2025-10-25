@@ -261,7 +261,7 @@ public class PlayerCarrying : MonoBehaviour
         }
 
         collideCarrying = carriedObjects.Count;
-        GameLogger.Instance.LogDebug(this, $"충돌로 인해 짐 떨어뜨림. Fall떨어트린 위치 : {carriedObjects[startIndex].transform.position}");
+        GameLogger.Instance.LogDebug(this, $"충돌로 인해 짐 떨어뜨림. Fall떨어트린 위치 : {transform.position}");
         WeightUpdate();
     }
 
