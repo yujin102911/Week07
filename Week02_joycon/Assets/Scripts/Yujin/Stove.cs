@@ -17,22 +17,22 @@ public class Stove : MonoBehaviour
     [SerializeField] private Transform potSnapPoint;
 
     #region Properties
-    public bool isFueled => currentFirewood >= requiredFirewood; //Çö ÀåÀÛÀÇ °³¼ö°¡ ¿ä±¸ ÀåÀÛ °³¼ö¸¦ ³Ñ¾î¼¹À¸¸é true ¹ÝÈ¯
+    public bool isFueled => currentFirewood >= requiredFirewood; //ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ä±¸ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ñ¾î¼¹ï¿½ï¿½ï¿½ï¿½ true ï¿½ï¿½È¯
     #endregion
 
     #region Unity Lifecycle
     private void Start()
     {
         if (spriteRenderer == null) spriteRenderer = GetComponent<SpriteRenderer>();
-        if (spriteRenderer != null) spriteRenderer.sprite = initialSprite; //°ÔÀÓ ½ÃÀÛ ½Ã ºÒ ¾ÈÅ² »ö»óÀ¸·Î ¼³Á¤
+        if (spriteRenderer != null) spriteRenderer.sprite = initialSprite; //ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½Å² ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
         if (potSnapPoint == null)
         {
-            GameLogger.Instance.LogWarning(this, "potSnapPoint°¡ ¼³Á¤µÇÁö ¾Ê¾Ò½À´Ï´Ù. ³¿ºñ°¡ ½º³ÀµÇÁö ¾Ê½À´Ï´Ù.");
-            potSnapPoint = transform; // ÀÓ½Ã·Î ½ºÅäºê ÀÚ½ÅÀÇ À§Ä¡¸¦ »ç¿ë
+            GameLogger.Instance.LogWarning(this, "potSnapPointï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ê¾Ò½ï¿½ï¿½Ï´ï¿½. ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ê½ï¿½ï¿½Ï´ï¿½.");
+            potSnapPoint = transform; // ï¿½Ó½Ã·ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ú½ï¿½ï¿½ï¿½ ï¿½ï¿½Ä¡ï¿½ï¿½ ï¿½ï¿½ï¿½
         }
         if (GetComponent<Collider2D>() == null || !GetComponent<Collider2D>().isTrigger)
         {
-            GameLogger.Instance.LogWarning(this, "Stove¿¡ isTrigger=true ÀÎ Collider2D°¡ ¾ø½À´Ï´Ù. ³¿ºñ¸¦ °¨ÁöÇÒ ¼ö ¾ø½À´Ï´Ù.");
+            GameLogger.Instance.LogWarning(this, "Stoveï¿½ï¿½ isTrigger=true ï¿½ï¿½ Collider2Dï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½. ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.");
         }
 
     }
@@ -40,16 +40,16 @@ public class Stove : MonoBehaviour
 
     #region Public Methods
 
-    ///<summary>WorldInteractable ÀÌº¥Æ®¿¡ ¿¬°áÇÒ ÇÔ¼ö. ÀåÀÛ ÇÏ³ª Ãß°¡</summary>
+    ///<summary>WorldInteractable ï¿½Ìºï¿½Æ®ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ô¼ï¿½. ï¿½ï¿½ï¿½ï¿½ ï¿½Ï³ï¿½ ï¿½ß°ï¿½</summary>
     public void AddFirewood()
     {
         if (isFueled)
         {
-            GameLogger.Instance.LogDebug(this, "½ºÅäºê¿¡ ÀÌ¹Ì 4°³ÀÇ ÀåÀÛÀÌ ÀÖ½À´Ï´Ù.");
+            GameLogger.Instance.LogDebug(this, "ï¿½ï¿½ï¿½ï¿½ê¿¡ ï¿½Ì¹ï¿½ 4ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö½ï¿½ï¿½Ï´ï¿½.");
             return;
         }
         currentFirewood++;
-        GameLogger.Instance.LogDebug(this, $"ÀåÀÛ Ãß°¡µÊ ÇöÀç: {currentFirewood}°³");
+        GameLogger.Instance.LogDebug(this, $"ï¿½ï¿½ï¿½ï¿½ ï¿½ß°ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½: {currentFirewood}ï¿½ï¿½");
 
         if (isFueled)
         {
@@ -61,76 +61,105 @@ public class Stove : MonoBehaviour
         }
     }
 
-    ///<summary>½ºÅäºê »óÅÂ ÃÊ±âÈ­ ÇÔ¼ö</summary>
+    ///<summary>ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ê±ï¿½È­ ï¿½Ô¼ï¿½</summary>
     public void ResetStove()
     {
         if (spriteRenderer == null)
         {
-            GameLogger.Instance.LogError(this, "½ºÅäºê¿¡ spriteRenderer°¡ ¿¬°áµÇÁö ¾Ê¾Ò½À´Ï´Ù.");
+            GameLogger.Instance.LogError(this, "ï¿½ï¿½ï¿½ï¿½ê¿¡ spriteRendererï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ê¾Ò½ï¿½ï¿½Ï´ï¿½.");
             return;
         }
         currentFirewood = 0;
         spriteRenderer.sprite = initialSprite;
-        GameLogger.Instance.LogDebug(this, "½ºÅäºê ÃÊ±âÈ­ ¿Ï·á!");
+        GameLogger.Instance.LogDebug(this, "ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ê±ï¿½È­ ï¿½Ï·ï¿½!");
     }
 
     #endregion
 
     #region Private Methods
-    ///<summary>½ºÅäºê¿¡ ºÒÀÌ ÄÑÁö´Â È¿°ú</summary>
+    ///<summary>ï¿½ï¿½ï¿½ï¿½ê¿¡ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ È¿ï¿½ï¿½</summary>
     private void TurnOnFireVisuals()
     {
         if (spriteRenderer == null)
         {
-            GameLogger.Instance.LogError(this, "½ºÅäºê¿¡ spriteRenderer°¡ ¿¬°áµÇÁö ¾Ê¾Ò½À´Ï´Ù.");
+            GameLogger.Instance.LogError(this, "ï¿½ï¿½ï¿½ï¿½ê¿¡ spriteRendererï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ê¾Ò½ï¿½ï¿½Ï´ï¿½.");
             return;
         }
         spriteRenderer.sprite = fueledSprite;
-        GameLogger.Instance.LogDebug(this, "½ºÅäºê¿¡ ºÒÀ» ºÙ¿´½À´Ï´Ù");
+        GameLogger.Instance.LogDebug(this, "ï¿½ï¿½ï¿½ï¿½ê¿¡ ï¿½ï¿½ï¿½ï¿½ ï¿½Ù¿ï¿½ï¿½ï¿½ï¿½Ï´ï¿½");
     }
-    ///<summary>³¿ºñ¿Í ÀåÀÛ °¨Áö ·ÎÁ÷</summary>
+    ///<summary>ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½</summary>
     private void OnTriggerEnter2D(Collider2D other)
     {
-        // ³¿ºñ°¡ ³»·Á³õ¾ÆÁ³À» ¶§¸¸ °¨Áö (µé°í Áö³ª°¡´Â °Í ¹æÁö)
         if (other.TryGetComponent<Pot>(out Pot pot))
         {
-            //³¿ºñ °¨Áö ·ÎÁ÷
             if (pot.GetComponent<Carryable>() != null && !pot.GetComponent<Carryable>().carrying)
             {
                 potOnStove = pot;
-                pot.SetCurrentStove(this); // ³¿ºñ¿¡°Ô ÀÚ½ÅÀÌ ¾î¶² ½ºÅäºê À§¿¡ ÀÖ´ÂÁö ¾Ë·ÁÁÜ
-                GameLogger.Instance.LogDebug(this, "³¿ºñ°¡ ½ºÅäºê À§¿¡ ³õ¿´½À´Ï´Ù.");
+                pot.SetCurrentStove(this);
+                GameLogger.Instance.LogDebug(this, "ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.");
 
                 pot.transform.position = potSnapPoint.position;
                 pot.transform.rotation = Quaternion.identity;
-                if (pot.TryGetComponent<Rigidbody2D>(out var rb)) 
-                { 
+                if (pot.TryGetComponent<Rigidbody2D>(out var rb))
+                {
                     rb.bodyType = RigidbodyType2D.Kinematic;
                     rb.linearVelocity = Vector2.zero;
                     rb.angularVelocity = 0f;
                 }
 
-                pot.CheckCookingConditions(); // ³¿ºñ¸¦ ¿Ã·Á³õ´Â ¼ø°£¿¡µµ ¿ä¸® Á¶°Ç È®ÀÎ
+                pot.CheckCookingConditions();
             }
         }
-        //ÀåÀÛ °¨Áö ·ÎÁ÷
-        else if(other.TryGetComponent<Carryable>(out Carryable carryable))
+        else if (other.TryGetComponent(out Carryable carryable))
         {
-            if (carryable.GetComponent<Carryable>().Id == "Firewood" && !carryable.GetComponent<Carryable>().carrying)
+            if (carryable.Id == "Firewood" && !carryable.carrying)
             {
                 AddFirewood();
                 Destroy(other.gameObject);
             }
         }
-
     }
+
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.TryGetComponent<Pot>(out Pot pot))
+        {
+            if (pot.GetComponent<Carryable>() != null && !pot.GetComponent<Carryable>().carrying)
+            {
+                potOnStove = pot;
+                pot.SetCurrentStove(this);
+                GameLogger.Instance.LogDebug(this, "ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.");
+
+                pot.transform.position = potSnapPoint.position;
+                pot.transform.rotation = Quaternion.identity;
+                if (pot.TryGetComponent<Rigidbody2D>(out var rb))
+                {
+                    rb.bodyType = RigidbodyType2D.Kinematic;
+                    rb.linearVelocity = Vector2.zero;
+                    rb.angularVelocity = 0f;
+                }
+
+                pot.CheckCookingConditions();
+            }
+        }
+        else if (collision.TryGetComponent(out Carryable carryable))
+        {
+            if (carryable.Id == "Firewood" && !carryable.carrying)
+            {
+                AddFirewood();
+                Destroy(collision.gameObject);
+            }
+        }
+    }
+
     private void OnTriggerExit2D(Collider2D other)
     {
         if (other.TryGetComponent<Pot>(out Pot pot) && pot == potOnStove)
         {
             potOnStove = null;
-            pot.SetCurrentStove(null); // ³¿ºñ°¡ ½ºÅäºê¿¡¼­ ¹þ¾î³²
-            GameLogger.Instance.LogDebug(this, "³¿ºñ°¡ ½ºÅäºê¿¡¼­ ¹þ¾î³µ½À´Ï´Ù.");
+            pot.SetCurrentStove(null); // ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ê¿¡ï¿½ï¿½ ï¿½ï¿½ï¿½î³²
+            GameLogger.Instance.LogDebug(this, "ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ê¿¡ï¿½ï¿½ ï¿½ï¿½ï¿½î³µï¿½ï¿½ï¿½Ï´ï¿½.");
         }
     }
     #endregion
