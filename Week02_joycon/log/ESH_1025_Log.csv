@@ -1,0 +1,3292 @@
+Timestamp, Level, Source, Message
+22:14:12.153,INFO,GameLogger,=== Game Session Started ===
+22:14:12.316,WARNING,Unity,Minimap: no renderers found for bounds. Check includeLayers.
+22:14:12.330,INFO,Unity,Trigger Entered with: Wall2
+22:14:12.330,INFO,Unity,Trigger Entered with: Wall2
+22:14:12.330,INFO,Unity,Trigger Entered with: Wall2
+22:14:12.331,INFO,Unity,Trigger Entered with: Wall2
+22:14:12.331,INFO,Unity,Trigger Entered with: Wall2
+22:14:23.283,INFO,Unity,maxJumpVelocity20
+22:14:26.620,INFO,Unity,maxJumpVelocity20
+22:14:27.278,INFO,Unity,maxJumpVelocity20
+22:14:27.914,INFO,Unity,maxJumpVelocity20
+22:14:28.506,INFO,Unity,maxJumpVelocity20
+22:14:29.265,INFO,Unity,maxJumpVelocity20
+22:14:29.847,INFO,Unity,maxJumpVelocity20
+22:14:31.518,INFO,Unity,maxJumpVelocity20
+22:14:33.154,INFO,Unity,maxJumpVelocity20
+22:14:40.014,INFO,Unity,벽 점프
+22:14:40.517,INFO,Unity,maxJumpVelocity20
+22:14:41.599,INFO,Unity,maxJumpVelocity20
+22:14:42.851,INFO,Unity,maxJumpVelocity20
+22:14:44.358,INFO,Unity,사다리 코요테 점프
+22:14:45.137,INFO,Unity,Trigger Entered with: ===Player===
+22:14:46.577,INFO,Unity,Trigger Entered with: ===Player===
+22:14:46.597,INFO,Unity,Trigger Exit with: ===Player===
+22:14:46.779,INFO,Unity,Trigger Entered with: ===Player===
+22:14:46.800,INFO,Unity,Trigger Exit with: ===Player===
+22:14:46.978,INFO,Unity,Trigger Entered with: ===Player===
+22:14:46.998,INFO,Unity,Trigger Exit with: ===Player===
+22:14:47.178,INFO,Unity,Trigger Entered with: ===Player===
+22:14:47.197,INFO,Unity,Trigger Exit with: ===Player===
+22:14:47.399,INFO,Unity,Trigger Exit with: ===Player===
+22:14:47.468,DEBUG,PlayerCarrying,집기 조작WateringCan (UnityEngine.BoxCollider2D)
+22:14:47.468,INFO,Unity,_focus is null
+22:14:47.470,INFO,Unity,Weight Update =0
+22:14:47.470,INFO,Unity,Weight Update2 =2
+22:14:47.476,INFO,Unity,No hits detected.
+22:14:47.481,INFO,Unity,No hits detected.
+22:14:47.485,INFO,Unity,No hits detected.
+22:14:47.489,INFO,Unity,No hits detected.
+22:14:47.493,INFO,Unity,No hits detected.
+22:14:47.497,INFO,Unity,No hits detected.
+22:14:47.502,INFO,Unity,No hits detected.
+22:14:47.506,INFO,Unity,No hits detected.
+22:14:47.510,INFO,Unity,No hits detected.
+22:14:47.513,INFO,Unity,No hits detected.
+22:14:47.518,INFO,Unity,No hits detected.
+22:14:47.522,INFO,Unity,No hits detected.
+22:14:47.526,INFO,Unity,No hits detected.
+22:14:47.530,INFO,Unity,No hits detected.
+22:14:47.534,INFO,Unity,No hits detected.
+22:14:47.538,INFO,Unity,No hits detected.
+22:14:47.542,INFO,Unity,No hits detected.
+22:14:47.546,INFO,Unity,No hits detected.
+22:14:47.549,INFO,Unity,No hits detected.
+22:14:47.554,INFO,Unity,No hits detected.
+22:14:47.559,INFO,Unity,No hits detected.
+22:14:47.563,INFO,Unity,No hits detected.
+22:14:47.567,INFO,Unity,No hits detected.
+22:14:47.572,INFO,Unity,No hits detected.
+22:14:47.577,INFO,Unity,No hits detected.
+22:14:47.581,INFO,Unity,No hits detected.
+22:14:47.585,INFO,Unity,No hits detected.
+22:14:47.590,INFO,Unity,No hits detected.
+22:14:47.594,INFO,Unity,No hits detected.
+22:14:47.599,INFO,Unity,No hits detected.
+22:14:47.602,INFO,Unity,No hits detected.
+22:14:47.607,INFO,Unity,No hits detected.
+22:14:47.610,INFO,Unity,No hits detected.
+22:14:47.615,INFO,Unity,No hits detected.
+22:14:47.619,INFO,Unity,No hits detected.
+22:14:47.623,INFO,Unity,No hits detected.
+22:14:47.627,INFO,Unity,No hits detected.
+22:14:47.631,INFO,Unity,No hits detected.
+22:14:47.635,INFO,Unity,No hits detected.
+22:14:47.640,INFO,Unity,No hits detected.
+22:14:47.643,INFO,Unity,No hits detected.
+22:14:47.648,INFO,Unity,No hits detected.
+22:14:47.652,INFO,Unity,No hits detected.
+22:14:47.655,INFO,Unity,No hits detected.
+22:14:47.659,INFO,Unity,No hits detected.
+22:14:47.663,INFO,Unity,No hits detected.
+22:14:47.668,INFO,Unity,No hits detected.
+22:14:47.671,INFO,Unity,No hits detected.
+22:14:47.675,INFO,Unity,No hits detected.
+22:14:47.680,INFO,Unity,No hits detected.
+22:14:47.684,INFO,Unity,No hits detected.
+22:14:47.688,INFO,Unity,No hits detected.
+22:14:47.692,INFO,Unity,No hits detected.
+22:14:47.696,INFO,Unity,No hits detected.
+22:14:47.699,INFO,Unity,No hits detected.
+22:14:47.704,INFO,Unity,No hits detected.
+22:14:47.708,INFO,Unity,No hits detected.
+22:14:47.712,INFO,Unity,No hits detected.
+22:14:47.716,INFO,Unity,No hits detected.
+22:14:47.721,INFO,Unity,No hits detected.
+22:14:47.724,INFO,Unity,No hits detected.
+22:14:47.728,INFO,Unity,No hits detected.
+22:14:47.732,INFO,Unity,No hits detected.
+22:14:47.736,INFO,Unity,No hits detected.
+22:14:47.740,INFO,Unity,No hits detected.
+22:14:47.744,INFO,Unity,No hits detected.
+22:14:47.749,INFO,Unity,No hits detected.
+22:14:47.752,INFO,Unity,No hits detected.
+22:14:47.757,INFO,Unity,No hits detected.
+22:14:47.761,INFO,Unity,No hits detected.
+22:14:47.765,INFO,Unity,No hits detected.
+22:14:47.769,INFO,Unity,No hits detected.
+22:14:47.773,INFO,Unity,No hits detected.
+22:14:47.777,INFO,Unity,No hits detected.
+22:14:47.782,INFO,Unity,No hits detected.
+22:14:47.787,INFO,Unity,No hits detected.
+22:14:47.791,INFO,Unity,No hits detected.
+22:14:47.796,INFO,Unity,No hits detected.
+22:14:47.800,INFO,Unity,No hits detected.
+22:14:47.803,INFO,Unity,No hits detected.
+22:14:47.808,INFO,Unity,No hits detected.
+22:14:47.812,INFO,Unity,No hits detected.
+22:14:47.816,INFO,Unity,No hits detected.
+22:14:47.820,INFO,Unity,No hits detected.
+22:14:47.825,INFO,Unity,No hits detected.
+22:14:47.828,INFO,Unity,No hits detected.
+22:14:47.832,INFO,Unity,No hits detected.
+22:14:47.837,INFO,Unity,No hits detected.
+22:14:47.841,INFO,Unity,No hits detected.
+22:14:47.845,INFO,Unity,No hits detected.
+22:14:47.849,INFO,Unity,No hits detected.
+22:14:47.856,INFO,Unity,No hits detected.
+22:14:47.860,INFO,Unity,No hits detected.
+22:14:47.863,INFO,Unity,No hits detected.
+22:14:47.868,INFO,Unity,No hits detected.
+22:14:47.872,INFO,Unity,No hits detected.
+22:14:47.875,INFO,Unity,No hits detected.
+22:14:47.879,INFO,Unity,No hits detected.
+22:14:47.882,INFO,Unity,No hits detected.
+22:14:47.887,INFO,Unity,No hits detected.
+22:14:47.891,INFO,Unity,No hits detected.
+22:14:47.895,INFO,Unity,No hits detected.
+22:14:47.900,INFO,Unity,No hits detected.
+22:14:47.904,INFO,Unity,No hits detected.
+22:14:47.908,INFO,Unity,No hits detected.
+22:14:47.912,INFO,Unity,No hits detected.
+22:14:47.915,INFO,Unity,No hits detected.
+22:14:47.920,INFO,Unity,No hits detected.
+22:14:47.923,INFO,Unity,No hits detected.
+22:14:47.927,INFO,Unity,No hits detected.
+22:14:47.932,INFO,Unity,No hits detected.
+22:14:47.935,INFO,Unity,No hits detected.
+22:14:47.940,INFO,Unity,No hits detected.
+22:14:47.943,INFO,Unity,No hits detected.
+22:14:47.948,INFO,Unity,No hits detected.
+22:14:47.952,INFO,Unity,No hits detected.
+22:14:47.955,INFO,Unity,No hits detected.
+22:14:47.961,INFO,Unity,No hits detected.
+22:14:48.580,INFO,Unity,No hits detected.
+22:14:48.582,INFO,Unity,No hits detected.
+22:14:48.587,INFO,Unity,No hits detected.
+22:14:48.591,INFO,Unity,No hits detected.
+22:14:48.595,INFO,Unity,No hits detected.
+22:14:48.599,INFO,Unity,No hits detected.
+22:14:48.603,INFO,Unity,No hits detected.
+22:14:48.607,INFO,Unity,No hits detected.
+22:14:48.611,INFO,Unity,No hits detected.
+22:14:48.616,INFO,Unity,No hits detected.
+22:14:48.620,INFO,Unity,No hits detected.
+22:14:48.624,INFO,Unity,No hits detected.
+22:14:48.628,INFO,Unity,No hits detected.
+22:14:48.632,INFO,Unity,No hits detected.
+22:14:48.637,INFO,Unity,No hits detected.
+22:14:48.641,INFO,Unity,No hits detected.
+22:14:48.644,INFO,Unity,No hits detected.
+22:14:48.649,INFO,Unity,No hits detected.
+22:14:48.653,INFO,Unity,No hits detected.
+22:14:48.657,INFO,Unity,No hits detected.
+22:14:48.661,INFO,Unity,No hits detected.
+22:14:48.666,INFO,Unity,No hits detected.
+22:14:48.671,INFO,Unity,No hits detected.
+22:14:48.674,INFO,Unity,No hits detected.
+22:14:48.679,INFO,Unity,No hits detected.
+22:14:48.683,INFO,Unity,No hits detected.
+22:14:48.687,INFO,Unity,No hits detected.
+22:14:48.690,INFO,Unity,No hits detected.
+22:14:48.694,INFO,Unity,No hits detected.
+22:14:48.699,INFO,Unity,No hits detected.
+22:14:48.703,INFO,Unity,No hits detected.
+22:14:48.731,INFO,Unity,Trigger Entered with: Watering
+22:14:48.818,INFO,Unity,Trigger Entered with: ===Player===
+22:14:49.600,INFO,Unity,Trigger Entered with: Tomato
+22:14:49.659,INFO,Unity,Trigger Entered with: Tomato (1)
+22:14:49.718,INFO,Unity,Trigger Entered with: Tomato (2)
+22:14:50.157,INFO,Unity,Trigger Entered with: WateringCan
+22:14:50.288,INFO,Unity,Trigger Exit with: Watering
+22:14:50.317,INFO,Unity,Trigger Exit with: Tomato
+22:14:50.318,INFO,Unity,Trigger Exit with: Tomato (2)
+22:14:50.359,INFO,Unity,Trigger Exit with: Tomato (1)
+22:14:50.359,INFO,Unity,Trigger Entered with: Tomato
+22:14:50.359,INFO,Unity,Trigger Entered with: Watering
+22:14:50.360,INFO,Unity,Trigger Entered with: Tomato (2)
+22:14:50.379,INFO,Unity,Trigger Entered with: Tomato (1)
+22:14:50.398,INFO,Unity,Trigger Exit with: WateringCan
+22:14:50.398,INFO,Unity,Trigger Entered with: ===Player===
+22:14:50.438,INFO,Unity,Trigger Exit with: ===Player===
+22:14:50.438,INFO,Unity,Trigger Entered with: WateringCan
+22:14:50.759,INFO,Unity,Trigger Exit with: Tomato
+22:14:51.219,INFO,Unity,Trigger Exit with: WateringCan
+22:14:51.239,INFO,Unity,Trigger Entered with: WateringCan
+22:14:51.240,INFO,Unity,Trigger Entered with: Tomato
+22:14:51.299,INFO,Unity,Trigger Entered with: Tomato (1)
+22:14:51.377,INFO,Unity,Trigger Entered with: Tomato (2)
+22:14:51.617,INFO,Unity,Trigger Exit with: Tomato (2)
+22:14:51.997,INFO,Unity,maxJumpVelocity19.84127
+22:14:52.039,INFO,Unity,Trigger Entered with: Tomato (2)
+22:14:52.067,INFO,Unity,Trigger Exit with: Watering
+22:14:52.072,INFO,Unity,No hits detected.
+22:14:52.075,INFO,Unity,No hits detected.
+22:14:52.079,INFO,Unity,Trigger Exit with: WateringCan
+22:14:52.079,INFO,Unity,No hits detected.
+22:14:52.083,INFO,Unity,No hits detected.
+22:14:52.088,INFO,Unity,No hits detected.
+22:14:52.091,INFO,Unity,No hits detected.
+22:14:52.095,INFO,Unity,No hits detected.
+22:14:52.099,INFO,Unity,No hits detected.
+22:14:52.104,INFO,Unity,No hits detected.
+22:14:52.108,INFO,Unity,No hits detected.
+22:14:52.113,INFO,Unity,No hits detected.
+22:14:52.117,INFO,Unity,No hits detected.
+22:14:52.121,INFO,Unity,No hits detected.
+22:14:52.125,INFO,Unity,No hits detected.
+22:14:52.130,INFO,Unity,No hits detected.
+22:14:52.134,INFO,Unity,No hits detected.
+22:14:52.138,INFO,Unity,No hits detected.
+22:14:52.142,INFO,Unity,No hits detected.
+22:14:52.146,INFO,Unity,No hits detected.
+22:14:52.150,INFO,Unity,No hits detected.
+22:14:52.155,INFO,Unity,No hits detected.
+22:14:52.158,INFO,Unity,Trigger Exit with: ===Player===
+22:14:52.159,INFO,Unity,No hits detected.
+22:14:52.162,INFO,Unity,No hits detected.
+22:14:52.167,INFO,Unity,No hits detected.
+22:14:52.170,INFO,Unity,No hits detected.
+22:14:52.174,INFO,Unity,No hits detected.
+22:14:52.179,INFO,Unity,No hits detected.
+22:14:52.183,INFO,Unity,No hits detected.
+22:14:52.188,INFO,Unity,No hits detected.
+22:14:52.192,INFO,Unity,No hits detected.
+22:14:52.197,INFO,Unity,No hits detected.
+22:14:52.202,INFO,Unity,No hits detected.
+22:14:52.205,INFO,Unity,No hits detected.
+22:14:52.211,INFO,Unity,No hits detected.
+22:14:52.214,INFO,Unity,No hits detected.
+22:14:52.219,INFO,Unity,No hits detected.
+22:14:52.223,INFO,Unity,No hits detected.
+22:14:52.228,INFO,Unity,No hits detected.
+22:14:52.231,INFO,Unity,No hits detected.
+22:14:52.235,INFO,Unity,No hits detected.
+22:14:52.240,INFO,Unity,No hits detected.
+22:14:52.244,INFO,Unity,No hits detected.
+22:14:52.248,INFO,Unity,No hits detected.
+22:14:52.252,INFO,Unity,No hits detected.
+22:14:52.257,INFO,Unity,No hits detected.
+22:14:52.260,INFO,Unity,No hits detected.
+22:14:52.264,INFO,Unity,No hits detected.
+22:14:52.268,INFO,Unity,No hits detected.
+22:14:52.272,INFO,Unity,No hits detected.
+22:14:52.277,INFO,Unity,No hits detected.
+22:14:52.280,INFO,Unity,No hits detected.
+22:14:52.285,INFO,Unity,No hits detected.
+22:14:52.289,INFO,Unity,No hits detected.
+22:14:52.293,INFO,Unity,No hits detected.
+22:14:52.298,INFO,Unity,No hits detected.
+22:14:52.302,INFO,Unity,No hits detected.
+22:14:52.307,INFO,Unity,No hits detected.
+22:14:52.310,INFO,Unity,No hits detected.
+22:14:52.316,INFO,Unity,No hits detected.
+22:14:52.320,INFO,Unity,No hits detected.
+22:14:52.324,INFO,Unity,No hits detected.
+22:14:52.328,INFO,Unity,No hits detected.
+22:14:52.332,INFO,Unity,No hits detected.
+22:14:52.337,INFO,Unity,No hits detected.
+22:14:52.341,INFO,Unity,No hits detected.
+22:14:52.346,INFO,Unity,No hits detected.
+22:14:52.350,INFO,Unity,No hits detected.
+22:14:52.354,INFO,Unity,No hits detected.
+22:14:52.358,INFO,Unity,No hits detected.
+22:14:52.363,INFO,Unity,No hits detected.
+22:14:52.367,INFO,Unity,No hits detected.
+22:14:52.370,INFO,Unity,No hits detected.
+22:14:52.375,INFO,Unity,No hits detected.
+22:14:52.378,INFO,Unity,No hits detected.
+22:14:52.383,INFO,Unity,No hits detected.
+22:14:52.387,INFO,Unity,No hits detected.
+22:14:52.390,INFO,Unity,No hits detected.
+22:14:52.394,INFO,Unity,No hits detected.
+22:14:52.398,INFO,Unity,No hits detected.
+22:14:52.403,INFO,Unity,No hits detected.
+22:14:52.407,INFO,Unity,No hits detected.
+22:14:52.411,INFO,Unity,No hits detected.
+22:14:52.414,INFO,Unity,No hits detected.
+22:14:52.419,INFO,Unity,No hits detected.
+22:14:52.423,INFO,Unity,No hits detected.
+22:14:52.427,INFO,Unity,No hits detected.
+22:14:52.431,INFO,Unity,No hits detected.
+22:14:52.436,INFO,Unity,No hits detected.
+22:14:52.439,INFO,Unity,No hits detected.
+22:14:52.444,INFO,Unity,No hits detected.
+22:14:52.448,INFO,Unity,No hits detected.
+22:14:52.451,INFO,Unity,No hits detected.
+22:14:52.456,INFO,Unity,No hits detected.
+22:14:52.460,INFO,Unity,No hits detected.
+22:14:52.464,INFO,Unity,No hits detected.
+22:14:52.469,INFO,Unity,No hits detected.
+22:14:52.473,INFO,Unity,No hits detected.
+22:14:52.477,INFO,Unity,Trigger Entered with: ===Player===
+22:14:52.477,INFO,Unity,No hits detected.
+22:14:52.481,INFO,Unity,No hits detected.
+22:14:52.486,INFO,Unity,No hits detected.
+22:14:52.490,INFO,Unity,No hits detected.
+22:14:52.495,INFO,Unity,No hits detected.
+22:14:52.498,INFO,Unity,No hits detected.
+22:14:52.502,INFO,Unity,No hits detected.
+22:14:52.507,INFO,Unity,No hits detected.
+22:14:52.512,INFO,Unity,No hits detected.
+22:14:52.515,INFO,Unity,No hits detected.
+22:14:52.519,INFO,Unity,Trigger Entered with: ===Player===
+22:14:52.520,INFO,Unity,No hits detected.
+22:14:52.523,INFO,Unity,No hits detected.
+22:14:52.527,INFO,Unity,No hits detected.
+22:14:52.532,INFO,Unity,No hits detected.
+22:14:52.536,INFO,Unity,No hits detected.
+22:14:52.539,INFO,Unity,No hits detected.
+22:14:52.544,INFO,Unity,No hits detected.
+22:14:52.548,INFO,Unity,No hits detected.
+22:14:52.552,INFO,Unity,No hits detected.
+22:14:52.556,INFO,Unity,No hits detected.
+22:14:52.560,INFO,Unity,Trigger Exit with: ===Player===
+22:14:52.560,INFO,Unity,Trigger Entered with: WateringCan
+22:14:52.560,INFO,Unity,Trigger Exit with: WateringCan
+22:14:52.561,INFO,Unity,No hits detected.
+22:14:52.578,INFO,Unity,Trigger Entered with: WateringCan
+22:14:52.579,INFO,Unity,Trigger Entered with: Watering
+22:14:52.617,INFO,Unity,Trigger Exit with: Tomato (2)
+22:14:52.661,INFO,Unity,Trigger Exit with: Watering
+22:14:52.665,INFO,Unity,No hits detected.
+22:14:52.669,INFO,Unity,No hits detected.
+22:14:52.673,INFO,Unity,No hits detected.
+22:14:52.678,INFO,Unity,No hits detected.
+22:14:52.681,INFO,Unity,No hits detected.
+22:14:52.684,INFO,Unity,No hits detected.
+22:14:52.689,INFO,Unity,No hits detected.
+22:14:52.694,INFO,Unity,No hits detected.
+22:14:52.698,INFO,Unity,No hits detected.
+22:14:52.703,INFO,Unity,No hits detected.
+22:14:52.706,INFO,Unity,No hits detected.
+22:14:52.709,INFO,Unity,No hits detected.
+22:14:52.714,INFO,Unity,No hits detected.
+22:14:52.719,INFO,Unity,No hits detected.
+22:14:52.738,INFO,Unity,Trigger Entered with: Watering
+22:14:52.779,INFO,Unity,Trigger Exit with: WateringCan
+22:14:52.779,INFO,Unity,Trigger Entered with: ===Player===
+22:14:52.797,INFO,Unity,Trigger Exit with: ===Player===
+22:14:52.817,INFO,Unity,Trigger Entered with: WateringCan
+22:14:53.619,INFO,Unity,Trigger Entered with: Tomato
+22:14:53.678,INFO,Unity,Trigger Entered with: Tomato (1)
+22:14:53.758,INFO,Unity,Trigger Entered with: Tomato (2)
+22:14:54.099,INFO,Unity,Trigger Exit with: WateringCan
+22:14:54.099,INFO,Unity,Trigger Entered with: ===Player===
+22:14:54.137,INFO,Unity,Trigger Entered with: WateringCan
+22:14:54.138,INFO,Unity,Trigger Exit with: ===Player===
+22:14:54.251,INFO,Unity,Trigger Exit with: Watering
+22:14:54.254,INFO,Unity,No hits detected.
+22:14:54.258,INFO,Unity,No hits detected.
+22:14:54.262,INFO,Unity,No hits detected.
+22:14:54.267,INFO,Unity,No hits detected.
+22:14:54.270,INFO,Unity,No hits detected.
+22:14:54.275,INFO,Unity,No hits detected.
+22:14:54.279,INFO,Unity,No hits detected.
+22:14:54.283,INFO,Unity,No hits detected.
+22:14:54.287,INFO,Unity,No hits detected.
+22:14:54.291,INFO,Unity,No hits detected.
+22:14:54.295,INFO,Unity,No hits detected.
+22:14:54.299,INFO,Unity,No hits detected.
+22:14:54.303,INFO,Unity,No hits detected.
+22:14:54.307,INFO,Unity,No hits detected.
+22:14:54.312,INFO,Unity,No hits detected.
+22:14:54.316,INFO,Unity,No hits detected.
+22:14:54.320,INFO,Unity,No hits detected.
+22:14:54.324,INFO,Unity,No hits detected.
+22:14:54.328,INFO,Unity,No hits detected.
+22:14:54.333,INFO,Unity,No hits detected.
+22:14:54.338,INFO,Unity,No hits detected.
+22:14:54.343,INFO,Unity,No hits detected.
+22:14:54.347,INFO,Unity,No hits detected.
+22:14:54.351,INFO,Unity,No hits detected.
+22:14:54.355,INFO,Unity,No hits detected.
+22:14:54.360,INFO,Unity,No hits detected.
+22:14:54.363,INFO,Unity,No hits detected.
+22:14:54.368,INFO,Unity,No hits detected.
+22:14:54.372,INFO,Unity,No hits detected.
+22:14:54.375,INFO,Unity,No hits detected.
+22:14:54.380,INFO,Unity,No hits detected.
+22:14:54.384,INFO,Unity,No hits detected.
+22:14:54.388,INFO,Unity,No hits detected.
+22:14:54.392,INFO,Unity,No hits detected.
+22:14:54.397,INFO,Unity,No hits detected.
+22:14:54.400,INFO,Unity,No hits detected.
+22:14:54.405,INFO,Unity,No hits detected.
+22:14:54.409,INFO,Unity,No hits detected.
+22:14:54.413,INFO,Unity,No hits detected.
+22:14:54.417,INFO,Unity,No hits detected.
+22:14:54.421,INFO,Unity,No hits detected.
+22:14:54.425,INFO,Unity,No hits detected.
+22:14:54.428,INFO,Unity,No hits detected.
+22:14:54.432,INFO,Unity,No hits detected.
+22:14:54.437,INFO,Unity,No hits detected.
+22:14:54.442,INFO,Unity,No hits detected.
+22:14:54.447,INFO,Unity,No hits detected.
+22:14:54.450,INFO,Unity,No hits detected.
+22:14:54.455,INFO,Unity,No hits detected.
+22:14:54.459,INFO,Unity,No hits detected.
+22:14:54.463,INFO,Unity,No hits detected.
+22:14:54.467,INFO,Unity,No hits detected.
+22:14:54.471,INFO,Unity,No hits detected.
+22:14:54.476,INFO,Unity,No hits detected.
+22:14:54.480,INFO,Unity,No hits detected.
+22:14:54.484,INFO,Unity,No hits detected.
+22:14:54.489,INFO,Unity,No hits detected.
+22:14:54.494,INFO,Unity,No hits detected.
+22:14:54.498,INFO,Unity,No hits detected.
+22:14:54.503,INFO,Unity,No hits detected.
+22:14:54.508,INFO,Unity,No hits detected.
+22:14:54.511,INFO,Unity,No hits detected.
+22:14:54.516,INFO,Unity,No hits detected.
+22:14:54.519,INFO,Unity,No hits detected.
+22:14:54.524,INFO,Unity,No hits detected.
+22:14:54.528,INFO,Unity,No hits detected.
+22:14:54.532,INFO,Unity,No hits detected.
+22:14:54.536,INFO,Unity,No hits detected.
+22:14:54.540,INFO,Unity,No hits detected.
+22:14:54.545,INFO,Unity,No hits detected.
+22:14:54.548,INFO,Unity,No hits detected.
+22:14:54.552,INFO,Unity,No hits detected.
+22:14:54.557,INFO,Unity,No hits detected.
+22:14:54.560,INFO,Unity,No hits detected.
+22:14:54.565,INFO,Unity,No hits detected.
+22:14:54.569,INFO,Unity,No hits detected.
+22:14:54.573,INFO,Unity,No hits detected.
+22:14:54.577,INFO,Unity,No hits detected.
+22:14:54.581,INFO,Unity,No hits detected.
+22:14:54.586,INFO,Unity,No hits detected.
+22:14:54.590,INFO,Unity,No hits detected.
+22:14:54.594,INFO,Unity,No hits detected.
+22:14:54.598,INFO,Unity,No hits detected.
+22:14:54.603,INFO,Unity,No hits detected.
+22:14:54.607,INFO,Unity,No hits detected.
+22:14:54.611,INFO,Unity,No hits detected.
+22:14:54.616,INFO,Unity,No hits detected.
+22:14:54.620,INFO,Unity,No hits detected.
+22:14:54.625,INFO,Unity,No hits detected.
+22:14:54.637,INFO,Unity,Trigger Entered with: Watering
+22:14:54.677,INFO,Unity,Trigger Exit with: Tomato (2)
+22:14:54.697,INFO,Unity,Trigger Entered with: Tomato
+22:14:54.717,INFO,Unity,Trigger Entered with: Tomato (2)
+22:14:54.778,INFO,Unity,Trigger Entered with: Tomato (2)
+22:14:54.818,INFO,Unity,Trigger Exit with: WateringCan
+22:14:54.839,INFO,Unity,Trigger Entered with: ===Player===
+22:14:55.217,INFO,Unity,Trigger Exit with: Tomato (1)
+22:14:55.437,INFO,Unity,Trigger Entered with: Tomato
+22:14:55.500,INFO,Unity,Trigger Entered with: Tomato (1)
+22:14:55.559,INFO,Unity,Trigger Entered with: Tomato (2)
+22:14:55.907,INFO,Unity,maxJumpVelocity19.84127
+22:14:55.979,INFO,Unity,Trigger Exit with: Watering
+22:14:55.983,INFO,Unity,No hits detected.
+22:14:55.986,INFO,Unity,No hits detected.
+22:14:55.990,INFO,Unity,No hits detected.
+22:14:55.994,INFO,Unity,No hits detected.
+22:14:55.998,INFO,Unity,No hits detected.
+22:14:56.003,INFO,Unity,No hits detected.
+22:14:56.007,INFO,Unity,No hits detected.
+22:14:56.010,INFO,Unity,No hits detected.
+22:14:56.015,INFO,Unity,No hits detected.
+22:14:56.018,INFO,Unity,No hits detected.
+22:14:56.023,INFO,Unity,No hits detected.
+22:14:56.028,INFO,Unity,No hits detected.
+22:14:56.033,INFO,Unity,No hits detected.
+22:14:56.038,INFO,Unity,No hits detected.
+22:14:56.043,INFO,Unity,No hits detected.
+22:14:56.047,INFO,Unity,No hits detected.
+22:14:56.052,INFO,Unity,No hits detected.
+22:14:56.057,INFO,Unity,Trigger Exit with: ===Player===
+22:14:56.057,INFO,Unity,Trigger Exit with: ===Player===
+22:14:56.058,INFO,Unity,No hits detected.
+22:14:56.061,INFO,Unity,No hits detected.
+22:14:56.066,INFO,Unity,No hits detected.
+22:14:56.070,INFO,Unity,No hits detected.
+22:14:56.074,INFO,Unity,No hits detected.
+22:14:56.079,INFO,Unity,No hits detected.
+22:14:56.083,INFO,Unity,No hits detected.
+22:14:56.085,INFO,Unity,No hits detected.
+22:14:56.090,INFO,Unity,No hits detected.
+22:14:56.095,INFO,Unity,No hits detected.
+22:14:56.098,INFO,Unity,No hits detected.
+22:14:56.102,INFO,Unity,No hits detected.
+22:14:56.107,INFO,Unity,No hits detected.
+22:14:56.111,INFO,Unity,No hits detected.
+22:14:56.115,INFO,Unity,No hits detected.
+22:14:56.119,INFO,Unity,No hits detected.
+22:14:56.123,INFO,Unity,No hits detected.
+22:14:56.127,INFO,Unity,No hits detected.
+22:14:56.131,INFO,Unity,No hits detected.
+22:14:56.135,INFO,Unity,No hits detected.
+22:14:56.139,INFO,Unity,No hits detected.
+22:14:56.144,INFO,Unity,No hits detected.
+22:14:56.147,INFO,Unity,No hits detected.
+22:14:56.152,INFO,Unity,No hits detected.
+22:14:56.157,INFO,Unity,No hits detected.
+22:14:56.161,INFO,Unity,No hits detected.
+22:14:56.166,INFO,Unity,No hits detected.
+22:14:56.170,INFO,Unity,No hits detected.
+22:14:56.174,INFO,Unity,No hits detected.
+22:14:56.179,INFO,Unity,No hits detected.
+22:14:56.183,INFO,Unity,No hits detected.
+22:14:56.187,INFO,Unity,No hits detected.
+22:14:56.191,INFO,Unity,No hits detected.
+22:14:56.196,INFO,Unity,No hits detected.
+22:14:56.200,INFO,Unity,No hits detected.
+22:14:56.204,INFO,Unity,No hits detected.
+22:14:56.208,INFO,Unity,No hits detected.
+22:14:56.212,INFO,Unity,No hits detected.
+22:14:56.217,INFO,Unity,No hits detected.
+22:14:56.220,INFO,Unity,No hits detected.
+22:14:56.225,INFO,Unity,No hits detected.
+22:14:56.229,INFO,Unity,No hits detected.
+22:14:56.234,INFO,Unity,No hits detected.
+22:14:56.239,INFO,Unity,No hits detected.
+22:14:56.242,INFO,Unity,No hits detected.
+22:14:56.247,INFO,Unity,No hits detected.
+22:14:56.251,INFO,Unity,No hits detected.
+22:14:56.255,INFO,Unity,No hits detected.
+22:14:56.260,INFO,Unity,No hits detected.
+22:14:56.264,INFO,Unity,No hits detected.
+22:14:56.268,INFO,Unity,No hits detected.
+22:14:56.272,INFO,Unity,No hits detected.
+22:14:56.275,INFO,Unity,No hits detected.
+22:14:56.280,INFO,Unity,No hits detected.
+22:14:56.284,INFO,Unity,No hits detected.
+22:14:56.288,INFO,Unity,No hits detected.
+22:14:56.293,INFO,Unity,No hits detected.
+22:14:56.297,INFO,Unity,No hits detected.
+22:14:56.302,INFO,Unity,No hits detected.
+22:14:56.306,INFO,Unity,No hits detected.
+22:14:56.309,INFO,Unity,No hits detected.
+22:14:56.314,INFO,Unity,No hits detected.
+22:14:56.318,INFO,Unity,No hits detected.
+22:14:56.323,INFO,Unity,No hits detected.
+22:14:56.327,INFO,Unity,No hits detected.
+22:14:56.332,INFO,Unity,No hits detected.
+22:14:56.335,INFO,Unity,No hits detected.
+22:14:56.340,INFO,Unity,No hits detected.
+22:14:56.343,INFO,Unity,No hits detected.
+22:14:56.348,INFO,Unity,No hits detected.
+22:14:56.353,INFO,Unity,No hits detected.
+22:14:56.357,INFO,Unity,No hits detected.
+22:14:56.361,INFO,Unity,No hits detected.
+22:14:56.365,INFO,Unity,No hits detected.
+22:14:56.370,INFO,Unity,No hits detected.
+22:14:56.375,INFO,Unity,No hits detected.
+22:14:56.380,INFO,Unity,No hits detected.
+22:14:56.383,INFO,Unity,No hits detected.
+22:14:56.388,INFO,Unity,No hits detected.
+22:14:56.392,INFO,Unity,No hits detected.
+22:14:56.395,INFO,Unity,No hits detected.
+22:14:56.399,INFO,Unity,Trigger Entered with: ===Player===
+22:14:56.399,INFO,Unity,No hits detected.
+22:14:56.404,INFO,Unity,No hits detected.
+22:14:56.408,INFO,Unity,No hits detected.
+22:14:56.412,INFO,Unity,No hits detected.
+22:14:56.417,INFO,Unity,No hits detected.
+22:14:56.420,INFO,Unity,No hits detected.
+22:14:56.425,INFO,Unity,No hits detected.
+22:14:56.428,INFO,Unity,No hits detected.
+22:14:56.433,INFO,Unity,No hits detected.
+22:14:56.437,INFO,Unity,Trigger Entered with: ===Player===
+22:14:56.437,INFO,Unity,No hits detected.
+22:14:56.442,INFO,Unity,No hits detected.
+22:14:56.446,INFO,Unity,No hits detected.
+22:14:56.449,INFO,Unity,No hits detected.
+22:14:56.454,INFO,Unity,No hits detected.
+22:14:56.458,INFO,Unity,Trigger Exit with: ===Player===
+22:14:56.458,INFO,Unity,No hits detected.
+22:14:56.463,INFO,Unity,No hits detected.
+22:14:56.467,INFO,Unity,No hits detected.
+22:14:56.471,INFO,Unity,No hits detected.
+22:14:56.478,INFO,Unity,Trigger Entered with: WateringCan
+22:14:56.479,INFO,Unity,Trigger Entered with: Watering
+22:14:56.563,INFO,Unity,Trigger Exit with: Watering
+22:14:56.567,INFO,Unity,No hits detected.
+22:14:56.572,INFO,Unity,No hits detected.
+22:14:56.575,INFO,Unity,No hits detected.
+22:14:56.580,INFO,Unity,No hits detected.
+22:14:56.585,INFO,Unity,No hits detected.
+22:14:56.588,INFO,Unity,No hits detected.
+22:14:56.592,INFO,Unity,No hits detected.
+22:14:56.595,INFO,Unity,No hits detected.
+22:14:56.601,INFO,Unity,No hits detected.
+22:14:56.605,INFO,Unity,No hits detected.
+22:14:56.610,INFO,Unity,No hits detected.
+22:14:56.614,INFO,Unity,No hits detected.
+22:14:56.618,INFO,Unity,Trigger Exit with: Tomato
+22:14:56.619,INFO,Unity,No hits detected.
+22:14:56.623,INFO,Unity,No hits detected.
+22:14:56.638,INFO,Unity,Trigger Entered with: Watering
+22:14:56.657,INFO,Unity,Trigger Entered with: Tomato
+22:14:56.679,INFO,Unity,Trigger Exit with: WateringCan
+22:14:56.679,INFO,Unity,Trigger Entered with: ===Player===
+22:14:56.718,INFO,Unity,Trigger Exit with: ===Player===
+22:14:56.718,INFO,Unity,Trigger Entered with: WateringCan
+22:14:57.517,INFO,Unity,Trigger Entered with: Tomato
+22:14:57.579,INFO,Unity,Trigger Entered with: Tomato (1)
+22:14:57.658,INFO,Unity,Trigger Exit with: Tomato (2)
+22:14:57.658,INFO,Unity,Trigger Entered with: Tomato (2)
+22:14:58.158,INFO,Unity,Trigger Exit with: WateringCan
+22:14:58.159,INFO,Unity,Trigger Entered with: ===Player===
+22:14:58.177,INFO,Unity,Trigger Exit with: ===Player===
+22:14:58.197,INFO,Unity,Trigger Entered with: WateringCan
+22:14:58.215,INFO,Unity,maxJumpVelocity19.84127
+22:14:58.225,INFO,Unity,Trigger Exit with: Watering
+22:14:58.230,INFO,Unity,No hits detected.
+22:14:58.233,INFO,Unity,No hits detected.
+22:14:58.238,INFO,Unity,No hits detected.
+22:14:58.242,INFO,Unity,No hits detected.
+22:14:58.246,INFO,Unity,No hits detected.
+22:14:58.250,INFO,Unity,No hits detected.
+22:14:58.254,INFO,Unity,No hits detected.
+22:14:58.259,INFO,Unity,No hits detected.
+22:14:58.262,INFO,Unity,No hits detected.
+22:14:58.267,INFO,Unity,No hits detected.
+22:14:58.271,INFO,Unity,No hits detected.
+22:14:58.276,INFO,Unity,No hits detected.
+22:14:58.280,INFO,Unity,No hits detected.
+22:14:58.285,INFO,Unity,No hits detected.
+22:14:58.288,INFO,Unity,No hits detected.
+22:14:58.292,INFO,Unity,No hits detected.
+22:14:58.297,INFO,Unity,Trigger Exit with: WateringCan
+22:14:58.297,INFO,Unity,No hits detected.
+22:14:58.301,INFO,Unity,No hits detected.
+22:14:58.305,INFO,Unity,No hits detected.
+22:14:58.309,INFO,Unity,No hits detected.
+22:14:58.314,INFO,Unity,No hits detected.
+22:14:58.318,INFO,Unity,No hits detected.
+22:14:58.322,INFO,Unity,No hits detected.
+22:14:58.327,INFO,Unity,No hits detected.
+22:14:58.330,INFO,Unity,No hits detected.
+22:14:58.335,INFO,Unity,No hits detected.
+22:14:58.340,INFO,Unity,No hits detected.
+22:14:58.344,INFO,Unity,No hits detected.
+22:14:58.349,INFO,Unity,No hits detected.
+22:14:58.352,INFO,Unity,No hits detected.
+22:14:58.357,INFO,Unity,Trigger Exit with: ===Player===
+22:14:58.357,INFO,Unity,No hits detected.
+22:14:58.362,INFO,Unity,No hits detected.
+22:14:58.366,INFO,Unity,No hits detected.
+22:14:58.370,INFO,Unity,No hits detected.
+22:14:58.374,INFO,Unity,No hits detected.
+22:14:58.378,INFO,Unity,No hits detected.
+22:14:58.382,INFO,Unity,No hits detected.
+22:14:58.385,INFO,Unity,No hits detected.
+22:14:58.390,INFO,Unity,No hits detected.
+22:14:58.394,INFO,Unity,No hits detected.
+22:14:58.399,INFO,Unity,No hits detected.
+22:14:58.404,INFO,Unity,No hits detected.
+22:14:58.410,INFO,Unity,No hits detected.
+22:14:58.414,INFO,Unity,No hits detected.
+22:14:58.419,INFO,Unity,No hits detected.
+22:14:58.424,INFO,Unity,No hits detected.
+22:14:58.429,INFO,Unity,No hits detected.
+22:14:58.432,INFO,Unity,No hits detected.
+22:14:58.437,INFO,Unity,No hits detected.
+22:14:58.442,INFO,Unity,No hits detected.
+22:14:58.446,INFO,Unity,No hits detected.
+22:14:58.451,INFO,Unity,No hits detected.
+22:14:58.454,INFO,Unity,No hits detected.
+22:14:58.459,INFO,Unity,No hits detected.
+22:14:58.463,INFO,Unity,No hits detected.
+22:14:58.468,INFO,Unity,No hits detected.
+22:14:58.472,INFO,Unity,No hits detected.
+22:14:58.476,INFO,Unity,No hits detected.
+22:14:58.479,INFO,Unity,No hits detected.
+22:14:58.484,INFO,Unity,No hits detected.
+22:14:58.489,INFO,Unity,No hits detected.
+22:14:58.492,INFO,Unity,No hits detected.
+22:14:58.497,INFO,Unity,No hits detected.
+22:14:58.501,INFO,Unity,No hits detected.
+22:14:58.505,INFO,Unity,No hits detected.
+22:14:58.510,INFO,Unity,No hits detected.
+22:14:58.514,INFO,Unity,No hits detected.
+22:14:58.518,INFO,Unity,No hits detected.
+22:14:58.523,INFO,Unity,No hits detected.
+22:14:58.527,INFO,Unity,No hits detected.
+22:14:58.531,INFO,Unity,No hits detected.
+22:14:58.535,INFO,Unity,No hits detected.
+22:14:58.539,INFO,Unity,No hits detected.
+22:14:58.543,INFO,Unity,No hits detected.
+22:14:58.549,INFO,Unity,No hits detected.
+22:14:58.552,INFO,Unity,No hits detected.
+22:14:58.556,INFO,Unity,No hits detected.
+22:14:58.561,INFO,Unity,No hits detected.
+22:14:58.565,INFO,Unity,No hits detected.
+22:14:58.569,INFO,Unity,No hits detected.
+22:14:58.574,INFO,Unity,No hits detected.
+22:14:58.577,INFO,Unity,No hits detected.
+22:14:58.581,INFO,Unity,No hits detected.
+22:14:58.587,INFO,Unity,No hits detected.
+22:14:58.591,INFO,Unity,No hits detected.
+22:14:58.595,INFO,Unity,No hits detected.
+22:14:58.599,INFO,Unity,No hits detected.
+22:14:58.604,INFO,Unity,No hits detected.
+22:14:58.608,INFO,Unity,No hits detected.
+22:14:58.612,INFO,Unity,No hits detected.
+22:14:58.617,INFO,Unity,No hits detected.
+22:14:58.621,INFO,Unity,No hits detected.
+22:14:58.625,INFO,Unity,No hits detected.
+22:14:58.629,INFO,Unity,No hits detected.
+22:14:58.633,INFO,Unity,No hits detected.
+22:14:58.638,INFO,Unity,No hits detected.
+22:14:58.642,INFO,Unity,No hits detected.
+22:14:58.645,INFO,Unity,No hits detected.
+22:14:58.650,INFO,Unity,No hits detected.
+22:14:58.655,INFO,Unity,No hits detected.
+22:14:58.658,INFO,Unity,No hits detected.
+22:14:58.663,INFO,Unity,No hits detected.
+22:14:58.667,INFO,Unity,No hits detected.
+22:14:58.672,INFO,Unity,No hits detected.
+22:14:58.675,INFO,Unity,No hits detected.
+22:14:58.679,INFO,Unity,No hits detected.
+22:14:58.683,INFO,Unity,No hits detected.
+22:14:58.687,INFO,Unity,No hits detected.
+22:14:58.692,INFO,Unity,No hits detected.
+22:14:58.697,INFO,Unity,No hits detected.
+22:14:58.700,INFO,Unity,No hits detected.
+22:14:58.704,INFO,Unity,No hits detected.
+22:14:58.708,INFO,Unity,No hits detected.
+22:14:58.713,INFO,Unity,No hits detected.
+22:14:58.718,INFO,Unity,No hits detected.
+22:14:58.721,INFO,Unity,No hits detected.
+22:14:58.726,INFO,Unity,No hits detected.
+22:14:58.730,INFO,Unity,No hits detected.
+22:14:58.735,INFO,Unity,No hits detected.
+22:14:58.738,INFO,Unity,No hits detected.
+22:14:58.743,INFO,Unity,No hits detected.
+22:14:58.746,INFO,Unity,No hits detected.
+22:14:58.751,INFO,Unity,No hits detected.
+22:14:58.754,INFO,Unity,No hits detected.
+22:14:58.758,INFO,Unity,No hits detected.
+22:14:58.763,INFO,Unity,No hits detected.
+22:14:58.767,INFO,Unity,No hits detected.
+22:14:58.772,INFO,Unity,No hits detected.
+22:14:58.775,INFO,Unity,No hits detected.
+22:14:58.780,INFO,Unity,No hits detected.
+22:14:58.784,INFO,Unity,No hits detected.
+22:14:58.788,INFO,Unity,No hits detected.
+22:14:58.793,INFO,Unity,No hits detected.
+22:14:58.797,INFO,Unity,No hits detected.
+22:14:58.802,INFO,Unity,No hits detected.
+22:14:58.805,INFO,Unity,No hits detected.
+22:14:58.810,INFO,Unity,No hits detected.
+22:14:58.813,INFO,Unity,No hits detected.
+22:14:58.818,INFO,Unity,No hits detected.
+22:14:58.822,INFO,Unity,No hits detected.
+22:14:58.826,INFO,Unity,No hits detected.
+22:14:58.829,INFO,Unity,No hits detected.
+22:14:58.833,INFO,Unity,No hits detected.
+22:14:58.837,INFO,Unity,No hits detected.
+22:14:58.842,INFO,Unity,No hits detected.
+22:14:58.846,INFO,Unity,No hits detected.
+22:14:58.850,INFO,Unity,No hits detected.
+22:14:58.854,INFO,Unity,No hits detected.
+22:14:58.858,INFO,Unity,Trigger Entered with: ===Player===
+22:14:58.858,INFO,Unity,Trigger Entered with: ===Player===
+22:14:58.859,INFO,Unity,No hits detected.
+22:14:58.862,INFO,Unity,No hits detected.
+22:14:58.867,INFO,Unity,No hits detected.
+22:14:58.870,INFO,Unity,No hits detected.
+22:14:58.875,INFO,Unity,No hits detected.
+22:14:58.878,INFO,Unity,No hits detected.
+22:14:58.883,INFO,Unity,No hits detected.
+22:14:58.887,INFO,Unity,No hits detected.
+22:14:58.891,INFO,Unity,No hits detected.
+22:14:58.895,INFO,Unity,No hits detected.
+22:14:58.899,INFO,Unity,Trigger Exit with: ===Player===
+22:14:58.900,INFO,Unity,No hits detected.
+22:14:58.904,INFO,Unity,No hits detected.
+22:14:58.907,INFO,Unity,No hits detected.
+22:14:58.912,INFO,Unity,No hits detected.
+22:14:58.915,INFO,Unity,No hits detected.
+22:14:58.920,INFO,Unity,No hits detected.
+22:14:58.930,INFO,Unity,No hits detected.
+22:14:58.934,INFO,Unity,No hits detected.
+22:14:58.939,INFO,Unity,Trigger Entered with: WateringCan
+22:14:58.939,INFO,Unity,No hits detected.
+22:14:58.943,INFO,Unity,No hits detected.
+22:14:58.947,INFO,Unity,No hits detected.
+22:14:58.951,INFO,Unity,No hits detected.
+22:14:58.954,INFO,Unity,No hits detected.
+22:14:58.959,INFO,Unity,No hits detected.
+22:14:58.963,INFO,Unity,No hits detected.
+22:14:58.967,INFO,Unity,No hits detected.
+22:14:58.971,INFO,Unity,No hits detected.
+22:14:58.976,INFO,Unity,No hits detected.
+22:14:58.980,INFO,Unity,No hits detected.
+22:14:58.997,INFO,Unity,Trigger Entered with: Watering
+22:14:59.097,INFO,Unity,Trigger Exit with: WateringCan
+22:14:59.117,INFO,Unity,Trigger Exit with: ===Player===
+22:14:59.156,INFO,Unity,Trigger Exit with: Watering
+22:14:59.159,INFO,Unity,No hits detected.
+22:14:59.164,INFO,Unity,No hits detected.
+22:14:59.168,INFO,Unity,No hits detected.
+22:14:59.172,INFO,Unity,No hits detected.
+22:14:59.175,INFO,Unity,No hits detected.
+22:14:59.181,INFO,Unity,No hits detected.
+22:14:59.185,INFO,Unity,No hits detected.
+22:14:59.189,INFO,Unity,No hits detected.
+22:14:59.193,INFO,Unity,No hits detected.
+22:14:59.197,INFO,Unity,No hits detected.
+22:14:59.201,INFO,Unity,No hits detected.
+22:14:59.205,INFO,Unity,No hits detected.
+22:14:59.208,INFO,Unity,No hits detected.
+22:14:59.213,INFO,Unity,No hits detected.
+22:14:59.217,INFO,Unity,No hits detected.
+22:14:59.220,INFO,Unity,No hits detected.
+22:14:59.224,INFO,Unity,No hits detected.
+22:14:59.230,INFO,Unity,No hits detected.
+22:14:59.233,INFO,Unity,No hits detected.
+22:14:59.238,INFO,Unity,No hits detected.
+22:14:59.241,INFO,Unity,No hits detected.
+22:14:59.245,INFO,Unity,No hits detected.
+22:14:59.249,INFO,Unity,No hits detected.
+22:14:59.354,INFO,Unity,Weight Update =0
+22:15:00.057,INFO,Unity,Trigger Entered with: ===Player===
+22:15:00.238,INFO,Unity,Trigger Entered with: Tomato (1)
+22:15:00.281,DEBUG,PlayerCarrying,집기 조작Tomato (2) (UnityEngine.BoxCollider2D)
+22:15:00.282,DEBUG,PlayerCarrying,집기 조작Tomato (2) (UnityEngine.BoxCollider2D)
+22:15:00.282,DEBUG,PlayerCarrying,집기 조작Tomato (1) (UnityEngine.BoxCollider2D)
+22:15:00.282,DEBUG,PlayerCarrying,집기 조작Tomato (1) (UnityEngine.BoxCollider2D)
+22:15:00.283,DEBUG,PlayerCarrying,집기 조작Tomato (UnityEngine.BoxCollider2D)
+22:15:00.283,DEBUG,PlayerCarrying,집기 조작Tomato (UnityEngine.BoxCollider2D)
+22:15:00.283,INFO,Unity,_focus is null
+22:15:00.284,INFO,Unity,Weight Update =0
+22:15:00.284,INFO,Unity,Weight Update2 =1
+22:15:00.298,INFO,Unity,Trigger Exit with: Tomato (1)
+22:15:00.298,INFO,Unity,Trigger Entered with: ===Player===
+22:15:00.583,DEBUG,PlayerCarrying,집기 조작Tomato (1) (UnityEngine.BoxCollider2D)
+22:15:00.583,DEBUG,PlayerCarrying,집기 조작Tomato (2) (UnityEngine.BoxCollider2D)
+22:15:00.583,DEBUG,PlayerCarrying,집기 조작Tomato (UnityEngine.BoxCollider2D)
+22:15:00.584,DEBUG,PlayerCarrying,집기 조작Tomato (2) (UnityEngine.BoxCollider2D)
+22:15:00.585,DEBUG,PlayerCarrying,집기 조작Tomato (1) (UnityEngine.BoxCollider2D)
+22:15:00.585,DEBUG,PlayerCarrying,집기 조작Tomato (UnityEngine.BoxCollider2D)
+22:15:00.585,INFO,Unity,_focus is null
+22:15:00.586,INFO,Unity,Weight Update =0
+22:15:00.586,INFO,Unity,Weight Update2 =2
+22:15:00.598,INFO,Unity,Trigger Exit with: Tomato (2)
+22:15:00.908,DEBUG,PlayerCarrying,집기 조작Tomato (1) (UnityEngine.BoxCollider2D)
+22:15:00.908,DEBUG,PlayerCarrying,집기 조작Tomato (UnityEngine.BoxCollider2D)
+22:15:00.909,DEBUG,PlayerCarrying,집기 조작Tomato (2) (UnityEngine.BoxCollider2D)
+22:15:00.909,DEBUG,PlayerCarrying,집기 조작Tomato (1) (UnityEngine.BoxCollider2D)
+22:15:00.910,DEBUG,PlayerCarrying,집기 조작Tomato (UnityEngine.BoxCollider2D)
+22:15:00.910,INFO,Unity,_focus is null
+22:15:00.910,INFO,Unity,Weight Update =0
+22:15:00.912,INFO,Unity,Weight Update2 =3
+22:15:00.920,INFO,Unity,Trigger Exit with: Tomato
+22:15:01.120,INFO,Unity,Trigger Exit with: ===Player===
+22:15:01.120,INFO,Unity,Trigger Entered with: Tomato (1)
+22:15:01.120,INFO,Unity,Trigger Entered with: Tomato (2)
+22:15:01.120,INFO,Unity,Trigger Entered with: Tomato
+22:15:01.227,DEBUG,PlayerCarrying,집기 조작Tomato (1) (UnityEngine.BoxCollider2D)
+22:15:01.228,DEBUG,PlayerCarrying,집기 조작Tomato (UnityEngine.BoxCollider2D)
+22:15:01.228,DEBUG,PlayerCarrying,집기 조작Tomato (2) (UnityEngine.BoxCollider2D)
+22:15:01.229,DEBUG,PlayerCarrying,집기 조작Tomato (1) (UnityEngine.BoxCollider2D)
+22:15:01.230,INFO,Unity,_focus is null
+22:15:01.230,INFO,Unity,Weight Update =0
+22:15:01.230,INFO,Unity,Weight Update2 =4
+22:15:01.239,INFO,Unity,Trigger Exit with: Tomato (1)
+22:15:01.316,INFO,Unity,Trigger Exit with: Tomato
+22:15:01.317,INFO,Unity,Trigger Exit with: Tomato (2)
+22:15:01.360,INFO,Unity,Trigger Entered with: Tomato
+22:15:01.360,INFO,Unity,Trigger Entered with: Tomato (2)
+22:15:01.400,INFO,Unity,Trigger Exit with: Tomato (1)
+22:15:01.400,INFO,Unity,Trigger Exit with: Tomato
+22:15:01.400,INFO,Unity,Trigger Entered with: ===Player===
+22:15:01.401,INFO,Unity,Trigger Exit with: Tomato (2)
+22:15:01.499,INFO,Unity,Trigger Exit with: ===Player===
+22:15:01.519,INFO,Unity,Trigger Entered with: Tomato (1)
+22:15:01.519,INFO,Unity,Trigger Entered with: Tomato
+22:15:01.519,INFO,Unity,Trigger Entered with: Tomato (2)
+22:15:01.537,DEBUG,PlayerCarrying,집기 조작Tomato (UnityEngine.BoxCollider2D)
+22:15:01.538,DEBUG,PlayerCarrying,집기 조작Tomato (2) (UnityEngine.BoxCollider2D)
+22:15:01.539,DEBUG,PlayerCarrying,집기 조작Tomato (UnityEngine.BoxCollider2D)
+22:15:01.539,DEBUG,PlayerCarrying,집기 조작Tomato (2) (UnityEngine.BoxCollider2D)
+22:15:01.539,DEBUG,PlayerCarrying,집기 조작Tomato (1) (UnityEngine.BoxCollider2D)
+22:15:01.540,DEBUG,PlayerCarrying,집기 조작Tomato (1) (UnityEngine.BoxCollider2D)
+22:15:01.540,INFO,Unity,_focus is null
+22:15:01.541,INFO,Unity,Weight Update =0
+22:15:01.541,INFO,Unity,Weight Update2 =5
+22:15:01.559,INFO,Unity,Trigger Exit with: Tomato
+22:15:01.817,DEBUG,PlayerCarrying,집기 조작Tomato (UnityEngine.BoxCollider2D)
+22:15:01.818,DEBUG,PlayerCarrying,집기 조작Tomato (2) (UnityEngine.BoxCollider2D)
+22:15:01.818,DEBUG,PlayerCarrying,집기 조작Tomato (1) (UnityEngine.BoxCollider2D)
+22:15:01.818,DEBUG,PlayerCarrying,집기 조작Tomato (2) (UnityEngine.BoxCollider2D)
+22:15:01.819,DEBUG,PlayerCarrying,집기 조작Tomato (1) (UnityEngine.BoxCollider2D)
+22:15:01.820,INFO,Unity,_focus is null
+22:15:01.820,INFO,Unity,Weight Update =0
+22:15:01.820,INFO,Unity,Weight Update2 =6
+22:15:01.839,INFO,Unity,Trigger Exit with: Tomato (2)
+22:15:02.101,DEBUG,PlayerCarrying,집기 조작Tomato (UnityEngine.BoxCollider2D)
+22:15:02.102,DEBUG,PlayerCarrying,집기 조작Tomato (1) (UnityEngine.BoxCollider2D)
+22:15:02.102,DEBUG,PlayerCarrying,집기 조작Tomato (1) (UnityEngine.BoxCollider2D)
+22:15:02.102,DEBUG,PlayerCarrying,집기 조작Tomato (2) (UnityEngine.BoxCollider2D)
+22:15:02.103,DEBUG,PlayerCarrying,집기 조작Tomato (1) (UnityEngine.BoxCollider2D)
+22:15:02.103,INFO,Unity,_focus is null
+22:15:02.103,INFO,Unity,Weight Update =0
+22:15:02.103,INFO,Unity,Weight Update2 =7
+22:15:02.119,INFO,Unity,Trigger Exit with: Tomato (1)
+22:15:02.199,INFO,Unity,Trigger Exit with: Tomato
+22:15:02.200,INFO,Unity,Trigger Exit with: Tomato (2)
+22:15:02.238,INFO,Unity,Trigger Entered with: Tomato (2)
+22:15:02.239,INFO,Unity,Trigger Entered with: Tomato
+22:15:02.299,INFO,Unity,Trigger Exit with: Tomato (2)
+22:15:02.299,INFO,Unity,Trigger Exit with: Tomato
+22:15:02.299,INFO,Unity,Trigger Exit with: Tomato (1)
+22:15:02.317,INFO,Unity,Trigger Entered with: ===Player===
+22:15:02.358,INFO,Unity,Trigger Exit with: ===Player===
+22:15:02.358,INFO,Unity,Trigger Entered with: Tomato
+22:15:02.358,INFO,Unity,Trigger Entered with: Tomato (2)
+22:15:02.358,INFO,Unity,Trigger Entered with: Tomato (1)
+22:15:02.390,DEBUG,PlayerCarrying,집기 조작Tomato (UnityEngine.BoxCollider2D)
+22:15:02.391,DEBUG,PlayerCarrying,집기 조작Tomato (1) (UnityEngine.BoxCollider2D)
+22:15:02.391,DEBUG,PlayerCarrying,집기 조작Tomato (1) (UnityEngine.BoxCollider2D)
+22:15:02.391,DEBUG,PlayerCarrying,집기 조작Tomato (2) (UnityEngine.BoxCollider2D)
+22:15:02.391,INFO,Unity,_focus is null
+22:15:02.393,INFO,Unity,Weight Update =0
+22:15:02.393,INFO,Unity,Weight Update2 =8
+22:15:02.397,INFO,Unity,Trigger Exit with: Tomato
+22:15:02.535,INFO,Unity,Trigger Exit with: Tomato (2)
+22:15:02.558,INFO,Unity,Trigger Exit with: Tomato (1)
+22:15:02.579,INFO,Unity,Trigger Entered with: Tomato (2)
+22:15:02.597,INFO,Unity,Trigger Entered with: Tomato (1)
+22:15:02.638,INFO,Unity,Trigger Exit with: Tomato
+22:15:02.639,INFO,Unity,Trigger Entered with: ===Player===
+22:15:02.639,INFO,Unity,Trigger Exit with: Tomato (2)
+22:15:02.639,INFO,Unity,Trigger Exit with: Tomato (1)
+22:15:02.678,INFO,Unity,Trigger Exit with: ===Player===
+22:15:02.697,INFO,Unity,Trigger Entered with: Tomato
+22:15:02.697,INFO,Unity,Trigger Entered with: Tomato (2)
+22:15:02.697,INFO,Unity,Trigger Entered with: Tomato (1)
+22:15:02.708,DEBUG,PlayerCarrying,집기 조작Tomato (1) (UnityEngine.BoxCollider2D)
+22:15:02.709,DEBUG,PlayerCarrying,집기 조작Tomato (1) (UnityEngine.BoxCollider2D)
+22:15:02.709,DEBUG,PlayerCarrying,집기 조작Tomato (1) (UnityEngine.BoxCollider2D)
+22:15:02.710,DEBUG,PlayerCarrying,집기 조작Tomato (2) (UnityEngine.BoxCollider2D)
+22:15:02.710,DEBUG,PlayerCarrying,집기 조작Tomato (2) (UnityEngine.BoxCollider2D)
+22:15:02.710,DEBUG,PlayerCarrying,집기 조작Tomato (UnityEngine.BoxCollider2D)
+22:15:02.713,DEBUG,PlayerCarrying,집기 조작Tomato (2) (UnityEngine.BoxCollider2D)
+22:15:02.714,DEBUG,PlayerCarrying,집기 조작Tomato (UnityEngine.BoxCollider2D)
+22:15:02.714,INFO,Unity,_focus is null
+22:15:02.715,INFO,Unity,Weight Update =0
+22:15:02.715,INFO,Unity,Weight Update2 =9
+22:15:02.724,INFO,Unity,Trigger Exit with: Tomato (1)
+22:15:02.986,DEBUG,PlayerCarrying,집기 조작Tomato (1) (UnityEngine.BoxCollider2D)
+22:15:02.987,DEBUG,PlayerCarrying,집기 조작Tomato (2) (UnityEngine.BoxCollider2D)
+22:15:02.987,DEBUG,PlayerCarrying,집기 조작Tomato (1) (UnityEngine.BoxCollider2D)
+22:15:02.987,DEBUG,PlayerCarrying,집기 조작Tomato (UnityEngine.BoxCollider2D)
+22:15:02.988,DEBUG,PlayerCarrying,집기 조작Tomato (UnityEngine.BoxCollider2D)
+22:15:02.988,DEBUG,PlayerCarrying,집기 조작Tomato (2) (UnityEngine.BoxCollider2D)
+22:15:02.988,DEBUG,PlayerCarrying,집기 조작Tomato (2) (UnityEngine.BoxCollider2D)
+22:15:02.989,INFO,Unity,_focus is null
+22:15:02.990,INFO,Unity,Weight Update =0
+22:15:02.990,INFO,Unity,Weight Update2 =10
+22:15:02.999,INFO,Unity,Trigger Exit with: Tomato (1)
+22:15:03.000,INFO,Unity,Trigger Exit with: Tomato
+22:15:03.285,DEBUG,PlayerCarrying,집기 조작Tomato (1) (UnityEngine.BoxCollider2D)
+22:15:03.287,DEBUG,PlayerCarrying,집기 조작Tomato (2) (UnityEngine.BoxCollider2D)
+22:15:03.287,DEBUG,PlayerCarrying,집기 조작Tomato (2) (UnityEngine.BoxCollider2D)
+22:15:03.287,DEBUG,PlayerCarrying,집기 조작Tomato (UnityEngine.BoxCollider2D)
+22:15:03.287,DEBUG,PlayerCarrying,집기 조작Tomato (UnityEngine.BoxCollider2D)
+22:15:03.288,DEBUG,PlayerCarrying,집기 조작Tomato (2) (UnityEngine.BoxCollider2D)
+22:15:03.288,INFO,Unity,_focus is null
+22:15:03.289,INFO,Unity,Weight Update =0
+22:15:03.289,INFO,Unity,Weight Update2 =11
+22:15:03.298,INFO,Unity,Trigger Exit with: Tomato (2)
+22:15:03.598,DEBUG,PlayerCarrying,집기 조작Tomato (2) (UnityEngine.BoxCollider2D)
+22:15:03.599,DEBUG,PlayerCarrying,집기 조작Tomato (1) (UnityEngine.BoxCollider2D)
+22:15:03.600,DEBUG,PlayerCarrying,집기 조작Tomato (UnityEngine.BoxCollider2D)
+22:15:03.601,DEBUG,PlayerCarrying,집기 조작Tomato (2) (UnityEngine.BoxCollider2D)
+22:15:03.601,DEBUG,PlayerCarrying,집기 조작Tomato (UnityEngine.BoxCollider2D)
+22:15:03.601,INFO,Unity,_focus is null
+22:15:03.602,INFO,Unity,Weight Update =0
+22:15:03.602,INFO,Unity,Weight Update2 =12
+22:15:03.618,INFO,Unity,Trigger Exit with: Tomato (2)
+22:15:03.639,INFO,Unity,indexChamge
+22:15:03.640,INFO,Unity,짐 12충돌
+22:15:03.640,DEBUG,Carryable,"충돌로 인해 짐 떨어뜨림. Fall떨어트린 위치 : (5.73, 27.89, 0.00)"
+22:15:03.642,INFO,Unity,Weight Update =0
+22:15:03.642,INFO,Unity,Weight Update2 =11
+22:15:03.920,DEBUG,PlayerCarrying,집기 조작Tomato (1) (UnityEngine.BoxCollider2D)
+22:15:03.920,DEBUG,PlayerCarrying,집기 조작Tomato (UnityEngine.BoxCollider2D)
+22:15:03.921,DEBUG,PlayerCarrying,집기 조작Tomato (2) (UnityEngine.BoxCollider2D)
+22:15:03.921,DEBUG,PlayerCarrying,집기 조작Tomato (UnityEngine.BoxCollider2D)
+22:15:03.922,INFO,Unity,_focus is null
+22:15:03.922,INFO,Unity,Weight Update =0
+22:15:03.922,INFO,Unity,Weight Update2 =12
+22:15:03.939,INFO,Unity,Trigger Exit with: Tomato
+22:15:03.939,INFO,Unity,indexChamge
+22:15:03.939,INFO,Unity,짐 12충돌
+22:15:03.940,DEBUG,Carryable,"충돌로 인해 짐 떨어뜨림. Fall떨어트린 위치 : (5.73, 27.93, 0.00)"
+22:15:03.940,INFO,Unity,Weight Update =0
+22:15:03.940,INFO,Unity,Weight Update2 =11
+22:15:04.226,DEBUG,PlayerCarrying,집기 조작Tomato (1) (UnityEngine.BoxCollider2D)
+22:15:04.227,DEBUG,PlayerCarrying,집기 조작Tomato (UnityEngine.BoxCollider2D)
+22:15:04.227,DEBUG,PlayerCarrying,집기 조작Tomato (2) (UnityEngine.BoxCollider2D)
+22:15:04.227,INFO,Unity,_focus is null
+22:15:04.228,INFO,Unity,Weight Update =0
+22:15:04.229,INFO,Unity,Weight Update2 =12
+22:15:04.257,INFO,Unity,indexChamge
+22:15:04.258,INFO,Unity,짐 12충돌
+22:15:04.258,DEBUG,Carryable,"충돌로 인해 짐 떨어뜨림. Fall떨어트린 위치 : (5.73, 27.95, 0.00)"
+22:15:04.258,INFO,Unity,Weight Update =0
+22:15:04.258,INFO,Unity,Weight Update2 =11
+22:15:04.547,DEBUG,PlayerCarrying,집기 조작Tomato (1) (UnityEngine.BoxCollider2D)
+22:15:04.547,DEBUG,PlayerCarrying,집기 조작Tomato (2) (UnityEngine.BoxCollider2D)
+22:15:04.549,INFO,Unity,_focus is null
+22:15:04.549,INFO,Unity,Weight Update =0
+22:15:04.549,INFO,Unity,Weight Update2 =12
+22:15:04.558,INFO,Unity,indexChamge
+22:15:04.558,INFO,Unity,짐 12충돌
+22:15:04.558,DEBUG,Carryable,"충돌로 인해 짐 떨어뜨림. Fall떨어트린 위치 : (5.74, 28.00, 0.00)"
+22:15:04.558,INFO,Unity,Weight Update =0
+22:15:04.560,INFO,Unity,Weight Update2 =11
+22:15:05.238,INFO,Unity,Trigger Exit with: Tomato (2)
+22:15:05.239,INFO,Unity,Trigger Exit with: Tomato
+22:15:05.239,INFO,Unity,Trigger Exit with: Tomato (1)
+22:15:05.297,INFO,Unity,Trigger Exit with: ===Player===
+22:15:05.557,INFO,Unity,Trigger Entered with: Tomato (2)
+22:15:05.618,INFO,Unity,Trigger Entered with: Tomato
+22:15:05.679,INFO,Unity,Trigger Entered with: Tomato
+22:15:05.737,INFO,Unity,Trigger Entered with: Tomato (2)
+22:15:06.459,INFO,Unity,Trigger Exit with: Tomato (2)
+22:15:11.001,INFO,Unity,Weight Update =0
+22:15:11.003,INFO,Unity,Weight Update2 =10
+22:15:12.250,INFO,Unity,사다리 점프
+22:15:13.067,INFO,Unity,사다리 점프
+22:15:13.381,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 17
+22:15:13.538,INFO,Unity,indexChamge
+22:15:13.538,INFO,Unity,짐 10충돌
+22:15:13.538,DEBUG,Carryable,"충돌로 인해 짐 떨어뜨림. Fall떨어트린 위치 : (-10.00, 19.79, 0.00)"
+22:15:13.539,INFO,Unity,Weight Update =0
+22:15:13.539,INFO,Unity,Weight Update2 =9
+22:15:13.599,INFO,Unity,indexChamge
+22:15:13.599,INFO,Unity,짐 9충돌
+22:15:13.599,DEBUG,Carryable,"충돌로 인해 짐 떨어뜨림. Fall떨어트린 위치 : (-10.00, 19.85, 0.00)"
+22:15:13.600,INFO,Unity,Weight Update =0
+22:15:13.601,INFO,Unity,Weight Update2 =8
+22:15:13.667,INFO,Unity,사다리 점프
+22:15:13.676,INFO,Unity,indexChamge
+22:15:13.677,INFO,Unity,짐 8충돌
+22:15:13.677,DEBUG,Carryable,"충돌로 인해 짐 떨어뜨림. Fall떨어트린 위치 : (-10.22, 19.96, 0.00)"
+22:15:13.677,INFO,Unity,Weight Update =0
+22:15:13.678,INFO,Unity,Weight Update2 =7
+22:15:13.717,INFO,Unity,indexChamge
+22:15:13.717,INFO,Unity,짐 7충돌
+22:15:13.717,DEBUG,Carryable,"충돌로 인해 짐 떨어뜨림. Fall떨어트린 위치 : (-10.58, 19.83, 0.00)"
+22:15:13.718,INFO,Unity,Weight Update =0
+22:15:13.718,INFO,Unity,Weight Update2 =6
+22:15:13.777,INFO,Unity,indexChamge
+22:15:13.777,INFO,Unity,짐 6충돌
+22:15:13.777,DEBUG,Carryable,"충돌로 인해 짐 떨어뜨림. Fall떨어트린 위치 : (-11.22, 19.85, 0.00)"
+22:15:13.777,INFO,Unity,Weight Update =0
+22:15:13.778,INFO,Unity,Weight Update2 =5
+22:15:13.837,INFO,Unity,indexChamge
+22:15:13.837,INFO,Unity,짐 5충돌
+22:15:13.838,DEBUG,Carryable,"충돌로 인해 짐 떨어뜨림. Fall떨어트린 위치 : (-11.67, 19.80, 0.00)"
+22:15:13.838,INFO,Unity,Weight Update =0
+22:15:13.838,INFO,Unity,Weight Update2 =4
+22:15:14.789,INFO,Unity,maxJumpVelocity19.68504
+22:15:15.057,INFO,Unity,indexChamge
+22:15:15.058,INFO,Unity,짐 4충돌
+22:15:15.058,DEBUG,Carryable,"충돌로 인해 짐 떨어뜨림. Fall떨어트린 위치 : (-21.03, 19.80, 0.00)"
+22:15:15.058,INFO,Unity,Weight Update =0
+22:15:15.058,INFO,Unity,Weight Update2 =3
+22:15:16.880,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+22:15:17.950,INFO,Unity,Weight Update =0
+22:15:17.951,INFO,Unity,Weight Update2 =2
+22:15:18.060,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+22:15:18.227,INFO,Unity,Weight Update =0
+22:15:18.227,INFO,Unity,Weight Update2 =1
+22:15:18.440,INFO,Unity,Weight Update =0
+22:15:20.910,INFO,Unity,maxJumpVelocity20
+22:15:22.861,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+22:15:23.740,INFO,Unity,maxJumpVelocity20
+22:15:25.431,INFO,Unity,maxJumpVelocity20
+22:15:26.641,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+22:15:28.469,INFO,Unity,벽 점프
+22:15:28.988,INFO,Unity,maxJumpVelocity20
+22:15:29.599,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+22:15:29.993,INFO,Unity,maxJumpVelocity20
+22:15:30.544,INFO,Unity,사다리 코요테 점프
+22:15:31.614,INFO,Unity,maxJumpVelocity20
+22:15:32.676,INFO,Unity,사다리 점프
+22:15:32.800,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+22:15:33.423,INFO,Unity,maxJumpVelocity20
+22:15:34.054,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+22:15:34.055,INFO,Unity,_focus is null
+22:15:34.055,INFO,Unity,Weight Update =0
+22:15:34.056,INFO,Unity,Weight Update2 =4
+22:15:34.797,INFO,Unity,Trigger닿음
+22:15:34.798,INFO,Unity,nal닿음
+22:15:34.877,INFO,Unity,indexChamge
+22:15:34.877,INFO,Unity,짐 1충돌
+22:15:34.877,DEBUG,Carryable,"충돌로 인해 짐 떨어뜨림. Fall떨어트린 위치 : (-9.95, 23.06, 0.00)"
+22:15:34.878,INFO,Unity,Weight Update =0
+22:15:34.999,INFO,Unity,maxJumpVelocity20
+22:15:35.840,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+22:15:36.068,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+22:15:36.069,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+22:15:36.069,DEBUG,PlayerCarrying,집기 조작Wood (UnityEngine.BoxCollider2D)
+22:15:36.071,DEBUG,PlayerCarrying,집기 조작Wood (1) (UnityEngine.BoxCollider2D)
+22:15:36.071,INFO,Unity,_focus is null
+22:15:36.071,INFO,Unity,Weight Update =0
+22:15:36.071,INFO,Unity,Weight Update2 =4
+22:15:36.077,INFO,Unity,Trigger닿음
+22:15:36.078,INFO,Unity,nal닿음
+22:15:36.617,INFO,Unity,nal닿음
+22:15:36.638,INFO,Unity,nal닿음
+22:15:36.719,INFO,Unity,Collider닿음
+22:15:36.739,INFO,Unity,maxJumpVelocity19.68504
+22:15:37.298,INFO,Unity,Trigger닿음
+22:15:37.298,INFO,Unity,Trigger닿음
+22:15:37.300,INFO,Unity,nal닿음
+22:15:37.300,INFO,Unity,nal닿음
+22:15:37.810,INFO,Unity,maxJumpVelocity19.68504
+22:15:38.242,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+22:15:38.437,INFO,Unity,nal닿음
+22:15:38.437,INFO,Unity,Trigger닿음
+22:15:38.438,INFO,Unity,nal닿음
+22:15:38.499,INFO,Unity,nal닿음
+22:15:38.500,INFO,Unity,Trigger닿음
+22:15:38.778,INFO,Unity,maxJumpVelocity19.68504
+22:15:38.859,INFO,Unity,Trigger닿음
+22:15:38.859,INFO,Unity,nal닿음
+22:15:39.338,INFO,Unity,nal닿음
+22:15:39.338,INFO,Unity,Trigger닿음
+22:15:39.628,INFO,Unity,maxJumpVelocity19.68504
+22:15:39.720,INFO,Unity,Trigger닿음
+22:15:39.720,INFO,Unity,nal닿음
+22:15:39.720,INFO,Unity,nal닿음
+22:15:39.720,INFO,Unity,Trigger닿음
+22:15:39.759,INFO,Unity,nal닿음
+22:15:39.778,INFO,Unity,Trigger닿음
+22:15:39.778,INFO,Unity,nal닿음
+22:15:39.797,INFO,Unity,nal닿음
+22:15:39.799,INFO,Unity,Trigger닿음
+22:15:39.799,INFO,Unity,Trigger닿음
+22:15:39.819,INFO,Unity,Trigger닿음
+22:15:39.838,INFO,Unity,Trigger닿음
+22:15:39.859,INFO,Unity,Collider닿음
+22:15:39.859,INFO,Unity,Collider닿음
+22:15:39.939,INFO,Unity,Collider닿음
+22:15:39.941,INFO,Unity,Collider닿음
+22:15:40.199,INFO,Unity,Collider닿음
+22:15:40.218,INFO,Unity,indexChamge
+22:15:40.218,INFO,Unity,짐 1충돌
+22:15:40.219,DEBUG,Carryable,"충돌로 인해 짐 떨어뜨림. Fall떨어트린 위치 : (-17.74, 24.03, 0.00)"
+22:15:40.219,INFO,Unity,짐 1충돌
+22:15:40.219,DEBUG,Carryable,"충돌로 인해 짐 떨어뜨림. Fall떨어트린 위치 : (-17.74, 24.03, 0.00)"
+22:15:40.219,INFO,Unity,Weight Update =0
+22:15:40.338,INFO,Unity,Collider닿음
+22:15:40.458,INFO,Unity,nal닿음
+22:15:40.478,INFO,Unity,Trigger닿음
+22:15:40.479,INFO,Unity,Collider닿음
+22:15:40.843,INFO,Unity,maxJumpVelocity20
+22:15:41.182,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+22:15:41.737,INFO,Unity,Collider닿음
+22:15:41.838,INFO,Unity,Collider닿음
+22:15:41.899,INFO,Unity,Trigger닿음
+22:15:41.899,INFO,Unity,nal닿음
+22:15:41.983,DEBUG,PlayerCarrying,집기 조작Wood (12) (UnityEngine.BoxCollider2D)
+22:15:41.984,DEBUG,PlayerCarrying,집기 조작Wood (11) (UnityEngine.BoxCollider2D)
+22:15:41.984,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+22:15:41.984,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+22:15:41.986,DEBUG,PlayerCarrying,집기 조작Wood (13) (UnityEngine.BoxCollider2D)
+22:15:41.986,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+22:15:41.986,DEBUG,PlayerCarrying,집기 조작Wood (6) (UnityEngine.BoxCollider2D)
+22:15:41.987,INFO,Unity,_focus is null
+22:15:41.987,INFO,Unity,Weight Update =0
+22:15:41.988,INFO,Unity,Weight Update2 =4
+22:15:41.997,INFO,Unity,nal닿음
+22:15:41.997,INFO,Unity,Trigger닿음
+22:15:42.017,INFO,Unity,Trigger닿음
+22:15:42.460,DEBUG,PlayerCarrying,집기 조작Wood (6) (UnityEngine.BoxCollider2D)
+22:15:42.460,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+22:15:42.460,DEBUG,PlayerCarrying,집기 조작Wood (11) (UnityEngine.BoxCollider2D)
+22:15:42.461,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+22:15:42.462,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+22:15:42.462,DEBUG,PlayerCarrying,집기 조작Wood (13) (UnityEngine.BoxCollider2D)
+22:15:42.462,INFO,Unity,_focus is null
+22:15:42.462,INFO,Unity,Weight Update =0
+22:15:42.463,INFO,Unity,Weight Update2 =6
+22:15:42.737,INFO,Unity,Collider닿음
+22:15:43.434,INFO,Unity,maxJumpVelocity19.53125
+22:15:43.538,INFO,Unity,Collider닿음
+22:15:43.538,INFO,Unity,Collider닿음
+22:15:43.597,INFO,Unity,Collider닿음
+22:15:43.619,INFO,Unity,Collider닿음
+22:15:43.659,INFO,Unity,nal닿음
+22:15:43.679,INFO,Unity,Trigger닿음
+22:15:44.079,INFO,Unity,Collider닿음
+22:15:44.181,INFO,Unity,Weight Update =0
+22:15:44.181,INFO,Unity,Weight Update2 =4
+22:15:44.441,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+22:15:44.732,INFO,Unity,Weight Update =0
+22:15:44.737,INFO,Unity,Collider닿음
+22:15:45.065,INFO,Unity,maxJumpVelocity20
+22:15:45.318,INFO,Unity,Collider닿음
+22:15:45.578,INFO,Unity,Trigger닿음
+22:15:45.659,INFO,Unity,Trigger닿음
+22:15:45.659,INFO,Unity,nal닿음
+22:15:45.679,INFO,Unity,nal닿음
+22:15:45.699,INFO,Unity,Trigger닿음
+22:15:46.549,INFO,Unity,maxJumpVelocity20
+22:15:47.139,INFO,Unity,Collider닿음
+22:15:48.019,INFO,Unity,Collider닿음
+22:15:48.718,INFO,Unity,Collider닿음
+22:15:48.797,INFO,Unity,Collider닿음
+22:15:49.302,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+22:15:49.935,INFO,Unity,maxJumpVelocity20
+22:15:50.839,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+22:15:54.622,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+22:15:54.738,INFO,Unity,Collider닿음
+22:15:54.738,INFO,Unity,Collider닿음
+22:15:54.798,INFO,Unity,Collider닿음
+22:15:55.875,INFO,Unity,maxJumpVelocity20
+22:15:57.220,INFO,Unity,Collider닿음
+22:15:57.697,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+22:15:57.697,DEBUG,PlayerCarrying,집기 조작Wood (14) (UnityEngine.BoxCollider2D)
+22:15:57.698,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+22:15:57.698,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+22:15:57.698,INFO,Unity,_focus is null
+22:15:57.700,INFO,Unity,Weight Update =0
+22:15:57.700,INFO,Unity,Weight Update2 =4
+22:15:57.901,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+22:15:58.146,INFO,Unity,maxJumpVelocity19.68504
+22:15:58.679,INFO,Unity,nal닿음
+22:15:58.679,INFO,Unity,Trigger닿음
+22:15:59.109,INFO,Unity,maxJumpVelocity19.68504
+22:15:59.778,INFO,Unity,nal닿음
+22:15:59.792,INFO,Unity,Weight Update =0
+22:15:59.817,INFO,Unity,Trigger닿음
+22:15:59.818,INFO,Unity,nal닿음
+22:16:00.830,INFO,Unity,maxJumpVelocity20
+22:16:02.059,INFO,Unity,maxJumpVelocity20
+22:16:02.258,INFO,Unity,Collider닿음
+22:16:02.601,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+22:16:02.998,INFO,Unity,maxJumpVelocity20
+22:16:04.080,INFO,Unity,Collider닿음
+22:16:04.573,INFO,Unity,maxJumpVelocity20
+22:16:05.223,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+22:16:05.478,INFO,Unity,maxJumpVelocity20
+22:16:07.094,INFO,Unity,maxJumpVelocity20
+22:16:07.159,INFO,Unity,Collider닿음
+22:16:08.160,INFO,Unity,Collider닿음
+22:16:08.477,INFO,Unity,nal닿음
+22:16:08.477,INFO,Unity,Trigger닿음
+22:16:08.499,INFO,Unity,nal닿음
+22:16:08.881,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+22:16:09.179,INFO,Unity,Collider닿음
+22:16:11.272,INFO,Unity,maxJumpVelocity20
+22:16:12.361,INFO,Unity,maxJumpVelocity20
+22:16:13.183,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+22:16:13.184,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+22:16:13.185,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+22:16:13.185,INFO,Unity,_focus is null
+22:16:13.186,INFO,Unity,Weight Update =0
+22:16:13.186,INFO,Unity,Weight Update2 =2
+22:16:13.463,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 21
+22:16:14.225,INFO,Unity,maxJumpVelocity19.84127
+22:16:14.407,INFO,Unity,Weight Update =0
+22:16:15.010,DEBUG,PlayerCarrying,집기 조작Wood (17) (UnityEngine.BoxCollider2D)
+22:16:15.011,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+22:16:15.011,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+22:16:15.012,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+22:16:15.012,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+22:16:15.013,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+22:16:15.014,INFO,Unity,_focus is null
+22:16:15.014,INFO,Unity,Weight Update =0
+22:16:15.014,INFO,Unity,Weight Update2 =2
+22:16:15.300,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 21
+22:16:15.639,INFO,Unity,maxJumpVelocity19.84127
+22:16:15.797,INFO,Unity,Weight Update =0
+22:16:16.421,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+22:16:16.492,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+22:16:16.493,DEBUG,PlayerCarrying,집기 조작Wood (17) (UnityEngine.BoxCollider2D)
+22:16:16.493,DEBUG,PlayerCarrying,집기 조작Wood (5) (UnityEngine.BoxCollider2D)
+22:16:16.493,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+22:16:16.495,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+22:16:16.495,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+22:16:16.496,INFO,Unity,_focus is null
+22:16:16.496,INFO,Unity,Weight Update =0
+22:16:16.496,INFO,Unity,Weight Update2 =2
+22:16:17.171,INFO,Unity,Weight Update =0
+22:16:17.610,DEBUG,PlayerCarrying,집기 조작Wood (6) (UnityEngine.BoxCollider2D)
+22:16:17.611,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+22:16:17.612,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+22:16:17.612,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+22:16:17.612,INFO,Unity,_focus is null
+22:16:17.614,INFO,Unity,Weight Update =0
+22:16:17.614,INFO,Unity,Weight Update2 =4
+22:16:18.121,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+22:16:18.666,INFO,Unity,maxJumpVelocity19.68504
+22:16:19.119,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+22:16:19.317,INFO,Unity,Trigger닿음
+22:16:19.318,INFO,Unity,nal닿음
+22:16:19.358,INFO,Unity,Trigger닿음
+22:16:19.359,INFO,Unity,nal닿음
+22:16:19.962,INFO,Unity,maxJumpVelocity19.68504
+22:16:20.619,INFO,Unity,Collider닿음
+22:16:20.638,INFO,Unity,Trigger닿음
+22:16:20.638,INFO,Unity,nal닿음
+22:16:20.677,INFO,Unity,nal닿음
+22:16:21.104,INFO,Unity,maxJumpVelocity19.68504
+22:16:21.699,INFO,Unity,nal닿음
+22:16:21.699,INFO,Unity,nal닿음
+22:16:21.700,INFO,Unity,Trigger닿음
+22:16:21.717,INFO,Unity,nal닿음
+22:16:21.739,INFO,Unity,Trigger닿음
+22:16:21.758,INFO,Unity,Trigger닿음
+22:16:21.779,INFO,Unity,Trigger닿음
+22:16:21.798,INFO,Unity,Trigger닿음
+22:16:21.818,INFO,Unity,Trigger닿음
+22:16:21.837,INFO,Unity,Trigger닿음
+22:16:21.857,INFO,Unity,Trigger닿음
+22:16:21.879,INFO,Unity,Trigger닿음
+22:16:22.155,INFO,Unity,maxJumpVelocity19.68504
+22:16:22.779,INFO,Unity,Trigger닿음
+22:16:22.779,INFO,Unity,nal닿음
+22:16:23.828,INFO,Unity,Weight Update =0
+22:16:23.842,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+22:16:24.602,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+22:16:24.604,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+22:16:24.604,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+22:16:24.604,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+22:16:24.604,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+22:16:24.604,INFO,Unity,_focus is null
+22:16:24.606,INFO,Unity,Weight Update =0
+22:16:24.606,INFO,Unity,Weight Update2 =2
+22:16:24.846,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+22:16:24.847,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+22:16:24.847,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+22:16:24.847,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+22:16:24.848,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+22:16:24.848,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+22:16:24.849,INFO,Unity,_focus is null
+22:16:24.849,INFO,Unity,Weight Update =0
+22:16:24.850,INFO,Unity,Weight Update2 =6
+22:16:25.681,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+22:16:26.228,INFO,Unity,maxJumpVelocity19.53125
+22:16:26.839,INFO,Unity,indexChamge
+22:16:26.839,INFO,Unity,짐 2충돌
+22:16:26.839,DEBUG,Carryable,"충돌로 인해 짐 떨어뜨림. Fall떨어트린 위치 : (-17.78, 24.81, 0.00)"
+22:16:26.839,INFO,Unity,Weight Update =0
+22:16:26.840,INFO,Unity,Weight Update2 =2
+22:16:27.341,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+22:16:27.620,INFO,Unity,maxJumpVelocity19.84127
+22:16:28.045,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+22:16:28.046,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+22:16:28.047,INFO,Unity,_focus is null
+22:16:28.047,INFO,Unity,Weight Update =0
+22:16:28.047,INFO,Unity,Weight Update2 =6
+22:16:28.257,INFO,Unity,nal닿음
+22:16:28.258,INFO,Unity,Trigger닿음
+22:16:28.740,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+22:16:28.741,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+22:16:28.741,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+22:16:28.741,DEBUG,PlayerCarrying,집기 조작Wood (7) (UnityEngine.BoxCollider2D)
+22:16:28.743,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+22:16:28.743,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+22:16:28.743,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+22:16:28.743,INFO,Unity,_focus is null
+22:16:28.744,INFO,Unity,Weight Update =0
+22:16:28.744,INFO,Unity,Weight Update2 =8
+22:16:29.914,INFO,Unity,maxJumpVelocity19.37984
+22:16:31.558,INFO,Unity,Collider닿음
+22:16:31.919,INFO,Unity,Trigger닿음
+22:16:31.919,INFO,Unity,nal닿음
+22:16:32.280,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+22:16:32.559,INFO,Unity,nal닿음
+22:16:32.577,INFO,Unity,nal닿음
+22:16:32.598,INFO,Unity,nal닿음
+22:16:32.638,INFO,Unity,nal닿음
+22:16:32.659,INFO,Unity,nal닿음
+22:16:32.677,INFO,Unity,nal닿음
+22:16:32.677,INFO,Unity,Trigger닿음
+22:16:32.697,INFO,Unity,nal닿음
+22:16:32.698,INFO,Unity,Trigger닿음
+22:16:32.719,INFO,Unity,Trigger닿음
+22:16:33.479,INFO,Unity,nal닿음
+22:16:33.499,INFO,Unity,Trigger닿음
+22:16:33.499,INFO,Unity,nal닿음
+22:16:33.517,INFO,Unity,nal닿음
+22:16:33.517,INFO,Unity,Trigger닿음
+22:16:33.538,INFO,Unity,Trigger닿음
+22:16:33.778,INFO,Unity,Trigger닿음
+22:16:33.778,INFO,Unity,nal닿음
+22:16:33.797,INFO,Unity,nal닿음
+22:16:33.820,INFO,Unity,indexChamge
+22:16:33.821,INFO,Unity,짐 2충돌
+22:16:33.821,DEBUG,Carryable,"충돌로 인해 짐 떨어뜨림. Fall떨어트린 위치 : (-10.23, 23.28, 0.00)"
+22:16:33.822,INFO,Unity,Weight Update =0
+22:16:33.822,INFO,Unity,Weight Update2 =2
+22:16:34.359,INFO,Unity,nal닿음
+22:16:34.377,INFO,Unity,Trigger닿음
+22:16:35.880,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+22:16:36.667,INFO,Unity,maxJumpVelocity19.84127
+22:16:38.477,INFO,Unity,maxJumpVelocity19.84127
+22:16:39.836,INFO,Unity,maxJumpVelocity19.84127
+22:16:40.383,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+22:16:41.241,INFO,Unity,maxJumpVelocity19.84127
+22:16:42.361,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+22:16:42.600,INFO,Unity,maxJumpVelocity19.84127
+22:16:43.379,INFO,Unity,nal닿음
+22:16:43.379,INFO,Unity,Trigger닿음
+22:16:47.320,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 21
+22:16:49.442,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+22:16:50.141,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+22:16:50.141,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+22:16:50.142,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+22:16:50.142,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+22:16:50.142,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+22:16:50.143,INFO,Unity,_focus is null
+22:16:50.143,INFO,Unity,Weight Update =0
+22:16:50.144,INFO,Unity,Weight Update2 =4
+22:16:50.352,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+22:16:50.354,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+22:16:50.354,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+22:16:50.354,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+22:16:50.355,INFO,Unity,_focus is null
+22:16:50.356,INFO,Unity,Weight Update =0
+22:16:50.356,INFO,Unity,Weight Update2 =6
+22:16:50.481,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+22:16:53.010,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+22:16:53.011,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+22:16:53.011,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+22:16:53.011,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+22:16:53.013,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+22:16:53.013,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+22:16:53.013,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+22:16:53.014,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+22:16:53.014,INFO,Unity,_focus is null
+22:16:53.014,INFO,Unity,Weight Update =0
+22:16:53.015,INFO,Unity,Weight Update2 =8
+22:16:53.369,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+22:16:53.370,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+22:16:53.370,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+22:16:53.370,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+22:16:53.371,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+22:16:53.371,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+22:16:53.371,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+22:16:53.371,INFO,Unity,_focus is null
+22:16:53.372,INFO,Unity,Weight Update =0
+22:16:53.372,INFO,Unity,Weight Update2 =10
+22:16:53.698,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+22:16:53.699,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+22:16:53.699,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+22:16:53.700,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+22:16:53.700,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+22:16:53.701,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+22:16:53.701,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+22:16:53.701,INFO,Unity,_focus is null
+22:16:53.702,INFO,Unity,Weight Update =0
+22:16:53.702,INFO,Unity,Weight Update2 =12
+22:16:54.543,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+22:16:55.188,INFO,Unity,Weight Update =0
+22:16:55.189,INFO,Unity,Weight Update2 =10
+22:16:55.521,INFO,Unity,Weight Update =0
+22:16:55.521,INFO,Unity,Weight Update2 =8
+22:16:55.851,INFO,Unity,Weight Update =0
+22:16:55.851,INFO,Unity,Weight Update2 =6
+22:16:56.194,INFO,Unity,Weight Update =0
+22:16:56.196,INFO,Unity,Weight Update2 =4
+22:16:56.501,INFO,Unity,Weight Update =0
+22:16:56.501,INFO,Unity,Weight Update2 =2
+22:16:56.820,INFO,Unity,Weight Update =0
+22:16:57.464,INFO,Unity,maxJumpVelocity20
+22:16:59.280,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+22:16:59.336,INFO,Unity,maxJumpVelocity20
+22:16:59.899,INFO,Unity,Trigger Entered with: ===Player===
+22:17:00.097,INFO,Unity,Trigger Entered with: ===Player===
+22:17:00.137,INFO,Unity,Trigger Exit with: ===Player===
+22:17:00.298,INFO,Unity,Trigger Entered with: ===Player===
+22:17:00.337,INFO,Unity,Trigger Exit with: ===Player===
+22:17:00.498,INFO,Unity,Trigger Entered with: ===Player===
+22:17:00.502,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+22:17:00.537,INFO,Unity,Trigger Exit with: ===Player===
+22:17:00.699,INFO,Unity,Trigger Entered with: ===Player===
+22:17:00.738,INFO,Unity,Trigger Exit with: ===Player===
+22:17:00.939,INFO,Unity,Trigger Exit with: ===Player===
+22:17:02.024,INFO,Unity,maxJumpVelocity20
+22:17:04.212,INFO,Unity,maxJumpVelocity20
+22:17:05.019,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 21
+22:17:05.212,INFO,Unity,maxJumpVelocity20
+22:17:06.744,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+22:17:09.160,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+22:17:10.522,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+22:17:12.672,INFO,Unity,maxJumpVelocity20
+22:17:13.702,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 21
+22:17:16.602,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 21
+22:17:17.479,DEBUG,PlayerCarrying,집기 조작Rag (UnityEngine.BoxCollider2D)
+22:17:17.480,INFO,Unity,_focus is null
+22:17:17.481,INFO,Unity,Weight Update =0
+22:17:17.481,INFO,Unity,Weight Update2 =1
+22:17:18.118,INFO,Unity,더러워짐
+22:17:18.119,INFO,Unity,더러워짐
+22:17:18.139,INFO,Unity,깨끗해짐164
+22:17:18.217,INFO,Unity,더러워짐
+22:17:18.433,INFO,Unity,maxJumpVelocity19.92032
+22:17:18.437,INFO,Unity,더러워짐
+22:17:18.479,INFO,Unity,더러워짐
+22:17:18.498,INFO,Unity,더러워짐
+22:17:19.497,INFO,Unity,깨끗해짐88
+22:17:19.517,INFO,Unity,깨끗해짐92
+22:17:19.537,INFO,Unity,깨끗해짐96
+22:17:19.558,INFO,Unity,깨끗해짐100
+22:17:19.577,INFO,Unity,깨끗해짐104
+22:17:19.599,INFO,Unity,깨끗해짐108
+22:17:19.620,INFO,Unity,깨끗해짐112
+22:17:19.638,INFO,Unity,깨끗해짐116
+22:17:20.298,INFO,Unity,더러워짐
+22:17:20.298,INFO,Unity,더러워짐
+22:17:20.318,INFO,Unity,더러워짐
+22:17:20.337,INFO,Unity,더러워짐
+22:17:20.567,INFO,Unity,maxJumpVelocity19.92032
+22:17:21.077,INFO,Unity,indexChamge
+22:17:21.077,INFO,Unity,짐 1충돌
+22:17:21.078,DEBUG,Carryable,"충돌로 인해 짐 떨어뜨림. Fall떨어트린 위치 : (30.43, -11.88, 0.00)"
+22:17:21.078,INFO,Unity,Weight Update =0
+22:17:21.301,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 21
+22:17:21.737,INFO,Unity,더러워짐
+22:17:22.158,INFO,Unity,maxJumpVelocity20
+22:17:22.862,DEBUG,PlayerCarrying,집기 조작Rag (UnityEngine.BoxCollider2D)
+22:17:22.863,INFO,Unity,_focus is null
+22:17:22.864,INFO,Unity,Weight Update =0
+22:17:22.864,INFO,Unity,Weight Update2 =1
+22:17:23.540,INFO,Unity,maxJumpVelocity19.92032
+22:17:24.818,INFO,Unity,maxJumpVelocity19.92032
+22:17:25.542,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 21
+22:17:26.215,INFO,Unity,maxJumpVelocity19.92032
+22:17:27.443,INFO,Unity,maxJumpVelocity19.92032
+22:17:28.107,INFO,Unity,maxJumpVelocity19.92032
+22:17:28.939,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 21
+22:17:29.007,INFO,Unity,사다리 코요테 점프
+22:17:29.578,INFO,Unity,깨끗해짐24
+22:17:29.599,INFO,Unity,깨끗해짐28
+22:17:29.618,INFO,Unity,깨끗해짐31.99999
+22:17:29.638,INFO,Unity,깨끗해짐35.99999
+22:17:29.658,INFO,Unity,깨끗해짐39.99999
+22:17:29.679,INFO,Unity,깨끗해짐43.99999
+22:17:29.699,INFO,Unity,깨끗해짐47.99999
+22:17:29.717,INFO,Unity,깨끗해짐51.99999
+22:17:29.737,INFO,Unity,깨끗해짐55.99999
+22:17:29.757,INFO,Unity,깨끗해짐59.99999
+22:17:29.779,INFO,Unity,깨끗해짐63.99999
+22:17:30.003,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 21
+22:17:30.119,INFO,Unity,깨끗해짐67
+22:17:30.139,INFO,Unity,깨끗해짐71
+22:17:30.157,INFO,Unity,깨끗해짐75
+22:17:30.177,INFO,Unity,깨끗해짐79
+22:17:30.197,INFO,Unity,깨끗해짐83
+22:17:30.217,INFO,Unity,깨끗해짐87
+22:17:30.237,INFO,Unity,깨끗해짐91
+22:17:30.256,INFO,Unity,깨끗해짐95
+22:17:30.278,INFO,Unity,깨끗해짐99
+22:17:30.297,INFO,Unity,깨끗해짐103
+22:17:30.317,INFO,Unity,깨끗해짐107
+22:17:30.338,INFO,Unity,깨끗해짐111
+22:17:30.358,INFO,Unity,깨끗해짐115
+22:17:30.376,INFO,Unity,깨끗해짐119
+22:17:30.399,INFO,Unity,깨끗해짐123
+22:17:30.417,INFO,Unity,깨끗해짐127
+22:17:30.438,INFO,Unity,깨끗해짐131
+22:17:30.458,INFO,Unity,깨끗해짐135
+22:17:30.477,INFO,Unity,깨끗해짐139
+22:17:30.499,INFO,Unity,깨끗해짐143
+22:17:30.519,INFO,Unity,깨끗해짐147
+22:17:30.538,INFO,Unity,깨끗해짐151
+22:17:30.557,INFO,Unity,깨끗해짐155
+22:17:30.577,INFO,Unity,깨끗해짐159
+22:17:30.599,INFO,Unity,깨끗해짐163
+22:17:30.617,INFO,Unity,깨끗해짐167
+22:17:30.637,INFO,Unity,깨끗해짐171
+22:17:30.658,INFO,Unity,깨끗해짐175
+22:17:30.678,INFO,Unity,깨끗해짐179
+22:17:30.698,INFO,Unity,깨끗해짐183
+22:17:30.719,INFO,Unity,깨끗해짐187
+22:17:30.739,INFO,Unity,깨끗해짐191
+22:17:30.758,INFO,Unity,깨끗해짐195
+22:17:30.777,INFO,Unity,깨끗해짐199
+22:17:30.799,INFO,Unity,깨끗해짐203
+22:17:31.228,INFO,Unity,maxJumpVelocity19.92032
+22:17:32.179,INFO,Unity,더러워짐
+22:17:32.357,INFO,Unity,더러워짐
+22:17:32.498,INFO,Unity,더러워짐
+22:17:32.619,INFO,Unity,더러워짐
+22:17:33.282,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+22:17:33.419,INFO,Unity,maxJumpVelocity19.92032
+22:17:34.094,INFO,Unity,maxJumpVelocity19.92032
+22:17:34.852,INFO,Unity,사다리 점프
+22:17:35.319,INFO,Unity,깨끗해짐127
+22:17:35.338,INFO,Unity,깨끗해짐131
+22:17:35.357,INFO,Unity,깨끗해짐135
+22:17:35.379,INFO,Unity,깨끗해짐139
+22:17:35.398,INFO,Unity,깨끗해짐143
+22:17:35.417,INFO,Unity,깨끗해짐147
+22:17:35.435,INFO,Unity,깨끗해짐151
+22:17:35.457,INFO,Unity,깨끗해짐155
+22:17:35.475,INFO,Unity,깨끗해짐159
+22:17:35.499,INFO,Unity,깨끗해짐163
+22:17:35.518,INFO,Unity,깨끗해짐167
+22:17:35.539,INFO,Unity,깨끗해짐171
+22:17:35.559,INFO,Unity,깨끗해짐175
+22:17:35.577,INFO,Unity,깨끗해짐179
+22:17:35.597,INFO,Unity,깨끗해짐183
+22:17:35.619,INFO,Unity,깨끗해짐187
+22:17:35.638,INFO,Unity,깨끗해짐191
+22:17:35.658,INFO,Unity,깨끗해짐195
+22:17:35.677,INFO,Unity,깨끗해짐199
+22:17:35.698,INFO,Unity,깨끗해짐203
+22:17:36.428,INFO,Unity,maxJumpVelocity19.92032
+22:17:37.052,INFO,Unity,사다리 코요테 점프
+22:17:37.177,INFO,Unity,indexChamge
+22:17:37.178,INFO,Unity,짐 1충돌
+22:17:37.178,DEBUG,Carryable,"충돌로 인해 짐 떨어뜨림. Fall떨어트린 위치 : (31.86, -4.23, 0.00)"
+22:17:37.179,INFO,Unity,Weight Update =0
+22:17:37.261,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 21
+22:17:38.927,INFO,Unity,maxJumpVelocity20
+22:17:40.219,DEBUG,PlayerCarrying,집기 조작Rag (UnityEngine.BoxCollider2D)
+22:17:40.219,INFO,Unity,_focus is null
+22:17:40.220,INFO,Unity,Weight Update =0
+22:17:40.220,INFO,Unity,Weight Update2 =1
+22:17:41.059,INFO,Unity,maxJumpVelocity19.92032
+22:17:41.101,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 21
+22:17:41.799,INFO,Unity,사다리 점프
+22:17:42.037,INFO,Unity,더러워짐
+22:17:42.280,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 21
+22:17:42.478,INFO,Unity,더러워짐
+22:17:43.016,INFO,Unity,maxJumpVelocity19.92032
+22:17:43.518,INFO,Unity,더러워짐
+22:17:43.518,INFO,Unity,더러워짐
+22:17:43.543,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+22:17:43.577,INFO,Unity,더러워짐
+22:17:43.918,INFO,Unity,더러워짐
+22:17:44.547,INFO,Unity,maxJumpVelocity19.92032
+22:17:45.417,INFO,Unity,깨끗해짐87
+22:17:45.437,INFO,Unity,깨끗해짐91
+22:17:45.459,INFO,Unity,깨끗해짐95
+22:17:45.478,INFO,Unity,깨끗해짐99
+22:17:45.497,INFO,Unity,깨끗해짐103
+22:17:45.516,INFO,Unity,깨끗해짐107
+22:17:45.539,INFO,Unity,깨끗해짐111
+22:17:45.558,INFO,Unity,깨끗해짐115
+22:17:45.577,INFO,Unity,깨끗해짐119
+22:17:45.599,INFO,Unity,깨끗해짐123
+22:17:45.619,INFO,Unity,깨끗해짐127
+22:17:45.623,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+22:17:45.638,INFO,Unity,깨끗해짐131
+22:17:45.658,INFO,Unity,깨끗해짐135
+22:17:45.678,INFO,Unity,깨끗해짐139
+22:17:45.698,INFO,Unity,깨끗해짐143
+22:17:45.718,INFO,Unity,깨끗해짐147
+22:17:45.738,INFO,Unity,깨끗해짐151
+22:17:45.757,INFO,Unity,깨끗해짐155
+22:17:45.779,INFO,Unity,깨끗해짐159
+22:17:45.798,INFO,Unity,깨끗해짐163
+22:17:45.818,INFO,Unity,깨끗해짐167
+22:17:45.837,INFO,Unity,깨끗해짐171
+22:17:45.858,INFO,Unity,깨끗해짐175
+22:17:45.878,INFO,Unity,깨끗해짐179
+22:17:45.897,INFO,Unity,깨끗해짐183
+22:17:45.917,INFO,Unity,깨끗해짐187
+22:17:45.938,INFO,Unity,깨끗해짐191
+22:17:45.957,INFO,Unity,깨끗해짐195
+22:17:45.979,INFO,Unity,깨끗해짐199
+22:17:45.998,INFO,Unity,깨끗해짐203
+22:17:47.799,INFO,Unity,더러워짐
+22:17:47.878,INFO,Unity,더러워짐
+22:17:48.541,INFO,Unity,maxJumpVelocity19.92032
+22:17:49.260,INFO,Unity,maxJumpVelocity19.92032
+22:17:49.523,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+22:17:50.071,INFO,Unity,사다리 코요테 점프
+22:17:50.881,INFO,Unity,maxJumpVelocity19.92032
+22:17:51.002,INFO,Unity,Weight Update =0
+22:17:51.037,INFO,Unity,깨끗해짐167
+22:17:51.059,INFO,Unity,깨끗해짐171
+22:17:51.079,INFO,Unity,깨끗해짐175
+22:17:51.097,INFO,Unity,깨끗해짐179
+22:17:51.120,INFO,Unity,깨끗해짐183
+22:17:51.135,INFO,Unity,깨끗해짐187
+22:17:51.158,INFO,Unity,깨끗해짐191
+22:17:51.176,INFO,Unity,깨끗해짐195
+22:17:51.197,INFO,Unity,깨끗해짐199
+22:17:51.217,INFO,Unity,깨끗해짐203
+22:17:51.594,INFO,Unity,maxJumpVelocity20
+22:17:53.051,INFO,Unity,maxJumpVelocity20
+22:17:53.661,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+22:17:54.020,INFO,Unity,사다리 점프
+22:17:54.504,INFO,Unity,사다리 점프
+22:17:55.139,INFO,Unity,벽 점프
+22:17:55.719,INFO,Unity,maxJumpVelocity20
+22:17:56.099,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+22:17:57.605,INFO,Unity,maxJumpVelocity20
+22:17:58.863,INFO,Unity,maxJumpVelocity20
+22:17:59.697,INFO,Unity,벽 점프
+22:18:00.482,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+22:18:01.160,INFO,Unity,사다리 점프
+22:18:01.702,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+22:18:01.760,INFO,Unity,벽 점프
+22:18:02.389,INFO,Unity,maxJumpVelocity20
+22:18:03.022,INFO,Unity,벽 점프
+22:18:04.860,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+22:18:05.349,INFO,Unity,maxJumpVelocity20
+22:18:06.776,INFO,Unity,사다리 코요테 점프
+22:18:06.981,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+22:18:08.132,INFO,Unity,사다리 점프
+22:18:09.028,INFO,Unity,maxJumpVelocity20
+22:18:09.280,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+22:18:09.977,INFO,Unity,maxJumpVelocity20
+22:18:10.742,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+22:18:11.109,INFO,Unity,maxJumpVelocity20
+22:18:11.579,INFO,Unity,벽 점프
+22:18:12.048,INFO,Unity,벽 점프
+22:18:12.514,INFO,Unity,벽 점프
+22:18:12.700,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+22:18:13.126,DEBUG,PlayerCarrying,집기 조작Bedding (UnityEngine.BoxCollider2D)
+22:18:13.127,INFO,Unity,_focus is null
+22:18:13.127,INFO,Unity,Weight Update =0
+22:18:13.128,INFO,Unity,Weight Update2 =1
+22:18:14.642,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+22:18:14.767,INFO,Unity,maxJumpVelocity19.92032
+22:18:15.574,INFO,Unity,maxJumpVelocity19.92032
+22:18:16.403,INFO,Unity,사다리 점프
+22:18:17.408,INFO,Unity,사다리 점프
+22:18:18.042,INFO,Unity,Weight Update =0
+22:18:18.058,INFO,Unity,Trigger Entered with: Bedding
+22:18:18.685,DEBUG,PlayerCarrying,집기 조작Bedding (UnityEngine.BoxCollider2D)
+22:18:18.688,INFO,Unity,_focus is null
+22:18:18.688,INFO,Unity,Weight Update =0
+22:18:18.688,INFO,Unity,Weight Update2 =1
+22:18:18.691,INFO,Unity,Trigger Exit with: Bedding
+22:18:18.696,INFO,Unity,Weight Update =0
+22:18:19.381,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+22:18:23.802,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+22:18:25.325,DEBUG,PlayerCarrying,집기 조작Box (UnityEngine.BoxCollider2D)
+22:18:25.326,INFO,Unity,_focus is null
+22:18:25.327,INFO,Unity,Weight Update =0
+22:18:25.327,INFO,Unity,Weight Update2 =10
+22:18:25.764,INFO,Unity,maxJumpVelocity19.23077
+22:18:26.781,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+22:18:28.971,INFO,Unity,maxJumpVelocity19.23077
+22:18:29.677,INFO,Unity,indexChamge
+22:18:29.678,INFO,Unity,짐 1충돌
+22:18:29.678,DEBUG,Carryable,"충돌로 인해 짐 떨어뜨림. Fall떨어트린 위치 : (6.50, -3.89, 0.00)"
+22:18:29.678,INFO,Unity,Weight Update =0
+22:18:29.760,INFO,Unity,사다리 코요테 점프
+22:18:29.821,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+22:18:30.613,INFO,Unity,maxJumpVelocity20
+22:18:31.353,DEBUG,PlayerCarrying,집기 조작Box (UnityEngine.BoxCollider2D)
+22:18:31.353,INFO,Unity,_focus is null
+22:18:31.355,INFO,Unity,Weight Update =0
+22:18:31.355,INFO,Unity,Weight Update2 =10
+22:18:31.759,INFO,Unity,maxJumpVelocity19.23077
+22:18:33.138,INFO,Unity,maxJumpVelocity19.23077
+22:18:33.782,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+22:18:34.081,INFO,Unity,maxJumpVelocity19.23077
+22:18:36.009,INFO,Unity,Weight Update =0
+22:18:37.086,DEBUG,PlayerCarrying,집기 조작Box (UnityEngine.BoxCollider2D)
+22:18:37.087,INFO,Unity,_focus is null
+22:18:37.087,INFO,Unity,Weight Update =0
+22:18:37.088,INFO,Unity,Weight Update2 =10
+22:18:37.220,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+22:18:37.879,INFO,Unity,Weight Update =0
+22:18:38.782,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+22:18:39.807,INFO,Unity,maxJumpVelocity20
+22:18:40.877,INFO,Unity,사다리 점프
+22:18:41.662,INFO,Unity,maxJumpVelocity20
+22:18:41.881,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+22:18:42.907,INFO,Unity,사다리 점프
+22:18:44.080,INFO,Unity,사다리 점프
+22:18:44.800,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+22:18:44.860,INFO,Unity,maxJumpVelocity20
+22:18:46.402,INFO,Unity,사다리 점프
+22:18:46.895,INFO,Unity,maxJumpVelocity20
+22:18:47.474,INFO,Unity,maxJumpVelocity20
+22:18:48.239,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+22:18:48.859,DEBUG,PlayerCarrying,집기 조작Box (UnityEngine.BoxCollider2D)
+22:18:48.860,INFO,Unity,_focus is null
+22:18:48.861,INFO,Unity,Weight Update =0
+22:18:48.861,INFO,Unity,Weight Update2 =10
+22:18:50.702,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+22:18:54.115,INFO,Unity,maxJumpVelocity19.23077
+22:18:55.133,INFO,Unity,maxJumpVelocity19.23077
+22:18:55.701,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+22:18:55.838,INFO,Unity,사다리 코요테 점프
+22:18:55.898,INFO,Unity,indexChamge
+22:18:55.899,INFO,Unity,짐 1충돌
+22:18:55.899,DEBUG,Carryable,"충돌로 인해 짐 떨어뜨림. Fall떨어트린 위치 : (-25.98, -3.77, 0.00)"
+22:18:55.899,INFO,Unity,Weight Update =0
+22:18:56.931,INFO,Unity,maxJumpVelocity20
+22:18:57.981,INFO,Unity,maxJumpVelocity20
+22:18:59.172,INFO,Unity,사다리 코요테 점프
+22:18:59.872,INFO,Unity,maxJumpVelocity20
+22:19:00.100,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+22:19:01.268,INFO,Unity,maxJumpVelocity20
+22:19:03.553,INFO,Unity,사다리 점프
+22:19:04.760,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+22:19:05.130,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:19:05.130,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:19:05.131,INFO,Unity,_focus is null
+22:19:05.131,INFO,Unity,Weight Update =0
+22:19:05.132,INFO,Unity,Weight Update2 =10
+22:19:06.060,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+22:19:08.016,INFO,Unity,maxJumpVelocity19.23077
+22:19:09.101,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+22:19:09.220,INFO,Unity,maxJumpVelocity19.23077
+22:19:09.837,INFO,Unity,maxJumpVelocity19.23077
+22:19:10.444,INFO,Unity,maxJumpVelocity19.23077
+22:19:10.800,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+22:19:11.418,INFO,Unity,maxJumpVelocity19.23077
+22:19:12.342,INFO,Unity,maxJumpVelocity19.23077
+22:19:14.259,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+22:19:14.365,INFO,Unity,maxJumpVelocity19.23077
+22:19:14.617,INFO,Unity,indexChamge
+22:19:14.618,INFO,Unity,짐 1충돌
+22:19:14.618,DEBUG,CarryableMimic,"충돌로 인해 짐 떨어뜨림. Fall떨어트린 위치 : (31.46, -4.49, 0.00)"
+22:19:14.618,INFO,Unity,Weight Update =0
+22:19:16.341,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:19:16.343,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:19:16.343,INFO,Unity,_focus is null
+22:19:16.344,INFO,Unity,Weight Update =0
+22:19:16.344,INFO,Unity,Weight Update2 =10
+22:19:17.017,INFO,Unity,maxJumpVelocity19.23077
+22:19:17.340,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+22:19:17.898,INFO,Unity,사다리 코요테 점프
+22:19:19.097,INFO,Unity,maxJumpVelocity19.23077
+22:19:19.812,INFO,Unity,maxJumpVelocity19.23077
+22:19:21.134,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:19:21.135,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:19:21.136,DEBUG,BathController,물탱크를 작동시키고 욕조에 물을 채우기 시작햇삼
+22:19:21.760,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 21
+22:19:23.701,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 21
+22:19:25.721,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+22:19:26.134,DEBUG,BathController,욕조에 물이 다찼다
+22:19:28.956,INFO,Unity,Weight Update =0
+22:19:30.282,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+22:19:32.020,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+22:19:32.401,INFO,Unity,maxJumpVelocity20
+22:19:33.655,INFO,Unity,maxJumpVelocity20
+22:19:34.451,INFO,Unity,maxJumpVelocity20
+22:19:35.720,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+22:19:36.156,INFO,Unity,Weight Update =0
+22:19:36.541,INFO,Unity,maxJumpVelocity20
+22:19:37.067,INFO,Unity,Weight Update =0
+22:19:37.483,INFO,Unity,maxJumpVelocity20
+22:19:37.632,INFO,Unity,Weight Update =0
+22:19:38.194,INFO,Unity,maxJumpVelocity20
+22:19:39.081,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+22:19:39.179,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:19:39.180,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:19:39.180,INFO,Unity,_focus is null
+22:19:39.180,INFO,Unity,Weight Update =0
+22:19:39.182,INFO,Unity,Weight Update2 =10
+22:19:39.182,DEBUG,BathController,이미 물 차는 중
+22:19:39.543,INFO,Unity,maxJumpVelocity19.23077
+22:19:39.697,INFO,Unity,Weight Update =0
+22:19:39.717,DEBUG,ShowerMimic,재료 배치 완료: DirtyMimic
+22:19:41.301,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+22:19:43.400,INFO,Unity,maxJumpVelocity20
+22:19:44.581,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+22:19:44.905,DEBUG,PlayerCarrying,집기 조작샴푸 (UnityEngine.BoxCollider2D)
+22:19:44.907,INFO,Unity,_focus is null
+22:19:44.907,INFO,Unity,Weight Update =0
+22:19:44.907,INFO,Unity,Weight Update2 =1
+22:19:45.695,INFO,Unity,maxJumpVelocity19.92032
+22:19:46.863,DEBUG,PlayerCarrying,집기 조작샴푸 (UnityEngine.BoxCollider2D)
+22:19:46.863,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:19:46.863,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:19:46.864,INFO,Unity,_focus is null
+22:19:46.865,INFO,Unity,Weight Update =0
+22:19:46.865,INFO,Unity,Weight Update2 =11
+22:19:46.865,DEBUG,BathController,이미 물 차는 중
+22:19:47.441,DEBUG,PlayerCarrying,집기 조작샴푸 (UnityEngine.BoxCollider2D)
+22:19:47.441,DEBUG,BathController,이미 물 차는 중
+22:19:48.380,INFO,Unity,Weight Update =0
+22:19:48.380,INFO,Unity,Weight Update2 =1
+22:19:49.403,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 21
+22:19:49.944,INFO,Unity,maxJumpVelocity19.92032
+22:19:50.397,INFO,Unity,Weight Update =0
+22:19:51.376,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:19:51.377,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:19:51.378,INFO,Unity,_focus is null
+22:19:51.379,INFO,Unity,Weight Update =0
+22:19:51.379,INFO,Unity,Weight Update2 =10
+22:19:51.379,DEBUG,BathController,이미 물 차는 중
+22:19:51.673,INFO,Unity,maxJumpVelocity19.23077
+22:19:51.791,INFO,Unity,Weight Update =0
+22:19:52.522,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 22
+22:19:52.877,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:19:52.878,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:19:52.878,INFO,Unity,_focus is null
+22:19:52.878,INFO,Unity,Weight Update =0
+22:19:52.878,INFO,Unity,Weight Update2 =10
+22:19:52.878,DEBUG,BathController,이미 물 차는 중
+22:19:53.298,INFO,Unity,maxJumpVelocity19.23077
+22:19:53.396,INFO,Unity,Weight Update =0
+22:19:54.281,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:19:54.282,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:19:54.282,INFO,Unity,_focus is null
+22:19:54.283,INFO,Unity,Weight Update =0
+22:19:54.283,INFO,Unity,Weight Update2 =10
+22:19:55.589,INFO,Unity,maxJumpVelocity19.23077
+22:19:55.674,INFO,Unity,Weight Update =0
+22:19:55.786,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 23
+22:19:56.439,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:19:56.440,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:19:56.440,INFO,Unity,_focus is null
+22:19:56.441,INFO,Unity,Weight Update =0
+22:19:56.441,INFO,Unity,Weight Update2 =10
+22:19:56.441,DEBUG,BathController,이미 물 차는 중
+22:19:57.962,INFO,Unity,maxJumpVelocity19.23077
+22:19:58.530,INFO,Unity,Weight Update =0
+22:19:59.295,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:19:59.297,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:19:59.297,INFO,Unity,_focus is null
+22:19:59.298,INFO,Unity,Weight Update =0
+22:19:59.298,INFO,Unity,Weight Update2 =10
+22:19:59.298,DEBUG,BathController,이미 물 차는 중
+22:19:59.781,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 24
+22:20:00.771,INFO,Unity,maxJumpVelocity19.23077
+22:20:01.243,INFO,Unity,Weight Update =0
+22:20:01.281,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 23
+22:20:02.446,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:20:02.446,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:20:02.446,INFO,Unity,_focus is null
+22:20:02.448,INFO,Unity,Weight Update =0
+22:20:02.448,INFO,Unity,Weight Update2 =10
+22:20:02.448,DEBUG,BathController,이미 물 차는 중
+22:20:02.520,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 22
+22:20:02.758,INFO,Unity,maxJumpVelocity19.23077
+22:20:03.392,INFO,Unity,Weight Update =0
+22:20:04.443,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:20:04.445,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:20:04.445,INFO,Unity,_focus is null
+22:20:04.445,INFO,Unity,Weight Update =0
+22:20:04.445,INFO,Unity,Weight Update2 =10
+22:20:04.447,DEBUG,BathController,이미 물 차는 중
+22:20:04.718,INFO,Unity,maxJumpVelocity19.23077
+22:20:04.762,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 22
+22:20:05.045,INFO,Unity,Weight Update =0
+22:20:06.808,DEBUG,PlayerCarrying,집기 조작샴푸 (UnityEngine.BoxCollider2D)
+22:20:06.809,INFO,Unity,_focus is null
+22:20:06.809,INFO,Unity,Weight Update =0
+22:20:06.809,INFO,Unity,Weight Update2 =1
+22:20:06.809,DEBUG,BathController,이미 물 차는 중
+22:20:07.313,INFO,Unity,Weight Update =0
+22:20:08.325,INFO,Unity,maxJumpVelocity20
+22:20:08.620,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 22
+22:20:10.585,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:20:10.585,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:20:10.585,INFO,Unity,_focus is null
+22:20:10.587,INFO,Unity,Weight Update =0
+22:20:10.587,INFO,Unity,Weight Update2 =10
+22:20:11.182,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 23
+22:20:12.275,INFO,Unity,maxJumpVelocity19.23077
+22:20:12.479,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 22
+22:20:13.163,INFO,Unity,maxJumpVelocity19.23077
+22:20:14.417,INFO,Unity,indexChamge
+22:20:14.418,INFO,Unity,짐 1충돌
+22:20:14.418,DEBUG,CarryableMimic,"충돌로 인해 짐 떨어뜨림. Fall떨어트린 위치 : (30.51, -8.45, 0.00)"
+22:20:14.418,INFO,Unity,Weight Update =0
+22:20:15.642,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 22
+22:20:16.099,INFO,Unity,maxJumpVelocity20
+22:20:17.220,INFO,Unity,사다리 점프
+22:20:17.600,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 22
+22:20:18.345,INFO,Unity,사다리 코요테 점프
+22:20:20.094,WARNING,Unity,Internal: JobTempAlloc has allocations that are more than the maximum lifespan of 4 frames old - this is not allowed and likely a leak
+22:20:20.095,WARNING,Unity,"To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations."
+22:20:20.534,INFO,Unity,사다리 점프
+22:20:21.041,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 22
+22:20:21.664,DEBUG,PlayerCarrying,집기 조작WateringCan (UnityEngine.BoxCollider2D)
+22:20:21.665,INFO,Unity,_focus is null
+22:20:21.666,INFO,Unity,Weight Update =0
+22:20:21.667,INFO,Unity,Weight Update2 =2
+22:20:21.671,INFO,Unity,No hits detected.
+22:20:21.675,INFO,Unity,No hits detected.
+22:20:21.679,INFO,Unity,No hits detected.
+22:20:21.683,INFO,Unity,No hits detected.
+22:20:21.687,INFO,Unity,No hits detected.
+22:20:21.690,INFO,Unity,No hits detected.
+22:20:21.694,INFO,Unity,No hits detected.
+22:20:21.698,INFO,Unity,No hits detected.
+22:20:21.701,INFO,Unity,No hits detected.
+22:20:21.706,INFO,Unity,No hits detected.
+22:20:21.709,INFO,Unity,No hits detected.
+22:20:21.714,INFO,Unity,No hits detected.
+22:20:21.718,INFO,Unity,No hits detected.
+22:20:21.721,INFO,Unity,No hits detected.
+22:20:21.724,INFO,Unity,No hits detected.
+22:20:21.728,INFO,Unity,No hits detected.
+22:20:21.732,INFO,Unity,No hits detected.
+22:20:21.736,INFO,Unity,No hits detected.
+22:20:21.740,INFO,Unity,No hits detected.
+22:20:21.744,INFO,Unity,No hits detected.
+22:20:21.748,INFO,Unity,No hits detected.
+22:20:21.752,INFO,Unity,No hits detected.
+22:20:21.757,INFO,Unity,No hits detected.
+22:20:21.761,INFO,Unity,No hits detected.
+22:20:21.763,INFO,Unity,No hits detected.
+22:20:21.767,INFO,Unity,No hits detected.
+22:20:21.771,INFO,Unity,No hits detected.
+22:20:21.776,INFO,Unity,No hits detected.
+22:20:21.780,INFO,Unity,No hits detected.
+22:20:21.784,INFO,Unity,No hits detected.
+22:20:21.787,INFO,Unity,No hits detected.
+22:20:21.791,INFO,Unity,No hits detected.
+22:20:21.795,INFO,Unity,No hits detected.
+22:20:21.799,INFO,Unity,No hits detected.
+22:20:21.803,INFO,Unity,No hits detected.
+22:20:21.806,INFO,Unity,No hits detected.
+22:20:21.810,INFO,Unity,No hits detected.
+22:20:21.814,INFO,Unity,No hits detected.
+22:20:21.818,INFO,Unity,No hits detected.
+22:20:21.822,INFO,Unity,No hits detected.
+22:20:21.826,INFO,Unity,No hits detected.
+22:20:21.829,INFO,Unity,No hits detected.
+22:20:21.833,INFO,Unity,No hits detected.
+22:20:21.837,INFO,Unity,No hits detected.
+22:20:21.841,INFO,Unity,No hits detected.
+22:20:21.844,INFO,Unity,No hits detected.
+22:20:21.848,INFO,Unity,No hits detected.
+22:20:21.851,INFO,Unity,No hits detected.
+22:20:21.855,INFO,Unity,No hits detected.
+22:20:21.859,INFO,Unity,No hits detected.
+22:20:21.863,INFO,Unity,No hits detected.
+22:20:21.867,INFO,Unity,No hits detected.
+22:20:21.870,INFO,Unity,No hits detected.
+22:20:21.875,INFO,Unity,No hits detected.
+22:20:21.878,INFO,Unity,No hits detected.
+22:20:21.882,INFO,Unity,No hits detected.
+22:20:21.885,INFO,Unity,No hits detected.
+22:20:21.889,INFO,Unity,No hits detected.
+22:20:21.892,INFO,Unity,No hits detected.
+22:20:21.897,INFO,Unity,No hits detected.
+22:20:21.901,INFO,Unity,No hits detected.
+22:20:21.905,INFO,Unity,No hits detected.
+22:20:21.908,INFO,Unity,No hits detected.
+22:20:21.912,INFO,Unity,No hits detected.
+22:20:21.916,INFO,Unity,No hits detected.
+22:20:21.919,INFO,Unity,No hits detected.
+22:20:21.924,INFO,Unity,No hits detected.
+22:20:21.928,INFO,Unity,No hits detected.
+22:20:21.931,INFO,Unity,No hits detected.
+22:20:21.934,INFO,Unity,No hits detected.
+22:20:21.938,INFO,Unity,No hits detected.
+22:20:21.942,INFO,Unity,No hits detected.
+22:20:21.946,INFO,Unity,No hits detected.
+22:20:21.950,INFO,Unity,No hits detected.
+22:20:21.953,INFO,Unity,No hits detected.
+22:20:21.958,INFO,Unity,No hits detected.
+22:20:21.961,INFO,Unity,No hits detected.
+22:20:21.965,INFO,Unity,No hits detected.
+22:20:21.970,INFO,Unity,No hits detected.
+22:20:21.974,INFO,Unity,No hits detected.
+22:20:21.977,INFO,Unity,No hits detected.
+22:20:21.982,INFO,Unity,No hits detected.
+22:20:21.985,INFO,Unity,No hits detected.
+22:20:21.989,INFO,Unity,No hits detected.
+22:20:21.993,INFO,Unity,No hits detected.
+22:20:21.997,INFO,Unity,No hits detected.
+22:20:22.000,INFO,Unity,No hits detected.
+22:20:22.004,INFO,Unity,No hits detected.
+22:20:22.008,INFO,Unity,No hits detected.
+22:20:22.012,INFO,Unity,No hits detected.
+22:20:22.015,INFO,Unity,No hits detected.
+22:20:22.020,INFO,Unity,No hits detected.
+22:20:22.023,INFO,Unity,No hits detected.
+22:20:22.028,INFO,Unity,No hits detected.
+22:20:22.031,INFO,Unity,No hits detected.
+22:20:22.034,INFO,Unity,No hits detected.
+22:20:22.039,INFO,Unity,No hits detected.
+22:20:22.043,INFO,Unity,No hits detected.
+22:20:22.047,INFO,Unity,No hits detected.
+22:20:22.050,INFO,Unity,No hits detected.
+22:20:22.053,INFO,Unity,No hits detected.
+22:20:22.058,INFO,Unity,No hits detected.
+22:20:22.061,INFO,Unity,No hits detected.
+22:20:22.066,INFO,Unity,No hits detected.
+22:20:22.069,INFO,Unity,No hits detected.
+22:20:22.072,INFO,Unity,No hits detected.
+22:20:22.077,INFO,Unity,No hits detected.
+22:20:22.080,INFO,Unity,No hits detected.
+22:20:22.083,INFO,Unity,No hits detected.
+22:20:22.088,INFO,Unity,No hits detected.
+22:20:22.091,INFO,Unity,No hits detected.
+22:20:22.096,INFO,Unity,No hits detected.
+22:20:22.099,INFO,Unity,No hits detected.
+22:20:22.104,INFO,Unity,No hits detected.
+22:20:22.107,INFO,Unity,No hits detected.
+22:20:22.111,INFO,Unity,No hits detected.
+22:20:22.115,INFO,Unity,No hits detected.
+22:20:22.119,INFO,Unity,No hits detected.
+22:20:22.123,INFO,Unity,No hits detected.
+22:20:22.127,INFO,Unity,No hits detected.
+22:20:22.131,INFO,Unity,No hits detected.
+22:20:22.135,INFO,Unity,No hits detected.
+22:20:22.139,INFO,Unity,No hits detected.
+22:20:22.144,INFO,Unity,No hits detected.
+22:20:22.147,INFO,Unity,No hits detected.
+22:20:22.150,INFO,Unity,No hits detected.
+22:20:22.154,INFO,Unity,No hits detected.
+22:20:22.158,INFO,Unity,No hits detected.
+22:20:22.162,INFO,Unity,No hits detected.
+22:20:22.167,INFO,Unity,No hits detected.
+22:20:22.171,INFO,Unity,No hits detected.
+22:20:22.174,INFO,Unity,No hits detected.
+22:20:22.179,INFO,Unity,No hits detected.
+22:20:22.183,INFO,Unity,No hits detected.
+22:20:22.187,INFO,Unity,No hits detected.
+22:20:22.191,INFO,Unity,No hits detected.
+22:20:22.195,INFO,Unity,No hits detected.
+22:20:22.199,INFO,Unity,No hits detected.
+22:20:22.204,INFO,Unity,No hits detected.
+22:20:22.207,INFO,Unity,No hits detected.
+22:20:22.211,INFO,Unity,No hits detected.
+22:20:22.215,INFO,Unity,No hits detected.
+22:20:22.218,INFO,Unity,No hits detected.
+22:20:22.222,INFO,Unity,No hits detected.
+22:20:22.226,INFO,Unity,No hits detected.
+22:20:22.230,INFO,Unity,No hits detected.
+22:20:22.234,INFO,Unity,No hits detected.
+22:20:22.237,INFO,Unity,No hits detected.
+22:20:22.241,INFO,Unity,No hits detected.
+22:20:22.245,INFO,Unity,No hits detected.
+22:20:22.248,INFO,Unity,No hits detected.
+22:20:22.251,INFO,Unity,No hits detected.
+22:20:22.255,INFO,Unity,No hits detected.
+22:20:22.260,INFO,Unity,No hits detected.
+22:20:22.264,INFO,Unity,No hits detected.
+22:20:22.267,INFO,Unity,No hits detected.
+22:20:22.271,INFO,Unity,No hits detected.
+22:20:22.276,INFO,Unity,No hits detected.
+22:20:22.280,INFO,Unity,No hits detected.
+22:20:22.284,INFO,Unity,No hits detected.
+22:20:22.287,INFO,Unity,No hits detected.
+22:20:22.292,INFO,Unity,No hits detected.
+22:20:22.296,INFO,Unity,No hits detected.
+22:20:22.300,INFO,Unity,No hits detected.
+22:20:22.304,INFO,Unity,No hits detected.
+22:20:22.308,INFO,Unity,No hits detected.
+22:20:22.312,INFO,Unity,No hits detected.
+22:20:22.315,INFO,Unity,No hits detected.
+22:20:22.320,INFO,Unity,No hits detected.
+22:20:22.324,INFO,Unity,No hits detected.
+22:20:22.327,INFO,Unity,No hits detected.
+22:20:22.331,INFO,Unity,No hits detected.
+22:20:22.335,INFO,Unity,No hits detected.
+22:20:22.338,INFO,Unity,No hits detected.
+22:20:22.343,INFO,Unity,No hits detected.
+22:20:22.346,INFO,Unity,No hits detected.
+22:20:22.351,INFO,Unity,No hits detected.
+22:20:22.353,INFO,Unity,No hits detected.
+22:20:22.358,INFO,Unity,No hits detected.
+22:20:22.362,INFO,Unity,No hits detected.
+22:20:22.367,INFO,Unity,No hits detected.
+22:20:22.370,INFO,Unity,No hits detected.
+22:20:22.373,INFO,Unity,No hits detected.
+22:20:22.377,INFO,Unity,No hits detected.
+22:20:22.381,INFO,Unity,No hits detected.
+22:20:22.385,INFO,Unity,No hits detected.
+22:20:22.389,INFO,Unity,No hits detected.
+22:20:22.391,INFO,Unity,No hits detected.
+22:20:22.397,INFO,Unity,No hits detected.
+22:20:22.400,INFO,Unity,No hits detected.
+22:20:22.403,INFO,Unity,No hits detected.
+22:20:22.408,INFO,Unity,No hits detected.
+22:20:22.411,INFO,Unity,No hits detected.
+22:20:22.415,INFO,Unity,No hits detected.
+22:20:22.419,INFO,Unity,No hits detected.
+22:20:22.422,INFO,Unity,No hits detected.
+22:20:22.427,INFO,Unity,No hits detected.
+22:20:22.430,INFO,Unity,No hits detected.
+22:20:22.434,INFO,Unity,No hits detected.
+22:20:22.437,INFO,Unity,No hits detected.
+22:20:22.442,INFO,Unity,No hits detected.
+22:20:22.445,INFO,Unity,No hits detected.
+22:20:22.448,INFO,Unity,No hits detected.
+22:20:22.453,INFO,Unity,No hits detected.
+22:20:22.456,INFO,Unity,No hits detected.
+22:20:22.460,INFO,Unity,No hits detected.
+22:20:22.464,INFO,Unity,No hits detected.
+22:20:22.467,INFO,Unity,No hits detected.
+22:20:22.472,INFO,Unity,No hits detected.
+22:20:22.474,INFO,Unity,No hits detected.
+22:20:22.479,INFO,Unity,No hits detected.
+22:20:22.483,INFO,Unity,No hits detected.
+22:20:22.487,INFO,Unity,No hits detected.
+22:20:22.491,INFO,Unity,No hits detected.
+22:20:22.494,INFO,Unity,No hits detected.
+22:20:22.498,INFO,Unity,No hits detected.
+22:20:22.501,INFO,Unity,No hits detected.
+22:20:22.504,INFO,Unity,No hits detected.
+22:20:22.509,INFO,Unity,No hits detected.
+22:20:22.513,INFO,Unity,No hits detected.
+22:20:22.517,INFO,Unity,No hits detected.
+22:20:22.521,INFO,Unity,No hits detected.
+22:20:22.525,INFO,Unity,No hits detected.
+22:20:22.529,INFO,Unity,No hits detected.
+22:20:22.532,INFO,Unity,No hits detected.
+22:20:22.537,INFO,Unity,No hits detected.
+22:20:22.540,DEBUG,PlayerCarrying,집기 조작WateringCan (UnityEngine.BoxCollider2D)
+22:20:22.541,INFO,Unity,No hits detected.
+22:20:22.546,INFO,Unity,No hits detected.
+22:20:22.550,INFO,Unity,No hits detected.
+22:20:22.554,INFO,Unity,No hits detected.
+22:20:22.558,INFO,Unity,No hits detected.
+22:20:22.562,INFO,Unity,No hits detected.
+22:20:22.566,INFO,Unity,No hits detected.
+22:20:22.569,INFO,Unity,No hits detected.
+22:20:22.574,INFO,Unity,No hits detected.
+22:20:22.577,INFO,Unity,No hits detected.
+22:20:22.580,INFO,Unity,No hits detected.
+22:20:22.585,INFO,Unity,No hits detected.
+22:20:22.589,INFO,Unity,No hits detected.
+22:20:22.593,INFO,Unity,No hits detected.
+22:20:22.597,INFO,Unity,No hits detected.
+22:20:22.600,INFO,Unity,No hits detected.
+22:20:22.605,INFO,Unity,No hits detected.
+22:20:22.608,INFO,Unity,No hits detected.
+22:20:22.612,INFO,Unity,No hits detected.
+22:20:22.617,INFO,Unity,No hits detected.
+22:20:22.621,INFO,Unity,No hits detected.
+22:20:22.624,INFO,Unity,No hits detected.
+22:20:22.629,INFO,Unity,No hits detected.
+22:20:22.632,INFO,Unity,No hits detected.
+22:20:22.637,INFO,Unity,No hits detected.
+22:20:22.641,INFO,Unity,No hits detected.
+22:20:22.644,INFO,Unity,No hits detected.
+22:20:22.648,INFO,Unity,No hits detected.
+22:20:22.652,INFO,Unity,No hits detected.
+22:20:22.655,INFO,Unity,No hits detected.
+22:20:22.659,INFO,Unity,No hits detected.
+22:20:22.664,INFO,Unity,No hits detected.
+22:20:22.667,INFO,Unity,No hits detected.
+22:20:22.671,INFO,Unity,No hits detected.
+22:20:22.675,INFO,Unity,No hits detected.
+22:20:22.679,INFO,Unity,No hits detected.
+22:20:22.683,INFO,Unity,No hits detected.
+22:20:22.687,INFO,Unity,No hits detected.
+22:20:22.690,INFO,Unity,No hits detected.
+22:20:22.694,INFO,Unity,No hits detected.
+22:20:22.698,INFO,Unity,No hits detected.
+22:20:22.701,INFO,Unity,No hits detected.
+22:20:22.704,INFO,Unity,No hits detected.
+22:20:22.708,INFO,Unity,No hits detected.
+22:20:22.713,INFO,Unity,No hits detected.
+22:20:22.715,INFO,Unity,No hits detected.
+22:20:22.719,INFO,Unity,No hits detected.
+22:20:22.724,INFO,Unity,No hits detected.
+22:20:22.728,INFO,Unity,No hits detected.
+22:20:22.732,INFO,Unity,No hits detected.
+22:20:22.736,INFO,Unity,No hits detected.
+22:20:22.739,INFO,Unity,No hits detected.
+22:20:22.743,INFO,Unity,No hits detected.
+22:20:22.747,INFO,Unity,No hits detected.
+22:20:22.750,INFO,Unity,No hits detected.
+22:20:22.753,INFO,Unity,No hits detected.
+22:20:22.758,INFO,Unity,No hits detected.
+22:20:22.762,INFO,Unity,No hits detected.
+22:20:22.765,INFO,Unity,No hits detected.
+22:20:22.769,INFO,Unity,No hits detected.
+22:20:22.772,INFO,Unity,No hits detected.
+22:20:22.777,INFO,Unity,No hits detected.
+22:20:22.780,INFO,Unity,No hits detected.
+22:20:22.784,INFO,Unity,No hits detected.
+22:20:22.788,INFO,Unity,No hits detected.
+22:20:22.791,INFO,Unity,No hits detected.
+22:20:22.796,INFO,Unity,No hits detected.
+22:20:22.798,INFO,Unity,No hits detected.
+22:20:22.803,INFO,Unity,No hits detected.
+22:20:22.807,INFO,Unity,No hits detected.
+22:20:22.811,INFO,Unity,No hits detected.
+22:20:22.814,INFO,Unity,No hits detected.
+22:20:22.818,INFO,Unity,No hits detected.
+22:20:22.822,INFO,Unity,No hits detected.
+22:20:22.825,INFO,Unity,No hits detected.
+22:20:22.829,INFO,Unity,No hits detected.
+22:20:22.833,INFO,Unity,No hits detected.
+22:20:22.837,INFO,Unity,No hits detected.
+22:20:22.841,INFO,Unity,No hits detected.
+22:20:22.845,INFO,Unity,No hits detected.
+22:20:22.849,INFO,Unity,No hits detected.
+22:20:22.852,INFO,Unity,No hits detected.
+22:20:22.857,INFO,Unity,No hits detected.
+22:20:22.860,INFO,Unity,No hits detected.
+22:20:22.864,INFO,Unity,No hits detected.
+22:20:22.868,INFO,Unity,No hits detected.
+22:20:22.871,INFO,Unity,No hits detected.
+22:20:22.875,INFO,Unity,No hits detected.
+22:20:22.879,INFO,Unity,No hits detected.
+22:20:22.883,INFO,Unity,No hits detected.
+22:20:22.887,INFO,Unity,No hits detected.
+22:20:22.890,INFO,Unity,No hits detected.
+22:20:22.893,INFO,Unity,No hits detected.
+22:20:22.898,INFO,Unity,No hits detected.
+22:20:22.901,INFO,Unity,No hits detected.
+22:20:22.904,INFO,Unity,No hits detected.
+22:20:22.909,INFO,Unity,No hits detected.
+22:20:22.913,INFO,Unity,No hits detected.
+22:20:22.917,INFO,Unity,No hits detected.
+22:20:22.920,INFO,Unity,No hits detected.
+22:20:22.924,INFO,Unity,No hits detected.
+22:20:22.928,INFO,Unity,No hits detected.
+22:20:22.931,INFO,Unity,No hits detected.
+22:20:22.935,INFO,Unity,No hits detected.
+22:20:22.939,INFO,Unity,No hits detected.
+22:20:22.942,INFO,Unity,No hits detected.
+22:20:22.947,INFO,Unity,No hits detected.
+22:20:22.951,INFO,Unity,No hits detected.
+22:20:22.955,INFO,Unity,No hits detected.
+22:20:22.959,INFO,Unity,No hits detected.
+22:20:22.963,INFO,Unity,No hits detected.
+22:20:22.967,INFO,Unity,No hits detected.
+22:20:22.970,INFO,Unity,No hits detected.
+22:20:22.974,INFO,Unity,No hits detected.
+22:20:22.979,INFO,Unity,No hits detected.
+22:20:22.982,INFO,Unity,No hits detected.
+22:20:22.986,INFO,Unity,No hits detected.
+22:20:22.991,INFO,Unity,No hits detected.
+22:20:22.994,INFO,Unity,No hits detected.
+22:20:22.998,INFO,Unity,No hits detected.
+22:20:23.002,INFO,Unity,No hits detected.
+22:20:23.006,INFO,Unity,No hits detected.
+22:20:23.010,INFO,Unity,No hits detected.
+22:20:23.014,INFO,Unity,No hits detected.
+22:20:23.019,INFO,Unity,No hits detected.
+22:20:23.023,INFO,Unity,No hits detected.
+22:20:23.027,INFO,Unity,No hits detected.
+22:20:23.031,INFO,Unity,No hits detected.
+22:20:23.035,INFO,Unity,No hits detected.
+22:20:23.038,INFO,Unity,No hits detected.
+22:20:23.043,INFO,Unity,No hits detected.
+22:20:23.047,INFO,Unity,No hits detected.
+22:20:23.050,INFO,Unity,No hits detected.
+22:20:23.055,INFO,Unity,No hits detected.
+22:20:23.058,INFO,Unity,No hits detected.
+22:20:23.062,INFO,Unity,No hits detected.
+22:20:23.066,INFO,Unity,No hits detected.
+22:20:23.069,INFO,Unity,No hits detected.
+22:20:23.073,INFO,Unity,No hits detected.
+22:20:23.077,INFO,Unity,No hits detected.
+22:20:23.081,INFO,Unity,No hits detected.
+22:20:23.084,INFO,Unity,No hits detected.
+22:20:23.088,INFO,Unity,No hits detected.
+22:20:23.092,INFO,Unity,No hits detected.
+22:20:23.095,INFO,Unity,No hits detected.
+22:20:23.100,INFO,Unity,No hits detected.
+22:20:23.103,INFO,Unity,No hits detected.
+22:20:23.107,INFO,Unity,No hits detected.
+22:20:23.110,INFO,Unity,No hits detected.
+22:20:23.115,INFO,Unity,No hits detected.
+22:20:23.118,INFO,Unity,No hits detected.
+22:20:23.122,INFO,Unity,No hits detected.
+22:20:23.124,INFO,Unity,No hits detected.
+22:20:23.129,INFO,Unity,No hits detected.
+22:20:23.132,INFO,Unity,No hits detected.
+22:20:23.137,INFO,Unity,No hits detected.
+22:20:23.140,INFO,Unity,No hits detected.
+22:20:23.144,INFO,Unity,No hits detected.
+22:20:23.148,INFO,Unity,No hits detected.
+22:20:23.152,INFO,Unity,No hits detected.
+22:20:23.157,INFO,Unity,No hits detected.
+22:20:23.161,INFO,Unity,No hits detected.
+22:20:23.164,INFO,Unity,No hits detected.
+22:20:23.168,INFO,Unity,No hits detected.
+22:20:23.172,INFO,Unity,No hits detected.
+22:20:23.176,INFO,Unity,No hits detected.
+22:20:23.180,INFO,Unity,No hits detected.
+22:20:23.184,INFO,Unity,No hits detected.
+22:20:23.188,INFO,Unity,No hits detected.
+22:20:23.192,INFO,Unity,No hits detected.
+22:20:23.196,INFO,Unity,Weight Update =0
+22:20:23.502,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 22
+22:20:23.657,INFO,Unity,maxJumpVelocity20
+22:20:24.885,INFO,Unity,maxJumpVelocity20
+22:20:25.834,DEBUG,PlayerCarrying,집기 조작Box (UnityEngine.BoxCollider2D)
+22:20:25.835,INFO,Unity,_focus is null
+22:20:25.835,INFO,Unity,Weight Update =0
+22:20:25.837,INFO,Unity,Weight Update2 =10
+22:20:26.722,INFO,Unity,maxJumpVelocity19.23077
+22:20:28.482,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 23
+22:20:30.631,INFO,Unity,maxJumpVelocity19.23077
+22:20:30.838,INFO,Unity,indexChamge
+22:20:30.838,INFO,Unity,짐 1충돌
+22:20:30.838,DEBUG,Carryable,"충돌로 인해 짐 떨어뜨림. Fall떨어트린 위치 : (30.23, -12.90, 0.00)"
+22:20:30.839,INFO,Unity,Weight Update =0
+22:20:31.696,INFO,Unity,maxJumpVelocity20
+22:20:31.861,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 24
+22:20:31.996,DEBUG,PlayerCarrying,집기 조작Box (UnityEngine.BoxCollider2D)
+22:20:31.997,INFO,Unity,_focus is null
+22:20:31.997,INFO,Unity,Weight Update =0
+22:20:31.998,INFO,Unity,Weight Update2 =10
+22:20:32.961,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 23
+22:20:33.990,INFO,Unity,Weight Update =0
+22:20:34.349,INFO,Unity,maxJumpVelocity20
+22:20:35.123,INFO,Unity,maxJumpVelocity20
+22:20:35.686,INFO,Unity,maxJumpVelocity20
+22:20:36.061,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 22
+22:20:36.764,INFO,Unity,사다리 점프
+22:20:37.692,WARNING,Unity,Internal: JobTempAlloc has allocations that are more than the maximum lifespan of 4 frames old - this is not allowed and likely a leak
+22:20:37.693,WARNING,Unity,"To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations."
+22:20:38.009,DEBUG,PlayerCarrying,집기 조작Box (UnityEngine.BoxCollider2D)
+22:20:38.010,INFO,Unity,_focus is null
+22:20:38.011,INFO,Unity,Weight Update =0
+22:20:38.011,INFO,Unity,Weight Update2 =10
+22:20:40.081,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 23
+22:20:40.227,INFO,Unity,maxJumpVelocity19.23077
+22:20:42.738,INFO,Unity,Weight Update =0
+22:20:43.578,INFO,Unity,maxJumpVelocity20
+22:20:43.782,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 23
+22:20:44.153,INFO,Unity,벽 점프
+22:20:44.783,INFO,Unity,maxJumpVelocity20
+22:20:45.617,INFO,Unity,maxJumpVelocity20
+22:20:46.545,INFO,Unity,maxJumpVelocity20
+22:20:46.902,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 22
+22:20:48.238,DEBUG,PlayerCarrying,집기 조작Box (UnityEngine.BoxCollider2D)
+22:20:48.239,INFO,Unity,_focus is null
+22:20:48.239,INFO,Unity,Weight Update =0
+22:20:48.240,INFO,Unity,Weight Update2 =10
+22:20:48.662,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 22
+22:20:49.236,INFO,Unity,maxJumpVelocity19.23077
+22:20:49.397,INFO,Unity,indexChamge
+22:20:49.398,INFO,Unity,짐 1충돌
+22:20:49.398,DEBUG,Carryable,"충돌로 인해 짐 떨어뜨림. Fall떨어트린 위치 : (-22.05, -12.61, 0.00)"
+22:20:49.398,INFO,Unity,Weight Update =0
+22:20:49.618,WARNING,Unity,Internal: JobTempAlloc has allocations that are more than the maximum lifespan of 4 frames old - this is not allowed and likely a leak
+22:20:49.619,WARNING,Unity,"To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations."
+22:20:50.613,INFO,Unity,maxJumpVelocity20
+22:20:51.220,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 22
+22:20:51.770,INFO,Unity,maxJumpVelocity20
+22:20:51.908,DEBUG,PlayerCarrying,집기 조작Box (UnityEngine.BoxCollider2D)
+22:20:51.909,INFO,Unity,_focus is null
+22:20:51.909,INFO,Unity,Weight Update =0
+22:20:51.909,INFO,Unity,Weight Update2 =10
+22:20:52.521,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 21
+22:20:53.058,WARNING,Unity,Internal: JobTempAlloc has allocations that are more than the maximum lifespan of 4 frames old - this is not allowed and likely a leak
+22:20:53.058,WARNING,Unity,"To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations."
+22:20:53.561,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 21
+22:20:53.614,INFO,Unity,maxJumpVelocity19.23077
+22:20:54.385,INFO,Unity,maxJumpVelocity19.23077
+22:20:55.400,INFO,Unity,maxJumpVelocity19.23077
+22:20:55.699,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+22:20:56.477,INFO,Unity,maxJumpVelocity19.23077
+22:20:57.201,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+22:20:59.045,INFO,Unity,Weight Update =0
+22:20:59.642,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+22:20:59.699,INFO,Unity,maxJumpVelocity20
+22:21:00.395,INFO,Unity,maxJumpVelocity20
+22:21:01.030,INFO,Unity,maxJumpVelocity20
+22:21:01.237,INFO,Unity,벽 점프
+22:21:01.843,INFO,Unity,maxJumpVelocity20
+22:21:03.300,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+22:21:03.314,INFO,Unity,maxJumpVelocity20
+22:21:03.817,INFO,Unity,벽 점프
+22:21:04.238,INFO,Unity,벽 점프
+22:21:04.334,WARNING,Unity,Internal: JobTempAlloc has allocations that are more than the maximum lifespan of 4 frames old - this is not allowed and likely a leak
+22:21:04.334,WARNING,Unity,"To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations."
+22:21:04.522,WARNING,Unity,Internal: JobTempAlloc has allocations that are more than the maximum lifespan of 4 frames old - this is not allowed and likely a leak
+22:21:04.523,WARNING,Unity,"To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations."
+22:21:04.585,WARNING,Unity,Internal: JobTempAlloc has allocations that are more than the maximum lifespan of 4 frames old - this is not allowed and likely a leak
+22:21:04.585,WARNING,Unity,"To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations."
+22:21:04.970,DEBUG,PlayerCarrying,집기 조작Box (UnityEngine.BoxCollider2D)
+22:21:04.970,INFO,Unity,_focus is null
+22:21:04.970,INFO,Unity,Weight Update =0
+22:21:04.971,INFO,Unity,Weight Update2 =10
+22:21:05.461,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+22:21:06.757,INFO,Unity,maxJumpVelocity19.23077
+22:21:08.593,INFO,Unity,maxJumpVelocity19.23077
+22:21:08.641,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+22:21:10.382,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+22:21:11.002,INFO,Unity,Weight Update =0
+22:21:11.501,INFO,Unity,maxJumpVelocity20
+22:21:12.119,INFO,Unity,maxJumpVelocity20
+22:21:13.032,INFO,Unity,사다리 코요테 점프
+22:21:13.201,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+22:21:13.773,INFO,Unity,maxJumpVelocity20
+22:21:14.359,INFO,Unity,maxJumpVelocity20
+22:21:15.025,INFO,Unity,maxJumpVelocity20
+22:21:15.704,INFO,Unity,maxJumpVelocity20
+22:21:15.881,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+22:21:16.339,INFO,Unity,maxJumpVelocity20
+22:21:17.681,INFO,Unity,사다리 점프
+22:21:17.722,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 17
+22:21:18.667,INFO,Unity,maxJumpVelocity20
+22:21:19.191,INFO,Unity,사다리 코요테 점프
+22:21:20.108,INFO,Unity,사다리 점프
+22:21:20.849,INFO,Unity,maxJumpVelocity20
+22:21:21.742,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 17
+22:21:21.920,INFO,Unity,maxJumpVelocity20
+22:21:22.555,INFO,Unity,maxJumpVelocity20
+22:21:23.645,INFO,Unity,maxJumpVelocity20
+22:21:24.242,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 16
+22:21:24.913,INFO,Unity,maxJumpVelocity20
+22:21:25.978,INFO,Unity,maxJumpVelocity20
+22:21:26.790,INFO,Unity,maxJumpVelocity20
+22:21:27.960,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 17
+22:21:28.250,INFO,Unity,maxJumpVelocity20
+22:21:28.880,INFO,Unity,벽 점프
+22:21:29.398,INFO,Unity,벽 점프
+22:21:29.873,INFO,Unity,벽 점프
+22:21:30.081,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 17
+22:21:31.124,INFO,Unity,maxJumpVelocity20
+22:21:31.361,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 16
+22:21:31.930,DEBUG,PlayerCarrying,집기 조작PiggyBank (UnityEngine.BoxCollider2D)
+22:21:31.931,INFO,Unity,_focus is null
+22:21:31.931,INFO,Unity,Weight Update =0
+22:21:31.931,INFO,Unity,Weight Update2 =10
+22:21:31.937,INFO,Unity,indexChamge
+22:21:31.937,INFO,Unity,짐 1충돌
+22:21:31.937,DEBUG,CarryablePiggyBank,"충돌로 인해 짐 떨어뜨림. Fall떨어트린 위치 : (34.51, 21.06, 0.00)"
+22:21:31.937,INFO,Unity,Weight Update =0
+22:21:33.032,DEBUG,PlayerCarrying,집기 조작PiggyBank (UnityEngine.BoxCollider2D)
+22:21:33.032,INFO,Unity,_focus is null
+22:21:33.033,INFO,Unity,Weight Update =0
+22:21:33.033,INFO,Unity,Weight Update2 =10
+22:21:33.038,INFO,Unity,indexChamge
+22:21:33.038,INFO,Unity,짐 1충돌
+22:21:33.038,DEBUG,CarryablePiggyBank,"충돌로 인해 짐 떨어뜨림. Fall떨어트린 위치 : (34.51, 20.46, 0.00)"
+22:21:33.038,INFO,Unity,Weight Update =0
+22:21:33.366,INFO,Unity,maxJumpVelocity20
+22:21:33.591,INFO,Unity,Weight Update =0
+22:21:34.947,DEBUG,PlayerCarrying,집기 조작PiggyBank (UnityEngine.BoxCollider2D)
+22:21:34.948,INFO,Unity,_focus is null
+22:21:34.948,INFO,Unity,Weight Update =0
+22:21:34.948,INFO,Unity,Weight Update2 =10
+22:21:34.977,INFO,Unity,indexChamge
+22:21:34.977,INFO,Unity,짐 1충돌
+22:21:34.978,DEBUG,CarryablePiggyBank,"충돌로 인해 짐 떨어뜨림. Fall떨어트린 위치 : (34.51, 20.46, 0.00)"
+22:21:34.978,INFO,Unity,Weight Update =0
+22:21:35.557,INFO,Unity,maxJumpVelocity20
+22:21:36.361,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 16
+22:21:36.532,INFO,Unity,maxJumpVelocity20
+22:21:37.339,DEBUG,PlayerCarrying,집기 조작PiggyBank (UnityEngine.BoxCollider2D)
+22:21:37.339,INFO,Unity,_focus is null
+22:21:37.340,INFO,Unity,Weight Update =0
+22:21:37.340,INFO,Unity,Weight Update2 =10
+22:21:37.918,INFO,Unity,Weight Update =0
+22:21:38.161,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 16
+22:21:38.393,DEBUG,PlayerCarrying,집기 조작PiggyBank (UnityEngine.BoxCollider2D)
+22:21:38.395,INFO,Unity,_focus is null
+22:21:38.396,INFO,Unity,Weight Update =0
+22:21:38.396,INFO,Unity,Weight Update2 =10
+22:21:38.995,INFO,Unity,maxJumpVelocity19.23077
+22:21:39.425,INFO,Unity,Weight Update =0
+22:21:41.112,DEBUG,PlayerCarrying,집기 조작Coin(Clone) (UnityEngine.BoxCollider2D)
+22:21:41.114,DEBUG,PlayerCarrying,집기 조작Coin(Clone) (UnityEngine.BoxCollider2D)
+22:21:41.114,INFO,Unity,_focus is null
+22:21:41.115,INFO,Unity,Weight Update =0
+22:21:41.115,INFO,Unity,Weight Update2 =1
+22:21:43.062,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 17
+22:21:44.922,INFO,Unity,Weight Update =0
+22:21:45.807,DEBUG,PlayerCarrying,집기 조작Coin(Clone) (UnityEngine.BoxCollider2D)
+22:21:45.807,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:21:45.809,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:21:45.809,INFO,Unity,_focus is null
+22:21:45.810,INFO,Unity,Weight Update =0
+22:21:45.810,INFO,Unity,Weight Update2 =1
+22:21:46.224,INFO,Unity,Weight Update =0
+22:21:46.851,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:21:46.851,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:21:46.852,DEBUG,PlayerCarrying,집기 조작Coin(Clone) (UnityEngine.BoxCollider2D)
+22:21:46.852,INFO,Unity,_focus is null
+22:21:46.853,INFO,Unity,Weight Update =0
+22:21:46.853,INFO,Unity,Weight Update2 =1
+22:21:47.062,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 17
+22:21:47.698,INFO,Unity,Weight Update =0
+22:21:48.737,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:21:48.737,DEBUG,PlayerCarrying,집기 조작Coin(Clone) (UnityEngine.BoxCollider2D)
+22:21:48.738,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:21:48.738,INFO,Unity,_focus is null
+22:21:48.739,INFO,Unity,Weight Update =0
+22:21:48.739,INFO,Unity,Weight Update2 =1
+22:21:49.063,INFO,Unity,Weight Update =0
+22:21:49.648,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:21:49.649,DEBUG,PlayerCarrying,집기 조작Coin(Clone) (UnityEngine.BoxCollider2D)
+22:21:49.649,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:21:49.650,INFO,Unity,_focus is null
+22:21:49.650,INFO,Unity,Weight Update =0
+22:21:49.650,INFO,Unity,Weight Update2 =1
+22:21:50.033,INFO,Unity,maxJumpVelocity19.92032
+22:21:50.741,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 17
+22:21:51.359,INFO,Unity,Weight Update =0
+22:21:52.177,INFO,Unity,maxJumpVelocity20
+22:21:52.660,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 16
+22:21:53.428,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:21:53.429,DEBUG,PlayerCarrying,집기 조작Coin(Clone) (UnityEngine.BoxCollider2D)
+22:21:53.429,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:21:53.430,INFO,Unity,_focus is null
+22:21:53.430,INFO,Unity,Weight Update =0
+22:21:53.431,INFO,Unity,Weight Update2 =10
+22:21:54.743,INFO,Unity,Weight Update =0
+22:21:55.407,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:21:55.408,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:21:55.408,INFO,Unity,_focus is null
+22:21:55.408,INFO,Unity,Weight Update =0
+22:21:55.410,INFO,Unity,Weight Update2 =10
+22:21:55.855,INFO,Unity,Weight Update =0
+22:21:56.317,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:21:56.318,DEBUG,PlayerCarrying,집기 조작Coin(Clone) (UnityEngine.BoxCollider2D)
+22:21:56.319,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:21:56.319,INFO,Unity,_focus is null
+22:21:56.319,INFO,Unity,Weight Update =0
+22:21:56.320,INFO,Unity,Weight Update2 =10
+22:21:56.694,INFO,Unity,Weight Update =0
+22:21:56.942,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 17
+22:21:57.023,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:21:57.024,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:21:57.025,DEBUG,PlayerCarrying,집기 조작Coin(Clone) (UnityEngine.BoxCollider2D)
+22:21:57.026,INFO,Unity,_focus is null
+22:21:57.026,INFO,Unity,Weight Update =0
+22:21:57.027,INFO,Unity,Weight Update2 =10
+22:21:57.547,INFO,Unity,Weight Update =0
+22:21:57.820,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:21:57.822,DEBUG,PlayerCarrying,집기 조작Coin(Clone) (UnityEngine.BoxCollider2D)
+22:21:57.823,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:21:57.823,INFO,Unity,_focus is null
+22:21:57.823,INFO,Unity,Weight Update =0
+22:21:57.824,INFO,Unity,Weight Update2 =10
+22:21:58.022,INFO,Unity,Weight Update =0
+22:21:58.376,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:21:58.376,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:21:58.377,DEBUG,PlayerCarrying,집기 조작Coin(Clone) (UnityEngine.BoxCollider2D)
+22:21:58.378,INFO,Unity,_focus is null
+22:21:58.378,INFO,Unity,Weight Update =0
+22:21:58.379,INFO,Unity,Weight Update2 =10
+22:21:58.767,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:21:58.767,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:21:58.768,DEBUG,PlayerCarrying,집기 조작Coin(Clone) (UnityEngine.BoxCollider2D)
+22:21:58.768,INFO,Unity,_focus is null
+22:21:58.768,INFO,Unity,Weight Update =0
+22:21:58.769,INFO,Unity,Weight Update2 =11
+22:21:59.507,INFO,Unity,Weight Update =0
+22:21:59.508,INFO,Unity,Weight Update2 =10
+22:21:59.759,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 16
+22:22:01.144,INFO,Unity,maxJumpVelocity19.23077
+22:22:01.237,INFO,Unity,Weight Update =0
+22:22:02.177,INFO,Unity,maxJumpVelocity20
+22:22:03.659,INFO,Unity,maxJumpVelocity20
+22:22:04.220,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 17
+22:22:04.477,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:22:04.477,DEBUG,PlayerCarrying,집기 조작Coin(Clone) (UnityEngine.BoxCollider2D)
+22:22:04.478,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:22:04.478,INFO,Unity,_focus is null
+22:22:04.479,INFO,Unity,Weight Update =0
+22:22:04.479,INFO,Unity,Weight Update2 =1
+22:22:05.049,INFO,Unity,maxJumpVelocity19.92032
+22:22:05.474,INFO,Unity,Weight Update =0
+22:22:06.074,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:22:06.075,DEBUG,PlayerCarrying,집기 조작Coin(Clone) (UnityEngine.BoxCollider2D)
+22:22:06.075,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:22:06.076,INFO,Unity,_focus is null
+22:22:06.077,INFO,Unity,Weight Update =0
+22:22:06.077,INFO,Unity,Weight Update2 =1
+22:22:06.388,INFO,Unity,maxJumpVelocity19.92032
+22:22:06.856,INFO,Unity,Weight Update =0
+22:22:07.512,DEBUG,PlayerCarrying,집기 조작Coin(Clone) (UnityEngine.BoxCollider2D)
+22:22:07.512,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:22:07.513,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:22:07.513,INFO,Unity,_focus is null
+22:22:07.513,INFO,Unity,Weight Update =0
+22:22:07.515,INFO,Unity,Weight Update2 =1
+22:22:07.766,INFO,Unity,maxJumpVelocity19.92032
+22:22:08.318,INFO,Unity,Weight Update =0
+22:22:08.842,INFO,Unity,maxJumpVelocity20
+22:22:08.920,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+22:22:09.528,DEBUG,PlayerCarrying,집기 조작Coin(Clone) (UnityEngine.BoxCollider2D)
+22:22:09.529,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:22:09.529,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:22:09.531,INFO,Unity,_focus is null
+22:22:09.531,INFO,Unity,Weight Update =0
+22:22:09.532,INFO,Unity,Weight Update2 =1
+22:22:10.387,INFO,Unity,Weight Update =0
+22:22:11.495,INFO,Unity,maxJumpVelocity20
+22:22:11.521,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 17
+22:22:13.275,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:22:13.275,DEBUG,PlayerCarrying,집기 조작Coin(Clone) (UnityEngine.BoxCollider2D)
+22:22:13.276,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:22:13.277,INFO,Unity,_focus is null
+22:22:13.277,INFO,Unity,Weight Update =0
+22:22:13.277,INFO,Unity,Weight Update2 =10
+22:22:14.212,INFO,Unity,maxJumpVelocity19.23077
+22:22:14.313,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:22:14.313,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:22:15.302,INFO,Unity,사다리 코요테 점프
+22:22:15.860,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 17
+22:22:16.126,INFO,Unity,maxJumpVelocity19.23077
+22:22:17.644,INFO,Unity,maxJumpVelocity19.23077
+22:22:17.717,INFO,Unity,Weight Update =0
+22:22:18.624,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:22:18.624,DEBUG,PlayerCarrying,집기 조작샴푸 (UnityEngine.BoxCollider2D)
+22:22:18.625,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:22:18.625,INFO,Unity,_focus is null
+22:22:18.626,INFO,Unity,Weight Update =0
+22:22:18.626,INFO,Unity,Weight Update2 =10
+22:22:18.962,INFO,Unity,maxJumpVelocity19.23077
+22:22:19.037,INFO,Unity,Weight Update =0
+22:22:20.659,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+22:22:20.729,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:22:20.729,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:22:20.730,INFO,Unity,_focus is null
+22:22:20.730,INFO,Unity,Weight Update =0
+22:22:20.731,INFO,Unity,Weight Update2 =10
+22:22:20.731,DEBUG,BathController,이미 물 차는 중
+22:22:21.050,INFO,Unity,maxJumpVelocity19.23077
+22:22:21.147,INFO,Unity,Weight Update =0
+22:22:21.820,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:22:21.820,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:22:21.822,INFO,Unity,_focus is null
+22:22:21.822,INFO,Unity,Weight Update =0
+22:22:21.823,INFO,Unity,Weight Update2 =10
+22:22:21.823,DEBUG,BathController,이미 물 차는 중
+22:22:22.049,INFO,Unity,maxJumpVelocity19.23077
+22:22:22.107,INFO,Unity,Weight Update =0
+22:22:22.676,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:22:22.677,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:22:22.677,INFO,Unity,_focus is null
+22:22:22.677,INFO,Unity,Weight Update =0
+22:22:22.678,INFO,Unity,Weight Update2 =10
+22:22:22.678,DEBUG,BathController,이미 물 차는 중
+22:22:24.142,INFO,Unity,maxJumpVelocity19.23077
+22:22:24.892,INFO,Unity,Weight Update =0
+22:22:24.920,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+22:22:25.638,DEBUG,PlayerCarrying,집기 조작샴푸 (UnityEngine.BoxCollider2D)
+22:22:25.640,INFO,Unity,_focus is null
+22:22:25.640,INFO,Unity,Weight Update =0
+22:22:25.640,INFO,Unity,Weight Update2 =1
+22:22:25.641,DEBUG,BathController,이미 물 차는 중
+22:22:26.957,INFO,Unity,maxJumpVelocity19.92032
+22:22:27.000,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 17
+22:22:27.038,INFO,Unity,Weight Update =0
+22:22:27.058,DEBUG,ShowerMimic,재료 배치 완료: Shampoo
+22:22:27.058,DEBUG,ShowerMimic,조합 완료! 결과 생성 절차를 시작합니다...
+22:22:28.209,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:22:28.211,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:22:28.212,INFO,Unity,_focus is null
+22:22:28.212,INFO,Unity,Weight Update =0
+22:22:28.212,INFO,Unity,Weight Update2 =10
+22:22:29.899,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 17
+22:22:29.909,INFO,Unity,maxJumpVelocity19.23077
+22:22:31.808,INFO,Unity,Weight Update =0
+22:22:32.504,INFO,Unity,Weight Update =0
+22:22:33.020,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+22:22:33.740,INFO,Unity,maxJumpVelocity20
+22:22:34.679,INFO,Unity,사다리 점프
+22:22:36.062,INFO,Unity,사다리 점프
+22:22:36.721,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+22:22:37.173,INFO,Unity,사다리 점프
+22:22:38.846,INFO,Unity,maxJumpVelocity20
+22:22:39.699,INFO,Unity,사다리 점프
+22:22:40.621,INFO,Unity,사다리 코요테 점프
+22:22:40.882,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+22:22:41.265,DEBUG,PlayerCarrying,집기 조작Box (UnityEngine.BoxCollider2D)
+22:22:41.265,INFO,Unity,_focus is null
+22:22:41.266,INFO,Unity,Weight Update =0
+22:22:41.266,INFO,Unity,Weight Update2 =10
+22:22:42.239,INFO,Unity,indexChamge
+22:22:42.239,INFO,Unity,짐 1충돌
+22:22:42.240,DEBUG,Carryable,"충돌로 인해 짐 떨어뜨림. Fall떨어트린 위치 : (26.04, 20.38, 0.00)"
+22:22:42.240,INFO,Unity,Weight Update =0
+22:22:42.622,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 17
+22:22:43.417,DEBUG,PlayerCarrying,집기 조작Box (UnityEngine.BoxCollider2D)
+22:22:43.418,INFO,Unity,_focus is null
+22:22:43.419,INFO,Unity,Weight Update =0
+22:22:43.419,INFO,Unity,Weight Update2 =10
+22:22:44.122,INFO,Unity,maxJumpVelocity19.23077
+22:22:45.960,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 17
+22:22:47.866,INFO,Unity,maxJumpVelocity19.23077
+22:22:48.038,INFO,Unity,indexChamge
+22:22:48.039,INFO,Unity,짐 1충돌
+22:22:48.039,DEBUG,Carryable,"충돌로 인해 짐 떨어뜨림. Fall떨어트린 위치 : (28.86, -12.87, 0.00)"
+22:22:48.039,INFO,Unity,Weight Update =0
+22:22:48.882,INFO,Unity,maxJumpVelocity20
+22:22:49.081,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:22:49.081,DEBUG,PlayerCarrying,집기 조작Box (UnityEngine.BoxCollider2D)
+22:22:49.082,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:22:49.082,INFO,Unity,_focus is null
+22:22:49.082,INFO,Unity,Weight Update =0
+22:22:49.083,INFO,Unity,Weight Update2 =10
+22:22:49.599,INFO,Unity,maxJumpVelocity19.23077
+22:22:50.140,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 17
+22:22:50.659,INFO,Unity,Weight Update =0
+22:22:51.471,INFO,Unity,maxJumpVelocity20
+22:22:52.438,DEBUG,PlayerCarrying,집기 조작Box (UnityEngine.BoxCollider2D)
+22:22:52.439,INFO,Unity,_focus is null
+22:22:52.439,INFO,Unity,Weight Update =0
+22:22:52.440,INFO,Unity,Weight Update2 =10
+22:22:53.498,INFO,Unity,indexChamge
+22:22:53.498,INFO,Unity,짐 1충돌
+22:22:53.498,DEBUG,Carryable,"충돌로 인해 짐 떨어뜨림. Fall떨어트린 위치 : (26.05, -16.28, 0.00)"
+22:22:53.499,INFO,Unity,Weight Update =0
+22:22:53.734,INFO,Unity,maxJumpVelocity20
+22:22:54.202,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+22:22:55.393,INFO,Unity,maxJumpVelocity20
+22:22:55.621,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+22:22:57.521,DEBUG,PlayerCarrying,집기 조작Box (UnityEngine.BoxCollider2D)
+22:22:57.521,INFO,Unity,_focus is null
+22:22:57.522,INFO,Unity,Weight Update =0
+22:22:57.523,INFO,Unity,Weight Update2 =10
+22:22:58.368,DEBUG,PlayerCarrying,집기 조작Box (UnityEngine.BoxCollider2D)
+22:22:59.529,DEBUG,PlayerCarrying,집기 조작Box (UnityEngine.BoxCollider2D)
+22:22:59.780,INFO,Unity,Weight Update =0
+22:23:00.222,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+22:23:00.345,DEBUG,PlayerCarrying,집기 조작Box (UnityEngine.BoxCollider2D)
+22:23:00.345,INFO,Unity,_focus is null
+22:23:00.346,INFO,Unity,Weight Update =0
+22:23:00.346,INFO,Unity,Weight Update2 =10
+22:23:01.051,INFO,Unity,maxJumpVelocity19.23077
+22:23:01.178,INFO,Unity,Weight Update =0
+22:23:03.634,INFO,Unity,maxJumpVelocity20
+22:23:04.162,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+22:23:05.580,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+22:23:05.604,DEBUG,PlayerCarrying,집기 조작Box (UnityEngine.BoxCollider2D)
+22:23:05.605,INFO,Unity,_focus is null
+22:23:05.605,INFO,Unity,Weight Update =0
+22:23:05.607,INFO,Unity,Weight Update2 =10
+22:23:06.670,INFO,Unity,maxJumpVelocity19.23077
+22:23:06.794,DEBUG,PlayerCarrying,집기 조작Box (UnityEngine.BoxCollider2D)
+22:23:07.697,INFO,Unity,Weight Update =0
+22:23:08.305,INFO,Unity,maxJumpVelocity20
+22:23:08.822,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+22:23:08.919,INFO,Unity,maxJumpVelocity20
+22:23:09.945,INFO,Unity,사다리 코요테 점프
+22:23:10.589,INFO,Unity,maxJumpVelocity20
+22:23:11.308,INFO,Unity,maxJumpVelocity20
+22:23:12.261,INFO,Unity,maxJumpVelocity20
+22:23:13.541,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+22:23:14.539,INFO,Unity,사다리 코요테 점프
+22:23:15.187,INFO,Unity,사다리 점프
+22:23:16.018,INFO,Unity,사다리 점프
+22:23:16.123,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+22:23:16.734,INFO,Unity,maxJumpVelocity20
+22:23:17.695,INFO,Unity,maxJumpVelocity20
+22:23:18.303,INFO,Unity,사다리 점프
+22:23:19.244,INFO,Unity,maxJumpVelocity20
+22:23:19.581,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+22:23:19.799,INFO,Unity,maxJumpVelocity20
+22:23:23.539,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+22:23:24.864,INFO,Unity,사다리 코요테 점프
+22:23:25.415,INFO,Unity,Weight Update =0
+22:23:25.939,INFO,Unity,Weight Update =0
+22:23:26.201,DEBUG,PlayerCarrying,집기 조작Tomato (1) (UnityEngine.BoxCollider2D)
+22:23:26.201,DEBUG,PlayerCarrying,집기 조작Tomato (2) (UnityEngine.BoxCollider2D)
+22:23:26.201,DEBUG,PlayerCarrying,집기 조작Tomato (UnityEngine.BoxCollider2D)
+22:23:26.202,INFO,Unity,_focus is null
+22:23:26.202,INFO,Unity,Weight Update =0
+22:23:26.203,INFO,Unity,Weight Update2 =1
+22:23:26.608,DEBUG,PlayerCarrying,집기 조작Tomato (1) (UnityEngine.BoxCollider2D)
+22:23:26.609,DEBUG,PlayerCarrying,집기 조작Tomato (2) (UnityEngine.BoxCollider2D)
+22:23:26.609,DEBUG,PlayerCarrying,집기 조작Tomato (UnityEngine.BoxCollider2D)
+22:23:26.610,INFO,Unity,_focus is null
+22:23:26.610,INFO,Unity,Weight Update =0
+22:23:26.611,INFO,Unity,Weight Update2 =2
+22:23:27.237,INFO,Unity,maxJumpVelocity19.84127
+22:23:27.725,INFO,Unity,Weight Update =0
+22:23:27.726,INFO,Unity,Weight Update2 =1
+22:23:28.020,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+22:23:28.290,INFO,Unity,maxJumpVelocity19.92032
+22:23:28.828,INFO,Unity,Weight Update =0
+22:23:30.900,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+22:23:32.583,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+22:23:35.019,INFO,Unity,maxJumpVelocity20
+22:23:36.302,INFO,Unity,사다리 점프
+22:23:36.620,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+22:23:37.009,INFO,Unity,maxJumpVelocity20
+22:23:37.798,INFO,Unity,사다리 점프
+22:23:38.560,INFO,Unity,maxJumpVelocity20
+22:23:39.294,INFO,Unity,사다리 코요테 점프
+22:23:40.142,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+22:23:40.291,INFO,Unity,maxJumpVelocity20
+22:23:41.574,INFO,Unity,사다리 코요테 점프
+22:23:42.301,INFO,Unity,maxJumpVelocity20
+22:23:42.948,INFO,Unity,maxJumpVelocity20
+22:23:44.441,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+22:23:44.739,INFO,Unity,maxJumpVelocity20
+22:23:46.561,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+22:23:46.759,INFO,Unity,maxJumpVelocity20
+22:23:47.384,INFO,Unity,사다리 코요테 점프
+22:23:48.408,INFO,Unity,maxJumpVelocity20
+22:23:50.440,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+22:23:52.565,INFO,Unity,maxJumpVelocity20
+22:23:53.341,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+22:23:53.533,INFO,Unity,maxJumpVelocity20
+22:23:54.243,INFO,Unity,사다리 점프
+22:23:54.580,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+22:23:54.746,DEBUG,PlayerCarrying,집기 조작Tomato (UnityEngine.BoxCollider2D)
+22:23:54.747,DEBUG,PlayerCarrying,집기 조작Tomato (2) (UnityEngine.BoxCollider2D)
+22:23:54.747,DEBUG,PlayerCarrying,집기 조작Tomato (1) (UnityEngine.BoxCollider2D)
+22:23:54.747,INFO,Unity,_focus is null
+22:23:54.748,INFO,Unity,Weight Update =0
+22:23:54.749,INFO,Unity,Weight Update2 =1
+22:23:55.089,DEBUG,PlayerCarrying,집기 조작Tomato (2) (UnityEngine.BoxCollider2D)
+22:23:55.091,DEBUG,PlayerCarrying,집기 조작Tomato (UnityEngine.BoxCollider2D)
+22:23:55.091,DEBUG,PlayerCarrying,집기 조작Tomato (1) (UnityEngine.BoxCollider2D)
+22:23:55.092,INFO,Unity,_focus is null
+22:23:55.093,INFO,Unity,Weight Update =0
+22:23:55.093,INFO,Unity,Weight Update2 =2
+22:23:55.416,DEBUG,PlayerCarrying,집기 조작Tomato (2) (UnityEngine.BoxCollider2D)
+22:23:55.417,DEBUG,PlayerCarrying,집기 조작Tomato (UnityEngine.BoxCollider2D)
+22:23:55.418,INFO,Unity,_focus is null
+22:23:55.418,INFO,Unity,Weight Update =0
+22:23:55.418,INFO,Unity,Weight Update2 =3
+22:23:56.183,INFO,Unity,Weight Update =0
+22:23:56.183,INFO,Unity,Weight Update2 =2
+22:23:56.505,INFO,Unity,Weight Update =0
+22:23:56.506,INFO,Unity,Weight Update2 =1
+22:23:56.785,INFO,Unity,Weight Update =0
+22:23:58.117,INFO,Unity,maxJumpVelocity20
+22:23:58.161,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+22:23:59.660,INFO,Unity,maxJumpVelocity20
+22:24:00.458,INFO,Unity,maxJumpVelocity20
+22:24:01.780,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+22:24:02.834,INFO,Unity,maxJumpVelocity20
+22:24:04.460,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+22:24:07.801,INFO,Unity,maxJumpVelocity20
+22:24:07.901,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+22:24:08.596,INFO,Unity,maxJumpVelocity20
+22:24:08.788,DEBUG,PlayerCarrying,집기 조작냄비 (1) (UnityEngine.BoxCollider2D)
+22:24:08.789,INFO,Unity,_focus is null
+22:24:08.791,INFO,Unity,Weight Update =0
+22:24:08.791,INFO,Unity,Weight Update2 =1
+22:24:09.979,INFO,Unity,maxJumpVelocity19.92032
+22:24:10.742,INFO,Unity,사다리 점프
+22:24:11.517,INFO,Unity,maxJumpVelocity19.92032
+22:24:11.601,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+22:24:12.691,INFO,Unity,사다리 코요테 점프
+22:24:13.462,INFO,Unity,maxJumpVelocity19.92032
+22:24:14.468,INFO,Unity,사다리 점프
+22:24:14.992,WARNING,Unity,Internal: JobTempAlloc has allocations that are more than the maximum lifespan of 4 frames old - this is not allowed and likely a leak
+22:24:14.993,WARNING,Unity,"To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations."
+22:24:15.002,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+22:24:15.323,INFO,Unity,Weight Update =0
+22:24:15.908,DEBUG,PlayerCarrying,집기 조작냄비 (1) (UnityEngine.BoxCollider2D)
+22:24:15.908,INFO,Unity,_focus is null
+22:24:15.909,INFO,Unity,Weight Update =0
+22:24:15.909,INFO,Unity,Weight Update2 =1
+22:24:16.961,INFO,Unity,Weight Update =0
+22:24:17.602,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+22:24:18.490,DEBUG,PlayerCarrying,집기 조작냄비 (1) (UnityEngine.BoxCollider2D)
+22:24:18.491,INFO,Unity,_focus is null
+22:24:18.491,INFO,Unity,Weight Update =0
+22:24:18.492,INFO,Unity,Weight Update2 =1
+22:24:19.466,INFO,Unity,Weight Update =0
+22:24:19.477,DEBUG,Stove,냄비가 스토브 위에 놓였습니다.
+22:24:19.478,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:24:20.943,DEBUG,PlayerCarrying,집기 조작Tomato (UnityEngine.BoxCollider2D)
+22:24:20.944,DEBUG,PlayerCarrying,집기 조작Tomato (1) (UnityEngine.BoxCollider2D)
+22:24:20.944,DEBUG,PlayerCarrying,집기 조작Tomato (2) (UnityEngine.BoxCollider2D)
+22:24:20.945,INFO,Unity,_focus is null
+22:24:20.945,INFO,Unity,Weight Update =0
+22:24:20.945,INFO,Unity,Weight Update2 =1
+22:24:21.199,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+22:24:22.176,INFO,Unity,maxJumpVelocity19.92032
+22:24:22.271,INFO,Unity,Weight Update =0
+22:24:22.279,DEBUG,Pot,냄비에 토마토 추가됨. 현재: 1개
+22:24:22.279,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:24:23.262,DEBUG,PlayerCarrying,집기 조작Tomato (1) (UnityEngine.BoxCollider2D)
+22:24:23.263,DEBUG,PlayerCarrying,집기 조작Tomato (UnityEngine.BoxCollider2D)
+22:24:23.263,INFO,Unity,_focus is null
+22:24:23.264,INFO,Unity,Weight Update =0
+22:24:23.265,INFO,Unity,Weight Update2 =1
+22:24:23.929,INFO,Unity,maxJumpVelocity19.92032
+22:24:24.034,INFO,Unity,Weight Update =0
+22:24:24.038,DEBUG,Pot,냄비에 토마토 추가됨. 현재: 2개
+22:24:24.039,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:24:24.561,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+22:24:24.762,DEBUG,PlayerCarrying,집기 조작Tomato (UnityEngine.BoxCollider2D)
+22:24:24.764,INFO,Unity,_focus is null
+22:24:24.764,INFO,Unity,Weight Update =0
+22:24:24.765,INFO,Unity,Weight Update2 =1
+22:24:25.465,INFO,Unity,maxJumpVelocity19.92032
+22:24:25.521,INFO,Unity,Weight Update =0
+22:24:26.310,DEBUG,PlayerCarrying,집기 조작Tomato (UnityEngine.BoxCollider2D)
+22:24:26.311,INFO,Unity,_focus is null
+22:24:26.311,INFO,Unity,Weight Update =0
+22:24:26.312,INFO,Unity,Weight Update2 =1
+22:24:27.056,INFO,Unity,maxJumpVelocity19.92032
+22:24:27.182,INFO,Unity,Weight Update =0
+22:24:27.220,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+22:24:27.907,DEBUG,PlayerCarrying,집기 조작Tomato (UnityEngine.BoxCollider2D)
+22:24:27.908,INFO,Unity,_focus is null
+22:24:27.909,INFO,Unity,Weight Update =0
+22:24:27.909,INFO,Unity,Weight Update2 =1
+22:24:28.335,INFO,Unity,maxJumpVelocity19.92032
+22:24:29.935,INFO,Unity,maxJumpVelocity19.92032
+22:24:30.070,INFO,Unity,Weight Update =0
+22:24:30.078,DEBUG,Pot,냄비에 토마토가 가득 찼습니다.
+22:24:31.395,INFO,Unity,maxJumpVelocity20
+22:24:32.140,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+22:24:32.384,INFO,Unity,사다리 코요테 점프
+22:24:35.329,DEBUG,PlayerCarrying,집기 조작Tomato (1) (UnityEngine.BoxCollider2D)
+22:24:35.330,INFO,Unity,_focus is null
+22:24:35.330,INFO,Unity,Weight Update =0
+22:24:35.330,INFO,Unity,Weight Update2 =1
+22:24:35.997,INFO,Unity,maxJumpVelocity19.92032
+22:24:36.440,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+22:24:37.020,WARNING,Unity,Internal: JobTempAlloc has allocations that are more than the maximum lifespan of 4 frames old - this is not allowed and likely a leak
+22:24:37.020,WARNING,Unity,"To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations."
+22:24:37.102,INFO,Unity,사다리 코요테 점프
+22:24:37.712,DEBUG,PlayerCarrying,집기 조작Tomato (1) (UnityEngine.BoxCollider2D)
+22:24:37.713,DEBUG,PlayerCarrying,집기 조작Tomato (UnityEngine.BoxCollider2D)
+22:24:37.713,DEBUG,PlayerCarrying,집기 조작Tomato (2) (UnityEngine.BoxCollider2D)
+22:24:37.714,DEBUG,PlayerCarrying,집기 조작Tomato (UnityEngine.BoxCollider2D)
+22:24:37.715,DEBUG,PlayerCarrying,집기 조작Tomato (1) (UnityEngine.BoxCollider2D)
+22:24:37.715,INFO,Unity,_focus is null
+22:24:37.715,INFO,Unity,Weight Update =0
+22:24:37.716,INFO,Unity,Weight Update2 =2
+22:24:37.996,DEBUG,PlayerCarrying,집기 조작Tomato (UnityEngine.BoxCollider2D)
+22:24:37.997,DEBUG,PlayerCarrying,집기 조작Tomato (1) (UnityEngine.BoxCollider2D)
+22:24:37.998,DEBUG,PlayerCarrying,집기 조작Tomato (1) (UnityEngine.BoxCollider2D)
+22:24:37.998,DEBUG,PlayerCarrying,집기 조작Tomato (2) (UnityEngine.BoxCollider2D)
+22:24:37.998,INFO,Unity,_focus is null
+22:24:37.999,INFO,Unity,Weight Update =0
+22:24:37.999,INFO,Unity,Weight Update2 =3
+22:24:38.287,DEBUG,PlayerCarrying,집기 조작Tomato (UnityEngine.BoxCollider2D)
+22:24:38.287,DEBUG,PlayerCarrying,집기 조작Tomato (1) (UnityEngine.BoxCollider2D)
+22:24:38.288,DEBUG,PlayerCarrying,집기 조작Tomato (1) (UnityEngine.BoxCollider2D)
+22:24:38.288,INFO,Unity,_focus is null
+22:24:38.288,INFO,Unity,Weight Update =0
+22:24:38.289,INFO,Unity,Weight Update2 =4
+22:24:38.798,INFO,Unity,maxJumpVelocity19.68504
+22:24:39.357,INFO,Unity,사다리 점프
+22:24:39.840,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+22:24:40.497,INFO,Unity,maxJumpVelocity19.68504
+22:24:40.758,INFO,Unity,indexChamge
+22:24:40.759,INFO,Unity,짐 4충돌
+22:24:40.759,DEBUG,Carryable,"충돌로 인해 짐 떨어뜨림. Fall떨어트린 위치 : (-21.26, 20.00, 0.00)"
+22:24:40.760,INFO,Unity,Weight Update =0
+22:24:40.760,INFO,Unity,Weight Update2 =3
+22:24:41.954,INFO,Unity,maxJumpVelocity19.76285
+22:24:42.140,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+22:24:44.497,INFO,Unity,maxJumpVelocity19.76285
+22:24:44.561,INFO,Unity,Weight Update =0
+22:24:44.563,INFO,Unity,Weight Update2 =2
+22:24:44.577,DEBUG,Pot,냄비에 토마토가 가득 찼습니다.
+22:24:45.617,INFO,Unity,maxJumpVelocity19.84127
+22:24:45.718,INFO,Unity,Weight Update =0
+22:24:45.720,INFO,Unity,Weight Update2 =1
+22:24:45.738,DEBUG,Pot,냄비에 토마토가 가득 찼습니다.
+22:24:46.039,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+22:24:46.590,INFO,Unity,maxJumpVelocity19.92032
+22:24:46.857,INFO,Unity,Weight Update =0
+22:24:46.878,DEBUG,Pot,냄비에 토마토가 가득 찼습니다.
+22:24:47.760,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+22:24:49.941,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+22:24:51.760,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+22:24:52.341,INFO,Unity,Weight Update =0
+22:24:55.701,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+22:24:57.039,INFO,Unity,maxJumpVelocity20
+22:24:57.340,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+22:24:57.844,INFO,Unity,maxJumpVelocity20
+22:24:58.791,INFO,Unity,maxJumpVelocity20
+22:24:58.921,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+22:25:00.394,INFO,Unity,maxJumpVelocity20
+22:25:01.287,INFO,Unity,사다리 점프
+22:25:01.848,INFO,Unity,벽 점프
+22:25:02.440,INFO,Unity,maxJumpVelocity20
+22:25:02.705,WARNING,Unity,Internal: JobTempAlloc has allocations that are more than the maximum lifespan of 4 frames old - this is not allowed and likely a leak
+22:25:02.705,WARNING,Unity,"To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations."
+22:25:03.221,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+22:25:03.643,INFO,Unity,maxJumpVelocity20
+22:25:04.940,INFO,Unity,사다리 점프
+22:25:05.504,INFO,Unity,사다리 점프
+22:25:06.282,INFO,Unity,사다리 점프
+22:25:06.502,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+22:25:07.167,INFO,Unity,maxJumpVelocity20
+22:25:07.562,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+22:25:08.062,INFO,Unity,사다리 점프
+22:25:08.663,INFO,Unity,maxJumpVelocity20
+22:25:09.197,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+22:25:09.198,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+22:25:09.198,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+22:25:09.199,INFO,Unity,_focus is null
+22:25:09.199,INFO,Unity,Weight Update =0
+22:25:09.200,INFO,Unity,Weight Update2 =2
+22:25:09.493,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+22:25:09.494,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+22:25:09.494,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+22:25:09.494,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+22:25:09.495,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+22:25:09.496,INFO,Unity,_focus is null
+22:25:09.496,INFO,Unity,Weight Update =0
+22:25:09.496,INFO,Unity,Weight Update2 =4
+22:25:09.820,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+22:25:09.900,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+22:25:09.900,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+22:25:09.901,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+22:25:09.901,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+22:25:09.901,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+22:25:09.901,INFO,Unity,_focus is null
+22:25:09.903,INFO,Unity,Weight Update =0
+22:25:09.903,INFO,Unity,Weight Update2 =6
+22:25:10.220,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+22:25:10.221,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+22:25:10.221,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+22:25:10.221,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+22:25:10.221,INFO,Unity,_focus is null
+22:25:10.222,INFO,Unity,Weight Update =0
+22:25:10.222,INFO,Unity,Weight Update2 =8
+22:25:10.520,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+22:25:10.521,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+22:25:10.521,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+22:25:10.522,INFO,Unity,_focus is null
+22:25:10.522,INFO,Unity,Weight Update =0
+22:25:10.523,INFO,Unity,Weight Update2 =10
+22:25:10.813,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+22:25:10.814,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+22:25:10.814,INFO,Unity,_focus is null
+22:25:10.815,INFO,Unity,Weight Update =0
+22:25:10.815,INFO,Unity,Weight Update2 =12
+22:25:13.383,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+22:25:14.477,INFO,Unity,maxJumpVelocity19.08397
+22:25:16.197,INFO,Unity,indexChamge
+22:25:16.197,INFO,Unity,짐 3충돌
+22:25:16.198,DEBUG,Carryable,"충돌로 인해 짐 떨어뜨림. Fall떨어트린 위치 : (-12.54, 13.01, 0.00)"
+22:25:16.198,INFO,Unity,짐 4충돌
+22:25:16.198,DEBUG,Carryable,"충돌로 인해 짐 떨어뜨림. Fall떨어트린 위치 : (-12.54, 13.31, 0.00)"
+22:25:16.198,INFO,Unity,짐 5충돌
+22:25:16.198,DEBUG,Carryable,"충돌로 인해 짐 떨어뜨림. Fall떨어트린 위치 : (-12.54, 13.61, 0.00)"
+22:25:16.200,INFO,Unity,Weight Update =0
+22:25:16.200,INFO,Unity,Weight Update2 =4
+22:25:16.680,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+22:25:17.275,INFO,Unity,maxJumpVelocity19.68504
+22:25:18.598,INFO,Unity,사다리 코요테 점프
+22:25:18.718,INFO,Unity,indexChamge
+22:25:18.718,INFO,Unity,짐 2충돌
+22:25:18.718,DEBUG,Carryable,"충돌로 인해 짐 떨어뜨림. Fall떨어트린 위치 : (-15.00, 12.94, 0.00)"
+22:25:18.719,INFO,Unity,Weight Update =0
+22:25:18.719,INFO,Unity,Weight Update2 =2
+22:25:18.738,INFO,Unity,indexChamge
+22:25:18.738,INFO,Unity,짐 1충돌
+22:25:18.739,DEBUG,Carryable,"충돌로 인해 짐 떨어뜨림. Fall떨어트린 위치 : (-14.90, 12.95, 0.00)"
+22:25:18.739,INFO,Unity,Weight Update =0
+22:25:19.180,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+22:25:19.426,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+22:25:19.427,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+22:25:19.427,INFO,Unity,_focus is null
+22:25:19.427,INFO,Unity,Weight Update =0
+22:25:19.429,INFO,Unity,Weight Update2 =2
+22:25:19.741,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+22:25:19.741,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+22:25:19.742,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+22:25:19.742,INFO,Unity,_focus is null
+22:25:19.742,INFO,Unity,Weight Update =0
+22:25:19.743,INFO,Unity,Weight Update2 =4
+22:25:20.007,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+22:25:20.788,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+22:25:20.790,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+22:25:20.791,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+22:25:20.791,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+22:25:20.792,INFO,Unity,_focus is null
+22:25:20.792,INFO,Unity,Weight Update =0
+22:25:20.792,INFO,Unity,Weight Update2 =6
+22:25:21.285,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+22:25:21.285,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+22:25:21.286,INFO,Unity,_focus is null
+22:25:21.286,INFO,Unity,Weight Update =0
+22:25:21.287,INFO,Unity,Weight Update2 =8
+22:25:22.684,INFO,Unity,maxJumpVelocity19.37984
+22:25:23.698,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+22:25:23.727,INFO,Unity,maxJumpVelocity19.37984
+22:25:24.604,INFO,Unity,사다리 점프
+22:25:25.512,INFO,Unity,Weight Update =0
+22:25:25.512,INFO,Unity,Weight Update2 =6
+22:25:25.517,DEBUG,Stove,장작 추가됨 현재: 1개
+22:25:25.640,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+22:25:25.852,INFO,Unity,Weight Update =0
+22:25:25.854,INFO,Unity,Weight Update2 =4
+22:25:25.858,DEBUG,Stove,장작 추가됨 현재: 2개
+22:25:26.184,INFO,Unity,Weight Update =0
+22:25:26.186,INFO,Unity,Weight Update2 =2
+22:25:26.196,DEBUG,Stove,장작 추가됨 현재: 3개
+22:25:26.550,INFO,Unity,Weight Update =0
+22:25:26.558,DEBUG,Stove,장작 추가됨 현재: 4개
+22:25:26.558,DEBUG,Stove,스토브에 불을 붙였습니다
+22:25:26.559,DEBUG,Pot,요리 성공!
+22:25:26.559,DEBUG,Stove,스토브 초기화 완료!
+22:25:26.560,DEBUG,Pot,냄비 초기화 완료.
+22:25:27.847,INFO,Unity,maxJumpVelocity20
+22:25:28.373,INFO,Unity,Weight Update =0
+22:25:28.809,DEBUG,PlayerCarrying,집기 조작완성된 음식(Clone) (UnityEngine.BoxCollider2D)
+22:25:28.810,INFO,Unity,_focus is null
+22:25:28.811,INFO,Unity,Weight Update =0
+22:25:28.811,INFO,Unity,Weight Update2 =1
+22:25:29.419,INFO,Unity,maxJumpVelocity19.92032
+22:25:30.579,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+22:25:31.251,INFO,Unity,사다리 코요테 점프
+22:25:32.196,INFO,Unity,Weight Update =0
+22:25:33.239,DEBUG,PlayerCarrying,집기 조작완성된 음식(Clone) (UnityEngine.BoxCollider2D)
+22:25:33.240,INFO,Unity,_focus is null
+22:25:33.240,INFO,Unity,Weight Update =0
+22:25:33.240,INFO,Unity,Weight Update2 =1
+22:25:33.571,INFO,Unity,maxJumpVelocity19.92032
+22:25:33.666,INFO,Unity,Weight Update =0
+22:25:33.877,DEBUG,PlacementTable,"완성된 음식(Clone), ���̺��� ����"
+22:25:33.878,DEBUG,PlacementTable,음식 퀘스트 완료
+22:25:35.040,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 21
+22:25:35.525,INFO,Unity,maxJumpVelocity20
+22:25:36.133,INFO,Unity,maxJumpVelocity20
+22:25:36.681,INFO,Unity,maxJumpVelocity20
+22:25:37.233,INFO,Unity,maxJumpVelocity20
+22:25:37.774,INFO,Unity,maxJumpVelocity20
+22:25:38.236,INFO,Unity,maxJumpVelocity20
+22:25:39.042,INFO,Unity,maxJumpVelocity20
+22:25:39.911,INFO,Unity,maxJumpVelocity20
+22:25:39.922,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 24
+22:25:40.799,INFO,Unity,maxJumpVelocity20
+22:25:41.821,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 24
+22:25:42.149,INFO,Unity,maxJumpVelocity20
+22:25:43.140,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 24
+22:25:43.461,INFO,Unity,maxJumpVelocity20
+22:25:45.818,INFO,Unity,maxJumpVelocity20
+22:25:47.163,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 24
+22:25:49.039,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 23
+22:25:49.278,INFO,Unity,벽 점프
+22:25:50.519,INFO,Unity,maxJumpVelocity20
+22:25:51.079,INFO,Unity,사다리 점프
+22:25:51.628,DEBUG,PlayerCarrying,집기 조작Coin(Clone) (UnityEngine.BoxCollider2D)
+22:25:51.629,INFO,Unity,_focus is null
+22:25:51.630,INFO,Unity,Weight Update =0
+22:25:51.630,INFO,Unity,Weight Update2 =1
+22:25:52.118,DEBUG,PlayerCarrying,집기 조작Coin(Clone) (UnityEngine.BoxCollider2D)
+22:25:52.120,DEBUG,PlayerCarrying,집기 조작Coin(Clone) (UnityEngine.BoxCollider2D)
+22:25:52.120,DEBUG,PlayerCarrying,집기 조작Coin(Clone) (UnityEngine.BoxCollider2D)
+22:25:52.120,INFO,Unity,_focus is null
+22:25:52.121,INFO,Unity,Weight Update =0
+22:25:52.122,INFO,Unity,Weight Update2 =2
+22:25:52.417,DEBUG,PlayerCarrying,집기 조작Coin(Clone) (UnityEngine.BoxCollider2D)
+22:25:52.419,DEBUG,PlayerCarrying,집기 조작Coin(Clone) (UnityEngine.BoxCollider2D)
+22:25:52.419,INFO,Unity,_focus is null
+22:25:52.419,INFO,Unity,Weight Update =0
+22:25:52.420,INFO,Unity,Weight Update2 =3
+22:25:52.733,INFO,Unity,maxJumpVelocity19.76285
+22:25:53.619,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 25
+22:25:54.218,WARNING,Unity,Internal: JobTempAlloc has allocations that are more than the maximum lifespan of 4 frames old - this is not allowed and likely a leak
+22:25:54.218,WARNING,Unity,"To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations."
+22:25:54.973,WARNING,Unity,Internal: JobTempAlloc has allocations that are more than the maximum lifespan of 4 frames old - this is not allowed and likely a leak
+22:25:54.973,WARNING,Unity,"To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations."
+22:25:55.300,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 24
+22:25:58.720,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 24
+22:25:59.428,INFO,Unity,maxJumpVelocity19.76285
+22:26:00.740,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 25
+22:26:01.419,INFO,Unity,Weight Update =0
+22:26:01.419,INFO,Unity,Weight Update2 =2
+22:26:02.067,INFO,Unity,Weight Update =0
+22:26:02.068,INFO,Unity,Weight Update2 =1
+22:26:02.078,DEBUG,CarryableMimic,미믹 퀘스트 완료
+22:26:02.687,INFO,Unity,Weight Update =0
+22:26:02.699,DEBUG,CarryableMimic,미믹 퀘스트 완료
+22:26:03.368,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:26:03.369,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:26:03.369,DEBUG,PlayerCarrying,집기 조작Box (UnityEngine.BoxCollider2D)
+22:26:03.370,INFO,Unity,_focus is null
+22:26:03.371,INFO,Unity,Weight Update =0
+22:26:03.371,INFO,Unity,Weight Update2 =10
+22:26:03.382,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 26
+22:26:04.298,INFO,Unity,maxJumpVelocity19.23077
+22:26:04.951,INFO,Unity,maxJumpVelocity19.23077
+22:26:05.771,INFO,Unity,maxJumpVelocity19.23077
+22:26:06.652,INFO,Unity,maxJumpVelocity19.23077
+22:26:07.482,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 26
+22:26:10.763,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 27
+22:26:10.909,INFO,Unity,Trigger Exit with: Wall2
+22:26:10.909,INFO,Unity,Trigger Exit with: Wall2
+22:26:10.909,INFO,Unity,Trigger Exit with: Wall2
+22:26:10.909,INFO,Unity,Trigger Exit with: Wall2
+22:26:10.910,INFO,Unity,Trigger Exit with: Wall2
+22:26:10.910,INFO,Unity,Trigger Exit with: Tomato
+22:26:10.911,INFO,Unity,Trigger Exit with: Tomato
+22:26:10.911,INFO,Unity,Trigger Exit with: Tomato (2)
+22:26:10.912,DEBUG,Stove,냄비가 스토브에서 벗어났습니다.

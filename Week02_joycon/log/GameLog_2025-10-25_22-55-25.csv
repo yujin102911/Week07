@@ -1,0 +1,30 @@
+Timestamp, Level, Source, Message
+22:55:25.800,INFO,GameLogger,=== Game Session Started ===
+22:55:25.975,WARNING,Unity,Minimap: no renderers found for bounds. Check includeLayers.
+22:55:25.989,INFO,Unity,Trigger Entered with: Wall2
+22:55:25.989,INFO,Unity,Trigger Entered with: Wall2
+22:55:25.990,INFO,Unity,Trigger Entered with: Wall2
+22:55:25.990,INFO,Unity,Trigger Entered with: Wall2
+22:55:25.990,INFO,Unity,Trigger Entered with: Wall2
+22:55:29.357,INFO,Unity,maxJumpVelocity20
+22:55:30.561,INFO,Unity,maxJumpVelocity20
+22:55:31.929,INFO,Unity,maxJumpVelocity20
+22:55:32.738,DEBUG,PlayerCarrying,집기 조작Rag (UnityEngine.BoxCollider2D)
+22:55:32.740,INFO,Unity,_focus is null
+22:55:32.740,INFO,Unity,Weight Update =0
+22:55:32.741,INFO,Unity,Weight Update2 =1
+22:55:33.359,INFO,Unity,maxJumpVelocity19.92032
+22:55:36.568,INFO,Unity,maxJumpVelocity19.92032
+22:55:37.462,INFO,Unity,maxJumpVelocity19.92032
+22:55:38.727,INFO,Unity,maxJumpVelocity19.92032
+22:55:39.740,INFO,Unity,maxJumpVelocity19.92032
+22:55:40.463,INFO,Unity,사다리 점프
+22:55:42.783,INFO,Unity,maxJumpVelocity19.92032
+22:55:43.504,WARNING,Unity,Internal: JobTempAlloc has allocations that are more than the maximum lifespan of 4 frames old - this is not allowed and likely a leak
+22:55:43.505,WARNING,Unity,"To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations."
+22:55:46.827,INFO,Unity,maxJumpVelocity19.92032
+22:55:47.606,INFO,Unity,maxJumpVelocity19.92032
+22:55:48.323,INFO,Unity,사다리 점프
+22:55:48.899,INFO,Unity,maxJumpVelocity19.92032
+22:55:49.563,DEBUG,DirtObject,먼지 퀘스트 완료
+22:55:50.733,INFO,Unity,사다리 점프
