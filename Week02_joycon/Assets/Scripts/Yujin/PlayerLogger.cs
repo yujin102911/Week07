@@ -31,9 +31,8 @@ public class PlayerLogger : MonoBehaviour
             string line = $"{System.DateTime.Now:HH:mm:ss.fff},{pos.x},{pos.y},{pos.z}\n";
             File.AppendAllText(positionLogPath, line);
 
-            // 기존 GameLogger에도 같이 찍고 싶다면 ↓ 추가
-            if (GameLogger.Instance != null)
-                GameLogger.Instance.LogDebug(this, $"Player position: {pos}");
+            //if (GameLogger.Instance != null)
+                //GameLogger.Instance.LogDebug(this, $"Player position: {pos}");
 
             yield return new WaitForSeconds(logInterval);
         }
