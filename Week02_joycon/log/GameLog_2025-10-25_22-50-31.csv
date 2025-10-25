@@ -1,0 +1,1535 @@
+Timestamp, Level, Source, Message
+22:50:31.140,INFO,GameLogger,=== Game Session Started ===
+22:50:31.316,WARNING,Unity,Minimap: no renderers found for bounds. Check includeLayers.
+22:50:31.330,INFO,Unity,Trigger Entered with: Wall2
+22:50:31.331,INFO,Unity,Trigger Entered with: Wall2
+22:50:31.331,INFO,Unity,Trigger Entered with: Wall2
+22:50:31.332,INFO,Unity,Trigger Entered with: Wall2
+22:50:31.332,INFO,Unity,Trigger Entered with: Wall2
+22:50:33.019,INFO,Unity,maxJumpVelocity20
+22:50:33.823,INFO,Unity,maxJumpVelocity20
+22:50:34.987,INFO,Unity,사다리 점프
+22:50:36.510,INFO,Unity,사다리 점프
+22:50:37.677,INFO,Unity,maxJumpVelocity20
+22:50:38.810,INFO,Unity,maxJumpVelocity20
+22:50:39.476,INFO,Unity,maxJumpVelocity20
+22:50:39.920,INFO,Unity,벽 점프
+22:50:40.312,INFO,Unity,벽 점프
+22:50:41.016,INFO,Unity,벽 점프
+22:50:41.625,DEBUG,PlayerCarrying,집기 조작Bedding (UnityEngine.BoxCollider2D)
+22:50:41.626,INFO,Unity,_focus is null
+22:50:41.626,INFO,Unity,Weight Update =0
+22:50:41.627,INFO,Unity,Weight Update2 =1
+22:50:43.163,INFO,Unity,maxJumpVelocity19.92032
+22:50:43.879,INFO,Unity,maxJumpVelocity19.92032
+22:50:44.489,INFO,Unity,사다리 점프
+22:50:44.954,INFO,Unity,indexChamge
+22:50:44.955,INFO,Unity,짐 1충돌
+22:50:44.955,DEBUG,Carryable,"충돌로 인해 짐 떨어뜨림. Fall떨어트린 위치 : (26.50, 19.30, 0.00)"
+22:50:44.956,INFO,Unity,Weight Update =0
+22:50:45.036,INFO,Unity,사다리 코요테 점프
+22:50:46.143,DEBUG,PlayerCarrying,집기 조작Bedding (UnityEngine.BoxCollider2D)
+22:50:46.145,INFO,Unity,_focus is null
+22:50:46.145,INFO,Unity,Weight Update =0
+22:50:46.146,INFO,Unity,Weight Update2 =1
+22:50:46.561,INFO,Unity,maxJumpVelocity19.92032
+22:50:47.229,INFO,Unity,사다리 점프
+22:50:47.711,INFO,Unity,사다리 점프
+22:50:48.284,INFO,Unity,Weight Update =0
+22:50:48.634,INFO,Unity,Trigger Entered with: Bedding
+22:50:49.152,INFO,Unity,Trigger Entered with: WateringCan
+22:50:49.212,INFO,Unity,Trigger Entered with: ===Player===
+22:50:49.392,INFO,Unity,Trigger Exit with: WateringCan
+22:50:49.531,INFO,Unity,Trigger Entered with: WateringCan
+22:50:49.748,DEBUG,PlayerCarrying,집기 조작WateringCan (UnityEngine.BoxCollider2D)
+22:50:49.749,INFO,Unity,_focus is null
+22:50:49.749,INFO,Unity,Weight Update =0
+22:50:49.751,INFO,Unity,Weight Update2 =2
+22:50:49.775,INFO,Unity,Trigger Entered with: WateringCan
+22:50:49.776,INFO,Unity,Trigger Exit with: WateringCan
+22:50:49.777,INFO,Unity,Trigger Entered with: Watering
+22:50:49.782,INFO,Unity,Trigger Exit with: Watering
+22:50:49.786,INFO,Unity,No hits detected.
+22:50:49.791,INFO,Unity,No hits detected.
+22:50:49.793,INFO,Unity,No hits detected.
+22:50:49.797,INFO,Unity,No hits detected.
+22:50:49.802,INFO,Unity,No hits detected.
+22:50:49.805,INFO,Unity,No hits detected.
+22:50:49.809,INFO,Unity,No hits detected.
+22:50:49.812,INFO,Unity,No hits detected.
+22:50:49.816,INFO,Unity,No hits detected.
+22:50:49.820,INFO,Unity,No hits detected.
+22:50:49.824,INFO,Unity,No hits detected.
+22:50:49.828,INFO,Unity,No hits detected.
+22:50:49.832,INFO,Unity,No hits detected.
+22:50:49.836,INFO,Unity,No hits detected.
+22:50:49.839,INFO,Unity,No hits detected.
+22:50:49.843,INFO,Unity,No hits detected.
+22:50:49.848,INFO,Unity,No hits detected.
+22:50:49.850,INFO,Unity,No hits detected.
+22:50:49.854,INFO,Unity,No hits detected.
+22:50:49.859,INFO,Unity,No hits detected.
+22:50:49.863,INFO,Unity,No hits detected.
+22:50:49.866,INFO,Unity,No hits detected.
+22:50:49.871,INFO,Unity,No hits detected.
+22:50:49.875,INFO,Unity,No hits detected.
+22:50:49.878,INFO,Unity,No hits detected.
+22:50:49.883,INFO,Unity,No hits detected.
+22:50:49.887,INFO,Unity,No hits detected.
+22:50:49.891,INFO,Unity,No hits detected.
+22:50:49.896,INFO,Unity,No hits detected.
+22:50:49.901,INFO,Unity,No hits detected.
+22:50:49.904,INFO,Unity,No hits detected.
+22:50:49.909,INFO,Unity,No hits detected.
+22:50:49.914,INFO,Unity,No hits detected.
+22:50:49.916,INFO,Unity,No hits detected.
+22:50:49.920,INFO,Unity,No hits detected.
+22:50:49.925,INFO,Unity,No hits detected.
+22:50:49.928,INFO,Unity,No hits detected.
+22:50:49.932,INFO,Unity,No hits detected.
+22:50:49.936,INFO,Unity,No hits detected.
+22:50:49.939,INFO,Unity,No hits detected.
+22:50:49.944,INFO,Unity,No hits detected.
+22:50:49.948,INFO,Unity,No hits detected.
+22:50:49.951,INFO,Unity,No hits detected.
+22:50:49.955,INFO,Unity,No hits detected.
+22:50:49.959,INFO,Unity,No hits detected.
+22:50:49.963,INFO,Unity,No hits detected.
+22:50:49.967,INFO,Unity,No hits detected.
+22:50:49.972,INFO,Unity,No hits detected.
+22:50:49.976,INFO,Unity,No hits detected.
+22:50:49.980,INFO,Unity,No hits detected.
+22:50:49.982,INFO,Unity,No hits detected.
+22:50:49.987,INFO,Unity,No hits detected.
+22:50:49.990,INFO,Unity,No hits detected.
+22:50:49.994,INFO,Unity,No hits detected.
+22:50:49.998,INFO,Unity,No hits detected.
+22:50:50.002,INFO,Unity,No hits detected.
+22:50:50.006,INFO,Unity,No hits detected.
+22:50:50.010,INFO,Unity,No hits detected.
+22:50:50.014,INFO,Unity,No hits detected.
+22:50:50.018,INFO,Unity,No hits detected.
+22:50:50.022,INFO,Unity,No hits detected.
+22:50:50.026,INFO,Unity,No hits detected.
+22:50:50.031,INFO,Unity,No hits detected.
+22:50:50.035,INFO,Unity,No hits detected.
+22:50:50.038,INFO,Unity,No hits detected.
+22:50:50.043,INFO,Unity,No hits detected.
+22:50:50.046,INFO,Unity,No hits detected.
+22:50:50.050,INFO,Unity,No hits detected.
+22:50:50.054,INFO,Unity,No hits detected.
+22:50:50.058,INFO,Unity,No hits detected.
+22:50:50.061,INFO,Unity,No hits detected.
+22:50:50.066,INFO,Unity,No hits detected.
+22:50:50.069,INFO,Unity,No hits detected.
+22:50:50.074,INFO,Unity,No hits detected.
+22:50:50.078,INFO,Unity,No hits detected.
+22:50:50.082,INFO,Unity,No hits detected.
+22:50:50.085,INFO,Unity,No hits detected.
+22:50:50.090,INFO,Unity,No hits detected.
+22:50:50.093,INFO,Unity,No hits detected.
+22:50:50.097,INFO,Unity,No hits detected.
+22:50:50.114,INFO,Unity,Trigger Entered with: Watering
+22:50:50.253,INFO,Unity,Trigger Exit with: WateringCan
+22:50:50.293,INFO,Unity,Trigger Exit with: ===Player===
+22:50:50.298,DEBUG,PlayerCarrying,집기 조작WateringCan (UnityEngine.BoxCollider2D)
+22:50:50.298,DEBUG,PlayerCarrying,집기 조작Bedding (UnityEngine.BoxCollider2D)
+22:50:50.299,INFO,Unity,_focus is null
+22:50:50.299,INFO,Unity,Weight Update =0
+22:50:50.300,INFO,Unity,Weight Update2 =3
+22:50:50.301,INFO,Unity,Trigger Exit with: Bedding
+22:50:50.303,DEBUG,InteractableClothesline,이불 퀘스트 완료
+22:50:50.313,INFO,Unity,Weight Update =0
+22:50:50.314,INFO,Unity,Weight Update2 =2
+22:50:50.952,INFO,Unity,Trigger Entered with: ===Player===
+22:50:50.992,INFO,Unity,Trigger Entered with: Tomato
+22:50:50.992,INFO,Unity,Trigger Entered with: WateringCan
+22:50:51.051,INFO,Unity,Trigger Entered with: Tomato (1)
+22:50:51.132,INFO,Unity,Trigger Entered with: Tomato (2)
+22:50:51.548,INFO,Unity,Trigger Exit with: Watering
+22:50:51.609,INFO,Unity,No hits detected.
+22:50:51.612,INFO,Unity,Trigger Exit with: Tomato
+22:50:51.620,INFO,Unity,No hits detected.
+22:50:51.624,INFO,Unity,No hits detected.
+22:50:51.628,INFO,Unity,No hits detected.
+22:50:51.635,INFO,Unity,No hits detected.
+22:50:51.639,INFO,Unity,No hits detected.
+22:50:51.643,INFO,Unity,No hits detected.
+22:50:51.647,INFO,Unity,No hits detected.
+22:50:51.653,INFO,Unity,Trigger Entered with: Tomato
+22:50:51.654,INFO,Unity,Trigger Exit with: Tomato (2)
+22:50:51.654,INFO,Unity,Trigger Entered with: Watering
+22:50:51.714,INFO,Unity,Trigger Exit with: WateringCan
+22:50:51.714,INFO,Unity,Trigger Entered with: Tomato (2)
+22:50:51.714,INFO,Unity,Trigger Entered with: ===Player===
+22:50:51.733,INFO,Unity,Trigger Exit with: ===Player===
+22:50:51.733,INFO,Unity,Trigger Entered with: WateringCan
+22:50:52.072,INFO,Unity,Trigger Exit with: WateringCan
+22:50:52.073,INFO,Unity,Trigger Entered with: ===Player===
+22:50:52.113,INFO,Unity,Trigger Entered with: WateringCan
+22:50:52.113,INFO,Unity,Trigger Exit with: ===Player===
+22:50:52.177,INFO,Unity,Weight Update =0
+22:50:52.177,INFO,Unity,Trigger Exit with: Watering
+22:50:52.671,INFO,Unity,Trigger Exit with: Tomato (1)
+22:50:52.753,INFO,Unity,Trigger Exit with: WateringCan
+22:50:52.856,DEBUG,PlayerCarrying,집기 조작Tomato (1) (UnityEngine.BoxCollider2D)
+22:50:52.856,DEBUG,PlayerCarrying,집기 조작WateringCan (UnityEngine.BoxCollider2D)
+22:50:52.856,INFO,Unity,_focus is null
+22:50:52.857,INFO,Unity,Weight Update =0
+22:50:52.857,INFO,Unity,Weight Update2 =2
+22:50:52.858,DEBUG,InteractableClothesline,이불 퀘스트 완료
+22:50:52.874,INFO,Unity,Trigger Entered with: Watering
+22:50:52.874,INFO,Unity,Trigger Entered with: WateringCan
+22:50:53.467,INFO,Unity,maxJumpVelocity19.84127
+22:50:53.538,INFO,Unity,Trigger Exit with: Watering
+22:50:53.543,INFO,Unity,No hits detected.
+22:50:53.548,INFO,Unity,No hits detected.
+22:50:53.552,INFO,Unity,Trigger Exit with: WateringCan
+22:50:53.553,INFO,Unity,No hits detected.
+22:50:53.557,INFO,Unity,No hits detected.
+22:50:53.560,INFO,Unity,No hits detected.
+22:50:53.565,INFO,Unity,No hits detected.
+22:50:53.569,INFO,Unity,No hits detected.
+22:50:53.573,INFO,Unity,No hits detected.
+22:50:53.577,INFO,Unity,No hits detected.
+22:50:53.581,INFO,Unity,No hits detected.
+22:50:53.584,INFO,Unity,No hits detected.
+22:50:53.590,INFO,Unity,No hits detected.
+22:50:53.594,INFO,Unity,No hits detected.
+22:50:53.598,INFO,Unity,No hits detected.
+22:50:53.602,INFO,Unity,No hits detected.
+22:50:53.606,INFO,Unity,No hits detected.
+22:50:53.610,INFO,Unity,No hits detected.
+22:50:53.614,INFO,Unity,Trigger Exit with: ===Player===
+22:50:53.615,INFO,Unity,No hits detected.
+22:50:53.618,INFO,Unity,No hits detected.
+22:50:53.622,INFO,Unity,No hits detected.
+22:50:53.626,INFO,Unity,No hits detected.
+22:50:53.630,INFO,Unity,No hits detected.
+22:50:53.633,INFO,Unity,No hits detected.
+22:50:53.638,INFO,Unity,No hits detected.
+22:50:53.642,INFO,Unity,No hits detected.
+22:50:53.646,INFO,Unity,No hits detected.
+22:50:53.650,INFO,Unity,No hits detected.
+22:50:53.655,INFO,Unity,No hits detected.
+22:50:53.658,INFO,Unity,No hits detected.
+22:50:53.663,INFO,Unity,No hits detected.
+22:50:53.667,INFO,Unity,No hits detected.
+22:50:53.670,INFO,Unity,No hits detected.
+22:50:53.675,INFO,Unity,No hits detected.
+22:50:53.679,INFO,Unity,No hits detected.
+22:50:53.683,INFO,Unity,No hits detected.
+22:50:53.687,INFO,Unity,No hits detected.
+22:50:53.690,INFO,Unity,No hits detected.
+22:50:53.694,INFO,Unity,No hits detected.
+22:50:53.698,INFO,Unity,No hits detected.
+22:50:53.702,INFO,Unity,No hits detected.
+22:50:53.706,INFO,Unity,No hits detected.
+22:50:53.710,INFO,Unity,No hits detected.
+22:50:53.714,INFO,Unity,No hits detected.
+22:50:53.718,INFO,Unity,No hits detected.
+22:50:53.721,INFO,Unity,No hits detected.
+22:50:53.726,INFO,Unity,No hits detected.
+22:50:53.730,INFO,Unity,No hits detected.
+22:50:53.733,INFO,Unity,No hits detected.
+22:50:53.737,INFO,Unity,No hits detected.
+22:50:53.741,INFO,Unity,No hits detected.
+22:50:53.745,INFO,Unity,No hits detected.
+22:50:53.749,INFO,Unity,No hits detected.
+22:50:53.753,INFO,Unity,No hits detected.
+22:50:53.756,INFO,Unity,No hits detected.
+22:50:53.761,INFO,Unity,No hits detected.
+22:50:53.765,INFO,Unity,No hits detected.
+22:50:53.769,INFO,Unity,No hits detected.
+22:50:53.773,INFO,Unity,No hits detected.
+22:50:53.777,INFO,Unity,No hits detected.
+22:50:53.781,INFO,Unity,No hits detected.
+22:50:53.785,INFO,Unity,No hits detected.
+22:50:53.788,INFO,Unity,No hits detected.
+22:50:53.792,INFO,Unity,No hits detected.
+22:50:53.797,INFO,Unity,No hits detected.
+22:50:53.801,INFO,Unity,No hits detected.
+22:50:53.805,INFO,Unity,No hits detected.
+22:50:53.808,INFO,Unity,No hits detected.
+22:50:53.813,INFO,Unity,No hits detected.
+22:50:53.819,INFO,Unity,No hits detected.
+22:50:53.823,INFO,Unity,No hits detected.
+22:50:53.826,INFO,Unity,No hits detected.
+22:50:53.830,INFO,Unity,No hits detected.
+22:50:53.834,INFO,Unity,No hits detected.
+22:50:53.838,INFO,Unity,No hits detected.
+22:50:53.842,INFO,Unity,No hits detected.
+22:50:53.846,INFO,Unity,No hits detected.
+22:50:53.851,INFO,Unity,No hits detected.
+22:50:53.855,INFO,Unity,No hits detected.
+22:50:53.859,INFO,Unity,No hits detected.
+22:50:53.864,INFO,Unity,No hits detected.
+22:50:53.868,INFO,Unity,No hits detected.
+22:50:53.871,INFO,Unity,No hits detected.
+22:50:53.877,INFO,Unity,No hits detected.
+22:50:53.881,INFO,Unity,No hits detected.
+22:50:53.884,INFO,Unity,No hits detected.
+22:50:53.888,INFO,Unity,No hits detected.
+22:50:53.891,INFO,Unity,No hits detected.
+22:50:53.896,INFO,Unity,No hits detected.
+22:50:53.899,INFO,Unity,No hits detected.
+22:50:53.904,INFO,Unity,No hits detected.
+22:50:53.907,INFO,Unity,No hits detected.
+22:50:53.912,INFO,Unity,No hits detected.
+22:50:53.915,INFO,Unity,No hits detected.
+22:50:53.919,INFO,Unity,No hits detected.
+22:50:53.923,INFO,Unity,No hits detected.
+22:50:53.927,INFO,Unity,No hits detected.
+22:50:53.932,INFO,Unity,No hits detected.
+22:50:53.935,INFO,Unity,No hits detected.
+22:50:53.939,INFO,Unity,No hits detected.
+22:50:53.943,INFO,Unity,No hits detected.
+22:50:53.948,INFO,Unity,Weight Update =0
+22:50:54.573,DEBUG,PlayerCarrying,집기 조작Tomato (1) (UnityEngine.BoxCollider2D)
+22:50:54.573,INFO,Unity,_focus is null
+22:50:54.574,INFO,Unity,Weight Update =0
+22:50:54.574,INFO,Unity,Weight Update2 =1
+22:50:54.575,DEBUG,InteractableClothesline,이불 퀘스트 완료
+22:50:54.634,INFO,Unity,Trigger Entered with: ===Player===
+22:50:54.654,INFO,Unity,Trigger Entered with: Tomato (1)
+22:50:54.851,INFO,Unity,Trigger Exit with: Tomato (1)
+22:50:54.852,INFO,Unity,Trigger Entered with: ===Player===
+22:50:54.873,INFO,Unity,Trigger Exit with: ===Player===
+22:50:54.874,INFO,Unity,Trigger Entered with: Tomato (1)
+22:50:54.910,DEBUG,PlayerCarrying,집기 조작Tomato (UnityEngine.BoxCollider2D)
+22:50:54.911,DEBUG,PlayerCarrying,집기 조작Tomato (1) (UnityEngine.BoxCollider2D)
+22:50:54.912,DEBUG,PlayerCarrying,집기 조작Tomato (2) (UnityEngine.BoxCollider2D)
+22:50:54.913,INFO,Unity,_focus is null
+22:50:54.913,INFO,Unity,Weight Update =0
+22:50:54.913,INFO,Unity,Weight Update2 =2
+22:50:55.250,DEBUG,PlayerCarrying,집기 조작Tomato (UnityEngine.BoxCollider2D)
+22:50:55.252,DEBUG,PlayerCarrying,집기 조작Tomato (1) (UnityEngine.BoxCollider2D)
+22:50:55.252,INFO,Unity,_focus is null
+22:50:55.253,INFO,Unity,Weight Update =0
+22:50:55.253,INFO,Unity,Weight Update2 =3
+22:50:55.672,INFO,Unity,Trigger Exit with: Tomato
+22:50:55.672,INFO,Unity,Trigger Entered with: ===Player===
+22:50:55.672,INFO,Unity,Trigger Exit with: Tomato (2)
+22:50:55.673,INFO,Unity,Trigger Exit with: Tomato (1)
+22:50:55.713,INFO,Unity,Trigger Exit with: ===Player===
+22:50:55.713,INFO,Unity,Trigger Entered with: Tomato (1)
+22:50:55.713,INFO,Unity,Trigger Entered with: Tomato
+22:50:55.713,INFO,Unity,Trigger Entered with: Tomato (2)
+22:50:55.934,INFO,Unity,Trigger Exit with: Tomato (2)
+22:50:55.935,INFO,Unity,Trigger Entered with: ===Player===
+22:50:55.935,INFO,Unity,Trigger Exit with: Tomato (1)
+22:50:55.935,INFO,Unity,Trigger Exit with: Tomato
+22:50:55.953,INFO,Unity,Trigger Exit with: ===Player===
+22:50:55.953,INFO,Unity,Trigger Entered with: Tomato (1)
+22:50:55.954,INFO,Unity,Trigger Entered with: Tomato
+22:50:55.954,INFO,Unity,Trigger Entered with: Tomato (2)
+22:50:56.173,INFO,Unity,Trigger Exit with: Tomato (1)
+22:50:56.173,INFO,Unity,Trigger Entered with: ===Player===
+22:50:56.173,INFO,Unity,Trigger Exit with: Tomato
+22:50:56.174,INFO,Unity,Trigger Exit with: Tomato (2)
+22:50:56.212,INFO,Unity,Trigger Exit with: ===Player===
+22:50:56.213,INFO,Unity,Trigger Entered with: Tomato (1)
+22:50:56.213,INFO,Unity,Trigger Entered with: Tomato
+22:50:56.213,INFO,Unity,Trigger Entered with: Tomato (2)
+22:50:56.412,INFO,Unity,Trigger Exit with: Tomato (1)
+22:50:56.413,INFO,Unity,Trigger Exit with: Tomato (2)
+22:50:56.413,INFO,Unity,Trigger Exit with: Tomato
+22:50:56.452,INFO,Unity,Trigger Exit with: ===Player===
+22:50:56.567,INFO,Unity,maxJumpVelocity19.76285
+22:50:57.362,INFO,Unity,maxJumpVelocity19.76285
+22:50:57.906,DEBUG,PlayerCarrying,집기 조작Tomato (1) (UnityEngine.BoxCollider2D)
+22:50:57.906,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+22:50:57.907,INFO,Unity,_focus is null
+22:50:57.908,INFO,Unity,Weight Update =0
+22:50:57.908,INFO,Unity,Weight Update2 =7
+22:50:58.350,INFO,Unity,maxJumpVelocity19.45525
+22:50:59.184,INFO,Unity,maxJumpVelocity19.45525
+22:50:59.351,INFO,Unity,nal닿음
+22:50:59.370,INFO,Unity,Trigger닿음
+22:50:59.393,INFO,Unity,Trigger닿음
+22:50:59.411,INFO,Unity,Trigger닿음
+22:50:59.433,INFO,Unity,Trigger닿음
+22:50:59.694,INFO,Unity,Trigger닿음
+22:50:59.694,INFO,Unity,nal닿음
+22:50:59.773,INFO,Unity,nal닿음
+22:50:59.774,INFO,Unity,Trigger닿음
+22:50:59.833,INFO,Unity,Trigger닿음
+22:50:59.833,INFO,Unity,nal닿음
+22:51:00.069,INFO,Unity,maxJumpVelocity19.45525
+22:51:00.154,INFO,Unity,nal닿음
+22:51:00.173,INFO,Unity,Trigger닿음
+22:51:00.173,INFO,Unity,nal닿음
+22:51:00.192,INFO,Unity,Trigger닿음
+22:51:00.193,INFO,Unity,nal닿음
+22:51:00.193,INFO,Unity,Trigger닿음
+22:51:00.213,INFO,Unity,Trigger닿음
+22:51:00.213,INFO,Unity,nal닿음
+22:51:00.452,INFO,Unity,nal닿음
+22:51:00.471,INFO,Unity,nal닿음
+22:51:00.533,INFO,Unity,Trigger닿음
+22:51:00.633,INFO,Unity,nal닿음
+22:51:00.633,INFO,Unity,Trigger닿음
+22:51:00.692,INFO,Unity,nal닿음
+22:51:00.692,INFO,Unity,Trigger닿음
+22:51:00.846,INFO,Unity,maxJumpVelocity19.45525
+22:51:01.731,INFO,Unity,maxJumpVelocity19.45525
+22:51:02.092,INFO,Unity,nal닿음
+22:51:02.193,INFO,Unity,nal닿음
+22:51:02.315,INFO,Unity,nal닿음
+22:51:02.315,INFO,Unity,Trigger닿음
+22:51:02.372,INFO,Unity,Trigger닿음
+22:51:02.373,INFO,Unity,nal닿음
+22:51:02.432,INFO,Unity,nal닿음
+22:51:02.432,INFO,Unity,Trigger닿음
+22:51:02.573,INFO,Unity,indexChamge
+22:51:02.573,INFO,Unity,짐 4충돌
+22:51:02.573,DEBUG,Carryable,"충돌로 인해 짐 떨어뜨림. Fall떨어트린 위치 : (-17.69, 24.37, 0.00)"
+22:51:02.575,INFO,Unity,짐 4충돌
+22:51:02.575,DEBUG,Carryable,"충돌로 인해 짐 떨어뜨림. Fall떨어트린 위치 : (-17.69, 24.37, 0.00)"
+22:51:02.575,INFO,Unity,Weight Update =0
+22:51:02.575,INFO,Unity,Weight Update2 =3
+22:51:02.754,INFO,Unity,maxJumpVelocity19.76285
+22:51:03.632,INFO,Unity,nal닿음
+22:51:03.654,INFO,Unity,Trigger닿음
+22:51:03.920,INFO,Unity,maxJumpVelocity19.76285
+22:51:03.952,INFO,Unity,Trigger닿음
+22:51:03.954,INFO,Unity,nal닿음
+22:51:04.714,DEBUG,PlayerCarrying,집기 조작Tomato (1) (UnityEngine.BoxCollider2D)
+22:51:04.714,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+22:51:04.714,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+22:51:04.715,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+22:51:04.716,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+22:51:04.716,DEBUG,PlayerCarrying,집기 조작Wood (2) (UnityEngine.BoxCollider2D)
+22:51:04.716,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+22:51:04.717,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+22:51:04.717,INFO,Unity,_focus is null
+22:51:04.718,INFO,Unity,Weight Update =0
+22:51:04.718,INFO,Unity,Weight Update2 =5
+22:51:04.892,INFO,Unity,Collider닿음
+22:51:04.914,INFO,Unity,Collider닿음
+22:51:05.156,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+22:51:05.156,DEBUG,PlayerCarrying,집기 조작Tomato (1) (UnityEngine.BoxCollider2D)
+22:51:05.156,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+22:51:05.158,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+22:51:05.158,DEBUG,PlayerCarrying,집기 조작Wood (2) (UnityEngine.BoxCollider2D)
+22:51:05.158,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+22:51:05.158,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+22:51:05.159,INFO,Unity,_focus is null
+22:51:05.160,INFO,Unity,Weight Update =0
+22:51:05.160,INFO,Unity,Weight Update2 =7
+22:51:05.505,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+22:51:05.506,DEBUG,PlayerCarrying,집기 조작Tomato (1) (UnityEngine.BoxCollider2D)
+22:51:05.506,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+22:51:05.507,DEBUG,PlayerCarrying,집기 조작Wood (2) (UnityEngine.BoxCollider2D)
+22:51:05.507,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+22:51:05.508,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+22:51:05.508,INFO,Unity,_focus is null
+22:51:05.508,INFO,Unity,Weight Update =0
+22:51:05.509,INFO,Unity,Weight Update2 =9
+22:51:05.671,INFO,Unity,Collider닿음
+22:51:06.137,DEBUG,PlayerCarrying,집기 조작Wood (2) (UnityEngine.BoxCollider2D)
+22:51:06.138,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+22:51:06.138,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+22:51:06.140,DEBUG,PlayerCarrying,집기 조작Tomato (1) (UnityEngine.BoxCollider2D)
+22:51:06.140,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+22:51:06.140,INFO,Unity,_focus is null
+22:51:06.141,INFO,Unity,Weight Update =0
+22:51:06.141,INFO,Unity,Weight Update2 =13
+22:51:06.153,INFO,Unity,Collider닿음
+22:51:07.004,INFO,Unity,maxJumpVelocity19.01141
+22:51:07.032,INFO,Unity,Collider닿음
+22:51:07.113,INFO,Unity,Collider닿음
+22:51:07.173,INFO,Unity,Collider닿음
+22:51:07.312,INFO,Unity,Weight Update =0
+22:51:07.313,INFO,Unity,Weight Update2 =9
+22:51:08.151,INFO,Unity,Collider닿음
+22:51:08.213,INFO,Unity,Collider닿음
+22:51:08.376,INFO,Unity,maxJumpVelocity19.30502
+22:51:09.290,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+22:51:09.290,DEBUG,PlayerCarrying,집기 조작Wood (16) (UnityEngine.BoxCollider2D)
+22:51:09.291,DEBUG,PlayerCarrying,집기 조작Tomato (1) (UnityEngine.BoxCollider2D)
+22:51:09.292,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+22:51:09.292,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+22:51:09.293,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+22:51:09.293,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+22:51:09.293,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+22:51:09.294,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+22:51:09.294,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+22:51:09.294,INFO,Unity,_focus is null
+22:51:09.295,INFO,Unity,Weight Update =0
+22:51:09.295,INFO,Unity,Weight Update2 =13
+22:51:10.180,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+22:51:10.181,DEBUG,PlayerCarrying,집기 조작Tomato (1) (UnityEngine.BoxCollider2D)
+22:51:10.181,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+22:51:10.181,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+22:51:10.181,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+22:51:10.182,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+22:51:10.182,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+22:51:10.182,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+22:51:10.183,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+22:51:10.183,INFO,Unity,_focus is null
+22:51:10.183,INFO,Unity,Weight Update =0
+22:51:10.184,INFO,Unity,Weight Update2 =15
+22:51:10.601,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+22:51:10.602,DEBUG,PlayerCarrying,집기 조작Tomato (1) (UnityEngine.BoxCollider2D)
+22:51:10.602,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+22:51:10.602,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+22:51:10.603,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+22:51:10.603,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+22:51:10.603,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+22:51:10.603,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+22:51:10.605,INFO,Unity,_focus is null
+22:51:10.605,INFO,Unity,Weight Update =0
+22:51:10.606,INFO,Unity,Weight Update2 =17
+22:51:10.973,INFO,Unity,Collider닿음
+22:51:11.041,INFO,Unity,maxJumpVelocity18.72659
+22:51:11.071,INFO,Unity,Collider닿음
+22:51:11.212,INFO,Unity,Collider닿음
+22:51:11.823,INFO,Unity,maxJumpVelocity18.72659
+22:51:14.475,INFO,Unity,Weight Update =0
+22:51:14.476,INFO,Unity,Weight Update2 =15
+22:51:14.701,INFO,Unity,Weight Update =0
+22:51:14.701,INFO,Unity,Weight Update2 =13
+22:51:15.258,INFO,Unity,Weight Update =0
+22:51:15.259,INFO,Unity,Weight Update2 =9
+22:51:17.119,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+22:51:17.121,DEBUG,PlayerCarrying,집기 조작Tomato (1) (UnityEngine.BoxCollider2D)
+22:51:17.121,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+22:51:17.121,INFO,Unity,_focus is null
+22:51:17.121,INFO,Unity,Weight Update =0
+22:51:17.122,INFO,Unity,Weight Update2 =11
+22:51:17.794,DEBUG,PlayerCarrying,집기 조작Tomato (1) (UnityEngine.BoxCollider2D)
+22:51:17.795,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+22:51:17.796,INFO,Unity,_focus is null
+22:51:17.796,INFO,Unity,Weight Update =0
+22:51:17.796,INFO,Unity,Weight Update2 =13
+22:51:24.930,INFO,Unity,maxJumpVelocity19.01141
+22:51:25.583,INFO,Unity,maxJumpVelocity19.01141
+22:51:26.277,INFO,Unity,사다리 점프
+22:51:26.995,INFO,Unity,Weight Update =0
+22:51:26.996,INFO,Unity,Weight Update2 =11
+22:51:27.013,DEBUG,Stove,���� �߰��� ����: 1��
+22:51:27.222,INFO,Unity,Weight Update =0
+22:51:27.222,INFO,Unity,Weight Update2 =9
+22:51:27.234,DEBUG,Stove,���� �߰��� ����: 2��
+22:51:27.616,INFO,Unity,Weight Update =0
+22:51:27.616,INFO,Unity,Weight Update2 =7
+22:51:27.634,DEBUG,Stove,���� �߰��� ����: 3��
+22:51:27.858,INFO,Unity,Weight Update =0
+22:51:27.858,INFO,Unity,Weight Update2 =5
+22:51:27.872,DEBUG,Stove,���� �߰��� ����: 4��
+22:51:27.874,DEBUG,Stove,����꿡 ���� �ٿ����ϴ�
+22:51:28.068,INFO,Unity,Weight Update =0
+22:51:28.070,INFO,Unity,Weight Update2 =3
+22:51:28.074,DEBUG,Stove,����꿡 �̹� 4���� ������ �ֽ��ϴ�.
+22:51:29.268,INFO,Unity,Weight Update =0
+22:51:29.269,INFO,Unity,Weight Update2 =2
+22:51:29.635,INFO,Unity,Weight Update =0
+22:51:29.636,INFO,Unity,Weight Update2 =1
+22:51:29.841,INFO,Unity,Weight Update =0
+22:51:30.273,INFO,Unity,maxJumpVelocity20
+22:51:31.226,INFO,Unity,사다리 점프
+22:51:31.563,INFO,Unity,벽 점프
+22:51:32.017,INFO,Unity,사다리 점프
+22:51:32.394,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+22:51:33.817,DEBUG,PlayerCarrying,집기 조작Box (UnityEngine.BoxCollider2D)
+22:51:33.819,INFO,Unity,_focus is null
+22:51:33.819,INFO,Unity,Weight Update =0
+22:51:33.820,INFO,Unity,Weight Update2 =10
+22:51:33.831,INFO,Unity,indexChamge
+22:51:33.833,INFO,Unity,짐 1충돌
+22:51:33.833,DEBUG,Carryable,"충돌로 인해 짐 떨어뜨림. Fall떨어트린 위치 : (-45.04, 16.95, 0.00)"
+22:51:33.833,INFO,Unity,Weight Update =0
+22:51:34.693,DEBUG,PlayerCarrying,집기 조작Box (UnityEngine.BoxCollider2D)
+22:51:34.694,INFO,Unity,_focus is null
+22:51:34.694,INFO,Unity,Weight Update =0
+22:51:34.694,INFO,Unity,Weight Update2 =10
+22:51:35.295,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+22:51:36.696,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 17
+22:51:39.955,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 17
+22:51:41.130,INFO,Unity,maxJumpVelocity19.23077
+22:51:41.993,INFO,Unity,indexChamge
+22:51:41.993,INFO,Unity,짐 1충돌
+22:51:41.993,DEBUG,Carryable,"충돌로 인해 짐 떨어뜨림. Fall떨어트린 위치 : (-25.50, -7.06, 0.00)"
+22:51:41.995,INFO,Unity,Weight Update =0
+22:51:42.122,INFO,Unity,벽 점프
+22:51:43.011,DEBUG,PlayerCarrying,집기 조작Box (UnityEngine.BoxCollider2D)
+22:51:43.012,INFO,Unity,_focus is null
+22:51:43.013,INFO,Unity,Weight Update =0
+22:51:43.013,INFO,Unity,Weight Update2 =10
+22:51:43.416,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 17
+22:51:43.512,INFO,Unity,Weight Update =0
+22:51:45.396,INFO,Unity,maxJumpVelocity20
+22:51:45.753,DEBUG,PlayerCarrying,집기 조작냄비 (1) (UnityEngine.BoxCollider2D)
+22:51:45.754,INFO,Unity,_focus is null
+22:51:45.754,INFO,Unity,Weight Update =0
+22:51:45.755,INFO,Unity,Weight Update2 =1
+22:51:47.135,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 17
+22:51:48.371,INFO,Unity,maxJumpVelocity19.92032
+22:51:49.061,INFO,Unity,사다리 점프
+22:51:49.375,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 17
+22:51:50.210,INFO,Unity,maxJumpVelocity19.92032
+22:51:51.343,INFO,Unity,사다리 점프
+22:51:51.932,INFO,Unity,maxJumpVelocity19.92032
+22:51:52.358,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 17
+22:51:52.831,INFO,Unity,사다리 점프
+22:51:54.614,INFO,Unity,maxJumpVelocity19.92032
+22:51:55.364,INFO,Unity,Weight Update =0
+22:51:55.374,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:51:55.375,DEBUG,Pot,요리 실패: 토마토 부족 (0/2)
+22:51:55.375,DEBUG,Pot,냄비에 토마토 추가됨. 현재: 1개
+22:51:55.375,DEBUG,Pot,요리 실패: 토마토 부족 (1/2)
+22:51:55.376,DEBUG,Pot,냄비에 토마토 추가됨. 현재: 2개
+22:51:55.376,DEBUG,Pot,요리 성공!
+22:51:55.376,DEBUG,Stove,����� �ʱ�ȭ �Ϸ�!
+22:51:55.376,DEBUG,Pot,냄비 초기화 완료.
+22:51:55.377,DEBUG,Pot,냄비에 토마토 추가됨. 현재: 1개
+22:51:55.377,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:51:55.392,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:51:55.393,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:51:55.414,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:51:55.414,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:51:55.433,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:51:55.433,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:51:55.451,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:51:55.452,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:51:55.472,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:51:55.473,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:51:55.490,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:51:55.492,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:51:55.512,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:51:55.512,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:51:55.531,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:51:55.531,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:51:55.552,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:51:55.554,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:51:55.572,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:51:55.572,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:51:55.591,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:51:55.592,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:51:55.613,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:51:55.613,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:51:55.632,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:51:55.632,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:51:55.654,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:51:55.654,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:51:55.672,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:51:55.673,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:51:55.693,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:51:55.693,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:51:55.711,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:51:55.713,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:51:55.733,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:51:55.734,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:51:55.751,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:51:55.752,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:51:55.772,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:51:55.773,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:51:55.791,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:51:55.791,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:51:55.813,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:51:55.813,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:51:55.833,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:51:55.834,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:51:55.851,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:51:55.852,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:51:55.873,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:51:55.873,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:51:55.894,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:51:55.894,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:51:55.911,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:51:55.913,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:51:55.933,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:51:55.933,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:51:55.951,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:51:55.952,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:51:55.972,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:51:55.973,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:51:55.991,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:51:55.993,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:51:56.013,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:51:56.013,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:51:56.033,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:51:56.033,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:51:56.052,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:51:56.053,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:51:56.073,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:51:56.074,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:51:56.091,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:51:56.092,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:51:56.113,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:51:56.113,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:51:56.361,DEBUG,PlayerCarrying,집기 조작완성된 음식(Clone) (UnityEngine.BoxCollider2D)
+22:51:56.362,INFO,Unity,_focus is null
+22:51:56.363,INFO,Unity,Weight Update =0
+22:51:56.363,INFO,Unity,Weight Update2 =1
+22:51:56.572,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:51:56.573,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:51:56.592,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:51:56.592,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:51:56.614,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:51:56.614,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:51:56.633,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:51:56.634,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:51:56.652,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:51:56.652,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:51:56.673,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:51:56.674,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:51:56.692,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:51:56.692,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:51:56.713,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:51:56.714,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:51:56.732,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:51:56.732,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:51:56.753,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:51:56.754,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:51:56.771,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:51:56.772,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:51:56.791,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:51:56.792,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:51:56.812,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:51:56.813,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:51:56.830,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:51:56.832,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:51:56.853,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:51:56.853,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:51:56.872,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:51:56.872,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:51:56.892,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:51:56.893,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:51:56.912,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:51:56.912,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:51:56.933,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:51:56.933,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:51:56.951,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:51:56.952,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:51:56.972,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:51:56.973,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:51:56.993,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:51:56.995,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:51:57.013,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:51:57.014,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:51:57.017,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 17
+22:51:57.031,INFO,Unity,maxJumpVelocity19.92032
+22:51:57.036,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:51:57.036,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:51:57.052,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:51:57.053,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:51:57.072,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:51:57.073,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:51:57.091,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:51:57.091,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:51:57.113,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:51:57.113,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:51:57.132,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:51:57.132,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:51:57.151,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:51:57.152,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:51:57.172,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:51:57.172,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:51:57.192,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:51:57.193,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:51:57.212,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:51:57.212,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:51:57.231,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:51:57.231,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:51:57.252,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:51:57.252,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:51:57.273,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:51:57.273,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:51:57.293,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:51:57.295,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:51:57.312,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:51:57.313,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:51:57.332,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:51:57.333,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:51:57.353,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:51:57.354,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:51:57.373,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:51:57.374,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:51:57.393,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:51:57.393,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:51:57.411,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:51:57.412,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:51:58.297,INFO,Unity,사다리 점프
+22:51:58.943,INFO,Unity,maxJumpVelocity19.92032
+22:51:59.869,INFO,Unity,Weight Update =0
+22:51:59.873,DEBUG,PlacementTable,"완성된 음식(Clone), ���̺��� ����"
+22:51:59.874,DEBUG,PlacementTable,음식 퀘스트 완료
+22:52:01.654,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+22:52:03.698,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+22:52:06.054,INFO,Unity,벽 점프
+22:52:06.606,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:52:06.607,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:52:06.608,INFO,Unity,_focus is null
+22:52:06.608,INFO,Unity,Weight Update =0
+22:52:06.608,INFO,Unity,Weight Update2 =10
+22:52:06.957,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 17
+22:52:10.615,INFO,Unity,maxJumpVelocity19.23077
+22:52:10.675,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+22:52:11.722,INFO,Unity,maxJumpVelocity19.23077
+22:52:12.115,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 17
+22:52:12.702,INFO,Unity,Weight Update =0
+22:52:13.059,INFO,Unity,maxJumpVelocity20
+22:52:14.382,INFO,Unity,사다리 점프
+22:52:15.508,INFO,Unity,사다리 점프
+22:52:16.830,INFO,Unity,maxJumpVelocity20
+22:52:16.914,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 17
+22:52:17.982,INFO,Unity,maxJumpVelocity20
+22:52:18.409,INFO,Unity,벽 점프
+22:52:18.801,INFO,Unity,벽 점프
+22:52:19.195,INFO,Unity,벽 점프
+22:52:20.034,INFO,Unity,maxJumpVelocity20
+22:52:20.938,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+22:52:21.688,DEBUG,PlayerCarrying,집기 조작PiggyBank (UnityEngine.BoxCollider2D)
+22:52:21.689,INFO,Unity,_focus is null
+22:52:21.690,INFO,Unity,Weight Update =0
+22:52:21.690,INFO,Unity,Weight Update2 =10
+22:52:22.268,INFO,Unity,Weight Update =0
+22:52:23.336,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+22:52:23.491,DEBUG,PlayerCarrying,집기 조작Coin(Clone) (UnityEngine.BoxCollider2D)
+22:52:23.491,DEBUG,PlayerCarrying,집기 조작Coin(Clone) (UnityEngine.BoxCollider2D)
+22:52:23.492,DEBUG,PlayerCarrying,집기 조작Coin(Clone) (UnityEngine.BoxCollider2D)
+22:52:23.492,DEBUG,PlayerCarrying,집기 조작Coin(Clone) (UnityEngine.BoxCollider2D)
+22:52:23.493,INFO,Unity,_focus is null
+22:52:23.493,INFO,Unity,Weight Update =0
+22:52:23.494,INFO,Unity,Weight Update2 =1
+22:52:23.738,DEBUG,PlayerCarrying,집기 조작Coin(Clone) (UnityEngine.BoxCollider2D)
+22:52:23.739,DEBUG,PlayerCarrying,집기 조작Coin(Clone) (UnityEngine.BoxCollider2D)
+22:52:23.740,DEBUG,PlayerCarrying,집기 조작Coin(Clone) (UnityEngine.BoxCollider2D)
+22:52:23.740,DEBUG,PlayerCarrying,집기 조작Coin(Clone) (UnityEngine.BoxCollider2D)
+22:52:23.740,INFO,Unity,_focus is null
+22:52:23.740,INFO,Unity,Weight Update =0
+22:52:23.741,INFO,Unity,Weight Update2 =2
+22:52:24.018,DEBUG,PlayerCarrying,집기 조작Coin(Clone) (UnityEngine.BoxCollider2D)
+22:52:24.019,DEBUG,PlayerCarrying,집기 조작Coin(Clone) (UnityEngine.BoxCollider2D)
+22:52:24.019,INFO,Unity,_focus is null
+22:52:24.019,INFO,Unity,Weight Update =0
+22:52:24.019,INFO,Unity,Weight Update2 =3
+22:52:24.593,DEBUG,PlayerCarrying,집기 조작Coin(Clone) (UnityEngine.BoxCollider2D)
+22:52:24.976,DEBUG,PlayerCarrying,집기 조작Coin(Clone) (UnityEngine.BoxCollider2D)
+22:52:24.977,DEBUG,PlayerCarrying,집기 조작Coin(Clone) (UnityEngine.BoxCollider2D)
+22:52:24.978,INFO,Unity,_focus is null
+22:52:24.978,INFO,Unity,Weight Update =0
+22:52:24.978,INFO,Unity,Weight Update2 =4
+22:52:25.375,INFO,Unity,maxJumpVelocity19.68504
+22:52:26.138,INFO,Unity,maxJumpVelocity19.68504
+22:52:27.798,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+22:52:29.720,INFO,Unity,maxJumpVelocity19.68504
+22:52:30.577,INFO,Unity,maxJumpVelocity19.68504
+22:52:31.296,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+22:52:31.330,INFO,Unity,maxJumpVelocity19.68504
+22:52:32.620,INFO,Unity,Weight Update =0
+22:52:32.620,INFO,Unity,Weight Update2 =3
+22:52:32.994,INFO,Unity,Weight Update =0
+22:52:32.995,INFO,Unity,Weight Update2 =2
+22:52:33.448,INFO,Unity,Weight Update =0
+22:52:33.448,INFO,Unity,Weight Update2 =1
+22:52:33.715,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+22:52:33.861,INFO,Unity,Weight Update =0
+22:52:34.134,INFO,Unity,Weight Update =0
+22:52:34.909,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:52:34.911,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:52:34.911,INFO,Unity,_focus is null
+22:52:34.911,INFO,Unity,Weight Update =0
+22:52:34.911,INFO,Unity,Weight Update2 =10
+22:52:35.582,INFO,Unity,maxJumpVelocity19.23077
+22:52:36.853,INFO,Unity,maxJumpVelocity19.23077
+22:52:37.396,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+22:52:40.311,INFO,Unity,사다리 점프
+22:52:41.341,INFO,Unity,maxJumpVelocity19.23077
+22:52:41.901,INFO,Unity,maxJumpVelocity19.23077
+22:52:42.396,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+22:52:42.584,INFO,Unity,Weight Update =0
+22:52:42.985,INFO,Unity,maxJumpVelocity20
+22:52:43.661,DEBUG,BathController,물탱크를 작동시키고 욕조에 물을 채우기 시작햇삼
+22:52:43.693,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:43.693,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:43.694,DEBUG,ShowerMimic,재료 배치 완료: DirtyMimic
+22:52:43.713,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:43.713,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:43.732,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:43.734,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:43.753,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:43.754,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:43.774,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:43.775,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:43.794,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:43.794,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:43.813,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:43.814,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:43.833,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:43.834,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:43.853,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:43.855,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:43.873,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:43.873,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:43.894,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:43.895,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:43.913,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:43.914,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:43.933,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:43.934,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:43.953,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:43.953,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:43.972,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:43.974,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:43.992,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:43.993,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:44.011,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:44.012,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:44.033,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:44.033,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:44.053,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:44.053,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:44.073,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:44.073,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:44.092,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:44.093,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:44.112,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:44.112,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:44.131,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:44.131,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:44.152,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:44.153,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:44.173,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:44.174,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:44.193,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:44.194,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:44.212,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:44.213,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:44.232,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:44.233,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:44.252,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:44.252,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:44.273,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:44.274,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:44.293,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:44.293,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:44.313,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:44.313,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:44.332,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:44.332,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:44.351,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:44.352,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:44.372,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:44.374,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:44.393,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:44.394,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:44.412,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:44.412,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:44.432,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:44.433,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:44.453,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:44.453,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:44.472,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:44.474,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:44.492,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:44.492,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:44.513,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:44.513,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:44.532,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:44.532,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:44.552,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:44.553,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:44.571,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:44.572,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:44.592,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:44.592,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:44.612,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:44.613,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:44.632,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:44.633,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:44.653,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:44.653,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:44.673,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:44.673,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:44.693,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:44.693,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:44.713,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:44.715,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:44.734,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:44.734,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:44.751,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:44.752,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:44.772,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:44.772,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:44.777,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:52:44.778,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:52:44.778,INFO,Unity,_focus is null
+22:52:44.779,INFO,Unity,Weight Update =0
+22:52:44.780,INFO,Unity,Weight Update2 =10
+22:52:44.780,DEBUG,BathController,이미 물 차는 중
+22:52:44.792,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:44.792,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:44.812,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:44.813,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:44.833,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:44.833,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:44.854,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:44.855,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:44.872,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:44.872,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:44.894,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:44.894,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:44.913,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:44.913,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:44.934,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:44.934,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:44.954,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:44.955,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:44.972,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:44.972,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:44.994,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:44.995,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:45.012,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:45.013,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:45.034,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:45.034,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:45.050,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:45.052,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:45.074,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:45.074,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:45.092,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:45.094,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:45.094,INFO,Unity,maxJumpVelocity19.23077
+22:52:45.113,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:45.113,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:45.133,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:45.134,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:45.138,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+22:52:45.152,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:45.153,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:45.174,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:45.174,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:45.193,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:45.193,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:45.211,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:45.212,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:45.232,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:45.233,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:45.254,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:45.254,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:45.274,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:45.275,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:45.292,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:45.292,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:45.313,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:45.313,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:45.334,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:45.334,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:45.352,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:45.352,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:45.372,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:45.372,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:45.394,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:45.395,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:45.411,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:45.411,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:45.431,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:45.432,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:45.453,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:45.453,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:45.475,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:45.475,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:45.492,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:45.493,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:45.513,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:45.513,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:45.534,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:45.534,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:45.551,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:45.551,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:45.573,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:45.574,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:45.592,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:45.593,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:45.612,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:45.612,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:45.631,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:45.632,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:45.654,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:45.654,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:45.673,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:45.673,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:45.694,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:45.694,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:45.713,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:45.713,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:45.731,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:45.732,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:45.753,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:45.754,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:45.772,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:45.773,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:45.793,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:45.793,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:45.811,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:45.812,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:45.827,INFO,Unity,Weight Update =0
+22:52:45.833,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:45.833,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:45.852,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:45.852,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:45.874,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:45.874,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:45.894,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:45.894,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:45.912,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:45.913,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:45.934,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:45.934,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:45.954,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:45.955,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:45.974,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:45.974,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:45.993,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:45.994,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:46.012,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:46.012,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:46.034,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:46.034,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:46.053,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:46.054,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:46.074,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:46.074,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:46.092,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:46.094,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:46.113,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:46.114,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:46.133,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:46.133,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:46.154,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:46.155,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:46.173,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:46.173,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:46.192,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:46.194,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:46.216,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:46.217,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:46.234,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:46.234,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:46.252,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:46.253,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:46.273,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:46.274,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:46.294,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:46.295,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:46.317,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:46.318,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:46.342,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:46.342,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:46.353,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:46.353,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:46.374,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:46.375,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:46.394,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:46.394,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:46.412,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:46.412,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:46.433,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:46.433,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:46.454,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:46.454,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:46.472,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:46.472,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:46.493,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:46.493,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:46.511,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:46.512,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:46.533,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:46.533,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:46.553,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:46.554,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:46.574,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:46.575,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:46.592,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:46.592,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:46.612,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:46.612,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:46.633,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:46.633,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:46.653,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:46.654,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:46.674,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:46.674,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:46.686,INFO,Unity,maxJumpVelocity20
+22:52:46.695,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:46.695,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:46.714,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:46.714,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:46.731,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:46.733,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:46.751,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:46.753,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:46.774,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:46.774,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:46.794,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:46.794,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:46.814,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:46.814,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:46.832,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:46.832,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:46.854,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:46.855,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:46.872,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:46.872,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:46.892,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:46.892,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:46.912,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:46.913,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:46.933,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:46.933,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:46.954,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:46.954,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:46.973,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:46.973,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:46.995,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:46.995,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:47.012,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:47.013,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:47.032,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:47.033,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:47.053,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:47.053,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:47.073,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:47.074,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:47.094,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:47.094,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:47.112,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:47.112,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:47.133,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:47.134,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:47.153,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:47.153,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:47.173,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:47.173,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:47.193,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:47.193,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:47.213,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:47.214,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:47.233,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:47.234,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:47.254,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:47.254,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:47.271,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:47.273,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:47.292,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:47.292,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:47.296,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+22:52:47.312,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:47.313,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:47.331,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:47.332,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:47.352,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:47.353,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:47.372,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:47.372,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:47.392,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:47.392,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:47.412,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:47.413,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:47.432,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:47.433,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:47.452,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:47.453,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:47.471,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:47.471,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:47.491,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:47.492,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:47.512,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:47.512,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:47.533,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:47.533,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:47.553,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:47.553,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:47.572,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:47.572,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:47.592,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:47.592,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:47.613,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:47.614,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:47.634,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:47.634,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:47.654,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:47.654,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:47.673,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:47.674,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:47.693,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:47.693,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:47.713,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:47.713,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:47.733,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:47.734,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:47.752,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:47.752,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:47.772,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:47.773,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:47.793,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:47.793,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:47.811,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:47.811,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:47.831,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:47.832,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:47.851,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:47.851,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:47.871,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:47.872,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:47.891,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:47.892,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:47.911,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:47.912,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:47.933,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:47.934,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:47.952,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:47.952,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:47.973,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:47.973,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:47.992,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:47.993,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:48.012,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:48.012,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:48.033,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:48.034,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:48.052,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:48.052,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:48.073,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:48.073,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:48.093,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:48.093,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:48.113,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:48.114,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:48.133,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:48.134,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:48.153,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:48.153,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:48.174,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:48.174,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:48.195,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:48.195,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:48.212,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:48.212,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:48.232,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:48.232,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:48.252,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:48.252,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:48.272,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:48.272,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:48.292,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:48.292,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:48.311,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:48.312,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:48.332,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:48.332,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:48.352,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:48.352,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:48.373,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:48.373,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:48.378,INFO,Unity,maxJumpVelocity20
+22:52:48.392,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:48.393,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:48.411,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:48.411,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:48.431,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:48.432,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:48.452,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:48.452,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:48.471,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:48.472,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:48.492,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:48.492,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:48.512,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:48.512,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:48.533,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:48.533,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:48.553,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:48.553,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:48.571,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:48.572,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:48.591,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:48.592,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:48.612,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:48.614,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:48.633,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:48.633,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:48.654,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:48.654,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:48.662,DEBUG,BathController,욕조에 물이 다찼다
+22:52:48.673,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:48.674,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:48.695,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:48.695,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:48.714,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:48.714,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:48.732,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:48.732,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:48.753,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:48.753,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:48.774,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:48.774,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:48.792,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:48.792,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:48.813,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:48.814,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:48.832,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:48.833,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:48.853,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:48.853,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:48.871,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:48.872,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:48.892,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:48.893,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:48.914,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:48.915,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:48.933,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:48.933,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:48.952,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:48.952,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:48.974,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:48.974,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:48.992,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:48.993,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:49.013,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:49.013,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:49.031,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:49.032,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:49.054,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:49.055,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:49.074,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:49.075,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:49.092,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:49.092,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:49.114,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:49.115,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:49.133,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:49.134,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:49.152,DEBUG,Stove,���� ����� ���� �������ϴ�.
+22:52:49.153,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+22:52:49.392,DEBUG,ShowerMimic,재료 배치 완료: Shampoo
+22:52:49.392,DEBUG,ShowerMimic,조합 완료! 결과 생성 절차를 시작합니다...
+22:52:50.230,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:52:50.230,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:52:50.232,DEBUG,PlayerCarrying,집기 조작샴푸 (UnityEngine.BoxCollider2D)
+22:52:50.232,INFO,Unity,_focus is null
+22:52:50.232,INFO,Unity,Weight Update =0
+22:52:50.233,INFO,Unity,Weight Update2 =10
+22:52:50.233,DEBUG,BathController,이미 물 차는 중
+22:52:50.393,DEBUG,CarryableMimic,미믹 퀘스트 완료
+22:52:50.643,INFO,Unity,Weight Update =0
+22:52:51.095,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 21
+22:52:51.290,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:52:51.290,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:52:51.290,INFO,Unity,_focus is null
+22:52:51.292,INFO,Unity,Weight Update =0
+22:52:51.292,INFO,Unity,Weight Update2 =10
+22:52:51.292,DEBUG,BathController,이미 물 차는 중
+22:52:52.193,INFO,Unity,Weight Update =0
+22:52:52.921,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:52:52.922,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:52:52.922,INFO,Unity,_focus is null
+22:52:52.923,INFO,Unity,Weight Update =0
+22:52:52.923,INFO,Unity,Weight Update2 =10
+22:52:52.923,DEBUG,BathController,이미 물 차는 중
+22:52:54.602,INFO,Unity,maxJumpVelocity19.23077
+22:52:54.994,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+22:52:55.809,INFO,Unity,사다리 점프
+22:52:56.615,INFO,Unity,maxJumpVelocity19.23077
+22:52:57.734,INFO,Unity,indexChamge
+22:52:57.734,INFO,Unity,짐 1충돌
+22:52:57.735,DEBUG,CarryableMimic,"충돌로 인해 짐 떨어뜨림. Fall떨어트린 위치 : (26.51, -6.75, 0.00)"
+22:52:57.736,INFO,Unity,Weight Update =0
+22:52:57.897,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+22:52:58.756,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:52:58.757,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:52:58.758,INFO,Unity,_focus is null
+22:52:58.758,INFO,Unity,Weight Update =0
+22:52:58.758,INFO,Unity,Weight Update2 =10
+22:52:59.118,INFO,Unity,maxJumpVelocity19.23077
+22:52:59.846,INFO,Unity,maxJumpVelocity19.23077
+22:53:00.565,INFO,Unity,maxJumpVelocity19.23077
+22:53:01.094,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+22:53:01.679,INFO,Unity,사다리 점프
+22:53:02.534,INFO,Unity,indexChamge
+22:53:02.535,INFO,Unity,짐 1충돌
+22:53:02.535,DEBUG,CarryableMimic,"충돌로 인해 짐 떨어뜨림. Fall떨어트린 위치 : (14.51, -0.46, 0.00)"
+22:53:02.535,INFO,Unity,Weight Update =0
+22:53:03.095,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+22:53:03.424,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:53:03.424,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+22:53:03.425,INFO,Unity,_focus is null
+22:53:03.426,INFO,Unity,Weight Update =0
+22:53:03.426,INFO,Unity,Weight Update2 =10
+22:53:03.873,INFO,Unity,maxJumpVelocity19.23077
+22:53:04.975,INFO,Unity,사다리 점프
+22:53:06.322,INFO,Unity,maxJumpVelocity19.23077
+22:53:07.097,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+22:53:09.494,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+22:53:12.836,INFO,Unity,maxJumpVelocity19.23077
+22:53:13.711,INFO,Unity,사다리 점프
+22:53:14.236,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+22:53:14.867,INFO,Unity,maxJumpVelocity19.23077
+22:53:15.443,INFO,Unity,Weight Update =0
+22:53:18.770,DEBUG,PlayerCarrying,집기 조작Box (UnityEngine.BoxCollider2D)
+22:53:18.771,INFO,Unity,_focus is null
+22:53:18.771,INFO,Unity,Weight Update =0
+22:53:18.771,INFO,Unity,Weight Update2 =10
+22:53:19.035,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+22:53:19.319,INFO,Unity,maxJumpVelocity19.23077
+22:53:20.734,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+22:53:22.197,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+22:53:24.857,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+22:53:24.976,INFO,Unity,maxJumpVelocity19.23077
+22:53:25.462,INFO,Unity,Weight Update =0
+22:53:26.428,INFO,Unity,maxJumpVelocity20
+22:53:27.034,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+22:53:27.749,INFO,Unity,maxJumpVelocity20
+22:53:28.316,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+22:53:28.623,INFO,Unity,maxJumpVelocity20
+22:53:29.219,INFO,Unity,벽 점프
+22:53:29.612,INFO,Unity,벽 점프
+22:53:30.336,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 17
+22:53:30.526,DEBUG,PlayerCarrying,집기 조작Box (UnityEngine.BoxCollider2D)
+22:53:30.527,INFO,Unity,_focus is null
+22:53:30.527,INFO,Unity,Weight Update =0
+22:53:30.527,INFO,Unity,Weight Update2 =10
+22:53:30.883,DEBUG,PlayerCarrying,집기 조작Box (UnityEngine.BoxCollider2D)
+22:53:31.223,DEBUG,PlayerCarrying,집기 조작Box (UnityEngine.BoxCollider2D)
+22:53:31.224,DEBUG,PlayerCarrying,집기 조작Box (UnityEngine.BoxCollider2D)
+22:53:31.224,INFO,Unity,_focus is null
+22:53:31.225,INFO,Unity,Weight Update =0
+22:53:31.225,INFO,Unity,Weight Update2 =20
+22:53:32.517,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 17
+22:53:34.056,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 17
+22:53:38.894,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 17
+22:53:40.138,INFO,Unity,Weight Update =0
+22:53:40.140,INFO,Unity,Weight Update2 =10
+22:53:40.417,INFO,Unity,Weight Update =0
+22:53:42.594,INFO,Unity,maxJumpVelocity20
+22:53:42.898,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+22:53:43.268,INFO,Unity,사다리 점프
+22:53:43.979,INFO,Unity,사다리 점프
+22:53:44.594,INFO,Unity,maxJumpVelocity20
+22:53:45.439,INFO,Unity,사다리 점프
+22:53:45.914,INFO,Unity,벽 점프
+22:53:46.338,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+22:53:46.489,INFO,Unity,maxJumpVelocity20
+22:53:47.097,INFO,Unity,maxJumpVelocity20
+22:53:48.297,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+22:53:48.551,INFO,Unity,사다리 점프
+22:53:49.201,INFO,Unity,사다리 점프
+22:53:49.889,INFO,Unity,사다리 점프
+22:53:50.875,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+22:53:50.987,INFO,Unity,maxJumpVelocity20
+22:53:55.316,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+22:53:59.718,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+22:54:03.856,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+22:54:05.396,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 17
+22:54:09.840,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+22:54:13.157,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 17
+22:54:16.690,INFO,Unity,Trigger Exit with: Wall2
+22:54:16.690,INFO,Unity,Trigger Exit with: Wall2
+22:54:16.690,INFO,Unity,Trigger Exit with: Wall2
+22:54:16.690,INFO,Unity,Trigger Exit with: Wall2
+22:54:16.691,INFO,Unity,Trigger Exit with: Wall2
+22:54:16.693,DEBUG,Stove,���� ����꿡�� ������ϴ�.
+22:54:16.695,DEBUG,DirtObject,먼지 퀘스트 완료
