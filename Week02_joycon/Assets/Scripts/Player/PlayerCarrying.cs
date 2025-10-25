@@ -21,11 +21,13 @@ public class PlayerCarrying : MonoBehaviour
     public float stackOffsetY = 0.5f; // 오브젝트 간격
     Controller2D controller2D;
     private bool showDropGizmo = false;
+    Vector2 pickUpPos;
+    Vector2 pickUpBox;
     Vector2 lastDropPos;
     Vector2 dropPos;
     float lastObjRadius = 0.25f;
     public int collideCarrying = 0;//충돌한 짐 넘버 (현재 들고있는 것보다 높게 유지해야 안떨어짐)닿은거 이상 다 떨어질거야
-    BoxCollider2D playerCollider;
+    BoxCollider2D boxCollider2D;
 
     public List<GameObject> carriedObjects = new List<GameObject>();
     public List<Carryable> carryable = new List<Carryable>();
@@ -62,8 +64,8 @@ public class PlayerCarrying : MonoBehaviour
         interactableFilter.SetLayerMask(interactableMask); // 인스펙터에서 설정한 'WorldInteractable' 레이어를 사용
         interactableFilter.useTriggers = true; // 'Is Trigger'가 체크된 콜라이더도 감지
 
-        if (playerCollider == null)
-            playerCollider = GetComponent<BoxCollider2D>();
+        if (boxCollider2D == null)
+            boxCollider2D = GetComponent<BoxCollider2D>();
     }
 
     private void Update()
@@ -133,10 +135,14 @@ public class PlayerCarrying : MonoBehaviour
             Debug.Log("Cannot pick up: Max carry count reached");
             return;
         }
+        pickUpPos = new Vector2(transform.position.x + (pickUpRange / 2 * controller2D.collisions.faceDir), transform.position.y);//내 위치의 절반만큼 앞으로
+        pickUpBox = new Vector2(pickUpRange, boxCollider2D.bounds.size.y * 1.1f);//내 높이*1.1f 와 픽업 범위만큼 체크
         // 주변 오브젝트 배열 가져오기
-        Collider2D[] hits = Physics2D.OverlapBoxAll(
-        new Vector2(transform.position.x + (pickUpRange / 2 * controller2D.collisions.faceDir), transform.position.y),//내 위치의 절반만큼 앞으로
-        new Vector2(pickUpRange, playerCollider.bounds.size.y), 0f, carryableMask);//내 높이와 픽업 범위만큼 체크
+        Collider2D[] hits = Physics2D.OverlapBoxAll(pickUpPos, pickUpBox, 0f, carryableMask);
+
+
+
+
         GameObject closestObj = null;
         float minDistance = Mathf.Infinity;
         foreach (Collider2D hit in hits)
@@ -221,7 +227,7 @@ public class PlayerCarrying : MonoBehaviour
             }
 
             Rigidbody2D rb = obj.GetComponent<Rigidbody2D>();
-            BoxCollider2D box = obj.GetComponent<BoxCollider2D>();
+            SpriteRenderer box = obj.GetComponent<SpriteRenderer>();
             Vector2 checkSize;
             if (box != null)
                 checkSize = box.size; // 실제 콜라이더 크기 사용
@@ -229,13 +235,12 @@ public class PlayerCarrying : MonoBehaviour
                 checkSize = obj.transform.localScale;
 
             // 플레이어가 바라보는 방향에 드롭 위치 계산
-            dropOffset = new Vector2((obj.transform.localScale.x + transform.localScale.x) / 2, 0);//들고있는 것 /2+플레이어 크기
-            Vector2 dropPos = (Vector2)transform.position + dropOffset * controller2D.collisions.faceDir;
+            dropOffset = new Vector2((box.bounds.size.x + boxCollider2D.bounds.size.x) * controller2D.collisions.faceDir / 2, (box.bounds.size.y - boxCollider2D.bounds.size.y)/2+0.05f);//들고있는 것/2 +플레이어 크기
+            Vector2 dropPos = (Vector2)transform.position + dropOffset;
 
             //  기즈모용 위치 저장
             lastDropPos = dropPos;
-            var objCol = obj.GetComponent<Collider2D>();
-            lastObjSize = objCol ? objCol.bounds.size * 0.9f : Vector2.one * 0.5f;//사이즈
+            lastObjSize = box ? box.bounds.size * 1f : Vector2.one * 0.5f;//사이즈
             showDropGizmo = true;
 
             //  레이캐스트로 드롭할 공간 확인
@@ -297,6 +302,7 @@ public class PlayerCarrying : MonoBehaviour
 
         // 남은 개수에 맞춰 정리
         collideCarrying = carriedObjects.Count;
+        GameLogger.Instance.LogDebug(this, $"충돌로 인해 짐 떨어뜨림. 떨어트린 위치 : {carriedObjects.Count}");
         WeightUpdate();
     }
 
@@ -307,6 +313,8 @@ public class PlayerCarrying : MonoBehaviour
             Gizmos.color = Color.red;
             Gizmos.DrawWireCube(lastDropPos, lastObjSize);
         }
+        Gizmos.color = Color.green;
+        Gizmos.DrawWireCube(pickUpPos, pickUpBox);
     }
 
     public void WeightUpdate()
@@ -358,7 +366,7 @@ public class PlayerCarrying : MonoBehaviour
         // 2. [수정] TryPickUp과 동일한 사각형 범위로 'interactableMask' 레이어 감지
         Collider2D[] hits = Physics2D.OverlapBoxAll(
             new Vector2(transform.position.x + (pickUpRange / 2 * controller2D.collisions.faceDir), transform.position.y),
-            new Vector2(pickUpRange, playerCollider.bounds.size.y), 0f, interactableMask); // *<- interactableMask 사용*
+            new Vector2(pickUpRange, boxCollider2D.bounds.size.y), 0f, interactableMask); // *<- interactableMask 사용*
 
         if (hits.Length == 0) return false; // 상호작용할 오브젝트 없음
 

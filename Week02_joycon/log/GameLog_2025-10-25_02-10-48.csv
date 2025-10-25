@@ -1,0 +1,49 @@
+Timestamp, Level, Source, Message
+02:10:48.638,INFO,GameLogger,=== Game Session Started ===
+02:10:49.250,WARNING,Unity,Minimap: no renderers found for bounds. Check includeLayers.
+02:10:55.284,DEBUG,PlayerCarrying,쿨타임 지났음
+02:10:55.650,DEBUG,PlayerCarrying,쿨타임 지났음
+02:10:55.651,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+02:10:55.652,INFO,Unity,_focus is null
+02:10:56.671,INFO,Unity,maxJumpVelocity19.68504
+02:10:57.523,INFO,Unity,maxJumpVelocity19.68504
+02:10:58.318,INFO,Unity,Trigger닿음
+02:10:58.319,INFO,Unity,nal닿음
+02:11:00.643,DEBUG,PlayerCarrying,쿨타임 지났음
+02:11:00.643,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+02:11:00.645,INFO,Unity,_focus is null
+02:11:01.130,INFO,Unity,maxJumpVelocity19.68504
+02:11:02.361,DEBUG,PlayerCarrying,쿨타임 지났음
+02:11:02.361,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+02:11:02.362,INFO,Unity,_focus is null
+02:11:02.908,INFO,Unity,maxJumpVelocity19.68504
+02:11:04.763,DEBUG,PlayerCarrying,쿨타임 지났음
+02:11:04.764,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+02:11:04.764,INFO,Unity,_focus is null
+02:11:05.203,INFO,Unity,maxJumpVelocity19.68504
+02:11:06.776,DEBUG,PlayerCarrying,쿨타임 지났음
+02:11:06.776,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+02:11:06.777,INFO,Unity,_focus is null
+02:11:09.661,INFO,Unity,maxJumpVelocity19.68504
+02:11:10.041,INFO,Unity,Trigger닿음
+02:11:10.041,INFO,Unity,nal닿음
+02:11:10.042,INFO,Unity,Trigger닿음
+02:11:10.097,INFO,Unity,Trigger닿음
+02:11:10.207,INFO,Unity,nal닿음
+02:11:10.208,INFO,Unity,Trigger닿음
+02:11:10.208,INFO,Unity,Collider닿음
+02:11:10.208,INFO,Unity,Collider닿음
+02:11:10.384,INFO,Unity,nal닿음
+02:11:10.385,INFO,Unity,Trigger닿음
+02:11:10.443,INFO,Unity,Collider닿음
+02:11:10.444,INFO,Unity,Collider닿음
+02:11:10.444,INFO,Unity,Collider닿음
+02:11:10.445,INFO,Unity,Trigger닿음
+02:11:10.445,INFO,Unity,nal닿음
+02:11:10.622,INFO,Unity,Collider닿음
+02:11:10.794,INFO,Unity,Collider닿음
+02:11:11.191,INFO,Unity,maxJumpVelocity19.68504
+02:11:13.124,INFO,Unity,nal닿음
+02:11:13.126,INFO,Unity,Trigger닿음
+02:11:13.126,INFO,Unity,nal닿음
+02:11:13.199,INFO,Unity,Trigger닿음
