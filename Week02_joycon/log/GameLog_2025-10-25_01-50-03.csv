@@ -1,0 +1,48 @@
+Timestamp, Level, Source, Message
+01:50:03.796,INFO,GameLogger,=== Game Session Started ===
+01:50:05.337,WARNING,Unity,Minimap: no renderers found for bounds. Check includeLayers.
+01:50:10.035,DEBUG,PlayerCarrying,쿨타임 지났음
+01:50:14.108,DEBUG,PlayerCarrying,쿨타임 지났음
+01:50:14.802,DEBUG,PlayerCarrying,쿨타임 지났음
+01:50:16.179,INFO,Unity,maxJumpVelocity20
+01:50:16.673,DEBUG,PlayerCarrying,쿨타임 지났음
+01:50:17.838,DEBUG,PlayerCarrying,쿨타임 지났음
+01:50:18.256,INFO,Unity,maxJumpVelocity20
+01:50:18.492,DEBUG,PlayerCarrying,쿨타임 지났음
+01:50:19.254,INFO,Unity,maxJumpVelocity20
+01:50:19.428,DEBUG,PlayerCarrying,쿨타임 지났음
+01:50:20.335,INFO,Unity,maxJumpVelocity20
+01:50:20.570,DEBUG,PlayerCarrying,쿨타임 지났음
+01:50:21.284,INFO,Unity,maxJumpVelocity20
+01:50:21.537,DEBUG,PlayerCarrying,쿨타임 지났음
+01:50:21.539,DEBUG,PlayerCarrying,집기 조작box (4) (UnityEngine.BoxCollider2D)
+01:50:21.540,DEBUG,PlayerCarrying,집기 조작box (5) (UnityEngine.BoxCollider2D)
+01:50:21.541,INFO,Unity,_focus is null
+01:50:22.493,INFO,Unity,maxJumpVelocity19.23077
+01:50:23.004,INFO,Unity,1
+01:50:23.006,INFO,Unity,1
+01:50:23.006,INFO,Unity,1
+01:50:23.007,INFO,Unity,0.9509498
+01:50:23.416,INFO,Unity,maxJumpVelocity20
+01:50:23.777,DEBUG,PlayerCarrying,쿨타임 지났음
+01:50:24.344,INFO,Unity,maxJumpVelocity20
+01:50:24.535,DEBUG,PlayerCarrying,쿨타임 지났음
+01:50:27.823,INFO,Unity,maxJumpVelocity20
+01:50:27.950,DEBUG,PlayerCarrying,쿨타임 지났음
+01:50:28.866,INFO,Unity,maxJumpVelocity20
+01:50:29.094,DEBUG,PlayerCarrying,쿨타임 지났음
+01:50:31.414,INFO,Unity,maxJumpVelocity20
+01:50:31.704,DEBUG,PlayerCarrying,쿨타임 지났음
+01:50:32.748,INFO,Unity,maxJumpVelocity20
+01:50:32.862,DEBUG,PlayerCarrying,쿨타임 지났음
+01:50:33.516,INFO,Unity,maxJumpVelocity20
+01:50:33.607,DEBUG,PlayerCarrying,쿨타임 지났음
+01:50:34.193,INFO,Unity,maxJumpVelocity20
+01:50:34.278,DEBUG,PlayerCarrying,쿨타임 지났음
+01:50:34.860,INFO,Unity,maxJumpVelocity20
+01:50:34.934,DEBUG,PlayerCarrying,쿨타임 지났음
+01:50:35.656,INFO,Unity,maxJumpVelocity20
+01:50:35.701,DEBUG,PlayerCarrying,쿨타임 지났음
+01:50:36.546,INFO,Unity,maxJumpVelocity20
+01:50:36.709,DEBUG,PlayerCarrying,쿨타임 지났음
+01:50:37.331,DEBUG,PlayerCarrying,쿨타임 지났음

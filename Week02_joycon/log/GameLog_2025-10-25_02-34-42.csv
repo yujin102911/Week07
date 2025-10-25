@@ -1,0 +1,79 @@
+Timestamp, Level, Source, Message
+02:34:42.771,INFO,GameLogger,=== Game Session Started ===
+02:34:43.529,WARNING,Unity,Minimap: no renderers found for bounds. Check includeLayers.
+02:34:48.962,DEBUG,PlayerCarrying,쿨타임 지났음
+02:34:48.965,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+02:34:48.965,INFO,Unity,_focus is null
+02:34:51.832,INFO,Unity,maxJumpVelocity20
+02:34:52.500,DEBUG,PlayerCarrying,쿨타임 지났음
+02:34:53.254,DEBUG,PlayerCarrying,쿨타임 지났음
+02:34:53.255,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+02:34:53.256,INFO,Unity,_focus is null
+02:34:53.919,INFO,Unity,maxJumpVelocity19.68504
+02:34:57.140,INFO,Unity,maxJumpVelocity20
+02:34:58.002,DEBUG,PlayerCarrying,쿨타임 지났음
+02:34:58.003,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+02:34:58.004,INFO,Unity,_focus is null
+02:34:58.619,INFO,Unity,maxJumpVelocity19.68504
+02:34:59.766,INFO,Unity,maxJumpVelocity20
+02:35:00.849,INFO,Unity,maxJumpVelocity20
+02:35:01.945,INFO,Unity,maxJumpVelocity20
+02:35:02.875,DEBUG,PlayerCarrying,쿨타임 지났음
+02:35:02.875,DEBUG,PlayerCarrying,집기 조작box (5) (UnityEngine.BoxCollider2D)
+02:35:02.876,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+02:35:02.877,INFO,Unity,_focus is null
+02:35:03.325,INFO,Unity,maxJumpVelocity19.68504
+02:35:04.650,INFO,Unity,maxJumpVelocity20
+02:35:06.422,INFO,Unity,maxJumpVelocity20
+02:35:09.510,INFO,Unity,maxJumpVelocity20
+02:35:10.557,INFO,Unity,maxJumpVelocity20
+02:35:11.806,DEBUG,PlayerCarrying,쿨타임 지났음
+02:35:11.807,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+02:35:11.807,INFO,Unity,_focus is null
+02:35:13.746,DEBUG,PlayerCarrying,쿨타임 지났음
+02:35:13.748,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+02:35:13.748,INFO,Unity,_focus is null
+02:35:14.277,INFO,Unity,maxJumpVelocity19.68504
+02:35:16.075,INFO,Unity,maxJumpVelocity20
+02:35:17.040,DEBUG,PlayerCarrying,쿨타임 지났음
+02:35:17.041,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+02:35:17.041,INFO,Unity,_focus is null
+02:35:17.592,INFO,Unity,maxJumpVelocity19.68504
+02:35:19.179,INFO,Unity,maxJumpVelocity20
+02:35:21.015,INFO,Unity,maxJumpVelocity20
+02:35:22.618,INFO,Unity,maxJumpVelocity20
+02:35:23.723,DEBUG,PlayerCarrying,쿨타임 지났음
+02:35:23.725,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+02:35:23.725,INFO,Unity,_focus is null
+02:35:25.599,DEBUG,PlayerCarrying,쿨타임 지났음
+02:35:25.600,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+02:35:25.601,INFO,Unity,_focus is null
+02:35:26.969,DEBUG,PlayerCarrying,쿨타임 지났음
+02:35:26.970,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+02:35:26.970,INFO,Unity,_focus is null
+02:35:27.720,INFO,Unity,maxJumpVelocity19.68504
+02:35:29.159,INFO,Unity,maxJumpVelocity20
+02:35:31.896,DEBUG,PlayerCarrying,쿨타임 지났음
+02:35:31.896,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+02:35:31.897,DEBUG,PlayerCarrying,집기 조작Rag (UnityEngine.BoxCollider2D)
+02:35:31.898,INFO,Unity,_focus is null
+02:35:32.374,INFO,Unity,maxJumpVelocity19.68504
+02:35:33.281,INFO,Unity,maxJumpVelocity20
+02:35:33.326,DEBUG,PlayerCarrying,쿨타임 지났음
+02:35:33.327,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+02:35:33.327,INFO,Unity,_focus is null
+02:35:34.085,INFO,Unity,maxJumpVelocity19.68504
+02:35:35.250,INFO,Unity,maxJumpVelocity20
+02:35:36.345,INFO,Unity,maxJumpVelocity20
+02:35:37.828,DEBUG,PlayerCarrying,쿨타임 지났음
+02:35:37.828,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+02:35:37.830,INFO,Unity,_focus is null
+02:35:39.061,INFO,Unity,maxJumpVelocity19.68504
+02:35:40.522,INFO,Unity,maxJumpVelocity19.68504
+02:35:43.457,DEBUG,PlayerCarrying,쿨타임 지났음
+02:35:43.458,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+02:35:43.459,INFO,Unity,_focus is null
+02:35:47.739,DEBUG,PlayerCarrying,쿨타임 지났음
+02:35:47.741,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+02:35:47.741,INFO,Unity,_focus is null
+02:35:48.245,INFO,Unity,maxJumpVelocity19.68504
