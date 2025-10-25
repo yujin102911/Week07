@@ -8,9 +8,9 @@ using UnityEngine.UI;
 public class PlayerCarrying : MonoBehaviour
 {
     [Header("Carry Settings")]
-    public Transform holdPoint;
-    public float carryingTop;
-    public Vector2 dropOffset;
+    public Transform holdPoint;//물채를 집어서 머뤼 위에 놓을 위치(집는 물건마다 갱신)
+    public float carryingTop;//들고있는 물건들의 높이 합
+    public Vector2 dropOffset;//내려둘 위치
     public LayerMask carryableMask;
     public LayerMask maskObstacle;
     public float CarryAbleWeight;
@@ -125,10 +125,6 @@ public class PlayerCarrying : MonoBehaviour
         pickUpBox = new Vector2(pickUpRange, boxCollider2D.bounds.size.y * 1.1f);//내 높이*1.1f 와 픽업 범위만큼 체크
         // 주변 오브젝트 배열 가져오기
         Collider2D[] hits = Physics2D.OverlapBoxAll(pickUpPos, pickUpBox, 0f, carryableMask);
-
-
-
-
         GameObject closestObj = null;
         float minDistance = Mathf.Infinity;
         foreach (Collider2D hit in hits)
@@ -242,15 +238,15 @@ public class PlayerCarrying : MonoBehaviour
         int count = carriedObjects.Count;
         if (count == 0) { collideCarrying = 0; return; }
 
-        int startIndex = Mathf.Clamp(collideCarrying, 0, count);
+        int startIndex = Mathf.Clamp(collideCarrying, 0, count);//짐 떨어트릴 시작 값
         for (int i = count - 1; i >= startIndex; --i)
         {
             var go = carriedObjects[i];
-            if (!go) { carriedObjects.RemoveAt(i); continue; }
+            if (go==null) { carriedObjects.RemoveAt(i); continue; }
 
             if (go.TryGetComponent<Rigidbody2D>(out var rb))
             {
-                rb.bodyType = RigidbodyType2D.Dynamic;
+                rb.bodyType = RigidbodyType2D.Dynamic;//떨어뜨릴때 원상복구
                 rb.freezeRotation = false;
             }
 
@@ -261,7 +257,6 @@ public class PlayerCarrying : MonoBehaviour
         }
 
         collideCarrying = carriedObjects.Count;
-        GameLogger.Instance.LogDebug(this, $"충돌로 인해 짐 떨어뜨림. Fall떨어트린 위치 : {transform.position}");
         WeightUpdate();
     }
 
@@ -279,8 +274,7 @@ public class PlayerCarrying : MonoBehaviour
     public void WeightUpdate()
     {
         CarryAbleWeight = 0;
-        for (int i = carriedObjects.Count - 1; i >= 0; --i)
-            if (carriedObjects[i] == null) carriedObjects.RemoveAt(i);
+        Debug.Log("Weight Update =" + CarryAbleWeight);
 
         if (carriedObjects.Count <= 0) return;
 
@@ -289,6 +283,7 @@ public class PlayerCarrying : MonoBehaviour
             var c = carriedObjects[i]?.GetComponent<Carryable>();
             if (c) CarryAbleWeight += c.weight;
         }
+        Debug.Log("Weight Update2 =" + CarryAbleWeight);
     }
 
     /// <summary>
