@@ -1,0 +1,44 @@
+Timestamp, Level, Source, Message
+15:17:58.679,INFO,GameLogger,=== Game Session Started ===
+15:17:59.135,WARNING,Unity,Minimap: no renderers found for bounds. Check includeLayers.
+15:18:02.290,DEBUG,PlayerCarrying,쿨타임 지났음
+15:18:02.293,DEBUG,PlayerCarrying,집기 조작WateringCan (UnityEngine.BoxCollider2D)
+15:18:02.294,INFO,Unity,_focus is null
+15:18:02.592,INFO,Unity,maxJumpVelocity19.84127
+15:18:08.640,INFO,Unity,No hits detected.
+15:18:08.672,INFO,Unity,No hits detected.
+15:18:08.688,INFO,Unity,No hits detected.
+15:18:08.726,INFO,Unity,No hits detected.
+15:18:08.756,INFO,Unity,No hits detected.
+15:18:08.794,INFO,Unity,No hits detected.
+15:18:08.822,INFO,Unity,No hits detected.
+15:18:08.851,INFO,Unity,No hits detected.
+15:18:08.869,INFO,Unity,No hits detected.
+15:18:08.897,INFO,Unity,No hits detected.
+15:18:08.936,INFO,Unity,No hits detected.
+15:18:08.976,INFO,Unity,No hits detected.
+15:18:08.987,INFO,Unity,No hits detected.
+15:18:09.017,INFO,Unity,No hits detected.
+15:18:09.055,INFO,Unity,No hits detected.
+15:18:09.070,INFO,Unity,No hits detected.
+15:18:09.100,INFO,Unity,No hits detected.
+15:18:09.128,INFO,Unity,No hits detected.
+15:18:09.157,INFO,Unity,No hits detected.
+15:18:09.206,INFO,Unity,No hits detected.
+15:18:09.234,INFO,Unity,No hits detected.
+15:18:09.248,INFO,Unity,No hits detected.
+15:18:09.276,INFO,Unity,No hits detected.
+15:18:09.307,INFO,Unity,No hits detected.
+15:18:09.345,INFO,Unity,No hits detected.
+15:18:09.375,INFO,Unity,No hits detected.
+15:18:09.387,INFO,Unity,No hits detected.
+15:18:09.415,INFO,Unity,No hits detected.
+15:18:09.427,INFO,Unity,No hits detected.
+15:18:09.455,INFO,Unity,No hits detected.
+15:18:09.468,INFO,Unity,No hits detected.
+15:18:09.498,INFO,Unity,No hits detected.
+15:18:09.540,INFO,Unity,No hits detected.
+15:18:09.579,INFO,Unity,No hits detected.
+15:18:16.690,INFO,Unity,maxJumpVelocity19.84127
+15:18:21.858,INFO,Unity,maxJumpVelocity19.84127
+15:18:27.014,INFO,Unity,maxJumpVelocity19.84127
