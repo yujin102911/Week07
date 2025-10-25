@@ -1,0 +1,14 @@
+Timestamp, Level, Source, Message
+02:52:26.571,INFO,GameLogger,=== Game Session Started ===
+02:52:26.735,WARNING,Unity,Minimap: no renderers found for bounds. Check includeLayers.
+02:52:29.057,DEBUG,PlayerCarrying,쿨타임 지났음
+02:52:29.059,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+02:52:29.060,INFO,Unity,_focus is null
+02:52:30.406,INFO,Unity,maxJumpVelocity20
+02:52:31.578,DEBUG,PlayerCarrying,쿨타임 지났음
+02:52:31.579,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+02:52:31.580,INFO,Unity,_focus is null
+02:52:32.351,INFO,Unity,maxJumpVelocity19.68504
+02:52:58.691,DEBUG,PlayerCarrying,쿨타임 지났음
+02:52:58.692,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+02:52:58.693,INFO,Unity,_focus is null
