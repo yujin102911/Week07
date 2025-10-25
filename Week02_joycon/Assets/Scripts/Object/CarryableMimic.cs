@@ -3,12 +3,16 @@ using UnityEngine;
 
 public class CarryableMimic : Carryable
 {
-    [SerializeField] private int requiredCoins = 3;
+    [SerializeField] private int requiredCoins;
+    [SerializeField] private SpriteRenderer spriteRenderer;
+    [SerializeField] private Sprite cleanedSprite;
     [SerializeField] private MimicBubble coinBubble;
     [SerializeField] private MimicBubble heartBubble;
+    [SerializeField] private MimicBubble cleanBubble;
     private HashSet<Carryable> coins = new();
     private List<Carryable> toRemove = new();
     private bool isEnumerating;
+    private bool isCleaned = false;
 
     private void Update()
     {
@@ -47,8 +51,7 @@ public class CarryableMimic : Carryable
         heartBubble.SetOn();
         if (coin) Destroy(coin.gameObject);
 
-        // All coins collected
-        if (requiredCoins == 0) QuestRuntime.Instance.SetFlag(FlagId.Mimic_Happy);
+        CheckQuest();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -61,7 +64,8 @@ public class CarryableMimic : Carryable
 
         if (collision.CompareTag("Player"))
         {
-            if (requiredCoins > 0) coinBubble.SetOn();
+            if (isCleaned == false) cleanBubble.SetOn();
+            else if (requiredCoins > 0) coinBubble.SetOn();
             else heartBubble.SetOn();
         }
     }
@@ -85,5 +89,22 @@ public class CarryableMimic : Carryable
         toRemove.Clear();
 
         isEnumerating = false;
+    }
+
+    public void CleanUp()
+    {
+        if (cleanedSprite) spriteRenderer.sprite = cleanedSprite;
+        isCleaned = true;
+
+        CheckQuest();
+    }
+
+    private void CheckQuest()
+    {
+        if (requiredCoins > 0) return;
+        if (isCleaned == false) return;
+
+        QuestRuntime.Instance.SetFlag(FlagId.Mimic_Happy);
+        GameLogger.Instance.LogDebug(this, "미믹 퀘스트 완료");
     }
 }
