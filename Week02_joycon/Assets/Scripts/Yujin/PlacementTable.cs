@@ -5,30 +5,30 @@ using UnityEngine.Events;
 public class PlacementTable : MonoBehaviour
 {
     [Header("Settings")]
-    [Tooltip("ÀÌ Å×ÀÌºíÀÌ ¿ä±¸ÇÏ´Â ¾ÆÀÌÅÛÀÇ ID")]
+    [Tooltip("ï¿½ï¿½ ï¿½ï¿½ï¿½Ìºï¿½ï¿½ï¿½ ï¿½ä±¸ï¿½Ï´ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ID")]
     [SerializeField] private string requiredItemId;
 
-    [Tooltip("¾ÆÀÌÅÛÀÌ °íÁ¤µÉ À§Ä¡")]
+    [Tooltip("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ä¡")]
     [SerializeField] private Transform snapPoint;
 
     [Header("State")]
-    [SerializeField] private bool itemPlaced = false; // ¾ÆÀÌÅÛÀÌ ÀÌ¹Ì ³õ¿´´ÂÁö È®ÀÎ
+    [SerializeField] private bool itemPlaced = false; // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ì¹ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ È®ï¿½ï¿½
 
     [Header("Events")]
-    [Tooltip("¾ÆÀÌÅÛÀ» ¼º°øÀûÀ¸·Î ¿Ã·Á³õ¾ÒÀ» ¶§ ½ÇÇàÇÒ ÀÌº¥Æ®")]
+    [Tooltip("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ã·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ®")]
     public UnityEvent OnItemPlaced;
 
     #region Lifecycle
     private void Start()
     {
         Collider2D col = GetComponent<Collider2D>();
-        if (!col.isTrigger) { GameLogger.Instance.LogWarning(this, "IsTriggerÈ°¼ºÈ­ ¾ÈµÆÀ½"); }
-        if (snapPoint == null) { GameLogger.Instance.LogWarning(this, "IsTriggerÈ°¼ºÈ­ ¾ÈµÅ¼­ °Á Å×ÀÌºí·Î ÇÔ."); snapPoint = transform; }
+        if (!col.isTrigger) { GameLogger.Instance.LogWarning(this, "IsTriggerÈ°ï¿½ï¿½È­ ï¿½Èµï¿½ï¿½ï¿½"); }
+        if (snapPoint == null) { GameLogger.Instance.LogWarning(this, "IsTriggerÈ°ï¿½ï¿½È­ ï¿½ÈµÅ¼ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½Ìºï¿½ï¿½ï¿½ ï¿½ï¿½."); snapPoint = transform; }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (itemPlaced) return; //ÀÌ¹Ì ¾ÆÀÌÅÛÀÌ ³õ¿©ÀÖÀ¸¸é ¾Æ¹«°Íµµ ¾ÈÇÔ
+        if (itemPlaced) return; //ï¿½Ì¹ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Æ¹ï¿½ï¿½Íµï¿½ ï¿½ï¿½ï¿½ï¿½
         if (other.TryGetComponent<Carryable>(out Carryable carryable))
         {
             if (!carryable.carrying && carryable.Id == requiredItemId) PlaceItem(carryable);
@@ -37,18 +37,18 @@ public class PlacementTable : MonoBehaviour
     #endregion
 
     #region Private Methods
-    ///<summary>¾ÆÀÌÅÛÀ» Å×ÀÌºí¿¡ °íÁ¤</summary>
+    ///<summary>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ìºï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½</summary>
     private void PlaceItem(Carryable item)
     {
         itemPlaced = true;
-        GameLogger.Instance.LogDebug(this, $"{item.name}, Å×ÀÌºí¿¡ °íÁ¤");
+        GameLogger.Instance.LogDebug(this, $"{item.name}, ï¿½ï¿½ï¿½Ìºï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
 
         GameObject itemObject = item.gameObject;
 
         itemObject.transform.position = snapPoint.position;
         itemObject.transform.rotation = Quaternion.identity;
 
-        if(itemObject.TryGetComponent<Rigidbody2D>(out var rb))
+        if (itemObject.TryGetComponent<Rigidbody2D>(out var rb))
         {
             rb.bodyType = RigidbodyType2D.Kinematic;
             rb.linearVelocity = Vector2.zero;
@@ -63,7 +63,9 @@ public class PlacementTable : MonoBehaviour
         }
 
         OnItemPlaced?.Invoke();
+
+        QuestRuntime.Instance.SetFlag(FlagId.Table_Used);
+        GameLogger.Instance.LogDebug(this, "ìŒì‹ í€˜ìŠ¤íŠ¸ ì™„ë£Œ");
     }
     #endregion
-
 }
