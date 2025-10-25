@@ -1,0 +1,93 @@
+Timestamp, Level, Source, Message
+21:06:57.486,INFO,GameLogger,=== Game Session Started ===
+21:06:57.931,WARNING,Unity,Minimap: no renderers found for bounds. Check includeLayers.
+21:06:57.938,INFO,Unity,Trigger Entered with: Wall2
+21:06:57.939,INFO,Unity,Trigger Entered with: Wall2
+21:06:57.939,INFO,Unity,Trigger Entered with: Wall2
+21:06:57.939,INFO,Unity,Trigger Entered with: Wall2
+21:06:57.939,INFO,Unity,Trigger Entered with: Wall2
+21:07:00.223,INFO,Unity,maxJumpVelocity20
+21:07:02.503,INFO,Unity,벽 점프
+21:07:03.019,DEBUG,PlayerCarrying,집기 조작Rag (UnityEngine.BoxCollider2D)
+21:07:03.022,INFO,Unity,_focus is null
+21:07:03.619,INFO,Unity,더러워짐
+21:07:03.619,INFO,Unity,더러워짐
+21:07:03.639,INFO,Unity,깨끗해짐164
+21:07:03.663,INFO,Unity,깨끗해짐168
+21:07:03.701,INFO,Unity,더러워짐
+21:07:03.766,INFO,Unity,maxJumpVelocity19.92032
+21:07:03.840,INFO,Unity,더러워짐
+21:07:04.296,INFO,Unity,더러워짐
+21:07:04.322,INFO,Unity,더러워짐
+21:07:04.939,INFO,Unity,깨끗해짐92
+21:07:04.961,INFO,Unity,깨끗해짐96
+21:07:04.977,INFO,Unity,깨끗해짐100
+21:07:04.997,INFO,Unity,깨끗해짐104
+21:07:05.017,INFO,Unity,깨끗해짐108
+21:07:05.037,INFO,Unity,깨끗해짐112
+21:07:05.057,INFO,Unity,깨끗해짐116
+21:07:05.081,INFO,Unity,깨끗해짐120
+21:07:05.661,INFO,Unity,indexChamge
+21:07:05.661,INFO,Unity,짐 1충돌
+21:07:05.665,ERROR,Unity,"ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+System.Collections.Generic.List`1[T].get_Item (System.Int32 index) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+PlayerCarrying.CarryingDrop () (at Assets/Scripts/Player/PlayerCarrying.cs:264)
+PlayerCarrying.Update () (at Assets/Scripts/Player/PlayerCarrying.cs:88)
+"
+21:07:06.378,INFO,Unity,더러워짐
+21:07:06.558,INFO,Unity,더러워짐
+21:07:06.657,INFO,Unity,더러워짐
+21:07:07.490,DEBUG,PlayerCarrying,집기 조작Rag (UnityEngine.BoxCollider2D)
+21:07:07.491,INFO,Unity,_focus is null
+21:07:07.497,INFO,Unity,더러워짐
+21:07:07.899,INFO,Unity,maxJumpVelocity19.92032
+21:07:07.937,INFO,Unity,더러워짐
+21:07:09.153,INFO,Unity,maxJumpVelocity19.92032
+21:07:09.800,INFO,Unity,사다리 점프
+21:07:10.419,INFO,Unity,깨끗해짐24
+21:07:10.439,INFO,Unity,깨끗해짐28
+21:07:10.461,INFO,Unity,깨끗해짐31.99999
+21:07:10.482,INFO,Unity,깨끗해짐35.99999
+21:07:10.496,INFO,Unity,깨끗해짐39.99999
+21:07:10.517,INFO,Unity,깨끗해짐43.99999
+21:07:10.538,INFO,Unity,깨끗해짐47.99999
+21:07:10.558,INFO,Unity,깨끗해짐51.99999
+21:07:10.577,INFO,Unity,깨끗해짐55.99999
+21:07:10.597,INFO,Unity,깨끗해짐59.99999
+21:07:10.617,INFO,Unity,깨끗해짐63.99999
+21:07:10.641,INFO,Unity,깨끗해짐67.99999
+21:07:10.661,INFO,Unity,깨끗해짐71.99999
+21:07:10.680,INFO,Unity,깨끗해짐75.99999
+21:07:10.700,INFO,Unity,깨끗해짐79.99999
+21:07:10.720,INFO,Unity,깨끗해짐83.99999
+21:07:10.739,INFO,Unity,깨끗해짐87.99999
+21:07:10.758,INFO,Unity,깨끗해짐91.99999
+21:07:10.778,INFO,Unity,깨끗해짐95.99999
+21:07:10.798,INFO,Unity,깨끗해짐99.99999
+21:07:10.822,INFO,Unity,깨끗해짐104
+21:07:10.837,INFO,Unity,깨끗해짐108
+21:07:10.858,INFO,Unity,깨끗해짐112
+21:07:10.877,INFO,Unity,깨끗해짐116
+21:07:10.901,INFO,Unity,깨끗해짐120
+21:07:10.920,INFO,Unity,깨끗해짐124
+21:07:10.939,INFO,Unity,깨끗해짐128
+21:07:10.963,INFO,Unity,깨끗해짐132
+21:07:10.984,INFO,Unity,깨끗해짐136
+21:07:10.999,INFO,Unity,깨끗해짐140
+21:07:11.020,INFO,Unity,깨끗해짐144
+21:07:11.042,INFO,Unity,깨끗해짐148
+21:07:11.059,INFO,Unity,깨끗해짐152
+21:07:11.079,INFO,Unity,깨끗해짐156
+21:07:11.098,INFO,Unity,깨끗해짐160
+21:07:11.124,INFO,Unity,깨끗해짐164
+21:07:11.139,INFO,Unity,깨끗해짐168
+21:07:11.159,INFO,Unity,깨끗해짐172
+21:07:11.183,INFO,Unity,깨끗해짐176
+21:07:11.199,INFO,Unity,깨끗해짐180
+21:07:11.218,INFO,Unity,깨끗해짐184
+21:07:11.239,INFO,Unity,깨끗해짐188
+21:07:11.260,INFO,Unity,깨끗해짐192
+21:07:11.279,INFO,Unity,깨끗해짐196
+21:07:11.303,INFO,Unity,깨끗해짐200
+21:07:11.318,INFO,Unity,깨끗해짐204
