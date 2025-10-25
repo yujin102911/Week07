@@ -21,11 +21,13 @@ public class PlayerCarrying : MonoBehaviour
     public float stackOffsetY = 0.5f;
     Controller2D controller2D;
     private bool showDropGizmo = false;
+    Vector2 pickUpPos;
+    Vector2 pickUpBox;
     Vector2 lastDropPos;
     Vector2 dropPos;
     float lastObjRadius = 0.25f;
-    public int collideCarrying = 0;
-    BoxCollider2D playerCollider;
+    public int collideCarrying = 0;//충돌한 짐 넘버 (현재 들고있는 것보다 높게 유지해야 안떨어짐)닿은거 이상 다 떨어질거야
+    BoxCollider2D boxCollider2D;
 
     public List<GameObject> carriedObjects = new List<GameObject>();
     public List<Carryable> carryable = new List<Carryable>();
@@ -61,8 +63,8 @@ public class PlayerCarrying : MonoBehaviour
         interactableFilter.SetLayerMask(interactableMask);
         interactableFilter.useTriggers = true;
 
-        if (playerCollider == null)
-            playerCollider = GetComponent<BoxCollider2D>();
+        if (boxCollider2D == null)
+            boxCollider2D = GetComponent<BoxCollider2D>();
     }
 
     private void Update()
@@ -119,9 +121,13 @@ public class PlayerCarrying : MonoBehaviour
             Debug.Log("Cannot pick up: Max carry count reached");
             return;
         }
-        var hits = Physics2D.OverlapBoxAll(
-            new Vector2(transform.position.x + (pickUpRange / 2 * controller2D.collisions.faceDir), transform.position.y),
-            new Vector2(pickUpRange, playerCollider.bounds.size.y), 0f, carryableMask);
+        pickUpPos = new Vector2(transform.position.x + (pickUpRange / 2 * controller2D.collisions.faceDir), transform.position.y);//내 위치의 절반만큼 앞으로
+        pickUpBox = new Vector2(pickUpRange, boxCollider2D.bounds.size.y * 1.1f);//내 높이*1.1f 와 픽업 범위만큼 체크
+        // 주변 오브젝트 배열 가져오기
+        Collider2D[] hits = Physics2D.OverlapBoxAll(pickUpPos, pickUpBox, 0f, carryableMask);
+
+
+
 
         GameObject closestObj = null;
         float minDistance = Mathf.Infinity;
@@ -193,15 +199,19 @@ public class PlayerCarrying : MonoBehaviour
             }
 
             Rigidbody2D rb = obj.GetComponent<Rigidbody2D>();
-            BoxCollider2D box = obj.GetComponent<BoxCollider2D>();
-            Vector2 checkSize = box ? box.size : obj.transform.localScale;
+            SpriteRenderer box = obj.GetComponent<SpriteRenderer>();
+            Vector2 checkSize;
+            if (box != null)
+                checkSize = box.size; // 실제 콜라이더 크기 사용
+            else
+                checkSize = obj.transform.localScale;
 
-            dropOffset = new Vector2((obj.transform.localScale.x + transform.localScale.x) / 2, 0);
-            Vector2 dropPos = (Vector2)transform.position + dropOffset * controller2D.collisions.faceDir;
+            // 플레이어가 바라보는 방향에 드롭 위치 계산
+            dropOffset = new Vector2((box.bounds.size.x + boxCollider2D.bounds.size.x) * controller2D.collisions.faceDir / 2, (box.bounds.size.y - boxCollider2D.bounds.size.y) / 2 + 0.05f);//들고있는 것/2 +플레이어 크기
+            Vector2 dropPos = (Vector2)transform.position + dropOffset;
 
             lastDropPos = dropPos;
-            var objCol = obj.GetComponent<Collider2D>();
-            lastObjSize = objCol ? objCol.bounds.size * 0.9f : Vector2.one * 0.5f;
+            lastObjSize = box ? box.bounds.size * 1f : Vector2.one * 0.5f;//사이즈
             showDropGizmo = true;
 
             Collider2D hit = Physics2D.OverlapBox(dropPos, lastObjSize, 0, LayerMask.GetMask("Obstacle"));
@@ -251,6 +261,7 @@ public class PlayerCarrying : MonoBehaviour
         }
 
         collideCarrying = carriedObjects.Count;
+        GameLogger.Instance.LogDebug(this, $"충돌로 인해 짐 떨어뜨림. 떨어트린 위치 : {carriedObjects.Count}");
         WeightUpdate();
     }
 
@@ -261,6 +272,8 @@ public class PlayerCarrying : MonoBehaviour
             Gizmos.color = Color.red;
             Gizmos.DrawWireCube(lastDropPos, lastObjSize);
         }
+        Gizmos.color = Color.green;
+        Gizmos.DrawWireCube(pickUpPos, pickUpBox);
     }
 
     public void WeightUpdate()
@@ -283,7 +296,71 @@ public class PlayerCarrying : MonoBehaviour
     /// </summary>
     private bool TryUseItemOnWorld()
     {
-        return false;
+        // 1. 들고 있는 아이템 ID 가져오기 (맨손이면 null)
+        string heldItemId = null;
+        if (carriedObjects.Count > 0)
+        {
+            var go0 = carriedObjects[0];
+            if (go0 == null)
+            {
+                // 외부 파괴 → 정리 후 실패 처리
+                carriedObjects.RemoveAt(0);
+                collideCarrying = carriedObjects.Count;
+                WeightUpdate();
+                return false;
+            }
+
+            Carryable topItem = go0.GetComponent<Carryable>();
+            if (topItem == null) { GameLogger.Instance.LogError(this, "0번 인덱스에 있는 아이템이 carryable이 아님"); return false; }
+            heldItemId = topItem.Id;
+        }
+
+        // 2. [수정] TryPickUp과 동일한 사각형 범위로 'interactableMask' 레이어 감지
+        Collider2D[] hits = Physics2D.OverlapBoxAll(
+            new Vector2(transform.position.x + (pickUpRange / 2 * controller2D.collisions.faceDir), transform.position.y),
+            new Vector2(pickUpRange, boxCollider2D.bounds.size.y), 0f, interactableMask); // *<- interactableMask 사용*
+
+        if (hits.Length == 0) return false; // 상호작용할 오브젝트 없음
+
+        // 3. [추가] 감지된 것들 중 가장 가까운 WorldInteractable 오브젝트 찾기
+        GameObject closestObj = null;
+        float minDistance = Mathf.Infinity;
+        WorldInteractable interactable = null; // 가장 가까운 오브젝트의 스크립트
+
+        foreach (Collider2D hit in hits)
+        {
+            // WorldInteractable 스크립트가 있는지 확인
+            if (hit.TryGetComponent<WorldInteractable>(out WorldInteractable tempInteractable))
+            {
+                float distance = Vector2.Distance(transform.position, hit.transform.position);
+                if (distance < minDistance)
+                {
+                    minDistance = distance;
+                    closestObj = hit.gameObject;
+                    interactable = tempInteractable; // 가장 가까운 오브젝트 정보 저장
+                }
+            }
+        }
+
+        // 4. [수정] 가장 가까운 스크립트를 찾았으면 상호작용 시도
+        if (interactable != null)
+        {
+            GameLogger.Instance.LogDebug(this, $"WorldInteractable 감지: {closestObj.name}");
+            bool success = interactable.AttemptInteraction(heldItemId, this); // 상호작용 시도
+
+            if (success)
+            {
+                GameLogger.Instance.LogDebug(this, "상호작용 성공함!!");
+                return true; // 성공했으므로 true 반환 (TryPickUp 실행 안 됨)
+            }
+            else
+            {
+                GameLogger.Instance.LogDebug(this, "상호작용 실패함 (아이템 불일치 등). 줍기 시도.");
+                return false; // 실패했으므로 false 반환 (TryPickUp 실행됨)
+            }
+        }
+
+        return false; // 감지된 콜라이더에 WorldInteractable 스크립트가 없었음
     }
 
     public void ConsumeItem(int index)

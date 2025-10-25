@@ -1,0 +1,4 @@
+Timestamp, Level, Source, Message
+00:14:52.633,INFO,GameLogger,=== Game Session Started ===
+00:14:52.638,WARNING,Unity,DontDestroyOnLoad only works for root GameObjects or components on root GameObjects.
+00:14:53.112,WARNING,Unity,Minimap: no renderers found for bounds. Check includeLayers.

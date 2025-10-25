@@ -1,0 +1,51 @@
+Timestamp, Level, Source, Message
+00:46:51.095,INFO,GameLogger,=== Game Session Started ===
+00:46:51.883,WARNING,Unity,Minimap: no renderers found for bounds. Check includeLayers.
+00:46:53.091,ERROR,Unity,"Screen position out of view frustum (screen pos 342.000000, 450.000000, 0.000000) (Camera rect 0 0 985 456)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+"
+00:46:53.093,ERROR,Unity,"Screen position out of view frustum (screen pos 342.000000, 450.000000, 0.000000) (Camera rect 0 0 985 456)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+"
+00:46:54.138,INFO,Unity,maxJumpVelocity20
+00:46:55.339,DEBUG,PlayerCarrying,쿨타임 지났음
+00:46:55.342,DEBUG,PlayerCarrying,집기 조작토마토 (UnityEngine.CircleCollider2D)
+00:46:55.342,DEBUG,PlayerCarrying,집기 조작Wood (2) (UnityEngine.BoxCollider2D)
+00:46:55.343,DEBUG,PlayerCarrying,집기 조작Wood (1) (UnityEngine.BoxCollider2D)
+00:46:55.343,INFO,Unity,_focus is null
+00:46:56.064,INFO,Unity,막혔어
+00:46:56.535,INFO,Unity,maxJumpVelocity19.68504
+00:47:00.186,INFO,Unity,maxJumpVelocity20
+00:47:01.379,DEBUG,PlayerCarrying,쿨타임 지났음
+00:47:01.381,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+00:47:01.382,DEBUG,PlayerCarrying,집기 조작Wood (2) (UnityEngine.BoxCollider2D)
+00:47:01.382,DEBUG,PlayerCarrying,집기 조작Wood (UnityEngine.BoxCollider2D)
+00:47:01.383,INFO,Unity,_focus is null
+00:47:03.480,INFO,Unity,maxJumpVelocity20
+00:47:04.306,INFO,Unity,maxJumpVelocity20
+00:47:05.094,DEBUG,PlayerCarrying,쿨타임 지났음
+00:47:05.094,DEBUG,PlayerCarrying,집기 조작Wood (UnityEngine.BoxCollider2D)
+00:47:05.096,INFO,Unity,_focus is null
+00:47:06.281,INFO,Unity,maxJumpVelocity20
+00:47:07.143,INFO,Unity,maxJumpVelocity20
+00:47:08.495,INFO,Unity,maxJumpVelocity20
+00:47:09.295,INFO,Unity,Collider닿음
+00:47:10.194,DEBUG,PlayerCarrying,쿨타임 지났음
+00:47:10.195,DEBUG,PlayerCarrying,집기 조작Wood (13) (UnityEngine.BoxCollider2D)
+00:47:10.195,INFO,Unity,_focus is null
+00:47:10.691,INFO,Unity,막혔어
+00:47:11.485,INFO,Unity,maxJumpVelocity19.68504
+00:47:11.857,INFO,Unity,Collider닿음
+00:47:11.858,INFO,Unity,Collider닿음
+00:47:12.476,INFO,Unity,Collider닿음
+00:47:17.947,DEBUG,PlayerCarrying,쿨타임 지났음
+00:47:17.948,DEBUG,PlayerCarrying,집기 조작Wood (13) (UnityEngine.BoxCollider2D)
+00:47:17.949,INFO,Unity,_focus is null
+00:47:18.856,INFO,Unity,막혔어
+00:47:19.484,INFO,Unity,Collider닿음
+00:47:20.998,INFO,Unity,막혔어
+00:47:21.838,INFO,Unity,Collider닿음
+00:47:22.867,INFO,Unity,막혔어
+00:47:23.239,INFO,Unity,Collider닿음
+00:47:24.569,INFO,Unity,막혔어
+00:47:25.765,INFO,Unity,Collider닿음
