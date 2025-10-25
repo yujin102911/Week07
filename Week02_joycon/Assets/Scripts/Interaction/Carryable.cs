@@ -29,7 +29,7 @@ public class Carryable : MonoBehaviour
             rb = GetComponent<Rigidbody2D>();
         rb.gravityScale = 1f+weight * 0.1f;//무게 적용 
         GetComponent<Rigidbody2D>().mass = lxw;//무게 적용
-        player = GameObject.Find("Player").GetComponent<PlayerCarrying>();//플레이어 찾아넣기
+        player = GameObject.FindWithTag("Player").GetComponent<PlayerCarrying>();//플레이어 찾아넣기
         maskObstacle = LayerMask.GetMask("Obstacle");
     }
     private void OnCollisionStay2D(Collision2D collision)
