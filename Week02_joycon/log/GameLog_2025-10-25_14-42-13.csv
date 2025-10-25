@@ -1,0 +1,10 @@
+Timestamp, Level, Source, Message
+14:42:13.160,INFO,GameLogger,=== Game Session Started ===
+14:42:13.340,ERROR,Unity,"MissingComponentException: There is no 'Rigidbody2D' attached to the ""WateringCan"" game object, but a script is trying to access it.
+You probably need to add a Rigidbody2D to the game object ""WateringCan"". Or your script needs to check if the component is attached before using it.
+UnityEngine.Object+MarshalledUnityObject.TryThrowEditorNullExceptionObject (UnityEngine.Object unityObj, System.String parameterName) (at <435b7303fa1046c7aefb885a0b7d525b>:0)
+UnityEngine.Bindings.ThrowHelper.ThrowNullReferenceException (System.Object obj) (at <435b7303fa1046c7aefb885a0b7d525b>:0)
+UnityEngine.Rigidbody2D.set_gravityScale (System.Single value) (at <b3fe56f37676426db2aaaed8984a80ad>:0)
+Carryable.Start () (at Assets/Scripts/Interaction/Carryable.cs:30)
+"
+14:42:13.354,WARNING,Unity,Minimap: no renderers found for bounds. Check includeLayers.
