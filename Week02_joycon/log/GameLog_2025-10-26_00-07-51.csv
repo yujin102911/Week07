@@ -1,0 +1,17 @@
+Timestamp, Level, Source, Message
+00:07:51.964,INFO,GameLogger,=== Game Session Started ===
+00:07:52.186,WARNING,Unity,Minimap: no renderers found for bounds. Check includeLayers.
+00:07:52.200,INFO,Unity,Trigger Entered with: Wall2
+00:07:52.201,INFO,Unity,Trigger Entered with: Wall2
+00:07:52.201,INFO,Unity,Trigger Entered with: Wall2
+00:07:52.202,INFO,Unity,Trigger Entered with: Wall2
+00:07:52.202,INFO,Unity,Trigger Entered with: Wall2
+00:07:56.971,INFO,Unity,maxJumpVelocity20
+00:07:58.096,INFO,Unity,사다리 점프
+00:07:58.788,INFO,Unity,maxJumpVelocity20
+00:08:02.489,INFO,Unity,Clothesline Collision with Bedding
+00:08:08.085,INFO,Unity,Trigger Exit with: Wall2
+00:08:08.086,INFO,Unity,Trigger Exit with: Wall2
+00:08:08.087,INFO,Unity,Trigger Exit with: Wall2
+00:08:08.087,INFO,Unity,Trigger Exit with: Wall2
+00:08:08.087,INFO,Unity,Trigger Exit with: Wall2

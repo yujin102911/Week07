@@ -1,0 +1,40 @@
+Timestamp, Level, Source, Message
+23:54:30.890,INFO,GameLogger,=== Game Session Started ===
+23:54:31.648,WARNING,Unity,Minimap: no renderers found for bounds. Check includeLayers.
+23:54:31.663,INFO,Unity,Trigger Entered with: Wall2
+23:54:31.664,INFO,Unity,Trigger Entered with: Wall2
+23:54:31.664,INFO,Unity,Trigger Entered with: Wall2
+23:54:31.664,INFO,Unity,Trigger Entered with: Wall2
+23:54:31.666,INFO,Unity,Trigger Entered with: Wall2
+23:54:35.555,INFO,Unity,maxJumpVelocity20
+23:54:36.803,INFO,Unity,사다리 점프
+23:54:38.165,INFO,Unity,maxJumpVelocity20
+23:54:38.866,INFO,Unity,maxJumpVelocity20
+23:54:39.570,INFO,Unity,maxJumpVelocity20
+23:54:40.212,INFO,Unity,maxJumpVelocity20
+23:54:40.724,INFO,Unity,벽 점프
+23:54:41.172,INFO,Unity,벽 점프
+23:54:41.799,DEBUG,PlayerCarrying,집기 조작Bedding (UnityEngine.BoxCollider2D)
+23:54:41.800,INFO,Unity,_focus is null
+23:54:41.801,INFO,Unity,Weight Update =0
+23:54:41.802,INFO,Unity,Weight Update2 =1
+23:54:43.167,INFO,Unity,maxJumpVelocity19.92032
+23:54:43.919,INFO,Unity,maxJumpVelocity19.92032
+23:54:44.455,INFO,Unity,사다리 점프
+23:54:44.480,INFO,Unity,indexChamge
+23:54:44.480,INFO,Unity,짐 1충돌
+23:54:44.481,DEBUG,Carryable,"충돌로 인해 짐 떨어뜨림. Fall떨어트린 위치 : (26.24, 14.84, 0.00)"
+23:54:44.482,INFO,Unity,Weight Update =0
+23:54:45.099,DEBUG,PlayerCarrying,집기 조작Bedding (UnityEngine.BoxCollider2D)
+23:54:45.100,INFO,Unity,_focus is null
+23:54:45.101,INFO,Unity,Weight Update =0
+23:54:45.102,INFO,Unity,Weight Update2 =1
+23:54:45.537,INFO,Unity,maxJumpVelocity19.92032
+23:54:46.280,INFO,Unity,사다리 점프
+23:54:46.771,DEBUG,PlayerCarrying,집기 조작Bedding (UnityEngine.BoxCollider2D)
+23:54:46.823,INFO,Unity,Weight Update =0
+23:54:56.958,INFO,Unity,Trigger Exit with: Wall2
+23:54:56.958,INFO,Unity,Trigger Exit with: Wall2
+23:54:56.959,INFO,Unity,Trigger Exit with: Wall2
+23:54:56.960,INFO,Unity,Trigger Exit with: Wall2
+23:54:56.960,INFO,Unity,Trigger Exit with: Wall2
