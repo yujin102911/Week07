@@ -1,0 +1,31 @@
+Timestamp, Level, Source, Message
+00:13:42.133,INFO,GameLogger,=== Game Session Started ===
+00:13:42.140,WARNING,Unity,DontDestroyOnLoad only works for root GameObjects or components on root GameObjects.
+00:13:42.627,WARNING,Unity,Minimap: no renderers found for bounds. Check includeLayers.
+00:13:45.902,INFO,Unity,maxJumpVelocity20
+00:13:47.174,INFO,Unity,maxJumpVelocity20
+00:13:48.112,INFO,Unity,벽 점프
+00:13:49.466,INFO,Unity,maxJumpVelocity20
+00:13:49.965,INFO,Unity,벽 점프
+00:13:50.343,INFO,Unity,벽 점프
+00:13:50.710,INFO,Unity,벽 점프
+00:13:51.293,INFO,Unity,maxJumpVelocity20
+00:13:52.237,INFO,Unity,maxJumpVelocity20
+00:13:52.734,INFO,Unity,벽 점프
+00:13:53.123,INFO,Unity,벽 점프
+00:13:53.588,INFO,Unity,벽 점프
+00:13:54.086,DEBUG,PlayerCarrying,쿨타임 지났음
+00:13:54.087,DEBUG,PlayerCarrying,집기 조작Bedding (UnityEngine.BoxCollider2D)
+00:13:54.088,INFO,Unity,_focus is null
+00:13:55.117,INFO,Unity,indexChamge
+00:13:55.118,INFO,Unity,짐 1충돌
+00:13:56.706,DEBUG,PlayerCarrying,쿨타임 지났음
+00:13:56.706,DEBUG,PlayerCarrying,집기 조작Bedding (UnityEngine.BoxCollider2D)
+00:13:56.707,INFO,Unity,_focus is null
+00:13:57.452,INFO,Unity,maxJumpVelocity19.92032
+00:13:58.022,INFO,Unity,maxJumpVelocity19.92032
+00:13:58.881,INFO,Unity,maxJumpVelocity19.92032
+00:13:59.721,INFO,Unity,사다리 점프
+00:14:00.699,INFO,Unity,사다리 점프
+00:14:01.709,INFO,Unity,막혔어
+00:14:01.954,INFO,Unity,maxJumpVelocity19.92032

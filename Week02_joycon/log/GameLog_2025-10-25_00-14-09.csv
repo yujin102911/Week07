@@ -1,0 +1,30 @@
+Timestamp, Level, Source, Message
+00:14:09.940,INFO,GameLogger,=== Game Session Started ===
+00:14:09.947,WARNING,Unity,DontDestroyOnLoad only works for root GameObjects or components on root GameObjects.
+00:14:10.421,WARNING,Unity,Minimap: no renderers found for bounds. Check includeLayers.
+00:14:14.269,INFO,Unity,maxJumpVelocity20
+00:14:15.591,INFO,Unity,maxJumpVelocity20
+00:14:16.637,INFO,Unity,maxJumpVelocity20
+00:14:17.900,INFO,Unity,maxJumpVelocity20
+00:14:18.901,INFO,Unity,maxJumpVelocity20
+00:14:19.497,INFO,Unity,벽 점프
+00:14:20.929,INFO,Unity,maxJumpVelocity20
+00:14:22.599,INFO,Unity,maxJumpVelocity20
+00:14:23.264,INFO,Unity,벽 점프
+00:14:24.345,INFO,Unity,maxJumpVelocity20
+00:14:25.477,INFO,Unity,maxJumpVelocity20
+00:14:26.340,INFO,Unity,벽 점프
+00:14:26.702,INFO,Unity,벽 점프
+00:14:27.079,INFO,Unity,벽 점프
+00:14:27.667,INFO,Unity,벽 점프
+00:14:28.578,INFO,Unity,maxJumpVelocity20
+00:14:30.783,INFO,Unity,maxJumpVelocity20
+00:14:33.522,INFO,Unity,벽 점프
+00:14:33.952,INFO,Unity,벽 점프
+00:14:34.394,INFO,Unity,maxJumpVelocity20
+00:14:37.336,INFO,Unity,maxJumpVelocity20
+00:14:37.789,INFO,Unity,벽 점프
+00:14:38.152,INFO,Unity,벽 점프
+00:14:38.565,INFO,Unity,벽 점프
+00:14:39.639,INFO,Unity,maxJumpVelocity20
+00:14:40.152,INFO,Unity,벽 점프
