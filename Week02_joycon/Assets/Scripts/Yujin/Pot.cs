@@ -61,7 +61,7 @@ public class Pot : MonoBehaviour, IInteractable
         if (isCooked == true) return;
         if (isReadyToCook == false) return;
         if (currentStove == null) return;
-        if (!currentStove.isFueled == true) return;
+        if (currentStove.isFueled == false) return;
 
         Cook();
     }
