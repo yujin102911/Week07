@@ -7,7 +7,8 @@ public class Watering : MonoBehaviour
     [SerializeField] GameObject activeObject;
     [SerializeField] Carryable carryable;
     [SerializeField] bool treeDetact;
-    Vector2 dropOffset;
+    Vector2 wateringOffset;
+    Vector2 wateringSize;
     void Start()
     {
         if (carryable == null)
@@ -17,8 +18,9 @@ public class Watering : MonoBehaviour
     {
         if (carryable.carrying)
         {
-            dropOffset = new Vector3(1.5f * -transform.localScale.y, 0, 0);//내 y스케일에 따라 오른쪽이나 왼쪽
-            Collider2D[] hits = Physics2D.OverlapBoxAll((Vector2)transform.position + dropOffset, new Vector2(0.25f, 0.5f), 0);
+            wateringOffset = new Vector3(1.5f * -transform.localScale.y, 0, 0);//내 y스케일에 따라 오른쪽이나 왼쪽
+            wateringSize = new Vector2(transform.localScale.x/2, Mathf.Abs(transform.localScale.y));
+            Collider2D[] hits = Physics2D.OverlapBoxAll((Vector2)transform.position + wateringOffset, wateringSize, 0);
             if (hits.Length == 0)
             {
                 Debug.Log("No hits detected.");
@@ -57,6 +59,6 @@ public class Watering : MonoBehaviour
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.green;
-        Gizmos.DrawWireCube((Vector2)transform.position + dropOffset, new Vector2(0.25f, 0.5f));
+        Gizmos.DrawWireCube((Vector2)transform.position + wateringOffset, wateringSize);
     }
 }
