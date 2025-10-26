@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Unity.Cinemachine;
+using UnityEngine;
 using UnityEngine.InputSystem;
 
 [RequireComponent(typeof(Player))]
@@ -8,11 +9,13 @@ public class PlayerInputHandler : MonoBehaviour
 {
     private Player player;
     private PlayerCarrying playerCarrying;
+    private PlayerGeneralInteract playerGeneralInteract;
 
     private void Awake()
     {
         player = GetComponent<Player>();
         playerCarrying = GetComponent<PlayerCarrying>();
+        playerGeneralInteract = GetComponent<PlayerGeneralInteract>();
     }
 
     public void OnMove(InputAction.CallbackContext context)
@@ -43,7 +46,7 @@ public class PlayerInputHandler : MonoBehaviour
     {
         if (context.performed)
         {
-            playerCarrying.TryInteract();
+            if (playerGeneralInteract.FindAndInteract() == false) playerCarrying.TryInteract();
             InputSnapshot.Interact = true;
         }
     }
