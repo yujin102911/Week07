@@ -1,0 +1,312 @@
+Timestamp, Level, Source, Message
+22:43:49.340,INFO,GameLogger,=== Game Session Started ===
+22:43:49.519,WARNING,Unity,Minimap: no renderers found for bounds. Check includeLayers.
+22:43:49.533,INFO,Unity,Trigger Entered with: Wall2
+22:43:49.534,INFO,Unity,Trigger Entered with: Wall2
+22:43:49.534,INFO,Unity,Trigger Entered with: Wall2
+22:43:49.534,INFO,Unity,Trigger Entered with: Wall2
+22:43:49.535,INFO,Unity,Trigger Entered with: Wall2
+22:44:10.225,INFO,Unity,maxJumpVelocity20
+22:44:11.072,INFO,Unity,maxJumpVelocity20
+22:44:12.243,INFO,Unity,사다리 점프
+22:44:15.478,INFO,Unity,maxJumpVelocity20
+22:44:16.170,INFO,Unity,사다리 점프
+22:44:16.733,INFO,Unity,maxJumpVelocity20
+22:44:17.749,INFO,Unity,사다리 점프
+22:44:18.371,INFO,Unity,maxJumpVelocity20
+22:44:18.909,INFO,Unity,Trigger Entered with: ===Player===
+22:44:18.967,INFO,Unity,Trigger Entered with: ===Player===
+22:44:18.988,INFO,Unity,Trigger Exit with: ===Player===
+22:44:19.169,INFO,Unity,Trigger Entered with: ===Player===
+22:44:19.188,INFO,Unity,Trigger Exit with: ===Player===
+22:44:19.368,INFO,Unity,Trigger Entered with: ===Player===
+22:44:19.407,INFO,Unity,Trigger Exit with: ===Player===
+22:44:19.522,INFO,Unity,maxJumpVelocity20
+22:44:19.609,INFO,Unity,Trigger Exit with: ===Player===
+22:44:40.410,INFO,Unity,maxJumpVelocity20
+22:44:41.024,INFO,Unity,maxJumpVelocity20
+22:44:42.157,INFO,Unity,사다리 점프
+22:44:47.558,INFO,Unity,maxJumpVelocity20
+22:44:47.866,INFO,Unity,벽 점프
+22:44:48.542,INFO,Unity,maxJumpVelocity20
+22:44:49.241,INFO,Unity,사다리 점프
+22:44:49.831,INFO,Unity,maxJumpVelocity20
+22:44:50.751,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+22:44:52.570,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+22:44:53.970,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 17
+22:44:57.429,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+22:44:57.681,INFO,Unity,maxJumpVelocity20
+22:44:57.941,WARNING,Unity,Internal: JobTempAlloc has allocations that are more than the maximum lifespan of 4 frames old - this is not allowed and likely a leak
+22:44:57.942,WARNING,Unity,"To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations."
+22:44:59.679,INFO,Unity,maxJumpVelocity20
+22:44:59.990,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 17
+22:45:00.287,INFO,Unity,사다리 코요테 점프
+22:45:01.163,DEBUG,PlayerCarrying,집기 조작Box (UnityEngine.BoxCollider2D)
+22:45:01.165,INFO,Unity,_focus is null
+22:45:01.165,INFO,Unity,Weight Update =0
+22:45:01.165,INFO,Unity,Weight Update2 =10
+22:45:01.262,WARNING,Unity,Internal: JobTempAlloc has allocations that are more than the maximum lifespan of 4 frames old - this is not allowed and likely a leak
+22:45:01.262,WARNING,Unity,"To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations."
+22:45:02.336,INFO,Unity,Weight Update =0
+22:45:02.992,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 17
+22:45:03.726,INFO,Unity,maxJumpVelocity20
+22:45:03.942,DEBUG,PlayerCarrying,집기 조작Box (UnityEngine.BoxCollider2D)
+22:45:03.944,INFO,Unity,_focus is null
+22:45:03.944,INFO,Unity,Weight Update =0
+22:45:03.944,INFO,Unity,Weight Update2 =10
+22:45:05.134,INFO,Unity,maxJumpVelocity19.23077
+22:45:06.033,INFO,Unity,maxJumpVelocity19.23077
+22:45:06.857,INFO,Unity,maxJumpVelocity19.23077
+22:45:07.192,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 17
+22:45:07.877,INFO,Unity,maxJumpVelocity19.23077
+22:45:09.514,INFO,Unity,maxJumpVelocity19.23077
+22:45:09.808,INFO,Unity,indexChamge
+22:45:09.808,INFO,Unity,짐 1충돌
+22:45:09.810,DEBUG,Carryable,"충돌로 인해 짐 떨어뜨림. Fall떨어트린 위치 : (12.35, -11.89, 0.00)"
+22:45:09.811,INFO,Unity,Weight Update =0
+22:45:10.664,INFO,Unity,maxJumpVelocity20
+22:45:10.750,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+22:45:10.880,DEBUG,PlayerCarrying,집기 조작Box (UnityEngine.BoxCollider2D)
+22:45:10.881,INFO,Unity,_focus is null
+22:45:10.881,INFO,Unity,Weight Update =0
+22:45:10.882,INFO,Unity,Weight Update2 =10
+22:45:11.890,INFO,Unity,Weight Update =0
+22:45:12.473,INFO,Unity,maxJumpVelocity20
+22:45:13.251,INFO,Unity,maxJumpVelocity20
+22:45:14.392,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 17
+22:45:16.270,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 17
+22:45:17.267,INFO,Unity,maxJumpVelocity20
+22:45:17.918,INFO,Unity,사다리 점프
+22:45:18.378,DEBUG,PlayerCarrying,집기 조작Rag (UnityEngine.BoxCollider2D)
+22:45:18.378,INFO,Unity,_focus is null
+22:45:18.378,INFO,Unity,Weight Update =0
+22:45:18.379,INFO,Unity,Weight Update2 =1
+22:45:18.746,INFO,Unity,더러워짐
+22:45:18.746,INFO,Unity,더러워짐
+22:45:18.767,INFO,Unity,깨끗해짐164
+22:45:18.788,INFO,Unity,깨끗해짐168
+22:45:18.806,INFO,Unity,깨끗해짐172
+22:45:18.827,INFO,Unity,깨끗해짐176
+22:45:18.831,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 17
+22:45:18.848,INFO,Unity,깨끗해짐180
+22:45:18.868,INFO,Unity,깨끗해짐184
+22:45:18.887,INFO,Unity,깨끗해짐188
+22:45:18.908,INFO,Unity,깨끗해짐192
+22:45:18.926,INFO,Unity,깨끗해짐196
+22:45:18.947,INFO,Unity,깨끗해짐200
+22:45:19.775,INFO,Unity,maxJumpVelocity19.92032
+22:45:19.787,INFO,Unity,더러워짐
+22:45:19.848,INFO,Unity,더러워짐
+22:45:19.849,INFO,Unity,더러워짐
+22:45:20.390,DEBUG,PlayerCarrying,집기 조작Rag (UnityEngine.BoxCollider2D)
+22:45:20.391,DEBUG,PlayerCarrying,집기 조작샴푸 (UnityEngine.BoxCollider2D)
+22:45:20.391,INFO,Unity,_focus is null
+22:45:20.391,INFO,Unity,Weight Update =0
+22:45:20.392,INFO,Unity,Weight Update2 =2
+22:45:20.980,INFO,Unity,Weight Update =0
+22:45:20.980,INFO,Unity,Weight Update2 =1
+22:45:21.231,DEBUG,PlayerCarrying,집기 조작Rag (UnityEngine.BoxCollider2D)
+22:45:21.231,DEBUG,PlayerCarrying,집기 조작샴푸 (UnityEngine.BoxCollider2D)
+22:45:21.231,INFO,Unity,_focus is null
+22:45:21.232,INFO,Unity,Weight Update =0
+22:45:21.232,INFO,Unity,Weight Update2 =2
+22:45:21.233,DEBUG,BathController,물탱크를 작동시키고 욕조에 물을 채우기 시작햇삼
+22:45:22.070,INFO,Unity,Weight Update =0
+22:45:22.071,INFO,Unity,Weight Update2 =1
+22:45:22.090,DEBUG,ShowerMimic,재료 배치 완료: Shampoo
+22:45:22.257,DEBUG,BathController,이미 물 차는 중
+22:45:23.107,INFO,Unity,깨끗해짐144
+22:45:23.128,INFO,Unity,깨끗해짐148
+22:45:23.146,INFO,Unity,깨끗해짐152
+22:45:23.168,INFO,Unity,깨끗해짐156
+22:45:23.186,INFO,Unity,깨끗해짐160
+22:45:23.207,INFO,Unity,깨끗해짐164
+22:45:23.229,INFO,Unity,깨끗해짐168
+22:45:23.413,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+22:45:23.876,INFO,Unity,maxJumpVelocity19.92032
+22:45:24.508,INFO,Unity,더러워짐
+22:45:24.549,INFO,Unity,더러워짐
+22:45:25.626,INFO,Unity,더러워짐
+22:45:25.667,INFO,Unity,더러워짐
+22:45:26.026,INFO,Unity,maxJumpVelocity19.92032
+22:45:26.048,INFO,Unity,더러워짐
+22:45:26.068,INFO,Unity,더러워짐
+22:45:26.231,DEBUG,BathController,욕조에 물이 다찼다
+22:45:26.710,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+22:45:27.086,INFO,Unity,더러워짐
+22:45:27.366,INFO,Unity,더러워짐
+22:45:30.446,INFO,Unity,maxJumpVelocity19.92032
+22:45:31.060,INFO,Unity,사다리 점프
+22:45:31.151,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+22:45:31.469,WARNING,Unity,Internal: JobTempAlloc has allocations that are more than the maximum lifespan of 4 frames old - this is not allowed and likely a leak
+22:45:31.469,WARNING,Unity,"To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations."
+22:45:31.587,INFO,Unity,깨끗해짐24
+22:45:31.606,INFO,Unity,깨끗해짐28
+22:45:31.629,INFO,Unity,깨끗해짐31.99999
+22:45:31.647,INFO,Unity,깨끗해짐35.99999
+22:45:31.668,INFO,Unity,깨끗해짐39.99999
+22:45:31.687,INFO,Unity,깨끗해짐43.99999
+22:45:31.707,INFO,Unity,깨끗해짐47.99999
+22:45:31.727,INFO,Unity,깨끗해짐51.99999
+22:45:31.746,INFO,Unity,깨끗해짐55.99999
+22:45:31.766,INFO,Unity,깨끗해짐59.99999
+22:45:31.787,INFO,Unity,깨끗해짐63.99999
+22:45:31.808,INFO,Unity,깨끗해짐67.99999
+22:45:31.827,INFO,Unity,깨끗해짐71.99999
+22:45:31.846,INFO,Unity,깨끗해짐75.99999
+22:45:31.868,INFO,Unity,깨끗해짐79.99999
+22:45:31.887,INFO,Unity,깨끗해짐83.99999
+22:45:31.906,INFO,Unity,깨끗해짐87.99999
+22:45:31.929,INFO,Unity,깨끗해짐91.99999
+22:45:31.948,INFO,Unity,깨끗해짐95.99999
+22:45:31.967,INFO,Unity,깨끗해짐99.99999
+22:45:31.988,INFO,Unity,깨끗해짐104
+22:45:32.007,INFO,Unity,깨끗해짐108
+22:45:32.026,INFO,Unity,깨끗해짐112
+22:45:32.049,INFO,Unity,깨끗해짐116
+22:45:32.066,INFO,Unity,깨끗해짐120
+22:45:32.087,INFO,Unity,깨끗해짐124
+22:45:32.106,INFO,Unity,깨끗해짐128
+22:45:32.128,INFO,Unity,깨끗해짐132
+22:45:32.146,INFO,Unity,깨끗해짐136
+22:45:32.169,INFO,Unity,깨끗해짐140
+22:45:32.187,INFO,Unity,깨끗해짐144
+22:45:32.206,INFO,Unity,깨끗해짐148
+22:45:32.228,INFO,Unity,깨끗해짐152
+22:45:32.247,INFO,Unity,깨끗해짐156
+22:45:32.266,INFO,Unity,깨끗해짐160
+22:45:32.286,INFO,Unity,깨끗해짐164
+22:45:32.308,INFO,Unity,깨끗해짐168
+22:45:32.329,INFO,Unity,깨끗해짐172
+22:45:32.348,INFO,Unity,깨끗해짐176
+22:45:32.366,INFO,Unity,깨끗해짐180
+22:45:32.388,INFO,Unity,깨끗해짐184
+22:45:32.408,INFO,Unity,깨끗해짐188
+22:45:32.428,INFO,Unity,깨끗해짐192
+22:45:32.447,INFO,Unity,깨끗해짐196
+22:45:32.466,INFO,Unity,깨끗해짐200
+22:45:32.487,INFO,Unity,깨끗해짐204
+22:45:33.067,INFO,Unity,더러워짐
+22:45:33.378,INFO,Unity,maxJumpVelocity19.92032
+22:45:33.488,INFO,Unity,깨끗해짐187
+22:45:33.507,INFO,Unity,깨끗해짐191
+22:45:33.527,INFO,Unity,깨끗해짐195
+22:45:33.546,INFO,Unity,깨끗해짐199
+22:45:33.567,INFO,Unity,깨끗해짐203
+22:45:34.348,INFO,Unity,더러워짐
+22:45:34.506,INFO,Unity,더러워짐
+22:45:35.227,INFO,Unity,더러워짐
+22:45:35.228,INFO,Unity,더러워짐
+22:45:35.293,INFO,Unity,maxJumpVelocity19.92032
+22:45:35.571,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+22:45:35.867,INFO,Unity,더러워짐
+22:45:36.038,INFO,Unity,사다리 점프
+22:45:36.632,INFO,Unity,maxJumpVelocity19.92032
+22:45:37.350,INFO,Unity,사다리 점프
+22:45:37.789,INFO,Unity,maxJumpVelocity19.92032
+22:45:38.295,INFO,Unity,사다리 점프
+22:45:38.848,INFO,Unity,더러워짐
+22:45:39.047,INFO,Unity,더러워짐
+22:45:39.106,INFO,Unity,더러워짐
+22:45:39.165,INFO,Unity,더러워짐
+22:45:39.177,INFO,Unity,maxJumpVelocity19.92032
+22:45:39.850,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+22:45:40.063,INFO,Unity,사다리 점프
+22:45:40.528,INFO,Unity,깨끗해짐27
+22:45:40.546,INFO,Unity,깨끗해짐31
+22:45:40.568,INFO,Unity,깨끗해짐35
+22:45:40.587,INFO,Unity,깨끗해짐39
+22:45:40.608,INFO,Unity,깨끗해짐43
+22:45:40.626,INFO,Unity,깨끗해짐47
+22:45:40.647,INFO,Unity,깨끗해짐51
+22:45:40.666,INFO,Unity,깨끗해짐55
+22:45:40.687,INFO,Unity,깨끗해짐59
+22:45:40.708,INFO,Unity,깨끗해짐63
+22:45:40.729,INFO,Unity,깨끗해짐66.99999
+22:45:40.746,INFO,Unity,깨끗해짐70.99999
+22:45:40.769,INFO,Unity,깨끗해짐74.99999
+22:45:40.788,INFO,Unity,깨끗해짐78.99999
+22:45:40.807,INFO,Unity,깨끗해짐82.99999
+22:45:40.828,INFO,Unity,깨끗해짐86.99999
+22:45:40.846,INFO,Unity,깨끗해짐90.99999
+22:45:40.867,INFO,Unity,깨끗해짐94.99999
+22:45:40.888,INFO,Unity,깨끗해짐98.99999
+22:45:40.906,INFO,Unity,깨끗해짐103
+22:45:40.928,INFO,Unity,깨끗해짐107
+22:45:40.945,INFO,Unity,깨끗해짐111
+22:45:40.968,INFO,Unity,깨끗해짐115
+22:45:40.988,INFO,Unity,깨끗해짐119
+22:45:41.009,INFO,Unity,깨끗해짐123
+22:45:41.026,INFO,Unity,깨끗해짐127
+22:45:41.047,INFO,Unity,깨끗해짐131
+22:45:41.068,INFO,Unity,깨끗해짐135
+22:45:41.088,INFO,Unity,깨끗해짐139
+22:45:41.107,INFO,Unity,깨끗해짐143
+22:45:41.128,INFO,Unity,깨끗해짐147
+22:45:41.148,INFO,Unity,깨끗해짐151
+22:45:41.167,INFO,Unity,깨끗해짐155
+22:45:41.186,INFO,Unity,깨끗해짐159
+22:45:41.207,INFO,Unity,깨끗해짐163
+22:45:41.228,INFO,Unity,깨끗해짐167
+22:45:41.246,INFO,Unity,깨끗해짐171
+22:45:41.268,INFO,Unity,깨끗해짐175
+22:45:41.288,INFO,Unity,깨끗해짐179
+22:45:41.306,INFO,Unity,깨끗해짐183
+22:45:41.328,INFO,Unity,깨끗해짐187
+22:45:41.349,INFO,Unity,깨끗해짐191
+22:45:41.367,INFO,Unity,깨끗해짐195
+22:45:41.389,INFO,Unity,깨끗해짐199
+22:45:41.408,INFO,Unity,깨끗해짐203
+22:45:43.890,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 21
+22:45:48.591,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 21
+22:45:50.252,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 21
+22:45:51.471,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+22:45:54.951,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+22:45:56.911,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+22:46:01.530,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+22:46:04.131,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+22:46:08.929,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+22:46:10.431,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+22:46:14.554,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+22:46:17.675,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+22:46:20.832,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+22:46:21.914,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+22:46:24.736,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+22:46:29.594,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+22:46:32.715,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+22:46:36.374,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+22:46:38.333,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+22:46:39.615,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+22:46:41.374,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 17
+22:46:43.293,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 17
+22:46:46.873,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 17
+22:46:48.633,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 17
+22:46:53.495,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+22:46:56.475,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+22:47:00.954,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+22:47:05.793,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+22:47:08.454,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+22:47:10.517,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+22:47:15.495,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+22:47:17.973,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+22:47:21.617,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+22:47:24.357,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+22:47:29.256,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+22:47:32.974,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+22:47:35.654,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+22:47:37.154,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+22:47:42.054,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+22:47:46.253,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+22:47:47.974,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+22:47:49.256,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+22:47:52.792,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+22:47:54.995,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+22:47:59.254,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+22:48:01.535,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+22:48:04.971,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+22:48:07.455,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+22:48:08.386,INFO,Unity,Trigger Exit with: Wall2
+22:48:08.386,INFO,Unity,Trigger Exit with: Wall2
+22:48:08.387,INFO,Unity,Trigger Exit with: Wall2
+22:48:08.387,INFO,Unity,Trigger Exit with: Wall2
+22:48:08.387,INFO,Unity,Trigger Exit with: Wall2

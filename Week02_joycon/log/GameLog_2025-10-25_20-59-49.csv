@@ -1,0 +1,103 @@
+Timestamp, Level, Source, Message
+20:59:49.667,INFO,GameLogger,=== Game Session Started ===
+20:59:49.871,WARNING,Unity,Minimap: no renderers found for bounds. Check includeLayers.
+20:59:49.880,INFO,Unity,Trigger Entered with: Wall2
+20:59:49.880,INFO,Unity,Trigger Entered with: Wall2
+20:59:49.881,INFO,Unity,Trigger Entered with: Wall2
+20:59:49.881,INFO,Unity,Trigger Entered with: Wall2
+20:59:49.882,INFO,Unity,Trigger Entered with: Wall2
+20:59:53.355,INFO,Unity,maxJumpVelocity20
+20:59:54.237,INFO,Unity,사다리 점프
+20:59:55.329,INFO,Unity,사다리 점프
+20:59:55.854,INFO,Unity,사다리 점프
+20:59:56.925,INFO,Unity,maxJumpVelocity20
+20:59:57.734,INFO,Unity,사다리 점프
+20:59:58.259,INFO,Unity,maxJumpVelocity20
+20:59:58.931,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+20:59:58.933,INFO,Unity,_focus is null
+20:59:59.462,INFO,Unity,maxJumpVelocity19.68504
+21:00:00.318,INFO,Unity,nal닿음
+21:00:00.337,INFO,Unity,Trigger닿음
+21:00:00.356,INFO,Unity,Trigger닿음
+21:00:00.380,INFO,Unity,Trigger닿음
+21:00:00.479,INFO,Unity,Trigger닿음
+21:00:01.437,INFO,Unity,nal닿음
+21:00:01.459,INFO,Unity,nal닿음
+21:00:01.477,INFO,Unity,nal닿음
+21:00:01.949,INFO,Unity,사다리 코요테 점프
+21:00:02.359,INFO,Unity,Collider닿음
+21:00:02.375,INFO,Unity,Collider닿음
+21:00:02.478,INFO,Unity,Collider닿음
+21:00:02.619,INFO,Unity,Collider닿음
+21:00:02.638,INFO,Unity,nal닿음
+21:00:02.639,INFO,Unity,Collider닿음
+21:00:02.698,INFO,Unity,nal닿음
+21:00:02.777,INFO,Unity,Collider닿음
+21:00:02.800,INFO,Unity,Collider닿음
+21:00:02.819,INFO,Unity,Trigger닿음
+21:00:02.819,INFO,Unity,nal닿음
+21:00:02.838,INFO,Unity,Trigger닿음
+21:00:02.838,INFO,Unity,nal닿음
+21:00:02.877,INFO,Unity,Collider닿음
+21:00:02.878,INFO,Unity,nal닿음
+21:00:02.879,INFO,Unity,Trigger닿음
+21:00:02.916,INFO,Unity,Collider닿음
+21:00:03.159,INFO,Unity,Collider닿음
+21:00:03.476,INFO,Unity,Collider닿음
+21:00:03.587,INFO,Unity,사다리 점프
+21:00:03.876,INFO,Unity,Collider닿음
+21:00:04.099,INFO,Unity,Collider닿음
+21:00:04.319,INFO,Unity,사다리 점프
+21:00:04.338,INFO,Unity,Collider닿음
+21:00:04.537,INFO,Unity,Collider닿음
+21:00:04.937,INFO,Unity,Trigger닿음
+21:00:04.938,INFO,Unity,nal닿음
+21:00:04.979,INFO,Unity,nal닿음
+21:00:04.979,INFO,Unity,Trigger닿음
+21:00:05.036,INFO,Unity,nal닿음
+21:00:05.036,INFO,Unity,Trigger닿음
+21:00:05.076,INFO,Unity,Trigger닿음
+21:00:05.077,INFO,Unity,nal닿음
+21:00:05.117,INFO,Unity,Trigger닿음
+21:00:05.117,INFO,Unity,nal닿음
+21:00:05.137,INFO,Unity,Collider닿음
+21:00:05.156,INFO,Unity,nal닿음
+21:00:05.156,INFO,Unity,Trigger닿음
+21:00:05.199,INFO,Unity,nal닿음
+21:00:05.199,INFO,Unity,Trigger닿음
+21:00:05.379,INFO,Unity,Collider닿음
+21:00:05.558,INFO,Unity,Collider닿음
+21:00:05.699,INFO,Unity,Collider닿음
+21:00:06.106,INFO,Unity,maxJumpVelocity19.68504
+21:00:06.739,INFO,Unity,Trigger닿음
+21:00:06.740,INFO,Unity,nal닿음
+21:00:06.758,INFO,Unity,nal닿음
+21:00:06.758,INFO,Unity,Trigger닿음
+21:00:06.759,INFO,Unity,nal닿음
+21:00:06.759,INFO,Unity,Trigger닿음
+21:00:06.846,INFO,Unity,maxJumpVelocity19.68504
+21:00:07.500,INFO,Unity,Trigger닿음
+21:00:07.500,INFO,Unity,nal닿음
+21:00:07.501,INFO,Unity,Trigger닿음
+21:00:07.501,INFO,Unity,nal닿음
+21:00:07.533,INFO,Unity,maxJumpVelocity19.68504
+21:00:08.353,INFO,Unity,maxJumpVelocity19.68504
+21:00:10.236,INFO,Unity,nal닿음
+21:00:10.237,INFO,Unity,Trigger닿음
+21:00:10.279,INFO,Unity,indexChamge
+21:00:10.279,INFO,Unity,짐 1충돌
+21:00:10.284,ERROR,Unity,"ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+System.Collections.Generic.List`1[T].get_Item (System.Int32 index) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+PlayerCarrying.CarryingDrop () (at Assets/Scripts/Player/PlayerCarrying.cs:264)
+PlayerCarrying.Update () (at Assets/Scripts/Player/PlayerCarrying.cs:88)
+"
+21:00:11.446,INFO,Unity,maxJumpVelocity19.68504
+21:00:12.995,INFO,Unity,maxJumpVelocity19.68504
+21:00:13.150,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+21:00:13.150,INFO,Unity,_focus is null
+21:00:14.727,INFO,Unity,Trigger Exit with: Wall2
+21:00:14.727,INFO,Unity,Trigger Exit with: Wall2
+21:00:14.727,INFO,Unity,Trigger Exit with: Wall2
+21:00:14.727,INFO,Unity,Trigger Exit with: Wall2
+21:00:14.728,INFO,Unity,Trigger Exit with: Wall2
