@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class SpriteSwitcher : MonoBehaviour, IInteractable
 {
-    [SerializeField] private GameObject spriteObjectA; //ÃÊ±â¿¡ È°¼ºÈ­ µÇ¾îÀÖ´Â ¿ÀºêÁ§Æ® ¿¬°á
-    [SerializeField] private GameObject spriteObjectB; //A¸¦ ºñÈ°¼ºÈ­ÇÏ°í È°¼ºÈ­ ÇÒ ¿ÀºêÁ§Æ® ¿¬°á
+    [SerializeField] private GameObject spriteObjectA; //ï¿½Ê±â¿¡ È°ï¿½ï¿½È­ ï¿½Ç¾ï¿½ï¿½Ö´ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ® ï¿½ï¿½ï¿½ï¿½
+    [SerializeField] private GameObject spriteObjectB; //Aï¿½ï¿½ ï¿½ï¿½È°ï¿½ï¿½È­ï¿½Ï°ï¿½ È°ï¿½ï¿½È­ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ® ï¿½ï¿½ï¿½ï¿½
 
     private bool hasSwithced = false;
 
@@ -12,21 +12,23 @@ public class SpriteSwitcher : MonoBehaviour, IInteractable
         if (spriteObjectA != null)
         {
             spriteObjectA.SetActive(true);
-        }if (spriteObjectB != null)
+        }
+        if (spriteObjectB != null)
         {
             spriteObjectB.SetActive(false);
         }
     }
 
-    public void Interact()
+    public bool Interact()
     {
         if (!hasSwithced)
         {
             if (spriteObjectA != null) { spriteObjectA.SetActive(false); }
             if (spriteObjectB != null) { spriteObjectB.SetActive(true); }
-            hasSwithced=true;
-            GameLogger.Instance.LogDebug(this, $"{spriteObjectA.name}¸¦ ºñÈ°¼ºÈ­ÇÏ°í {spriteObjectB.name}À» È°¼ºÈ­ Çß½À´Ï´Ù.");
+            hasSwithced = true;
+            GameLogger.Instance.LogDebug(this, $"{spriteObjectA.name}ï¿½ï¿½ ï¿½ï¿½È°ï¿½ï¿½È­ï¿½Ï°ï¿½ {spriteObjectB.name}ï¿½ï¿½ È°ï¿½ï¿½È­ ï¿½ß½ï¿½ï¿½Ï´ï¿½.");
+            return true;
         }
+        return false;
     }
-
 }

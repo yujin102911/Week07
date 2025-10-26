@@ -15,6 +15,8 @@ public enum FlagId
     Mimic_Happy,
     Dust_AllCleared,
     Boxes_StoredAll,
+    Table_Used,
+    DryingRack,
 }
 
 public enum ObjectiveType : byte

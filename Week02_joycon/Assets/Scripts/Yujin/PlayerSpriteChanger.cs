@@ -2,36 +2,39 @@ using UnityEngine;
 
 public class PlayerSpriteChanger : MonoBehaviour, IInteractable
 {
-    [Tooltip("ÇÃ·¹ÀÌ¾î¿¡°Ô Àû¿ëÇÒ »õ·Î¿î ½ºÇÁ¶óÀÌÆ®")]
+    [Tooltip("ï¿½Ã·ï¿½ï¿½Ì¾î¿¡ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Î¿ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ®")]
     [SerializeField] private Sprite newLookSprite;
 
-    ///<summary>IInteractable¿ä±¸»çÇ× ÇÔ¼ö</summary>
-    public void Interact()
+    ///<summary>IInteractableï¿½ä±¸ï¿½ï¿½ï¿½ï¿½ ï¿½Ô¼ï¿½</summary>
+    public bool Interact()
     {
         Player playerScript = FindObjectOfType<Player>();
         if (playerScript != null)
         {
             ChangePlayerSpriteOnInteract(playerScript);
+            return true;
         }
+
         else
         {
-            GameLogger.Instance.LogError(this, "»óÈ£ÀÛ¿ë ½ÇÆÐ: ¾À¿¡¼­ Player½ºÅ©¸³Æ®¸¦ Ã£À» ¼ö ¾øÀ½");
+            GameLogger.Instance.LogError(this, "ï¿½ï¿½È£ï¿½Û¿ï¿½ ï¿½ï¿½ï¿½ï¿½: ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Playerï¿½ï¿½Å©ï¿½ï¿½Æ®ï¿½ï¿½ Ã£ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
+            return false;
         }
     }
 
 
-    ///<summary>ÇÃ·¹ÀÌ¾î°¡ »óÈ£ÀÛ¿ë ½Ã ÀÌ ÇÔ¼ö¸¦ È£Ãâ</summary>
+    ///<summary>ï¿½Ã·ï¿½ï¿½Ì¾î°¡ ï¿½ï¿½È£ï¿½Û¿ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½Ô¼ï¿½ï¿½ï¿½ È£ï¿½ï¿½</summary>
     private void ChangePlayerSpriteOnInteract(Player playerScript)
     {
         if (playerScript != null && newLookSprite != null)
         {
             playerScript.ChangeSprite(newLookSprite);
             gameObject.SetActive(false);
-            GameLogger.Instance.LogDebug(this, $"ÇÃ·¹ÀÌ¾î ½ºÇÁ¶óÀÌÆ®¸¦ {newLookSprite.name}À¸·Î ±³Ã¼ÇÔ");
+            GameLogger.Instance.LogDebug(this, $"ï¿½Ã·ï¿½ï¿½Ì¾ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ {newLookSprite.name}ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ã¼ï¿½ï¿½");
         }
         else
         {
-            GameLogger.Instance.LogError(this, "½ºÇÁ¶óÀÌÆ® º¯°æ ½ÇÆÐ: Player½ºÅ©¸³Æ® ¶Ç´Â newLookSprite°¡ ¾÷½¿");
+            GameLogger.Instance.LogError(this, "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ® ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½: Playerï¿½ï¿½Å©ï¿½ï¿½Æ® ï¿½Ç´ï¿½ newLookSpriteï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
         }
     }
 

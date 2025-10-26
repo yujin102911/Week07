@@ -183,55 +183,147 @@ public class PlayerCarrying : MonoBehaviour
         if (Time.time - lastInteractTime < interactCooldown) return;
         lastInteractTime = Time.time;
 
-        if (carriedObjects.Count > 0)
+        if (carriedObjects.Count <= 0)
         {
-            GameObject obj = carriedObjects[carriedObjects.Count - 1];
-            if (obj == null)
-            {
-                carriedObjects.RemoveAt(carriedObjects.Count - 1);
-                collideCarrying = carriedObjects.Count;
-                WeightUpdate();
-                return;
-            }
-
-            Rigidbody2D rb = obj.GetComponent<Rigidbody2D>();
-            SpriteRenderer box = obj.GetComponent<SpriteRenderer>();
-            Vector2 checkSize;
-            if (box != null)
-                checkSize = box.size; // 실제 콜라이더 크기 사용
-            else
-                checkSize = obj.transform.localScale;
-
-            // 플레이어가 바라보는 방향에 드롭 위치 계산
-            dropOffset = new Vector2((box.bounds.size.x + boxCollider2D.bounds.size.x) * controller2D.collisions.faceDir / 2, (box.bounds.size.y - boxCollider2D.bounds.size.y) / 2 + 0.05f);//들고있는 것/2 +플레이어 크기
-            Vector2 dropPos = (Vector2)transform.position + dropOffset;
-
-            lastDropPos = dropPos;
-            lastObjSize = box ? box.bounds.size * 1f : Vector2.one * 0.5f;//사이즈
-            showDropGizmo = true;
-
-            Collider2D hit = Physics2D.OverlapBox(dropPos, lastObjSize, 0, LayerMask.GetMask("Obstacle"));
-            if (hit != null)
-            {
-                Debug.Log("막혔어");
-                return;
-            }
-
-            if (rb != null)
-            {
-                rb.transform.position = dropPos;
-                rb.bodyType = RigidbodyType2D.Dynamic;
-                rb.freezeRotation = false;
-            }
-
-            Carryable carryable = obj.GetComponent<Carryable>();
-            if (carryable != null) carryable.carrying = false;
-
-            carriedObjects.RemoveAt(carriedObjects.Count - 1);
+            WeightUpdate();
+            return;
         }
 
+        // 스택의 최상단(마지막) 아이템
+        GameObject obj = carriedObjects[carriedObjects.Count - 1];
+
+        // 파괴되어 null이면 즉시 정리
+        if (obj == null)
+        {
+            carriedObjects.RemoveAt(carriedObjects.Count - 1);
+            collideCarrying = carriedObjects.Count; // 필요 시 유지되는 필드
+            WeightUpdate();
+            return;
+        }
+
+        // 필요한 컴포넌트들
+        Rigidbody2D rb = obj.GetComponent<Rigidbody2D>();
+        var objSize = GetBoundsSize(obj);        // 드롭할 오브젝트의 월드 크기
+        var playerSize = GetPlayerBoundsSize();     // 플레이어의 월드 크기
+
+        // faceDir: -1(왼쪽)/+1(오른쪽) 가정
+        int faceDir = controller2D != null ? controller2D.collisions.faceDir : 1;
+
+        // 드롭 오프셋 계산 (기존 수식 일반화)
+        dropOffset = new Vector2(
+            (objSize.x + playerSize.x) * faceDir / 2f,
+            (objSize.y - playerSize.y) / 2f + 0.05f
+        );
+
+        Vector2 dropPos = (Vector2)transform.position + dropOffset;
+
+        // 기즈모/디버그용 기록
+        lastDropPos = dropPos;
+        lastObjSize = objSize * 1.0f;     // 필요하면 0.95f 같은 여유값 적용 가능
+        showDropGizmo = true;
+
+        // 겹침(막힘) 체크: 장애물 레이어와 충돌?
+        // maskObstacle은 LayerMask 필드(예: "Obstacle" 포함)라고 가정
+        int mask = maskObstacle.value;
+        Collider2D hit = Physics2D.OverlapBox(dropPos, lastObjSize, 0f, mask);
+
+        if (hit != null)
+        {
+            // 막혔으면 드롭하지 않고 종료
+            Debug.Log("막혔어");
+            return;
+        }
+
+        // 실제 드롭 수행
+        if (rb != null)
+        {
+            // 들고 있을 때 parent가 플레이어였다면 떼어내기
+            rb.transform.SetParent(null, true);
+
+            // 위치 배치 후 물리 되살리기
+            rb.position = dropPos;
+            rb.bodyType = RigidbodyType2D.Dynamic;
+            rb.freezeRotation = false;
+
+            // 직전의 속도/회전 관성 제거하고 싶다면(옵션):
+            rb.linearVelocity = Vector2.zero;
+            rb.angularVelocity = 0f;
+        }
+        else
+        {
+            // Rigidbody2D가 없더라도 위치만은 내려놓기
+            obj.transform.SetParent(null, true);
+            obj.transform.position = dropPos;
+        }
+
+        // Carryable 상태 갱신
+        if (obj.TryGetComponent<Carryable>(out var carryable))
+        {
+            carryable.carrying = false;
+            if (carryable.GetItemName() != ItemName.None)
+            {
+                InventoryManager.Instance.RemoveItem(carryable.GetItemName());
+            }
+        }
+
+        // 스택에서 제거 및 부가 상태 갱신
+        carriedObjects.RemoveAt(carriedObjects.Count - 1);
+        collideCarrying = carriedObjects.Count; // 유지되는 카운터라면 업데이트
         WeightUpdate();
     }
+
+
+    // 클래스 내부 어딘가에 같이 추가 (재사용 헬퍼)
+    private static Vector2 GetBoundsSize(GameObject go)
+    {
+        if (go == null) return Vector2.zero;
+
+        // 가장 신뢰도 높은: Collider2D
+        if (go.TryGetComponent<Collider2D>(out var col))
+        {
+            var s = col.bounds.size;
+            if (s != Vector3.zero) return (Vector2)s;
+        }
+
+        // 그다음: SpriteRenderer
+        if (go.TryGetComponent<SpriteRenderer>(out var sr))
+        {
+            var s = sr.bounds.size;
+            if (s != Vector3.zero) return (Vector2)s;
+        }
+
+        // 최후 폴백: 월드 스케일(1유닛 = 1m 가정)
+        var ls = go.transform.lossyScale;
+        return new Vector2(Mathf.Abs(ls.x), Mathf.Abs(ls.y));
+    }
+
+    private Vector2 GetPlayerBoundsSize()
+    {
+        // 플레이어 콜라이더가 따로 있으면 우선 사용
+        if (boxCollider2D != null)
+        {
+            var s = boxCollider2D.bounds.size;
+            if (s != Vector3.zero) return (Vector2)s;
+        }
+
+        // 없으면 자기 자신 임의 콜라이더
+        if (TryGetComponent<Collider2D>(out var selfCol))
+        {
+            var s = selfCol.bounds.size;
+            if (s != Vector3.zero) return (Vector2)s;
+        }
+
+        // 폴백: 렌더러 → 스케일
+        if (TryGetComponent<SpriteRenderer>(out var sr))
+        {
+            var s = sr.bounds.size;
+            if (s != Vector3.zero) return (Vector2)s;
+        }
+
+        var ls = transform.lossyScale;
+        return new Vector2(Mathf.Abs(ls.x), Mathf.Abs(ls.y));
+    }
+
 
     public void CarryingDrop()
     {
@@ -242,7 +334,7 @@ public class PlayerCarrying : MonoBehaviour
         for (int i = count - 1; i >= startIndex; --i)
         {
             var go = carriedObjects[i];
-            if (go==null) { carriedObjects.RemoveAt(i); continue; }
+            if (go == null) { carriedObjects.RemoveAt(i); continue; }
 
             if (go.TryGetComponent<Rigidbody2D>(out var rb))
             {

@@ -342,7 +342,7 @@ public class Player : MonoBehaviour
     void CalculateVelocityBase(float dt)//기본 이동 계산
     {
         float targetVelocityX = directionalInput.x * moveSpeed
-    //* Mathf.Exp(playerCarrying.CarryAbleWeight * 0.1f);
+                     //* Mathf.Exp(playerCarrying.CarryAbleWeight * 0.1f);
                      / (1f + playerCarrying.CarryAbleWeight * moveSpeedWeight);
 
         velocity.x = Mathf.SmoothDamp(
