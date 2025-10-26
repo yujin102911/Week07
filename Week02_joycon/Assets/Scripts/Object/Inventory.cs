@@ -9,6 +9,8 @@ public enum ItemName
     Bedding,
     Mimic,
     Key,
+    Tomato,
+    Onion,
 }
 
 public class Inventory

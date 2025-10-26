@@ -34,7 +34,7 @@ public class IngredientReceiver : MonoBehaviour
 
             if (carryable.Id == RequiredId)
             {
-                parentPot.AddTomato();
+                // parentPot.AddTomato();
                 Destroy(other.gameObject);
             }
         }
@@ -50,7 +50,7 @@ public class IngredientReceiver : MonoBehaviour
 
             if (carryable.Id == RequiredId)
             {
-                parentPot.AddTomato();
+                // parentPot.AddTomato();
                 Destroy(other.gameObject);
             }
         }
