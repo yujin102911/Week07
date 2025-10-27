@@ -100,10 +100,15 @@ public class CarryableMimic : Carryable, IInteractable
     {
         if (requiredCoins <= 0) return;
 
-        if (collision.TryGetComponent(out Carryable coin))
+        if (collision.TryGetComponent(out Carryable carryable))
         {
-            if (coin.GetItemName() != ItemName.Coin) return;
-            coins.Add(coin);
+            if (carryable.GetItemName() == ItemName.Coin) coins.Add(carryable);
+            else if (carryable.GetItemName() == ItemName.Shampoo && carryable.carrying == false)
+            {
+                bubbles.SetActive(true);
+                Destroy(collision.gameObject);
+            }
+            else return;
         }
 
         if (collision.CompareTag("Player"))
