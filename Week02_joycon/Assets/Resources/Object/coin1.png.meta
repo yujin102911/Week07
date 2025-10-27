@@ -1,16 +1,10 @@
 fileFormatVersion: 2
-guid: efef4e1a9d828a0458363b04017e3187
+guid: 6dabdc5dbf51f034aa40be055d24744f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -506082907168133177
-    second: dirtymimic_0
-  - first:
-      213: 7330494068405807614
-    second: dirtymimic_1
-  - first:
-      213: -2659702983396673635
-    second: dirtymimic_2
+      213: 4994948417755550580
+    second: coin1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -106,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: dirtymimic_2
+      name: coin1_0
       rect:
         serializedVersion: 2
         x: 1
@@ -121,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d9738927a36d61bd0800000000000000
-      internalID: -2659702983396673635
+      spriteID: 47318bf1f1f915540800000000000000
+      internalID: 4994948417755550580
       vertices: []
       indices: 
       edges: []
@@ -131,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 6a9bc01d0e71c1f46bafebd739cd3d41
+    spriteID: 09713096a4eb2c448ab9114f868c9e9b
     internalID: 0
     vertices: []
     indices: 
@@ -141,9 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      dirtymimic_0: -506082907168133177
-      dirtymimic_1: 7330494068405807614
-      dirtymimic_2: -2659702983396673635
+      coin1_0: 4994948417755550580
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -6,6 +6,8 @@ public class CarryableMimic : Carryable, IInteractable
     [SerializeField] private int requiredCoins = 4;
     [SerializeField] private SpriteRenderer spriteRenderer;
     [SerializeField] private Sprite cleanedSprite;
+    [SerializeField] private SpriteRenderer coinSpriteRenderer;
+    [SerializeField] private List<Sprite> coinSprites;
     [SerializeField] private MimicBubble coinBubble;
     [SerializeField] private MimicBubble heartBubble;
     [SerializeField] private MimicBubble cleanBubble;
@@ -45,6 +47,11 @@ public class CarryableMimic : Carryable, IInteractable
         }
     }
 
+    private void UpdateCoinSprite()
+    {
+        coinSpriteRenderer.sprite = coinSprites[requiredCoins];
+    }
+
     private bool EatCoin(Carryable coin)
     {
         if (requiredCoins <= 0) return false;
@@ -53,6 +60,7 @@ public class CarryableMimic : Carryable, IInteractable
         heartBubble.SetOn();
         if (coin) Destroy(coin.gameObject);
 
+        UpdateCoinSprite();
         CheckQuest();
         return true;
     }
@@ -66,6 +74,7 @@ public class CarryableMimic : Carryable, IInteractable
         requiredCoins--;
         heartBubble.SetOn();
 
+        UpdateCoinSprite();
         CheckQuest();
         return true;
     }
