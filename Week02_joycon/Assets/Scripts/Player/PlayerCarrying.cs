@@ -243,7 +243,7 @@ public class PlayerCarrying : MonoBehaviour
             rb.transform.SetParent(null, true);
 
             // 위치 배치 후 물리 되살리기
-            rb.position = dropPos;
+            obj.transform.position = dropPos;
             rb.bodyType = RigidbodyType2D.Dynamic;
             rb.freezeRotation = false;
 
