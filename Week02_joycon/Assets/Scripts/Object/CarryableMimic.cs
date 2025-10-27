@@ -11,6 +11,7 @@ public class CarryableMimic : Carryable, IInteractable
     [SerializeField] private MimicBubble coinBubble;
     [SerializeField] private MimicBubble heartBubble;
     [SerializeField] private MimicBubble cleanBubble;
+    [SerializeField] private GameObject bubbles;
     private HashSet<Carryable> coins = new();
     private List<Carryable> toRemove = new();
     private bool isEnumerating;
@@ -79,7 +80,21 @@ public class CarryableMimic : Carryable, IInteractable
         return true;
     }
 
-    public bool Interact() => EatCoin();
+    public bool Interact()
+    {
+        var coin = EatCoin();
+        if (coin == false) return ShampooInteract();
+        return coin;
+    }
+
+    private bool ShampooInteract()
+    {
+        if (isCleaned == true) return false;
+        if (InventoryManager.Instance.HasItem(ItemName.Shampoo) == false) return false;
+        InventoryManager.Instance.RemoveAndDestroyItem(ItemName.Shampoo);
+        bubbles.SetActive(true);
+        return false;
+    }
 
     private void OnTriggerStay2D(Collider2D collision)
     {

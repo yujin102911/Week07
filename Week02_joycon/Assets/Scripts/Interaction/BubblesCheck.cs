@@ -2,12 +2,13 @@
 
 public class BubblesCheck : MonoBehaviour
 {
+    [SerializeField] private CarryableMimic mimic;
     [SerializeField] GameObject[] bubbles;
     public bool cleanUp = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -24,6 +25,7 @@ public class BubblesCheck : MonoBehaviour
         if (cleanCount == bubbles.Length)
         {
             cleanUp = true;
+            mimic.CleanUp();
         }
     }
 }

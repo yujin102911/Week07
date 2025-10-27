@@ -3,16 +3,28 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-/// <summary>Minimal manager: InteractSet + TriggerFlags (enum-only public surface)</summary>
+/// <summary>
+/// Minimal manager: InteractSet + TriggerFlags (enum-only)
+/// - 씬 시작 시 questDB[0] 자동 시작 (옵션)
+/// - 퀘스트 완료될 때 자동으로 다음 퀘스트 시작 (옵션)
+/// - 마지막 퀘스트까지 완료되면 OnAllQuestsCompleted 한 번만 발생
+/// </summary>
 [DisallowMultipleComponent]
-public sealed class QuestManager : MonoBehaviour
+public sealed class QuestManager : Singleton<QuestManager>
 {
     [SerializeField] private QuestSO[] questDB;
+
+    [Header("Sequence Options")]
+    [Tooltip("씬 시작 시 questDB의 첫 번째 퀘스트를 자동 시작")]
+    [SerializeField] private bool autoStartFirstQuest = true;
+
+    [Tooltip("현재 퀘스트 완료 시 다음 퀘스트를 자동 시작")]
+    [SerializeField] private bool autoStartNextOnComplete = true;
 
     [Serializable]
     public struct SubTaskState
     {
-        public InteractableId target; // enum 매칭
+        public InteractableId target; // enum match key
         public bool done;
     }
 
@@ -34,8 +46,13 @@ public sealed class QuestManager : MonoBehaviour
         public ObjectiveState[] objectives;
     }
 
-    readonly Dictionary<uint, QuestState> _states = new(16);
+    private readonly Dictionary<uint, QuestState> _states = new(16);
+
     public event Action<uint> OnQuestUpdated;
+
+    // === All-quests completed ===
+    public static event Action OnAllQuestsCompleted;
+    private bool _allQuestsRaised;
 
     void OnEnable()
     {
@@ -43,6 +60,7 @@ public sealed class QuestManager : MonoBehaviour
         QuestEvents.OnFlagRaised += OnFlagChanged;
         QuestEvents.OnFlagCleared += OnFlagChanged;
     }
+
     void OnDisable()
     {
         QuestEvents.OnInteract -= OnInteract;
@@ -50,9 +68,11 @@ public sealed class QuestManager : MonoBehaviour
         QuestEvents.OnFlagCleared -= OnFlagChanged;
     }
 
-    void Start()
+    private void Start()
     {
-        StartQuest(1000);
+        // ▶ 시작 시 첫 퀘스트 자동 시작
+        if (autoStartFirstQuest)
+            TryAutoStartFirstNotStarted();
     }
 
     // --- Public API ---
@@ -63,7 +83,10 @@ public sealed class QuestManager : MonoBehaviour
             if (qs.started) return false;
             qs.started = true;
             EvaluateImmediateObjectives(qs);
+            _states[questId] = qs;
             OnQuestUpdated?.Invoke(questId);
+            TryRaiseCompletedFor(questId);
+            MaybeRaiseAllCompleted();
             return true;
         }
 
@@ -75,6 +98,8 @@ public sealed class QuestManager : MonoBehaviour
         EvaluateImmediateObjectives(newState);
         _states[questId] = newState;
         OnQuestUpdated?.Invoke(questId);
+        TryRaiseCompletedFor(questId);
+        MaybeRaiseAllCompleted();
         return true;
     }
 
@@ -90,6 +115,16 @@ public sealed class QuestManager : MonoBehaviour
         return null;
     }
 
+    int GetIndexById(uint id)
+    {
+        if (questDB == null) return -1;
+        for (int i = 0; i < questDB.Length; ++i)
+            if (questDB[i] && questDB[i].id == id) return i;
+        return -1;
+    }
+
+    bool TryGetState(uint id, out QuestState s) => _states.TryGetValue(id, out s);
+
     QuestState BuildState(QuestSO so)
     {
         var qs = new QuestState { so = so, started = false, completed = false };
@@ -101,10 +136,9 @@ public sealed class QuestManager : MonoBehaviour
             ref var def = ref objs[i];
             var os = new ObjectiveState { def = def, completed = false };
 
-            // 대상 enum 집합 준비
             var targets = (def.targetEnums != null && def.targetEnums.Length > 0)
                 ? def.targetEnums
-                : new InteractableId[] { def.targetEnum };
+                : (def.targetEnum.Equals(default(InteractableId)) ? null : new[] { def.targetEnum });
 
             if (targets != null && targets.Length > 0)
             {
@@ -146,11 +180,89 @@ public sealed class QuestManager : MonoBehaviour
 
     void TryRaiseCompletedFor(uint questId)
     {
-        if (!_states.TryGetValue(questId, out var s) || s == null) return;
+        if (!TryGetState(questId, out var s) || s == null) return;
+
         if (s.completed && !s.completionEventRaised)
         {
             s.so?.RaiseCompleted();
             s.completionEventRaised = true;
+            _states[questId] = s;
+
+            // ▶ 현재 퀘스트 완료 시 다음 퀘스트 자동 시작
+            if (autoStartNextOnComplete)
+                TryStartNextChain(questId);
+        }
+    }
+
+    // === Sequence helpers ===
+    void TryAutoStartFirstNotStarted()
+    {
+        if (questDB == null || questDB.Length == 0) return;
+
+        // 이미 시작된 퀘가 있으면 패스 (수동 진행 중인 시나리오 고려)
+        foreach (var kv in _states)
+            if (kv.Value != null && kv.Value.started) return;
+
+        // DB의 첫 퀘를 시작
+        var first = questDB[0];
+        if (first) StartQuest(first.id);
+    }
+
+    void TryStartNextChain(uint justCompletedId)
+    {
+        if (questDB == null || questDB.Length == 0) return;
+
+        int idx = GetIndexById(justCompletedId);
+        if (idx < 0) return;
+
+        // 다음 인덱스부터 순차적으로 시작.
+        // 즉시 완료되는 퀘스트가 연속으로 있으면 연쇄적으로 넘어간다.
+        for (int i = idx + 1; i < questDB.Length; ++i)
+        {
+            var so = questDB[i];
+            if (!so) continue;
+
+            // 이미 시작/완료 여부 확인
+            if (TryGetState(so.id, out var st) && st.started)
+            {
+                if (!st.completed) break;  // 진행 중이면 더 이상 자동 진행 안 함
+                else continue;             // 이미 완료면 다음으로 넘어감(연쇄)
+            }
+
+            // 시작
+            StartQuest(so.id);
+
+            // 방금 시작한 퀘가 즉시 완료되었는지 확인 (즉시완료면 다음으로 계속)
+            if (TryGetState(so.id, out var ns) && ns.completed) continue;
+
+            // 완료되지 않았다 → 여기서 대기 (다음 완료 때 다시 호출되어 이어서 진행)
+            break;
+        }
+
+        // 모든 퀘가 이미 완료상태였다면 여기서 전체 완료 판정도 갱신
+        MaybeRaiseAllCompleted();
+    }
+
+    // === All-quests helpers ===
+    public bool AreAllStartedQuestsCompleted()
+    {
+        foreach (var kv in _states)
+        {
+            var s = kv.Value;
+            if (s == null) continue;
+            if (!s.started) continue;
+            if (!s.completed) return false;
+        }
+        return true;
+    }
+
+    void MaybeRaiseAllCompleted()
+    {
+        if (_allQuestsRaised) return;
+        if (AreAllStartedQuestsCompleted())
+        {
+            _allQuestsRaised = true;
+            OnAllQuestsCompleted?.Invoke();
         }
     }
 
@@ -186,6 +298,7 @@ public sealed class QuestManager : MonoBehaviour
             if (changed)
             {
                 qs.completed = AreMandatoryObjectivesCompleted(qs);
+                _states[questId] = qs;
                 _changedIds.Add(questId);
             }
         }
@@ -195,6 +308,7 @@ public sealed class QuestManager : MonoBehaviour
             var qid = _changedIds[i];
             OnQuestUpdated?.Invoke(qid);
             TryRaiseCompletedFor(qid);
+            MaybeRaiseAllCompleted();
         }
     }
 
@@ -219,6 +333,7 @@ public sealed class QuestManager : MonoBehaviour
             if (changed)
             {
                 qs.completed = AreMandatoryObjectivesCompleted(qs);
+                _states[questId] = qs;
                 _changedIds.Add(questId);
             }
         }
@@ -228,6 +343,7 @@ public sealed class QuestManager : MonoBehaviour
             var qid = _changedIds[i];
             OnQuestUpdated?.Invoke(qid);
             TryRaiseCompletedFor(qid);
+            MaybeRaiseAllCompleted();
         }
     }
 
@@ -260,10 +376,9 @@ public sealed class QuestManager : MonoBehaviour
     {
         if (os.def.type != ObjectiveType.TriggerFlags) return false;
 
-        // 플래그 enum 집합 준비
         var flags = (os.def.requiredFlagEnums != null && os.def.requiredFlagEnums.Length > 0)
             ? os.def.requiredFlagEnums
-            : new FlagId[] { os.def.requiredFlagEnum };
+            : (os.def.requiredFlagEnum.Equals(default(FlagId)) ? null : new FlagId[] { os.def.requiredFlagEnum });
 
         if (flags == null || flags.Length == 0) return false;
 
@@ -276,6 +391,6 @@ public sealed class QuestManager : MonoBehaviour
         return os.completed != before;
     }
 
-    readonly List<uint> _keysScratch = new(32);
-    readonly List<uint> _changedIds = new(8);
+    private readonly List<uint> _keysScratch = new(32);
+    private readonly List<uint> _changedIds = new(8);
 }

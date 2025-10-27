@@ -17,6 +17,7 @@ public enum FlagId
     Boxes_StoredAll,
     Table_Used,
     DryingRack,
+    EnterCastle,
 }
 
 public enum ObjectiveType : byte
