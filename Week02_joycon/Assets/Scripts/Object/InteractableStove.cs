@@ -30,7 +30,12 @@ public class InteractableStove : MonoBehaviour, IInteractable
             InventoryManager.Instance.RemoveAndDestroyItem(ItemName.Firewood);
             return AddFirewood();
         }
-        return potOnStove.Interact();
+
+        if (potOnStove.Interact() == true) return true;
+        if (InventoryManager.Instance.HasItem(ItemName.Firewood) == false) return false;
+
+        InventoryManager.Instance.RemoveAndDestroyItem(ItemName.Firewood);
+        return AddFirewood();
     }
 
     private bool AddFirewood()
