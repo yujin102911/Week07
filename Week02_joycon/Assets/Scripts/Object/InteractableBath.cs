@@ -93,8 +93,9 @@ public class InteractableBath : MonoBehaviour, IInteractable
         {
             if (InventoryManager.Instance.HasItem(ingredient.itemName))
             {
-                PlaceItem(InventoryManager.Instance.GetItemObject(ingredient.itemName).GetComponent<Carryable>());
+                var item = InventoryManager.Instance.GetItemObject(ingredient.itemName).GetComponent<Carryable>();
                 InventoryManager.Instance.GetComponent<PlayerCarrying>().TryDrop(ingredient.itemName);
+                PlaceItem(item);
                 CheckForCompletion();
                 return true;
             }

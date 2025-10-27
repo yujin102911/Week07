@@ -134,14 +134,14 @@ public class Player : MonoBehaviour
     void Update()
     {
 
-        if (Input.GetKeyDown(KeyCode.Z))
-        {
-            QuestRuntime.Instance.SetFlag(FlagId.Mimic_Happy);
-            QuestRuntime.Instance.SetFlag(FlagId.Table_Used);
-            QuestRuntime.Instance.SetFlag(FlagId.Dust_AllCleared);
-            QuestRuntime.Instance.SetFlag(FlagId.Boxes_StoredAll);
-            QuestRuntime.Instance.SetFlag(FlagId.DryingRack);
-        }
+        // if (Input.GetKeyDown(KeyCode.Z))
+        // {
+        //     QuestRuntime.Instance.SetFlag(FlagId.Mimic_Happy);
+        //     QuestRuntime.Instance.SetFlag(FlagId.Table_Used);
+        //     QuestRuntime.Instance.SetFlag(FlagId.Dust_AllCleared);
+        //     QuestRuntime.Instance.SetFlag(FlagId.Boxes_StoredAll);
+        //     QuestRuntime.Instance.SetFlag(FlagId.DryingRack);
+        // }
 
 
         float dt = Time.deltaTime;
