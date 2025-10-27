@@ -30,6 +30,9 @@ public class InteractableClothesline : MonoBehaviour, IInteractable
             emptyLine.SetActive(false);
             fullLine.SetActive(true);
             Destroy(collision.gameObject);
+
+            QuestRuntime.Instance.SetFlag(FlagId.DryingRack);
+            GameLogger.Instance.LogDebug(this, "이불 퀘스트 완료");
         }
     }
 }
