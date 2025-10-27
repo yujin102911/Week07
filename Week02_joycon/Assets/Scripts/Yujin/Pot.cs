@@ -54,6 +54,18 @@ public class Pot : MonoBehaviour, IInteractable
         return false;
     }
 
+    public bool AddIngredient(Carryable carryable)
+    {
+        if (isCooked == true) return false;
+        if (recipe.ContainsKey(carryable.GetItemName()) == false) return false;
+
+        recipe[carryable.GetItemName()]--;
+        if (recipe[carryable.GetItemName()] <= 0) recipe.Remove(carryable.GetItemName());
+        Destroy(carryable.gameObject);
+
+        return true;
+    }
+
     public void SetCurrentStove(Stove stove) => currentStove = stove;
 
     public void CheckCookingConditions()
@@ -77,5 +89,13 @@ public class Pot : MonoBehaviour, IInteractable
     {
         if (selfCarryable.carrying == true) return false;
         return AddIngredient();
+    }
+
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.TryGetComponent<Carryable>(out var carryable) == false) return;
+        if (carryable.carrying == true) return;
+
+        AddIngredient(carryable);
     }
 }
