@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Stove : MonoBehaviour
 {
@@ -139,11 +139,12 @@ public class Stove : MonoBehaviour
                 GameLogger.Instance.LogDebug(this, "���� ����� ���� �������ϴ�.");
 
                 pot.transform.position = potSnapPoint.position;
+                pot.transform.localScale = Vector3.one*1.2f;
                 pot.transform.rotation = Quaternion.identity;
                 if (pot.TryGetComponent<Rigidbody2D>(out var rb))
                 {
                     rb.bodyType = RigidbodyType2D.Kinematic;
-                    rb.linearVelocity = Vector2.zero;
+                    rb.linearVelocity = Vector3.zero;
                     rb.angularVelocity = 0f;
                 }
 
@@ -171,6 +172,7 @@ public class Stove : MonoBehaviour
                 GameLogger.Instance.LogDebug(this, "���� ����� ���� �������ϴ�.");
 
                 pot.transform.position = potSnapPoint.position;
+                pot.transform.localScale = Vector2.one * 1.2f;
                 pot.transform.rotation = Quaternion.identity;
                 if (pot.TryGetComponent<Rigidbody2D>(out var rb))
                 {
