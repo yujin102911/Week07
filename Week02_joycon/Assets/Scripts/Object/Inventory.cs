@@ -14,6 +14,7 @@ public enum ItemName
     TomatoSoup,
     Firewood,
     Pot,
+    Shampoo,
 }
 
 public class Inventory
