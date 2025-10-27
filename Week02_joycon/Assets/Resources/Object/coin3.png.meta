@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: bc689cd72dbc1b247a26cdf2ac553cc0
+guid: e0789d0aaf88db448ade7905cb7137fc
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -413800416329549740
-    second: Mimic_0
+      213: 5993543728748791393
+    second: coin3_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 600
+  spritePixelsToUnits: 20
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -74,7 +74,7 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: -1
+    textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -100,23 +100,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Mimic_0
+      name: coin3_0
       rect:
         serializedVersion: 2
-        x: 114
-        y: 265
-        width: 677
-        height: 749
+        x: 1
+        y: 2
+        width: 30
+        height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 458b4c8b6b2e14af0800000000000000
-      internalID: -413800416329549740
+      spriteID: 16687d124485d2350800000000000000
+      internalID: 5993543728748791393
       vertices: []
       indices: 
       edges: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 33cea352226ffe44fb08cafb43210b63
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Mimic_0: -413800416329549740
+      coin3_0: 5993543728748791393
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
