@@ -16,21 +16,32 @@ public class Stove : MonoBehaviour, IInteractable
         UpdateSprite();
     }
 
-    public bool Interact() => AddFirewood();
+    public bool Interact()
+    {
+        if (potOnStove == null)
+        {
+            if (InventoryManager.Instance.HasItem(ItemName.Firewood) == false)
+            {
+                if (InventoryManager.Instance.HasItem(ItemName.Pot) == false) return false;
+                InventoryManager.Instance.GetComponent<PlayerCarrying>().TryDrop(ItemName.Pot);
+                return true;
+            }
+
+            InventoryManager.Instance.RemoveAndDestroyItem(ItemName.Firewood);
+            return AddFirewood();
+        }
+        return potOnStove.Interact();
+    }
 
     private bool AddFirewood()
     {
         if (isFireOn == true) return false;
-        if (InventoryManager.Instance.HasItem(ItemName.Firewood) == false) return false;
-
-        InventoryManager.Instance.RemoveAndDestroyItem(ItemName.Firewood);
 
         currentFirewood++;
         GameLogger.Instance.LogDebug(this, $"장작 추가, 현재: {currentFirewood}개");
 
         UpdateSprite();
-        if (isFireOn == true && potOnStove != null)
-            potOnStove.CheckCookingConditions();
+        if (isFireOn == true && potOnStove != null) potOnStove.CheckCookingConditions();
 
         return true;
     }
