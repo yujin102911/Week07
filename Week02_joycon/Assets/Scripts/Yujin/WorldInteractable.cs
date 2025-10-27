@@ -3,47 +3,31 @@ using UnityEngine.Events;
 
 public class WorldInteractable : MonoBehaviour
 {
-    #region Public Fields
-    [Tooltip("Required Item Id")]
     public string requiredItemId;
-    [Tooltip("if Success, will item consume")]
-    public bool consumeItemOnSuccess = false; //¾ÆÀÌÅÛ »ç¿ë ÈÄ ¾ø¾îÁú°ÇÁö ¾Æ´ÑÁö
-    [Tooltip("SeccessEvent")]
+    public bool consumeItemOnSuccess = false;
     public UnityEvent OnInteractionSuccess;
-    ///[Tooltip("½ÇÆĞ ½Ã ½ÇÇàÇÒ ÀÌº¥Æ®")]
-    ///public UnityEvent OnInteractionFail;
 
-    #endregion
-
-    #region Public Methods
-    ///<summary>ÇÃ·¹ÀÌ¾î°¡ »óÈ£ÀÛ¿ëÀ» ½ÃµµÇÒ ¶§ È£Ãâ</summary>
-    ///<param name="heldItemId">ÇÃ·¹ÀÌ¾î 0¹ø ½½·ÔÀÇ ¾ÆÀÌÅÛ ID</param>
     public bool AttemptInteraction(string heldItemId, PlayerCarrying player)
     {
-        if (string.IsNullOrEmpty(requiredItemId)) //¸¸¾à ÇÊ¿äÇÑ ¾ÆÀÌÅÛÀÌ ¾ø´Ù¸é
+        if (string.IsNullOrEmpty(requiredItemId))
         {
-            GameLogger.Instance.LogDebug(this, $"{gameObject.name}¿Í ¸Ç¼Õ »óÈ£ÀÛ¿ë ¼º°ø");
+            GameLogger.Instance.LogDebug(this, $"{gameObject.name} ìƒí˜¸ì‘ìš© ì„±ê³µ");
             OnInteractionSuccess?.Invoke();
-            return true;
-        }
-
-        if (!string.IsNullOrEmpty(heldItemId) && requiredItemId == heldItemId) //¸¸¾à ÇÊ¿äÇÑ ¾ÆÀÌÅÛÀÌ ÀÖ°í ±×°Ô µé°í ÀÖ´Â ¾ÆÀÌÅÛ°ú ÀÏÄ¡ÇÏ´Ù¸é
-        {
-            GameLogger.Instance.LogDebug(this, $"{gameObject.name}¿Í {heldItemId}ÀÇ »óÈ£ÀÛ¿ë ¼º°ø");
-            OnInteractionSuccess?.Invoke();
-            if (consumeItemOnSuccess) //¸¸¾à »ç¿ë ÈÄ ¾ÆÀÌÅÛÀ» ¼Ò¸ğÇØ¾ß ÇÑ´Ù¸é
-            {
-                player.ConsumeItem(0); //0¹ø ½½·Ô ¾ÆÀÌÅÛ ¼Ò¸ğ
-            }
 
             return true;
         }
-        else //ÀÏÄ¡ÇÏÁö ¾Ê´Â´Ù¸é
+
+        if (!string.IsNullOrEmpty(heldItemId) && requiredItemId == heldItemId)
         {
-            GameLogger.Instance.LogDebug(this, $"{gameObject.name}°ú »óÈ£ÀÛ¿ë °¡´ÉÇÑ {requiredItemId}°¡ ¾ø½À´Ï´Ù.");
-            //OnIntercationFail?.Invoke();
-            return false;
+            GameLogger.Instance.LogDebug(this, $"{gameObject.name} - {heldItemId} ìƒí˜¸ì‘ìš© ì„±ê³µ");
+            OnInteractionSuccess?.Invoke();
+            if (consumeItemOnSuccess)
+                player.ConsumeItem(0);
+
+            return true;
         }
+
+        GameLogger.Instance.LogDebug(this, $"{gameObject.name}ì€(ëŠ”) {requiredItemId}ì´ í•„ìš”í•¨");
+        return false;
     }
-    #endregion
 }

@@ -26,7 +26,11 @@ public sealed class QuestTodoUI : MonoBehaviour
         if (manager != null) manager.OnQuestUpdated -= OnQuestUpdated;
     }
     public void SetQuest(uint newId) { questId = newId; Redraw(); }
-    void OnQuestUpdated(uint changedId) { if (changedId == questId) Redraw(); }
+    void OnQuestUpdated(uint changedId)
+    {
+        if (changedId != questId) SetQuest(changedId);
+        else Redraw();
+    }
 
     void Redraw()
     {
