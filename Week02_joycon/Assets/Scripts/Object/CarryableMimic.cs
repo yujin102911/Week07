@@ -16,6 +16,7 @@ public class CarryableMimic : Carryable, IInteractable
     private List<Carryable> toRemove = new();
     private bool isEnumerating;
     private bool isCleaned = false;
+    private bool addShampoo = false;
 
     private void Update()
     {
@@ -91,6 +92,8 @@ public class CarryableMimic : Carryable, IInteractable
     {
         if (isCleaned == true) return false;
         if (InventoryManager.Instance.HasItem(ItemName.Shampoo) == false) return false;
+
+        addShampoo = true;
         InventoryManager.Instance.RemoveAndDestroyItem(ItemName.Shampoo);
         bubbles.SetActive(true);
         return false;
@@ -105,6 +108,7 @@ public class CarryableMimic : Carryable, IInteractable
             if (carryable.GetItemName() == ItemName.Coin) coins.Add(carryable);
             else if (carryable.GetItemName() == ItemName.Shampoo && carryable.carrying == false)
             {
+                addShampoo = true;
                 bubbles.SetActive(true);
                 Destroy(collision.gameObject);
             }
@@ -113,7 +117,10 @@ public class CarryableMimic : Carryable, IInteractable
 
         if (collision.CompareTag("Player"))
         {
-            if (isCleaned == false) cleanBubble.SetOn();
+            if (isCleaned == false)
+            {
+                if (addShampoo == false) cleanBubble.SetOn();
+            }
             else if (requiredCoins > 0) coinBubble.SetOn();
             else heartBubble.SetOn();
         }
@@ -142,7 +149,8 @@ public class CarryableMimic : Carryable, IInteractable
 
     public void CleanUp()
     {
-        if (cleanedSprite) spriteRenderer.sprite = cleanedSprite;
+        spriteRenderer.sprite = cleanedSprite;
+        enabled = true;
         isCleaned = true;
 
         CheckQuest();
