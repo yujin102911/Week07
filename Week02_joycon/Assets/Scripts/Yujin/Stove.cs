@@ -44,38 +44,38 @@ public class Stove : MonoBehaviour, IInteractable
 
     private void UpdateSprite() => spriteRenderer.sprite = firewoodSprites[currentFirewood];
 
-    // private void OnTriggerStay2D(Collider2D collision)
-    // {
-    //     if (collision.TryGetComponent<Pot>(out Pot pot))
-    //     {
-    //         if (pot.GetComponent<Carryable>() != null && !pot.GetComponent<Carryable>().carrying)
-    //         {
-    //             potOnStove = pot;
-    //             pot.SetCurrentStove(this);
-    //             GameLogger.Instance.LogDebug(this, "���� ����� ���� �������ϴ�.");
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.TryGetComponent<Pot>(out Pot pot))
+        {
+            if (pot.GetComponent<Carryable>() != null && !pot.GetComponent<Carryable>().carrying)
+            {
+                potOnStove = pot;
+                pot.SetCurrentStove(this);
+                GameLogger.Instance.LogDebug(this, "���� ����� ���� �������ϴ�.");
 
-    //             pot.transform.position = potSnapPoint.position;
-    //             pot.transform.localScale = Vector2.one * 1.2f;
-    //             pot.transform.rotation = Quaternion.identity;
-    //             if (pot.TryGetComponent<Rigidbody2D>(out var rb))
-    //             {
-    //                 rb.bodyType = RigidbodyType2D.Kinematic;
-    //                 rb.linearVelocity = Vector2.zero;
-    //                 rb.angularVelocity = 0f;
-    //             }
+                pot.transform.position = potSnapPoint.position;
+                pot.transform.localScale = Vector2.one * 1.2f;
+                pot.transform.rotation = Quaternion.identity;
+                if (pot.TryGetComponent<Rigidbody2D>(out var rb))
+                {
+                    rb.bodyType = RigidbodyType2D.Kinematic;
+                    rb.linearVelocity = Vector2.zero;
+                    rb.angularVelocity = 0f;
+                }
 
-    //             pot.CheckCookingConditions();
-    //         }
-    //     }
-    //     else if (collision.TryGetComponent(out Carryable carryable))
-    //     {
-    //         if (carryable.Id == "Firewood" && !carryable.carrying)
-    //         {
-    //             AddFirewood();
-    //             Destroy(collision.gameObject);
-    //         }
-    //     }
-    // }
+                pot.CheckCookingConditions();
+            }
+        }
+        else if (collision.TryGetComponent(out Carryable carryable))
+        {
+            if (carryable.Id == "Firewood" && !carryable.carrying)
+            {
+                AddFirewood();
+                Destroy(collision.gameObject);
+            }
+        }
+    }
 
     private void OnTriggerExit2D(Collider2D other)
     {
