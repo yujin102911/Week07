@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CarryableMimic : Carryable
+public class CarryableMimic : Carryable, IInteractable
 {
     [SerializeField] private int requiredCoins;
     [SerializeField] private SpriteRenderer spriteRenderer;
@@ -45,16 +45,32 @@ public class CarryableMimic : Carryable
         }
     }
 
-    private void EatCoin(Carryable coin)
+    private bool EatCoin(Carryable coin)
     {
         requiredCoins--;
         heartBubble.SetOn();
         if (coin) Destroy(coin.gameObject);
 
         CheckQuest();
+        return true;
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private bool EatCoin()
+    {
+        if (requiredCoins <= 0) return false;
+        if (InventoryManager.Instance.HasItem(ItemName.Coin) == false) return false;
+
+        InventoryManager.Instance.RemoveAndDestroyItem(ItemName.Coin);
+        requiredCoins--;
+        heartBubble.SetOn();
+
+        CheckQuest();
+        return true;
+    }
+
+    public bool Interact() => EatCoin();
+
+    private void OnTriggerStay2D(Collider2D collision)
     {
         if (collision.TryGetComponent(out Carryable coin))
         {

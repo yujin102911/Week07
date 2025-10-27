@@ -6,7 +6,7 @@ public class Pot : MonoBehaviour, IInteractable
 {
     private Dictionary<ItemName, int> recipe = new()
     {
-        { ItemName.Tomato, 2 },
+        { ItemName.Tomato, 3 },
         { ItemName.Onion, 1 },
     };
 
@@ -61,7 +61,7 @@ public class Pot : MonoBehaviour, IInteractable
         if (isCooked == true) return;
         if (isReadyToCook == false) return;
         if (currentStove == null) return;
-        if (currentStove.isFueled == false) return;
+        if (currentStove.isFireOn == false) return;
 
         Cook();
     }
