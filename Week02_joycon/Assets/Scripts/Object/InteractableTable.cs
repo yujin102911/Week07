@@ -30,6 +30,8 @@ public class InteractableTable : MonoBehaviour, IInteractable
                 itemPlaced = true;
                 soup.SetActive(true);
 
+                Destroy(collision.gameObject);
+
                 QuestRuntime.Instance.SetFlag(FlagId.Table_Used);
                 GameLogger.Instance.LogDebug(this, "음식 퀘스트 완료");
             }

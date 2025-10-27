@@ -1,14 +1,14 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
-public class Stove : MonoBehaviour, IInteractable
+public class InteractableStove : MonoBehaviour, IInteractable
 {
     [SerializeField] private SpriteRenderer spriteRenderer;
     [SerializeField] private List<Sprite> firewoodSprites;
     [SerializeField] private Transform potSnapPoint;
     private int currentFirewood = 0;
     public bool isFireOn => currentFirewood == firewoodSprites.Count - 1;
-    private Pot potOnStove = null;
+    private InteractablePot potOnStove = null;
 
     private void Start()
     {
@@ -57,7 +57,7 @@ public class Stove : MonoBehaviour, IInteractable
 
     private void OnTriggerStay2D(Collider2D collision)
     {
-        if (collision.TryGetComponent<Pot>(out Pot pot))
+        if (collision.TryGetComponent(out InteractablePot pot))
         {
             if (pot.GetComponent<Carryable>() != null && !pot.GetComponent<Carryable>().carrying)
             {
@@ -90,10 +90,10 @@ public class Stove : MonoBehaviour, IInteractable
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        if (other.TryGetComponent<Pot>(out Pot pot) && pot == potOnStove)
+        if (other.TryGetComponent(out InteractablePot pot) && pot == potOnStove)
         {
             potOnStove = null;
-            pot.SetCurrentStove(null); // ���� ����꿡�� ���
+            pot.SetCurrentStove(null);
             GameLogger.Instance.LogDebug(this, "���� ����꿡�� ������ϴ�.");
         }
     }
