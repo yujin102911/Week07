@@ -1,14 +1,22 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(Carryable), typeof(Collider2D))]
-public class InteractablePot : MonoBehaviour, IInteractable
+[System.Serializable]
+public class IngredientObject
+{
+    public ItemName itemName;
+    public GameObject ingredientObject;
+}
+
+public class InteractablePot : Carryable, IInteractable
 {
     private Dictionary<ItemName, int> recipe = new()
     {
         { ItemName.Tomato, 3 },
         { ItemName.Onion, 1 },
     };
+
+    [SerializeField] private List<IngredientObject> ingredients;
 
     [Header("State")]
     private InteractableStove currentStove = null;
@@ -18,22 +26,6 @@ public class InteractablePot : MonoBehaviour, IInteractable
     [Header("Cooking")]
     [SerializeField] private GameObject cookedMealPrefab;
     [SerializeField] private Transform spawnPoint;
-
-    private Carryable selfCarryable;
-    private IngredientReceiver ingredientReceiver;
-    private Collider2D ingredientCollider;
-
-    private void Start()
-    {
-        selfCarryable = GetComponent<Carryable>();
-        ingredientReceiver = GetComponentInChildren<IngredientReceiver>(true);
-        ingredientCollider = ingredientReceiver.GetComponent<Collider2D>();
-    }
-
-    private void Update()
-    {
-        if (selfCarryable != null && ingredientCollider != null) ingredientCollider.isTrigger = !selfCarryable.carrying;
-    }
 
     public bool AddIngredient()
     {
@@ -46,6 +38,10 @@ public class InteractablePot : MonoBehaviour, IInteractable
                 recipe[item]--;
                 if (recipe[item] <= 0) recipe.Remove(item);
 
+                var ingredientObject = ingredients.Find(x => x.itemName == item);
+                if (ingredientObject != null) ingredientObject.ingredientObject.SetActive(true);
+                ingredients.Remove(ingredientObject);
+
                 InventoryManager.Instance.RemoveAndDestroyItem(item);
                 CheckCookingConditions();
                 return true;
@@ -57,11 +53,17 @@ public class InteractablePot : MonoBehaviour, IInteractable
     public bool AddIngredient(Carryable carryable)
     {
         if (isCooked == true) return false;
-        if (recipe.ContainsKey(carryable.GetItemName()) == false) return false;
 
-        recipe[carryable.GetItemName()]--;
-        if (recipe[carryable.GetItemName()] <= 0) recipe.Remove(carryable.GetItemName());
+        var itemName = carryable.GetItemName();
+        if (recipe.ContainsKey(itemName) == false) return false;
+
+        recipe[itemName]--;
+        if (recipe[itemName] <= 0) recipe.Remove(itemName);
         Destroy(carryable.gameObject);
+
+        var ingredientObject = ingredients.Find(x => x.itemName == itemName);
+        if (ingredientObject != null) ingredientObject.ingredientObject.SetActive(true);
+        ingredients.Remove(ingredientObject);
 
         return true;
     }
@@ -87,12 +89,13 @@ public class InteractablePot : MonoBehaviour, IInteractable
 
     public bool Interact()
     {
-        if (selfCarryable.carrying == true) return false;
+        if (carrying == true) return false;
         return AddIngredient();
     }
 
     private void OnTriggerStay2D(Collider2D collision)
     {
+        if (carrying == true) return;
         if (collision.TryGetComponent<Carryable>(out var carryable) == false) return;
         if (carryable.carrying == true) return;
 
