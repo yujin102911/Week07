@@ -1,0 +1,53 @@
+Timestamp, Level, Source, Message
+22:51:26.894,INFO,GameLogger,=== Game Session Started ===
+22:51:27.171,WARNING,Unity,Minimap: no renderers found for bounds. Check includeLayers.
+22:51:27.189,INFO,Unity,야외닿음
+22:51:27.191,INFO,Unity,Trigger Entered with: 야외
+22:51:27.191,INFO,Unity,Trigger Entered with: Wall3 (1)
+22:51:27.192,INFO,Unity,야외닿음
+22:51:27.192,INFO,Unity,야외닿음
+22:51:27.192,INFO,Unity,Trigger Entered with: 야외
+22:51:27.192,INFO,Unity,Trigger Entered with: Wall3 (1)
+22:51:27.192,INFO,Unity,침실닿음
+22:51:27.193,INFO,Unity,침실닿음
+22:51:27.194,INFO,Unity,Trigger Entered with: 야외
+22:51:27.195,INFO,Unity,Trigger Entered with: Wall3 (1)
+22:51:27.195,INFO,Unity,야외닿음
+22:51:27.195,INFO,Unity,Trigger Entered with: 야외
+22:51:27.195,INFO,Unity,Trigger Entered with: Wall3 (1)
+22:51:27.196,INFO,Unity,야외닿음
+22:51:27.196,INFO,Unity,야외닿음
+22:51:27.196,INFO,Unity,야외닿음
+22:51:27.196,INFO,Unity,야외닿음
+22:51:27.197,INFO,Unity,야외닿음
+22:51:27.197,INFO,Unity,야외닿음
+22:51:27.197,INFO,Unity,Trigger Entered with: 야외
+22:51:27.197,INFO,Unity,Trigger Entered with: Wall3 (1)
+22:51:27.197,INFO,Unity,야외닿음
+22:51:31.324,INFO,Unity,maxJumpVelocity20
+22:51:32.329,INFO,Unity,maxJumpVelocity20
+22:51:33.940,INFO,Unity,maxJumpVelocity20
+22:51:34.454,INFO,Unity,벽 점프
+22:51:34.854,INFO,Unity,벽 점프
+22:51:35.282,INFO,Unity,벽 점프
+22:51:35.723,INFO,Unity,벽 점프
+22:51:36.230,INFO,Unity,벽 점프
+22:51:36.678,INFO,Unity,벽 점프
+22:51:37.348,INFO,Unity,벽 점프
+22:51:37.873,INFO,Unity,벽 점프
+22:51:38.762,INFO,Unity,maxJumpVelocity20
+22:51:40.036,INFO,Unity,maxJumpVelocity20
+22:51:40.943,DEBUG,PlayerCarrying,집기 조작Key (UnityEngine.BoxCollider2D)
+22:51:40.945,INFO,Unity,Weight Update =0
+22:51:40.945,INFO,Unity,Weight Update2 =1
+22:51:43.747,INFO,Unity,Trigger Exit with: Wall3 (1)
+22:51:43.749,INFO,Unity,Trigger Exit with: Wall3 (1)
+22:51:43.749,INFO,Unity,Trigger Exit with: Wall3 (1)
+22:51:43.749,INFO,Unity,Trigger Exit with: Wall3 (1)
+22:51:43.749,INFO,Unity,Trigger Exit with: Wall3 (1)
+22:51:43.750,INFO,Unity,Trigger Exit with: 야외
+22:51:43.750,INFO,Unity,Trigger Exit with: 야외
+22:51:43.750,INFO,Unity,Trigger Exit with: 야외
+22:51:43.750,INFO,Unity,Trigger Exit with: 야외
+22:51:43.750,INFO,Unity,Trigger Exit with: 야외
+22:51:43.763,DEBUG,DirtObject,먼지 퀘스트 완료

@@ -1,0 +1,54 @@
+Timestamp, Level, Source, Message
+01:52:53.437,INFO,GameLogger,=== Game Session Started ===
+01:52:54.999,WARNING,Unity,Minimap: no renderers found for bounds. Check includeLayers.
+01:52:59.554,INFO,Unity,maxJumpVelocity20
+01:53:00.425,INFO,Unity,maxJumpVelocity20
+01:53:00.943,DEBUG,PlayerCarrying,쿨타임 지났음
+01:53:00.945,DEBUG,PlayerCarrying,집기 조작box (4) (UnityEngine.BoxCollider2D)
+01:53:00.947,INFO,Unity,_focus is null
+01:53:04.304,DEBUG,PlayerCarrying,쿨타임 지났음
+01:53:04.305,DEBUG,PlayerCarrying,집기 조작box (4) (UnityEngine.BoxCollider2D)
+01:53:05.599,DEBUG,PlayerCarrying,쿨타임 지났음
+01:53:05.599,DEBUG,PlayerCarrying,집기 조작box (4) (UnityEngine.BoxCollider2D)
+01:53:07.350,INFO,Unity,1
+01:53:07.351,INFO,Unity,1
+01:53:07.351,INFO,Unity,0.999999
+01:53:07.353,INFO,Unity,0.9509497
+01:53:07.354,INFO,Unity,막혔어
+01:53:09.211,INFO,Unity,maxJumpVelocity19.23077
+01:53:09.440,INFO,Unity,1
+01:53:09.443,INFO,Unity,1
+01:53:09.443,INFO,Unity,1
+01:53:09.443,INFO,Unity,0.9509497
+01:53:15.854,DEBUG,PlayerCarrying,쿨타임 지났음
+01:53:15.855,DEBUG,PlayerCarrying,집기 조작box (UnityEngine.BoxCollider2D)
+01:53:15.856,INFO,Unity,_focus is null
+01:53:18.490,INFO,Unity,1
+01:53:18.491,INFO,Unity,1
+01:53:18.491,INFO,Unity,1
+01:53:18.492,INFO,Unity,0.9509497
+01:53:18.493,INFO,Unity,막혔어
+01:53:19.842,INFO,Unity,1
+01:53:19.843,INFO,Unity,1
+01:53:19.844,INFO,Unity,1
+01:53:19.844,INFO,Unity,0.9509497
+01:53:19.845,INFO,Unity,막혔어
+01:53:20.681,INFO,Unity,1
+01:53:20.682,INFO,Unity,1
+01:53:20.683,INFO,Unity,1
+01:53:20.683,INFO,Unity,0.9509497
+01:53:20.684,INFO,Unity,막혔어
+01:53:20.884,INFO,Unity,1
+01:53:20.885,INFO,Unity,1
+01:53:20.885,INFO,Unity,1
+01:53:20.886,INFO,Unity,0.9509497
+01:53:20.886,INFO,Unity,막혔어
+01:53:21.238,INFO,Unity,1
+01:53:21.238,INFO,Unity,1
+01:53:21.239,INFO,Unity,1
+01:53:21.239,INFO,Unity,0.9509497
+01:53:21.241,INFO,Unity,막혔어
+01:53:21.687,INFO,Unity,maxJumpVelocity19.23077
+01:53:21.763,INFO,Unity,indexChamge
+01:53:21.765,INFO,Unity,짐 1충돌
+01:53:21.765,DEBUG,PlayerCarrying,충돌로 인해 짐 떨어뜨림. 떨어트린 위치 : 0

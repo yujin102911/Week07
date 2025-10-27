@@ -1,0 +1,46 @@
+Timestamp, Level, Source, Message
+00:20:44.888,INFO,GameLogger,=== Game Session Started ===
+00:20:44.895,WARNING,Unity,DontDestroyOnLoad only works for root GameObjects or components on root GameObjects.
+00:20:45.099,WARNING,Unity,Minimap: no renderers found for bounds. Check includeLayers.
+00:20:47.867,INFO,Unity,maxJumpVelocity20
+00:20:48.798,DEBUG,PlayerCarrying,쿨타임 지났음
+00:20:48.800,DEBUG,PlayerCarrying,집기 조작Box (UnityEngine.BoxCollider2D)
+00:20:48.801,INFO,Unity,_focus is null
+00:20:49.406,INFO,Unity,maxJumpVelocity19.23077
+00:20:50.372,INFO,Unity,indexChamge
+00:20:50.373,INFO,Unity,짐 1충돌
+00:20:50.853,INFO,Unity,maxJumpVelocity20
+00:20:51.335,DEBUG,PlayerCarrying,쿨타임 지났음
+00:20:51.871,DEBUG,PlayerCarrying,쿨타임 지났음
+00:20:51.871,DEBUG,PlayerCarrying,집기 조작Box (UnityEngine.BoxCollider2D)
+00:20:51.873,INFO,Unity,_focus is null
+00:20:52.331,INFO,Unity,maxJumpVelocity19.23077
+00:20:52.334,INFO,Unity,indexChamge
+00:20:52.335,INFO,Unity,짐 1충돌
+00:20:53.174,DEBUG,PlayerCarrying,쿨타임 지났음
+00:20:54.111,DEBUG,PlayerCarrying,쿨타임 지났음
+00:20:54.728,DEBUG,PlayerCarrying,쿨타임 지났음
+00:20:54.729,DEBUG,PlayerCarrying,집기 조작Box (UnityEngine.BoxCollider2D)
+00:20:54.730,INFO,Unity,_focus is null
+00:20:55.191,INFO,Unity,maxJumpVelocity19.23077
+00:20:55.725,WARNING,Unity,Internal: JobTempAlloc has allocations that are more than the maximum lifespan of 4 frames old - this is not allowed and likely a leak
+00:20:55.725,WARNING,Unity,"To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations."
+00:20:55.813,INFO,Unity,indexChamge
+00:20:55.814,INFO,Unity,짐 1충돌
+00:20:56.242,INFO,Unity,maxJumpVelocity20
+00:20:57.820,DEBUG,PlayerCarrying,쿨타임 지났음
+00:20:57.820,DEBUG,PlayerCarrying,집기 조작Box (UnityEngine.BoxCollider2D)
+00:20:57.821,INFO,Unity,_focus is null
+00:20:58.216,INFO,Unity,maxJumpVelocity19.23077
+00:20:59.042,INFO,Unity,maxJumpVelocity19.23077
+00:20:59.673,INFO,Unity,indexChamge
+00:20:59.674,INFO,Unity,짐 1충돌
+00:20:59.804,INFO,Unity,maxJumpVelocity20
+00:21:00.639,DEBUG,PlayerCarrying,쿨타임 지났음
+00:21:00.976,DEBUG,PlayerCarrying,쿨타임 지났음
+00:21:00.976,DEBUG,PlayerCarrying,집기 조작Box (UnityEngine.BoxCollider2D)
+00:21:00.977,INFO,Unity,_focus is null
+00:21:01.459,INFO,Unity,maxJumpVelocity19.23077
+00:21:02.162,INFO,Unity,maxJumpVelocity19.23077
+00:21:04.454,INFO,Unity,indexChamge
+00:21:04.454,INFO,Unity,짐 1충돌

@@ -1,9 +1,0 @@
-Timestamp, Level, Source, Message
-20:54:37.205,INFO,GameLogger,=== Game Session Started ===
-20:54:39.994,DEBUG,PlayerCarrying,쿨타임 지났음
-20:54:39.997,DEBUG,PlayerCarrying,집기 조작Rag (UnityEngine.BoxCollider2D)
-20:54:39.998,INFO,Unity,_focus is null
-20:54:41.323,INFO,Unity,막혔어
-20:54:42.850,INFO,Unity,maxJumpVelocity19.80198
-20:54:44.195,INFO,Unity,maxJumpVelocity20
-20:54:45.735,DEBUG,PlayerCarrying,쿨타임 지났음

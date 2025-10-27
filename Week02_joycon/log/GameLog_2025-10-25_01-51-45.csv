@@ -1,0 +1,88 @@
+Timestamp, Level, Source, Message
+01:51:45.149,INFO,GameLogger,=== Game Session Started ===
+01:51:46.690,WARNING,Unity,Minimap: no renderers found for bounds. Check includeLayers.
+01:51:50.310,INFO,Unity,maxJumpVelocity20
+01:51:50.943,DEBUG,PlayerCarrying,쿨타임 지났음
+01:51:50.946,DEBUG,PlayerCarrying,집기 조작box (4) (UnityEngine.BoxCollider2D)
+01:51:50.947,DEBUG,PlayerCarrying,집기 조작box (5) (UnityEngine.BoxCollider2D)
+01:51:50.948,INFO,Unity,_focus is null
+01:51:53.598,INFO,Unity,1
+01:51:53.598,INFO,Unity,1
+01:51:53.599,INFO,Unity,1
+01:51:53.600,INFO,Unity,0.9509497
+01:51:53.601,INFO,Unity,막혔어
+01:51:54.005,INFO,Unity,1
+01:51:54.006,INFO,Unity,1
+01:51:54.006,INFO,Unity,1
+01:51:54.007,INFO,Unity,0.9509497
+01:51:54.008,INFO,Unity,막혔어
+01:51:54.285,INFO,Unity,1
+01:51:54.286,INFO,Unity,1
+01:51:54.286,INFO,Unity,1
+01:51:54.287,INFO,Unity,0.9509497
+01:51:54.288,INFO,Unity,막혔어
+01:51:57.195,INFO,Unity,1
+01:51:57.197,INFO,Unity,1
+01:51:57.198,INFO,Unity,1
+01:51:57.199,INFO,Unity,0.9509497
+01:51:57.200,INFO,Unity,막혔어
+01:51:59.317,INFO,Unity,1
+01:51:59.317,INFO,Unity,1
+01:51:59.317,INFO,Unity,1
+01:51:59.318,INFO,Unity,0.9509497
+01:51:59.318,INFO,Unity,막혔어
+01:52:00.996,INFO,Unity,1
+01:52:00.997,INFO,Unity,1
+01:52:00.997,INFO,Unity,1
+01:52:00.998,INFO,Unity,0.9509497
+01:52:00.998,INFO,Unity,막혔어
+01:52:01.373,INFO,Unity,1
+01:52:01.374,INFO,Unity,1
+01:52:01.374,INFO,Unity,1
+01:52:01.375,INFO,Unity,0.9509497
+01:52:01.376,INFO,Unity,막혔어
+01:52:01.713,INFO,Unity,1
+01:52:01.715,INFO,Unity,1
+01:52:01.716,INFO,Unity,1
+01:52:01.716,INFO,Unity,0.9509497
+01:52:01.716,INFO,Unity,막혔어
+01:52:02.566,INFO,Unity,maxJumpVelocity19.23077
+01:52:03.663,INFO,Unity,1
+01:52:03.665,INFO,Unity,1
+01:52:03.665,INFO,Unity,1
+01:52:03.665,INFO,Unity,0.9509497
+01:52:03.666,INFO,Unity,막혔어
+01:52:05.300,INFO,Unity,1
+01:52:05.301,INFO,Unity,1
+01:52:05.301,INFO,Unity,1
+01:52:05.303,INFO,Unity,0.9509497
+01:52:05.304,INFO,Unity,막혔어
+01:52:07.614,INFO,Unity,1
+01:52:07.615,INFO,Unity,1
+01:52:07.615,INFO,Unity,1
+01:52:07.616,INFO,Unity,0.9509497
+01:52:07.617,INFO,Unity,막혔어
+01:52:09.451,INFO,Unity,1
+01:52:09.452,INFO,Unity,1
+01:52:09.453,INFO,Unity,1
+01:52:09.453,INFO,Unity,0.9509497
+01:52:09.454,INFO,Unity,막혔어
+01:52:09.988,INFO,Unity,maxJumpVelocity19.23077
+01:52:11.076,INFO,Unity,1
+01:52:11.077,INFO,Unity,1
+01:52:11.078,INFO,Unity,1
+01:52:11.078,INFO,Unity,0.9509497
+01:52:11.079,INFO,Unity,막혔어
+01:52:11.481,INFO,Unity,maxJumpVelocity19.23077
+01:52:12.990,INFO,Unity,1
+01:52:12.991,INFO,Unity,1
+01:52:12.991,INFO,Unity,1
+01:52:12.992,INFO,Unity,0.9509497
+01:52:12.992,INFO,Unity,막혔어
+01:52:13.580,INFO,Unity,maxJumpVelocity19.23077
+01:52:14.795,DEBUG,PlayerCarrying,쿨타임 지났음
+01:52:14.796,DEBUG,PlayerCarrying,집기 조작box (4) (UnityEngine.BoxCollider2D)
+01:52:16.043,DEBUG,PlayerCarrying,쿨타임 지났음
+01:52:16.044,DEBUG,PlayerCarrying,집기 조작box (4) (UnityEngine.BoxCollider2D)
+01:52:17.009,DEBUG,PlayerCarrying,쿨타임 지났음
+01:52:17.009,DEBUG,PlayerCarrying,집기 조작box (4) (UnityEngine.BoxCollider2D)

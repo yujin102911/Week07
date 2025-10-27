@@ -1,0 +1,181 @@
+Timestamp, Level, Source, Message
+00:52:46.979,INFO,GameLogger,=== Game Session Started ===
+00:52:47.767,WARNING,Unity,Minimap: no renderers found for bounds. Check includeLayers.
+00:52:50.560,DEBUG,PlayerCarrying,쿨타임 지났음
+00:52:50.562,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+00:52:50.564,INFO,Unity,_focus is null
+00:52:52.792,DEBUG,PlayerCarrying,쿨타임 지났음
+00:52:52.793,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+00:52:52.793,INFO,Unity,_focus is null
+00:52:53.367,INFO,Unity,maxJumpVelocity19.68504
+00:52:54.518,INFO,Unity,maxJumpVelocity20
+00:52:55.741,INFO,Unity,maxJumpVelocity20
+00:52:57.055,DEBUG,PlayerCarrying,쿨타임 지났음
+00:52:57.056,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+00:52:57.057,INFO,Unity,_focus is null
+00:52:59.866,INFO,Unity,maxJumpVelocity20
+00:53:01.536,INFO,Unity,maxJumpVelocity20
+00:53:03.862,INFO,Unity,maxJumpVelocity20
+00:53:04.430,INFO,Unity,Trigger닿음
+00:53:04.431,INFO,Unity,nal닿음
+00:53:04.982,INFO,Unity,maxJumpVelocity20
+00:53:05.797,INFO,Unity,maxJumpVelocity20
+00:53:06.667,INFO,Unity,maxJumpVelocity20
+00:53:07.726,INFO,Unity,maxJumpVelocity20
+00:53:08.469,INFO,Unity,maxJumpVelocity20
+00:53:09.621,DEBUG,PlayerCarrying,쿨타임 지났음
+00:53:09.621,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+00:53:09.622,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+00:53:09.623,INFO,Unity,_focus is null
+00:53:10.787,INFO,Unity,maxJumpVelocity19.68504
+00:53:11.836,INFO,Unity,maxJumpVelocity20
+00:53:13.342,INFO,Unity,maxJumpVelocity20
+00:53:14.495,DEBUG,PlayerCarrying,쿨타임 지났음
+00:53:14.497,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+00:53:14.497,INFO,Unity,_focus is null
+00:53:15.333,INFO,Unity,maxJumpVelocity19.68504
+00:53:18.414,INFO,Unity,maxJumpVelocity20
+00:53:20.090,DEBUG,PlayerCarrying,쿨타임 지났음
+00:53:20.090,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+00:53:20.092,INFO,Unity,_focus is null
+00:53:20.709,INFO,Unity,maxJumpVelocity19.68504
+00:53:21.824,INFO,Unity,maxJumpVelocity20
+00:53:25.293,INFO,Unity,maxJumpVelocity20
+00:53:26.144,DEBUG,PlayerCarrying,쿨타임 지났음
+00:53:26.146,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+00:53:26.147,INFO,Unity,_focus is null
+00:53:26.535,INFO,Unity,maxJumpVelocity19.68504
+00:53:27.444,INFO,Unity,maxJumpVelocity20
+00:53:28.428,INFO,Unity,maxJumpVelocity20
+00:53:28.825,DEBUG,PlayerCarrying,쿨타임 지났음
+00:53:30.866,INFO,Unity,maxJumpVelocity20
+00:53:31.474,DEBUG,PlayerCarrying,쿨타임 지났음
+00:53:32.109,DEBUG,PlayerCarrying,쿨타임 지났음
+00:53:32.109,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+00:53:32.110,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+00:53:32.111,INFO,Unity,_focus is null
+00:53:34.699,INFO,Unity,maxJumpVelocity20
+00:53:36.087,INFO,Unity,nal닿음
+00:53:36.088,INFO,Unity,Trigger닿음
+00:53:36.555,INFO,Unity,maxJumpVelocity20
+00:53:37.069,DEBUG,PlayerCarrying,쿨타임 지났음
+00:53:37.070,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+00:53:37.072,INFO,Unity,_focus is null
+00:53:37.149,INFO,Unity,Trigger닿음
+00:53:37.150,INFO,Unity,nal닿음
+00:53:37.238,INFO,Unity,Trigger닿음
+00:53:37.238,INFO,Unity,nal닿음
+00:53:53.738,INFO,Unity,maxJumpVelocity19.68504
+00:53:54.425,INFO,Unity,maxJumpVelocity19.68504
+00:53:55.122,INFO,Unity,maxJumpVelocity19.68504
+00:53:55.644,INFO,Unity,Trigger닿음
+00:53:55.645,INFO,Unity,nal닿음
+00:53:55.904,INFO,Unity,maxJumpVelocity19.68504
+00:53:56.620,INFO,Unity,maxJumpVelocity19.68504
+00:53:57.516,INFO,Unity,maxJumpVelocity19.68504
+00:53:58.289,INFO,Unity,maxJumpVelocity19.68504
+00:53:59.012,INFO,Unity,maxJumpVelocity19.68504
+00:53:59.730,INFO,Unity,maxJumpVelocity19.68504
+00:54:00.326,INFO,Unity,maxJumpVelocity19.68504
+00:54:01.298,INFO,Unity,maxJumpVelocity19.68504
+00:54:02.102,INFO,Unity,maxJumpVelocity19.68504
+00:54:02.868,INFO,Unity,maxJumpVelocity19.68504
+00:54:03.542,INFO,Unity,maxJumpVelocity19.68504
+00:54:04.334,INFO,Unity,maxJumpVelocity19.68504
+00:54:05.073,INFO,Unity,maxJumpVelocity19.68504
+00:54:05.792,INFO,Unity,maxJumpVelocity19.68504
+00:54:06.446,INFO,Unity,maxJumpVelocity19.68504
+00:54:07.170,INFO,Unity,maxJumpVelocity19.68504
+00:54:08.323,INFO,Unity,maxJumpVelocity19.68504
+00:54:08.544,INFO,Unity,indexChamge
+00:54:08.545,INFO,Unity,짐 1충돌
+00:54:08.545,DEBUG,PlayerCarrying,충돌로 인해 짐 떨어뜨림. 떨어트린 위치 : 0
+00:54:08.784,INFO,Unity,벽 점프
+00:54:09.262,INFO,Unity,벽 점프
+00:54:10.444,INFO,Unity,maxJumpVelocity20
+00:54:11.577,INFO,Unity,maxJumpVelocity20
+00:54:12.478,INFO,Unity,maxJumpVelocity20
+00:54:13.182,INFO,Unity,maxJumpVelocity20
+00:54:13.789,INFO,Unity,maxJumpVelocity20
+00:54:14.458,INFO,Unity,maxJumpVelocity20
+00:54:15.484,INFO,Unity,maxJumpVelocity20
+00:54:15.852,INFO,Unity,벽 점프
+00:54:16.171,INFO,Unity,벽 점프
+00:54:16.520,INFO,Unity,벽 점프
+00:54:16.917,INFO,Unity,벽 점프
+00:54:17.282,INFO,Unity,벽 점프
+00:54:17.950,INFO,Unity,maxJumpVelocity20
+00:54:18.730,INFO,Unity,maxJumpVelocity20
+00:54:19.674,INFO,Unity,maxJumpVelocity20
+00:54:20.473,INFO,Unity,벽 점프
+00:54:21.296,INFO,Unity,maxJumpVelocity20
+00:54:22.104,INFO,Unity,maxJumpVelocity20
+00:54:22.905,INFO,Unity,maxJumpVelocity20
+00:54:23.590,INFO,Unity,maxJumpVelocity20
+00:54:25.238,INFO,Unity,maxJumpVelocity20
+00:54:27.446,INFO,Unity,maxJumpVelocity20
+00:54:28.087,INFO,Unity,maxJumpVelocity20
+00:54:28.427,INFO,Unity,벽 점프
+00:54:29.948,INFO,Unity,maxJumpVelocity20
+00:54:31.614,INFO,Unity,maxJumpVelocity20
+00:54:33.043,INFO,Unity,maxJumpVelocity20
+00:54:34.320,INFO,Unity,maxJumpVelocity20
+00:54:34.736,INFO,Unity,벽 점프
+00:54:35.236,INFO,Unity,벽 점프
+00:54:35.830,INFO,Unity,maxJumpVelocity20
+00:54:36.715,INFO,Unity,벽 점프
+00:54:37.247,INFO,Unity,벽 점프
+00:54:37.696,INFO,Unity,벽 점프
+00:54:38.159,INFO,Unity,벽 점프
+00:54:38.554,INFO,Unity,벽 점프
+00:54:39.006,INFO,Unity,벽 점프
+00:54:40.141,INFO,Unity,maxJumpVelocity20
+00:54:42.938,INFO,Unity,maxJumpVelocity20
+00:54:44.141,INFO,Unity,maxJumpVelocity20
+00:54:44.696,INFO,Unity,maxJumpVelocity20
+00:54:45.522,INFO,Unity,maxJumpVelocity20
+00:54:46.343,INFO,Unity,maxJumpVelocity20
+00:54:47.160,INFO,Unity,maxJumpVelocity20
+00:54:47.943,INFO,Unity,maxJumpVelocity20
+00:54:48.666,INFO,Unity,벽 점프
+00:54:49.215,INFO,Unity,벽 점프
+00:54:49.682,INFO,Unity,벽 점프
+00:54:50.093,INFO,Unity,벽 점프
+00:54:50.873,INFO,Unity,벽 점프
+00:54:51.857,INFO,Unity,벽 점프
+00:54:52.670,INFO,Unity,벽 점프
+00:54:53.458,INFO,Unity,벽 점프
+00:54:54.252,INFO,Unity,벽 점프
+00:54:55.384,INFO,Unity,maxJumpVelocity20
+00:54:56.028,INFO,Unity,maxJumpVelocity20
+00:54:57.086,INFO,Unity,maxJumpVelocity20
+00:54:57.976,INFO,Unity,maxJumpVelocity20
+00:54:58.597,INFO,Unity,maxJumpVelocity20
+00:54:59.016,INFO,Unity,벽 점프
+00:54:59.389,INFO,Unity,벽 점프
+00:54:59.949,INFO,Unity,maxJumpVelocity20
+00:55:00.365,INFO,Unity,벽 점프
+00:55:01.389,INFO,Unity,벽 점프
+00:55:01.746,INFO,Unity,벽 점프
+00:55:02.209,INFO,Unity,maxJumpVelocity20
+00:55:02.756,INFO,Unity,벽 점프
+00:55:03.256,INFO,Unity,벽 점프
+00:55:04.743,INFO,Unity,벽 점프
+00:55:05.371,INFO,Unity,벽 점프
+00:55:05.982,INFO,Unity,maxJumpVelocity20
+00:55:06.373,INFO,Unity,벽 점프
+00:55:06.934,INFO,Unity,벽 점프
+00:55:07.281,INFO,Unity,벽 점프
+00:55:07.693,INFO,Unity,maxJumpVelocity20
+00:55:08.269,INFO,Unity,maxJumpVelocity20
+00:55:09.439,INFO,Unity,벽 점프
+00:55:09.842,INFO,Unity,벽 점프
+00:55:10.170,INFO,Unity,벽 점프
+00:55:10.525,INFO,Unity,벽 점프
+00:55:10.858,INFO,Unity,벽 점프
+00:55:11.195,INFO,Unity,벽 점프
+00:55:11.523,INFO,Unity,벽 점프
+00:55:11.874,INFO,Unity,벽 점프
+00:55:12.204,INFO,Unity,벽 점프
+00:55:12.603,INFO,Unity,벽 점프
+00:55:13.750,INFO,Unity,maxJumpVelocity20

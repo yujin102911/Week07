@@ -1,0 +1,16 @@
+Timestamp, Level, Source, Message
+21:06:41.457,INFO,GameLogger,=== Game Session Started ===
+21:06:41.904,WARNING,Unity,Minimap: no renderers found for bounds. Check includeLayers.
+21:06:41.912,INFO,Unity,Trigger Entered with: Wall2
+21:06:41.913,INFO,Unity,Trigger Entered with: Wall2
+21:06:41.913,INFO,Unity,Trigger Entered with: Wall2
+21:06:41.913,INFO,Unity,Trigger Entered with: Wall2
+21:06:41.914,INFO,Unity,Trigger Entered with: Wall2
+21:06:44.123,INFO,Unity,maxJumpVelocity20
+21:06:44.986,INFO,Unity,maxJumpVelocity20
+21:06:46.843,INFO,Unity,maxJumpVelocity20
+21:06:49.067,INFO,Unity,Trigger Exit with: Wall2
+21:06:49.068,INFO,Unity,Trigger Exit with: Wall2
+21:06:49.068,INFO,Unity,Trigger Exit with: Wall2
+21:06:49.068,INFO,Unity,Trigger Exit with: Wall2
+21:06:49.068,INFO,Unity,Trigger Exit with: Wall2

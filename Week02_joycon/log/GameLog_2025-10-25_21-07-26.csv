@@ -1,0 +1,170 @@
+Timestamp, Level, Source, Message
+21:07:26.532,INFO,GameLogger,=== Game Session Started ===
+21:07:26.971,WARNING,Unity,Minimap: no renderers found for bounds. Check includeLayers.
+21:07:26.979,INFO,Unity,Trigger Entered with: Wall2
+21:07:26.979,INFO,Unity,Trigger Entered with: Wall2
+21:07:26.980,INFO,Unity,Trigger Entered with: Wall2
+21:07:26.980,INFO,Unity,Trigger Entered with: Wall2
+21:07:26.980,INFO,Unity,Trigger Entered with: Wall2
+21:07:28.916,INFO,Unity,maxJumpVelocity20
+21:07:30.977,INFO,Unity,maxJumpVelocity20
+21:07:32.361,DEBUG,PlayerCarrying,집기 조작Rag (UnityEngine.BoxCollider2D)
+21:07:32.363,INFO,Unity,_focus is null
+21:07:33.222,INFO,Unity,더러워짐
+21:07:33.223,INFO,Unity,더러워짐
+21:07:33.263,INFO,Unity,더러워짐
+21:07:33.281,INFO,Unity,더러워짐
+21:07:34.140,INFO,Unity,더러워짐
+21:07:35.003,INFO,Unity,더러워짐
+21:07:35.103,INFO,Unity,더러워짐
+21:07:35.222,INFO,Unity,더러워짐
+21:07:35.277,INFO,Unity,maxJumpVelocity19.92032
+21:07:35.283,INFO,Unity,더러워짐
+21:07:36.782,INFO,Unity,maxJumpVelocity19.92032
+21:07:38.997,INFO,Unity,maxJumpVelocity19.92032
+21:07:39.764,INFO,Unity,사다리 점프
+21:07:40.479,INFO,Unity,사다리 점프
+21:07:41.024,INFO,Unity,깨끗해짐24
+21:07:41.045,INFO,Unity,깨끗해짐28
+21:07:41.065,INFO,Unity,깨끗해짐31.99999
+21:07:41.084,INFO,Unity,깨끗해짐35.99999
+21:07:41.105,INFO,Unity,깨끗해짐39.99999
+21:07:41.120,INFO,Unity,깨끗해짐43.99999
+21:07:41.140,INFO,Unity,깨끗해짐47.99999
+21:07:41.161,INFO,Unity,깨끗해짐51.99999
+21:07:41.183,INFO,Unity,깨끗해짐55.99999
+21:07:41.203,INFO,Unity,깨끗해짐59.99999
+21:07:41.224,INFO,Unity,깨끗해짐63.99999
+21:07:41.243,INFO,Unity,깨끗해짐67.99999
+21:07:41.264,INFO,Unity,깨끗해짐71.99999
+21:07:41.283,INFO,Unity,깨끗해짐75.99999
+21:07:41.303,INFO,Unity,깨끗해짐79.99999
+21:07:41.324,INFO,Unity,깨끗해짐83.99999
+21:07:41.343,INFO,Unity,깨끗해짐87.99999
+21:07:41.364,INFO,Unity,깨끗해짐91.99999
+21:07:41.387,INFO,Unity,깨끗해짐95.99999
+21:07:41.408,INFO,Unity,깨끗해짐99.99999
+21:07:41.423,INFO,Unity,깨끗해짐104
+21:07:41.444,INFO,Unity,깨끗해짐108
+21:07:41.461,INFO,Unity,깨끗해짐112
+21:07:41.481,INFO,Unity,깨끗해짐116
+21:07:41.503,INFO,Unity,깨끗해짐120
+21:07:41.525,INFO,Unity,깨끗해짐124
+21:07:41.548,INFO,Unity,깨끗해짐128
+21:07:41.555,INFO,Unity,maxJumpVelocity19.92032
+21:07:41.566,INFO,Unity,깨끗해짐132
+21:07:41.589,INFO,Unity,깨끗해짐136
+21:07:41.604,INFO,Unity,깨끗해짐140
+21:07:41.624,INFO,Unity,깨끗해짐144
+21:07:41.644,INFO,Unity,깨끗해짐148
+21:07:41.665,INFO,Unity,깨끗해짐152
+21:07:41.685,INFO,Unity,깨끗해짐156
+21:07:41.704,INFO,Unity,깨끗해짐160
+21:07:41.721,INFO,Unity,깨끗해짐164
+21:07:41.741,INFO,Unity,깨끗해짐168
+21:07:41.761,INFO,Unity,깨끗해짐172
+21:07:41.782,INFO,Unity,깨끗해짐176
+21:07:41.801,INFO,Unity,깨끗해짐180
+21:07:41.822,INFO,Unity,깨끗해짐184
+21:07:41.842,INFO,Unity,깨끗해짐188
+21:07:41.861,INFO,Unity,깨끗해짐192
+21:07:41.880,INFO,Unity,깨끗해짐196
+21:07:42.061,INFO,Unity,더러워짐
+21:07:42.141,INFO,Unity,더러워짐
+21:07:42.183,INFO,Unity,더러워짐
+21:07:42.219,INFO,Unity,더러워짐
+21:07:42.262,INFO,Unity,깨끗해짐119
+21:07:42.282,INFO,Unity,깨끗해짐123
+21:07:42.283,INFO,Unity,maxJumpVelocity19.92032
+21:07:42.306,INFO,Unity,깨끗해짐127
+21:07:42.327,INFO,Unity,깨끗해짐131
+21:07:42.347,INFO,Unity,깨끗해짐135
+21:07:42.363,INFO,Unity,깨끗해짐139
+21:07:42.388,INFO,Unity,깨끗해짐143
+21:07:42.406,INFO,Unity,깨끗해짐147
+21:07:42.421,INFO,Unity,깨끗해짐151
+21:07:42.450,INFO,Unity,깨끗해짐155
+21:07:42.474,INFO,Unity,깨끗해짐159
+21:07:42.487,INFO,Unity,깨끗해짐163
+21:07:42.511,INFO,Unity,깨끗해짐167
+21:07:42.522,INFO,Unity,깨끗해짐171
+21:07:42.541,INFO,Unity,깨끗해짐175
+21:07:42.562,INFO,Unity,깨끗해짐179
+21:07:42.585,INFO,Unity,깨끗해짐183
+21:07:42.600,INFO,Unity,깨끗해짐187
+21:07:42.624,INFO,Unity,깨끗해짐191
+21:07:42.648,INFO,Unity,깨끗해짐195
+21:07:42.663,INFO,Unity,깨끗해짐199
+21:07:42.683,INFO,Unity,깨끗해짐203
+21:07:43.038,INFO,Unity,maxJumpVelocity19.92032
+21:07:43.642,INFO,Unity,더러워짐
+21:07:43.874,INFO,Unity,maxJumpVelocity19.92032
+21:07:43.902,INFO,Unity,더러워짐
+21:07:44.502,INFO,Unity,깨끗해짐167
+21:07:44.524,INFO,Unity,깨끗해짐171
+21:07:44.544,INFO,Unity,깨끗해짐175
+21:07:44.568,INFO,Unity,깨끗해짐179
+21:07:44.583,INFO,Unity,깨끗해짐183
+21:07:44.607,INFO,Unity,깨끗해짐187
+21:07:44.626,INFO,Unity,깨끗해짐191
+21:07:44.641,INFO,Unity,깨끗해짐195
+21:07:44.660,INFO,Unity,깨끗해짐199
+21:07:44.681,INFO,Unity,깨끗해짐203
+21:07:46.039,INFO,Unity,maxJumpVelocity19.92032
+21:07:46.580,INFO,Unity,더러워짐
+21:07:46.623,INFO,Unity,더러워짐
+21:07:47.121,INFO,Unity,maxJumpVelocity19.92032
+21:07:47.604,INFO,Unity,더러워짐
+21:07:47.604,INFO,Unity,더러워짐
+21:07:47.663,INFO,Unity,더러워짐
+21:07:48.022,INFO,Unity,더러워짐
+21:07:48.764,INFO,Unity,maxJumpVelocity19.92032
+21:07:49.644,INFO,Unity,깨끗해짐87
+21:07:49.664,INFO,Unity,깨끗해짐91
+21:07:49.680,INFO,Unity,깨끗해짐95
+21:07:49.704,INFO,Unity,깨끗해짐99
+21:07:49.723,INFO,Unity,깨끗해짐103
+21:07:49.743,INFO,Unity,깨끗해짐107
+21:07:49.766,INFO,Unity,깨끗해짐111
+21:07:49.783,INFO,Unity,깨끗해짐115
+21:07:49.943,INFO,Unity,깨끗해짐119
+21:07:49.961,INFO,Unity,깨끗해짐123
+21:07:49.982,INFO,Unity,깨끗해짐127
+21:07:50.002,INFO,Unity,깨끗해짐131
+21:07:50.025,INFO,Unity,깨끗해짐135
+21:07:50.040,INFO,Unity,깨끗해짐139
+21:07:50.063,INFO,Unity,깨끗해짐143
+21:07:50.089,INFO,Unity,깨끗해짐147
+21:07:50.101,INFO,Unity,깨끗해짐151
+21:07:50.122,INFO,Unity,깨끗해짐155
+21:07:50.142,INFO,Unity,깨끗해짐159
+21:07:50.166,INFO,Unity,깨끗해짐163
+21:07:50.187,INFO,Unity,깨끗해짐167
+21:07:50.200,INFO,Unity,깨끗해짐171
+21:07:50.223,INFO,Unity,깨끗해짐175
+21:07:50.241,INFO,Unity,깨끗해짐179
+21:07:50.261,INFO,Unity,깨끗해짐183
+21:07:50.282,INFO,Unity,깨끗해짐187
+21:07:50.304,INFO,Unity,깨끗해짐191
+21:07:50.327,INFO,Unity,깨끗해짐195
+21:07:50.348,INFO,Unity,깨끗해짐199
+21:07:50.363,INFO,Unity,깨끗해짐203
+21:07:53.239,INFO,Unity,maxJumpVelocity19.92032
+21:07:55.061,INFO,Unity,사다리 점프
+21:07:55.633,INFO,Unity,maxJumpVelocity19.92032
+21:07:57.900,DEBUG,PlayerCarrying,집기 조작Rag (UnityEngine.BoxCollider2D)
+21:07:57.901,DEBUG,BathController,물탱크를 작동시키고 욕조에 물을 채우기 시작햇삼
+21:08:02.743,INFO,Unity,더러워짐
+21:08:02.803,INFO,Unity,더러워짐
+21:08:02.901,DEBUG,BathController,욕조에 물이 다찼다
+21:08:05.041,INFO,Unity,maxJumpVelocity19.92032
+21:08:06.105,INFO,Unity,maxJumpVelocity19.92032
+21:08:07.112,INFO,Unity,maxJumpVelocity19.92032
+21:08:08.210,INFO,Unity,maxJumpVelocity19.92032
+21:08:09.204,INFO,Unity,maxJumpVelocity19.92032
+21:08:10.823,INFO,Unity,maxJumpVelocity19.92032
+21:08:13.094,INFO,Unity,Trigger Exit with: Wall2
+21:08:13.094,INFO,Unity,Trigger Exit with: Wall2
+21:08:13.095,INFO,Unity,Trigger Exit with: Wall2
+21:08:13.096,INFO,Unity,Trigger Exit with: Wall2
+21:08:13.096,INFO,Unity,Trigger Exit with: Wall2

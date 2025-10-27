@@ -1,0 +1,778 @@
+Timestamp, Level, Source, Message
+17:43:54.735,INFO,GameLogger,=== Game Session Started ===
+17:43:55.178,WARNING,Unity,Minimap: no renderers found for bounds. Check includeLayers.
+17:43:55.185,INFO,Unity,Trigger Entered with: Tilemap
+17:43:58.374,INFO,Unity,Trigger Entered with: WateringCan
+17:43:59.219,DEBUG,PlayerCarrying,집기 조작WateringCan (UnityEngine.BoxCollider2D)
+17:43:59.221,INFO,Unity,_focus is null
+17:43:59.288,INFO,Unity,No hits detected.
+17:43:59.306,INFO,Unity,No hits detected.
+17:43:59.319,INFO,Unity,No hits detected.
+17:43:59.333,INFO,Unity,No hits detected.
+17:43:59.345,INFO,Unity,No hits detected.
+17:43:59.357,INFO,Unity,No hits detected.
+17:43:59.370,INFO,Unity,No hits detected.
+17:43:59.382,INFO,Unity,No hits detected.
+17:43:59.394,INFO,Unity,No hits detected.
+17:43:59.414,INFO,Unity,No hits detected.
+17:43:59.442,INFO,Unity,No hits detected.
+17:43:59.459,INFO,Unity,No hits detected.
+17:43:59.473,INFO,Unity,No hits detected.
+17:43:59.485,INFO,Unity,No hits detected.
+17:43:59.497,INFO,Unity,No hits detected.
+17:43:59.511,INFO,Unity,No hits detected.
+17:43:59.523,INFO,Unity,No hits detected.
+17:43:59.537,INFO,Unity,No hits detected.
+17:43:59.549,INFO,Unity,No hits detected.
+17:43:59.560,INFO,Unity,No hits detected.
+17:43:59.573,INFO,Unity,No hits detected.
+17:43:59.586,INFO,Unity,No hits detected.
+17:43:59.598,INFO,Unity,No hits detected.
+17:43:59.613,INFO,Unity,No hits detected.
+17:43:59.626,INFO,Unity,No hits detected.
+17:43:59.638,INFO,Unity,No hits detected.
+17:43:59.649,INFO,Unity,No hits detected.
+17:43:59.661,INFO,Unity,No hits detected.
+17:43:59.673,INFO,Unity,No hits detected.
+17:43:59.685,INFO,Unity,No hits detected.
+17:43:59.697,INFO,Unity,No hits detected.
+17:43:59.710,INFO,Unity,No hits detected.
+17:43:59.722,INFO,Unity,No hits detected.
+17:43:59.733,INFO,Unity,No hits detected.
+17:43:59.745,INFO,Unity,No hits detected.
+17:43:59.759,INFO,Unity,No hits detected.
+17:43:59.774,INFO,Unity,No hits detected.
+17:43:59.786,INFO,Unity,No hits detected.
+17:43:59.798,INFO,Unity,No hits detected.
+17:43:59.809,INFO,Unity,No hits detected.
+17:43:59.825,INFO,Unity,No hits detected.
+17:43:59.836,INFO,Unity,No hits detected.
+17:43:59.848,INFO,Unity,No hits detected.
+17:43:59.860,INFO,Unity,No hits detected.
+17:43:59.872,INFO,Unity,No hits detected.
+17:43:59.884,INFO,Unity,No hits detected.
+17:43:59.898,INFO,Unity,No hits detected.
+17:43:59.911,INFO,Unity,No hits detected.
+17:43:59.923,INFO,Unity,No hits detected.
+17:43:59.935,INFO,Unity,No hits detected.
+17:43:59.947,INFO,Unity,No hits detected.
+17:43:59.959,INFO,Unity,No hits detected.
+17:43:59.973,INFO,Unity,No hits detected.
+17:43:59.984,INFO,Unity,No hits detected.
+17:43:59.997,INFO,Unity,No hits detected.
+17:44:00.016,INFO,Unity,No hits detected.
+17:44:00.031,INFO,Unity,No hits detected.
+17:44:00.043,INFO,Unity,No hits detected.
+17:44:00.055,INFO,Unity,No hits detected.
+17:44:00.068,INFO,Unity,No hits detected.
+17:44:00.082,INFO,Unity,No hits detected.
+17:44:00.093,INFO,Unity,No hits detected.
+17:44:00.106,INFO,Unity,No hits detected.
+17:44:00.116,INFO,Unity,No hits detected.
+17:44:00.129,INFO,Unity,No hits detected.
+17:44:00.141,INFO,Unity,No hits detected.
+17:44:00.153,INFO,Unity,No hits detected.
+17:44:00.165,INFO,Unity,No hits detected.
+17:44:00.176,INFO,Unity,No hits detected.
+17:44:00.190,INFO,Unity,No hits detected.
+17:44:00.200,INFO,Unity,No hits detected.
+17:44:00.213,INFO,Unity,No hits detected.
+17:44:00.226,INFO,Unity,No hits detected.
+17:44:00.240,INFO,Unity,No hits detected.
+17:44:00.253,INFO,Unity,No hits detected.
+17:44:00.265,INFO,Unity,No hits detected.
+17:44:00.276,INFO,Unity,No hits detected.
+17:44:00.290,INFO,Unity,No hits detected.
+17:44:00.302,INFO,Unity,No hits detected.
+17:44:00.314,INFO,Unity,No hits detected.
+17:44:00.327,INFO,Unity,No hits detected.
+17:44:00.340,INFO,Unity,No hits detected.
+17:44:00.353,INFO,Unity,No hits detected.
+17:44:00.365,INFO,Unity,No hits detected.
+17:44:00.377,INFO,Unity,No hits detected.
+17:44:00.391,INFO,Unity,No hits detected.
+17:44:00.403,INFO,Unity,No hits detected.
+17:44:00.417,INFO,Unity,No hits detected.
+17:44:00.428,INFO,Unity,No hits detected.
+17:44:00.443,INFO,Unity,No hits detected.
+17:44:00.457,INFO,Unity,No hits detected.
+17:44:00.469,INFO,Unity,No hits detected.
+17:44:00.481,INFO,Unity,No hits detected.
+17:44:00.493,INFO,Unity,No hits detected.
+17:44:00.506,INFO,Unity,No hits detected.
+17:44:00.518,INFO,Unity,No hits detected.
+17:44:00.530,INFO,Unity,No hits detected.
+17:44:00.542,INFO,Unity,No hits detected.
+17:44:00.554,INFO,Unity,No hits detected.
+17:44:00.565,INFO,Unity,No hits detected.
+17:44:00.577,INFO,Unity,No hits detected.
+17:44:00.590,INFO,Unity,No hits detected.
+17:44:00.601,INFO,Unity,No hits detected.
+17:44:00.613,INFO,Unity,No hits detected.
+17:44:00.625,INFO,Unity,No hits detected.
+17:44:00.638,INFO,Unity,No hits detected.
+17:44:00.651,INFO,Unity,No hits detected.
+17:44:00.664,INFO,Unity,No hits detected.
+17:44:00.676,INFO,Unity,No hits detected.
+17:44:00.689,INFO,Unity,No hits detected.
+17:44:00.702,INFO,Unity,No hits detected.
+17:44:00.714,INFO,Unity,No hits detected.
+17:44:00.728,INFO,Unity,No hits detected.
+17:44:00.740,INFO,Unity,No hits detected.
+17:44:00.753,INFO,Unity,No hits detected.
+17:44:00.766,INFO,Unity,No hits detected.
+17:44:00.778,INFO,Unity,No hits detected.
+17:44:00.790,INFO,Unity,No hits detected.
+17:44:00.802,INFO,Unity,No hits detected.
+17:44:00.814,INFO,Unity,No hits detected.
+17:44:00.827,INFO,Unity,No hits detected.
+17:44:00.838,INFO,Unity,No hits detected.
+17:44:00.853,INFO,Unity,No hits detected.
+17:44:00.865,INFO,Unity,No hits detected.
+17:44:00.877,INFO,Unity,No hits detected.
+17:44:00.889,INFO,Unity,No hits detected.
+17:44:00.900,INFO,Unity,No hits detected.
+17:44:00.912,INFO,Unity,No hits detected.
+17:44:00.925,INFO,Unity,No hits detected.
+17:44:00.937,INFO,Unity,No hits detected.
+17:44:00.948,INFO,Unity,No hits detected.
+17:44:00.962,INFO,Unity,No hits detected.
+17:44:00.973,INFO,Unity,No hits detected.
+17:44:00.986,INFO,Unity,No hits detected.
+17:44:00.997,INFO,Unity,No hits detected.
+17:44:01.010,INFO,Unity,No hits detected.
+17:44:01.024,INFO,Unity,No hits detected.
+17:44:01.038,INFO,Unity,No hits detected.
+17:44:01.050,INFO,Unity,No hits detected.
+17:44:01.065,INFO,Unity,No hits detected.
+17:44:01.077,INFO,Unity,No hits detected.
+17:44:01.090,INFO,Unity,No hits detected.
+17:44:01.103,INFO,Unity,No hits detected.
+17:44:01.115,INFO,Unity,No hits detected.
+17:44:01.127,INFO,Unity,No hits detected.
+17:44:01.139,INFO,Unity,No hits detected.
+17:44:01.151,INFO,Unity,No hits detected.
+17:44:01.161,INFO,Unity,No hits detected.
+17:44:01.174,INFO,Unity,No hits detected.
+17:44:01.186,INFO,Unity,No hits detected.
+17:44:01.198,INFO,Unity,No hits detected.
+17:44:01.210,INFO,Unity,No hits detected.
+17:44:01.221,INFO,Unity,No hits detected.
+17:44:01.234,INFO,Unity,No hits detected.
+17:44:01.246,INFO,Unity,No hits detected.
+17:44:01.258,INFO,Unity,No hits detected.
+17:44:01.272,INFO,Unity,No hits detected.
+17:44:01.284,INFO,Unity,No hits detected.
+17:44:01.297,INFO,Unity,No hits detected.
+17:44:01.309,INFO,Unity,No hits detected.
+17:44:01.322,INFO,Unity,No hits detected.
+17:44:01.334,INFO,Unity,No hits detected.
+17:44:01.347,INFO,Unity,No hits detected.
+17:44:01.359,INFO,Unity,No hits detected.
+17:44:01.371,INFO,Unity,No hits detected.
+17:44:01.382,INFO,Unity,No hits detected.
+17:44:01.394,INFO,Unity,No hits detected.
+17:44:01.407,INFO,Unity,No hits detected.
+17:44:01.419,INFO,Unity,No hits detected.
+17:44:01.431,INFO,Unity,No hits detected.
+17:44:01.443,INFO,Unity,No hits detected.
+17:44:01.457,INFO,Unity,No hits detected.
+17:44:01.469,INFO,Unity,No hits detected.
+17:44:01.484,INFO,Unity,No hits detected.
+17:44:01.496,INFO,Unity,No hits detected.
+17:44:01.509,INFO,Unity,No hits detected.
+17:44:01.521,INFO,Unity,No hits detected.
+17:44:01.532,INFO,Unity,No hits detected.
+17:44:01.544,INFO,Unity,No hits detected.
+17:44:01.557,INFO,Unity,No hits detected.
+17:44:01.570,INFO,Unity,No hits detected.
+17:44:01.582,INFO,Unity,No hits detected.
+17:44:01.595,INFO,Unity,No hits detected.
+17:44:01.606,INFO,Unity,No hits detected.
+17:44:01.619,INFO,Unity,No hits detected.
+17:44:01.631,INFO,Unity,No hits detected.
+17:44:01.643,INFO,Unity,No hits detected.
+17:44:01.656,INFO,Unity,No hits detected.
+17:44:01.668,INFO,Unity,No hits detected.
+17:44:01.680,INFO,Unity,No hits detected.
+17:44:01.695,INFO,Unity,No hits detected.
+17:44:01.707,INFO,Unity,No hits detected.
+17:44:01.719,INFO,Unity,No hits detected.
+17:44:01.731,INFO,Unity,No hits detected.
+17:44:01.743,INFO,Unity,No hits detected.
+17:44:01.755,INFO,Unity,No hits detected.
+17:44:01.768,INFO,Unity,No hits detected.
+17:44:01.780,INFO,Unity,No hits detected.
+17:44:01.792,INFO,Unity,No hits detected.
+17:44:01.805,INFO,Unity,No hits detected.
+17:44:01.818,INFO,Unity,No hits detected.
+17:44:01.830,INFO,Unity,No hits detected.
+17:44:01.842,INFO,Unity,No hits detected.
+17:44:01.854,INFO,Unity,No hits detected.
+17:44:01.867,INFO,Unity,No hits detected.
+17:44:01.878,INFO,Unity,No hits detected.
+17:44:01.890,INFO,Unity,No hits detected.
+17:44:01.905,INFO,Unity,No hits detected.
+17:44:01.918,INFO,Unity,No hits detected.
+17:44:01.931,INFO,Unity,No hits detected.
+17:44:01.944,INFO,Unity,No hits detected.
+17:44:01.955,INFO,Unity,No hits detected.
+17:44:01.968,INFO,Unity,No hits detected.
+17:44:01.979,INFO,Unity,No hits detected.
+17:44:01.991,INFO,Unity,No hits detected.
+17:44:02.003,INFO,Unity,No hits detected.
+17:44:02.015,INFO,Unity,No hits detected.
+17:44:02.027,INFO,Unity,No hits detected.
+17:44:02.039,INFO,Unity,No hits detected.
+17:44:02.050,INFO,Unity,No hits detected.
+17:44:02.064,INFO,Unity,No hits detected.
+17:44:02.075,INFO,Unity,No hits detected.
+17:44:02.089,INFO,Unity,No hits detected.
+17:44:02.103,INFO,Unity,No hits detected.
+17:44:02.103,INFO,Unity,maxJumpVelocity19.84127
+17:44:02.120,INFO,Unity,No hits detected.
+17:44:02.132,INFO,Unity,No hits detected.
+17:44:02.144,INFO,Unity,No hits detected.
+17:44:02.159,INFO,Unity,No hits detected.
+17:44:02.170,INFO,Unity,No hits detected.
+17:44:02.184,INFO,Unity,No hits detected.
+17:44:02.196,INFO,Unity,No hits detected.
+17:44:02.209,INFO,Unity,No hits detected.
+17:44:02.221,INFO,Unity,No hits detected.
+17:44:02.235,INFO,Unity,No hits detected.
+17:44:02.249,INFO,Unity,No hits detected.
+17:44:02.263,INFO,Unity,No hits detected.
+17:44:02.275,INFO,Unity,No hits detected.
+17:44:02.288,INFO,Unity,No hits detected.
+17:44:02.300,INFO,Unity,No hits detected.
+17:44:02.311,INFO,Unity,No hits detected.
+17:44:02.327,INFO,Unity,No hits detected.
+17:44:02.339,INFO,Unity,No hits detected.
+17:44:02.350,INFO,Unity,No hits detected.
+17:44:02.363,INFO,Unity,No hits detected.
+17:44:02.374,INFO,Unity,No hits detected.
+17:44:02.387,INFO,Unity,No hits detected.
+17:44:02.398,INFO,Unity,No hits detected.
+17:44:02.411,INFO,Unity,No hits detected.
+17:44:02.423,INFO,Unity,No hits detected.
+17:44:02.435,INFO,Unity,No hits detected.
+17:44:02.447,INFO,Unity,No hits detected.
+17:44:02.459,INFO,Unity,No hits detected.
+17:44:02.472,INFO,Unity,No hits detected.
+17:44:02.484,INFO,Unity,No hits detected.
+17:44:02.495,INFO,Unity,No hits detected.
+17:44:02.508,INFO,Unity,No hits detected.
+17:44:02.520,INFO,Unity,No hits detected.
+17:44:02.535,INFO,Unity,No hits detected.
+17:44:02.549,INFO,Unity,No hits detected.
+17:44:02.561,INFO,Unity,No hits detected.
+17:44:02.573,INFO,Unity,No hits detected.
+17:44:02.586,INFO,Unity,No hits detected.
+17:44:02.597,INFO,Unity,No hits detected.
+17:44:02.610,INFO,Unity,No hits detected.
+17:44:02.621,INFO,Unity,No hits detected.
+17:44:02.633,INFO,Unity,No hits detected.
+17:44:02.646,INFO,Unity,No hits detected.
+17:44:02.659,INFO,Unity,No hits detected.
+17:44:02.671,INFO,Unity,No hits detected.
+17:44:02.683,INFO,Unity,No hits detected.
+17:44:02.695,INFO,Unity,No hits detected.
+17:44:02.706,INFO,Unity,No hits detected.
+17:44:02.730,INFO,Unity,Trigger Entered with: Watering
+17:44:02.749,INFO,Unity,Trigger Entered with: Watering
+17:44:02.774,INFO,Unity,Trigger Entered with: Watering
+17:44:02.788,INFO,Unity,Trigger Entered with: Watering
+17:44:02.813,INFO,Unity,Trigger Entered with: Watering
+17:44:02.826,INFO,Unity,Trigger Entered with: Watering
+17:44:02.851,INFO,Unity,Trigger Entered with: Player
+17:44:02.852,INFO,Unity,Trigger Entered with: Watering
+17:44:02.866,INFO,Unity,Trigger Entered with: Watering
+17:44:02.894,INFO,Unity,Trigger Entered with: Watering
+17:44:02.911,INFO,Unity,Trigger Entered with: WateringCan
+17:44:02.912,INFO,Unity,Trigger Entered with: Watering
+17:44:02.926,INFO,Unity,Trigger Entered with: Watering
+17:44:02.963,INFO,Unity,Trigger Entered with: Watering
+17:44:02.982,INFO,Unity,Trigger Entered with: Watering
+17:44:02.998,INFO,Unity,Trigger Entered with: Watering
+17:44:03.013,INFO,Unity,Trigger Entered with: Watering
+17:44:03.026,INFO,Unity,Trigger Entered with: Watering
+17:44:03.055,INFO,Unity,Trigger Entered with: Watering
+17:44:03.071,INFO,Unity,Trigger Entered with: Watering
+17:44:03.085,INFO,Unity,Trigger Entered with: Watering
+17:44:03.110,INFO,Unity,Trigger Entered with: Watering
+17:44:03.134,INFO,Unity,Trigger Entered with: Watering
+17:44:03.148,INFO,Unity,Trigger Entered with: Watering
+17:44:03.176,INFO,Unity,Trigger Entered with: Watering
+17:44:03.190,INFO,Unity,Trigger Entered with: Watering
+17:44:03.218,INFO,Unity,Trigger Entered with: Watering
+17:44:03.234,INFO,Unity,Trigger Entered with: Watering
+17:44:03.248,INFO,Unity,Trigger Entered with: Watering
+17:44:03.272,INFO,Unity,Trigger Entered with: Watering
+17:44:03.284,INFO,Unity,Trigger Entered with: Watering
+17:44:03.308,INFO,Unity,Trigger Entered with: Watering
+17:44:03.333,INFO,Unity,Trigger Entered with: Watering
+17:44:03.346,INFO,Unity,Trigger Entered with: Watering
+17:44:03.375,INFO,Unity,Trigger Entered with: Watering
+17:44:03.393,INFO,Unity,Trigger Entered with: Watering
+17:44:03.406,INFO,Unity,Trigger Entered with: Watering
+17:44:03.430,INFO,Unity,Trigger Entered with: Watering
+17:44:03.454,INFO,Unity,Trigger Entered with: Watering
+17:44:03.468,INFO,Unity,Trigger Entered with: Watering
+17:44:03.493,INFO,Unity,Trigger Entered with: Watering
+17:44:03.506,INFO,Unity,Trigger Entered with: Watering
+17:44:03.535,INFO,Unity,Trigger Entered with: Watering
+17:44:03.551,INFO,Unity,Trigger Entered with: Watering
+17:44:03.575,INFO,Unity,Trigger Entered with: Watering
+17:44:03.591,INFO,Unity,Trigger Entered with: Watering
+17:44:03.605,INFO,Unity,Trigger Entered with: Watering
+17:44:03.631,INFO,Unity,Trigger Entered with: Watering
+17:44:03.645,INFO,Unity,Trigger Entered with: Watering
+17:44:03.687,INFO,Unity,Trigger Entered with: Watering
+17:44:03.716,INFO,Unity,Trigger Entered with: Watering
+17:44:03.730,INFO,Unity,Trigger Entered with: Watering
+17:44:03.755,INFO,Unity,Trigger Entered with: Watering
+17:44:03.768,INFO,Unity,Trigger Entered with: Watering
+17:44:03.797,INFO,Unity,Trigger Entered with: Watering
+17:44:03.812,INFO,Unity,Trigger Entered with: Watering
+17:44:03.842,INFO,Unity,Trigger Entered with: Watering
+17:44:03.859,INFO,Unity,Trigger Entered with: Watering
+17:44:03.873,INFO,Unity,Trigger Entered with: Watering
+17:44:03.888,INFO,Unity,Trigger Entered with: Watering
+17:44:03.906,INFO,Unity,Trigger Entered with: Watering
+17:44:03.935,INFO,Unity,Trigger Entered with: Watering
+17:44:03.949,INFO,Unity,Trigger Entered with: Watering
+17:44:03.967,INFO,Unity,Trigger Entered with: Watering
+17:44:03.997,INFO,Unity,Trigger Entered with: Watering
+17:44:04.017,INFO,Unity,Trigger Entered with: Watering
+17:44:04.031,INFO,Unity,Trigger Entered with: Watering
+17:44:04.058,INFO,Unity,Trigger Entered with: Watering
+17:44:04.072,INFO,Unity,Trigger Entered with: Watering
+17:44:04.086,INFO,Unity,Trigger Entered with: Watering
+17:44:04.112,INFO,Unity,Trigger Entered with: Watering
+17:44:04.126,INFO,Unity,Trigger Entered with: Watering
+17:44:04.155,INFO,Unity,Trigger Entered with: Watering
+17:44:04.172,INFO,Unity,Trigger Entered with: Watering
+17:44:04.189,INFO,Unity,Trigger Entered with: Watering
+17:44:04.217,INFO,Unity,Trigger Entered with: Watering
+17:44:04.233,INFO,Unity,Trigger Entered with: Watering
+17:44:04.248,INFO,Unity,Trigger Entered with: Watering
+17:44:04.277,INFO,Unity,Trigger Entered with: Watering
+17:44:04.306,INFO,Unity,Trigger Entered with: Watering
+17:44:04.335,INFO,Unity,Trigger Entered with: Watering
+17:44:04.350,INFO,Unity,Trigger Entered with: Watering
+17:44:04.366,INFO,Unity,Trigger Entered with: Watering
+17:44:04.393,INFO,Unity,Trigger Entered with: Watering
+17:44:04.406,INFO,Unity,Trigger Entered with: Watering
+17:44:04.433,INFO,Unity,Trigger Entered with: Watering
+17:44:04.459,INFO,Unity,Trigger Entered with: Watering
+17:44:04.477,INFO,Unity,Trigger Entered with: Watering
+17:44:04.490,INFO,Unity,Trigger Entered with: Watering
+17:44:04.515,INFO,Unity,Trigger Entered with: Watering
+17:44:04.527,INFO,Unity,Trigger Entered with: Watering
+17:44:04.551,INFO,Unity,Trigger Entered with: Watering
+17:44:04.575,INFO,Unity,Trigger Entered with: Watering
+17:44:04.589,INFO,Unity,Trigger Entered with: Watering
+17:44:04.616,INFO,Unity,Trigger Entered with: Watering
+17:44:04.636,INFO,Unity,Trigger Entered with: Watering
+17:44:04.650,INFO,Unity,Trigger Entered with: Watering
+17:44:04.667,INFO,Unity,Trigger Entered with: Watering
+17:44:04.702,INFO,Unity,Trigger Entered with: Watering
+17:44:04.719,INFO,Unity,Trigger Entered with: Watering
+17:44:04.738,INFO,Unity,Trigger Entered with: Watering
+17:44:04.755,INFO,Unity,Trigger Entered with: Watering
+17:44:04.786,INFO,Unity,Trigger Entered with: Watering
+17:44:04.816,INFO,Unity,Trigger Entered with: Watering
+17:44:04.829,INFO,Unity,Trigger Entered with: Watering
+17:44:04.845,INFO,Unity,Trigger Entered with: Watering
+17:44:04.870,INFO,Unity,Trigger Entered with: Watering
+17:44:04.885,INFO,Unity,Trigger Entered with: Watering
+17:44:04.916,INFO,Unity,Trigger Entered with: Watering
+17:44:04.946,INFO,Unity,Trigger Entered with: Watering
+17:44:04.979,INFO,Unity,Trigger Entered with: Watering
+17:44:04.994,INFO,Unity,Trigger Entered with: Watering
+17:44:05.011,INFO,Unity,Trigger Entered with: Watering
+17:44:05.029,INFO,Unity,Trigger Entered with: Watering
+17:44:05.046,INFO,Unity,Trigger Entered with: Watering
+17:44:05.064,INFO,Unity,Trigger Entered with: Watering
+17:44:05.107,INFO,Unity,Trigger Entered with: Watering
+17:44:05.135,INFO,Unity,Trigger Entered with: Watering
+17:44:05.148,INFO,Unity,Trigger Entered with: Watering
+17:44:05.172,INFO,Unity,Trigger Entered with: Watering
+17:44:05.196,INFO,Unity,Trigger Entered with: Watering
+17:44:05.208,INFO,Unity,Trigger Entered with: Watering
+17:44:05.232,INFO,Unity,Trigger Entered with: Watering
+17:44:05.260,INFO,Unity,Trigger Entered with: Watering
+17:44:05.278,INFO,Unity,Trigger Entered with: Watering
+17:44:05.297,INFO,Unity,Trigger Entered with: Watering
+17:44:05.315,INFO,Unity,Trigger Entered with: Watering
+17:44:05.328,INFO,Unity,Trigger Entered with: Watering
+17:44:05.353,INFO,Unity,Trigger Entered with: Watering
+17:44:05.365,INFO,Unity,Trigger Entered with: Watering
+17:44:05.519,INFO,Unity,Trigger Entered with: Watering
+17:44:05.567,INFO,Unity,Trigger Entered with: Watering
+17:44:05.603,INFO,Unity,Trigger Entered with: Watering
+17:44:05.633,INFO,Unity,Trigger Entered with: Watering
+17:44:05.651,INFO,Unity,Trigger Entered with: Watering
+17:44:05.681,INFO,Unity,Trigger Entered with: Watering
+17:44:05.700,INFO,Unity,Trigger Entered with: Watering
+17:44:05.726,INFO,Unity,Trigger Entered with: Watering
+17:44:05.754,INFO,Unity,Trigger Entered with: Watering
+17:44:05.782,INFO,Unity,Trigger Entered with: Watering
+17:44:05.800,INFO,Unity,Trigger Entered with: Watering
+17:44:05.825,INFO,Unity,Trigger Entered with: Watering
+17:44:05.839,INFO,Unity,Trigger Entered with: Watering
+17:44:05.864,INFO,Unity,Trigger Entered with: Watering
+17:44:05.906,INFO,Unity,Trigger Entered with: Watering
+17:44:05.948,INFO,Unity,Trigger Entered with: Watering
+17:44:05.985,INFO,Unity,Trigger Entered with: Watering
+17:44:06.026,INFO,Unity,Trigger Entered with: Watering
+17:44:06.054,INFO,Unity,Trigger Entered with: Watering
+17:44:06.086,INFO,Unity,Trigger Entered with: Watering
+17:44:06.114,INFO,Unity,Trigger Entered with: Watering
+17:44:06.139,INFO,Unity,Trigger Entered with: Watering
+17:44:06.164,INFO,Unity,Trigger Entered with: Watering
+17:44:06.189,INFO,Unity,Trigger Entered with: Watering
+17:44:06.217,INFO,Unity,Trigger Entered with: Watering
+17:44:06.245,INFO,Unity,Trigger Entered with: Watering
+17:44:06.287,INFO,Unity,Trigger Entered with: Watering
+17:44:06.312,INFO,Unity,Trigger Entered with: Watering
+17:44:06.336,INFO,Unity,Trigger Entered with: Watering
+17:44:06.362,INFO,Unity,Trigger Entered with: Watering
+17:44:06.392,INFO,Unity,Trigger Entered with: Watering
+17:44:06.426,INFO,Unity,Trigger Entered with: Watering
+17:44:06.455,INFO,Unity,Trigger Entered with: Watering
+17:44:06.467,INFO,Unity,Trigger Entered with: Watering
+17:44:06.490,INFO,Unity,Trigger Entered with: Watering
+17:44:06.506,INFO,Unity,Trigger Entered with: Watering
+17:44:06.529,INFO,Unity,Trigger Entered with: Watering
+17:44:06.568,INFO,Unity,Trigger Entered with: Watering
+17:44:06.605,INFO,Unity,Trigger Entered with: Watering
+17:44:06.642,INFO,Unity,Trigger Entered with: Watering
+17:44:06.654,INFO,Unity,Trigger Entered with: Watering
+17:44:06.677,INFO,Unity,Trigger Entered with: Watering
+17:44:06.690,INFO,Unity,Trigger Entered with: Watering
+17:44:06.712,INFO,Unity,Trigger Entered with: Watering
+17:44:06.729,INFO,Unity,Trigger Entered with: Watering
+17:44:06.754,INFO,Unity,Trigger Entered with: Watering
+17:44:06.768,INFO,Unity,Trigger Entered with: Watering
+17:44:06.789,INFO,Unity,Trigger Entered with: Watering
+17:44:06.824,INFO,Unity,Trigger Entered with: Watering
+17:44:06.839,INFO,Unity,Trigger Entered with: Watering
+17:44:06.861,INFO,Unity,Trigger Entered with: Watering
+17:44:06.876,INFO,Unity,Trigger Entered with: Watering
+17:44:06.900,INFO,Unity,Trigger Entered with: Watering
+17:44:06.917,INFO,Unity,Trigger Entered with: Watering
+17:44:06.939,INFO,Unity,Trigger Entered with: Watering
+17:44:06.952,INFO,Unity,Trigger Entered with: Watering
+17:44:06.975,INFO,Unity,Trigger Entered with: Watering
+17:44:06.988,INFO,Unity,Trigger Entered with: Watering
+17:44:07.010,INFO,Unity,Trigger Entered with: Watering
+17:44:07.046,INFO,Unity,Trigger Entered with: Watering
+17:44:07.088,INFO,Unity,Trigger Entered with: Watering
+17:44:07.112,INFO,Unity,Trigger Entered with: Watering
+17:44:07.137,INFO,Unity,Trigger Entered with: Watering
+17:44:07.151,INFO,Unity,Trigger Entered with: Watering
+17:44:07.176,INFO,Unity,Trigger Entered with: Watering
+17:44:07.191,INFO,Unity,Trigger Entered with: Watering
+17:44:07.215,INFO,Unity,Trigger Entered with: Watering
+17:44:07.231,INFO,Unity,Trigger Entered with: Watering
+17:44:07.258,INFO,Unity,Trigger Entered with: Watering
+17:44:07.273,INFO,Unity,Trigger Entered with: Watering
+17:44:07.297,INFO,Unity,Trigger Entered with: Watering
+17:44:07.310,INFO,Unity,Trigger Entered with: Watering
+17:44:07.331,INFO,Unity,Trigger Entered with: Watering
+17:44:07.346,INFO,Unity,Trigger Entered with: Watering
+17:44:07.370,INFO,Unity,Trigger Entered with: Watering
+17:44:07.387,INFO,Unity,Trigger Entered with: Watering
+17:44:07.413,INFO,Unity,Trigger Entered with: Watering
+17:44:07.427,INFO,Unity,Trigger Entered with: Watering
+17:44:07.451,INFO,Unity,Trigger Entered with: Watering
+17:44:07.467,INFO,Unity,Trigger Entered with: Watering
+17:44:07.491,INFO,Unity,Trigger Entered with: Watering
+17:44:07.506,INFO,Unity,Trigger Entered with: Watering
+17:44:07.531,INFO,Unity,Trigger Entered with: Watering
+17:44:07.548,INFO,Unity,Trigger Entered with: Watering
+17:44:07.575,INFO,Unity,Trigger Entered with: Watering
+17:44:07.589,INFO,Unity,Trigger Entered with: Watering
+17:44:07.613,INFO,Unity,Trigger Entered with: Watering
+17:44:07.626,INFO,Unity,Trigger Entered with: Watering
+17:44:07.649,INFO,Unity,Trigger Entered with: Watering
+17:44:07.690,INFO,Unity,Trigger Entered with: Watering
+17:44:07.718,INFO,Unity,Trigger Entered with: Watering
+17:44:07.746,INFO,Unity,Trigger Entered with: Watering
+17:44:07.770,INFO,Unity,Trigger Entered with: Watering
+17:44:07.795,INFO,Unity,Trigger Entered with: Watering
+17:44:07.819,INFO,Unity,Trigger Entered with: Watering
+17:44:07.842,INFO,Unity,Trigger Entered with: Watering
+17:44:07.858,INFO,Unity,Trigger Entered with: Watering
+17:44:07.886,INFO,Unity,Trigger Entered with: Watering
+17:44:07.923,INFO,Unity,Trigger Entered with: Watering
+17:44:07.947,INFO,Unity,Trigger Entered with: Watering
+17:44:07.971,INFO,Unity,Trigger Entered with: Watering
+17:44:07.995,INFO,Unity,Trigger Entered with: Watering
+17:44:08.020,INFO,Unity,Trigger Entered with: Watering
+17:44:08.036,INFO,Unity,Trigger Entered with: Watering
+17:44:08.059,INFO,Unity,Trigger Entered with: Watering
+17:44:08.072,INFO,Unity,Trigger Entered with: Watering
+17:44:08.097,INFO,Unity,Trigger Entered with: Watering
+17:44:08.113,INFO,Unity,Trigger Entered with: Watering
+17:44:08.138,INFO,Unity,Trigger Entered with: Watering
+17:44:08.154,INFO,Unity,Trigger Entered with: Watering
+17:44:08.182,INFO,Unity,Trigger Entered with: Watering
+17:44:08.209,INFO,Unity,Trigger Entered with: Watering
+17:44:08.233,INFO,Unity,Trigger Entered with: Watering
+17:44:08.246,INFO,Unity,Trigger Entered with: Watering
+17:44:08.270,INFO,Unity,Trigger Entered with: Watering
+17:44:08.305,INFO,Unity,Trigger Entered with: Watering
+17:44:08.350,INFO,Unity,Trigger Entered with: Watering
+17:44:08.371,INFO,Unity,Trigger Entered with: Watering
+17:44:08.396,INFO,Unity,Trigger Entered with: Watering
+17:44:08.410,INFO,Unity,Trigger Entered with: Watering
+17:44:08.433,INFO,Unity,Trigger Entered with: Watering
+17:44:08.446,INFO,Unity,Trigger Entered with: Watering
+17:44:08.468,INFO,Unity,Trigger Entered with: Watering
+17:44:08.485,INFO,Unity,Trigger Entered with: Watering
+17:44:08.510,INFO,Unity,Trigger Entered with: Watering
+17:44:08.526,INFO,Unity,Trigger Entered with: Watering
+17:44:08.549,INFO,Unity,Trigger Entered with: Watering
+17:44:08.587,INFO,Unity,Trigger Entered with: Watering
+17:44:08.615,INFO,Unity,Trigger Entered with: Watering
+17:44:08.637,INFO,Unity,Trigger Entered with: Watering
+17:44:08.652,INFO,Unity,Trigger Entered with: Watering
+17:44:08.678,INFO,Unity,Trigger Entered with: Watering
+17:44:08.701,INFO,Unity,Trigger Entered with: Watering
+17:44:08.724,INFO,Unity,Trigger Entered with: Watering
+17:44:08.750,INFO,Unity,Trigger Entered with: Watering
+17:44:08.774,INFO,Unity,Trigger Entered with: Watering
+17:44:08.787,INFO,Unity,Trigger Entered with: Watering
+17:44:08.813,INFO,Unity,Trigger Entered with: Watering
+17:44:08.829,INFO,Unity,Trigger Entered with: Watering
+17:44:08.850,INFO,Unity,Trigger Entered with: Watering
+17:44:08.884,INFO,Unity,Trigger Entered with: Watering
+17:44:08.897,INFO,Unity,Trigger Entered with: Watering
+17:44:08.930,INFO,Unity,Trigger Entered with: Watering
+17:44:08.946,INFO,Unity,Trigger Entered with: Watering
+17:44:08.972,INFO,Unity,Trigger Entered with: Watering
+17:44:08.987,INFO,Unity,Trigger Entered with: Watering
+17:44:09.010,INFO,Unity,Trigger Entered with: Watering
+17:44:09.044,INFO,Unity,Trigger Entered with: Watering
+17:44:09.080,INFO,Unity,Trigger Entered with: Watering
+17:44:09.094,INFO,Unity,Trigger Entered with: Watering
+17:44:09.116,INFO,Unity,Trigger Entered with: Watering
+17:44:09.131,INFO,Unity,Trigger Entered with: Watering
+17:44:09.160,INFO,Unity,Trigger Entered with: Watering
+17:44:09.174,INFO,Unity,Trigger Entered with: Watering
+17:44:09.196,INFO,Unity,Trigger Entered with: Watering
+17:44:09.210,INFO,Unity,Trigger Entered with: Watering
+17:44:09.232,INFO,Unity,Trigger Entered with: Watering
+17:44:09.245,INFO,Unity,Trigger Entered with: Watering
+17:44:09.268,INFO,Unity,Trigger Entered with: Watering
+17:44:09.308,INFO,Unity,Trigger Entered with: Watering
+17:44:09.343,INFO,Unity,Trigger Entered with: Watering
+17:44:09.358,INFO,Unity,Trigger Entered with: Watering
+17:44:09.381,INFO,Unity,Trigger Entered with: Watering
+17:44:09.397,INFO,Unity,Trigger Entered with: Watering
+17:44:09.420,INFO,Unity,Trigger Entered with: Watering
+17:44:09.436,INFO,Unity,Trigger Entered with: Watering
+17:44:09.461,INFO,Unity,Trigger Entered with: Watering
+17:44:09.476,INFO,Unity,Trigger Entered with: Watering
+17:44:09.498,INFO,Unity,Trigger Entered with: Watering
+17:44:09.512,INFO,Unity,Trigger Entered with: Watering
+17:44:09.535,INFO,Unity,Trigger Entered with: Watering
+17:44:09.548,INFO,Unity,Trigger Entered with: Watering
+17:44:09.572,INFO,Unity,Trigger Entered with: Watering
+17:44:09.589,INFO,Unity,Trigger Entered with: Watering
+17:44:09.614,INFO,Unity,Trigger Entered with: Watering
+17:44:09.628,INFO,Unity,Trigger Entered with: Watering
+17:44:09.650,INFO,Unity,Trigger Entered with: Watering
+17:44:09.684,INFO,Unity,Trigger Entered with: Watering
+17:44:09.698,INFO,Unity,Trigger Entered with: Watering
+17:44:09.721,INFO,Unity,Trigger Entered with: Watering
+17:44:09.733,INFO,Unity,Trigger Entered with: Watering
+17:44:09.760,INFO,Unity,Trigger Entered with: Watering
+17:44:09.778,INFO,Unity,Trigger Entered with: Watering
+17:44:09.800,INFO,Unity,Trigger Entered with: Watering
+17:44:09.814,INFO,Unity,Trigger Entered with: Watering
+17:44:09.837,INFO,Unity,Trigger Entered with: Watering
+17:44:09.850,INFO,Unity,Trigger Entered with: Watering
+17:44:09.873,INFO,Unity,Trigger Entered with: Watering
+17:44:09.885,INFO,Unity,Trigger Entered with: Watering
+17:44:09.911,INFO,Unity,Trigger Entered with: Watering
+17:44:09.927,INFO,Unity,Trigger Entered with: Watering
+17:44:09.949,INFO,Unity,Trigger Entered with: Watering
+17:44:09.984,INFO,Unity,Trigger Entered with: Watering
+17:44:10.020,INFO,Unity,Trigger Entered with: Watering
+17:44:10.032,INFO,Unity,Trigger Entered with: Watering
+17:44:10.054,INFO,Unity,Trigger Entered with: Watering
+17:44:10.071,INFO,Unity,Trigger Entered with: Watering
+17:44:10.095,INFO,Unity,Trigger Entered with: Watering
+17:44:10.108,INFO,Unity,Trigger Entered with: Watering
+17:44:10.129,INFO,Unity,Trigger Entered with: Watering
+17:44:10.164,INFO,Unity,Trigger Entered with: Watering
+17:44:10.201,INFO,Unity,Trigger Entered with: Watering
+17:44:10.215,INFO,Unity,Trigger Entered with: Watering
+17:44:10.239,INFO,Unity,Trigger Entered with: Watering
+17:44:10.256,INFO,Unity,Trigger Entered with: Watering
+17:44:10.277,INFO,Unity,Trigger Entered with: Watering
+17:44:10.290,INFO,Unity,Trigger Entered with: Watering
+17:44:10.313,INFO,Unity,Trigger Entered with: Watering
+17:44:10.327,INFO,Unity,Trigger Entered with: Watering
+17:44:10.351,INFO,Unity,Trigger Entered with: Watering
+17:44:10.365,INFO,Unity,Trigger Entered with: Watering
+17:44:10.390,INFO,Unity,Trigger Entered with: Watering
+17:44:10.418,INFO,Unity,Trigger Entered with: Watering
+17:44:10.442,INFO,Unity,Trigger Entered with: Watering
+17:44:10.465,INFO,Unity,Trigger Entered with: Watering
+17:44:10.488,INFO,Unity,Trigger Entered with: Watering
+17:44:10.522,INFO,Unity,Trigger Entered with: Watering
+17:44:10.541,INFO,Unity,Trigger Entered with: Watering
+17:44:10.567,INFO,Unity,Trigger Entered with: Watering
+17:44:10.604,INFO,Unity,Trigger Entered with: Watering
+17:44:10.623,INFO,Unity,Trigger Entered with: Watering
+17:44:10.650,INFO,Unity,Trigger Entered with: Watering
+17:44:10.664,INFO,Unity,Trigger Entered with: Watering
+17:44:10.687,INFO,Unity,Trigger Entered with: Watering
+17:44:10.706,INFO,Unity,Trigger Entered with: Watering
+17:44:10.740,INFO,Unity,Trigger Entered with: Watering
+17:44:10.762,INFO,Unity,Trigger Entered with: Watering
+17:44:10.785,INFO,Unity,Trigger Entered with: Watering
+17:44:10.818,INFO,Unity,Trigger Entered with: Watering
+17:44:10.834,INFO,Unity,Trigger Entered with: Watering
+17:44:10.857,INFO,Unity,Trigger Entered with: Watering
+17:44:10.884,INFO,Unity,Trigger Entered with: Watering
+17:44:10.910,INFO,Unity,Trigger Entered with: Watering
+17:44:10.933,INFO,Unity,Trigger Entered with: Watering
+17:44:10.956,INFO,Unity,Trigger Entered with: Watering
+17:44:10.969,INFO,Unity,Trigger Entered with: Watering
+17:44:10.990,INFO,Unity,Trigger Entered with: Watering
+17:44:11.005,INFO,Unity,Trigger Entered with: Watering
+17:44:11.028,INFO,Unity,Trigger Entered with: Watering
+17:44:11.056,INFO,Unity,Trigger Entered with: Watering
+17:44:11.081,INFO,Unity,Trigger Entered with: Watering
+17:44:11.097,INFO,Unity,Trigger Entered with: Watering
+17:44:11.120,INFO,Unity,Trigger Entered with: Watering
+17:44:11.144,INFO,Unity,Trigger Entered with: Watering
+17:44:11.166,INFO,Unity,Trigger Entered with: Watering
+17:44:11.189,INFO,Unity,Trigger Entered with: Watering
+17:44:11.218,INFO,Unity,Trigger Entered with: Watering
+17:44:11.245,INFO,Unity,Trigger Entered with: Watering
+17:44:11.270,INFO,Unity,Trigger Entered with: Watering
+17:44:11.304,INFO,Unity,Trigger Entered with: Watering
+17:44:11.326,INFO,Unity,Trigger Entered with: Watering
+17:44:11.349,INFO,Unity,Trigger Entered with: Watering
+17:44:11.365,INFO,Unity,Trigger Entered with: Watering
+17:44:11.392,INFO,Unity,Trigger Entered with: Watering
+17:44:11.414,INFO,Unity,Trigger Entered with: Watering
+17:44:11.437,INFO,Unity,Trigger Entered with: Watering
+17:44:11.451,INFO,Unity,Trigger Entered with: Watering
+17:44:11.476,INFO,Unity,Trigger Entered with: Watering
+17:44:11.497,INFO,Unity,Trigger Entered with: Watering
+17:44:11.519,INFO,Unity,Trigger Entered with: Watering
+17:44:11.539,INFO,Unity,Trigger Entered with: Watering
+17:44:11.567,INFO,Unity,Trigger Entered with: Watering
+17:44:11.590,INFO,Unity,Trigger Entered with: Watering
+17:44:11.611,INFO,Unity,Trigger Entered with: Watering
+17:44:11.626,INFO,Unity,Trigger Entered with: Watering
+17:44:11.649,INFO,Unity,Trigger Entered with: Watering
+17:44:11.671,INFO,Unity,Trigger Entered with: Watering
+17:44:11.700,INFO,Unity,Trigger Entered with: Watering
+17:44:11.717,INFO,Unity,Trigger Entered with: Watering
+17:44:11.740,INFO,Unity,Trigger Entered with: Watering
+17:44:11.763,INFO,Unity,Trigger Entered with: Watering
+17:44:11.785,INFO,Unity,Trigger Entered with: Watering
+17:44:11.822,INFO,Unity,Trigger Entered with: Watering
+17:44:11.847,INFO,Unity,Trigger Entered with: Watering
+17:44:11.873,INFO,Unity,Trigger Entered with: Watering
+17:44:11.891,INFO,Unity,Trigger Entered with: Watering
+17:44:11.913,INFO,Unity,Trigger Entered with: Watering
+17:44:11.936,INFO,Unity,Trigger Entered with: Watering
+17:44:11.959,INFO,Unity,Trigger Entered with: Watering
+17:44:11.982,INFO,Unity,Trigger Entered with: Watering
+17:44:12.007,INFO,Unity,Trigger Entered with: Watering
+17:44:12.043,INFO,Unity,Trigger Entered with: Watering
+17:44:12.066,INFO,Unity,Trigger Entered with: Watering
+17:44:12.089,INFO,Unity,Trigger Entered with: Watering
+17:44:12.114,INFO,Unity,Trigger Entered with: Watering
+17:44:12.136,INFO,Unity,Trigger Entered with: Watering
+17:44:12.164,INFO,Unity,Trigger Entered with: Watering
+17:44:12.190,INFO,Unity,Trigger Entered with: Watering
+17:44:12.224,INFO,Unity,Trigger Entered with: Watering
+17:44:12.261,INFO,Unity,Trigger Entered with: Watering
+17:44:12.284,INFO,Unity,Trigger Entered with: Watering
+17:44:12.308,INFO,Unity,Trigger Entered with: Watering
+17:44:12.337,INFO,Unity,Trigger Entered with: Watering
+17:44:12.362,INFO,Unity,Trigger Entered with: Watering
+17:44:12.375,INFO,Unity,Trigger Entered with: Watering
+17:44:12.398,INFO,Unity,Trigger Entered with: Watering
+17:44:12.413,INFO,Unity,Trigger Entered with: Watering
+17:44:12.436,INFO,Unity,Trigger Entered with: Watering
+17:44:12.459,INFO,Unity,Trigger Entered with: Watering
+17:44:12.485,INFO,Unity,Trigger Entered with: Watering
+17:44:12.511,INFO,Unity,Trigger Entered with: Watering
+17:44:12.537,INFO,Unity,Trigger Entered with: Watering
+17:44:12.550,INFO,Unity,Trigger Entered with: Watering
+17:44:12.573,INFO,Unity,Trigger Entered with: Watering
+17:44:12.587,INFO,Unity,Trigger Entered with: Watering
+17:44:12.610,INFO,Unity,Trigger Entered with: Watering
+17:44:12.636,INFO,Unity,Trigger Entered with: Watering
+17:44:12.662,INFO,Unity,Trigger Entered with: Watering
+17:44:12.685,INFO,Unity,Trigger Entered with: Watering
+17:44:12.708,INFO,Unity,Trigger Entered with: Watering
+17:44:12.744,INFO,Unity,Trigger Entered with: Watering
+17:44:12.759,INFO,Unity,Trigger Entered with: Watering
+17:44:12.783,INFO,Unity,Trigger Entered with: Watering
+17:44:12.809,INFO,Unity,Trigger Entered with: Watering
+17:44:12.834,INFO,Unity,Trigger Entered with: Watering
+17:44:12.858,INFO,Unity,Trigger Entered with: Watering
+17:44:12.881,INFO,Unity,Trigger Entered with: Watering
+17:44:12.894,INFO,Unity,Trigger Entered with: Watering
+17:44:12.916,INFO,Unity,Trigger Entered with: Watering
+17:44:12.932,INFO,Unity,Trigger Entered with: Watering
+17:44:12.957,INFO,Unity,Trigger Entered with: Watering
+17:44:12.982,INFO,Unity,Trigger Entered with: Watering
+17:44:13.008,INFO,Unity,Trigger Entered with: Watering
+17:44:13.047,INFO,Unity,Trigger Entered with: Watering
+17:44:13.086,INFO,Unity,Trigger Entered with: Watering
+17:44:13.123,INFO,Unity,Trigger Entered with: Watering
+17:44:13.140,INFO,Unity,Trigger Entered with: Watering
+17:44:13.169,INFO,Unity,Trigger Entered with: Watering
+17:44:13.191,INFO,Unity,Trigger Entered with: Watering
+17:44:13.213,INFO,Unity,Trigger Entered with: Watering
+17:44:13.227,INFO,Unity,Trigger Entered with: Watering
+17:44:13.251,INFO,Unity,Trigger Entered with: Watering
+17:44:13.274,INFO,Unity,Trigger Entered with: Watering
+17:44:13.301,INFO,Unity,Trigger Entered with: Watering
+17:44:13.318,INFO,Unity,Trigger Entered with: Watering
+17:44:13.342,INFO,Unity,Trigger Entered with: Watering
+17:44:13.370,INFO,Unity,Trigger Entered with: Watering
+17:44:13.396,INFO,Unity,Trigger Entered with: Watering
+17:44:13.422,INFO,Unity,Trigger Entered with: Watering
+17:44:13.448,INFO,Unity,Trigger Entered with: Watering
+17:44:13.466,INFO,Unity,Trigger Entered with: Watering
+17:44:13.493,INFO,Unity,Trigger Entered with: Watering
+17:44:13.506,INFO,Unity,Trigger Entered with: Watering
+17:44:13.531,INFO,Unity,Trigger Entered with: Watering
+17:44:13.544,INFO,Unity,Trigger Entered with: Watering
+17:44:13.570,INFO,Unity,Trigger Entered with: Watering
+17:44:13.585,INFO,Unity,Trigger Entered with: Watering
+17:44:13.608,INFO,Unity,Trigger Entered with: Watering
+17:44:13.626,INFO,Unity,Trigger Entered with: Watering
+17:44:13.651,INFO,Unity,Trigger Entered with: Watering
+17:44:13.667,INFO,Unity,Trigger Entered with: Watering
+17:44:13.691,INFO,Unity,Trigger Entered with: Watering
+17:44:13.705,INFO,Unity,Trigger Entered with: Watering
+17:44:13.728,INFO,Unity,Trigger Entered with: Watering
+17:44:13.765,INFO,Unity,Trigger Entered with: Watering
+17:44:13.793,INFO,Unity,Trigger Entered with: Watering
+17:44:13.822,INFO,Unity,Trigger Entered with: Watering
+17:44:13.836,INFO,Unity,Trigger Entered with: Watering
+17:44:13.859,INFO,Unity,Trigger Entered with: Watering
+17:44:13.883,INFO,Unity,Trigger Entered with: Watering
+17:44:51.288,WARNING,Unity,"Assets\Scripts\Player\RaycastController.cs(22,23): warning CS0108: 'RaycastController.collider' hides inherited member 'Component.collider'. Use the new keyword if hiding was intended."
+17:44:51.288,WARNING,Unity,"Assets\Scripts\Minimap\Minimap.cs(43,18): warning CS0618: 'Object.FindObjectsOfType<T>()' is obsolete: 'Object.FindObjectsOfType has been deprecated. Use Object.FindObjectsByType instead which lets you decide whether you need the results sorted or not.  FindObjectsOfType sorts the results by InstanceID but if you do not need this using FindObjectSortMode.None is considerably faster.'"
+17:44:51.289,WARNING,Unity,"Assets\Scripts\Yujin\PlayerSpriteChanger.cs(11,31): warning CS0618: 'Object.FindObjectOfType<T>()' is obsolete: 'Object.FindObjectOfType has been deprecated. Use Object.FindFirstObjectByType instead or if finding any instance is acceptable the faster Object.FindAnyObjectByType'"
+17:44:51.289,WARNING,Unity,"Assets\Scripts\Rope\KinematicGrapple2D.cs(269,28): warning CS0618: 'Physics2D.LinecastNonAlloc(Vector2, Vector2, RaycastHit2D[], int)' is obsolete: 'Physics2D.LinecastNonAlloc is deprecated. Use Physics2D.Linecast instead.'"
+17:44:51.290,WARNING,Unity,"Assets\Scripts\Interaction\Axe.cs(6,34): warning CS0414: The field 'Axe.cutRequire' is assigned but its value is never used"
+17:44:51.290,WARNING,Unity,"Assets\Scripts\Player\PlayerCarrying.cs(28,11): warning CS0414: The field 'PlayerCarrying.lastObjRadius' is assigned but its value is never used"
+17:44:51.290,WARNING,Unity,"Assets\Scripts\Player\PlayerCarrying.cs(40,36): warning CS0414: The field 'PlayerCarrying.interactionRange' is assigned but its value is never used"
+17:44:51.290,WARNING,Unity,"Assets\Scripts\Interaction\CarryableRotation.cs(8,10): warning CS0414: The field 'CarryableRotation.carried' is assigned but its value is never used"

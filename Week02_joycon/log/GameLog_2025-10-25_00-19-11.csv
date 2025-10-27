@@ -1,0 +1,122 @@
+Timestamp, Level, Source, Message
+00:19:11.064,INFO,GameLogger,=== Game Session Started ===
+00:19:11.730,WARNING,Unity,Minimap: no renderers found for bounds. Check includeLayers.
+00:19:14.301,INFO,Unity,maxJumpVelocity20
+00:19:15.369,INFO,Unity,maxJumpVelocity20
+00:19:16.422,INFO,Unity,maxJumpVelocity20
+00:19:17.248,INFO,Unity,maxJumpVelocity20
+00:19:18.004,INFO,Unity,maxJumpVelocity20
+00:19:19.007,INFO,Unity,maxJumpVelocity20
+00:19:19.908,INFO,Unity,maxJumpVelocity20
+00:19:21.461,INFO,Unity,maxJumpVelocity20
+00:19:22.931,INFO,Unity,maxJumpVelocity20
+00:19:24.126,INFO,Unity,maxJumpVelocity20
+00:19:25.534,INFO,Unity,maxJumpVelocity20
+00:19:26.864,INFO,Unity,maxJumpVelocity20
+00:19:28.540,INFO,Unity,maxJumpVelocity20
+00:19:29.549,INFO,Unity,maxJumpVelocity20
+00:19:37.528,DEBUG,PlayerCarrying,쿨타임 지났음
+00:19:37.531,DEBUG,PlayerCarrying,집기 조작토마토 (UnityEngine.CircleCollider2D)
+00:19:37.532,INFO,Unity,_focus is null
+00:19:39.479,INFO,Unity,maxJumpVelocity20
+00:19:40.954,DEBUG,PlayerCarrying,쿨타임 지났음
+00:19:41.596,DEBUG,PlayerCarrying,쿨타임 지났음
+00:19:42.119,DEBUG,PlayerCarrying,쿨타임 지났음
+00:19:42.120,DEBUG,PlayerCarrying,집기 조작Wood (1) (UnityEngine.BoxCollider2D)
+00:19:42.120,INFO,Unity,_focus is null
+00:19:43.196,DEBUG,PlayerCarrying,쿨타임 지났음
+00:19:43.197,DEBUG,PlayerCarrying,집기 조작토마토 (UnityEngine.CircleCollider2D)
+00:19:43.198,INFO,Unity,_focus is null
+00:19:44.642,INFO,Unity,막혔어
+00:19:44.931,INFO,Unity,막혔어
+00:19:45.208,INFO,Unity,maxJumpVelocity19.68504
+00:19:48.341,DEBUG,PlayerCarrying,쿨타임 지났음
+00:19:48.342,DEBUG,PlayerCarrying,집기 조작토마토 (UnityEngine.CircleCollider2D)
+00:19:48.343,DEBUG,PlayerCarrying,집기 조작Wood (1) (UnityEngine.BoxCollider2D)
+00:19:48.343,INFO,Unity,_focus is null
+00:19:49.842,INFO,Unity,maxJumpVelocity20
+00:19:51.437,DEBUG,PlayerCarrying,쿨타임 지났음
+00:19:51.438,DEBUG,PlayerCarrying,집기 조작Wood (3) (UnityEngine.BoxCollider2D)
+00:19:51.439,INFO,Unity,_focus is null
+00:19:51.770,DEBUG,PlayerCarrying,쿨타임 지났음
+00:19:52.487,DEBUG,PlayerCarrying,쿨타임 지났음
+00:19:52.488,DEBUG,PlayerCarrying,집기 조작Wood (4) (UnityEngine.BoxCollider2D)
+00:19:52.489,INFO,Unity,_focus is null
+00:19:52.821,DEBUG,PlayerCarrying,쿨타임 지났음
+00:19:53.559,DEBUG,PlayerCarrying,쿨타임 지났음
+00:19:53.885,DEBUG,PlayerCarrying,쿨타임 지났음
+00:19:54.206,DEBUG,PlayerCarrying,쿨타임 지났음
+00:19:54.557,DEBUG,PlayerCarrying,쿨타임 지났음
+00:19:55.007,DEBUG,PlayerCarrying,쿨타임 지났음
+00:19:55.876,DEBUG,PlayerCarrying,쿨타임 지났음
+00:19:55.877,DEBUG,PlayerCarrying,집기 조작Wood (5) (UnityEngine.BoxCollider2D)
+00:19:55.878,INFO,Unity,_focus is null
+00:19:56.240,DEBUG,PlayerCarrying,쿨타임 지났음
+00:19:56.241,DEBUG,PlayerCarrying,집기 조작Wood (9) (UnityEngine.BoxCollider2D)
+00:19:56.241,INFO,Unity,_focus is null
+00:19:56.444,DEBUG,PlayerCarrying,쿨타임 지났음
+00:19:57.189,DEBUG,PlayerCarrying,쿨타임 지났음
+00:19:57.190,DEBUG,PlayerCarrying,집기 조작Wood (8) (UnityEngine.BoxCollider2D)
+00:19:57.190,DEBUG,PlayerCarrying,집기 조작Wood (6) (UnityEngine.BoxCollider2D)
+00:19:57.191,INFO,Unity,_focus is null
+00:19:58.031,INFO,Unity,막혔어
+00:19:58.561,INFO,Unity,maxJumpVelocity18.51852
+00:19:59.737,INFO,Unity,maxJumpVelocity19.08397
+00:20:00.494,INFO,Unity,막혔어
+00:20:00.843,INFO,Unity,막혔어
+00:20:00.949,INFO,Unity,maxJumpVelocity19.37984
+00:20:01.944,INFO,Unity,maxJumpVelocity20
+00:20:03.417,INFO,Unity,maxJumpVelocity20
+00:20:04.611,INFO,Unity,maxJumpVelocity20
+00:20:05.665,INFO,Unity,nal닿음
+00:20:05.667,INFO,Unity,maxJumpVelocity20
+00:20:05.684,INFO,Unity,Trigger닿음
+00:20:06.362,INFO,Unity,maxJumpVelocity20
+00:20:06.609,DEBUG,PlayerCarrying,쿨타임 지났음
+00:20:06.954,DEBUG,PlayerCarrying,쿨타임 지났음
+00:20:06.955,DEBUG,PlayerCarrying,집기 조작Wood (4) (UnityEngine.BoxCollider2D)
+00:20:06.955,INFO,Unity,_focus is null
+00:20:06.982,INFO,Unity,Collider닿음
+00:20:07.410,INFO,Unity,maxJumpVelocity19.68504
+00:20:07.540,INFO,Unity,Collider닿음
+00:20:07.647,DEBUG,PlayerCarrying,쿨타임 지났음
+00:20:08.152,INFO,Unity,막혔어
+00:20:08.529,INFO,Unity,maxJumpVelocity19.68504
+00:20:08.659,INFO,Unity,Collider닿음
+00:20:09.437,INFO,Unity,nal닿음
+00:20:09.461,INFO,Unity,Trigger닿음
+00:20:09.566,INFO,Unity,Trigger닿음
+00:20:09.739,INFO,Unity,Trigger닿음
+00:20:09.740,INFO,Unity,nal닿음
+00:20:10.012,INFO,Unity,maxJumpVelocity20
+00:20:12.247,INFO,Unity,maxJumpVelocity20
+00:20:13.656,INFO,Unity,maxJumpVelocity20
+00:20:15.925,DEBUG,PlayerCarrying,쿨타임 지났음
+00:20:15.925,DEBUG,PlayerCarrying,집기 조작Wood (2) (UnityEngine.BoxCollider2D)
+00:20:15.926,INFO,Unity,_focus is null
+00:20:18.259,INFO,Unity,막혔어
+00:20:18.783,INFO,Unity,막혔어
+00:20:19.559,INFO,Unity,막혔어
+00:20:19.986,INFO,Unity,막혔어
+00:20:20.367,INFO,Unity,maxJumpVelocity19.68504
+00:20:21.272,DEBUG,PlayerCarrying,쿨타임 지났음
+00:20:21.272,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+00:20:21.273,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+00:20:21.274,INFO,Unity,_focus is null
+00:20:23.949,DEBUG,PlayerCarrying,쿨타임 지났음
+00:20:23.949,DEBUG,PlayerCarrying,집기 조작Wood (2) (UnityEngine.BoxCollider2D)
+00:20:23.951,INFO,Unity,_focus is null
+00:20:24.478,INFO,Unity,막혔어
+00:20:24.828,INFO,Unity,막혔어
+00:20:25.174,INFO,Unity,maxJumpVelocity19.68504
+00:20:26.531,DEBUG,PlayerCarrying,쿨타임 지났음
+00:20:26.532,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+00:20:26.532,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+00:20:26.534,INFO,Unity,_focus is null
+00:20:28.905,INFO,Unity,maxJumpVelocity20
+00:20:30.565,INFO,Unity,maxJumpVelocity20
+00:20:31.738,DEBUG,PlayerCarrying,쿨타임 지났음
+00:20:31.739,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+00:20:31.739,INFO,Unity,_focus is null
+00:20:34.923,INFO,Unity,maxJumpVelocity20
+00:20:35.244,DEBUG,PlayerCarrying,쿨타임 지났음

@@ -1,0 +1,12 @@
+Timestamp, Level, Source, Message
+02:50:56.910,INFO,GameLogger,=== Game Session Started ===
+02:50:57.818,WARNING,Unity,Minimap: no renderers found for bounds. Check includeLayers.
+02:51:00.320,ERROR,Unity,"Screen position out of view frustum (screen pos 294.000000, 383.000000, 0.000000) (Camera rect 0 0 985 459)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+"
+02:51:00.322,ERROR,Unity,"Screen position out of view frustum (screen pos 294.000000, 383.000000, 0.000000) (Camera rect 0 0 985 459)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+"
+02:51:03.292,DEBUG,PlayerCarrying,쿨타임 지났음
+02:51:03.293,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+02:51:03.294,INFO,Unity,_focus is null

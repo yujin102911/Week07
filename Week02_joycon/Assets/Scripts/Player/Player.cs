@@ -133,6 +133,17 @@ public class Player : MonoBehaviour
     /// </summary>
     void Update()
     {
+
+        if (Input.GetKeyDown(KeyCode.Z))
+        {
+            QuestRuntime.Instance.SetFlag(FlagId.Mimic_Happy);
+            QuestRuntime.Instance.SetFlag(FlagId.Table_Used);
+            QuestRuntime.Instance.SetFlag(FlagId.Dust_AllCleared);
+            QuestRuntime.Instance.SetFlag(FlagId.Boxes_StoredAll);
+            QuestRuntime.Instance.SetFlag(FlagId.DryingRack);
+        }
+
+
         float dt = Time.deltaTime;
 
         // 타이머 감소
@@ -342,7 +353,7 @@ public class Player : MonoBehaviour
     void CalculateVelocityBase(float dt)//기본 이동 계산
     {
         float targetVelocityX = directionalInput.x * moveSpeed
-    //* Mathf.Exp(playerCarrying.CarryAbleWeight * 0.1f);
+                     //* Mathf.Exp(playerCarrying.CarryAbleWeight * 0.1f);
                      / (1f + playerCarrying.CarryAbleWeight * moveSpeedWeight);
 
         velocity.x = Mathf.SmoothDamp(

@@ -1,0 +1,44 @@
+Timestamp, Level, Source, Message
+20:00:35.125,INFO,GameLogger,=== Game Session Started ===
+20:00:35.389,WARNING,Unity,Minimap: no renderers found for bounds. Check includeLayers.
+20:00:35.416,INFO,Unity,Trigger Entered with: Wall2
+20:00:35.418,INFO,Unity,Trigger Entered with: Wall2
+20:00:35.418,INFO,Unity,Trigger Entered with: Wall2
+20:00:35.418,INFO,Unity,Trigger Entered with: Wall2
+20:00:35.419,INFO,Unity,Trigger Entered with: Wall2
+20:00:40.186,INFO,Unity,maxJumpVelocity20
+20:00:43.543,INFO,Unity,maxJumpVelocity20
+20:00:47.224,INFO,Unity,maxJumpVelocity20
+20:00:47.776,INFO,Unity,벽 점프
+20:00:48.432,INFO,Unity,maxJumpVelocity20
+20:00:50.143,DEBUG,PlayerCarrying,집기 조작Box (UnityEngine.BoxCollider2D)
+20:00:50.145,INFO,Unity,_focus is null
+20:00:50.145,INFO,Unity,Weight Update =0
+20:00:50.146,INFO,Unity,Weight Update2 =10
+20:00:50.160,INFO,Unity,indexChamge
+20:00:50.162,INFO,Unity,짐 1충돌
+20:00:50.162,DEBUG,Carryable,"충돌로 인해 짐 떨어뜨림. Fall떨어트린 위치 : (14.80, -2.40, 0.00)"
+20:00:50.164,INFO,Unity,Weight Update =0
+20:00:51.483,INFO,Unity,maxJumpVelocity20
+20:00:51.555,DEBUG,PlayerCarrying,집기 조작Box (UnityEngine.BoxCollider2D)
+20:00:51.557,INFO,Unity,_focus is null
+20:00:51.558,INFO,Unity,Weight Update =0
+20:00:51.558,INFO,Unity,Weight Update2 =10
+20:01:13.745,INFO,Unity,maxJumpVelocity19.23077
+20:01:14.255,INFO,Unity,indexChamge
+20:01:14.255,INFO,Unity,짐 1충돌
+20:01:14.257,DEBUG,Carryable,"충돌로 인해 짐 떨어뜨림. Fall떨어트린 위치 : (14.50, -0.13, 0.00)"
+20:01:14.257,INFO,Unity,짐 1충돌
+20:01:14.258,DEBUG,Carryable,"충돌로 인해 짐 떨어뜨림. Fall떨어트린 위치 : (14.50, -0.06, 0.00)"
+20:01:14.259,INFO,Unity,Weight Update =0
+20:01:16.376,INFO,Unity,벽 점프
+20:01:17.318,INFO,Unity,maxJumpVelocity20
+20:01:17.885,INFO,Unity,벽 점프
+20:01:18.572,INFO,Unity,maxJumpVelocity20
+20:01:19.759,INFO,Unity,maxJumpVelocity20
+20:01:21.178,INFO,Unity,maxJumpVelocity20
+20:01:23.288,INFO,Unity,Trigger Exit with: Wall2
+20:01:23.288,INFO,Unity,Trigger Exit with: Wall2
+20:01:23.290,INFO,Unity,Trigger Exit with: Wall2
+20:01:23.290,INFO,Unity,Trigger Exit with: Wall2
+20:01:23.290,INFO,Unity,Trigger Exit with: Wall2

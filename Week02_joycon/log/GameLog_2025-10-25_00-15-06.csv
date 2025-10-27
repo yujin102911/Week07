@@ -1,0 +1,77 @@
+Timestamp, Level, Source, Message
+00:15:06.009,INFO,GameLogger,=== Game Session Started ===
+00:15:06.014,WARNING,Unity,DontDestroyOnLoad only works for root GameObjects or components on root GameObjects.
+00:15:06.364,WARNING,Unity,Minimap: no renderers found for bounds. Check includeLayers.
+00:15:09.604,INFO,Unity,maxJumpVelocity20
+00:15:13.266,INFO,Unity,maxJumpVelocity20
+00:15:13.773,INFO,Unity,벽 점프
+00:15:14.700,WARNING,Unity,Internal: JobTempAlloc has allocations that are more than the maximum lifespan of 4 frames old - this is not allowed and likely a leak
+00:15:14.701,WARNING,Unity,"To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations."
+00:15:14.704,WARNING,Unity,Internal: JobTempAlloc has allocations that are more than the maximum lifespan of 4 frames old - this is not allowed and likely a leak
+00:15:14.704,WARNING,Unity,"To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations."
+00:15:15.018,INFO,Unity,maxJumpVelocity20
+00:15:15.885,INFO,Unity,벽 점프
+00:15:16.273,INFO,Unity,벽 점프
+00:15:16.685,INFO,Unity,벽 점프
+00:15:17.137,INFO,Unity,벽 점프
+00:15:17.956,INFO,Unity,maxJumpVelocity20
+00:15:18.412,INFO,Unity,벽 점프
+00:15:18.888,INFO,Unity,벽 점프
+00:15:19.432,INFO,Unity,벽 점프
+00:15:21.080,INFO,Unity,maxJumpVelocity20
+00:15:21.719,WARNING,Unity,Internal: JobTempAlloc has allocations that are more than the maximum lifespan of 4 frames old - this is not allowed and likely a leak
+00:15:21.719,WARNING,Unity,"To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations."
+00:15:21.773,INFO,Unity,maxJumpVelocity20
+00:15:22.738,INFO,Unity,maxJumpVelocity20
+00:15:23.408,INFO,Unity,벽 점프
+00:15:24.279,INFO,Unity,maxJumpVelocity20
+00:15:24.931,INFO,Unity,maxJumpVelocity20
+00:15:25.694,INFO,Unity,사다리 점프
+00:15:26.209,INFO,Unity,사다리 점프
+00:15:26.733,INFO,Unity,사다리 점프
+00:15:29.174,WARNING,Unity,Internal: JobTempAlloc has allocations that are more than the maximum lifespan of 4 frames old - this is not allowed and likely a leak
+00:15:29.174,WARNING,Unity,"To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations."
+00:15:32.279,INFO,Unity,maxJumpVelocity20
+00:15:33.207,INFO,Unity,사다리 점프
+00:15:34.585,INFO,Unity,maxJumpVelocity20
+00:15:38.813,INFO,Unity,maxJumpVelocity20
+00:15:39.303,INFO,Unity,벽 점프
+00:15:39.725,INFO,Unity,벽 점프
+00:15:40.132,INFO,Unity,벽 점프
+00:15:40.584,INFO,Unity,벽 점프
+00:15:41.027,INFO,Unity,벽 점프
+00:15:41.658,INFO,Unity,maxJumpVelocity20
+00:15:42.160,INFO,Unity,벽 점프
+00:15:44.404,INFO,Unity,maxJumpVelocity20
+00:15:46.331,INFO,Unity,maxJumpVelocity20
+00:15:47.801,INFO,Unity,maxJumpVelocity20
+00:15:48.665,INFO,Unity,maxJumpVelocity20
+00:15:49.176,INFO,Unity,maxJumpVelocity20
+00:15:49.591,INFO,Unity,벽 점프
+00:15:49.982,INFO,Unity,벽 점프
+00:15:50.360,INFO,Unity,벽 점프
+00:15:50.779,INFO,Unity,벽 점프
+00:15:51.345,INFO,Unity,벽 점프
+00:15:52.056,INFO,Unity,maxJumpVelocity20
+00:15:53.236,INFO,Unity,maxJumpVelocity20
+00:15:53.888,INFO,Unity,벽 점프
+00:15:54.304,INFO,Unity,벽 점프
+00:15:54.916,INFO,Unity,벽 점프
+00:15:56.303,INFO,Unity,maxJumpVelocity20
+00:15:56.799,INFO,Unity,벽 점프
+00:15:57.189,INFO,Unity,벽 점프
+00:15:58.643,INFO,Unity,maxJumpVelocity20
+00:15:59.915,INFO,Unity,maxJumpVelocity20
+00:16:02.246,INFO,Unity,maxJumpVelocity20
+00:16:02.752,INFO,Unity,벽 점프
+00:16:03.140,INFO,Unity,벽 점프
+00:16:03.574,INFO,Unity,벽 점프
+00:16:04.031,INFO,Unity,벽 점프
+00:16:04.472,INFO,Unity,벽 점프
+00:16:05.531,INFO,Unity,maxJumpVelocity20
+00:16:05.958,INFO,Unity,벽 점프
+00:16:06.364,INFO,Unity,벽 점프
+00:16:07.053,INFO,Unity,maxJumpVelocity20
+00:16:09.623,INFO,Unity,maxJumpVelocity20
+00:16:10.086,INFO,Unity,벽 점프
+00:16:10.514,INFO,Unity,벽 점프

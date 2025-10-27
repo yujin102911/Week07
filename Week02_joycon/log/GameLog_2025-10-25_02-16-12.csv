@@ -1,0 +1,36 @@
+Timestamp, Level, Source, Message
+02:16:12.148,INFO,GameLogger,=== Game Session Started ===
+02:16:12.725,WARNING,Unity,Minimap: no renderers found for bounds. Check includeLayers.
+02:16:14.619,ERROR,Unity,"Screen position out of view frustum (screen pos 468.000000, 314.000000, 0.000000) (Camera rect 0 0 985 456)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+"
+02:16:14.621,ERROR,Unity,"Screen position out of view frustum (screen pos 468.000000, 314.000000, 0.000000) (Camera rect 0 0 985 456)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+"
+02:16:18.492,INFO,Unity,maxJumpVelocity20
+02:16:19.680,INFO,Unity,maxJumpVelocity20
+02:16:21.237,INFO,Unity,maxJumpVelocity20
+02:16:24.632,INFO,Unity,maxJumpVelocity20
+02:16:25.544,INFO,Unity,maxJumpVelocity20
+02:16:26.459,INFO,Unity,maxJumpVelocity20
+02:16:27.703,INFO,Unity,maxJumpVelocity20
+02:16:29.679,INFO,Unity,maxJumpVelocity20
+02:16:30.376,INFO,Unity,maxJumpVelocity20
+02:16:31.235,INFO,Unity,maxJumpVelocity20
+02:16:31.889,INFO,Unity,maxJumpVelocity20
+02:16:32.616,INFO,Unity,maxJumpVelocity20
+02:16:33.450,INFO,Unity,maxJumpVelocity20
+02:16:34.175,INFO,Unity,maxJumpVelocity20
+02:16:34.989,INFO,Unity,maxJumpVelocity20
+02:16:36.009,INFO,Unity,maxJumpVelocity20
+02:16:36.945,INFO,Unity,maxJumpVelocity20
+02:16:38.703,INFO,Unity,maxJumpVelocity20
+02:16:40.238,INFO,Unity,maxJumpVelocity20
+02:16:41.596,INFO,Unity,maxJumpVelocity20
+02:16:43.085,INFO,Unity,maxJumpVelocity20
+02:16:44.841,INFO,Unity,maxJumpVelocity20
+02:16:45.871,INFO,Unity,maxJumpVelocity20
+02:16:46.952,INFO,Unity,maxJumpVelocity20
+02:16:49.413,INFO,Unity,maxJumpVelocity20
+02:16:50.286,INFO,Unity,maxJumpVelocity20
+02:16:51.384,INFO,Unity,maxJumpVelocity20

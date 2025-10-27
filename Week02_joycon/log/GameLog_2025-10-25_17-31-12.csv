@@ -1,0 +1,11 @@
+Timestamp, Level, Source, Message
+17:31:12.892,INFO,GameLogger,=== Game Session Started ===
+17:31:13.450,WARNING,Unity,Minimap: no renderers found for bounds. Check includeLayers.
+17:31:39.788,WARNING,Unity,"Assets\Scripts\Player\RaycastController.cs(22,23): warning CS0108: 'RaycastController.collider' hides inherited member 'Component.collider'. Use the new keyword if hiding was intended."
+17:31:39.788,WARNING,Unity,"Assets\Scripts\Minimap\Minimap.cs(43,18): warning CS0618: 'Object.FindObjectsOfType<T>()' is obsolete: 'Object.FindObjectsOfType has been deprecated. Use Object.FindObjectsByType instead which lets you decide whether you need the results sorted or not.  FindObjectsOfType sorts the results by InstanceID but if you do not need this using FindObjectSortMode.None is considerably faster.'"
+17:31:39.789,WARNING,Unity,"Assets\Scripts\Yujin\PlayerSpriteChanger.cs(11,31): warning CS0618: 'Object.FindObjectOfType<T>()' is obsolete: 'Object.FindObjectOfType has been deprecated. Use Object.FindFirstObjectByType instead or if finding any instance is acceptable the faster Object.FindAnyObjectByType'"
+17:31:39.789,WARNING,Unity,"Assets\Scripts\Rope\KinematicGrapple2D.cs(269,28): warning CS0618: 'Physics2D.LinecastNonAlloc(Vector2, Vector2, RaycastHit2D[], int)' is obsolete: 'Physics2D.LinecastNonAlloc is deprecated. Use Physics2D.Linecast instead.'"
+17:31:39.790,WARNING,Unity,"Assets\Scripts\Interaction\Axe.cs(6,34): warning CS0414: The field 'Axe.cutRequire' is assigned but its value is never used"
+17:31:39.790,WARNING,Unity,"Assets\Scripts\Interaction\CarryableRotation.cs(8,10): warning CS0414: The field 'CarryableRotation.carried' is assigned but its value is never used"
+17:31:39.791,WARNING,Unity,"Assets\Scripts\Player\PlayerCarrying.cs(28,11): warning CS0414: The field 'PlayerCarrying.lastObjRadius' is assigned but its value is never used"
+17:31:39.791,WARNING,Unity,"Assets\Scripts\Player\PlayerCarrying.cs(40,36): warning CS0414: The field 'PlayerCarrying.interactionRange' is assigned but its value is never used"

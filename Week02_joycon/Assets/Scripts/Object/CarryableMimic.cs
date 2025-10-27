@@ -1,14 +1,22 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CarryableMimic : Carryable
+public class CarryableMimic : Carryable, IInteractable
 {
-    [SerializeField] private int requiredCoins = 3;
+    [SerializeField] private int requiredCoins = 4;
+    [SerializeField] private SpriteRenderer spriteRenderer;
+    [SerializeField] private Sprite cleanedSprite;
+    [SerializeField] private SpriteRenderer coinSpriteRenderer;
+    [SerializeField] private List<Sprite> coinSprites;
     [SerializeField] private MimicBubble coinBubble;
     [SerializeField] private MimicBubble heartBubble;
+    [SerializeField] private MimicBubble cleanBubble;
+    [SerializeField] private GameObject bubbles;
     private HashSet<Carryable> coins = new();
     private List<Carryable> toRemove = new();
     private bool isEnumerating;
+    private bool isCleaned = false;
+    private bool addShampoo = false;
 
     private void Update()
     {
@@ -41,24 +49,79 @@ public class CarryableMimic : Carryable
         }
     }
 
-    private void EatCoin(Carryable coin)
+    private void UpdateCoinSprite()
     {
+        coinSpriteRenderer.sprite = coinSprites[requiredCoins];
+    }
+
+    private bool EatCoin(Carryable coin)
+    {
+        if (requiredCoins <= 0) return false;
+
         requiredCoins--;
         heartBubble.SetOn();
         if (coin) Destroy(coin.gameObject);
+
+        UpdateCoinSprite();
+        CheckQuest();
+        return true;
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private bool EatCoin()
     {
-        if (collision.TryGetComponent(out Carryable coin))
+        if (requiredCoins <= 0) return false;
+        if (InventoryManager.Instance.HasItem(ItemName.Coin) == false) return false;
+
+        InventoryManager.Instance.RemoveAndDestroyItem(ItemName.Coin);
+        requiredCoins--;
+        heartBubble.SetOn();
+
+        UpdateCoinSprite();
+        CheckQuest();
+        return true;
+    }
+
+    public bool Interact()
+    {
+        var coin = EatCoin();
+        if (coin == false) return ShampooInteract();
+        return coin;
+    }
+
+    private bool ShampooInteract()
+    {
+        if (isCleaned == true) return false;
+        if (InventoryManager.Instance.HasItem(ItemName.Shampoo) == false) return false;
+
+        addShampoo = true;
+        InventoryManager.Instance.RemoveAndDestroyItem(ItemName.Shampoo);
+        bubbles.SetActive(true);
+        return false;
+    }
+
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (requiredCoins <= 0) return;
+
+        if (collision.TryGetComponent(out Carryable carryable))
         {
-            if (coin.GetItemName() != ItemName.Coin) return;
-            coins.Add(coin);
+            if (carryable.GetItemName() == ItemName.Coin) coins.Add(carryable);
+            else if (carryable.GetItemName() == ItemName.Shampoo && carryable.carrying == false)
+            {
+                addShampoo = true;
+                bubbles.SetActive(true);
+                Destroy(collision.gameObject);
+            }
+            else return;
         }
 
         if (collision.CompareTag("Player"))
         {
-            if (requiredCoins > 0) coinBubble.SetOn();
+            if (isCleaned == false)
+            {
+                if (addShampoo == false) cleanBubble.SetOn();
+            }
+            else if (requiredCoins > 0) coinBubble.SetOn();
             else heartBubble.SetOn();
         }
     }
@@ -82,5 +145,22 @@ public class CarryableMimic : Carryable
         toRemove.Clear();
 
         isEnumerating = false;
+    }
+
+    public void CleanUp()
+    {
+        if (cleanedSprite) spriteRenderer.sprite = cleanedSprite;
+        isCleaned = true;
+
+        CheckQuest();
+    }
+
+    private void CheckQuest()
+    {
+        if (requiredCoins > 0) return;
+        if (isCleaned == false) return;
+
+        QuestRuntime.Instance.SetFlag(FlagId.Mimic_Happy);
+        GameLogger.Instance.LogDebug(this, "미믹 퀘스트 완료");
     }
 }

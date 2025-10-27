@@ -1,0 +1,429 @@
+Timestamp, Level, Source, Message
+16:01:56.767,INFO,GameLogger,=== Game Session Started ===
+16:01:57.265,WARNING,Unity,Minimap: no renderers found for bounds. Check includeLayers.
+16:01:59.572,DEBUG,PlayerCarrying,쿨타임 지났음
+16:01:59.574,DEBUG,PlayerCarrying,집기 조작WateringCan (UnityEngine.BoxCollider2D)
+16:01:59.575,INFO,Unity,_focus is null
+16:01:59.599,INFO,Unity,No hits detected.
+16:01:59.614,INFO,Unity,No hits detected.
+16:01:59.637,INFO,Unity,No hits detected.
+16:01:59.649,INFO,Unity,No hits detected.
+16:01:59.672,INFO,Unity,No hits detected.
+16:01:59.684,INFO,Unity,No hits detected.
+16:01:59.713,INFO,Unity,No hits detected.
+16:01:59.726,INFO,Unity,No hits detected.
+16:01:59.748,INFO,Unity,No hits detected.
+16:01:59.762,INFO,Unity,No hits detected.
+16:01:59.784,INFO,Unity,No hits detected.
+16:01:59.798,INFO,Unity,No hits detected.
+16:01:59.822,INFO,Unity,No hits detected.
+16:01:59.835,INFO,Unity,No hits detected.
+16:01:59.860,INFO,Unity,No hits detected.
+16:01:59.860,INFO,Unity,maxJumpVelocity19.84127
+16:01:59.874,INFO,Unity,No hits detected.
+16:01:59.897,INFO,Unity,No hits detected.
+16:01:59.916,INFO,Unity,No hits detected.
+16:01:59.939,INFO,Unity,No hits detected.
+16:01:59.952,INFO,Unity,No hits detected.
+16:01:59.974,INFO,Unity,No hits detected.
+16:01:59.988,INFO,Unity,No hits detected.
+16:02:00.014,INFO,Unity,No hits detected.
+16:02:00.029,INFO,Unity,No hits detected.
+16:02:00.051,INFO,Unity,No hits detected.
+16:02:00.065,INFO,Unity,No hits detected.
+16:02:00.088,INFO,Unity,No hits detected.
+16:02:00.101,INFO,Unity,No hits detected.
+16:02:00.127,INFO,Unity,No hits detected.
+16:02:00.139,INFO,Unity,No hits detected.
+16:02:00.164,INFO,Unity,No hits detected.
+16:02:00.175,INFO,Unity,No hits detected.
+16:02:00.198,INFO,Unity,No hits detected.
+16:02:00.212,INFO,Unity,No hits detected.
+16:02:00.236,INFO,Unity,No hits detected.
+16:02:00.248,INFO,Unity,No hits detected.
+16:02:00.270,INFO,Unity,No hits detected.
+16:02:00.283,INFO,Unity,No hits detected.
+16:02:00.305,INFO,Unity,No hits detected.
+16:02:00.320,INFO,Unity,No hits detected.
+16:02:00.342,INFO,Unity,No hits detected.
+16:02:00.355,INFO,Unity,No hits detected.
+16:02:00.377,INFO,Unity,No hits detected.
+16:02:00.390,INFO,Unity,No hits detected.
+16:02:00.413,INFO,Unity,No hits detected.
+16:02:00.425,INFO,Unity,No hits detected.
+16:02:00.447,INFO,Unity,No hits detected.
+16:02:00.460,INFO,Unity,No hits detected.
+16:02:00.485,INFO,Unity,No hits detected.
+16:02:00.498,INFO,Unity,No hits detected.
+16:02:00.520,INFO,Unity,No hits detected.
+16:02:00.534,INFO,Unity,No hits detected.
+16:02:01.561,INFO,Unity,No hits detected.
+16:02:01.585,INFO,Unity,No hits detected.
+16:02:01.601,INFO,Unity,No hits detected.
+16:02:01.623,INFO,Unity,No hits detected.
+16:02:01.635,INFO,Unity,No hits detected.
+16:02:01.657,INFO,Unity,No hits detected.
+16:02:01.672,INFO,Unity,No hits detected.
+16:02:01.698,INFO,Unity,No hits detected.
+16:02:01.714,INFO,Unity,No hits detected.
+16:02:01.737,INFO,Unity,No hits detected.
+16:02:01.751,INFO,Unity,No hits detected.
+16:02:01.773,INFO,Unity,No hits detected.
+16:02:01.786,INFO,Unity,No hits detected.
+16:02:01.810,INFO,Unity,No hits detected.
+16:02:01.822,INFO,Unity,No hits detected.
+16:02:01.846,INFO,Unity,No hits detected.
+16:02:01.859,INFO,Unity,No hits detected.
+16:02:01.881,INFO,Unity,No hits detected.
+16:02:01.893,INFO,Unity,No hits detected.
+16:02:01.915,INFO,Unity,No hits detected.
+16:02:01.928,INFO,Unity,No hits detected.
+16:02:01.950,INFO,Unity,No hits detected.
+16:02:01.963,INFO,Unity,No hits detected.
+16:02:01.985,INFO,Unity,No hits detected.
+16:02:02.002,INFO,Unity,No hits detected.
+16:02:02.024,INFO,Unity,No hits detected.
+16:02:02.037,INFO,Unity,No hits detected.
+16:02:02.059,INFO,Unity,No hits detected.
+16:02:02.071,INFO,Unity,No hits detected.
+16:02:02.093,INFO,Unity,No hits detected.
+16:02:02.105,INFO,Unity,No hits detected.
+16:02:02.127,INFO,Unity,No hits detected.
+16:02:02.140,INFO,Unity,No hits detected.
+16:02:02.163,INFO,Unity,No hits detected.
+16:02:02.175,INFO,Unity,No hits detected.
+16:02:02.199,INFO,Unity,No hits detected.
+16:02:02.214,INFO,Unity,No hits detected.
+16:02:02.238,INFO,Unity,No hits detected.
+16:02:02.251,INFO,Unity,No hits detected.
+16:02:02.274,INFO,Unity,No hits detected.
+16:02:02.287,INFO,Unity,No hits detected.
+16:02:02.311,INFO,Unity,No hits detected.
+16:02:02.323,INFO,Unity,No hits detected.
+16:02:02.345,INFO,Unity,No hits detected.
+16:02:02.358,INFO,Unity,No hits detected.
+16:02:02.380,INFO,Unity,No hits detected.
+16:02:02.393,INFO,Unity,No hits detected.
+16:02:02.415,INFO,Unity,No hits detected.
+16:02:02.430,INFO,Unity,No hits detected.
+16:02:02.451,INFO,Unity,No hits detected.
+16:02:02.464,INFO,Unity,No hits detected.
+16:02:02.486,INFO,Unity,No hits detected.
+16:02:02.499,INFO,Unity,No hits detected.
+16:02:02.523,INFO,Unity,No hits detected.
+16:02:02.536,INFO,Unity,No hits detected.
+16:02:02.557,INFO,Unity,No hits detected.
+16:02:02.569,INFO,Unity,No hits detected.
+16:02:02.591,INFO,Unity,No hits detected.
+16:02:02.605,INFO,Unity,No hits detected.
+16:02:02.627,INFO,Unity,No hits detected.
+16:02:02.643,INFO,Unity,No hits detected.
+16:02:02.666,INFO,Unity,No hits detected.
+16:02:02.678,INFO,Unity,No hits detected.
+16:02:02.701,INFO,Unity,No hits detected.
+16:02:02.702,INFO,Unity,maxJumpVelocity19.84127
+16:02:02.715,INFO,Unity,No hits detected.
+16:02:02.737,INFO,Unity,No hits detected.
+16:02:02.750,INFO,Unity,No hits detected.
+16:02:02.772,INFO,Unity,No hits detected.
+16:02:02.785,INFO,Unity,No hits detected.
+16:02:02.807,INFO,Unity,No hits detected.
+16:02:02.820,INFO,Unity,No hits detected.
+16:02:02.842,INFO,Unity,No hits detected.
+16:02:02.859,INFO,Unity,No hits detected.
+16:02:02.883,INFO,Unity,No hits detected.
+16:02:02.897,INFO,Unity,No hits detected.
+16:02:02.920,INFO,Unity,No hits detected.
+16:02:02.933,INFO,Unity,No hits detected.
+16:02:02.955,INFO,Unity,No hits detected.
+16:02:02.968,INFO,Unity,No hits detected.
+16:02:02.990,INFO,Unity,No hits detected.
+16:02:03.003,INFO,Unity,No hits detected.
+16:02:03.026,INFO,Unity,No hits detected.
+16:02:03.039,INFO,Unity,No hits detected.
+16:02:03.060,INFO,Unity,No hits detected.
+16:02:03.076,INFO,Unity,No hits detected.
+16:02:03.098,INFO,Unity,No hits detected.
+16:02:03.111,INFO,Unity,No hits detected.
+16:02:03.133,INFO,Unity,No hits detected.
+16:02:03.143,INFO,Unity,No hits detected.
+16:02:03.166,INFO,Unity,No hits detected.
+16:02:03.179,INFO,Unity,No hits detected.
+16:02:03.202,INFO,Unity,No hits detected.
+16:02:03.217,INFO,Unity,No hits detected.
+16:02:03.239,INFO,Unity,No hits detected.
+16:02:03.251,INFO,Unity,No hits detected.
+16:02:03.273,INFO,Unity,No hits detected.
+16:02:03.288,INFO,Unity,No hits detected.
+16:02:03.925,INFO,Unity,No hits detected.
+16:02:03.953,INFO,Unity,No hits detected.
+16:02:03.968,INFO,Unity,No hits detected.
+16:02:03.991,INFO,Unity,No hits detected.
+16:02:04.005,INFO,Unity,No hits detected.
+16:02:04.027,INFO,Unity,No hits detected.
+16:02:04.039,INFO,Unity,No hits detected.
+16:02:04.062,INFO,Unity,No hits detected.
+16:02:04.074,INFO,Unity,No hits detected.
+16:02:04.096,INFO,Unity,No hits detected.
+16:02:04.109,INFO,Unity,No hits detected.
+16:02:04.134,INFO,Unity,No hits detected.
+16:02:04.147,INFO,Unity,No hits detected.
+16:02:04.170,INFO,Unity,No hits detected.
+16:02:04.183,INFO,Unity,No hits detected.
+16:02:04.206,INFO,Unity,No hits detected.
+16:02:04.218,INFO,Unity,No hits detected.
+16:02:04.241,INFO,Unity,No hits detected.
+16:02:04.254,INFO,Unity,No hits detected.
+16:02:04.277,INFO,Unity,No hits detected.
+16:02:04.289,INFO,Unity,No hits detected.
+16:02:04.311,INFO,Unity,No hits detected.
+16:02:04.326,INFO,Unity,No hits detected.
+16:02:04.348,INFO,Unity,No hits detected.
+16:02:04.360,INFO,Unity,No hits detected.
+16:02:04.383,INFO,Unity,No hits detected.
+16:02:04.394,INFO,Unity,No hits detected.
+16:02:04.417,INFO,Unity,No hits detected.
+16:02:04.430,INFO,Unity,No hits detected.
+16:02:04.452,INFO,Unity,No hits detected.
+16:02:04.464,INFO,Unity,No hits detected.
+16:02:04.487,INFO,Unity,No hits detected.
+16:02:04.501,INFO,Unity,No hits detected.
+16:02:04.525,INFO,Unity,No hits detected.
+16:02:04.539,INFO,Unity,No hits detected.
+16:02:04.561,INFO,Unity,No hits detected.
+16:02:04.574,INFO,Unity,No hits detected.
+16:02:04.596,INFO,Unity,No hits detected.
+16:02:04.608,INFO,Unity,No hits detected.
+16:02:04.630,INFO,Unity,No hits detected.
+16:02:04.643,INFO,Unity,No hits detected.
+16:02:04.666,INFO,Unity,No hits detected.
+16:02:04.677,INFO,Unity,No hits detected.
+16:02:04.700,INFO,Unity,No hits detected.
+16:02:04.713,INFO,Unity,No hits detected.
+16:02:04.737,INFO,Unity,No hits detected.
+16:02:04.752,INFO,Unity,No hits detected.
+16:02:04.774,INFO,Unity,No hits detected.
+16:02:04.787,INFO,Unity,No hits detected.
+16:02:04.810,INFO,Unity,No hits detected.
+16:02:04.823,INFO,Unity,No hits detected.
+16:02:04.845,INFO,Unity,No hits detected.
+16:02:04.857,INFO,Unity,No hits detected.
+16:02:04.880,INFO,Unity,No hits detected.
+16:02:04.893,INFO,Unity,No hits detected.
+16:02:04.915,INFO,Unity,No hits detected.
+16:02:04.929,INFO,Unity,No hits detected.
+16:02:04.951,INFO,Unity,No hits detected.
+16:02:04.966,INFO,Unity,No hits detected.
+16:02:04.989,INFO,Unity,No hits detected.
+16:02:04.990,INFO,Unity,maxJumpVelocity19.84127
+16:02:05.003,INFO,Unity,No hits detected.
+16:02:05.025,INFO,Unity,No hits detected.
+16:02:05.038,INFO,Unity,No hits detected.
+16:02:05.059,INFO,Unity,No hits detected.
+16:02:05.073,INFO,Unity,No hits detected.
+16:02:05.096,INFO,Unity,No hits detected.
+16:02:05.108,INFO,Unity,No hits detected.
+16:02:05.129,INFO,Unity,No hits detected.
+16:02:05.142,INFO,Unity,No hits detected.
+16:02:05.165,INFO,Unity,No hits detected.
+16:02:05.179,INFO,Unity,No hits detected.
+16:02:05.202,INFO,Unity,No hits detected.
+16:02:05.214,INFO,Unity,No hits detected.
+16:02:05.238,INFO,Unity,No hits detected.
+16:02:05.251,INFO,Unity,No hits detected.
+16:02:05.273,INFO,Unity,No hits detected.
+16:02:05.286,INFO,Unity,No hits detected.
+16:02:05.308,INFO,Unity,No hits detected.
+16:02:05.320,INFO,Unity,No hits detected.
+16:02:05.343,INFO,Unity,No hits detected.
+16:02:05.354,INFO,Unity,No hits detected.
+16:02:05.377,INFO,Unity,No hits detected.
+16:02:05.391,INFO,Unity,No hits detected.
+16:02:05.414,INFO,Unity,No hits detected.
+16:02:05.429,INFO,Unity,No hits detected.
+16:02:05.452,INFO,Unity,No hits detected.
+16:02:05.464,INFO,Unity,No hits detected.
+16:02:05.486,INFO,Unity,No hits detected.
+16:02:05.499,INFO,Unity,No hits detected.
+16:02:05.523,INFO,Unity,No hits detected.
+16:02:05.536,INFO,Unity,No hits detected.
+16:02:05.558,INFO,Unity,No hits detected.
+16:02:05.571,INFO,Unity,No hits detected.
+16:02:05.593,INFO,Unity,No hits detected.
+16:02:05.607,INFO,Unity,No hits detected.
+16:02:05.629,INFO,Unity,No hits detected.
+16:02:05.642,INFO,Unity,No hits detected.
+16:02:07.977,INFO,Unity,No hits detected.
+16:02:08.002,INFO,Unity,No hits detected.
+16:02:08.015,INFO,Unity,No hits detected.
+16:02:08.037,INFO,Unity,No hits detected.
+16:02:08.050,INFO,Unity,No hits detected.
+16:02:08.074,INFO,Unity,No hits detected.
+16:02:08.086,INFO,Unity,No hits detected.
+16:02:08.112,INFO,Unity,No hits detected.
+16:02:08.131,INFO,Unity,No hits detected.
+16:02:08.153,INFO,Unity,No hits detected.
+16:02:08.555,INFO,Unity,No hits detected.
+16:02:08.567,INFO,Unity,No hits detected.
+16:02:08.592,INFO,Unity,No hits detected.
+16:02:08.593,INFO,Unity,maxJumpVelocity19.84127
+16:02:08.606,INFO,Unity,No hits detected.
+16:02:08.628,INFO,Unity,No hits detected.
+16:02:08.640,INFO,Unity,No hits detected.
+16:02:08.662,INFO,Unity,No hits detected.
+16:02:08.675,INFO,Unity,No hits detected.
+16:02:08.697,INFO,Unity,No hits detected.
+16:02:08.710,INFO,Unity,No hits detected.
+16:02:08.733,INFO,Unity,No hits detected.
+16:02:08.748,INFO,Unity,No hits detected.
+16:02:08.770,INFO,Unity,No hits detected.
+16:02:08.783,INFO,Unity,No hits detected.
+16:02:08.807,INFO,Unity,No hits detected.
+16:02:08.821,INFO,Unity,No hits detected.
+16:02:08.844,INFO,Unity,No hits detected.
+16:02:08.856,INFO,Unity,No hits detected.
+16:02:08.878,INFO,Unity,No hits detected.
+16:02:08.892,INFO,Unity,No hits detected.
+16:02:08.915,INFO,Unity,No hits detected.
+16:02:08.927,INFO,Unity,No hits detected.
+16:02:08.949,INFO,Unity,No hits detected.
+16:02:08.964,INFO,Unity,No hits detected.
+16:02:08.985,INFO,Unity,No hits detected.
+16:02:08.998,INFO,Unity,No hits detected.
+16:02:09.020,INFO,Unity,No hits detected.
+16:02:09.033,INFO,Unity,No hits detected.
+16:02:09.056,INFO,Unity,No hits detected.
+16:02:09.068,INFO,Unity,No hits detected.
+16:02:09.212,INFO,Unity,No hits detected.
+16:02:09.225,INFO,Unity,No hits detected.
+16:02:09.249,INFO,Unity,No hits detected.
+16:02:09.261,INFO,Unity,No hits detected.
+16:02:09.283,INFO,Unity,No hits detected.
+16:02:09.296,INFO,Unity,No hits detected.
+16:02:09.318,INFO,Unity,No hits detected.
+16:02:09.330,INFO,Unity,No hits detected.
+16:02:09.352,INFO,Unity,No hits detected.
+16:02:09.365,INFO,Unity,No hits detected.
+16:02:09.387,INFO,Unity,No hits detected.
+16:02:09.402,INFO,Unity,No hits detected.
+16:02:09.424,INFO,Unity,No hits detected.
+16:02:09.440,INFO,Unity,No hits detected.
+16:02:09.464,INFO,Unity,No hits detected.
+16:02:09.477,INFO,Unity,No hits detected.
+16:02:09.498,INFO,Unity,No hits detected.
+16:02:09.511,INFO,Unity,No hits detected.
+16:02:09.533,INFO,Unity,No hits detected.
+16:02:09.547,INFO,Unity,No hits detected.
+16:02:09.569,INFO,Unity,No hits detected.
+16:02:09.581,INFO,Unity,No hits detected.
+16:02:09.604,INFO,Unity,No hits detected.
+16:02:09.619,INFO,Unity,No hits detected.
+16:02:09.643,DEBUG,PlayerCarrying,쿨타임 지났음
+16:02:09.644,DEBUG,PlayerCarrying,집기 조작TomatoTree (UnityEngine.BoxCollider2D)
+16:02:09.644,INFO,Unity,_focus is null
+16:02:09.645,INFO,Unity,No hits detected.
+16:02:09.658,INFO,Unity,No hits detected.
+16:02:09.683,INFO,Unity,No hits detected.
+16:02:09.709,INFO,Unity,No hits detected.
+16:02:09.733,INFO,Unity,No hits detected.
+16:02:09.834,INFO,Unity,No hits detected.
+16:02:09.860,INFO,Unity,No hits detected.
+16:02:09.999,DEBUG,PlayerCarrying,쿨타임 지났음
+16:02:10.000,ERROR,PlayerCarrying,0번 인덱스에 있는 아이템이 carryable이 아님
+16:02:10.001,DEBUG,PlayerCarrying,집기 조작TomatoTree (UnityEngine.BoxCollider2D)
+16:02:10.002,INFO,Unity,_focus is null
+16:02:10.240,INFO,Unity,No hits detected.
+16:02:10.252,INFO,Unity,No hits detected.
+16:02:10.274,INFO,Unity,No hits detected.
+16:02:10.287,INFO,Unity,No hits detected.
+16:02:10.310,INFO,Unity,No hits detected.
+16:02:10.332,INFO,Unity,No hits detected.
+16:02:10.671,INFO,Unity,maxJumpVelocity20
+16:02:11.083,ERROR,Unity,"MissingComponentException: There is no 'SpriteRenderer' attached to the ""TomatoTree"" game object, but a script is trying to access it.
+You probably need to add a SpriteRenderer to the game object ""TomatoTree"". Or your script needs to check if the component is attached before using it.
+UnityEngine.Object+MarshalledUnityObject.TryThrowEditorNullExceptionObject (UnityEngine.Object unityObj, System.String parameterName) (at <435b7303fa1046c7aefb885a0b7d525b>:0)
+UnityEngine.Bindings.ThrowHelper.ThrowNullReferenceException (System.Object obj) (at <435b7303fa1046c7aefb885a0b7d525b>:0)
+UnityEngine.Renderer.get_bounds () (at <435b7303fa1046c7aefb885a0b7d525b>:0)
+PlayerCarrying.TryDrop () (at Assets/Scripts/Player/PlayerCarrying.cs:238)
+PlayerInputHandler.OnDrop (UnityEngine.InputSystem.InputAction+CallbackContext context) (at Assets/Scripts/Player/PlayerInputHandler.cs:55)
+UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) (at <435b7303fa1046c7aefb885a0b7d525b>:0)
+UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) (at <435b7303fa1046c7aefb885a0b7d525b>:0)
+UnityEngine.InputSystem.Utilities.DelegateHelpers.InvokeCallbacksSafe[TValue] (UnityEngine.InputSystem.Utilities.CallbackArray`1[System.Action`1[TValue]]& callbacks, TValue argument, System.String callbackName, System.Object context) (at ./Library/PackageCache/com.unity.inputsystem@be6c4fd0abf5/InputSystem/Utilities/DelegateHelpers.cs:46)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr)
+"
+16:02:11.084,ERROR,Unity,"MissingComponentException while executing 'performed' callbacks of 'Player/Drop[/Keyboard/q]'
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr)
+"
+16:02:11.637,INFO,Unity,maxJumpVelocity20
+16:02:11.922,ERROR,Unity,"MissingComponentException: There is no 'SpriteRenderer' attached to the ""TomatoTree"" game object, but a script is trying to access it.
+You probably need to add a SpriteRenderer to the game object ""TomatoTree"". Or your script needs to check if the component is attached before using it.
+UnityEngine.Object+MarshalledUnityObject.TryThrowEditorNullExceptionObject (UnityEngine.Object unityObj, System.String parameterName) (at <435b7303fa1046c7aefb885a0b7d525b>:0)
+UnityEngine.Bindings.ThrowHelper.ThrowNullReferenceException (System.Object obj) (at <435b7303fa1046c7aefb885a0b7d525b>:0)
+UnityEngine.Renderer.get_bounds () (at <435b7303fa1046c7aefb885a0b7d525b>:0)
+PlayerCarrying.TryDrop () (at Assets/Scripts/Player/PlayerCarrying.cs:238)
+PlayerInputHandler.OnDrop (UnityEngine.InputSystem.InputAction+CallbackContext context) (at Assets/Scripts/Player/PlayerInputHandler.cs:55)
+UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) (at <435b7303fa1046c7aefb885a0b7d525b>:0)
+UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) (at <435b7303fa1046c7aefb885a0b7d525b>:0)
+UnityEngine.InputSystem.Utilities.DelegateHelpers.InvokeCallbacksSafe[TValue] (UnityEngine.InputSystem.Utilities.CallbackArray`1[System.Action`1[TValue]]& callbacks, TValue argument, System.String callbackName, System.Object context) (at ./Library/PackageCache/com.unity.inputsystem@be6c4fd0abf5/InputSystem/Utilities/DelegateHelpers.cs:46)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr)
+"
+16:02:11.923,ERROR,Unity,"MissingComponentException while executing 'performed' callbacks of 'Player/Drop[/Keyboard/q]'
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr)
+"
+16:02:12.495,INFO,Unity,maxJumpVelocity20
+16:02:12.981,DEBUG,PlayerCarrying,쿨타임 지났음
+16:02:12.982,ERROR,PlayerCarrying,0번 인덱스에 있는 아이템이 carryable이 아님
+16:02:13.338,DEBUG,PlayerCarrying,쿨타임 지났음
+16:02:13.338,ERROR,PlayerCarrying,0번 인덱스에 있는 아이템이 carryable이 아님
+16:02:13.339,DEBUG,PlayerCarrying,집기 조작WateringCan (UnityEngine.BoxCollider2D)
+16:02:13.339,INFO,Unity,_focus is null
+16:02:13.355,INFO,Unity,No hits detected.
+16:02:13.379,INFO,Unity,No hits detected.
+16:02:13.392,INFO,Unity,No hits detected.
+16:02:13.414,INFO,Unity,No hits detected.
+16:02:13.427,INFO,Unity,No hits detected.
+16:02:13.451,INFO,Unity,No hits detected.
+16:02:13.464,INFO,Unity,No hits detected.
+16:02:13.487,INFO,Unity,No hits detected.
+16:02:13.503,INFO,Unity,No hits detected.
+16:02:13.529,INFO,Unity,No hits detected.
+16:02:13.554,INFO,Unity,No hits detected.
+16:02:13.582,INFO,Unity,No hits detected.
+16:02:13.595,INFO,Unity,No hits detected.
+16:02:13.617,INFO,Unity,No hits detected.
+16:02:13.632,INFO,Unity,No hits detected.
+16:02:13.653,INFO,Unity,No hits detected.
+16:02:13.668,INFO,Unity,No hits detected.
+16:02:13.690,INFO,Unity,No hits detected.
+16:02:13.714,INFO,Unity,No hits detected.
+16:02:13.736,INFO,Unity,No hits detected.
+16:02:13.749,INFO,Unity,No hits detected.
+16:02:13.771,INFO,Unity,No hits detected.
+16:02:13.786,INFO,Unity,No hits detected.
+16:02:13.810,INFO,Unity,No hits detected.
+16:02:13.824,INFO,Unity,No hits detected.
+16:02:13.850,INFO,Unity,No hits detected.
+16:02:13.874,INFO,Unity,No hits detected.
+16:02:13.899,INFO,Unity,No hits detected.
+16:02:13.912,INFO,Unity,No hits detected.
+16:02:13.936,INFO,Unity,No hits detected.
+16:02:13.950,INFO,Unity,No hits detected.
+16:02:13.973,INFO,Unity,No hits detected.
+16:02:13.988,INFO,Unity,No hits detected.
+16:02:14.011,INFO,Unity,No hits detected.
+16:02:14.033,INFO,Unity,No hits detected.
+16:02:14.054,INFO,Unity,No hits detected.
+16:02:14.068,INFO,Unity,No hits detected.
+16:02:14.090,INFO,Unity,No hits detected.
+16:02:14.102,INFO,Unity,No hits detected.
+16:02:14.134,INFO,Unity,No hits detected.
+16:02:14.150,INFO,Unity,No hits detected.
+16:02:14.173,INFO,Unity,No hits detected.
+16:02:14.196,INFO,Unity,No hits detected.
+16:02:14.221,INFO,Unity,No hits detected.
+16:02:14.233,INFO,Unity,No hits detected.
+16:02:14.266,INFO,Unity,No hits detected.

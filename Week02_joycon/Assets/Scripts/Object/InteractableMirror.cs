@@ -22,9 +22,4 @@ public class InteractableMirror : MonoBehaviour, IInteractable
 
         return true;
     }
-
-    void IInteractable.Interact()
-    {
-        throw new System.NotImplementedException();
-    }
 }

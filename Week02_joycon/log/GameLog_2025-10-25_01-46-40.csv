@@ -1,0 +1,69 @@
+Timestamp, Level, Source, Message
+01:46:40.908,INFO,GameLogger,=== Game Session Started ===
+01:46:42.408,WARNING,Unity,Minimap: no renderers found for bounds. Check includeLayers.
+01:46:49.629,DEBUG,PlayerCarrying,쿨타임 지났음
+01:46:50.766,DEBUG,PlayerCarrying,쿨타임 지났음
+01:46:52.391,DEBUG,PlayerCarrying,쿨타임 지났음
+01:46:53.577,DEBUG,PlayerCarrying,쿨타임 지났음
+01:46:59.414,INFO,Unity,maxJumpVelocity20
+01:46:59.731,DEBUG,PlayerCarrying,쿨타임 지났음
+01:47:00.478,INFO,Unity,maxJumpVelocity20
+01:47:00.798,DEBUG,PlayerCarrying,쿨타임 지났음
+01:47:01.561,INFO,Unity,maxJumpVelocity20
+01:47:01.879,DEBUG,PlayerCarrying,쿨타임 지났음
+01:47:02.893,DEBUG,PlayerCarrying,쿨타임 지났음
+01:47:04.216,INFO,Unity,maxJumpVelocity20
+01:47:04.501,DEBUG,PlayerCarrying,쿨타임 지났음
+01:47:05.735,INFO,Unity,maxJumpVelocity20
+01:47:06.084,DEBUG,PlayerCarrying,쿨타임 지났음
+01:47:07.386,DEBUG,PlayerCarrying,쿨타임 지났음
+01:47:07.876,DEBUG,PlayerCarrying,쿨타임 지났음
+01:47:08.323,DEBUG,PlayerCarrying,쿨타임 지났음
+01:47:08.767,DEBUG,PlayerCarrying,쿨타임 지났음
+01:47:08.988,DEBUG,PlayerCarrying,쿨타임 지났음
+01:47:09.275,INFO,Unity,maxJumpVelocity20
+01:47:09.582,DEBUG,PlayerCarrying,쿨타임 지났음
+01:47:09.583,DEBUG,PlayerCarrying,집기 조작box (5) (UnityEngine.BoxCollider2D)
+01:47:09.584,INFO,Unity,_focus is null
+01:47:10.372,INFO,Unity,maxJumpVelocity19.23077
+01:47:10.771,INFO,Unity,1
+01:47:10.773,INFO,Unity,1
+01:47:10.773,INFO,Unity,1
+01:47:10.774,INFO,Unity,0.9509497
+01:47:11.374,INFO,Unity,maxJumpVelocity20
+01:47:11.628,DEBUG,PlayerCarrying,쿨타임 지났음
+01:47:12.300,INFO,Unity,maxJumpVelocity20
+01:47:12.563,DEBUG,PlayerCarrying,쿨타임 지났음
+01:47:13.224,INFO,Unity,maxJumpVelocity20
+01:47:13.466,DEBUG,PlayerCarrying,쿨타임 지났음
+01:47:14.333,INFO,Unity,maxJumpVelocity20
+01:47:14.701,DEBUG,PlayerCarrying,쿨타임 지났음
+01:47:15.636,INFO,Unity,maxJumpVelocity20
+01:47:15.856,DEBUG,PlayerCarrying,쿨타임 지났음
+01:47:16.381,INFO,Unity,maxJumpVelocity20
+01:47:16.489,DEBUG,PlayerCarrying,쿨타임 지났음
+01:47:17.172,INFO,Unity,maxJumpVelocity20
+01:47:17.329,DEBUG,PlayerCarrying,쿨타임 지났음
+01:47:18.016,INFO,Unity,maxJumpVelocity20
+01:47:18.589,DEBUG,PlayerCarrying,쿨타임 지났음
+01:47:19.335,INFO,Unity,maxJumpVelocity20
+01:47:20.235,DEBUG,PlayerCarrying,쿨타임 지났음
+01:47:20.635,DEBUG,PlayerCarrying,쿨타임 지났음
+01:47:20.967,DEBUG,PlayerCarrying,쿨타임 지났음
+01:47:21.543,INFO,Unity,maxJumpVelocity20
+01:47:21.856,DEBUG,PlayerCarrying,쿨타임 지났음
+01:47:22.661,INFO,Unity,maxJumpVelocity20
+01:47:24.511,INFO,Unity,maxJumpVelocity20
+01:47:24.952,INFO,Unity,벽 점프
+01:47:25.411,INFO,Unity,벽 점프
+01:47:26.347,DEBUG,PlayerCarrying,쿨타임 지났음
+01:47:30.923,INFO,Unity,maxJumpVelocity20
+01:47:31.236,DEBUG,PlayerCarrying,쿨타임 지났음
+01:47:32.502,INFO,Unity,maxJumpVelocity20
+01:47:32.984,DEBUG,PlayerCarrying,쿨타임 지났음
+01:47:34.347,DEBUG,PlayerCarrying,쿨타임 지났음
+01:47:34.892,DEBUG,PlayerCarrying,쿨타임 지났음
+01:47:35.250,DEBUG,PlayerCarrying,쿨타임 지났음
+01:47:35.743,DEBUG,PlayerCarrying,쿨타임 지났음
+01:47:37.032,DEBUG,PlayerCarrying,쿨타임 지났음
+01:47:37.910,DEBUG,PlayerCarrying,쿨타임 지났음

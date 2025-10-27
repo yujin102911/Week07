@@ -1,0 +1,31 @@
+Timestamp, Level, Source, Message
+20:04:28.850,INFO,GameLogger,=== Game Session Started ===
+20:04:30.108,WARNING,Unity,Minimap: no renderers found for bounds. Check includeLayers.
+20:04:30.129,INFO,Unity,Trigger Entered with: Wall2
+20:04:30.130,INFO,Unity,Trigger Entered with: Wall2
+20:04:30.131,INFO,Unity,Trigger Entered with: Wall2
+20:04:30.131,INFO,Unity,Trigger Entered with: Wall2
+20:04:30.132,INFO,Unity,Trigger Entered with: Wall2
+20:04:33.341,INFO,Unity,maxJumpVelocity20
+20:04:34.592,DEBUG,PlayerCarrying,집기 조작Box (UnityEngine.BoxCollider2D)
+20:04:34.595,INFO,Unity,_focus is null
+20:04:34.596,INFO,Unity,Weight Update =0
+20:04:34.596,INFO,Unity,Weight Update2 =10
+20:04:36.791,INFO,Unity,maxJumpVelocity19.23077
+20:04:36.886,INFO,Unity,indexChamge
+20:04:36.887,INFO,Unity,짐 1충돌
+20:04:36.887,DEBUG,Carryable,"충돌로 인해 짐 떨어뜨림. Fall떨어트린 위치 : (14.08, -1.41, 0.00)"
+20:04:36.889,INFO,Unity,짐 1충돌
+20:04:36.889,DEBUG,Carryable,"충돌로 인해 짐 떨어뜨림. Fall떨어트린 위치 : (14.73, -1.41, 0.00)"
+20:04:36.889,INFO,Unity,Weight Update =0
+20:04:37.767,INFO,Unity,maxJumpVelocity20
+20:04:40.179,INFO,Unity,maxJumpVelocity20
+20:04:41.962,INFO,Unity,maxJumpVelocity20
+20:04:42.627,INFO,Unity,maxJumpVelocity20
+20:04:43.535,INFO,Unity,maxJumpVelocity20
+20:04:44.276,INFO,Unity,사다리 코요테 점프
+20:05:27.081,INFO,Unity,Trigger Exit with: Wall2
+20:05:27.082,INFO,Unity,Trigger Exit with: Wall2
+20:05:27.082,INFO,Unity,Trigger Exit with: Wall2
+20:05:27.084,INFO,Unity,Trigger Exit with: Wall2
+20:05:27.084,INFO,Unity,Trigger Exit with: Wall2

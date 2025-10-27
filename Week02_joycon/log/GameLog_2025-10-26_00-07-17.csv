@@ -1,0 +1,52 @@
+Timestamp, Level, Source, Message
+00:07:17.947,INFO,GameLogger,=== Game Session Started ===
+00:07:18.174,WARNING,Unity,Minimap: no renderers found for bounds. Check includeLayers.
+00:07:18.200,INFO,Unity,Trigger Entered with: Wall2
+00:07:18.200,INFO,Unity,Trigger Entered with: Wall2
+00:07:18.201,INFO,Unity,Trigger Entered with: Wall2
+00:07:18.201,INFO,Unity,Trigger Entered with: Wall2
+00:07:18.202,INFO,Unity,Trigger Entered with: Wall2
+00:07:22.587,INFO,Unity,maxJumpVelocity20
+00:07:23.788,INFO,Unity,maxJumpVelocity20
+00:07:24.927,INFO,Unity,사다리 점프
+00:07:26.217,INFO,Unity,maxJumpVelocity20
+00:07:26.581,INFO,Unity,사다리 점프
+00:07:27.410,INFO,Unity,maxJumpVelocity20
+00:07:27.867,INFO,Unity,벽 점프
+00:07:28.276,INFO,Unity,벽 점프
+00:07:28.739,INFO,Unity,벽 점프
+00:07:29.323,DEBUG,PlayerCarrying,집기 조작Bedding (UnityEngine.BoxCollider2D)
+00:07:29.326,INFO,Unity,_focus is null
+00:07:29.327,INFO,Unity,Weight Update =0
+00:07:29.327,INFO,Unity,Weight Update2 =1
+00:07:31.003,INFO,Unity,사다리 점프
+00:07:31.779,INFO,Unity,maxJumpVelocity19.92032
+00:07:32.323,INFO,Unity,사다리 점프
+00:07:32.834,INFO,Unity,maxJumpVelocity19.92032
+00:07:33.519,INFO,Unity,사다리 점프
+00:07:34.499,INFO,Unity,Clothesline Collision with Bedding
+00:07:34.945,INFO,Unity,Trigger Entered with: Bedding
+00:07:35.120,INFO,Unity,Trigger Exit with: Bedding
+00:07:35.876,INFO,Unity,Weight Update =0
+00:07:36.656,INFO,Unity,Trigger Entered with: WateringCan
+00:07:37.353,INFO,Unity,Trigger Entered with: Bedding
+00:07:37.651,DEBUG,PlayerCarrying,집기 조작Bedding (UnityEngine.BoxCollider2D)
+00:07:37.652,INFO,Unity,_focus is null
+00:07:37.653,INFO,Unity,Weight Update =0
+00:07:37.654,INFO,Unity,Weight Update2 =1
+00:07:37.657,INFO,Unity,Trigger Exit with: Bedding
+00:07:37.672,INFO,Unity,Weight Update =0
+00:07:42.099,INFO,Unity,Trigger Entered with: ===Player===
+00:07:42.238,INFO,Unity,Trigger Exit with: WateringCan
+00:07:42.264,INFO,Unity,Trigger Entered with: WateringCan
+00:07:42.301,INFO,Unity,Trigger Entered with: ===Player===
+00:07:42.313,INFO,Unity,Trigger Exit with: ===Player===
+00:07:42.717,INFO,Unity,Trigger Entered with: ===Player===
+00:07:42.753,INFO,Unity,Trigger Exit with: ===Player===
+00:07:43.217,INFO,Unity,Trigger Exit with: ===Player===
+00:07:45.005,INFO,Unity,Trigger Exit with: Wall2
+00:07:45.005,INFO,Unity,Trigger Exit with: Wall2
+00:07:45.006,INFO,Unity,Trigger Exit with: Wall2
+00:07:45.006,INFO,Unity,Trigger Exit with: Wall2
+00:07:45.007,INFO,Unity,Trigger Exit with: Wall2
+00:07:45.016,INFO,Unity,Trigger Exit with: WateringCan

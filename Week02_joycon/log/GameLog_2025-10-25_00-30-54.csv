@@ -1,0 +1,28 @@
+Timestamp, Level, Source, Message
+00:30:54.733,INFO,GameLogger,=== Game Session Started ===
+00:30:55.400,WARNING,Unity,Minimap: no renderers found for bounds. Check includeLayers.
+00:30:58.018,INFO,Unity,maxJumpVelocity20
+00:30:59.357,INFO,Unity,maxJumpVelocity20
+00:31:04.042,DEBUG,PlayerCarrying,쿨타임 지났음
+00:31:04.045,DEBUG,PlayerCarrying,집기 조작Wood (1) (UnityEngine.BoxCollider2D)
+00:31:04.047,INFO,Unity,_focus is null
+00:31:05.027,INFO,Unity,maxJumpVelocity20
+00:31:06.249,INFO,Unity,maxJumpVelocity20
+00:31:07.275,INFO,Unity,maxJumpVelocity20
+00:31:09.064,INFO,Unity,maxJumpVelocity20
+00:31:10.775,INFO,Unity,maxJumpVelocity20
+00:31:12.681,INFO,Unity,maxJumpVelocity20
+00:31:13.526,INFO,Unity,maxJumpVelocity20
+00:31:16.171,INFO,Unity,maxJumpVelocity20
+00:31:17.367,INFO,Unity,maxJumpVelocity20
+00:31:18.730,INFO,Unity,maxJumpVelocity20
+00:31:19.663,INFO,Unity,maxJumpVelocity20
+00:31:20.767,INFO,Unity,maxJumpVelocity20
+00:31:23.791,INFO,Unity,maxJumpVelocity20
+00:31:24.941,INFO,Unity,maxJumpVelocity20
+00:31:26.434,INFO,Unity,maxJumpVelocity20
+00:31:27.825,INFO,Unity,maxJumpVelocity20
+00:31:29.042,INFO,Unity,maxJumpVelocity20
+00:31:30.316,INFO,Unity,maxJumpVelocity20
+00:31:32.120,INFO,Unity,maxJumpVelocity20
+00:31:34.259,INFO,Unity,maxJumpVelocity20

@@ -24,6 +24,9 @@ public class GameLogger : MonoBehaviour
     private string logFilePath;
     public string LogFilePath => logFilePath;
 
+    [Header("Optional Custom File Name (접두사)")]
+    [SerializeField] private string customFileName = "";
+
     //  1. 현재 기록할 로그 레벨 (필터)
     // 예: 설정한 단계 이상의 로그만 기록됨
     public LogLevel currentLogLevel = LogLevel.DEBUG; // 모든 로그 기록
@@ -44,7 +47,8 @@ public class GameLogger : MonoBehaviour
         string logDir = Path.Combine(exeDir, "log");
         Directory.CreateDirectory(logDir);
 
-        string fileName = $"GameLog_{DateTime.Now:yyyy-MM-dd_HH-mm-ss}.csv";
+        string filePrefix = string.IsNullOrWhiteSpace(customFileName) ? "GameLog" : customFileName.Trim();
+        string fileName = $"{filePrefix}_{DateTime.Now:yyyy-MM-dd_HH-mm-ss}.csv";
         logFilePath = Path.Combine(logDir, fileName);
 
         string header = "Timestamp, Level, Source, Message" + Environment.NewLine;

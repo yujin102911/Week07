@@ -1,0 +1,756 @@
+Timestamp, Level, Source, Message
+19:25:13.623,INFO,GameLogger,=== Game Session Started ===
+19:25:14.046,WARNING,Unity,Minimap: no renderers found for bounds. Check includeLayers.
+19:25:14.057,INFO,Unity,Trigger Entered with: 토마토 (3)
+19:25:14.058,INFO,Unity,Trigger Entered with: 토마토 (2)
+19:25:18.255,DEBUG,PlayerCarrying,집기 조작Box (UnityEngine.BoxCollider2D)
+19:25:18.257,INFO,Unity,_focus is null
+19:25:18.775,INFO,Unity,maxJumpVelocity19.23077
+19:25:19.670,INFO,Unity,벽 점프
+19:25:20.281,INFO,Unity,사다리 점프
+19:25:20.916,INFO,Unity,maxJumpVelocity20
+19:25:21.185,INFO,Unity,벽 점프
+19:25:21.805,INFO,Unity,사다리 점프
+19:25:22.453,INFO,Unity,maxJumpVelocity20
+19:25:22.782,INFO,Unity,사다리 점프
+19:25:23.564,INFO,Unity,벽 점프
+19:25:24.105,INFO,Unity,maxJumpVelocity20
+19:25:24.667,INFO,Unity,사다리 점프
+19:25:25.066,INFO,Unity,사다리 점프
+19:25:25.375,INFO,Unity,사다리 점프
+19:25:25.513,INFO,Unity,사다리 점프
+19:25:26.075,INFO,Unity,maxJumpVelocity20
+19:25:26.723,INFO,Unity,사다리 점프
+19:25:27.630,INFO,Unity,maxJumpVelocity20
+19:25:28.309,INFO,Unity,사다리 점프
+19:25:29.130,DEBUG,PlayerCarrying,집기 조작WateringCan (UnityEngine.BoxCollider2D)
+19:25:29.130,INFO,Unity,_focus is null
+19:25:29.162,INFO,Unity,No hits detected.
+19:25:29.175,INFO,Unity,No hits detected.
+19:25:29.189,INFO,Unity,No hits detected.
+19:25:29.202,INFO,Unity,No hits detected.
+19:25:29.237,INFO,Unity,No hits detected.
+19:25:29.250,INFO,Unity,No hits detected.
+19:25:29.279,INFO,Unity,No hits detected.
+19:25:29.293,INFO,Unity,No hits detected.
+19:25:29.306,INFO,Unity,No hits detected.
+19:25:29.320,INFO,Unity,No hits detected.
+19:25:29.333,INFO,Unity,No hits detected.
+19:25:29.346,INFO,Unity,No hits detected.
+19:25:29.360,INFO,Unity,No hits detected.
+19:25:29.373,INFO,Unity,No hits detected.
+19:25:29.386,INFO,Unity,No hits detected.
+19:25:29.399,INFO,Unity,No hits detected.
+19:25:29.413,INFO,Unity,No hits detected.
+19:25:29.426,INFO,Unity,No hits detected.
+19:25:29.440,INFO,Unity,No hits detected.
+19:25:29.453,INFO,Unity,No hits detected.
+19:25:29.469,INFO,Unity,No hits detected.
+19:25:29.482,INFO,Unity,No hits detected.
+19:25:29.495,INFO,Unity,No hits detected.
+19:25:29.509,INFO,Unity,No hits detected.
+19:25:29.522,INFO,Unity,No hits detected.
+19:25:29.535,INFO,Unity,No hits detected.
+19:25:29.549,INFO,Unity,No hits detected.
+19:25:29.562,INFO,Unity,No hits detected.
+19:25:29.575,INFO,Unity,No hits detected.
+19:25:29.588,INFO,Unity,No hits detected.
+19:25:29.601,INFO,Unity,No hits detected.
+19:25:29.615,INFO,Unity,No hits detected.
+19:25:29.628,INFO,Unity,No hits detected.
+19:25:29.641,INFO,Unity,No hits detected.
+19:25:29.654,INFO,Unity,No hits detected.
+19:25:29.670,INFO,Unity,No hits detected.
+19:25:29.684,INFO,Unity,No hits detected.
+19:25:29.697,INFO,Unity,No hits detected.
+19:25:29.711,INFO,Unity,No hits detected.
+19:25:29.723,INFO,Unity,No hits detected.
+19:25:29.737,INFO,Unity,Trigger Entered with: 토마토 (1)
+19:25:29.737,INFO,Unity,No hits detected.
+19:25:29.789,INFO,Unity,Trigger Entered with: Watering
+19:25:29.790,INFO,Unity,Trigger Entered with: 토마토
+19:25:29.818,INFO,Unity,Trigger Exit with: 토마토
+19:25:29.818,INFO,Unity,Trigger Entered with: ===Player===
+19:25:29.859,INFO,Unity,Trigger Exit with: 토마토 (3)
+19:25:29.861,INFO,Unity,Trigger Entered with: WateringCan
+19:25:29.895,INFO,Unity,Trigger Exit with: Watering
+19:25:29.909,INFO,Unity,No hits detected.
+19:25:29.923,INFO,Unity,No hits detected.
+19:25:29.937,INFO,Unity,Trigger Exit with: 토마토 (2)
+19:25:29.937,INFO,Unity,No hits detected.
+19:25:29.951,INFO,Unity,No hits detected.
+19:25:29.964,INFO,Unity,No hits detected.
+19:25:29.977,INFO,Unity,Trigger Exit with: 토마토 (1)
+19:25:29.978,INFO,Unity,No hits detected.
+19:25:29.993,INFO,Unity,No hits detected.
+19:25:30.006,INFO,Unity,No hits detected.
+19:25:30.023,INFO,Unity,No hits detected.
+19:25:30.040,INFO,Unity,Trigger Exit with: WateringCan
+19:25:30.040,INFO,Unity,No hits detected.
+19:25:30.054,INFO,Unity,No hits detected.
+19:25:30.067,INFO,Unity,No hits detected.
+19:25:30.085,INFO,Unity,Trigger Exit with: ===Player===
+19:25:30.085,INFO,Unity,No hits detected.
+19:25:30.099,INFO,Unity,No hits detected.
+19:25:30.113,INFO,Unity,No hits detected.
+19:25:30.126,INFO,Unity,No hits detected.
+19:25:30.140,INFO,Unity,No hits detected.
+19:25:30.154,INFO,Unity,No hits detected.
+19:25:30.168,INFO,Unity,No hits detected.
+19:25:30.181,INFO,Unity,No hits detected.
+19:25:30.195,INFO,Unity,No hits detected.
+19:25:30.209,INFO,Unity,No hits detected.
+19:25:30.222,INFO,Unity,No hits detected.
+19:25:30.235,INFO,Unity,No hits detected.
+19:25:30.248,INFO,Unity,No hits detected.
+19:25:30.261,INFO,Unity,No hits detected.
+19:25:30.275,INFO,Unity,No hits detected.
+19:25:30.291,INFO,Unity,No hits detected.
+19:25:30.305,INFO,Unity,No hits detected.
+19:25:30.320,INFO,Unity,No hits detected.
+19:25:30.334,INFO,Unity,No hits detected.
+19:25:30.347,INFO,Unity,No hits detected.
+19:25:30.373,INFO,Unity,No hits detected.
+19:25:30.398,INFO,Unity,No hits detected.
+19:25:30.412,INFO,Unity,No hits detected.
+19:25:30.438,INFO,Unity,No hits detected.
+19:25:30.453,INFO,Unity,No hits detected.
+19:25:30.479,INFO,Unity,No hits detected.
+19:25:30.494,INFO,Unity,No hits detected.
+19:25:30.508,INFO,Unity,No hits detected.
+19:25:30.534,INFO,Unity,No hits detected.
+19:25:30.559,INFO,Unity,No hits detected.
+19:25:30.573,INFO,Unity,No hits detected.
+19:25:30.585,INFO,Unity,No hits detected.
+19:25:30.600,INFO,Unity,No hits detected.
+19:25:30.613,INFO,Unity,No hits detected.
+19:25:30.626,INFO,Unity,No hits detected.
+19:25:30.640,INFO,Unity,No hits detected.
+19:25:30.653,INFO,Unity,No hits detected.
+19:25:30.666,INFO,Unity,No hits detected.
+19:25:30.680,INFO,Unity,No hits detected.
+19:25:30.695,INFO,Unity,No hits detected.
+19:25:30.709,INFO,Unity,No hits detected.
+19:25:30.723,INFO,Unity,No hits detected.
+19:25:30.737,INFO,Unity,No hits detected.
+19:25:30.751,INFO,Unity,No hits detected.
+19:25:30.766,INFO,Unity,No hits detected.
+19:25:30.779,INFO,Unity,No hits detected.
+19:25:30.793,INFO,Unity,No hits detected.
+19:25:30.806,INFO,Unity,No hits detected.
+19:25:30.819,INFO,Unity,Trigger Entered with: ===Player===
+19:25:30.820,INFO,Unity,No hits detected.
+19:25:30.833,INFO,Unity,No hits detected.
+19:25:30.847,INFO,Unity,No hits detected.
+19:25:30.861,INFO,Unity,No hits detected.
+19:25:30.873,INFO,Unity,No hits detected.
+19:25:30.887,INFO,Unity,No hits detected.
+19:25:30.903,INFO,Unity,No hits detected.
+19:25:30.917,INFO,Unity,No hits detected.
+19:25:30.930,INFO,Unity,No hits detected.
+19:25:30.943,INFO,Unity,No hits detected.
+19:25:30.957,INFO,Unity,No hits detected.
+19:25:30.971,INFO,Unity,No hits detected.
+19:25:30.986,INFO,Unity,No hits detected.
+19:25:31.000,INFO,Unity,No hits detected.
+19:25:31.013,INFO,Unity,No hits detected.
+19:25:31.027,INFO,Unity,No hits detected.
+19:25:31.040,INFO,Unity,No hits detected.
+19:25:31.055,INFO,Unity,No hits detected.
+19:25:31.070,INFO,Unity,No hits detected.
+19:25:31.083,INFO,Unity,No hits detected.
+19:25:31.096,INFO,Unity,Trigger Entered with: WateringCan
+19:25:31.097,INFO,Unity,No hits detected.
+19:25:31.114,INFO,Unity,No hits detected.
+19:25:31.127,INFO,Unity,No hits detected.
+19:25:31.140,INFO,Unity,No hits detected.
+19:25:31.155,INFO,Unity,No hits detected.
+19:25:31.169,INFO,Unity,No hits detected.
+19:25:31.184,INFO,Unity,No hits detected.
+19:25:31.200,INFO,Unity,No hits detected.
+19:25:31.213,INFO,Unity,No hits detected.
+19:25:31.226,INFO,Unity,No hits detected.
+19:25:31.241,INFO,Unity,No hits detected.
+19:25:31.256,INFO,Unity,No hits detected.
+19:25:31.269,INFO,Unity,No hits detected.
+19:25:31.283,INFO,Unity,No hits detected.
+19:25:31.296,INFO,Unity,No hits detected.
+19:25:31.309,INFO,Unity,No hits detected.
+19:25:31.325,INFO,Unity,No hits detected.
+19:25:31.338,INFO,Unity,No hits detected.
+19:25:31.352,INFO,Unity,No hits detected.
+19:25:31.366,INFO,Unity,No hits detected.
+19:25:31.380,INFO,Unity,No hits detected.
+19:25:31.393,INFO,Unity,No hits detected.
+19:25:31.407,INFO,Unity,No hits detected.
+19:25:31.421,INFO,Unity,No hits detected.
+19:25:31.433,INFO,Unity,No hits detected.
+19:25:31.446,INFO,Unity,No hits detected.
+19:25:31.460,INFO,Unity,No hits detected.
+19:25:31.473,INFO,Unity,No hits detected.
+19:25:31.486,INFO,Unity,No hits detected.
+19:25:31.513,INFO,Unity,Trigger Entered with: Watering
+19:25:31.799,INFO,Unity,Trigger Exit with: WateringCan
+19:25:31.949,INFO,Unity,Trigger Exit with: ===Player===
+19:25:32.271,INFO,Unity,Trigger Entered with: Tomato
+19:25:32.334,INFO,Unity,Trigger Entered with: Tomato (1)
+19:25:32.420,INFO,Unity,Trigger Entered with: Tomato (2)
+19:25:32.577,INFO,Unity,Trigger Exit with: Tomato
+19:25:32.677,INFO,Unity,Trigger Exit with: Tomato (1)
+19:25:33.495,INFO,Unity,Trigger Exit with: Watering
+19:25:33.826,INFO,Unity,maxJumpVelocity20
+19:25:34.628,INFO,Unity,maxJumpVelocity20
+19:25:35.309,INFO,Unity,사다리 점프
+19:25:36.031,INFO,Unity,maxJumpVelocity20
+19:25:36.879,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+19:25:36.881,INFO,Unity,_focus is null
+19:25:37.403,INFO,Unity,maxJumpVelocity19.68504
+19:25:38.176,INFO,Unity,nal닿음
+19:25:38.176,INFO,Unity,Trigger닿음
+19:25:38.758,INFO,Unity,nal닿음
+19:25:38.772,INFO,Unity,Trigger닿음
+19:25:38.772,INFO,Unity,nal닿음
+19:25:38.801,INFO,Unity,Trigger닿음
+19:25:38.815,INFO,Unity,Trigger닿음
+19:25:38.828,INFO,Unity,Trigger닿음
+19:25:38.854,INFO,Unity,Trigger닿음
+19:25:38.892,INFO,Unity,Trigger닿음
+19:25:38.920,INFO,Unity,Trigger닿음
+19:25:38.933,INFO,Unity,Trigger닿음
+19:25:38.947,INFO,Unity,Trigger닿음
+19:25:38.973,INFO,Unity,Trigger닿음
+19:25:39.001,INFO,Unity,Trigger닿음
+19:25:39.089,INFO,Unity,nal닿음
+19:25:39.116,INFO,Unity,maxJumpVelocity19.68504
+19:25:39.650,INFO,Unity,Trigger닿음
+19:25:39.651,INFO,Unity,nal닿음
+19:25:40.095,INFO,Unity,maxJumpVelocity19.68504
+19:25:40.931,INFO,Unity,nal닿음
+19:25:41.165,INFO,Unity,maxJumpVelocity19.68504
+19:25:41.396,INFO,Unity,nal닿음
+19:25:41.396,INFO,Unity,Trigger닿음
+19:25:41.410,INFO,Unity,Trigger닿음
+19:25:41.411,INFO,Unity,nal닿음
+19:25:41.411,INFO,Unity,Trigger닿음
+19:25:41.436,INFO,Unity,Trigger닿음
+19:25:41.449,INFO,Unity,Trigger닿음
+19:25:41.489,INFO,Unity,nal닿음
+19:25:41.515,INFO,Unity,Trigger닿음
+19:25:41.515,INFO,Unity,nal닿음
+19:25:41.516,INFO,Unity,nal닿음
+19:25:41.590,INFO,Unity,nal닿음
+19:25:41.615,INFO,Unity,nal닿음
+19:25:41.616,INFO,Unity,nal닿음
+19:25:41.629,INFO,Unity,nal닿음
+19:25:41.655,INFO,Unity,nal닿음
+19:25:42.352,INFO,Unity,nal닿음
+19:25:42.353,INFO,Unity,nal닿음
+19:25:42.378,INFO,Unity,Trigger닿음
+19:25:42.378,INFO,Unity,Trigger닿음
+19:25:42.428,INFO,Unity,nal닿음
+19:25:42.429,INFO,Unity,nal닿음
+19:25:42.429,INFO,Unity,Trigger닿음
+19:25:42.461,INFO,Unity,nal닿음
+19:25:42.461,INFO,Unity,Trigger닿음
+19:25:42.480,INFO,Unity,nal닿음
+19:25:42.481,INFO,Unity,Trigger닿음
+19:25:42.481,INFO,Unity,nal닿음
+19:25:42.500,INFO,Unity,Trigger닿음
+19:25:42.500,INFO,Unity,nal닿음
+19:25:42.520,INFO,Unity,Trigger닿음
+19:25:42.520,INFO,Unity,nal닿음
+19:25:42.541,INFO,Unity,nal닿음
+19:25:42.543,INFO,Unity,Trigger닿음
+19:25:42.561,INFO,Unity,Trigger닿음
+19:25:42.562,INFO,Unity,nal닿음
+19:25:42.582,INFO,Unity,nal닿음
+19:25:42.582,INFO,Unity,Trigger닿음
+19:25:42.601,INFO,Unity,nal닿음
+19:25:42.601,INFO,Unity,Trigger닿음
+19:25:42.621,INFO,Unity,nal닿음
+19:25:42.621,INFO,Unity,Trigger닿음
+19:25:42.641,INFO,Unity,nal닿음
+19:25:42.641,INFO,Unity,Trigger닿음
+19:25:43.413,INFO,Unity,maxJumpVelocity19.68504
+19:25:44.064,INFO,Unity,사다리 점프
+19:25:44.433,INFO,Unity,indexChamge
+19:25:44.434,INFO,Unity,짐 1충돌
+19:25:44.434,INFO,Unity,짐 1충돌
+19:25:44.439,ERROR,Unity,"ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+System.Collections.Generic.List`1[T].get_Item (System.Int32 index) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+PlayerCarrying.CarryingDrop () (at Assets/Scripts/Player/PlayerCarrying.cs:260)
+PlayerCarrying.Update () (at Assets/Scripts/Player/PlayerCarrying.cs:88)
+"
+19:25:44.968,INFO,Unity,Trigger닿음
+19:25:44.969,INFO,Unity,nal닿음
+19:25:45.530,INFO,Unity,maxJumpVelocity19.68504
+19:25:45.733,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+19:25:45.733,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+19:25:45.734,INFO,Unity,_focus is null
+19:25:46.428,INFO,Unity,maxJumpVelocity19.84127
+19:25:46.592,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+19:25:46.593,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+19:25:46.594,INFO,Unity,_focus is null
+19:25:47.239,INFO,Unity,maxJumpVelocity19.53125
+19:25:49.431,INFO,Unity,사다리 점프
+19:25:50.176,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+19:25:50.177,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+19:25:50.178,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+19:25:50.178,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+19:25:50.178,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+19:25:50.179,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+19:25:50.179,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+19:25:50.180,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+19:25:50.182,INFO,Unity,_focus is null
+19:25:50.228,INFO,Unity,nal닿음
+19:25:50.257,INFO,Unity,nal닿음
+19:25:50.296,INFO,Unity,nal닿음
+19:25:50.310,INFO,Unity,nal닿음
+19:25:50.415,INFO,Unity,Trigger닿음
+19:25:50.428,INFO,Unity,Trigger닿음
+19:25:50.455,INFO,Unity,Trigger닿음
+19:25:50.970,INFO,Unity,maxJumpVelocity19.68504
+19:25:52.260,INFO,Unity,maxJumpVelocity20
+19:25:54.391,INFO,Unity,Collider닿음
+19:25:55.481,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+19:25:55.482,INFO,Unity,_focus is null
+19:25:55.498,INFO,Unity,indexChamge
+19:25:55.499,INFO,Unity,짐 1충돌
+19:25:55.499,INFO,Unity,짐 1충돌
+19:25:55.499,ERROR,Unity,"ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+System.Collections.Generic.List`1[T].get_Item (System.Int32 index) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+PlayerCarrying.CarryingDrop () (at Assets/Scripts/Player/PlayerCarrying.cs:260)
+PlayerCarrying.Update () (at Assets/Scripts/Player/PlayerCarrying.cs:88)
+"
+19:25:56.530,INFO,Unity,maxJumpVelocity19.68504
+19:26:01.437,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+19:26:01.438,INFO,Unity,_focus is null
+19:26:01.453,INFO,Unity,indexChamge
+19:26:01.454,INFO,Unity,짐 1충돌
+19:26:01.455,ERROR,Unity,"ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+System.Collections.Generic.List`1[T].get_Item (System.Int32 index) (at <79ca87e32bc54632a9d42d8f2805ee4c>:0)
+PlayerCarrying.CarryingDrop () (at Assets/Scripts/Player/PlayerCarrying.cs:260)
+PlayerCarrying.Update () (at Assets/Scripts/Player/PlayerCarrying.cs:88)
+"
+19:26:02.822,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+19:26:02.823,INFO,Unity,_focus is null
+19:26:03.573,INFO,Unity,nal닿음
+19:26:03.599,INFO,Unity,nal닿음
+19:26:03.599,INFO,Unity,Trigger닿음
+19:26:03.631,INFO,Unity,maxJumpVelocity19.68504
+19:26:04.412,INFO,Unity,Trigger닿음
+19:26:04.414,INFO,Unity,nal닿음
+19:26:04.595,INFO,Unity,maxJumpVelocity19.68504
+19:26:05.205,INFO,Unity,사다리 점프
+19:26:05.792,INFO,Unity,nal닿음
+19:26:05.793,INFO,Unity,Trigger닿음
+19:26:05.841,INFO,Unity,nal닿음
+19:26:05.842,INFO,Unity,Trigger닿음
+19:26:05.892,INFO,Unity,Trigger닿음
+19:26:05.893,INFO,Unity,nal닿음
+19:26:05.942,INFO,Unity,Trigger닿음
+19:26:05.942,INFO,Unity,nal닿음
+19:26:05.978,INFO,Unity,Trigger닿음
+19:26:05.979,INFO,Unity,nal닿음
+19:26:06.013,INFO,Unity,Trigger닿음
+19:26:06.013,INFO,Unity,nal닿음
+19:26:07.004,INFO,Unity,maxJumpVelocity19.68504
+19:26:07.776,INFO,Unity,nal닿음
+19:26:07.840,INFO,Unity,nal닿음
+19:26:07.853,INFO,Unity,nal닿음
+19:26:07.868,INFO,Unity,nal닿음
+19:26:08.242,INFO,Unity,maxJumpVelocity19.68504
+19:26:08.809,INFO,Unity,nal닿음
+19:26:08.810,INFO,Unity,Trigger닿음
+19:26:09.094,INFO,Unity,maxJumpVelocity19.68504
+19:26:14.603,INFO,Unity,maxJumpVelocity19.68504
+19:26:15.538,INFO,Unity,maxJumpVelocity20
+19:26:16.036,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+19:26:16.163,INFO,Unity,maxJumpVelocity20
+19:26:17.119,INFO,Unity,사다리 점프
+19:26:17.946,INFO,Unity,maxJumpVelocity20
+19:26:18.821,INFO,Unity,maxJumpVelocity20
+19:26:19.865,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+19:26:20.230,INFO,Unity,사다리 점프
+19:26:22.488,INFO,Unity,벽 점프
+19:26:23.297,INFO,Unity,maxJumpVelocity20
+19:26:23.993,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+19:26:24.325,INFO,Unity,사다리 점프
+19:26:24.894,INFO,Unity,maxJumpVelocity20
+19:26:25.647,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 17
+19:26:25.738,INFO,Unity,Trigger Entered with: ===Player===
+19:26:26.291,INFO,Unity,Trigger Exit with: ===Player===
+19:26:27.089,INFO,Unity,Trigger Entered with: ===Player===
+19:26:27.316,INFO,Unity,Trigger Exit with: Tomato (2)
+19:26:27.500,INFO,Unity,Trigger Exit with: ===Player===
+19:26:27.599,DEBUG,PlayerCarrying,집기 조작WateringCan (UnityEngine.BoxCollider2D)
+19:26:27.600,DEBUG,PlayerCarrying,집기 조작토마토 (UnityEngine.BoxCollider2D)
+19:26:27.601,INFO,Unity,_focus is null
+19:26:28.093,DEBUG,PlayerCarrying,집기 조작WateringCan (UnityEngine.BoxCollider2D)
+19:26:28.094,DEBUG,PlayerCarrying,집기 조작토마토 (UnityEngine.BoxCollider2D)
+19:26:28.095,INFO,Unity,_focus is null
+19:26:28.112,INFO,Unity,No hits detected.
+19:26:28.128,INFO,Unity,No hits detected.
+19:26:28.142,INFO,Unity,No hits detected.
+19:26:28.158,INFO,Unity,No hits detected.
+19:26:28.176,INFO,Unity,No hits detected.
+19:26:28.195,INFO,Unity,No hits detected.
+19:26:28.214,INFO,Unity,No hits detected.
+19:26:28.229,INFO,Unity,No hits detected.
+19:26:28.243,INFO,Unity,No hits detected.
+19:26:28.258,INFO,Unity,No hits detected.
+19:26:28.272,INFO,Unity,No hits detected.
+19:26:28.286,INFO,Unity,No hits detected.
+19:26:28.301,INFO,Unity,No hits detected.
+19:26:28.315,INFO,Unity,No hits detected.
+19:26:28.330,INFO,Unity,No hits detected.
+19:26:28.344,INFO,Unity,No hits detected.
+19:26:28.359,INFO,Unity,No hits detected.
+19:26:28.375,INFO,Unity,No hits detected.
+19:26:28.389,INFO,Unity,No hits detected.
+19:26:28.404,INFO,Unity,No hits detected.
+19:26:28.421,INFO,Unity,No hits detected.
+19:26:28.436,INFO,Unity,No hits detected.
+19:26:28.450,INFO,Unity,No hits detected.
+19:26:28.465,INFO,Unity,No hits detected.
+19:26:28.480,INFO,Unity,No hits detected.
+19:26:28.495,INFO,Unity,No hits detected.
+19:26:28.510,INFO,Unity,No hits detected.
+19:26:28.526,INFO,Unity,No hits detected.
+19:26:28.543,INFO,Unity,No hits detected.
+19:26:28.558,INFO,Unity,No hits detected.
+19:26:28.572,INFO,Unity,No hits detected.
+19:26:28.587,INFO,Unity,No hits detected.
+19:26:28.601,INFO,Unity,No hits detected.
+19:26:28.616,INFO,Unity,No hits detected.
+19:26:28.633,INFO,Unity,No hits detected.
+19:26:28.648,INFO,Unity,No hits detected.
+19:26:28.664,INFO,Unity,No hits detected.
+19:26:28.678,INFO,Unity,No hits detected.
+19:26:28.694,INFO,Unity,No hits detected.
+19:26:28.709,INFO,Unity,No hits detected.
+19:26:28.724,INFO,Unity,No hits detected.
+19:26:28.741,INFO,Unity,No hits detected.
+19:26:28.757,INFO,Unity,No hits detected.
+19:26:28.773,INFO,Unity,No hits detected.
+19:26:28.789,INFO,Unity,No hits detected.
+19:26:28.805,INFO,Unity,No hits detected.
+19:26:28.820,INFO,Unity,No hits detected.
+19:26:28.837,INFO,Unity,No hits detected.
+19:26:28.852,INFO,Unity,No hits detected.
+19:26:28.869,INFO,Unity,No hits detected.
+19:26:28.884,INFO,Unity,No hits detected.
+19:26:28.899,INFO,Unity,No hits detected.
+19:26:28.913,INFO,Unity,No hits detected.
+19:26:28.930,INFO,Unity,No hits detected.
+19:26:28.944,INFO,Unity,No hits detected.
+19:26:28.961,INFO,Unity,No hits detected.
+19:26:28.975,INFO,Unity,No hits detected.
+19:26:28.991,INFO,Unity,No hits detected.
+19:26:29.006,INFO,Unity,No hits detected.
+19:26:29.021,INFO,Unity,No hits detected.
+19:26:29.039,INFO,Unity,No hits detected.
+19:26:29.055,INFO,Unity,No hits detected.
+19:26:29.070,INFO,Unity,No hits detected.
+19:26:29.084,INFO,Unity,No hits detected.
+19:26:29.100,INFO,Unity,No hits detected.
+19:26:29.116,INFO,Unity,No hits detected.
+19:26:29.131,INFO,Unity,No hits detected.
+19:26:29.133,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+19:26:30.839,DEBUG,PlayerCarrying,집기 조작WateringCan (UnityEngine.BoxCollider2D)
+19:26:30.840,DEBUG,PlayerCarrying,집기 조작토마토 (UnityEngine.BoxCollider2D)
+19:26:30.841,INFO,Unity,_focus is null
+19:26:30.856,INFO,Unity,No hits detected.
+19:26:30.872,INFO,Unity,No hits detected.
+19:26:30.890,INFO,Unity,No hits detected.
+19:26:30.904,INFO,Unity,No hits detected.
+19:26:30.920,INFO,Unity,No hits detected.
+19:26:30.935,INFO,Unity,No hits detected.
+19:26:30.949,INFO,Unity,No hits detected.
+19:26:30.965,INFO,Unity,No hits detected.
+19:26:30.981,INFO,Unity,No hits detected.
+19:26:30.997,INFO,Unity,No hits detected.
+19:26:31.012,INFO,Unity,No hits detected.
+19:26:31.027,INFO,Unity,No hits detected.
+19:26:31.042,INFO,Unity,No hits detected.
+19:26:31.057,INFO,Unity,No hits detected.
+19:26:31.071,INFO,Unity,No hits detected.
+19:26:31.084,INFO,Unity,No hits detected.
+19:26:31.102,INFO,Unity,No hits detected.
+19:26:31.116,INFO,Unity,No hits detected.
+19:26:31.131,INFO,Unity,No hits detected.
+19:26:31.146,INFO,Unity,No hits detected.
+19:26:31.159,INFO,Unity,No hits detected.
+19:26:31.173,INFO,Unity,No hits detected.
+19:26:31.189,INFO,Unity,No hits detected.
+19:26:31.203,INFO,Unity,No hits detected.
+19:26:31.218,INFO,Unity,No hits detected.
+19:26:31.233,INFO,Unity,No hits detected.
+19:26:31.248,INFO,Unity,No hits detected.
+19:26:31.263,INFO,Unity,No hits detected.
+19:26:31.277,INFO,Unity,No hits detected.
+19:26:31.293,INFO,Unity,No hits detected.
+19:26:31.310,INFO,Unity,No hits detected.
+19:26:31.324,INFO,Unity,No hits detected.
+19:26:31.339,INFO,Unity,No hits detected.
+19:26:31.353,INFO,Unity,No hits detected.
+19:26:31.368,INFO,Unity,No hits detected.
+19:26:31.381,INFO,Unity,No hits detected.
+19:26:31.395,INFO,Unity,No hits detected.
+19:26:31.410,INFO,Unity,No hits detected.
+19:26:31.439,INFO,Unity,No hits detected.
+19:26:31.467,INFO,Unity,No hits detected.
+19:26:31.638,INFO,Unity,No hits detected.
+19:26:31.681,INFO,Unity,Trigger Entered with: Watering
+19:26:31.737,INFO,Unity,Trigger Entered with: ===Player===
+19:26:32.230,INFO,Unity,maxJumpVelocity19.84127
+19:26:32.259,INFO,Unity,Trigger Exit with: Watering
+19:26:32.259,INFO,Unity,Trigger Exit with: ===Player===
+19:26:32.274,INFO,Unity,No hits detected.
+19:26:32.290,INFO,Unity,No hits detected.
+19:26:32.304,INFO,Unity,No hits detected.
+19:26:32.318,INFO,Unity,No hits detected.
+19:26:32.332,INFO,Unity,No hits detected.
+19:26:32.348,INFO,Unity,No hits detected.
+19:26:32.363,INFO,Unity,No hits detected.
+19:26:32.378,INFO,Unity,No hits detected.
+19:26:32.396,INFO,Unity,No hits detected.
+19:26:32.413,INFO,Unity,No hits detected.
+19:26:32.430,INFO,Unity,No hits detected.
+19:26:32.445,INFO,Unity,No hits detected.
+19:26:32.459,INFO,Unity,No hits detected.
+19:26:32.474,INFO,Unity,No hits detected.
+19:26:32.488,INFO,Unity,No hits detected.
+19:26:32.505,INFO,Unity,No hits detected.
+19:26:32.519,INFO,Unity,No hits detected.
+19:26:32.534,INFO,Unity,No hits detected.
+19:26:32.535,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+19:26:32.555,INFO,Unity,No hits detected.
+19:26:34.311,DEBUG,PlayerCarrying,집기 조작WateringCan (UnityEngine.BoxCollider2D)
+19:26:34.312,INFO,Unity,_focus is null
+19:26:34.674,INFO,Unity,maxJumpVelocity19.84127
+19:26:34.804,INFO,Unity,No hits detected.
+19:26:35.016,INFO,Unity,No hits detected.
+19:26:35.043,INFO,Unity,No hits detected.
+19:26:35.071,INFO,Unity,No hits detected.
+19:26:35.086,INFO,Unity,No hits detected.
+19:26:35.100,INFO,Unity,No hits detected.
+19:26:35.116,INFO,Unity,No hits detected.
+19:26:35.117,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+19:26:35.135,INFO,Unity,No hits detected.
+19:26:35.153,INFO,Unity,No hits detected.
+19:26:35.166,INFO,Unity,No hits detected.
+19:26:35.181,INFO,Unity,No hits detected.
+19:26:35.196,INFO,Unity,No hits detected.
+19:26:35.213,INFO,Unity,No hits detected.
+19:26:35.230,INFO,Unity,No hits detected.
+19:26:35.246,INFO,Unity,No hits detected.
+19:26:35.262,INFO,Unity,No hits detected.
+19:26:35.276,INFO,Unity,No hits detected.
+19:26:35.290,INFO,Unity,No hits detected.
+19:26:35.304,INFO,Unity,No hits detected.
+19:26:35.318,INFO,Unity,No hits detected.
+19:26:35.333,INFO,Unity,No hits detected.
+19:26:35.347,INFO,Unity,No hits detected.
+19:26:35.361,INFO,Unity,No hits detected.
+19:26:35.376,INFO,Unity,No hits detected.
+19:26:35.392,INFO,Unity,No hits detected.
+19:26:35.405,INFO,Unity,No hits detected.
+19:26:35.420,INFO,Unity,No hits detected.
+19:26:35.435,INFO,Unity,No hits detected.
+19:26:35.450,INFO,Unity,No hits detected.
+19:26:35.467,INFO,Unity,No hits detected.
+19:26:35.481,INFO,Unity,No hits detected.
+19:26:35.495,INFO,Unity,No hits detected.
+19:26:35.511,INFO,Unity,No hits detected.
+19:26:35.526,INFO,Unity,No hits detected.
+19:26:35.539,INFO,Unity,No hits detected.
+19:26:35.555,INFO,Unity,No hits detected.
+19:26:35.568,INFO,Unity,No hits detected.
+19:26:35.585,INFO,Unity,No hits detected.
+19:26:35.599,INFO,Unity,No hits detected.
+19:26:35.614,INFO,Unity,No hits detected.
+19:26:35.629,INFO,Unity,No hits detected.
+19:26:35.644,INFO,Unity,No hits detected.
+19:26:35.659,INFO,Unity,No hits detected.
+19:26:35.675,INFO,Unity,No hits detected.
+19:26:35.690,INFO,Unity,No hits detected.
+19:26:35.705,INFO,Unity,No hits detected.
+19:26:35.719,INFO,Unity,No hits detected.
+19:26:35.733,INFO,Unity,No hits detected.
+19:26:35.749,INFO,Unity,No hits detected.
+19:26:35.763,INFO,Unity,No hits detected.
+19:26:35.778,INFO,Unity,No hits detected.
+19:26:35.793,INFO,Unity,No hits detected.
+19:26:35.807,INFO,Unity,No hits detected.
+19:26:35.822,INFO,Unity,No hits detected.
+19:26:35.836,INFO,Unity,No hits detected.
+19:26:35.851,INFO,Unity,No hits detected.
+19:26:35.864,INFO,Unity,No hits detected.
+19:26:35.881,INFO,Unity,No hits detected.
+19:26:35.897,INFO,Unity,No hits detected.
+19:26:35.911,INFO,Unity,No hits detected.
+19:26:35.925,INFO,Unity,No hits detected.
+19:26:35.939,INFO,Unity,No hits detected.
+19:26:35.954,INFO,Unity,No hits detected.
+19:26:35.970,INFO,Unity,No hits detected.
+19:26:35.985,INFO,Unity,No hits detected.
+19:26:36.001,INFO,Unity,No hits detected.
+19:26:36.020,INFO,Unity,No hits detected.
+19:26:36.038,INFO,Unity,No hits detected.
+19:26:36.052,INFO,Unity,No hits detected.
+19:26:36.067,INFO,Unity,No hits detected.
+19:26:36.097,INFO,Unity,Trigger Entered with: Watering
+19:26:36.561,INFO,Unity,Trigger Entered with: WateringCan
+19:26:37.200,INFO,Unity,maxJumpVelocity20
+19:26:37.777,INFO,Unity,Trigger Entered with: ===Player===
+19:26:38.058,INFO,Unity,Trigger Exit with: WateringCan
+19:26:38.137,INFO,Unity,Trigger Exit with: Watering
+19:26:38.137,INFO,Unity,Trigger Exit with: ===Player===
+19:26:38.524,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+19:26:39.571,DEBUG,PlayerCarrying,집기 조작WateringCan (UnityEngine.BoxCollider2D)
+19:26:39.572,INFO,Unity,_focus is null
+19:26:39.588,INFO,Unity,No hits detected.
+19:26:39.611,INFO,Unity,No hits detected.
+19:26:39.629,INFO,Unity,No hits detected.
+19:26:39.644,INFO,Unity,No hits detected.
+19:26:39.657,INFO,Unity,No hits detected.
+19:26:39.672,INFO,Unity,No hits detected.
+19:26:39.687,INFO,Unity,No hits detected.
+19:26:39.702,INFO,Unity,No hits detected.
+19:26:39.716,INFO,Unity,No hits detected.
+19:26:39.730,INFO,Unity,No hits detected.
+19:26:39.745,INFO,Unity,No hits detected.
+19:26:39.759,INFO,Unity,No hits detected.
+19:26:39.775,INFO,Unity,No hits detected.
+19:26:39.790,INFO,Unity,No hits detected.
+19:26:39.806,INFO,Unity,No hits detected.
+19:26:39.820,INFO,Unity,No hits detected.
+19:26:39.834,INFO,Unity,No hits detected.
+19:26:39.849,INFO,Unity,No hits detected.
+19:26:39.864,INFO,Unity,No hits detected.
+19:26:39.880,INFO,Unity,No hits detected.
+19:26:39.895,INFO,Unity,No hits detected.
+19:26:39.908,INFO,Unity,No hits detected.
+19:26:39.924,INFO,Unity,No hits detected.
+19:26:39.939,INFO,Unity,No hits detected.
+19:26:39.953,INFO,Unity,No hits detected.
+19:26:39.967,INFO,Unity,No hits detected.
+19:26:39.981,INFO,Unity,No hits detected.
+19:26:39.996,INFO,Unity,No hits detected.
+19:26:40.026,INFO,Unity,No hits detected.
+19:26:40.053,INFO,Unity,No hits detected.
+19:26:40.094,INFO,Unity,maxJumpVelocity19.84127
+19:26:40.438,INFO,Unity,No hits detected.
+19:26:40.452,INFO,Unity,No hits detected.
+19:26:40.468,INFO,Unity,No hits detected.
+19:26:40.481,INFO,Unity,No hits detected.
+19:26:40.496,INFO,Unity,No hits detected.
+19:26:40.511,INFO,Unity,No hits detected.
+19:26:40.524,INFO,Unity,No hits detected.
+19:26:40.539,INFO,Unity,No hits detected.
+19:26:40.559,INFO,Unity,No hits detected.
+19:26:40.577,INFO,Unity,No hits detected.
+19:26:40.592,INFO,Unity,No hits detected.
+19:26:40.606,INFO,Unity,No hits detected.
+19:26:40.622,INFO,Unity,No hits detected.
+19:26:40.638,INFO,Unity,No hits detected.
+19:26:40.653,INFO,Unity,No hits detected.
+19:26:40.668,INFO,Unity,No hits detected.
+19:26:40.681,INFO,Unity,No hits detected.
+19:26:40.696,INFO,Unity,No hits detected.
+19:26:40.711,INFO,Unity,No hits detected.
+19:26:40.724,INFO,Unity,No hits detected.
+19:26:40.739,INFO,Unity,No hits detected.
+19:26:40.754,INFO,Unity,No hits detected.
+19:26:40.783,INFO,Unity,No hits detected.
+19:26:40.798,INFO,Unity,No hits detected.
+19:26:40.812,INFO,Unity,No hits detected.
+19:26:40.829,INFO,Unity,No hits detected.
+19:26:40.843,INFO,Unity,No hits detected.
+19:26:40.858,INFO,Unity,No hits detected.
+19:26:40.880,INFO,Unity,maxJumpVelocity19.84127
+19:26:40.881,INFO,Unity,No hits detected.
+19:26:40.898,INFO,Unity,No hits detected.
+19:26:40.916,INFO,Unity,No hits detected.
+19:26:40.934,INFO,Unity,No hits detected.
+19:26:40.952,INFO,Unity,No hits detected.
+19:26:40.970,INFO,Unity,No hits detected.
+19:26:40.989,INFO,Unity,No hits detected.
+19:26:41.007,INFO,Unity,No hits detected.
+19:26:41.041,INFO,Unity,No hits detected.
+19:26:41.061,INFO,Unity,No hits detected.
+19:26:41.076,INFO,Unity,No hits detected.
+19:26:41.090,INFO,Unity,No hits detected.
+19:26:41.104,INFO,Unity,No hits detected.
+19:26:41.118,INFO,Unity,No hits detected.
+19:26:41.133,INFO,Unity,No hits detected.
+19:26:41.148,INFO,Unity,No hits detected.
+19:26:41.164,INFO,Unity,No hits detected.
+19:26:41.180,INFO,Unity,No hits detected.
+19:26:41.197,INFO,Unity,No hits detected.
+19:26:41.214,INFO,Unity,No hits detected.
+19:26:41.228,INFO,Unity,No hits detected.
+19:26:41.246,INFO,Unity,No hits detected.
+19:26:41.262,INFO,Unity,No hits detected.
+19:26:41.277,INFO,Unity,No hits detected.
+19:26:41.294,INFO,Unity,No hits detected.
+19:26:41.310,INFO,Unity,No hits detected.
+19:26:41.327,INFO,Unity,No hits detected.
+19:26:41.341,INFO,Unity,No hits detected.
+19:26:41.357,INFO,Unity,No hits detected.
+19:26:41.372,INFO,Unity,No hits detected.
+19:26:41.388,INFO,Unity,No hits detected.
+19:26:41.403,INFO,Unity,No hits detected.
+19:26:41.418,INFO,Unity,No hits detected.
+19:26:41.434,INFO,Unity,No hits detected.
+19:26:41.451,INFO,Unity,No hits detected.
+19:26:41.466,INFO,Unity,No hits detected.
+19:26:41.482,INFO,Unity,No hits detected.
+19:26:41.497,INFO,Unity,No hits detected.
+19:26:41.511,INFO,Unity,No hits detected.
+19:26:41.526,INFO,Unity,No hits detected.
+19:26:41.543,INFO,Unity,No hits detected.
+19:26:41.558,INFO,Unity,No hits detected.
+19:26:41.574,INFO,Unity,No hits detected.
+19:26:41.590,INFO,Unity,No hits detected.
+19:26:41.606,INFO,Unity,No hits detected.
+19:26:41.621,INFO,Unity,No hits detected.
+19:26:41.638,INFO,Unity,No hits detected.
+19:26:41.658,INFO,Unity,No hits detected.
+19:26:41.673,INFO,Unity,No hits detected.
+19:26:41.688,INFO,Unity,No hits detected.
+19:26:41.704,INFO,Unity,No hits detected.
+19:26:41.722,INFO,Unity,No hits detected.
+19:26:41.738,INFO,Unity,No hits detected.
+19:26:41.753,INFO,Unity,No hits detected.
+19:26:41.770,INFO,Unity,No hits detected.
+19:26:41.786,INFO,Unity,No hits detected.
+19:26:41.801,INFO,Unity,No hits detected.
+19:26:41.815,INFO,Unity,No hits detected.
+19:26:41.832,INFO,Unity,No hits detected.
+19:26:41.847,INFO,Unity,No hits detected.
+19:26:41.864,INFO,Unity,No hits detected.
+19:26:41.881,INFO,Unity,No hits detected.
+19:26:41.898,INFO,Unity,No hits detected.
+19:26:41.915,INFO,Unity,No hits detected.
+19:26:41.932,INFO,Unity,No hits detected.
+19:26:41.947,INFO,Unity,No hits detected.
+19:26:41.963,INFO,Unity,No hits detected.
+19:26:41.979,INFO,Unity,No hits detected.
+19:26:41.998,INFO,Unity,No hits detected.
+19:26:42.017,INFO,Unity,No hits detected.
+19:26:42.033,INFO,Unity,No hits detected.
+19:26:42.047,INFO,Unity,No hits detected.
+19:26:42.068,INFO,Unity,No hits detected.
+19:26:42.085,INFO,Unity,No hits detected.
+19:26:42.100,INFO,Unity,No hits detected.
+19:26:42.114,INFO,Unity,No hits detected.
+19:26:42.128,INFO,Unity,No hits detected.
+19:26:42.143,INFO,Unity,No hits detected.
+19:26:42.157,INFO,Unity,No hits detected.
+19:26:42.172,INFO,Unity,No hits detected.
+19:26:42.193,INFO,Unity,No hits detected.

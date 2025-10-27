@@ -1,0 +1,117 @@
+Timestamp, Level, Source, Message
+01:31:02.893,INFO,GameLogger,=== Game Session Started ===
+01:31:04.181,WARNING,Unity,Minimap: no renderers found for bounds. Check includeLayers.
+01:31:07.719,DEBUG,PlayerCarrying,쿨타임 지났음
+01:31:07.727,ERROR,Unity,"MissingComponentException: There is no 'SpriteRenderer' attached to the ""Player"" game object, but a script is trying to access it.
+You probably need to add a SpriteRenderer to the game object ""Player"". Or your script needs to check if the component is attached before using it.
+UnityEngine.Object+MarshalledUnityObject.TryThrowEditorNullExceptionObject (UnityEngine.Object unityObj, System.String parameterName) (at <435b7303fa1046c7aefb885a0b7d525b>:0)
+UnityEngine.Bindings.ThrowHelper.ThrowNullReferenceException (System.Object obj) (at <435b7303fa1046c7aefb885a0b7d525b>:0)
+UnityEngine.Renderer.get_bounds () (at <435b7303fa1046c7aefb885a0b7d525b>:0)
+PlayerCarrying.TryUseItemOnWorld () (at Assets/Scripts/Player/PlayerCarrying.cs:369)
+PlayerCarrying.TryInteract () (at Assets/Scripts/Player/PlayerCarrying.cs:121)
+PlayerInputHandler.OnInteract (UnityEngine.InputSystem.InputAction+CallbackContext context) (at Assets/Scripts/Player/PlayerInputHandler.cs:46)
+UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) (at <435b7303fa1046c7aefb885a0b7d525b>:0)
+UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) (at <435b7303fa1046c7aefb885a0b7d525b>:0)
+UnityEngine.InputSystem.Utilities.DelegateHelpers.InvokeCallbacksSafe[TValue] (UnityEngine.InputSystem.Utilities.CallbackArray`1[System.Action`1[TValue]]& callbacks, TValue argument, System.String callbackName, System.Object context) (at ./Library/PackageCache/com.unity.inputsystem@be6c4fd0abf5/InputSystem/Utilities/DelegateHelpers.cs:46)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr)
+"
+01:31:07.730,ERROR,Unity,"MissingComponentException while executing 'performed' callbacks of 'Player/Interact[/Keyboard/e]'
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr)
+"
+01:31:09.300,DEBUG,PlayerCarrying,쿨타임 지났음
+01:31:09.301,ERROR,Unity,"MissingComponentException: There is no 'SpriteRenderer' attached to the ""Player"" game object, but a script is trying to access it.
+You probably need to add a SpriteRenderer to the game object ""Player"". Or your script needs to check if the component is attached before using it.
+UnityEngine.Object+MarshalledUnityObject.TryThrowEditorNullExceptionObject (UnityEngine.Object unityObj, System.String parameterName) (at <435b7303fa1046c7aefb885a0b7d525b>:0)
+UnityEngine.Bindings.ThrowHelper.ThrowNullReferenceException (System.Object obj) (at <435b7303fa1046c7aefb885a0b7d525b>:0)
+UnityEngine.Renderer.get_bounds () (at <435b7303fa1046c7aefb885a0b7d525b>:0)
+PlayerCarrying.TryUseItemOnWorld () (at Assets/Scripts/Player/PlayerCarrying.cs:369)
+PlayerCarrying.TryInteract () (at Assets/Scripts/Player/PlayerCarrying.cs:121)
+PlayerInputHandler.OnInteract (UnityEngine.InputSystem.InputAction+CallbackContext context) (at Assets/Scripts/Player/PlayerInputHandler.cs:46)
+UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) (at <435b7303fa1046c7aefb885a0b7d525b>:0)
+UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) (at <435b7303fa1046c7aefb885a0b7d525b>:0)
+UnityEngine.InputSystem.Utilities.DelegateHelpers.InvokeCallbacksSafe[TValue] (UnityEngine.InputSystem.Utilities.CallbackArray`1[System.Action`1[TValue]]& callbacks, TValue argument, System.String callbackName, System.Object context) (at ./Library/PackageCache/com.unity.inputsystem@be6c4fd0abf5/InputSystem/Utilities/DelegateHelpers.cs:46)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr)
+"
+01:31:09.303,ERROR,Unity,"MissingComponentException while executing 'performed' callbacks of 'Player/Interact[/Keyboard/e]'
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr)
+"
+01:31:09.508,DEBUG,PlayerCarrying,쿨타임 지났음
+01:31:09.510,ERROR,Unity,"MissingComponentException: There is no 'SpriteRenderer' attached to the ""Player"" game object, but a script is trying to access it.
+You probably need to add a SpriteRenderer to the game object ""Player"". Or your script needs to check if the component is attached before using it.
+UnityEngine.Object+MarshalledUnityObject.TryThrowEditorNullExceptionObject (UnityEngine.Object unityObj, System.String parameterName) (at <435b7303fa1046c7aefb885a0b7d525b>:0)
+UnityEngine.Bindings.ThrowHelper.ThrowNullReferenceException (System.Object obj) (at <435b7303fa1046c7aefb885a0b7d525b>:0)
+UnityEngine.Renderer.get_bounds () (at <435b7303fa1046c7aefb885a0b7d525b>:0)
+PlayerCarrying.TryUseItemOnWorld () (at Assets/Scripts/Player/PlayerCarrying.cs:369)
+PlayerCarrying.TryInteract () (at Assets/Scripts/Player/PlayerCarrying.cs:121)
+PlayerInputHandler.OnInteract (UnityEngine.InputSystem.InputAction+CallbackContext context) (at Assets/Scripts/Player/PlayerInputHandler.cs:46)
+UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) (at <435b7303fa1046c7aefb885a0b7d525b>:0)
+UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) (at <435b7303fa1046c7aefb885a0b7d525b>:0)
+UnityEngine.InputSystem.Utilities.DelegateHelpers.InvokeCallbacksSafe[TValue] (UnityEngine.InputSystem.Utilities.CallbackArray`1[System.Action`1[TValue]]& callbacks, TValue argument, System.String callbackName, System.Object context) (at ./Library/PackageCache/com.unity.inputsystem@be6c4fd0abf5/InputSystem/Utilities/DelegateHelpers.cs:46)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr)
+"
+01:31:09.510,ERROR,Unity,"MissingComponentException while executing 'performed' callbacks of 'Player/Interact[/Keyboard/e]'
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr)
+"
+01:31:10.915,DEBUG,PlayerCarrying,쿨타임 지났음
+01:31:10.917,ERROR,Unity,"MissingComponentException: There is no 'SpriteRenderer' attached to the ""Player"" game object, but a script is trying to access it.
+You probably need to add a SpriteRenderer to the game object ""Player"". Or your script needs to check if the component is attached before using it.
+UnityEngine.Object+MarshalledUnityObject.TryThrowEditorNullExceptionObject (UnityEngine.Object unityObj, System.String parameterName) (at <435b7303fa1046c7aefb885a0b7d525b>:0)
+UnityEngine.Bindings.ThrowHelper.ThrowNullReferenceException (System.Object obj) (at <435b7303fa1046c7aefb885a0b7d525b>:0)
+UnityEngine.Renderer.get_bounds () (at <435b7303fa1046c7aefb885a0b7d525b>:0)
+PlayerCarrying.TryUseItemOnWorld () (at Assets/Scripts/Player/PlayerCarrying.cs:369)
+PlayerCarrying.TryInteract () (at Assets/Scripts/Player/PlayerCarrying.cs:121)
+PlayerInputHandler.OnInteract (UnityEngine.InputSystem.InputAction+CallbackContext context) (at Assets/Scripts/Player/PlayerInputHandler.cs:46)
+UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) (at <435b7303fa1046c7aefb885a0b7d525b>:0)
+UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) (at <435b7303fa1046c7aefb885a0b7d525b>:0)
+UnityEngine.InputSystem.Utilities.DelegateHelpers.InvokeCallbacksSafe[TValue] (UnityEngine.InputSystem.Utilities.CallbackArray`1[System.Action`1[TValue]]& callbacks, TValue argument, System.String callbackName, System.Object context) (at ./Library/PackageCache/com.unity.inputsystem@be6c4fd0abf5/InputSystem/Utilities/DelegateHelpers.cs:46)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr)
+"
+01:31:10.918,ERROR,Unity,"MissingComponentException while executing 'performed' callbacks of 'Player/Interact[/Keyboard/e]'
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr)
+"
+01:31:12.851,DEBUG,PlayerCarrying,쿨타임 지났음
+01:31:12.852,ERROR,Unity,"MissingComponentException: There is no 'SpriteRenderer' attached to the ""Player"" game object, but a script is trying to access it.
+You probably need to add a SpriteRenderer to the game object ""Player"". Or your script needs to check if the component is attached before using it.
+UnityEngine.Object+MarshalledUnityObject.TryThrowEditorNullExceptionObject (UnityEngine.Object unityObj, System.String parameterName) (at <435b7303fa1046c7aefb885a0b7d525b>:0)
+UnityEngine.Bindings.ThrowHelper.ThrowNullReferenceException (System.Object obj) (at <435b7303fa1046c7aefb885a0b7d525b>:0)
+UnityEngine.Renderer.get_bounds () (at <435b7303fa1046c7aefb885a0b7d525b>:0)
+PlayerCarrying.TryUseItemOnWorld () (at Assets/Scripts/Player/PlayerCarrying.cs:369)
+PlayerCarrying.TryInteract () (at Assets/Scripts/Player/PlayerCarrying.cs:121)
+PlayerInputHandler.OnInteract (UnityEngine.InputSystem.InputAction+CallbackContext context) (at Assets/Scripts/Player/PlayerInputHandler.cs:46)
+UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) (at <435b7303fa1046c7aefb885a0b7d525b>:0)
+UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) (at <435b7303fa1046c7aefb885a0b7d525b>:0)
+UnityEngine.InputSystem.Utilities.DelegateHelpers.InvokeCallbacksSafe[TValue] (UnityEngine.InputSystem.Utilities.CallbackArray`1[System.Action`1[TValue]]& callbacks, TValue argument, System.String callbackName, System.Object context) (at ./Library/PackageCache/com.unity.inputsystem@be6c4fd0abf5/InputSystem/Utilities/DelegateHelpers.cs:46)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr)
+"
+01:31:12.853,ERROR,Unity,"MissingComponentException while executing 'performed' callbacks of 'Player/Interact[/Keyboard/e]'
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr)
+"
+01:31:14.015,DEBUG,PlayerCarrying,쿨타임 지났음
+01:31:14.017,ERROR,Unity,"MissingComponentException: There is no 'SpriteRenderer' attached to the ""Player"" game object, but a script is trying to access it.
+You probably need to add a SpriteRenderer to the game object ""Player"". Or your script needs to check if the component is attached before using it.
+UnityEngine.Object+MarshalledUnityObject.TryThrowEditorNullExceptionObject (UnityEngine.Object unityObj, System.String parameterName) (at <435b7303fa1046c7aefb885a0b7d525b>:0)
+UnityEngine.Bindings.ThrowHelper.ThrowNullReferenceException (System.Object obj) (at <435b7303fa1046c7aefb885a0b7d525b>:0)
+UnityEngine.Renderer.get_bounds () (at <435b7303fa1046c7aefb885a0b7d525b>:0)
+PlayerCarrying.TryUseItemOnWorld () (at Assets/Scripts/Player/PlayerCarrying.cs:369)
+PlayerCarrying.TryInteract () (at Assets/Scripts/Player/PlayerCarrying.cs:121)
+PlayerInputHandler.OnInteract (UnityEngine.InputSystem.InputAction+CallbackContext context) (at Assets/Scripts/Player/PlayerInputHandler.cs:46)
+UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) (at <435b7303fa1046c7aefb885a0b7d525b>:0)
+UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) (at <435b7303fa1046c7aefb885a0b7d525b>:0)
+UnityEngine.InputSystem.Utilities.DelegateHelpers.InvokeCallbacksSafe[TValue] (UnityEngine.InputSystem.Utilities.CallbackArray`1[System.Action`1[TValue]]& callbacks, TValue argument, System.String callbackName, System.Object context) (at ./Library/PackageCache/com.unity.inputsystem@be6c4fd0abf5/InputSystem/Utilities/DelegateHelpers.cs:46)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr)
+"
+01:31:14.017,ERROR,Unity,"MissingComponentException while executing 'performed' callbacks of 'Player/Interact[/Keyboard/e]'
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr)
+"

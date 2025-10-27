@@ -27,9 +27,9 @@ public class Carryable : MonoBehaviour
         lxw = large * weight;//크기*무게=실제 무게
         if (rb == null)
             rb = GetComponent<Rigidbody2D>();
-        rb.gravityScale = weight * 0.1f;//무게 적용 
+        rb.gravityScale = 1f+weight * 0.1f;//무게 적용 
         GetComponent<Rigidbody2D>().mass = lxw;//무게 적용
-        player = GameObject.Find("Player").GetComponent<PlayerCarrying>();//플레이어 찾아넣기
+        player = GameObject.FindWithTag("Player").GetComponent<PlayerCarrying>();//플레이어 찾아넣기
         maskObstacle = LayerMask.GetMask("Obstacle");
     }
     private void OnCollisionStay2D(Collision2D collision)
@@ -53,6 +53,7 @@ public class Carryable : MonoBehaviour
                 {
                     Debug.Log("조졌" + myIndex);
                 }
+                GameLogger.Instance.LogDebug(this, $"충돌로 인해 짐 떨어뜨림. Fall떨어트린 위치 : {transform.position}");
             }
         }
     }

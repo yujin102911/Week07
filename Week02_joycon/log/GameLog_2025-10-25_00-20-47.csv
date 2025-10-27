@@ -1,0 +1,38 @@
+Timestamp, Level, Source, Message
+00:20:47.146,INFO,GameLogger,=== Game Session Started ===
+00:20:47.812,WARNING,Unity,Minimap: no renderers found for bounds. Check includeLayers.
+00:20:48.969,ERROR,Unity,"Screen position out of view frustum (screen pos 325.000000, 192.000000, 0.000000) (Camera rect 0 0 985 456)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+"
+00:20:48.971,ERROR,Unity,"Screen position out of view frustum (screen pos 325.000000, 192.000000, 0.000000) (Camera rect 0 0 985 456)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+"
+00:20:50.335,INFO,Unity,maxJumpVelocity20
+00:20:51.793,INFO,Unity,maxJumpVelocity20
+00:20:52.568,DEBUG,PlayerCarrying,쿨타임 지났음
+00:20:52.796,DEBUG,PlayerCarrying,쿨타임 지났음
+00:20:53.112,DEBUG,PlayerCarrying,쿨타임 지났음
+00:20:53.437,DEBUG,PlayerCarrying,쿨타임 지났음
+00:20:53.894,DEBUG,PlayerCarrying,쿨타임 지났음
+00:20:53.896,DEBUG,PlayerCarrying,집기 조작Wood (4) (UnityEngine.BoxCollider2D)
+00:20:53.897,DEBUG,PlayerCarrying,집기 조작Wood (11) (UnityEngine.BoxCollider2D)
+00:20:53.897,DEBUG,PlayerCarrying,집기 조작Wood (3) (UnityEngine.BoxCollider2D)
+00:20:53.897,DEBUG,PlayerCarrying,집기 조작Wood (5) (UnityEngine.BoxCollider2D)
+00:20:53.898,INFO,Unity,_focus is null
+00:20:54.693,DEBUG,PlayerCarrying,쿨타임 지났음
+00:20:54.694,DEBUG,PlayerCarrying,집기 조작Wood (4) (UnityEngine.BoxCollider2D)
+00:20:54.695,DEBUG,PlayerCarrying,집기 조작Wood (11) (UnityEngine.BoxCollider2D)
+00:20:54.696,DEBUG,PlayerCarrying,집기 조작Wood (3) (UnityEngine.BoxCollider2D)
+00:20:54.697,INFO,Unity,_focus is null
+00:20:54.977,INFO,Unity,maxJumpVelocity19.37984
+00:20:56.027,INFO,Unity,maxJumpVelocity20
+00:20:57.183,DEBUG,PlayerCarrying,쿨타임 지났음
+00:20:57.184,DEBUG,PlayerCarrying,집기 조작Wood (12) (UnityEngine.BoxCollider2D)
+00:20:57.185,INFO,Unity,_focus is null
+00:20:59.183,INFO,Unity,막혔어
+00:20:59.820,INFO,Unity,maxJumpVelocity19.68504
+00:21:00.041,INFO,Unity,Collider닿음
+00:21:00.621,INFO,Unity,maxJumpVelocity20
+00:21:02.197,DEBUG,PlayerCarrying,쿨타임 지났음
+00:21:02.199,DEBUG,PlayerCarrying,집기 조작Wood (3) (UnityEngine.BoxCollider2D)
+00:21:02.200,INFO,Unity,_focus is null

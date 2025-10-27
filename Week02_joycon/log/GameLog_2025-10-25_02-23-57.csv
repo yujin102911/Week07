@@ -1,0 +1,50 @@
+Timestamp, Level, Source, Message
+02:23:57.245,INFO,GameLogger,=== Game Session Started ===
+02:23:57.937,WARNING,Unity,Minimap: no renderers found for bounds. Check includeLayers.
+02:24:02.271,DEBUG,PlayerCarrying,쿨타임 지났음
+02:24:02.274,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+02:24:02.275,INFO,Unity,_focus is null
+02:24:03.226,INFO,Unity,maxJumpVelocity19.68504
+02:24:04.842,INFO,Unity,maxJumpVelocity20
+02:24:05.525,DEBUG,PlayerCarrying,쿨타임 지났음
+02:24:06.049,DEBUG,PlayerCarrying,쿨타임 지났음
+02:24:06.049,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+02:24:06.050,INFO,Unity,_focus is null
+02:24:07.011,INFO,Unity,maxJumpVelocity19.68504
+02:24:08.240,DEBUG,PlayerCarrying,쿨타임 지났음
+02:24:08.242,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+02:24:08.242,INFO,Unity,_focus is null
+02:24:09.171,INFO,Unity,maxJumpVelocity19.68504
+02:24:11.563,DEBUG,PlayerCarrying,쿨타임 지났음
+02:24:11.564,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+02:24:11.565,INFO,Unity,_focus is null
+02:24:12.564,INFO,Unity,maxJumpVelocity19.68504
+02:24:31.476,INFO,Unity,maxJumpVelocity19.68504
+02:24:33.684,INFO,Unity,maxJumpVelocity20
+02:24:34.739,INFO,Unity,nal닿음
+02:24:34.787,INFO,Unity,Trigger닿음
+02:24:34.816,INFO,Unity,maxJumpVelocity20
+02:24:35.281,INFO,Unity,nal닿음
+02:24:35.561,INFO,Unity,nal닿음
+02:24:35.636,DEBUG,PlayerCarrying,쿨타임 지났음
+02:24:35.637,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+02:24:35.638,INFO,Unity,_focus is null
+02:24:37.226,INFO,Unity,maxJumpVelocity19.68504
+02:24:38.939,INFO,Unity,maxJumpVelocity20
+02:24:41.315,INFO,Unity,maxJumpVelocity20
+02:24:42.423,INFO,Unity,maxJumpVelocity20
+02:24:43.312,INFO,Unity,maxJumpVelocity20
+02:24:44.737,INFO,Unity,maxJumpVelocity20
+02:24:48.396,DEBUG,PlayerCarrying,쿨타임 지났음
+02:24:48.398,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+02:24:48.398,INFO,Unity,_focus is null
+02:25:20.993,WARNING,Unity,"Assets\Scripts\Player\RaycastController.cs(22,23): warning CS0108: 'RaycastController.collider' hides inherited member 'Component.collider'. Use the new keyword if hiding was intended."
+02:25:20.993,WARNING,Unity,"Assets\Scripts\Minimap\Minimap.cs(43,18): warning CS0618: 'Object.FindObjectsOfType<T>()' is obsolete: 'Object.FindObjectsOfType has been deprecated. Use Object.FindObjectsByType instead which lets you decide whether you need the results sorted or not.  FindObjectsOfType sorts the results by InstanceID but if you do not need this using FindObjectSortMode.None is considerably faster.'"
+02:25:20.994,WARNING,Unity,"Assets\Scripts\Yujin\PlayerSpriteChanger.cs(11,31): warning CS0618: 'Object.FindObjectOfType<T>()' is obsolete: 'Object.FindObjectOfType has been deprecated. Use Object.FindFirstObjectByType instead or if finding any instance is acceptable the faster Object.FindAnyObjectByType'"
+02:25:20.994,WARNING,Unity,"Assets\Scripts\Rope\KinematicGrapple2D.cs(269,28): warning CS0618: 'Physics2D.LinecastNonAlloc(Vector2, Vector2, RaycastHit2D[], int)' is obsolete: 'Physics2D.LinecastNonAlloc is deprecated. Use Physics2D.Linecast instead.'"
+02:25:20.995,WARNING,Unity,"Assets\Scripts\Player\PlayerCarrying.cs(40,36): warning CS0414: The field 'PlayerCarrying.interactionRange' is assigned but its value is never used"
+02:25:20.996,WARNING,Unity,"Assets\Scripts\Player\PlayerCarrying.cs(28,11): warning CS0414: The field 'PlayerCarrying.lastObjRadius' is assigned but its value is never used"
+02:25:20.996,WARNING,Unity,"Assets\Scripts\Interaction\Axe.cs(6,34): warning CS0414: The field 'Axe.cutRequire' is assigned but its value is never used"
+02:25:21.110,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+UnityEditor.GameObjectInspector.OnDisable () (at <2c2557cc28ef491cb087583268e49902>:0)
+"

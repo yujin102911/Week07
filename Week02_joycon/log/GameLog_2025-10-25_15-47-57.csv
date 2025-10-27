@@ -1,0 +1,569 @@
+Timestamp, Level, Source, Message
+15:47:57.934,INFO,GameLogger,=== Game Session Started ===
+15:47:58.441,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.Start () (at Assets/Scripts/Interaction/TomatoGrow.cs:14)
+"
+15:47:58.454,WARNING,Unity,Minimap: no renderers found for bounds. Check includeLayers.
+15:47:59.764,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:47:59.851,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:47:59.852,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:47:59.852,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:47:59.853,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:47:59.894,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:47:59.895,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:47:59.916,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:47:59.929,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:47:59.950,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:47:59.983,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:47:59.994,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:00.009,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:00.033,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:00.045,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:00.067,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:00.101,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:00.113,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:00.124,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:00.146,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:00.179,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:00.191,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:00.211,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:00.232,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:01.026,DEBUG,PlayerCarrying,쿨타임 지났음
+15:48:01.028,DEBUG,PlayerCarrying,집기 조작WateringCan (UnityEngine.BoxCollider2D)
+15:48:01.028,DEBUG,PlayerCarrying,집기 조작TomatoTree (UnityEngine.BoxCollider2D)
+15:48:01.029,INFO,Unity,_focus is null
+15:48:01.044,INFO,Unity,No hits detected.
+15:48:01.065,INFO,Unity,No hits detected.
+15:48:01.077,INFO,Unity,No hits detected.
+15:48:01.098,INFO,Unity,No hits detected.
+15:48:01.109,INFO,Unity,No hits detected.
+15:48:01.120,INFO,Unity,No hits detected.
+15:48:01.150,INFO,Unity,No hits detected.
+15:48:01.163,INFO,Unity,No hits detected.
+15:48:01.183,INFO,Unity,No hits detected.
+15:48:01.195,INFO,Unity,No hits detected.
+15:48:01.207,INFO,Unity,No hits detected.
+15:48:01.228,INFO,Unity,No hits detected.
+15:48:01.239,INFO,Unity,No hits detected.
+15:48:01.250,INFO,Unity,No hits detected.
+15:48:01.271,INFO,Unity,No hits detected.
+15:48:01.282,INFO,Unity,No hits detected.
+15:48:01.294,INFO,Unity,No hits detected.
+15:48:01.314,INFO,Unity,No hits detected.
+15:48:01.327,INFO,Unity,No hits detected.
+15:48:01.350,INFO,Unity,No hits detected.
+15:48:01.361,INFO,Unity,No hits detected.
+15:48:01.384,INFO,Unity,No hits detected.
+15:48:01.384,INFO,Unity,maxJumpVelocity19.84127
+15:48:01.398,INFO,Unity,No hits detected.
+15:48:01.418,INFO,Unity,No hits detected.
+15:48:01.430,INFO,Unity,No hits detected.
+15:48:01.451,INFO,Unity,No hits detected.
+15:48:01.463,INFO,Unity,No hits detected.
+15:48:01.473,INFO,Unity,No hits detected.
+15:48:01.496,INFO,Unity,No hits detected.
+15:48:01.507,INFO,Unity,No hits detected.
+15:48:01.518,INFO,Unity,No hits detected.
+15:48:01.541,INFO,Unity,No hits detected.
+15:48:01.558,INFO,Unity,No hits detected.
+15:48:01.580,INFO,Unity,No hits detected.
+15:48:01.591,INFO,Unity,No hits detected.
+15:48:01.602,INFO,Unity,No hits detected.
+15:48:01.623,INFO,Unity,No hits detected.
+15:48:01.635,INFO,Unity,No hits detected.
+15:48:01.646,INFO,Unity,No hits detected.
+15:48:01.668,INFO,Unity,No hits detected.
+15:48:01.680,INFO,Unity,No hits detected.
+15:48:01.701,INFO,Unity,No hits detected.
+15:48:01.711,INFO,Unity,No hits detected.
+15:48:01.722,INFO,Unity,No hits detected.
+15:48:01.743,INFO,Unity,No hits detected.
+15:48:01.758,INFO,Unity,No hits detected.
+15:48:01.779,INFO,Unity,No hits detected.
+15:48:01.790,INFO,Unity,No hits detected.
+15:48:01.801,INFO,Unity,No hits detected.
+15:48:01.823,INFO,Unity,No hits detected.
+15:48:01.835,INFO,Unity,No hits detected.
+15:48:01.856,INFO,Unity,No hits detected.
+15:48:01.867,INFO,Unity,No hits detected.
+15:48:01.878,INFO,Unity,No hits detected.
+15:48:01.899,INFO,Unity,No hits detected.
+15:48:01.910,INFO,Unity,No hits detected.
+15:48:01.922,INFO,Unity,No hits detected.
+15:48:01.942,INFO,Unity,No hits detected.
+15:48:01.954,INFO,Unity,No hits detected.
+15:48:01.968,INFO,Unity,No hits detected.
+15:48:01.988,INFO,Unity,No hits detected.
+15:48:01.999,INFO,Unity,No hits detected.
+15:48:02.010,INFO,Unity,No hits detected.
+15:48:02.031,INFO,Unity,No hits detected.
+15:48:02.043,INFO,Unity,No hits detected.
+15:48:02.054,INFO,Unity,No hits detected.
+15:48:02.074,INFO,Unity,No hits detected.
+15:48:02.087,INFO,Unity,No hits detected.
+15:48:02.097,INFO,Unity,No hits detected.
+15:48:02.118,INFO,Unity,No hits detected.
+15:48:02.130,INFO,Unity,No hits detected.
+15:48:02.141,INFO,Unity,No hits detected.
+15:48:02.162,INFO,Unity,No hits detected.
+15:48:02.220,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:02.584,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:02.906,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:03.384,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:04.085,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:04.128,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:04.485,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:05.666,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:06.045,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:06.687,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:07.105,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:07.146,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:07.679,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:07.679,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:07.679,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:07.742,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:07.744,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:07.780,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:07.815,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:08.724,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:09.886,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:10.086,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:10.129,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:10.265,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:10.567,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:10.606,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:11.752,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:11.764,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:11.798,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:11.814,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:11.838,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:11.852,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:11.852,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:11.874,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:11.875,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:11.889,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:11.890,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:11.911,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:11.911,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:11.928,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:11.929,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:11.952,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:11.952,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:11.969,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:11.970,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:11.995,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:11.996,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:12.009,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:12.030,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:12.156,INFO,Unity,No hits detected.
+15:48:12.178,INFO,Unity,No hits detected.
+15:48:12.190,INFO,Unity,No hits detected.
+15:48:12.210,INFO,Unity,No hits detected.
+15:48:12.222,INFO,Unity,No hits detected.
+15:48:12.234,INFO,Unity,No hits detected.
+15:48:12.253,INFO,Unity,No hits detected.
+15:48:12.267,INFO,Unity,No hits detected.
+15:48:12.282,INFO,Unity,No hits detected.
+15:48:12.307,INFO,Unity,No hits detected.
+15:48:12.318,INFO,Unity,No hits detected.
+15:48:12.339,INFO,Unity,No hits detected.
+15:48:12.353,INFO,Unity,No hits detected.
+15:48:12.374,INFO,Unity,No hits detected.
+15:48:12.386,INFO,Unity,No hits detected.
+15:48:12.398,INFO,Unity,No hits detected.
+15:48:12.419,INFO,Unity,No hits detected.
+15:48:12.431,INFO,Unity,No hits detected.
+15:48:12.443,INFO,Unity,No hits detected.
+15:48:12.464,INFO,Unity,No hits detected.
+15:48:12.477,INFO,Unity,No hits detected.
+15:48:12.497,INFO,Unity,No hits detected.
+15:48:12.510,INFO,Unity,No hits detected.
+15:48:12.531,INFO,Unity,No hits detected.
+15:48:12.543,INFO,Unity,No hits detected.
+15:48:12.764,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:13.225,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:13.985,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:14.745,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:15.206,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:16.146,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:16.765,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:18.145,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:18.506,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:18.824,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:19.767,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:19.907,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:20.426,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:20.648,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:20.755,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:21.344,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:21.511,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:25.824,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:26.006,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:26.166,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:26.325,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:26.489,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:27.566,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:27.730,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:28.807,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:29.285,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:29.426,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:31.485,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:31.626,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:32.246,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:32.385,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:36.826,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:36.988,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:37.186,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:37.305,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:37.444,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:37.947,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:38.145,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:38.304,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:48:38.566,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+TomatoGrow.SizeUpdate () (at Assets/Scripts/Interaction/TomatoGrow.cs:45)
+TomatoGrow.OnTriggerStay2D (UnityEngine.Collider2D collision) (at Assets/Scripts/Interaction/TomatoGrow.cs:35)
+"
+15:49:01.542,WARNING,Unity,"Assets\Scripts\Player\RaycastController.cs(22,23): warning CS0108: 'RaycastController.collider' hides inherited member 'Component.collider'. Use the new keyword if hiding was intended."
+15:49:01.543,WARNING,Unity,"Assets\Scripts\Minimap\Minimap.cs(43,18): warning CS0618: 'Object.FindObjectsOfType<T>()' is obsolete: 'Object.FindObjectsOfType has been deprecated. Use Object.FindObjectsByType instead which lets you decide whether you need the results sorted or not.  FindObjectsOfType sorts the results by InstanceID but if you do not need this using FindObjectSortMode.None is considerably faster.'"
+15:49:01.543,WARNING,Unity,"Assets\Scripts\Yujin\PlayerSpriteChanger.cs(11,31): warning CS0618: 'Object.FindObjectOfType<T>()' is obsolete: 'Object.FindObjectOfType has been deprecated. Use Object.FindFirstObjectByType instead or if finding any instance is acceptable the faster Object.FindAnyObjectByType'"
+15:49:01.543,WARNING,Unity,"Assets\Scripts\Rope\KinematicGrapple2D.cs(269,28): warning CS0618: 'Physics2D.LinecastNonAlloc(Vector2, Vector2, RaycastHit2D[], int)' is obsolete: 'Physics2D.LinecastNonAlloc is deprecated. Use Physics2D.Linecast instead.'"
+15:49:01.544,WARNING,Unity,"Assets\Scripts\Interaction\Axe.cs(6,34): warning CS0414: The field 'Axe.cutRequire' is assigned but its value is never used"
+15:49:01.544,WARNING,Unity,"Assets\Scripts\Interaction\CarryableRotation.cs(8,10): warning CS0414: The field 'CarryableRotation.carried' is assigned but its value is never used"
+15:49:01.544,WARNING,Unity,"Assets\Scripts\Player\PlayerCarrying.cs(28,11): warning CS0414: The field 'PlayerCarrying.lastObjRadius' is assigned but its value is never used"
+15:49:01.544,WARNING,Unity,"Assets\Scripts\Player\PlayerCarrying.cs(40,36): warning CS0414: The field 'PlayerCarrying.interactionRange' is assigned but its value is never used"

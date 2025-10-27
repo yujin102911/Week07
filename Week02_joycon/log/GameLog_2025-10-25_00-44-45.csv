@@ -1,0 +1,62 @@
+Timestamp, Level, Source, Message
+00:44:45.156,INFO,GameLogger,=== Game Session Started ===
+00:44:45.380,WARNING,Unity,Minimap: no renderers found for bounds. Check includeLayers.
+00:44:48.316,INFO,Unity,maxJumpVelocity20
+00:44:49.005,DEBUG,PlayerCarrying,쿨타임 지났음
+00:44:49.008,DEBUG,PlayerCarrying,집기 조작Wood (UnityEngine.BoxCollider2D)
+00:44:49.008,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+00:44:49.009,INFO,Unity,_focus is null
+00:44:50.575,DEBUG,PlayerCarrying,쿨타임 지났음
+00:44:50.576,DEBUG,PlayerCarrying,집기 조작Wood (UnityEngine.BoxCollider2D)
+00:44:50.578,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+00:44:50.578,INFO,Unity,_focus is null
+00:44:52.027,DEBUG,PlayerCarrying,쿨타임 지났음
+00:44:52.028,DEBUG,PlayerCarrying,집기 조작Wood (UnityEngine.BoxCollider2D)
+00:44:52.029,INFO,Unity,_focus is null
+00:44:52.998,DEBUG,PlayerCarrying,쿨타임 지났음
+00:44:52.999,DEBUG,PlayerCarrying,집기 조작Wood (UnityEngine.BoxCollider2D)
+00:44:53.000,INFO,Unity,_focus is null
+00:44:54.335,INFO,Unity,막혔어
+00:44:54.737,INFO,Unity,막혔어
+00:44:56.027,INFO,Unity,막혔어
+00:44:56.230,INFO,Unity,막혔어
+00:44:56.593,INFO,Unity,막혔어
+00:44:56.946,INFO,Unity,막혔어
+00:44:57.307,INFO,Unity,막혔어
+00:44:58.014,INFO,Unity,막혔어
+00:44:58.366,INFO,Unity,막혔어
+00:44:59.946,DEBUG,PlayerCarrying,쿨타임 지났음
+00:44:59.947,DEBUG,PlayerCarrying,집기 조작Wood (UnityEngine.BoxCollider2D)
+00:44:59.948,INFO,Unity,_focus is null
+00:45:00.990,INFO,Unity,막혔어
+00:45:01.232,INFO,Unity,막혔어
+00:45:01.696,INFO,Unity,maxJumpVelocity19.68504
+00:45:02.976,DEBUG,PlayerCarrying,쿨타임 지났음
+00:45:02.977,DEBUG,PlayerCarrying,집기 조작Wood (UnityEngine.BoxCollider2D)
+00:45:02.977,INFO,Unity,_focus is null
+00:45:03.669,INFO,Unity,막혔어
+00:45:04.164,INFO,Unity,막혔어
+00:45:04.504,INFO,Unity,막혔어
+00:45:09.591,INFO,Unity,maxJumpVelocity19.68504
+00:45:10.666,INFO,Unity,maxJumpVelocity19.68504
+00:45:13.132,DEBUG,PlayerCarrying,쿨타임 지났음
+00:45:13.133,DEBUG,PlayerCarrying,집기 조작Wood (UnityEngine.BoxCollider2D)
+00:45:13.134,INFO,Unity,_focus is null
+00:45:14.582,DEBUG,PlayerCarrying,쿨타임 지났음
+00:45:14.583,DEBUG,PlayerCarrying,집기 조작Wood (UnityEngine.BoxCollider2D)
+00:45:14.584,INFO,Unity,_focus is null
+00:45:16.680,INFO,Unity,막혔어
+00:45:17.117,INFO,Unity,maxJumpVelocity19.68504
+00:45:18.392,INFO,Unity,maxJumpVelocity19.68504
+00:45:21.226,INFO,Unity,maxJumpVelocity20
+00:45:22.226,INFO,Unity,maxJumpVelocity20
+00:46:22.346,WARNING,Unity,"Assets\Scripts\Player\RaycastController.cs(22,23): warning CS0108: 'RaycastController.collider' hides inherited member 'Component.collider'. Use the new keyword if hiding was intended."
+00:46:22.346,WARNING,Unity,"Assets\Scripts\Minimap\Minimap.cs(43,18): warning CS0618: 'Object.FindObjectsOfType<T>()' is obsolete: 'Object.FindObjectsOfType has been deprecated. Use Object.FindObjectsByType instead which lets you decide whether you need the results sorted or not.  FindObjectsOfType sorts the results by InstanceID but if you do not need this using FindObjectSortMode.None is considerably faster.'"
+00:46:22.347,WARNING,Unity,"Assets\Scripts\Yujin\PlayerSpriteChanger.cs(11,31): warning CS0618: 'Object.FindObjectOfType<T>()' is obsolete: 'Object.FindObjectOfType has been deprecated. Use Object.FindFirstObjectByType instead or if finding any instance is acceptable the faster Object.FindAnyObjectByType'"
+00:46:22.347,WARNING,Unity,"Assets\Scripts\Rope\KinematicGrapple2D.cs(269,28): warning CS0618: 'Physics2D.LinecastNonAlloc(Vector2, Vector2, RaycastHit2D[], int)' is obsolete: 'Physics2D.LinecastNonAlloc is deprecated. Use Physics2D.Linecast instead.'"
+00:46:22.348,WARNING,Unity,"Assets\Scripts\Player\PlayerCarrying.cs(26,11): warning CS0414: The field 'PlayerCarrying.lastObjRadius' is assigned but its value is never used"
+00:46:22.348,WARNING,Unity,"Assets\Scripts\Player\PlayerCarrying.cs(38,36): warning CS0414: The field 'PlayerCarrying.interactionRange' is assigned but its value is never used"
+00:46:22.349,WARNING,Unity,"Assets\Scripts\Interaction\Axe.cs(6,34): warning CS0414: The field 'Axe.cutRequire' is assigned but its value is never used"
+00:46:22.444,ERROR,Unity,"NullReferenceException: Object reference not set to an instance of an object
+UnityEditor.GameObjectInspector.OnDisable () (at <2c2557cc28ef491cb087583268e49902>:0)
+"

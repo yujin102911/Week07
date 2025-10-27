@@ -1,0 +1,2245 @@
+Timestamp, Level, Source, Message
+22:59:08.930,INFO,GameLogger,=== Game Session Started ===
+22:59:08.936,WARNING,Unity,DontDestroyOnLoad only works for root GameObjects or components on root GameObjects.
+22:59:09.274,WARNING,Unity,Minimap: no renderers found for bounds. Check includeLayers.
+22:59:10.852,INFO,Unity,nal닿음
+22:59:59.058,INFO,Unity,maxJumpVelocity20
+23:00:02.381,DEBUG,PlayerCarrying,쿨타임 지났음
+23:00:02.631,DEBUG,PlayerCarrying,쿨타임 지났음
+23:00:04.204,DEBUG,PlayerCarrying,쿨타임 지났음
+23:00:04.204,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+23:00:04.206,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+23:00:04.206,INFO,Unity,_focus is null
+23:00:04.591,DEBUG,PlayerCarrying,쿨타임 지났음
+23:00:04.592,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+23:00:04.969,DEBUG,PlayerCarrying,쿨타임 지났음
+23:00:04.971,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+23:00:05.396,DEBUG,PlayerCarrying,쿨타임 지났음
+23:00:05.397,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+23:00:05.658,INFO,Unity,막혔어
+23:00:05.940,INFO,Unity,막혔어
+23:00:06.751,INFO,Unity,maxJumpVelocity19.23077
+23:00:06.819,INFO,Unity,indexChamge
+23:00:06.819,INFO,Unity,짐 1충돌
+23:00:08.323,DEBUG,PlayerCarrying,쿨타임 지났음
+23:00:08.324,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+23:00:08.324,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+23:00:08.324,INFO,Unity,_focus is null
+23:00:09.199,INFO,Unity,막혔어
+23:00:10.427,INFO,Unity,막혔어
+23:00:10.657,INFO,Unity,막혔어
+23:00:11.247,INFO,Unity,maxJumpVelocity19.23077
+23:00:12.144,INFO,Unity,maxJumpVelocity19.23077
+23:00:13.602,DEBUG,PlayerCarrying,쿨타임 지났음
+23:00:13.603,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+23:00:13.603,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+23:00:13.603,INFO,Unity,_focus is null
+23:00:14.381,INFO,Unity,maxJumpVelocity19.23077
+23:00:14.925,INFO,Unity,indexChamge
+23:00:14.925,INFO,Unity,짐 1충돌
+23:00:16.476,DEBUG,PlayerCarrying,쿨타임 지났음
+23:00:16.476,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+23:00:16.477,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+23:00:16.477,INFO,Unity,_focus is null
+23:00:17.123,INFO,Unity,maxJumpVelocity19.23077
+23:00:18.610,INFO,Unity,maxJumpVelocity19.23077
+23:00:19.401,INFO,Unity,indexChamge
+23:00:19.401,INFO,Unity,짐 1충돌
+23:00:20.381,INFO,Unity,maxJumpVelocity20
+23:00:21.939,DEBUG,PlayerCarrying,쿨타임 지났음
+23:00:21.939,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+23:00:21.940,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+23:00:21.940,INFO,Unity,_focus is null
+23:00:22.767,INFO,Unity,maxJumpVelocity19.23077
+23:00:23.477,INFO,Unity,indexChamge
+23:00:23.479,INFO,Unity,짐 1충돌
+23:00:24.612,INFO,Unity,maxJumpVelocity20
+23:00:25.960,DEBUG,PlayerCarrying,쿨타임 지났음
+23:00:26.690,DEBUG,PlayerCarrying,쿨타임 지났음
+23:00:26.691,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+23:00:26.692,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+23:00:26.692,INFO,Unity,_focus is null
+23:00:27.346,INFO,Unity,maxJumpVelocity19.23077
+23:00:28.285,DEBUG,PlayerCarrying,쿨타임 지났음
+23:00:28.285,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+23:00:28.722,INFO,Unity,maxJumpVelocity19.23077
+23:00:31.020,INFO,Unity,maxJumpVelocity19.23077
+23:00:31.098,INFO,Unity,indexChamge
+23:00:31.098,INFO,Unity,짐 1충돌
+23:00:33.111,INFO,Unity,maxJumpVelocity20
+23:00:34.479,DEBUG,PlayerCarrying,쿨타임 지났음
+23:00:34.481,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+23:00:34.481,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+23:00:34.481,INFO,Unity,_focus is null
+23:00:35.069,INFO,Unity,maxJumpVelocity19.23077
+23:00:35.733,INFO,Unity,maxJumpVelocity19.23077
+23:00:36.747,INFO,Unity,maxJumpVelocity19.23077
+23:00:37.172,INFO,Unity,사다리 점프
+23:00:40.321,INFO,Unity,사다리 점프
+23:00:40.969,INFO,Unity,사다리 점프
+23:00:42.926,INFO,Unity,maxJumpVelocity19.23077
+23:00:43.143,INFO,Unity,indexChamge
+23:00:43.143,INFO,Unity,짐 1충돌
+23:00:44.528,INFO,Unity,maxJumpVelocity20
+23:00:46.595,INFO,Unity,maxJumpVelocity20
+23:00:47.892,INFO,Unity,maxJumpVelocity20
+23:00:48.648,INFO,Unity,사다리 점프
+23:00:50.048,INFO,Unity,maxJumpVelocity20
+23:00:50.989,INFO,Unity,사다리 점프
+23:00:52.141,DEBUG,PlayerCarrying,쿨타임 지났음
+23:00:52.141,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+23:00:52.142,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+23:00:52.142,INFO,Unity,_focus is null
+23:00:52.751,INFO,Unity,maxJumpVelocity19.23077
+23:00:53.061,INFO,Unity,indexChamge
+23:00:53.061,INFO,Unity,짐 1충돌
+23:00:54.308,DEBUG,PlayerCarrying,쿨타임 지났음
+23:00:54.308,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+23:00:54.309,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+23:00:54.309,INFO,Unity,_focus is null
+23:00:55.119,INFO,Unity,maxJumpVelocity19.23077
+23:00:55.823,INFO,Unity,사다리 점프
+23:00:57.351,INFO,Unity,maxJumpVelocity19.23077
+23:00:58.084,INFO,Unity,사다리 점프
+23:01:00.661,INFO,Unity,maxJumpVelocity19.23077
+23:01:02.298,INFO,Unity,사다리 점프
+23:01:03.844,INFO,Unity,maxJumpVelocity19.23077
+23:01:04.573,INFO,Unity,maxJumpVelocity19.23077
+23:01:05.509,INFO,Unity,maxJumpVelocity19.23077
+23:01:06.221,INFO,Unity,maxJumpVelocity19.23077
+23:01:11.464,INFO,Unity,maxJumpVelocity19.23077
+23:01:13.035,INFO,Unity,maxJumpVelocity19.23077
+23:01:15.380,INFO,Unity,사다리 점프
+23:01:17.542,INFO,Unity,maxJumpVelocity19.23077
+23:01:17.561,INFO,Unity,indexChamge
+23:01:17.561,INFO,Unity,짐 1충돌
+23:01:19.742,INFO,Unity,maxJumpVelocity20
+23:01:20.674,INFO,Unity,maxJumpVelocity20
+23:01:21.538,INFO,Unity,maxJumpVelocity20
+23:01:21.767,INFO,Unity,사다리 점프
+23:01:22.619,INFO,Unity,maxJumpVelocity20
+23:01:24.537,INFO,Unity,사다리 점프
+23:01:25.770,INFO,Unity,maxJumpVelocity20
+23:01:27.024,INFO,Unity,maxJumpVelocity20
+23:01:27.977,INFO,Unity,사다리 점프
+23:01:29.270,DEBUG,PlayerCarrying,쿨타임 지났음
+23:01:29.270,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+23:01:29.272,INFO,Unity,_focus is null
+23:01:29.538,INFO,Unity,nal닿음
+23:01:29.903,INFO,Unity,Trigger닿음
+23:01:29.917,INFO,Unity,Trigger닿음
+23:01:30.801,INFO,Unity,maxJumpVelocity19.68504
+23:01:31.435,INFO,Unity,Trigger닿음
+23:01:31.438,INFO,Unity,nal닿음
+23:01:31.983,INFO,Unity,maxJumpVelocity19.68504
+23:01:32.661,INFO,Unity,Trigger닿음
+23:01:32.661,INFO,Unity,nal닿음
+23:01:32.982,INFO,Unity,maxJumpVelocity19.68504
+23:01:33.639,INFO,Unity,nal닿음
+23:01:33.660,INFO,Unity,nal닿음
+23:01:33.660,INFO,Unity,Trigger닿음
+23:01:33.660,INFO,Unity,nal닿음
+23:01:33.661,INFO,Unity,Trigger닿음
+23:01:34.278,INFO,Unity,maxJumpVelocity19.68504
+23:01:34.477,INFO,Unity,nal닿음
+23:01:34.477,INFO,Unity,Trigger닿음
+23:01:34.497,INFO,Unity,Trigger닿음
+23:01:34.517,INFO,Unity,Trigger닿음
+23:01:34.760,INFO,Unity,nal닿음
+23:01:34.761,INFO,Unity,Trigger닿음
+23:01:34.864,INFO,Unity,nal닿음
+23:01:34.864,INFO,Unity,Trigger닿음
+23:01:34.920,INFO,Unity,nal닿음
+23:01:34.921,INFO,Unity,Trigger닿음
+23:01:35.922,INFO,Unity,maxJumpVelocity19.68504
+23:01:36.018,INFO,Unity,nal닿음
+23:01:36.018,INFO,Unity,Trigger닿음
+23:01:36.038,INFO,Unity,Trigger닿음
+23:01:36.039,INFO,Unity,Trigger닿음
+23:01:36.039,INFO,Unity,nal닿음
+23:01:36.298,INFO,Unity,indexChamge
+23:01:36.299,INFO,Unity,짐 1충돌
+23:01:36.299,INFO,Unity,짐 1충돌
+23:01:37.238,INFO,Unity,maxJumpVelocity20
+23:01:38.019,INFO,Unity,nal닿음
+23:01:38.039,INFO,Unity,Trigger닿음
+23:01:38.226,DEBUG,PlayerCarrying,쿨타임 지났음
+23:01:38.226,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:01:38.227,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:01:38.227,DEBUG,PlayerCarrying,집기 조작Wood (5) (UnityEngine.BoxCollider2D)
+23:01:38.228,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:01:38.228,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:01:38.228,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:01:38.230,INFO,Unity,_focus is null
+23:01:39.435,INFO,Unity,maxJumpVelocity19.84127
+23:01:40.521,INFO,Unity,maxJumpVelocity19.84127
+23:01:41.370,INFO,Unity,maxJumpVelocity19.84127
+23:01:41.547,INFO,Unity,indexChamge
+23:01:41.548,INFO,Unity,짐 1충돌
+23:01:42.642,INFO,Unity,사다리 점프
+23:01:43.470,INFO,Unity,maxJumpVelocity20
+23:01:43.970,WARNING,Unity,Internal: JobTempAlloc has allocations that are more than the maximum lifespan of 4 frames old - this is not allowed and likely a leak
+23:01:43.970,WARNING,Unity,"To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations."
+23:01:44.431,INFO,Unity,사다리 점프
+23:01:44.839,INFO,Unity,nal닿음
+23:01:44.839,INFO,Unity,Trigger닿음
+23:01:44.916,DEBUG,PlayerCarrying,쿨타임 지났음
+23:01:44.917,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+23:01:44.917,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:01:44.917,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:01:44.918,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:01:44.918,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:01:44.918,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:01:44.918,INFO,Unity,_focus is null
+23:01:45.494,INFO,Unity,maxJumpVelocity19.84127
+23:01:45.661,INFO,Unity,indexChamge
+23:01:45.661,INFO,Unity,짐 1충돌
+23:01:46.297,INFO,Unity,maxJumpVelocity20
+23:01:49.563,DEBUG,PlayerCarrying,쿨타임 지났음
+23:01:49.563,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:01:49.564,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:01:49.564,INFO,Unity,_focus is null
+23:01:49.885,DEBUG,PlayerCarrying,쿨타임 지났음
+23:01:49.886,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:01:49.886,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:01:49.887,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:01:49.887,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:01:49.887,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:01:49.888,INFO,Unity,_focus is null
+23:01:50.204,DEBUG,PlayerCarrying,쿨타임 지났음
+23:01:50.204,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:01:50.204,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:01:50.206,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:01:50.206,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:01:50.206,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:01:50.207,INFO,Unity,_focus is null
+23:01:50.534,DEBUG,PlayerCarrying,쿨타임 지났음
+23:01:50.535,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:01:50.535,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:01:50.536,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:01:50.536,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:01:50.536,INFO,Unity,_focus is null
+23:01:50.842,DEBUG,PlayerCarrying,쿨타임 지났음
+23:01:50.842,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:01:50.843,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:01:50.843,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:01:50.844,INFO,Unity,_focus is null
+23:01:51.170,DEBUG,PlayerCarrying,쿨타임 지났음
+23:01:51.170,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:01:51.171,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:01:51.171,INFO,Unity,_focus is null
+23:01:51.875,DEBUG,PlayerCarrying,쿨타임 지났음
+23:01:51.875,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:01:51.875,INFO,Unity,_focus is null
+23:01:52.592,INFO,Unity,maxJumpVelocity18.93939
+23:01:53.400,INFO,Unity,maxJumpVelocity18.93939
+23:01:55.719,INFO,Unity,indexChamge
+23:01:55.720,INFO,Unity,짐 1충돌
+23:01:57.376,DEBUG,PlayerCarrying,쿨타임 지났음
+23:01:57.376,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:01:57.376,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:01:57.378,INFO,Unity,_focus is null
+23:01:57.728,DEBUG,PlayerCarrying,쿨타임 지났음
+23:01:57.730,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:01:57.730,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:01:57.730,INFO,Unity,_focus is null
+23:01:58.065,DEBUG,PlayerCarrying,쿨타임 지났음
+23:01:58.065,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:01:58.066,INFO,Unity,_focus is null
+23:01:59.024,DEBUG,PlayerCarrying,쿨타임 지났음
+23:01:59.025,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:01:59.025,INFO,Unity,_focus is null
+23:01:59.242,DEBUG,PlayerCarrying,쿨타임 지났음
+23:02:00.170,DEBUG,PlayerCarrying,쿨타임 지났음
+23:02:00.171,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:02:00.171,INFO,Unity,_focus is null
+23:02:00.959,INFO,Unity,indexChamge
+23:02:00.960,INFO,Unity,짐 1충돌
+23:02:00.960,INFO,Unity,짐 2충돌
+23:02:00.960,INFO,Unity,짐 3충돌
+23:02:00.960,INFO,Unity,짐 4충돌
+23:02:01.084,DEBUG,PlayerCarrying,쿨타임 지났음
+23:02:01.085,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:02:01.085,INFO,Unity,_focus is null
+23:02:01.099,INFO,Unity,indexChamge
+23:02:01.099,INFO,Unity,짐 1충돌
+23:02:01.424,INFO,Unity,maxJumpVelocity20
+23:02:02.267,INFO,Unity,maxJumpVelocity20
+23:02:03.118,INFO,Unity,maxJumpVelocity20
+23:02:03.732,DEBUG,PlayerCarrying,쿨타임 지났음
+23:02:03.733,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:02:03.733,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:02:03.734,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:02:03.735,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:02:03.735,INFO,Unity,_focus is null
+23:02:03.743,INFO,Unity,indexChamge
+23:02:03.743,INFO,Unity,짐 1충돌
+23:02:04.058,DEBUG,PlayerCarrying,쿨타임 지났음
+23:02:04.059,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:02:04.059,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:02:04.060,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:02:04.060,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:02:04.060,INFO,Unity,_focus is null
+23:02:04.081,INFO,Unity,indexChamge
+23:02:04.082,INFO,Unity,짐 1충돌
+23:02:04.331,DEBUG,PlayerCarrying,쿨타임 지났음
+23:02:04.332,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:02:04.332,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:02:04.333,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:02:04.333,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:02:04.333,INFO,Unity,_focus is null
+23:02:04.341,INFO,Unity,indexChamge
+23:02:04.341,INFO,Unity,짐 1충돌
+23:02:05.604,DEBUG,PlayerCarrying,쿨타임 지났음
+23:02:05.604,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:02:05.604,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:02:05.605,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:02:05.605,INFO,Unity,_focus is null
+23:02:05.620,INFO,Unity,indexChamge
+23:02:05.621,INFO,Unity,짐 1충돌
+23:02:05.896,DEBUG,PlayerCarrying,쿨타임 지났음
+23:02:05.897,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:02:05.897,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:02:05.898,INFO,Unity,_focus is null
+23:02:05.918,INFO,Unity,indexChamge
+23:02:05.919,INFO,Unity,짐 1충돌
+23:02:06.462,DEBUG,PlayerCarrying,쿨타임 지났음
+23:02:07.124,DEBUG,PlayerCarrying,쿨타임 지났음
+23:02:07.125,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:02:07.125,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:02:07.126,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:02:07.126,INFO,Unity,_focus is null
+23:02:07.370,DEBUG,PlayerCarrying,쿨타임 지났음
+23:02:07.370,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:02:07.371,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:02:07.372,INFO,Unity,_focus is null
+23:02:07.680,DEBUG,PlayerCarrying,쿨타임 지났음
+23:02:07.680,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:02:07.680,INFO,Unity,_focus is null
+23:02:07.986,DEBUG,PlayerCarrying,쿨타임 지났음
+23:02:08.783,INFO,Unity,maxJumpVelocity19.53125
+23:02:08.818,INFO,Unity,indexChamge
+23:02:08.818,INFO,Unity,짐 2충돌
+23:02:08.819,INFO,Unity,indexChamge
+23:02:08.819,INFO,Unity,짐 1충돌
+23:02:09.784,INFO,Unity,maxJumpVelocity20
+23:02:11.315,DEBUG,PlayerCarrying,쿨타임 지났음
+23:02:11.316,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:02:11.316,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:02:11.317,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:02:11.317,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:02:11.318,INFO,Unity,_focus is null
+23:02:11.647,DEBUG,PlayerCarrying,쿨타임 지났음
+23:02:11.648,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:02:11.648,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:02:11.648,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:02:11.649,INFO,Unity,_focus is null
+23:02:11.972,DEBUG,PlayerCarrying,쿨타임 지났음
+23:02:11.972,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:02:11.972,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:02:11.974,INFO,Unity,_focus is null
+23:02:12.278,DEBUG,PlayerCarrying,쿨타임 지났음
+23:02:12.279,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:02:12.280,INFO,Unity,_focus is null
+23:02:13.188,INFO,Unity,maxJumpVelocity19.37984
+23:02:14.101,INFO,Unity,maxJumpVelocity19.37984
+23:02:15.146,INFO,Unity,maxJumpVelocity19.37984
+23:02:15.961,INFO,Unity,maxJumpVelocity19.37984
+23:02:17.420,INFO,Unity,maxJumpVelocity19.37984
+23:02:18.180,INFO,Unity,indexChamge
+23:02:18.181,INFO,Unity,짐 2충돌
+23:02:18.181,INFO,Unity,indexChamge
+23:02:18.181,INFO,Unity,짐 1충돌
+23:02:18.181,INFO,Unity,짐 3충돌
+23:02:19.123,DEBUG,PlayerCarrying,쿨타임 지났음
+23:02:19.124,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:02:19.124,INFO,Unity,_focus is null
+23:02:19.433,DEBUG,PlayerCarrying,쿨타임 지났음
+23:02:19.737,DEBUG,PlayerCarrying,쿨타임 지났음
+23:02:19.901,INFO,Unity,maxJumpVelocity19.84127
+23:02:20.559,INFO,Unity,indexChamge
+23:02:20.560,INFO,Unity,짐 1충돌
+23:02:20.774,INFO,Unity,벽 점프
+23:02:21.355,INFO,Unity,maxJumpVelocity20
+23:02:22.272,INFO,Unity,maxJumpVelocity20
+23:02:23.436,INFO,Unity,maxJumpVelocity20
+23:02:25.088,DEBUG,PlayerCarrying,쿨타임 지났음
+23:02:25.915,DEBUG,PlayerCarrying,쿨타임 지났음
+23:02:26.389,DEBUG,PlayerCarrying,쿨타임 지났음
+23:02:26.389,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:02:26.390,INFO,Unity,_focus is null
+23:02:27.107,DEBUG,PlayerCarrying,쿨타임 지났음
+23:02:27.108,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:02:27.109,INFO,Unity,_focus is null
+23:02:27.738,INFO,Unity,maxJumpVelocity19.68504
+23:02:28.314,DEBUG,PlayerCarrying,쿨타임 지났음
+23:02:28.883,DEBUG,PlayerCarrying,쿨타임 지났음
+23:02:28.883,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:02:28.884,INFO,Unity,_focus is null
+23:02:29.314,INFO,Unity,maxJumpVelocity19.53125
+23:02:29.516,INFO,Unity,indexChamge
+23:02:29.517,INFO,Unity,짐 3충돌
+23:02:29.556,INFO,Unity,indexChamge
+23:02:29.556,INFO,Unity,짐 2충돌
+23:02:30.064,INFO,Unity,indexChamge
+23:02:30.064,INFO,Unity,짐 1충돌
+23:02:30.356,DEBUG,PlayerCarrying,쿨타임 지났음
+23:02:32.041,DEBUG,PlayerCarrying,쿨타임 지났음
+23:02:32.042,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:02:32.042,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:02:32.044,INFO,Unity,_focus is null
+23:02:32.057,INFO,Unity,indexChamge
+23:02:32.059,INFO,Unity,짐 1충돌
+23:02:32.933,DEBUG,PlayerCarrying,쿨타임 지났음
+23:02:32.934,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:02:32.934,INFO,Unity,_focus is null
+23:02:32.942,INFO,Unity,indexChamge
+23:02:32.943,INFO,Unity,짐 1충돌
+23:02:33.339,DEBUG,PlayerCarrying,쿨타임 지났음
+23:02:34.440,DEBUG,PlayerCarrying,쿨타임 지났음
+23:02:34.976,DEBUG,PlayerCarrying,쿨타임 지났음
+23:02:34.977,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:02:34.977,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:02:34.977,INFO,Unity,_focus is null
+23:02:36.321,DEBUG,PlayerCarrying,쿨타임 지났음
+23:02:36.322,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:02:36.322,INFO,Unity,_focus is null
+23:02:36.829,INFO,Unity,maxJumpVelocity19.68504
+23:02:37.367,INFO,Unity,indexChamge
+23:02:37.367,INFO,Unity,짐 1충돌
+23:02:38.084,DEBUG,PlayerCarrying,쿨타임 지났음
+23:02:39.189,DEBUG,PlayerCarrying,쿨타임 지났음
+23:02:39.189,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:02:39.189,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:02:39.190,INFO,Unity,_focus is null
+23:02:39.198,INFO,Unity,indexChamge
+23:02:39.199,INFO,Unity,짐 1충돌
+23:02:39.841,DEBUG,PlayerCarrying,쿨타임 지났음
+23:02:40.496,DEBUG,PlayerCarrying,쿨타임 지났음
+23:02:40.496,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:02:40.497,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:02:40.497,INFO,Unity,_focus is null
+23:02:40.507,INFO,Unity,indexChamge
+23:02:40.507,INFO,Unity,짐 1충돌
+23:02:40.741,DEBUG,PlayerCarrying,쿨타임 지났음
+23:02:40.742,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:02:40.744,INFO,Unity,_focus is null
+23:02:40.770,INFO,Unity,indexChamge
+23:02:40.770,INFO,Unity,짐 1충돌
+23:02:41.833,DEBUG,PlayerCarrying,쿨타임 지났음
+23:02:41.834,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:02:41.835,INFO,Unity,_focus is null
+23:02:41.871,INFO,Unity,indexChamge
+23:02:41.871,INFO,Unity,짐 1충돌
+23:02:42.278,DEBUG,PlayerCarrying,쿨타임 지났음
+23:02:42.518,INFO,Unity,maxJumpVelocity20
+23:02:43.482,DEBUG,PlayerCarrying,쿨타임 지났음
+23:02:43.826,INFO,Unity,maxJumpVelocity20
+23:02:44.905,INFO,Unity,maxJumpVelocity20
+23:02:45.644,INFO,Unity,maxJumpVelocity20
+23:02:46.523,INFO,Unity,maxJumpVelocity20
+23:02:48.247,INFO,Unity,사다리 점프
+23:02:48.917,INFO,Unity,maxJumpVelocity20
+23:02:50.902,INFO,Unity,maxJumpVelocity20
+23:02:52.921,INFO,Unity,maxJumpVelocity20
+23:02:54.545,INFO,Unity,사다리 점프
+23:02:55.326,INFO,Unity,maxJumpVelocity20
+23:02:56.181,INFO,Unity,maxJumpVelocity20
+23:02:56.876,INFO,Unity,사다리 점프
+23:02:58.348,DEBUG,PlayerCarrying,쿨타임 지났음
+23:02:58.349,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:02:58.349,DEBUG,PlayerCarrying,집기 조작Wood (6) (UnityEngine.BoxCollider2D)
+23:02:58.350,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:02:58.350,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:02:58.350,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:02:58.351,INFO,Unity,_focus is null
+23:02:58.690,DEBUG,PlayerCarrying,쿨타임 지났음
+23:02:58.690,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:02:58.691,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:02:58.691,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:02:58.691,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:02:58.692,DEBUG,PlayerCarrying,집기 조작Wood (6) (UnityEngine.BoxCollider2D)
+23:02:58.692,INFO,Unity,_focus is null
+23:02:59.035,DEBUG,PlayerCarrying,쿨타임 지났음
+23:02:59.037,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:02:59.037,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:02:59.037,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:02:59.037,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:02:59.038,INFO,Unity,_focus is null
+23:02:59.344,DEBUG,PlayerCarrying,쿨타임 지났음
+23:02:59.345,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:02:59.345,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:02:59.346,INFO,Unity,_focus is null
+23:02:59.721,INFO,Unity,maxJumpVelocity19.37984
+23:03:00.659,DEBUG,PlayerCarrying,쿨타임 지났음
+23:03:00.659,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:03:00.660,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+23:03:00.660,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:03:00.661,INFO,Unity,_focus is null
+23:03:01.326,INFO,Unity,maxJumpVelocity19.08397
+23:03:02.491,INFO,Unity,maxJumpVelocity19.08397
+23:03:07.271,INFO,Unity,maxJumpVelocity19.08397
+23:03:08.229,INFO,Unity,maxJumpVelocity19.08397
+23:03:12.323,INFO,Unity,maxJumpVelocity19.08397
+23:03:12.641,INFO,Unity,indexChamge
+23:03:12.641,INFO,Unity,짐 5충돌
+23:03:14.837,INFO,Unity,maxJumpVelocity19.37984
+23:03:15.541,INFO,Unity,maxJumpVelocity19.37984
+23:03:16.446,INFO,Unity,maxJumpVelocity19.37984
+23:03:17.179,INFO,Unity,indexChamge
+23:03:17.180,INFO,Unity,짐 1충돌
+23:03:18.486,INFO,Unity,maxJumpVelocity20
+23:03:19.560,DEBUG,PlayerCarrying,쿨타임 지났음
+23:03:19.560,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:03:19.561,INFO,Unity,_focus is null
+23:03:20.080,INFO,Unity,maxJumpVelocity19.84127
+23:03:20.835,INFO,Unity,maxJumpVelocity19.84127
+23:03:21.423,DEBUG,PlayerCarrying,쿨타임 지났음
+23:03:21.424,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:03:21.425,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:03:21.425,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:03:21.425,INFO,Unity,_focus is null
+23:03:21.634,DEBUG,PlayerCarrying,쿨타임 지났음
+23:03:21.635,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:03:21.635,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:03:21.635,INFO,Unity,_focus is null
+23:03:22.106,DEBUG,PlayerCarrying,쿨타임 지났음
+23:03:22.107,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:03:22.107,INFO,Unity,_focus is null
+23:03:25.255,INFO,Unity,maxJumpVelocity19.37984
+23:03:26.618,INFO,Unity,사다리 점프
+23:03:28.037,INFO,Unity,maxJumpVelocity19.37984
+23:03:28.769,INFO,Unity,maxJumpVelocity19.37984
+23:03:29.646,INFO,Unity,사다리 코요테 점프
+23:03:30.865,DEBUG,PlayerCarrying,쿨타임 지났음
+23:03:30.866,DEBUG,PlayerCarrying,WorldInteractable 감지: 화로
+23:03:30.866,DEBUG,WorldInteractable,화로와 Firewood의 상호작용 성공
+23:03:30.867,DEBUG,Stove,장작 추가됨 현재: 1개
+23:03:30.868,DEBUG,PlayerCarrying,아이템 소모: WoodRight(Clone)
+23:03:30.869,DEBUG,PlayerCarrying,상호작용 성공함!!
+23:03:31.212,DEBUG,PlayerCarrying,쿨타임 지났음
+23:03:31.214,DEBUG,PlayerCarrying,WorldInteractable 감지: 화로
+23:03:31.214,DEBUG,WorldInteractable,화로와 Firewood의 상호작용 성공
+23:03:31.215,DEBUG,Stove,장작 추가됨 현재: 2개
+23:03:31.215,DEBUG,PlayerCarrying,아이템 소모: WoodRight(Clone)
+23:03:31.215,DEBUG,PlayerCarrying,상호작용 성공함!!
+23:03:31.564,DEBUG,PlayerCarrying,쿨타임 지났음
+23:03:31.564,DEBUG,PlayerCarrying,WorldInteractable 감지: 화로
+23:03:31.565,DEBUG,WorldInteractable,화로와 Firewood의 상호작용 성공
+23:03:31.566,DEBUG,Stove,장작 추가됨 현재: 3개
+23:03:31.566,DEBUG,PlayerCarrying,아이템 소모: WoodLeft(Clone)
+23:03:31.566,DEBUG,PlayerCarrying,상호작용 성공함!!
+23:03:31.873,DEBUG,PlayerCarrying,쿨타임 지났음
+23:03:31.874,DEBUG,PlayerCarrying,WorldInteractable 감지: 화로
+23:03:31.874,DEBUG,WorldInteractable,화로와 Firewood의 상호작용 성공
+23:03:31.874,DEBUG,Stove,장작 추가됨 현재: 4개
+23:03:31.876,DEBUG,Stove,스토브에 불을 붙였습니다
+23:03:31.876,DEBUG,PlayerCarrying,아이템 소모: WoodRight(Clone)
+23:03:31.876,DEBUG,PlayerCarrying,상호작용 성공함!!
+23:03:32.780,INFO,Unity,maxJumpVelocity20
+23:03:35.162,INFO,Unity,maxJumpVelocity20
+23:03:38.628,DEBUG,PlayerCarrying,쿨타임 지났음
+23:03:38.629,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+23:03:38.629,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+23:03:38.630,INFO,Unity,_focus is null
+23:03:38.637,INFO,Unity,indexChamge
+23:03:38.638,INFO,Unity,짐 1충돌
+23:03:40.139,DEBUG,PlayerCarrying,쿨타임 지났음
+23:03:40.139,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+23:03:40.141,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+23:03:40.141,INFO,Unity,_focus is null
+23:03:42.484,INFO,Unity,maxJumpVelocity19.23077
+23:03:43.991,INFO,Unity,사다리 점프
+23:03:46.023,INFO,Unity,maxJumpVelocity19.23077
+23:03:46.788,INFO,Unity,maxJumpVelocity19.23077
+23:03:48.446,INFO,Unity,maxJumpVelocity19.23077
+23:03:49.306,INFO,Unity,maxJumpVelocity19.23077
+23:03:51.075,INFO,Unity,사다리 코요테 점프
+23:03:52.116,DEBUG,PlayerCarrying,쿨타임 지났음
+23:03:52.116,DEBUG,PlayerCarrying,WorldInteractable 감지: 화로
+23:03:52.116,DEBUG,WorldInteractable,화로과 상호작용 가능한 Firewood가 없습니다.
+23:03:52.118,DEBUG,PlayerCarrying,상호작용 실패함 (아이템 불일치 등). 줍기 시도.
+23:03:52.118,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+23:03:52.796,INFO,Unity,막혔어
+23:03:53.666,INFO,Unity,막혔어
+23:03:54.186,INFO,Unity,maxJumpVelocity19.23077
+23:03:55.422,DEBUG,PlayerCarrying,쿨타임 지났음
+23:03:55.877,DEBUG,PlayerCarrying,쿨타임 지났음
+23:03:55.877,DEBUG,PlayerCarrying,WorldInteractable 감지: 화로
+23:03:55.877,DEBUG,WorldInteractable,화로과 상호작용 가능한 Firewood가 없습니다.
+23:03:55.879,DEBUG,PlayerCarrying,상호작용 실패함 (아이템 불일치 등). 줍기 시도.
+23:03:55.880,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+23:03:55.880,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+23:03:55.880,INFO,Unity,_focus is null
+23:03:57.005,INFO,Unity,막혔어
+23:03:57.422,INFO,Unity,maxJumpVelocity19.23077
+23:03:58.279,INFO,Unity,maxJumpVelocity20
+23:03:59.575,INFO,Unity,사다리 점프
+23:04:00.976,INFO,Unity,사다리 점프
+23:04:04.392,INFO,Unity,maxJumpVelocity20
+23:04:10.521,INFO,Unity,maxJumpVelocity20
+23:04:11.406,INFO,Unity,maxJumpVelocity20
+23:04:13.052,INFO,Unity,maxJumpVelocity20
+23:04:14.327,INFO,Unity,maxJumpVelocity20
+23:04:15.126,INFO,Unity,maxJumpVelocity20
+23:04:18.451,INFO,Unity,maxJumpVelocity20
+23:04:19.588,INFO,Unity,maxJumpVelocity20
+23:04:20.386,INFO,Unity,maxJumpVelocity20
+23:04:22.432,INFO,Unity,maxJumpVelocity20
+23:04:24.312,INFO,Unity,maxJumpVelocity20
+23:04:25.270,INFO,Unity,maxJumpVelocity20
+23:04:26.684,INFO,Unity,maxJumpVelocity20
+23:04:26.936,DEBUG,PlayerCarrying,쿨타임 지났음
+23:04:28.371,DEBUG,PlayerCarrying,쿨타임 지났음
+23:04:28.371,DEBUG,PlayerCarrying,집기 조작토마토 (8) (UnityEngine.BoxCollider2D)
+23:04:28.372,DEBUG,PlayerCarrying,집기 조작토마토 (8) (UnityEngine.BoxCollider2D)
+23:04:28.372,DEBUG,PlayerCarrying,집기 조작토마토 (7) (UnityEngine.BoxCollider2D)
+23:04:28.373,DEBUG,PlayerCarrying,집기 조작토마토 (7) (UnityEngine.BoxCollider2D)
+23:04:28.373,DEBUG,PlayerCarrying,집기 조작토마토 (5) (UnityEngine.BoxCollider2D)
+23:04:28.373,DEBUG,PlayerCarrying,집기 조작토마토 (5) (UnityEngine.BoxCollider2D)
+23:04:28.374,INFO,Unity,_focus is null
+23:04:28.707,DEBUG,PlayerCarrying,쿨타임 지났음
+23:04:28.708,DEBUG,PlayerCarrying,집기 조작토마토 (8) (UnityEngine.BoxCollider2D)
+23:04:28.708,DEBUG,PlayerCarrying,집기 조작토마토 (8) (UnityEngine.BoxCollider2D)
+23:04:28.709,DEBUG,PlayerCarrying,집기 조작토마토 (7) (UnityEngine.BoxCollider2D)
+23:04:28.709,DEBUG,PlayerCarrying,집기 조작토마토 (7) (UnityEngine.BoxCollider2D)
+23:04:28.709,INFO,Unity,_focus is null
+23:04:29.024,DEBUG,PlayerCarrying,쿨타임 지났음
+23:04:29.025,DEBUG,PlayerCarrying,집기 조작토마토 (8) (UnityEngine.BoxCollider2D)
+23:04:29.025,DEBUG,PlayerCarrying,집기 조작토마토 (8) (UnityEngine.BoxCollider2D)
+23:04:29.026,INFO,Unity,_focus is null
+23:04:30.205,DEBUG,PlayerCarrying,쿨타임 지났음
+23:04:30.205,DEBUG,PlayerCarrying,집기 조작토마토 (3) (UnityEngine.BoxCollider2D)
+23:04:30.205,DEBUG,PlayerCarrying,집기 조작토마토 (3) (UnityEngine.BoxCollider2D)
+23:04:30.207,DEBUG,PlayerCarrying,집기 조작토마토 (4) (UnityEngine.BoxCollider2D)
+23:04:30.207,DEBUG,PlayerCarrying,집기 조작토마토 (4) (UnityEngine.BoxCollider2D)
+23:04:30.207,INFO,Unity,_focus is null
+23:04:30.537,DEBUG,PlayerCarrying,쿨타임 지났음
+23:04:30.537,DEBUG,PlayerCarrying,집기 조작토마토 (3) (UnityEngine.BoxCollider2D)
+23:04:30.538,DEBUG,PlayerCarrying,집기 조작토마토 (3) (UnityEngine.BoxCollider2D)
+23:04:30.538,INFO,Unity,_focus is null
+23:04:31.154,DEBUG,PlayerCarrying,쿨타임 지났음
+23:04:31.155,DEBUG,PlayerCarrying,집기 조작토마토 (2) (UnityEngine.BoxCollider2D)
+23:04:31.155,DEBUG,PlayerCarrying,집기 조작토마토 (2) (UnityEngine.BoxCollider2D)
+23:04:31.155,DEBUG,PlayerCarrying,집기 조작토마토 (1) (UnityEngine.BoxCollider2D)
+23:04:31.156,DEBUG,PlayerCarrying,집기 조작토마토 (1) (UnityEngine.BoxCollider2D)
+23:04:31.156,INFO,Unity,_focus is null
+23:04:31.614,DEBUG,PlayerCarrying,쿨타임 지났음
+23:04:31.614,DEBUG,PlayerCarrying,집기 조작토마토 (1) (UnityEngine.BoxCollider2D)
+23:04:31.616,DEBUG,PlayerCarrying,집기 조작토마토 (1) (UnityEngine.BoxCollider2D)
+23:04:31.616,DEBUG,PlayerCarrying,집기 조작토마토 (UnityEngine.BoxCollider2D)
+23:04:31.616,DEBUG,PlayerCarrying,집기 조작토마토 (UnityEngine.BoxCollider2D)
+23:04:31.617,INFO,Unity,_focus is null
+23:04:32.089,DEBUG,PlayerCarrying,쿨타임 지났음
+23:04:32.089,DEBUG,PlayerCarrying,집기 조작토마토 (UnityEngine.BoxCollider2D)
+23:04:32.090,DEBUG,PlayerCarrying,집기 조작토마토 (UnityEngine.BoxCollider2D)
+23:04:32.090,INFO,Unity,_focus is null
+23:04:33.743,DEBUG,PlayerCarrying,쿨타임 지났음
+23:04:33.744,DEBUG,PlayerCarrying,집기 조작토마토 (6) (UnityEngine.BoxCollider2D)
+23:04:33.744,DEBUG,PlayerCarrying,집기 조작토마토 (6) (UnityEngine.BoxCollider2D)
+23:04:33.744,INFO,Unity,_focus is null
+23:04:36.126,INFO,Unity,maxJumpVelocity19.30502
+23:04:37.007,INFO,Unity,maxJumpVelocity19.30502
+23:04:38.160,INFO,Unity,indexChamge
+23:04:38.161,INFO,Unity,짐 9충돌
+23:04:38.161,INFO,Unity,짐 9충돌
+23:04:38.161,INFO,Unity,indexChamge
+23:04:38.161,INFO,Unity,짐 8충돌
+23:04:38.161,INFO,Unity,짐 8충돌
+23:04:38.480,INFO,Unity,indexChamge
+23:04:38.482,INFO,Unity,짐 7충돌
+23:04:38.482,INFO,Unity,indexChamge
+23:04:38.482,INFO,Unity,짐 6충돌
+23:04:38.482,INFO,Unity,짐 7충돌
+23:04:38.482,INFO,Unity,indexChamge
+23:04:38.483,INFO,Unity,짐 5충돌
+23:04:38.483,INFO,Unity,짐 5충돌
+23:04:38.483,INFO,Unity,짐 6충돌
+23:04:40.179,INFO,Unity,indexChamge
+23:04:40.179,INFO,Unity,짐 4충돌
+23:04:40.180,INFO,Unity,짐 4충돌
+23:04:42.186,INFO,Unity,maxJumpVelocity19.76285
+23:04:43.843,INFO,Unity,사다리 점프
+23:04:45.247,INFO,Unity,maxJumpVelocity19.76285
+23:04:48.037,INFO,Unity,maxJumpVelocity19.76285
+23:04:49.512,INFO,Unity,사다리 점프
+23:04:49.779,INFO,Unity,indexChamge
+23:04:49.780,INFO,Unity,짐 3충돌
+23:04:49.780,INFO,Unity,짐 3충돌
+23:04:52.723,INFO,Unity,maxJumpVelocity20
+23:04:53.681,INFO,Unity,maxJumpVelocity20
+23:04:55.560,INFO,Unity,maxJumpVelocity20
+23:04:57.040,INFO,Unity,maxJumpVelocity20
+23:04:57.964,INFO,Unity,maxJumpVelocity20
+23:04:58.919,INFO,Unity,maxJumpVelocity20
+23:04:59.730,INFO,Unity,maxJumpVelocity20
+23:05:00.483,INFO,Unity,maxJumpVelocity20
+23:05:01.221,INFO,Unity,maxJumpVelocity20
+23:05:01.629,DEBUG,PlayerCarrying,쿨타임 지났음
+23:05:02.260,INFO,Unity,사다리 점프
+23:05:03.121,INFO,Unity,벽 점프
+23:05:04.043,INFO,Unity,maxJumpVelocity20
+23:05:05.481,INFO,Unity,maxJumpVelocity20
+23:05:07.208,DEBUG,PlayerCarrying,쿨타임 지났음
+23:05:07.210,DEBUG,Player,플레이어 sprite ReaiRealPartySlime_0으로 변경 성공
+23:05:07.212,DEBUG,PlayerSpriteChanger,플레이어 스프라이트를 ReaiRealPartySlime_0으로 교체함
+23:05:11.762,INFO,Unity,maxJumpVelocity20
+23:05:13.313,INFO,Unity,maxJumpVelocity20
+23:05:14.609,INFO,Unity,사다리 점프
+23:05:15.277,INFO,Unity,maxJumpVelocity20
+23:05:16.063,INFO,Unity,사다리 점프
+23:05:25.689,INFO,Unity,maxJumpVelocity20
+23:05:26.732,INFO,Unity,벽 점프
+23:05:27.564,INFO,Unity,maxJumpVelocity20
+23:05:28.549,INFO,Unity,maxJumpVelocity20
+23:05:29.071,INFO,Unity,벽 점프
+23:05:29.566,INFO,Unity,벽 점프
+23:05:30.001,INFO,Unity,벽 점프
+23:05:30.479,INFO,Unity,벽 점프
+23:05:31.001,INFO,Unity,벽 점프
+23:05:31.660,INFO,Unity,벽 점프
+23:05:32.663,INFO,Unity,벽 점프
+23:05:33.115,INFO,Unity,벽 점프
+23:05:34.624,INFO,Unity,벽 점프
+23:05:37.041,INFO,Unity,maxJumpVelocity20
+23:05:38.496,DEBUG,PlayerCarrying,쿨타임 지났음
+23:05:38.497,DEBUG,BathController,물탱크를 작동시키고 욕조에 물을 채우기 시작햇삼
+23:05:40.863,INFO,Unity,maxJumpVelocity20
+23:05:41.567,INFO,Unity,maxJumpVelocity20
+23:05:42.340,INFO,Unity,벽 점프
+23:05:42.790,INFO,Unity,벽 점프
+23:05:43.240,INFO,Unity,벽 점프
+23:05:43.501,DEBUG,BathController,욕조에 물이 다찼다
+23:05:43.715,INFO,Unity,벽 점프
+23:05:44.418,INFO,Unity,벽 점프
+23:05:45.422,INFO,Unity,maxJumpVelocity20
+23:05:45.854,INFO,Unity,벽 점프
+23:05:46.299,INFO,Unity,벽 점프
+23:05:46.650,INFO,Unity,벽 점프
+23:05:52.054,INFO,Unity,maxJumpVelocity20
+23:05:52.583,DEBUG,PlayerCarrying,쿨타임 지났음
+23:05:52.583,DEBUG,PlayerCarrying,WorldInteractable 감지: 냄비 (1)
+23:05:52.584,DEBUG,WorldInteractable,냄비 (1)과 상호작용 가능한 Tomato가 없습니다.
+23:05:52.584,DEBUG,PlayerCarrying,상호작용 실패함 (아이템 불일치 등). 줍기 시도.
+23:05:52.584,DEBUG,PlayerCarrying,집기 조작냄비 (1) (UnityEngine.BoxCollider2D)
+23:05:52.585,INFO,Unity,_focus is null
+23:05:53.949,INFO,Unity,maxJumpVelocity19.92032
+23:05:54.765,INFO,Unity,maxJumpVelocity19.92032
+23:05:55.402,INFO,Unity,maxJumpVelocity19.92032
+23:05:56.200,INFO,Unity,maxJumpVelocity19.92032
+23:05:57.072,INFO,Unity,maxJumpVelocity19.92032
+23:05:57.944,INFO,Unity,사다리 점프
+23:05:58.654,INFO,Unity,maxJumpVelocity19.92032
+23:05:59.472,INFO,Unity,maxJumpVelocity19.92032
+23:06:00.968,INFO,Unity,사다리 점프
+23:06:02.131,INFO,Unity,maxJumpVelocity19.92032
+23:06:04.905,DEBUG,PlayerCarrying,쿨타임 지났음
+23:06:04.905,DEBUG,PlayerCarrying,WorldInteractable 감지: 화로
+23:06:04.905,DEBUG,WorldInteractable,화로과 상호작용 가능한 Firewood가 없습니다.
+23:06:04.907,DEBUG,PlayerCarrying,상호작용 실패함 (아이템 불일치 등). 줍기 시도.
+23:06:07.091,INFO,Unity,막혔어
+23:06:07.950,INFO,Unity,막혔어
+23:06:08.299,INFO,Unity,maxJumpVelocity19.92032
+23:06:09.393,DEBUG,PlayerCarrying,쿨타임 지났음
+23:06:09.393,DEBUG,PlayerCarrying,WorldInteractable 감지: 냄비 (1)
+23:06:09.394,DEBUG,WorldInteractable,냄비 (1)과 상호작용 가능한 Tomato가 없습니다.
+23:06:09.394,DEBUG,PlayerCarrying,상호작용 실패함 (아이템 불일치 등). 줍기 시도.
+23:06:09.394,DEBUG,PlayerCarrying,집기 조작냄비 (1) (UnityEngine.BoxCollider2D)
+23:06:09.395,INFO,Unity,_focus is null
+23:06:10.208,INFO,Unity,maxJumpVelocity19.92032
+23:06:10.810,INFO,Unity,사다리 점프
+23:06:11.508,INFO,Unity,maxJumpVelocity19.92032
+23:06:11.627,DEBUG,Stove,냄비가 스토브 위에 놓였습니다.
+23:06:11.628,DEBUG,Pot,요리 실패: 토마토 부족 (0/2)
+23:06:12.369,INFO,Unity,maxJumpVelocity20
+23:06:13.500,INFO,Unity,maxJumpVelocity20
+23:06:14.166,INFO,Unity,벽 점프
+23:06:15.091,INFO,Unity,maxJumpVelocity20
+23:06:17.587,INFO,Unity,maxJumpVelocity20
+23:06:19.342,INFO,Unity,maxJumpVelocity20
+23:06:20.322,INFO,Unity,maxJumpVelocity20
+23:06:20.660,DEBUG,Stove,냄비가 스토브에서 벗어났습니다.
+23:06:21.349,DEBUG,PlayerCarrying,쿨타임 지났음
+23:06:21.351,DEBUG,PlayerCarrying,WorldInteractable 감지: 화로
+23:06:21.351,DEBUG,WorldInteractable,화로과 상호작용 가능한 Firewood가 없습니다.
+23:06:21.351,DEBUG,PlayerCarrying,상호작용 실패함 (아이템 불일치 등). 줍기 시도.
+23:06:21.352,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+23:06:21.352,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+23:06:21.352,DEBUG,PlayerCarrying,집기 조작토마토 (7) (UnityEngine.BoxCollider2D)
+23:06:21.352,DEBUG,PlayerCarrying,집기 조작토마토 (7) (UnityEngine.BoxCollider2D)
+23:06:21.353,INFO,Unity,_focus is null
+23:06:21.696,DEBUG,PlayerCarrying,쿨타임 지났음
+23:06:21.696,DEBUG,PlayerCarrying,WorldInteractable 감지: 화로
+23:06:21.698,DEBUG,WorldInteractable,화로과 상호작용 가능한 Firewood가 없습니다.
+23:06:21.698,DEBUG,PlayerCarrying,상호작용 실패함 (아이템 불일치 등). 줍기 시도.
+23:06:21.698,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+23:06:21.698,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+23:06:21.699,INFO,Unity,_focus is null
+23:06:21.972,DEBUG,PlayerCarrying,쿨타임 지났음
+23:06:21.974,DEBUG,PlayerCarrying,WorldInteractable 감지: 화로
+23:06:21.974,DEBUG,WorldInteractable,화로과 상호작용 가능한 Firewood가 없습니다.
+23:06:21.975,DEBUG,PlayerCarrying,상호작용 실패함 (아이템 불일치 등). 줍기 시도.
+23:06:23.545,INFO,Unity,막혔어
+23:06:23.655,INFO,Unity,maxJumpVelocity19.15709
+23:06:24.659,INFO,Unity,maxJumpVelocity19.15709
+23:06:26.548,DEBUG,PlayerCarrying,쿨타임 지났음
+23:06:26.549,DEBUG,PlayerCarrying,WorldInteractable 감지: 화로
+23:06:26.549,DEBUG,WorldInteractable,화로과 상호작용 가능한 Firewood가 없습니다.
+23:06:26.549,DEBUG,PlayerCarrying,상호작용 실패함 (아이템 불일치 등). 줍기 시도.
+23:06:26.551,DEBUG,PlayerCarrying,집기 조작토마토 (5) (UnityEngine.BoxCollider2D)
+23:06:26.551,DEBUG,PlayerCarrying,집기 조작토마토 (5) (UnityEngine.BoxCollider2D)
+23:06:26.551,DEBUG,PlayerCarrying,집기 조작냄비 (1) (UnityEngine.BoxCollider2D)
+23:06:26.551,INFO,Unity,_focus is null
+23:06:27.275,INFO,Unity,maxJumpVelocity19.84127
+23:06:28.194,DEBUG,PlayerCarrying,쿨타임 지났음
+23:06:28.194,DEBUG,PlayerCarrying,WorldInteractable 감지: 냄비 (1)
+23:06:28.195,DEBUG,WorldInteractable,냄비 (1)와 Tomato의 상호작용 성공
+23:06:28.195,DEBUG,Pot,냄비에 토마토 추가됨. 현재: 1개
+23:06:28.196,DEBUG,Pot,냄비에 토마토 추가됨. 현재: 2개
+23:06:28.197,DEBUG,PlayerCarrying,아이템 소모: 토마토 (7)
+23:06:28.197,DEBUG,PlayerCarrying,상호작용 성공함!!
+23:06:28.394,DEBUG,PlayerCarrying,쿨타임 지났음
+23:06:28.395,DEBUG,PlayerCarrying,WorldInteractable 감지: 냄비 (1)
+23:06:28.396,DEBUG,WorldInteractable,냄비 (1)와 Tomato의 상호작용 성공
+23:06:28.396,DEBUG,Pot,냄비에 토마토가 가득 찼습니다.
+23:06:28.397,DEBUG,Pot,냄비에 토마토가 가득 찼습니다.
+23:06:28.397,DEBUG,PlayerCarrying,아이템 소모: 토마토 (5)
+23:06:28.397,DEBUG,PlayerCarrying,상호작용 성공함!!
+23:06:28.978,DEBUG,Stove,냄비가 스토브 위에 놓였습니다.
+23:06:28.979,DEBUG,Pot,요리 성공!
+23:06:28.979,DEBUG,Stove,스토브 초기화 완료!
+23:06:28.979,DEBUG,Pot,냄비 초기화 완료.
+23:06:31.446,INFO,Unity,maxJumpVelocity20
+23:06:31.673,DEBUG,PlayerCarrying,쿨타임 지났음
+23:06:31.674,DEBUG,PlayerCarrying,집기 조작완성된 음식(Clone) (UnityEngine.BoxCollider2D)
+23:06:31.674,INFO,Unity,_focus is null
+23:06:32.415,INFO,Unity,maxJumpVelocity20
+23:06:33.276,INFO,Unity,maxJumpVelocity20
+23:06:34.107,INFO,Unity,maxJumpVelocity20
+23:06:35.506,INFO,Unity,사다리 점프
+23:06:36.043,INFO,Unity,maxJumpVelocity20
+23:06:36.907,INFO,Unity,사다리 점프
+23:06:37.503,INFO,Unity,막혔어
+23:06:37.690,INFO,Unity,maxJumpVelocity20
+23:06:40.136,INFO,Unity,maxJumpVelocity20
+23:06:41.808,INFO,Unity,사다리 점프
+23:06:43.145,INFO,Unity,maxJumpVelocity20
+23:06:45.513,INFO,Unity,maxJumpVelocity20
+23:06:47.721,INFO,Unity,maxJumpVelocity20
+23:06:48.590,INFO,Unity,maxJumpVelocity20
+23:06:50.006,INFO,Unity,maxJumpVelocity20
+23:06:52.471,INFO,Unity,maxJumpVelocity20
+23:06:53.240,INFO,Unity,maxJumpVelocity20
+23:06:54.814,INFO,Unity,사다리 점프
+23:06:55.972,INFO,Unity,maxJumpVelocity20
+23:06:57.211,INFO,Unity,사다리 코요테 점프
+23:06:58.504,INFO,Unity,maxJumpVelocity20
+23:07:00.145,INFO,Unity,사다리 점프
+23:07:01.250,INFO,Unity,maxJumpVelocity20
+23:07:04.116,DEBUG,PlayerCarrying,쿨타임 지났음
+23:07:04.116,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+23:07:04.118,INFO,Unity,_focus is null
+23:07:06.699,INFO,Unity,maxJumpVelocity19.68504
+23:07:07.463,INFO,Unity,maxJumpVelocity19.68504
+23:07:08.307,INFO,Unity,maxJumpVelocity19.68504
+23:07:09.130,INFO,Unity,사다리 점프
+23:07:10.774,INFO,Unity,사다리 점프
+23:07:12.277,INFO,Unity,maxJumpVelocity19.68504
+23:07:12.515,INFO,Unity,indexChamge
+23:07:12.515,INFO,Unity,짐 1충돌
+23:07:13.372,DEBUG,PlayerCarrying,쿨타임 지났음
+23:07:13.374,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+23:07:13.374,INFO,Unity,_focus is null
+23:07:13.898,INFO,Unity,indexChamge
+23:07:13.900,INFO,Unity,짐 1충돌
+23:07:14.057,INFO,Unity,벽 점프
+23:07:15.058,DEBUG,PlayerCarrying,쿨타임 지났음
+23:07:15.059,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+23:07:15.059,INFO,Unity,_focus is null
+23:07:16.021,INFO,Unity,maxJumpVelocity19.68504
+23:07:16.298,INFO,Unity,indexChamge
+23:07:16.298,INFO,Unity,짐 1충돌
+23:07:17.025,DEBUG,PlayerCarrying,쿨타임 지났음
+23:07:17.026,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+23:07:17.026,INFO,Unity,_focus is null
+23:07:19.170,INFO,Unity,maxJumpVelocity19.68504
+23:07:23.797,INFO,Unity,maxJumpVelocity19.68504
+23:07:24.584,INFO,Unity,indexChamge
+23:07:24.585,INFO,Unity,짐 1충돌
+23:07:26.296,INFO,Unity,벽 점프
+23:07:27.671,INFO,Unity,벽 점프
+23:07:28.136,INFO,Unity,벽 점프
+23:07:28.575,INFO,Unity,벽 점프
+23:07:29.831,INFO,Unity,벽 점프
+23:07:30.279,INFO,Unity,벽 점프
+23:07:30.930,INFO,Unity,maxJumpVelocity20
+23:07:31.338,INFO,Unity,벽 점프
+23:07:31.743,INFO,Unity,벽 점프
+23:07:32.190,INFO,Unity,벽 점프
+23:07:32.710,INFO,Unity,벽 점프
+23:07:33.809,DEBUG,PlayerCarrying,쿨타임 지났음
+23:07:33.810,DEBUG,PlayerCarrying,집기 조작Bedding (UnityEngine.BoxCollider2D)
+23:07:33.811,INFO,Unity,_focus is null
+23:07:36.059,INFO,Unity,indexChamge
+23:07:36.060,INFO,Unity,짐 1충돌
+23:07:37.064,INFO,Unity,벽 점프
+23:07:37.576,INFO,Unity,벽 점프
+23:07:38.175,DEBUG,PlayerCarrying,쿨타임 지났음
+23:07:38.176,DEBUG,PlayerCarrying,집기 조작Bedding (UnityEngine.BoxCollider2D)
+23:07:38.176,INFO,Unity,_focus is null
+23:07:38.184,INFO,Unity,indexChamge
+23:07:38.184,INFO,Unity,짐 1충돌
+23:07:38.851,DEBUG,PlayerCarrying,쿨타임 지났음
+23:07:38.852,DEBUG,PlayerCarrying,집기 조작Bedding (UnityEngine.BoxCollider2D)
+23:07:38.853,INFO,Unity,_focus is null
+23:07:38.880,INFO,Unity,indexChamge
+23:07:38.880,INFO,Unity,짐 1충돌
+23:07:40.138,INFO,Unity,벽 점프
+23:07:40.727,INFO,Unity,벽 점프
+23:07:41.282,DEBUG,PlayerCarrying,쿨타임 지났음
+23:07:41.282,DEBUG,PlayerCarrying,집기 조작Bedding (UnityEngine.BoxCollider2D)
+23:07:41.284,INFO,Unity,_focus is null
+23:07:41.341,INFO,Unity,indexChamge
+23:07:41.342,INFO,Unity,짐 1충돌
+23:07:42.234,INFO,Unity,벽 점프
+23:07:42.720,INFO,Unity,벽 점프
+23:07:43.366,INFO,Unity,벽 점프
+23:07:44.276,DEBUG,PlayerCarrying,쿨타임 지났음
+23:07:44.955,DEBUG,PlayerCarrying,쿨타임 지났음
+23:07:45.726,DEBUG,PlayerCarrying,쿨타임 지났음
+23:07:46.429,DEBUG,PlayerCarrying,쿨타임 지났음
+23:07:46.430,DEBUG,PlayerCarrying,집기 조작Bedding (UnityEngine.BoxCollider2D)
+23:07:46.431,INFO,Unity,_focus is null
+23:07:47.701,INFO,Unity,indexChamge
+23:07:47.701,INFO,Unity,짐 1충돌
+23:07:48.421,INFO,Unity,벽 점프
+23:07:50.858,INFO,Unity,maxJumpVelocity20
+23:07:51.071,DEBUG,PlayerCarrying,쿨타임 지났음
+23:07:51.072,DEBUG,PlayerCarrying,집기 조작Bedding (UnityEngine.BoxCollider2D)
+23:07:51.072,INFO,Unity,_focus is null
+23:07:51.100,INFO,Unity,indexChamge
+23:07:51.100,INFO,Unity,짐 1충돌
+23:07:51.881,DEBUG,PlayerCarrying,쿨타임 지났음
+23:07:52.762,DEBUG,PlayerCarrying,쿨타임 지났음
+23:07:53.323,DEBUG,PlayerCarrying,쿨타임 지났음
+23:07:53.533,INFO,Unity,maxJumpVelocity20
+23:07:53.875,DEBUG,PlayerCarrying,쿨타임 지났음
+23:07:53.876,DEBUG,PlayerCarrying,집기 조작Bedding (UnityEngine.BoxCollider2D)
+23:07:53.876,INFO,Unity,_focus is null
+23:07:54.330,INFO,Unity,maxJumpVelocity19.92032
+23:07:55.010,INFO,Unity,사다리 점프
+23:07:55.944,INFO,Unity,사다리 점프
+23:07:56.994,INFO,Unity,maxJumpVelocity19.92032
+23:07:57.929,INFO,Unity,사다리 점프
+23:07:58.531,INFO,Unity,maxJumpVelocity19.92032
+23:07:59.282,INFO,Unity,사다리 점프
+23:07:59.917,INFO,Unity,사다리 점프
+23:08:00.423,INFO,Unity,사다리 점프
+23:08:02.018,DEBUG,PlayerCarrying,쿨타임 지났음
+23:08:02.352,INFO,Unity,maxJumpVelocity20
+23:08:03.054,INFO,Unity,maxJumpVelocity20
+23:08:04.854,INFO,Unity,maxJumpVelocity20
+23:08:06.264,INFO,Unity,maxJumpVelocity20
+23:08:07.106,INFO,Unity,maxJumpVelocity20
+23:08:07.733,INFO,Unity,벽 점프
+23:08:08.161,INFO,Unity,벽 점프
+23:08:09.572,DEBUG,PlayerCarrying,쿨타임 지났음
+23:08:09.574,DEBUG,PlayerCarrying,집기 조작PiggyBank (UnityEngine.BoxCollider2D)
+23:08:09.574,INFO,Unity,_focus is null
+23:08:13.457,INFO,Unity,maxJumpVelocity19.23077
+23:08:15.227,INFO,Unity,사다리 점프
+23:08:15.931,INFO,Unity,maxJumpVelocity19.23077
+23:08:16.907,INFO,Unity,maxJumpVelocity19.23077
+23:08:18.478,INFO,Unity,사다리 점프
+23:08:19.022,INFO,Unity,maxJumpVelocity19.23077
+23:08:19.883,INFO,Unity,maxJumpVelocity19.23077
+23:08:20.794,INFO,Unity,사다리 점프
+23:08:21.460,INFO,Unity,사다리 점프
+23:08:22.197,INFO,Unity,사다리 점프
+23:08:24.031,INFO,Unity,maxJumpVelocity19.23077
+23:08:24.832,INFO,Unity,maxJumpVelocity19.23077
+23:08:25.683,INFO,Unity,maxJumpVelocity19.23077
+23:08:25.897,INFO,Unity,indexChamge
+23:08:25.898,INFO,Unity,짐 1충돌
+23:08:26.638,DEBUG,PlayerCarrying,쿨타임 지났음
+23:08:26.639,DEBUG,PlayerCarrying,집기 조작PiggyBank (UnityEngine.BoxCollider2D)
+23:08:26.639,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:08:26.640,INFO,Unity,_focus is null
+23:08:27.596,INFO,Unity,maxJumpVelocity19.23077
+23:08:27.697,INFO,Unity,indexChamge
+23:08:27.697,INFO,Unity,짐 1충돌
+23:08:28.302,INFO,Unity,maxJumpVelocity20
+23:08:30.240,DEBUG,PlayerCarrying,쿨타임 지났음
+23:08:30.240,DEBUG,PlayerCarrying,집기 조작Coin(Clone) (UnityEngine.BoxCollider2D)
+23:08:30.242,DEBUG,PlayerCarrying,집기 조작Coin(Clone) (UnityEngine.BoxCollider2D)
+23:08:30.242,DEBUG,PlayerCarrying,집기 조작Coin(Clone) (UnityEngine.BoxCollider2D)
+23:08:30.243,INFO,Unity,_focus is null
+23:08:30.589,DEBUG,PlayerCarrying,쿨타임 지났음
+23:08:30.590,DEBUG,PlayerCarrying,집기 조작Coin(Clone) (UnityEngine.BoxCollider2D)
+23:08:30.591,INFO,Unity,_focus is null
+23:08:31.401,DEBUG,PlayerCarrying,쿨타임 지났음
+23:08:31.401,DEBUG,PlayerCarrying,집기 조작Coin(Clone) (UnityEngine.BoxCollider2D)
+23:08:31.402,DEBUG,PlayerCarrying,집기 조작Coin(Clone) (UnityEngine.BoxCollider2D)
+23:08:31.402,INFO,Unity,_focus is null
+23:08:32.064,DEBUG,PlayerCarrying,쿨타임 지났음
+23:08:32.065,DEBUG,PlayerCarrying,집기 조작Coin(Clone) (UnityEngine.BoxCollider2D)
+23:08:32.065,INFO,Unity,_focus is null
+23:08:33.014,INFO,Unity,maxJumpVelocity19.68504
+23:08:33.845,INFO,Unity,maxJumpVelocity19.68504
+23:08:35.391,INFO,Unity,maxJumpVelocity19.68504
+23:08:36.698,INFO,Unity,indexChamge
+23:08:36.698,INFO,Unity,짐 3충돌
+23:08:36.698,INFO,Unity,짐 4충돌
+23:08:37.486,DEBUG,PlayerCarrying,쿨타임 지났음
+23:08:37.849,DEBUG,PlayerCarrying,쿨타임 지났음
+23:08:38.498,DEBUG,PlayerCarrying,쿨타임 지났음
+23:08:38.499,DEBUG,PlayerCarrying,집기 조작Coin(Clone) (UnityEngine.BoxCollider2D)
+23:08:38.499,DEBUG,PlayerCarrying,집기 조작Coin(Clone) (UnityEngine.BoxCollider2D)
+23:08:38.500,INFO,Unity,_focus is null
+23:08:39.196,DEBUG,PlayerCarrying,쿨타임 지났음
+23:08:39.196,DEBUG,PlayerCarrying,집기 조작Coin(Clone) (UnityEngine.BoxCollider2D)
+23:08:39.196,INFO,Unity,_focus is null
+23:08:40.327,INFO,Unity,maxJumpVelocity19.68504
+23:08:40.697,INFO,Unity,indexChamge
+23:08:40.698,INFO,Unity,짐 3충돌
+23:08:40.698,INFO,Unity,짐 4충돌
+23:08:41.262,DEBUG,PlayerCarrying,쿨타임 지났음
+23:08:41.950,DEBUG,PlayerCarrying,쿨타임 지났음
+23:08:42.292,DEBUG,PlayerCarrying,쿨타임 지났음
+23:08:42.293,DEBUG,PlayerCarrying,집기 조작Coin(Clone) (UnityEngine.BoxCollider2D)
+23:08:42.294,INFO,Unity,_focus is null
+23:08:42.672,DEBUG,PlayerCarrying,쿨타임 지났음
+23:08:42.672,DEBUG,PlayerCarrying,집기 조작Coin(Clone) (UnityEngine.BoxCollider2D)
+23:08:42.672,INFO,Unity,_focus is null
+23:08:43.079,INFO,Unity,maxJumpVelocity19.68504
+23:08:43.299,INFO,Unity,indexChamge
+23:08:43.300,INFO,Unity,짐 4충돌
+23:08:43.922,DEBUG,PlayerCarrying,쿨타임 지났음
+23:08:44.694,DEBUG,PlayerCarrying,쿨타임 지났음
+23:08:44.695,DEBUG,PlayerCarrying,집기 조작Coin(Clone) (UnityEngine.BoxCollider2D)
+23:08:44.695,INFO,Unity,_focus is null
+23:08:45.421,INFO,Unity,maxJumpVelocity19.68504
+23:08:50.261,INFO,Unity,maxJumpVelocity19.68504
+23:08:55.311,DEBUG,PlayerCarrying,쿨타임 지났음
+23:08:55.312,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+23:08:55.312,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+23:08:55.313,INFO,Unity,_focus is null
+23:08:55.459,INFO,Unity,indexChamge
+23:08:55.459,INFO,Unity,짐 1충돌
+23:08:55.709,INFO,Unity,maxJumpVelocity20
+23:08:56.808,DEBUG,PlayerCarrying,쿨타임 지났음
+23:08:57.905,DEBUG,PlayerCarrying,쿨타임 지났음
+23:08:57.906,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+23:08:57.907,INFO,Unity,_focus is null
+23:08:58.509,INFO,Unity,maxJumpVelocity19.23077
+23:09:00.743,INFO,Unity,사다리 점프
+23:09:01.318,INFO,Unity,maxJumpVelocity19.23077
+23:09:02.994,INFO,Unity,maxJumpVelocity19.23077
+23:09:05.475,INFO,Unity,사다리 점프
+23:09:06.379,INFO,Unity,막혔어
+23:09:07.064,DEBUG,PlayerCarrying,쿨타임 지났음
+23:09:07.065,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+23:09:08.203,INFO,Unity,막혔어
+23:09:08.639,INFO,Unity,maxJumpVelocity19.23077
+23:09:09.649,INFO,Unity,maxJumpVelocity20
+23:09:10.353,INFO,Unity,maxJumpVelocity20
+23:09:11.000,INFO,Unity,maxJumpVelocity20
+23:09:11.855,INFO,Unity,벽 점프
+23:09:12.612,INFO,Unity,벽 점프
+23:09:13.165,INFO,Unity,maxJumpVelocity20
+23:09:15.992,INFO,Unity,maxJumpVelocity20
+23:09:16.444,INFO,Unity,maxJumpVelocity20
+23:09:17.451,INFO,Unity,사다리 점프
+23:09:18.178,DEBUG,Stove,냄비가 스토브에서 벗어났습니다.
+23:09:18.206,INFO,Unity,maxJumpVelocity20
+23:09:19.261,INFO,Unity,벽 점프
+23:09:19.791,INFO,Unity,maxJumpVelocity20
+23:09:22.039,INFO,Unity,사다리 점프
+23:09:22.789,INFO,Unity,maxJumpVelocity20
+23:09:24.535,DEBUG,PlayerCarrying,쿨타임 지났음
+23:09:24.535,DEBUG,PlayerCarrying,집기 조작Box (UnityEngine.BoxCollider2D)
+23:09:24.536,INFO,Unity,_focus is null
+23:09:24.845,INFO,Unity,maxJumpVelocity19.23077
+23:09:25.525,INFO,Unity,indexChamge
+23:09:25.525,INFO,Unity,짐 1충돌
+23:09:25.804,INFO,Unity,maxJumpVelocity20
+23:09:26.745,DEBUG,PlayerCarrying,쿨타임 지났음
+23:09:27.301,DEBUG,PlayerCarrying,쿨타임 지났음
+23:09:27.302,DEBUG,PlayerCarrying,집기 조작Box (UnityEngine.BoxCollider2D)
+23:09:27.303,INFO,Unity,_focus is null
+23:09:27.845,INFO,Unity,maxJumpVelocity19.23077
+23:09:28.367,INFO,Unity,indexChamge
+23:09:28.367,INFO,Unity,짐 1충돌
+23:09:28.368,INFO,Unity,벽 점프
+23:09:28.997,INFO,Unity,maxJumpVelocity20
+23:09:29.105,DEBUG,PlayerCarrying,쿨타임 지났음
+23:09:29.105,DEBUG,PlayerCarrying,집기 조작Box (UnityEngine.BoxCollider2D)
+23:09:29.106,INFO,Unity,_focus is null
+23:09:30.134,INFO,Unity,maxJumpVelocity19.23077
+23:09:31.861,INFO,Unity,maxJumpVelocity19.23077
+23:09:31.924,INFO,Unity,indexChamge
+23:09:31.925,INFO,Unity,짐 1충돌
+23:09:32.861,INFO,Unity,maxJumpVelocity20
+23:09:33.192,DEBUG,PlayerCarrying,쿨타임 지났음
+23:09:33.805,DEBUG,PlayerCarrying,쿨타임 지났음
+23:09:33.807,DEBUG,PlayerCarrying,집기 조작Box (UnityEngine.BoxCollider2D)
+23:09:33.807,INFO,Unity,_focus is null
+23:09:34.204,INFO,Unity,maxJumpVelocity19.23077
+23:09:34.360,INFO,Unity,indexChamge
+23:09:34.360,INFO,Unity,짐 1충돌
+23:09:35.114,INFO,Unity,maxJumpVelocity20
+23:09:35.296,DEBUG,PlayerCarrying,쿨타임 지났음
+23:09:35.297,DEBUG,PlayerCarrying,집기 조작Box (UnityEngine.BoxCollider2D)
+23:09:35.297,INFO,Unity,_focus is null
+23:09:35.400,INFO,Unity,indexChamge
+23:09:35.401,INFO,Unity,짐 1충돌
+23:09:36.040,DEBUG,PlayerCarrying,쿨타임 지났음
+23:09:36.040,DEBUG,PlayerCarrying,집기 조작Box (UnityEngine.BoxCollider2D)
+23:09:36.041,INFO,Unity,_focus is null
+23:09:36.760,INFO,Unity,maxJumpVelocity19.23077
+23:09:37.017,INFO,Unity,indexChamge
+23:09:37.017,INFO,Unity,짐 1충돌
+23:09:37.518,DEBUG,PlayerCarrying,쿨타임 지났음
+23:09:37.921,DEBUG,PlayerCarrying,쿨타임 지났음
+23:09:39.309,DEBUG,PlayerCarrying,쿨타임 지났음
+23:09:40.505,DEBUG,PlayerCarrying,쿨타임 지났음
+23:09:40.507,DEBUG,PlayerCarrying,집기 조작Box (UnityEngine.BoxCollider2D)
+23:09:40.507,INFO,Unity,_focus is null
+23:09:45.634,INFO,Unity,maxJumpVelocity19.23077
+23:09:49.212,INFO,Unity,maxJumpVelocity19.23077
+23:09:54.901,INFO,Unity,maxJumpVelocity19.23077
+23:09:55.531,DEBUG,PlayerCarrying,쿨타임 지났음
+23:09:55.740,INFO,Unity,indexChamge
+23:09:55.740,INFO,Unity,짐 1충돌
+23:09:56.480,INFO,Unity,maxJumpVelocity20
+23:09:58.211,INFO,Unity,maxJumpVelocity20
+23:09:59.171,INFO,Unity,maxJumpVelocity20
+23:10:00.082,INFO,Unity,maxJumpVelocity20
+23:10:00.960,INFO,Unity,maxJumpVelocity20
+23:10:01.726,INFO,Unity,maxJumpVelocity20
+23:10:02.399,INFO,Unity,사다리 점프
+23:10:03.305,INFO,Unity,maxJumpVelocity20
+23:10:03.959,DEBUG,PlayerCarrying,쿨타임 지났음
+23:10:04.215,DEBUG,PlayerCarrying,쿨타임 지났음
+23:10:04.215,DEBUG,PlayerCarrying,집기 조작Box (UnityEngine.BoxCollider2D)
+23:10:04.216,INFO,Unity,_focus is null
+23:10:05.837,INFO,Unity,indexChamge
+23:10:05.837,INFO,Unity,짐 1충돌
+23:10:05.839,INFO,Unity,maxJumpVelocity20
+23:10:06.883,DEBUG,PlayerCarrying,쿨타임 지났음
+23:10:06.883,DEBUG,PlayerCarrying,집기 조작Box (UnityEngine.BoxCollider2D)
+23:10:06.884,INFO,Unity,_focus is null
+23:10:07.307,INFO,Unity,maxJumpVelocity19.23077
+23:10:10.218,INFO,Unity,maxJumpVelocity19.23077
+23:10:11.313,INFO,Unity,막혔어
+23:10:11.702,DEBUG,PlayerCarrying,쿨타임 지났음
+23:10:12.095,INFO,Unity,막혔어
+23:10:12.229,INFO,Unity,maxJumpVelocity19.23077
+23:10:12.617,INFO,Unity,막혔어
+23:10:12.862,INFO,Unity,indexChamge
+23:10:12.864,INFO,Unity,짐 1충돌
+23:10:13.415,INFO,Unity,maxJumpVelocity20
+23:10:14.130,INFO,Unity,maxJumpVelocity20
+23:10:15.027,INFO,Unity,maxJumpVelocity20
+23:10:15.793,INFO,Unity,maxJumpVelocity20
+23:10:16.352,INFO,Unity,maxJumpVelocity20
+23:10:17.176,INFO,Unity,maxJumpVelocity20
+23:10:17.885,INFO,Unity,maxJumpVelocity20
+23:10:18.994,INFO,Unity,maxJumpVelocity20
+23:10:20.095,INFO,Unity,maxJumpVelocity20
+23:10:20.296,DEBUG,PlayerCarrying,쿨타임 지났음
+23:10:20.644,INFO,Unity,사다리 점프
+23:10:21.429,INFO,Unity,maxJumpVelocity20
+23:10:21.999,INFO,Unity,maxJumpVelocity20
+23:10:22.709,INFO,Unity,사다리 점프
+23:10:23.338,INFO,Unity,maxJumpVelocity20
+23:10:24.155,INFO,Unity,사다리 점프
+23:10:25.369,INFO,Unity,maxJumpVelocity20
+23:10:28.194,INFO,Unity,사다리 점프
+23:10:29.809,INFO,Unity,maxJumpVelocity20
+23:10:31.009,INFO,Unity,maxJumpVelocity20
+23:10:32.139,INFO,Unity,maxJumpVelocity20
+23:10:33.167,INFO,Unity,maxJumpVelocity20
+23:10:34.374,INFO,Unity,maxJumpVelocity20
+23:10:35.005,INFO,Unity,maxJumpVelocity20
+23:10:35.620,INFO,Unity,maxJumpVelocity20
+23:10:36.298,INFO,Unity,maxJumpVelocity20
+23:10:37.665,INFO,Unity,maxJumpVelocity20
+23:10:38.932,INFO,Unity,사다리 점프
+23:10:39.634,INFO,Unity,maxJumpVelocity20
+23:10:40.569,INFO,Unity,벽 점프
+23:10:41.548,INFO,Unity,maxJumpVelocity20
+23:10:42.070,INFO,Unity,벽 점프
+23:10:43.004,DEBUG,PlayerCarrying,쿨타임 지났음
+23:10:43.880,DEBUG,PlayerCarrying,쿨타임 지났음
+23:10:43.881,DEBUG,PlayerCarrying,집기 조작Box (UnityEngine.BoxCollider2D)
+23:10:43.881,INFO,Unity,_focus is null
+23:10:45.157,INFO,Unity,indexChamge
+23:10:45.158,INFO,Unity,짐 1충돌
+23:10:45.757,DEBUG,PlayerCarrying,쿨타임 지났음
+23:10:46.682,DEBUG,PlayerCarrying,쿨타임 지났음
+23:10:46.682,DEBUG,PlayerCarrying,집기 조작Box (UnityEngine.BoxCollider2D)
+23:10:46.682,INFO,Unity,_focus is null
+23:10:56.394,INFO,Unity,maxJumpVelocity19.23077
+23:10:57.725,INFO,Unity,maxJumpVelocity20
+23:10:58.674,INFO,Unity,maxJumpVelocity20
+23:10:59.781,INFO,Unity,maxJumpVelocity20
+23:11:01.538,INFO,Unity,maxJumpVelocity20
+23:11:01.999,INFO,Unity,벽 점프
+23:11:02.471,INFO,Unity,벽 점프
+23:11:02.913,INFO,Unity,벽 점프
+23:11:03.501,INFO,Unity,maxJumpVelocity20
+23:11:04.134,INFO,Unity,벽 점프
+23:11:04.695,INFO,Unity,벽 점프
+23:11:05.201,INFO,Unity,maxJumpVelocity20
+23:11:05.634,INFO,Unity,벽 점프
+23:11:07.704,INFO,Unity,maxJumpVelocity20
+23:11:08.115,INFO,Unity,벽 점프
+23:11:08.442,INFO,Unity,벽 점프
+23:11:08.771,INFO,Unity,벽 점프
+23:11:11.619,INFO,Unity,maxJumpVelocity20
+23:11:12.534,DEBUG,PlayerCarrying,쿨타임 지났음
+23:11:12.534,DEBUG,PlayerCarrying,집기 조작Box (UnityEngine.BoxCollider2D)
+23:11:12.535,INFO,Unity,_focus is null
+23:11:12.837,INFO,Unity,maxJumpVelocity19.23077
+23:11:13.937,INFO,Unity,maxJumpVelocity19.23077
+23:11:14.255,DEBUG,PlayerCarrying,쿨타임 지났음
+23:11:14.878,INFO,Unity,막혔어
+23:11:19.713,INFO,Unity,maxJumpVelocity19.23077
+23:11:20.714,INFO,Unity,maxJumpVelocity19.23077
+23:11:21.998,INFO,Unity,maxJumpVelocity19.23077
+23:11:22.014,INFO,Unity,막혔어
+23:11:22.838,INFO,Unity,막혔어
+23:11:24.576,DEBUG,PlayerCarrying,쿨타임 지났음
+23:11:24.576,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+23:11:24.577,DEBUG,PlayerCarrying,집기 조작Rag (UnityEngine.BoxCollider2D)
+23:11:24.577,INFO,Unity,_focus is null
+23:11:25.131,INFO,Unity,maxJumpVelocity19.15709
+23:11:25.798,INFO,Unity,더러워짐
+23:11:25.856,INFO,Unity,더러워짐
+23:11:25.857,INFO,Unity,더러워짐
+23:11:26.297,INFO,Unity,maxJumpVelocity19.15709
+23:11:27.299,INFO,Unity,더러워짐
+23:11:27.299,INFO,Unity,maxJumpVelocity19.15709
+23:11:27.321,INFO,Unity,더러워짐
+23:11:27.358,INFO,Unity,더러워짐
+23:11:27.461,INFO,Unity,indexChamge
+23:11:27.461,INFO,Unity,짐 1충돌
+23:11:28.602,INFO,Unity,벽 점프
+23:11:29.495,INFO,Unity,maxJumpVelocity20
+23:11:29.826,DEBUG,PlayerCarrying,쿨타임 지났음
+23:11:29.856,INFO,Unity,깨끗해짐24
+23:11:29.878,INFO,Unity,깨끗해짐28
+23:11:29.897,INFO,Unity,깨끗해짐31.99999
+23:11:29.917,INFO,Unity,깨끗해짐35.99999
+23:11:29.936,INFO,Unity,깨끗해짐39.99999
+23:11:29.962,INFO,Unity,깨끗해짐43.99999
+23:11:29.982,INFO,Unity,깨끗해짐47.99999
+23:11:29.995,INFO,Unity,깨끗해짐51.99999
+23:11:30.021,INFO,Unity,깨끗해짐55.99999
+23:11:30.041,INFO,Unity,깨끗해짐59.99999
+23:11:30.060,INFO,Unity,깨끗해짐63.99999
+23:11:30.081,INFO,Unity,깨끗해짐67.99999
+23:11:30.100,INFO,Unity,깨끗해짐71.99999
+23:11:30.120,INFO,Unity,깨끗해짐75.99999
+23:11:30.140,INFO,Unity,깨끗해짐79.99999
+23:11:30.159,INFO,Unity,깨끗해짐83.99999
+23:11:30.178,INFO,Unity,깨끗해짐87.99999
+23:11:30.197,INFO,Unity,깨끗해짐91.99999
+23:11:30.218,INFO,Unity,깨끗해짐95.99999
+23:11:30.218,DEBUG,PlayerCarrying,쿨타임 지났음
+23:11:30.219,DEBUG,PlayerCarrying,집기 조작Rag (UnityEngine.BoxCollider2D)
+23:11:30.219,INFO,Unity,_focus is null
+23:11:30.247,INFO,Unity,깨끗해짐99.99999
+23:11:30.261,INFO,Unity,깨끗해짐104
+23:11:30.660,INFO,Unity,깨끗해짐107
+23:11:30.676,INFO,Unity,깨끗해짐111
+23:11:30.700,INFO,Unity,깨끗해짐115
+23:11:30.725,INFO,Unity,깨끗해짐119
+23:11:30.738,INFO,Unity,깨끗해짐123
+23:11:30.760,INFO,Unity,깨끗해짐127
+23:11:30.780,INFO,Unity,깨끗해짐131
+23:11:31.052,INFO,Unity,maxJumpVelocity19.92032
+23:11:31.739,INFO,Unity,더러워짐
+23:11:31.926,INFO,Unity,maxJumpVelocity19.92032
+23:11:31.961,INFO,Unity,더러워짐
+23:11:31.984,INFO,Unity,indexChamge
+23:11:31.984,INFO,Unity,짐 1충돌
+23:11:32.721,INFO,Unity,maxJumpVelocity20
+23:11:33.584,INFO,Unity,maxJumpVelocity20
+23:11:34.447,DEBUG,PlayerCarrying,쿨타임 지났음
+23:11:34.447,DEBUG,PlayerCarrying,집기 조작Rag (UnityEngine.BoxCollider2D)
+23:11:34.448,INFO,Unity,_focus is null
+23:11:34.580,INFO,Unity,indexChamge
+23:11:34.580,INFO,Unity,짐 1충돌
+23:11:34.719,INFO,Unity,maxJumpVelocity20
+23:11:35.745,DEBUG,PlayerCarrying,쿨타임 지났음
+23:11:35.745,DEBUG,PlayerCarrying,집기 조작Rag (UnityEngine.BoxCollider2D)
+23:11:35.746,INFO,Unity,_focus is null
+23:11:36.547,INFO,Unity,maxJumpVelocity19.92032
+23:11:36.580,INFO,Unity,더러워짐
+23:11:36.598,INFO,Unity,더러워짐
+23:11:37.483,INFO,Unity,maxJumpVelocity19.92032
+23:11:38.403,DEBUG,PlayerCarrying,쿨타임 지났음
+23:11:38.404,DEBUG,PlayerCarrying,집기 조작Rag (UnityEngine.BoxCollider2D)
+23:11:38.405,INFO,Unity,_focus is null
+23:11:39.780,DEBUG,PlayerCarrying,쿨타임 지났음
+23:11:39.781,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+23:11:39.781,DEBUG,PlayerCarrying,집기 조작Box (UnityEngine.BoxCollider2D)
+23:11:39.781,INFO,Unity,_focus is null
+23:11:40.546,INFO,Unity,maxJumpVelocity19.68504
+23:11:41.734,DEBUG,PlayerCarrying,쿨타임 지났음
+23:11:41.735,DEBUG,PlayerCarrying,집기 조작Box (UnityEngine.BoxCollider2D)
+23:11:41.736,INFO,Unity,_focus is null
+23:11:42.086,INFO,Unity,사다리 점프
+23:11:43.340,INFO,Unity,사다리 점프
+23:11:44.816,INFO,Unity,사다리 코요테 점프
+23:11:45.784,INFO,Unity,maxJumpVelocity19.23077
+23:11:46.748,INFO,Unity,maxJumpVelocity19.23077
+23:11:47.459,INFO,Unity,indexChamge
+23:11:47.459,INFO,Unity,짐 1충돌
+23:11:48.394,INFO,Unity,maxJumpVelocity20
+23:11:49.352,DEBUG,PlayerCarrying,쿨타임 지났음
+23:11:49.704,DEBUG,PlayerCarrying,쿨타임 지났음
+23:11:49.704,DEBUG,PlayerCarrying,집기 조작Box (UnityEngine.BoxCollider2D)
+23:11:49.706,INFO,Unity,_focus is null
+23:11:50.041,INFO,Unity,사다리 점프
+23:11:50.144,INFO,Unity,indexChamge
+23:11:50.144,INFO,Unity,짐 1충돌
+23:11:51.095,DEBUG,PlayerCarrying,쿨타임 지났음
+23:11:51.882,DEBUG,PlayerCarrying,쿨타임 지났음
+23:11:51.883,DEBUG,PlayerCarrying,집기 조작Box (UnityEngine.BoxCollider2D)
+23:11:51.884,INFO,Unity,_focus is null
+23:11:53.583,INFO,Unity,사다리 점프
+23:11:53.822,INFO,Unity,indexChamge
+23:11:53.823,INFO,Unity,짐 1충돌
+23:11:54.423,DEBUG,PlayerCarrying,쿨타임 지났음
+23:11:54.424,DEBUG,PlayerCarrying,집기 조작Box (UnityEngine.BoxCollider2D)
+23:11:54.424,INFO,Unity,_focus is null
+23:11:56.480,INFO,Unity,사다리 점프
+23:11:57.908,INFO,Unity,사다리 코요테 점프
+23:11:58.497,INFO,Unity,indexChamge
+23:11:58.498,INFO,Unity,짐 1충돌
+23:11:59.773,DEBUG,PlayerCarrying,쿨타임 지났음
+23:11:59.774,DEBUG,PlayerCarrying,집기 조작Box (UnityEngine.BoxCollider2D)
+23:11:59.774,INFO,Unity,_focus is null
+23:12:01.586,INFO,Unity,사다리 코요테 점프
+23:12:02.738,INFO,Unity,사다리 점프
+23:12:03.494,INFO,Unity,사다리 코요테 점프
+23:12:04.369,INFO,Unity,사다리 점프
+23:12:04.738,INFO,Unity,indexChamge
+23:12:04.738,INFO,Unity,짐 1충돌
+23:12:05.146,DEBUG,PlayerCarrying,쿨타임 지났음
+23:12:05.608,DEBUG,PlayerCarrying,쿨타임 지났음
+23:12:06.141,DEBUG,PlayerCarrying,쿨타임 지났음
+23:12:06.142,DEBUG,PlayerCarrying,집기 조작Box (UnityEngine.BoxCollider2D)
+23:12:06.142,INFO,Unity,_focus is null
+23:12:06.825,INFO,Unity,사다리 점프
+23:12:07.020,INFO,Unity,indexChamge
+23:12:07.020,INFO,Unity,짐 1충돌
+23:12:07.591,DEBUG,PlayerCarrying,쿨타임 지났음
+23:12:07.593,DEBUG,PlayerCarrying,집기 조작Box (UnityEngine.BoxCollider2D)
+23:12:07.593,INFO,Unity,_focus is null
+23:12:07.950,INFO,Unity,maxJumpVelocity19.23077
+23:12:09.869,INFO,Unity,사다리 점프
+23:12:10.198,INFO,Unity,indexChamge
+23:12:10.199,INFO,Unity,짐 1충돌
+23:12:10.744,DEBUG,PlayerCarrying,쿨타임 지났음
+23:12:10.744,DEBUG,PlayerCarrying,집기 조작Box (UnityEngine.BoxCollider2D)
+23:12:10.745,INFO,Unity,_focus is null
+23:12:14.464,INFO,Unity,maxJumpVelocity19.23077
+23:12:16.908,INFO,Unity,maxJumpVelocity19.23077
+23:12:18.997,INFO,Unity,maxJumpVelocity20
+23:12:19.760,INFO,Unity,maxJumpVelocity20
+23:12:20.239,INFO,Unity,벽 점프
+23:12:20.692,INFO,Unity,벽 점프
+23:12:21.188,INFO,Unity,벽 점프
+23:12:21.670,INFO,Unity,maxJumpVelocity20
+23:12:22.491,INFO,Unity,maxJumpVelocity20
+23:12:23.114,INFO,Unity,maxJumpVelocity20
+23:12:23.784,INFO,Unity,maxJumpVelocity20
+23:12:24.580,INFO,Unity,maxJumpVelocity20
+23:12:25.399,INFO,Unity,maxJumpVelocity20
+23:12:26.194,INFO,Unity,maxJumpVelocity20
+23:12:27.244,INFO,Unity,사다리 점프
+23:12:28.610,DEBUG,PlayerCarrying,쿨타임 지났음
+23:12:28.610,DEBUG,PlayerCarrying,집기 조작Box (UnityEngine.BoxCollider2D)
+23:12:28.611,INFO,Unity,_focus is null
+23:12:30.777,INFO,Unity,indexChamge
+23:12:30.777,INFO,Unity,짐 1충돌
+23:12:31.680,DEBUG,PlayerCarrying,쿨타임 지났음
+23:12:31.681,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:12:31.681,INFO,Unity,_focus is null
+23:12:32.649,DEBUG,PlayerCarrying,쿨타임 지났음
+23:12:33.087,INFO,Unity,indexChamge
+23:12:33.087,INFO,Unity,짐 1충돌
+23:12:33.158,INFO,Unity,maxJumpVelocity20
+23:12:33.994,INFO,Unity,벽 점프
+23:12:34.919,INFO,Unity,maxJumpVelocity20
+23:12:35.581,INFO,Unity,maxJumpVelocity20
+23:12:36.327,INFO,Unity,maxJumpVelocity20
+23:12:36.585,DEBUG,PlayerCarrying,쿨타임 지났음
+23:12:36.586,DEBUG,PlayerCarrying,집기 조작Box (UnityEngine.BoxCollider2D)
+23:12:36.586,INFO,Unity,_focus is null
+23:12:36.607,INFO,Unity,indexChamge
+23:12:36.607,INFO,Unity,짐 1충돌
+23:12:37.356,INFO,Unity,maxJumpVelocity20
+23:12:38.228,INFO,Unity,maxJumpVelocity20
+23:12:38.449,DEBUG,PlayerCarrying,쿨타임 지났음
+23:12:39.084,DEBUG,PlayerCarrying,쿨타임 지났음
+23:12:39.085,DEBUG,PlayerCarrying,집기 조작Box (UnityEngine.BoxCollider2D)
+23:12:39.085,INFO,Unity,_focus is null
+23:12:43.030,INFO,Unity,maxJumpVelocity19.23077
+23:12:44.228,INFO,Unity,maxJumpVelocity20
+23:12:47.600,INFO,Unity,maxJumpVelocity20
+23:12:57.506,INFO,Unity,maxJumpVelocity20
+23:12:58.558,INFO,Unity,maxJumpVelocity20
+23:12:59.348,INFO,Unity,사다리 점프
+23:13:00.008,INFO,Unity,maxJumpVelocity20
+23:13:00.880,INFO,Unity,사다리 점프
+23:13:01.596,INFO,Unity,벽 점프
+23:13:02.100,INFO,Unity,벽 점프
+23:13:02.998,INFO,Unity,maxJumpVelocity20
+23:13:03.570,INFO,Unity,사다리 점프
+23:13:03.943,INFO,Unity,벽 점프
+23:13:04.480,INFO,Unity,사다리 점프
+23:13:04.971,INFO,Unity,벽 점프
+23:13:05.522,INFO,Unity,사다리 점프
+23:13:06.798,INFO,Unity,maxJumpVelocity20
+23:13:08.699,DEBUG,PlayerCarrying,쿨타임 지났음
+23:13:08.700,DEBUG,PlayerCarrying,집기 조작토마토 (8) (UnityEngine.BoxCollider2D)
+23:13:08.700,DEBUG,PlayerCarrying,집기 조작토마토 (8) (UnityEngine.BoxCollider2D)
+23:13:08.700,INFO,Unity,_focus is null
+23:13:09.137,INFO,Unity,maxJumpVelocity19.92032
+23:13:10.209,INFO,Unity,maxJumpVelocity19.92032
+23:13:11.804,INFO,Unity,maxJumpVelocity19.92032
+23:13:12.169,INFO,Unity,사다리 점프
+23:13:12.673,INFO,Unity,사다리 점프
+23:13:13.400,DEBUG,Stove,냄비가 스토브 위에 놓였습니다.
+23:13:13.401,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+23:13:13.500,INFO,Unity,maxJumpVelocity19.92032
+23:13:14.237,DEBUG,Stove,냄비가 스토브에서 벗어났습니다.
+23:13:14.357,INFO,Unity,maxJumpVelocity19.92032
+23:13:15.287,INFO,Unity,maxJumpVelocity19.92032
+23:13:16.162,INFO,Unity,maxJumpVelocity19.92032
+23:13:16.874,INFO,Unity,maxJumpVelocity19.92032
+23:13:20.107,INFO,Unity,maxJumpVelocity19.92032
+23:13:20.480,INFO,Unity,indexChamge
+23:13:20.481,INFO,Unity,짐 1충돌
+23:13:20.481,INFO,Unity,짐 1충돌
+23:13:21.210,INFO,Unity,maxJumpVelocity20
+23:13:21.975,DEBUG,PlayerCarrying,쿨타임 지났음
+23:13:21.975,DEBUG,PlayerCarrying,집기 조작토마토 (8) (UnityEngine.BoxCollider2D)
+23:13:21.976,DEBUG,PlayerCarrying,집기 조작토마토 (8) (UnityEngine.BoxCollider2D)
+23:13:21.976,INFO,Unity,_focus is null
+23:13:22.502,INFO,Unity,maxJumpVelocity19.92032
+23:13:23.395,INFO,Unity,maxJumpVelocity19.92032
+23:13:24.986,INFO,Unity,maxJumpVelocity19.92032
+23:13:26.117,INFO,Unity,maxJumpVelocity19.92032
+23:13:27.697,INFO,Unity,maxJumpVelocity19.92032
+23:13:29.713,INFO,Unity,maxJumpVelocity19.92032
+23:13:31.126,INFO,Unity,maxJumpVelocity19.92032
+23:13:31.593,INFO,Unity,maxJumpVelocity19.92032
+23:13:31.778,INFO,Unity,indexChamge
+23:13:31.778,INFO,Unity,짐 1충돌
+23:13:31.778,INFO,Unity,짐 1충돌
+23:13:32.567,INFO,Unity,maxJumpVelocity20
+23:13:32.917,DEBUG,PlayerCarrying,쿨타임 지났음
+23:13:34.195,INFO,Unity,사다리 점프
+23:13:34.556,INFO,Unity,사다리 점프
+23:13:35.259,INFO,Unity,사다리 점프
+23:13:35.921,DEBUG,PlayerCarrying,쿨타임 지났음
+23:13:35.922,DEBUG,PlayerCarrying,집기 조작토마토 (8) (UnityEngine.BoxCollider2D)
+23:13:35.923,DEBUG,PlayerCarrying,집기 조작토마토 (8) (UnityEngine.BoxCollider2D)
+23:13:35.923,INFO,Unity,_focus is null
+23:13:36.356,INFO,Unity,maxJumpVelocity19.92032
+23:13:37.031,INFO,Unity,사다리 점프
+23:13:37.645,INFO,Unity,maxJumpVelocity19.92032
+23:13:38.526,INFO,Unity,사다리 점프
+23:13:39.063,INFO,Unity,사다리 점프
+23:13:39.552,INFO,Unity,사다리 점프
+23:13:40.146,INFO,Unity,maxJumpVelocity19.92032
+23:13:40.933,INFO,Unity,maxJumpVelocity19.92032
+23:13:41.737,INFO,Unity,maxJumpVelocity19.92032
+23:13:42.944,INFO,Unity,maxJumpVelocity19.92032
+23:13:43.082,INFO,Unity,indexChamge
+23:13:43.082,INFO,Unity,짐 1충돌
+23:13:43.084,INFO,Unity,짐 1충돌
+23:13:45.558,DEBUG,PlayerCarrying,쿨타임 지났음
+23:13:45.560,DEBUG,PlayerCarrying,집기 조작토마토 (8) (UnityEngine.BoxCollider2D)
+23:13:45.560,DEBUG,PlayerCarrying,집기 조작토마토 (8) (UnityEngine.BoxCollider2D)
+23:13:45.560,INFO,Unity,_focus is null
+23:13:46.667,INFO,Unity,maxJumpVelocity19.92032
+23:13:47.601,INFO,Unity,사다리 점프
+23:13:47.786,INFO,Unity,indexChamge
+23:13:47.786,INFO,Unity,짐 1충돌
+23:13:47.786,INFO,Unity,짐 1충돌
+23:13:49.022,INFO,Unity,maxJumpVelocity20
+23:13:49.977,INFO,Unity,maxJumpVelocity20
+23:13:50.827,INFO,Unity,maxJumpVelocity20
+23:13:52.054,DEBUG,PlayerCarrying,쿨타임 지났음
+23:13:52.056,DEBUG,PlayerCarrying,집기 조작토마토 (8) (UnityEngine.BoxCollider2D)
+23:13:52.056,DEBUG,PlayerCarrying,집기 조작토마토 (8) (UnityEngine.BoxCollider2D)
+23:13:52.056,INFO,Unity,_focus is null
+23:13:52.427,INFO,Unity,사다리 점프
+23:13:53.025,INFO,Unity,maxJumpVelocity19.92032
+23:13:53.785,INFO,Unity,maxJumpVelocity19.92032
+23:13:54.631,DEBUG,PlayerCarrying,쿨타임 지났음
+23:13:55.292,INFO,Unity,maxJumpVelocity19.92032
+23:13:57.562,INFO,Unity,maxJumpVelocity19.92032
+23:13:58.649,DEBUG,PlayerCarrying,쿨타임 지났음
+23:13:58.650,DEBUG,PlayerCarrying,집기 조작토마토 (2) (UnityEngine.BoxCollider2D)
+23:13:58.650,DEBUG,PlayerCarrying,집기 조작토마토 (2) (UnityEngine.BoxCollider2D)
+23:13:58.651,DEBUG,PlayerCarrying,집기 조작토마토 (3) (UnityEngine.BoxCollider2D)
+23:13:58.651,DEBUG,PlayerCarrying,집기 조작토마토 (3) (UnityEngine.BoxCollider2D)
+23:13:58.652,INFO,Unity,_focus is null
+23:13:58.989,DEBUG,PlayerCarrying,쿨타임 지났음
+23:13:58.989,DEBUG,PlayerCarrying,집기 조작토마토 (2) (UnityEngine.BoxCollider2D)
+23:13:58.989,DEBUG,PlayerCarrying,집기 조작토마토 (2) (UnityEngine.BoxCollider2D)
+23:13:58.991,INFO,Unity,_focus is null
+23:13:59.248,DEBUG,PlayerCarrying,쿨타임 지났음
+23:13:59.803,INFO,Unity,maxJumpVelocity19.76285
+23:14:00.005,INFO,Unity,indexChamge
+23:14:00.005,INFO,Unity,짐 3충돌
+23:14:00.005,INFO,Unity,짐 3충돌
+23:14:00.084,INFO,Unity,indexChamge
+23:14:00.085,INFO,Unity,짐 2충돌
+23:14:00.085,INFO,Unity,짐 2충돌
+23:14:00.196,INFO,Unity,indexChamge
+23:14:00.196,INFO,Unity,짐 1충돌
+23:14:00.197,INFO,Unity,짐 1충돌
+23:14:01.943,INFO,Unity,maxJumpVelocity20
+23:14:02.761,INFO,Unity,maxJumpVelocity20
+23:14:03.614,INFO,Unity,maxJumpVelocity20
+23:14:05.661,INFO,Unity,사다리 점프
+23:14:10.877,INFO,Unity,maxJumpVelocity20
+23:14:11.704,INFO,Unity,maxJumpVelocity20
+23:14:12.510,INFO,Unity,maxJumpVelocity20
+23:14:14.067,INFO,Unity,maxJumpVelocity20
+23:14:15.298,INFO,Unity,maxJumpVelocity20
+23:14:18.121,INFO,Unity,maxJumpVelocity20
+23:14:19.139,INFO,Unity,maxJumpVelocity20
+23:14:21.365,INFO,Unity,maxJumpVelocity20
+23:14:22.396,INFO,Unity,maxJumpVelocity20
+23:14:23.818,INFO,Unity,maxJumpVelocity20
+23:14:25.120,INFO,Unity,maxJumpVelocity20
+23:14:25.802,INFO,Unity,maxJumpVelocity20
+23:14:26.496,INFO,Unity,사다리 점프
+23:14:27.089,INFO,Unity,maxJumpVelocity20
+23:14:27.726,INFO,Unity,사다리 점프
+23:14:29.121,INFO,Unity,maxJumpVelocity20
+23:14:31.476,INFO,Unity,사다리 점프
+23:14:33.068,INFO,Unity,벽 점프
+23:14:34.504,INFO,Unity,maxJumpVelocity20
+23:14:36.137,INFO,Unity,maxJumpVelocity20
+23:14:36.777,INFO,Unity,maxJumpVelocity20
+23:14:37.635,INFO,Unity,maxJumpVelocity20
+23:14:38.615,INFO,Unity,maxJumpVelocity20
+23:14:39.240,INFO,Unity,maxJumpVelocity20
+23:14:40.147,INFO,Unity,maxJumpVelocity20
+23:14:41.001,INFO,Unity,사다리 점프
+23:14:41.661,INFO,Unity,maxJumpVelocity20
+23:14:42.512,INFO,Unity,maxJumpVelocity20
+23:14:43.297,INFO,Unity,maxJumpVelocity20
+23:14:47.212,INFO,Unity,사다리 점프
+23:14:47.656,INFO,Unity,벽 점프
+23:14:48.144,INFO,Unity,사다리 점프
+23:14:48.958,INFO,Unity,사다리 점프
+23:14:49.318,INFO,Unity,벽 점프
+23:14:49.810,INFO,Unity,사다리 점프
+23:14:50.485,INFO,Unity,maxJumpVelocity20
+23:14:51.300,INFO,Unity,maxJumpVelocity20
+23:14:52.064,INFO,Unity,maxJumpVelocity20
+23:14:53.034,INFO,Unity,maxJumpVelocity20
+23:14:53.536,INFO,Unity,사다리 점프
+23:14:54.071,INFO,Unity,maxJumpVelocity20
+23:14:54.855,INFO,Unity,maxJumpVelocity20
+23:14:55.618,INFO,Unity,maxJumpVelocity20
+23:14:56.406,INFO,Unity,maxJumpVelocity20
+23:14:57.382,INFO,Unity,maxJumpVelocity20
+23:14:58.405,INFO,Unity,벽 점프
+23:14:59.855,INFO,Unity,maxJumpVelocity20
+23:15:01.257,DEBUG,PlayerCarrying,쿨타임 지났음
+23:15:01.258,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+23:15:01.258,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+23:15:01.259,INFO,Unity,_focus is null
+23:15:01.814,INFO,Unity,maxJumpVelocity19.23077
+23:15:02.966,DEBUG,PlayerCarrying,쿨타임 지났음
+23:15:02.966,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+23:15:03.640,INFO,Unity,막혔어
+23:15:04.933,INFO,Unity,maxJumpVelocity19.23077
+23:15:05.604,INFO,Unity,사다리 점프
+23:15:06.322,INFO,Unity,사다리 점프
+23:15:07.141,INFO,Unity,사다리 점프
+23:15:07.810,INFO,Unity,막혔어
+23:15:07.900,INFO,Unity,maxJumpVelocity19.23077
+23:15:08.758,INFO,Unity,maxJumpVelocity20
+23:15:09.680,INFO,Unity,maxJumpVelocity20
+23:15:12.339,DEBUG,PlayerCarrying,쿨타임 지났음
+23:15:12.341,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+23:15:12.341,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+23:15:12.341,INFO,Unity,_focus is null
+23:15:12.873,INFO,Unity,maxJumpVelocity19.23077
+23:15:14.031,INFO,Unity,maxJumpVelocity19.23077
+23:15:15.125,INFO,Unity,막혔어
+23:15:15.841,INFO,Unity,maxJumpVelocity19.23077
+23:15:16.887,INFO,Unity,maxJumpVelocity20
+23:15:17.989,INFO,Unity,maxJumpVelocity20
+23:15:18.947,INFO,Unity,maxJumpVelocity20
+23:15:19.946,INFO,Unity,maxJumpVelocity20
+23:15:20.893,INFO,Unity,maxJumpVelocity20
+23:15:22.418,INFO,Unity,maxJumpVelocity20
+23:15:22.741,INFO,Unity,사다리 점프
+23:15:23.102,INFO,Unity,사다리 점프
+23:15:24.115,INFO,Unity,사다리 점프
+23:15:24.728,INFO,Unity,사다리 점프
+23:15:25.814,INFO,Unity,maxJumpVelocity20
+23:15:26.807,INFO,Unity,사다리 점프
+23:15:27.869,INFO,Unity,maxJumpVelocity20
+23:15:28.835,INFO,Unity,maxJumpVelocity20
+23:15:30.978,DEBUG,PlayerCarrying,쿨타임 지났음
+23:15:30.979,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+23:15:30.979,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+23:15:30.979,INFO,Unity,_focus is null
+23:15:33.143,INFO,Unity,maxJumpVelocity19.23077
+23:15:33.946,INFO,Unity,사다리 점프
+23:15:34.652,INFO,Unity,사다리 점프
+23:15:35.339,INFO,Unity,사다리 점프
+23:15:36.278,DEBUG,PlayerCarrying,쿨타임 지났음
+23:15:36.278,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+23:15:36.632,INFO,Unity,막혔어
+23:15:37.239,INFO,Unity,maxJumpVelocity19.23077
+23:15:39.240,INFO,Unity,막혔어
+23:15:39.747,INFO,Unity,maxJumpVelocity19.23077
+23:15:43.584,INFO,Unity,maxJumpVelocity20
+23:15:44.816,INFO,Unity,maxJumpVelocity20
+23:15:46.141,INFO,Unity,maxJumpVelocity20
+23:15:47.425,INFO,Unity,maxJumpVelocity20
+23:15:48.034,INFO,Unity,maxJumpVelocity20
+23:15:49.070,INFO,Unity,maxJumpVelocity20
+23:15:50.056,INFO,Unity,maxJumpVelocity20
+23:15:51.223,INFO,Unity,maxJumpVelocity20
+23:15:52.131,INFO,Unity,사다리 점프
+23:15:52.697,INFO,Unity,maxJumpVelocity20
+23:15:53.602,INFO,Unity,maxJumpVelocity20
+23:15:54.775,INFO,Unity,maxJumpVelocity20
+23:15:56.445,INFO,Unity,maxJumpVelocity20
+23:15:57.533,INFO,Unity,maxJumpVelocity20
+23:15:59.860,INFO,Unity,maxJumpVelocity20
+23:16:00.715,INFO,Unity,사다리 점프
+23:16:01.717,INFO,Unity,maxJumpVelocity20
+23:16:02.126,INFO,Unity,사다리 점프
+23:16:02.615,INFO,Unity,벽 점프
+23:16:03.144,INFO,Unity,사다리 점프
+23:16:03.638,INFO,Unity,사다리 점프
+23:16:04.086,INFO,Unity,벽 점프
+23:16:04.602,INFO,Unity,사다리 점프
+23:16:05.563,INFO,Unity,maxJumpVelocity20
+23:16:06.447,INFO,Unity,maxJumpVelocity20
+23:16:08.906,INFO,Unity,maxJumpVelocity20
+23:16:09.738,INFO,Unity,maxJumpVelocity20
+23:16:10.829,INFO,Unity,maxJumpVelocity20
+23:16:11.628,INFO,Unity,maxJumpVelocity20
+23:16:13.620,INFO,Unity,maxJumpVelocity20
+23:16:14.702,INFO,Unity,maxJumpVelocity20
+23:16:16.424,INFO,Unity,maxJumpVelocity20
+23:16:17.094,INFO,Unity,maxJumpVelocity20
+23:16:17.502,INFO,Unity,벽 점프
+23:16:18.046,INFO,Unity,벽 점프
+23:16:18.801,INFO,Unity,벽 점프
+23:16:19.677,DEBUG,Stove,냄비가 스토브 위에 놓였습니다.
+23:16:19.678,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+23:16:19.750,INFO,Unity,maxJumpVelocity20
+23:16:20.739,INFO,Unity,maxJumpVelocity20
+23:16:22.814,INFO,Unity,maxJumpVelocity20
+23:16:23.524,INFO,Unity,maxJumpVelocity20
+23:16:24.466,INFO,Unity,maxJumpVelocity20
+23:16:25.179,INFO,Unity,maxJumpVelocity20
+23:16:26.160,INFO,Unity,maxJumpVelocity20
+23:16:27.494,INFO,Unity,maxJumpVelocity20
+23:16:30.092,INFO,Unity,maxJumpVelocity20
+23:16:30.597,INFO,Unity,벽 점프
+23:16:31.129,INFO,Unity,벽 점프
+23:16:31.611,INFO,Unity,벽 점프
+23:16:32.079,INFO,Unity,벽 점프
+23:16:32.578,INFO,Unity,벽 점프
+23:16:33.011,INFO,Unity,벽 점프
+23:16:33.471,INFO,Unity,벽 점프
+23:16:34.831,INFO,Unity,벽 점프
+23:16:35.296,INFO,Unity,벽 점프
+23:16:35.740,INFO,Unity,벽 점프
+23:16:36.132,INFO,Unity,벽 점프
+23:16:37.420,INFO,Unity,maxJumpVelocity20
+23:16:39.140,INFO,Unity,maxJumpVelocity20
+23:16:40.545,INFO,Unity,maxJumpVelocity20
+23:16:42.503,INFO,Unity,maxJumpVelocity20
+23:16:45.521,INFO,Unity,maxJumpVelocity20
+23:16:46.938,INFO,Unity,maxJumpVelocity20
+23:16:48.108,INFO,Unity,maxJumpVelocity20
+23:16:48.942,INFO,Unity,maxJumpVelocity20
+23:16:49.835,INFO,Unity,maxJumpVelocity20
+23:16:50.526,INFO,Unity,사다리 점프
+23:16:51.150,INFO,Unity,maxJumpVelocity20
+23:16:51.705,INFO,Unity,사다리 점프
+23:16:52.954,INFO,Unity,maxJumpVelocity20
+23:16:55.523,INFO,Unity,사다리 점프
+23:16:56.232,INFO,Unity,maxJumpVelocity20
+23:16:57.228,DEBUG,PlayerCarrying,쿨타임 지났음
+23:16:57.229,DEBUG,PlayerCarrying,WorldInteractable 감지: 냄비 (1)
+23:16:57.230,DEBUG,WorldInteractable,냄비 (1)과 상호작용 가능한 Tomato가 없습니다.
+23:16:57.230,DEBUG,PlayerCarrying,상호작용 실패함 (아이템 불일치 등). 줍기 시도.
+23:16:57.230,DEBUG,PlayerCarrying,집기 조작냄비 (1) (UnityEngine.BoxCollider2D)
+23:16:57.231,INFO,Unity,_focus is null
+23:16:57.237,DEBUG,Stove,냄비가 스토브에서 벗어났습니다.
+23:16:57.792,INFO,Unity,maxJumpVelocity19.92032
+23:16:58.481,DEBUG,Stove,냄비가 스토브 위에 놓였습니다.
+23:16:58.481,DEBUG,Pot,요리 실패: 스토브에 불이 없음
+23:16:58.982,INFO,Unity,maxJumpVelocity20
+23:16:59.898,INFO,Unity,maxJumpVelocity20
+23:16:59.916,DEBUG,Stove,냄비가 스토브에서 벗어났습니다.
+23:17:00.860,INFO,Unity,maxJumpVelocity20
+23:17:02.030,INFO,Unity,maxJumpVelocity20
+23:17:03.195,INFO,Unity,maxJumpVelocity20
+23:17:03.877,INFO,Unity,maxJumpVelocity20
+23:17:04.427,INFO,Unity,벽 점프
+23:17:05.230,INFO,Unity,maxJumpVelocity20
+23:17:05.922,INFO,Unity,벽 점프
+23:17:06.930,INFO,Unity,maxJumpVelocity20
+23:17:07.741,INFO,Unity,벽 점프
+23:17:09.120,DEBUG,PlayerCarrying,쿨타임 지났음
+23:17:09.120,DEBUG,PlayerCarrying,집기 조작토마토 (8) (UnityEngine.BoxCollider2D)
+23:17:09.120,DEBUG,PlayerCarrying,집기 조작토마토 (8) (UnityEngine.BoxCollider2D)
+23:17:09.122,DEBUG,PlayerCarrying,집기 조작토마토 (3) (UnityEngine.BoxCollider2D)
+23:17:09.122,DEBUG,PlayerCarrying,집기 조작토마토 (3) (UnityEngine.BoxCollider2D)
+23:17:09.122,INFO,Unity,_focus is null
+23:17:09.460,DEBUG,PlayerCarrying,쿨타임 지났음
+23:17:09.461,DEBUG,PlayerCarrying,집기 조작토마토 (2) (UnityEngine.BoxCollider2D)
+23:17:09.461,DEBUG,PlayerCarrying,집기 조작토마토 (2) (UnityEngine.BoxCollider2D)
+23:17:09.461,DEBUG,PlayerCarrying,집기 조작토마토 (6) (UnityEngine.BoxCollider2D)
+23:17:09.462,DEBUG,PlayerCarrying,집기 조작토마토 (6) (UnityEngine.BoxCollider2D)
+23:17:09.462,DEBUG,PlayerCarrying,집기 조작토마토 (UnityEngine.BoxCollider2D)
+23:17:09.462,DEBUG,PlayerCarrying,집기 조작토마토 (UnityEngine.BoxCollider2D)
+23:17:09.462,DEBUG,PlayerCarrying,집기 조작토마토 (3) (UnityEngine.BoxCollider2D)
+23:17:09.462,DEBUG,PlayerCarrying,집기 조작토마토 (3) (UnityEngine.BoxCollider2D)
+23:17:09.464,INFO,Unity,_focus is null
+23:17:09.793,DEBUG,PlayerCarrying,쿨타임 지났음
+23:17:09.793,DEBUG,PlayerCarrying,집기 조작토마토 (2) (UnityEngine.BoxCollider2D)
+23:17:09.794,DEBUG,PlayerCarrying,집기 조작토마토 (2) (UnityEngine.BoxCollider2D)
+23:17:09.794,DEBUG,PlayerCarrying,집기 조작토마토 (UnityEngine.BoxCollider2D)
+23:17:09.794,DEBUG,PlayerCarrying,집기 조작토마토 (UnityEngine.BoxCollider2D)
+23:17:09.794,DEBUG,PlayerCarrying,집기 조작토마토 (6) (UnityEngine.BoxCollider2D)
+23:17:09.795,DEBUG,PlayerCarrying,집기 조작토마토 (6) (UnityEngine.BoxCollider2D)
+23:17:09.796,INFO,Unity,_focus is null
+23:17:10.102,DEBUG,PlayerCarrying,쿨타임 지났음
+23:17:10.102,DEBUG,PlayerCarrying,집기 조작토마토 (6) (UnityEngine.BoxCollider2D)
+23:17:10.102,DEBUG,PlayerCarrying,집기 조작토마토 (6) (UnityEngine.BoxCollider2D)
+23:17:10.103,DEBUG,PlayerCarrying,집기 조작토마토 (2) (UnityEngine.BoxCollider2D)
+23:17:10.104,DEBUG,PlayerCarrying,집기 조작토마토 (2) (UnityEngine.BoxCollider2D)
+23:17:10.104,INFO,Unity,_focus is null
+23:17:10.392,DEBUG,PlayerCarrying,쿨타임 지났음
+23:17:10.393,DEBUG,PlayerCarrying,집기 조작토마토 (2) (UnityEngine.BoxCollider2D)
+23:17:10.393,DEBUG,PlayerCarrying,집기 조작토마토 (2) (UnityEngine.BoxCollider2D)
+23:17:10.394,INFO,Unity,_focus is null
+23:17:11.106,INFO,Unity,maxJumpVelocity19.60784
+23:17:16.824,INFO,Unity,maxJumpVelocity19.60784
+23:17:17.897,INFO,Unity,indexChamge
+23:17:17.898,INFO,Unity,짐 4충돌
+23:17:17.898,INFO,Unity,짐 4충돌
+23:17:17.898,INFO,Unity,indexChamge
+23:17:17.898,INFO,Unity,짐 3충돌
+23:17:17.899,INFO,Unity,짐 3충돌
+23:17:18.751,INFO,Unity,maxJumpVelocity19.84127
+23:17:19.880,INFO,Unity,maxJumpVelocity19.84127
+23:17:21.043,INFO,Unity,maxJumpVelocity19.84127
+23:17:25.589,INFO,Unity,maxJumpVelocity19.92032
+23:17:26.628,DEBUG,PlayerCarrying,쿨타임 지났음
+23:17:26.896,INFO,Unity,maxJumpVelocity20
+23:17:28.115,DEBUG,PlayerCarrying,쿨타임 지났음
+23:17:28.116,DEBUG,PlayerCarrying,집기 조작토마토 (3) (UnityEngine.BoxCollider2D)
+23:17:28.116,DEBUG,PlayerCarrying,집기 조작토마토 (3) (UnityEngine.BoxCollider2D)
+23:17:28.116,INFO,Unity,_focus is null
+23:17:29.127,DEBUG,PlayerCarrying,쿨타임 지났음
+23:17:29.127,DEBUG,PlayerCarrying,집기 조작토마토 (8) (UnityEngine.BoxCollider2D)
+23:17:29.128,DEBUG,PlayerCarrying,집기 조작토마토 (8) (UnityEngine.BoxCollider2D)
+23:17:29.129,INFO,Unity,_focus is null
+23:17:29.934,DEBUG,PlayerCarrying,쿨타임 지났음
+23:17:29.934,DEBUG,PlayerCarrying,집기 조작토마토 (UnityEngine.BoxCollider2D)
+23:17:29.935,DEBUG,PlayerCarrying,집기 조작토마토 (UnityEngine.BoxCollider2D)
+23:17:29.935,INFO,Unity,_focus is null
+23:17:30.228,DEBUG,PlayerCarrying,쿨타임 지났음
+23:17:30.228,DEBUG,PlayerCarrying,집기 조작토마토 (6) (UnityEngine.BoxCollider2D)
+23:17:30.229,DEBUG,PlayerCarrying,집기 조작토마토 (6) (UnityEngine.BoxCollider2D)
+23:17:30.230,DEBUG,PlayerCarrying,집기 조작토마토 (2) (UnityEngine.BoxCollider2D)
+23:17:30.230,DEBUG,PlayerCarrying,집기 조작토마토 (2) (UnityEngine.BoxCollider2D)
+23:17:30.230,INFO,Unity,_focus is null
+23:17:31.051,INFO,Unity,maxJumpVelocity19.68504
+23:17:41.504,INFO,Unity,maxJumpVelocity19.68504
+23:17:43.591,INFO,Unity,maxJumpVelocity19.76285
+23:17:47.195,INFO,Unity,maxJumpVelocity19.84127
+23:17:51.046,INFO,Unity,maxJumpVelocity19.92032
+23:17:52.148,INFO,Unity,maxJumpVelocity19.92032
+23:17:54.612,INFO,Unity,maxJumpVelocity19.92032
+23:17:57.775,INFO,Unity,maxJumpVelocity20
+23:17:58.588,DEBUG,PlayerCarrying,쿨타임 지났음
+23:17:58.588,DEBUG,PlayerCarrying,집기 조작토마토 (3) (UnityEngine.BoxCollider2D)
+23:17:58.590,DEBUG,PlayerCarrying,집기 조작토마토 (3) (UnityEngine.BoxCollider2D)
+23:17:58.590,INFO,Unity,_focus is null
+23:17:59.018,INFO,Unity,maxJumpVelocity19.92032
+23:17:59.166,DEBUG,PlayerCarrying,쿨타임 지났음
+23:17:59.993,DEBUG,PlayerCarrying,쿨타임 지났음
+23:17:59.994,DEBUG,PlayerCarrying,집기 조작토마토 (8) (UnityEngine.BoxCollider2D)
+23:17:59.994,DEBUG,PlayerCarrying,집기 조작토마토 (8) (UnityEngine.BoxCollider2D)
+23:17:59.995,INFO,Unity,_focus is null
+23:18:00.214,DEBUG,PlayerCarrying,쿨타임 지났음
+23:18:00.864,DEBUG,PlayerCarrying,쿨타임 지났음
+23:18:00.864,DEBUG,PlayerCarrying,집기 조작토마토 (UnityEngine.BoxCollider2D)
+23:18:00.865,DEBUG,PlayerCarrying,집기 조작토마토 (UnityEngine.BoxCollider2D)
+23:18:00.865,DEBUG,PlayerCarrying,집기 조작토마토 (6) (UnityEngine.BoxCollider2D)
+23:18:00.865,DEBUG,PlayerCarrying,집기 조작토마토 (6) (UnityEngine.BoxCollider2D)
+23:18:00.866,INFO,Unity,_focus is null
+23:18:01.072,DEBUG,PlayerCarrying,쿨타임 지났음
+23:18:01.073,DEBUG,PlayerCarrying,집기 조작토마토 (UnityEngine.BoxCollider2D)
+23:18:01.074,DEBUG,PlayerCarrying,집기 조작토마토 (UnityEngine.BoxCollider2D)
+23:18:01.074,INFO,Unity,_focus is null
+23:18:06.641,INFO,Unity,maxJumpVelocity19.76285
+23:18:07.710,INFO,Unity,maxJumpVelocity19.76285
+23:18:07.959,INFO,Unity,indexChamge
+23:18:07.959,INFO,Unity,짐 3충돌
+23:18:07.959,INFO,Unity,짐 3충돌
+23:18:08.059,INFO,Unity,indexChamge
+23:18:08.060,INFO,Unity,짐 2충돌
+23:18:08.060,INFO,Unity,짐 2충돌
+23:18:08.772,INFO,Unity,maxJumpVelocity19.92032
+23:18:09.661,INFO,Unity,maxJumpVelocity19.92032
+23:18:10.519,INFO,Unity,사다리 점프
+23:18:11.851,INFO,Unity,maxJumpVelocity19.92032
+23:18:12.494,INFO,Unity,사다리 점프
+23:18:13.514,INFO,Unity,maxJumpVelocity19.92032
+23:18:15.420,INFO,Unity,사다리 점프
+23:18:15.968,INFO,Unity,사다리 점프
+23:18:16.528,INFO,Unity,사다리 점프
+23:18:17.901,INFO,Unity,maxJumpVelocity19.92032
+23:18:18.762,INFO,Unity,maxJumpVelocity19.92032
+23:18:20.030,INFO,Unity,maxJumpVelocity19.92032
+23:18:21.348,INFO,Unity,maxJumpVelocity19.92032
+23:18:21.824,INFO,Unity,maxJumpVelocity19.92032
+23:18:23.139,INFO,Unity,maxJumpVelocity19.92032
+23:18:24.611,DEBUG,PlayerCarrying,쿨타임 지났음
+23:18:25.939,INFO,Unity,maxJumpVelocity20
+23:18:26.410,INFO,Unity,벽 점프
+23:18:27.089,INFO,Unity,maxJumpVelocity20
+23:18:27.608,INFO,Unity,벽 점프
+23:18:28.127,INFO,Unity,벽 점프
+23:18:29.008,INFO,Unity,maxJumpVelocity20
+23:18:30.479,INFO,Unity,maxJumpVelocity20
+23:18:31.768,INFO,Unity,maxJumpVelocity20
+23:18:32.425,INFO,Unity,벽 점프
+23:18:35.969,INFO,Unity,maxJumpVelocity20
+23:18:36.455,INFO,Unity,벽 점프
+23:18:37.885,INFO,Unity,maxJumpVelocity20
+23:18:39.021,INFO,Unity,maxJumpVelocity20
+23:18:40.109,INFO,Unity,maxJumpVelocity20
+23:18:40.982,INFO,Unity,maxJumpVelocity20
+23:18:41.814,INFO,Unity,maxJumpVelocity20
+23:18:46.405,INFO,Unity,maxJumpVelocity20
+23:18:47.435,INFO,Unity,maxJumpVelocity20
+23:18:49.360,INFO,Unity,벽 점프
+23:18:50.263,INFO,Unity,maxJumpVelocity20
+23:18:51.024,INFO,Unity,사다리 점프
+23:18:51.585,INFO,Unity,maxJumpVelocity20
+23:18:51.934,DEBUG,PlayerCarrying,쿨타임 지났음
+23:18:52.390,INFO,Unity,사다리 점프
+23:18:52.884,INFO,Unity,사다리 점프
+23:18:53.470,INFO,Unity,사다리 점프
+23:18:54.080,INFO,Unity,maxJumpVelocity20
+23:18:54.970,DEBUG,PlayerCarrying,쿨타임 지났음
+23:18:54.971,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:18:54.971,DEBUG,PlayerCarrying,집기 조작Wood (6) (UnityEngine.BoxCollider2D)
+23:18:54.971,INFO,Unity,_focus is null
+23:18:55.311,DEBUG,PlayerCarrying,쿨타임 지났음
+23:18:55.311,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:18:55.312,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:18:55.312,INFO,Unity,_focus is null
+23:18:55.636,DEBUG,PlayerCarrying,쿨타임 지났음
+23:18:55.637,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:18:55.637,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:18:55.637,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:18:55.638,INFO,Unity,_focus is null
+23:18:55.961,DEBUG,PlayerCarrying,쿨타임 지났음
+23:18:55.961,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:18:55.962,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:18:55.962,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:18:55.963,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:18:55.963,INFO,Unity,_focus is null
+23:18:56.288,DEBUG,PlayerCarrying,쿨타임 지났음
+23:18:56.289,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:18:56.289,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:18:56.289,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:18:56.290,INFO,Unity,_focus is null
+23:18:57.204,DEBUG,PlayerCarrying,쿨타임 지났음
+23:18:57.204,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:18:57.206,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:18:57.206,INFO,Unity,_focus is null
+23:18:57.509,DEBUG,PlayerCarrying,쿨타임 지났음
+23:18:57.510,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:18:57.511,INFO,Unity,_focus is null
+23:18:57.518,INFO,Unity,indexChamge
+23:18:57.519,INFO,Unity,짐 7충돌
+23:18:58.117,INFO,Unity,maxJumpVelocity18.93939
+23:18:58.636,DEBUG,PlayerCarrying,쿨타임 지났음
+23:18:59.250,DEBUG,PlayerCarrying,쿨타임 지났음
+23:18:59.649,DEBUG,PlayerCarrying,쿨타임 지났음
+23:18:59.649,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:18:59.650,INFO,Unity,_focus is null
+23:19:00.305,INFO,Unity,maxJumpVelocity18.79699
+23:19:02.087,DEBUG,PlayerCarrying,쿨타임 지났음
+23:19:02.088,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:19:02.088,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:19:02.089,INFO,Unity,_focus is null
+23:19:02.378,DEBUG,PlayerCarrying,쿨타임 지났음
+23:19:02.379,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:19:02.379,INFO,Unity,_focus is null
+23:19:02.733,DEBUG,PlayerCarrying,쿨타임 지났음
+23:19:03.020,DEBUG,PlayerCarrying,쿨타임 지났음
+23:19:03.936,INFO,Unity,Clothesline닿음
+23:19:04.041,DEBUG,PlayerCarrying,쿨타임 지났음
+23:19:05.598,INFO,Unity,maxJumpVelocity18.79699
+23:19:06.889,INFO,Unity,maxJumpVelocity18.79699
+23:19:07.559,INFO,Unity,Collider닿음
+23:19:07.680,INFO,Unity,Collider닿음
+23:19:07.759,INFO,Unity,Collider닿음
+23:19:07.845,INFO,Unity,Collider닿음
+23:19:08.881,INFO,Unity,Collider닿음
+23:19:09.278,INFO,Unity,indexChamge
+23:19:09.279,INFO,Unity,짐 7충돌
+23:19:09.280,INFO,Unity,indexChamge
+23:19:09.280,INFO,Unity,짐 5충돌
+23:19:09.280,INFO,Unity,짐 6충돌
+23:19:11.156,INFO,Unity,Collider닿음
+23:19:11.287,INFO,Unity,Collider닿음
+23:19:11.296,INFO,Unity,Collider닿음
+23:19:12.314,INFO,Unity,maxJumpVelocity19.23077
+23:19:13.168,INFO,Unity,maxJumpVelocity19.23077
+23:19:13.915,INFO,Unity,maxJumpVelocity19.23077
+23:19:17.899,INFO,Unity,maxJumpVelocity19.23077
+23:19:18.965,INFO,Unity,indexChamge
+23:19:18.965,INFO,Unity,짐 2충돌
+23:19:19.580,DEBUG,PlayerCarrying,쿨타임 지났음
+23:19:19.580,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:19:19.581,INFO,Unity,_focus is null
+23:19:19.905,DEBUG,PlayerCarrying,쿨타임 지났음
+23:19:19.905,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:19:19.906,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:19:19.906,INFO,Unity,_focus is null
+23:19:20.188,DEBUG,PlayerCarrying,쿨타임 지났음
+23:19:20.189,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:19:20.189,INFO,Unity,_focus is null
+23:19:20.724,INFO,Unity,maxJumpVelocity19.23077
+23:19:22.990,INFO,Unity,막혔어
+23:19:23.314,INFO,Unity,막혔어
+23:19:23.907,INFO,Unity,막혔어
+23:19:24.288,INFO,Unity,막혔어
+23:19:24.776,INFO,Unity,막혔어
+23:19:24.979,INFO,Unity,막혔어
+23:19:25.756,INFO,Unity,maxJumpVelocity19.68504
+23:19:26.899,DEBUG,PlayerCarrying,쿨타임 지났음
+23:19:27.138,DEBUG,PlayerCarrying,쿨타임 지났음
+23:19:27.139,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:19:27.139,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:19:27.139,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:19:27.140,INFO,Unity,_focus is null
+23:19:27.346,DEBUG,PlayerCarrying,쿨타임 지났음
+23:19:27.347,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:19:27.347,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:19:27.348,DEBUG,PlayerCarrying,집기 조작Wood (6) (UnityEngine.BoxCollider2D)
+23:19:27.348,INFO,Unity,_focus is null
+23:19:27.716,DEBUG,PlayerCarrying,쿨타임 지났음
+23:19:27.716,DEBUG,PlayerCarrying,집기 조작Wood (6) (UnityEngine.BoxCollider2D)
+23:19:27.717,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:19:27.717,INFO,Unity,_focus is null
+23:19:28.071,DEBUG,PlayerCarrying,쿨타임 지났음
+23:19:28.071,DEBUG,PlayerCarrying,집기 조작Wood (6) (UnityEngine.BoxCollider2D)
+23:19:28.073,INFO,Unity,_focus is null
+23:19:28.886,INFO,Unity,maxJumpVelocity19.23077
+23:19:29.957,INFO,Unity,maxJumpVelocity19.23077
+23:19:32.094,INFO,Unity,maxJumpVelocity19.23077
+23:19:32.418,INFO,Unity,indexChamge
+23:19:32.418,INFO,Unity,짐 4충돌
+23:19:33.952,INFO,Unity,maxJumpVelocity19.53125
+23:19:34.336,INFO,Unity,indexChamge
+23:19:34.336,INFO,Unity,짐 3충돌
+23:19:35.256,INFO,Unity,maxJumpVelocity19.68504
+23:19:36.050,INFO,Unity,maxJumpVelocity19.68504
+23:19:36.778,INFO,Unity,indexChamge
+23:19:36.779,INFO,Unity,짐 1충돌
+23:19:36.779,INFO,Unity,벽 점프
+23:19:37.536,DEBUG,PlayerCarrying,쿨타임 지났음
+23:19:38.935,DEBUG,PlayerCarrying,쿨타임 지났음
+23:19:39.844,DEBUG,PlayerCarrying,쿨타임 지났음
+23:19:39.845,DEBUG,PlayerCarrying,집기 조작토마토 (UnityEngine.BoxCollider2D)
+23:19:39.845,DEBUG,PlayerCarrying,집기 조작토마토 (UnityEngine.BoxCollider2D)
+23:19:39.846,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:19:39.846,INFO,Unity,_focus is null
+23:19:40.192,DEBUG,PlayerCarrying,쿨타임 지났음
+23:19:40.193,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:19:40.194,INFO,Unity,_focus is null
+23:19:40.436,INFO,Unity,maxJumpVelocity19.76285
+23:19:40.796,INFO,Unity,indexChamge
+23:19:40.796,INFO,Unity,짐 2충돌
+23:19:40.856,INFO,Unity,indexChamge
+23:19:40.856,INFO,Unity,짐 1충돌
+23:19:40.857,INFO,Unity,짐 1충돌
+23:19:41.292,INFO,Unity,maxJumpVelocity20
+23:19:41.414,DEBUG,PlayerCarrying,쿨타임 지났음
+23:19:41.768,DEBUG,PlayerCarrying,쿨타임 지났음
+23:19:42.198,DEBUG,PlayerCarrying,쿨타임 지났음
+23:19:42.199,DEBUG,PlayerCarrying,집기 조작토마토 (UnityEngine.BoxCollider2D)
+23:19:42.199,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:19:42.200,DEBUG,PlayerCarrying,집기 조작토마토 (UnityEngine.BoxCollider2D)
+23:19:42.200,INFO,Unity,_focus is null
+23:19:42.557,DEBUG,PlayerCarrying,쿨타임 지났음
+23:19:42.559,DEBUG,PlayerCarrying,집기 조작토마토 (UnityEngine.BoxCollider2D)
+23:19:42.560,DEBUG,PlayerCarrying,집기 조작토마토 (UnityEngine.BoxCollider2D)
+23:19:42.560,INFO,Unity,_focus is null
+23:19:43.210,INFO,Unity,maxJumpVelocity19.76285
+23:19:43.850,DEBUG,PlayerCarrying,쿨타임 지났음
+23:19:43.850,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:19:43.852,INFO,Unity,_focus is null
+23:19:46.024,DEBUG,PlayerCarrying,쿨타임 지났음
+23:19:46.025,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:19:46.025,INFO,Unity,_focus is null
+23:19:47.010,INFO,Unity,maxJumpVelocity19.45525
+23:19:47.387,DEBUG,PlayerCarrying,쿨타임 지났음
+23:19:47.387,DEBUG,PlayerCarrying,집기 조작Wood (6) (UnityEngine.BoxCollider2D)
+23:19:47.388,INFO,Unity,_focus is null
+23:19:49.000,INFO,Unity,maxJumpVelocity19.15709
+23:19:49.238,INFO,Unity,indexChamge
+23:19:49.238,INFO,Unity,짐 5충돌
+23:19:50.091,INFO,Unity,maxJumpVelocity19.45525
+23:19:51.682,INFO,Unity,maxJumpVelocity19.45525
+23:19:52.638,DEBUG,PlayerCarrying,쿨타임 지났음
+23:19:52.970,DEBUG,PlayerCarrying,쿨타임 지났음
+23:19:53.435,INFO,Unity,maxJumpVelocity19.45525
+23:19:53.448,DEBUG,PlayerCarrying,쿨타임 지났음
+23:19:54.783,INFO,Unity,maxJumpVelocity19.45525
+23:19:54.994,DEBUG,PlayerCarrying,쿨타임 지났음
+23:19:55.730,DEBUG,PlayerCarrying,쿨타임 지났음
+23:19:55.769,INFO,Unity,maxJumpVelocity19.45525
+23:19:56.631,INFO,Unity,maxJumpVelocity19.45525
+23:19:56.705,DEBUG,PlayerCarrying,쿨타임 지났음
+23:19:57.293,DEBUG,PlayerCarrying,쿨타임 지났음
+23:19:57.398,INFO,Unity,maxJumpVelocity19.45525
+23:19:57.799,INFO,Unity,indexChamge
+23:19:57.799,INFO,Unity,짐 4충돌
+23:19:58.279,INFO,Unity,maxJumpVelocity19.60784
+23:19:58.617,INFO,Unity,indexChamge
+23:19:58.618,INFO,Unity,짐 3충돌
+23:19:59.148,INFO,Unity,maxJumpVelocity19.76285
+23:20:00.644,INFO,Unity,maxJumpVelocity19.84127
+23:20:01.607,INFO,Unity,maxJumpVelocity20
+23:20:02.524,DEBUG,PlayerCarrying,쿨타임 지났음
+23:20:02.525,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:20:02.525,INFO,Unity,_focus is null
+23:20:02.793,DEBUG,PlayerCarrying,쿨타임 지났음
+23:20:03.129,DEBUG,PlayerCarrying,쿨타임 지났음
+23:20:03.130,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:20:03.130,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:20:03.131,INFO,Unity,_focus is null
+23:20:03.439,DEBUG,PlayerCarrying,쿨타임 지났음
+23:20:03.440,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:20:03.441,INFO,Unity,_focus is null
+23:20:04.492,DEBUG,PlayerCarrying,쿨타임 지났음
+23:20:04.493,DEBUG,PlayerCarrying,집기 조작토마토 (UnityEngine.BoxCollider2D)
+23:20:04.493,DEBUG,PlayerCarrying,집기 조작토마토 (UnityEngine.BoxCollider2D)
+23:20:04.494,INFO,Unity,_focus is null
+23:20:04.850,DEBUG,PlayerCarrying,쿨타임 지났음
+23:20:06.817,DEBUG,PlayerCarrying,쿨타임 지났음
+23:20:06.818,DEBUG,PlayerCarrying,집기 조작토마토 (UnityEngine.BoxCollider2D)
+23:20:06.818,DEBUG,PlayerCarrying,집기 조작토마토 (UnityEngine.BoxCollider2D)
+23:20:06.819,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:20:06.819,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:20:06.819,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:20:06.820,INFO,Unity,_focus is null
+23:20:07.034,DEBUG,PlayerCarrying,쿨타임 지났음
+23:20:07.034,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:20:07.034,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:20:07.035,INFO,Unity,_focus is null
+23:20:07.402,DEBUG,PlayerCarrying,쿨타임 지났음
+23:20:07.402,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:20:07.403,INFO,Unity,_focus is null
+23:20:07.826,DEBUG,PlayerCarrying,쿨타임 지났음
+23:20:07.827,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:20:07.827,INFO,Unity,_focus is null
+23:20:08.220,INFO,Unity,maxJumpVelocity19.45525
+23:20:08.882,DEBUG,PlayerCarrying,쿨타임 지났음
+23:20:08.883,DEBUG,PlayerCarrying,집기 조작Wood (6) (UnityEngine.BoxCollider2D)
+23:20:08.884,INFO,Unity,_focus is null
+23:20:09.912,INFO,Unity,maxJumpVelocity19.15709
+23:20:10.659,INFO,Unity,maxJumpVelocity19.15709
+23:20:11.450,INFO,Unity,maxJumpVelocity19.15709
+23:20:12.370,INFO,Unity,maxJumpVelocity19.15709
+23:20:13.893,INFO,Unity,막혔어
+23:20:14.162,INFO,Unity,Collider닿음
+23:20:14.163,INFO,Unity,Collider닿음
+23:20:14.631,DEBUG,PlayerCarrying,쿨타임 지났음
+23:20:14.946,DEBUG,PlayerCarrying,쿨타임 지났음
+23:20:15.848,INFO,Unity,막혔어
+23:20:16.499,INFO,Unity,maxJumpVelocity19.15709
+23:20:16.655,INFO,Unity,Collider닿음
+23:20:16.699,INFO,Unity,Collider닿음
+23:20:18.572,INFO,Unity,maxJumpVelocity19.15709
+23:20:18.895,INFO,Unity,indexChamge
+23:20:18.896,INFO,Unity,짐 5충돌
+23:20:20.254,INFO,Unity,maxJumpVelocity19.45525
+23:20:21.176,INFO,Unity,maxJumpVelocity19.45525
+23:20:22.239,INFO,Unity,maxJumpVelocity19.45525
+23:20:22.546,INFO,Unity,indexChamge
+23:20:22.547,INFO,Unity,짐 4충돌
+23:20:22.636,INFO,Unity,indexChamge
+23:20:22.636,INFO,Unity,짐 3충돌
+23:20:22.798,INFO,Unity,indexChamge
+23:20:22.799,INFO,Unity,짐 2충돌
+23:20:24.500,INFO,Unity,maxJumpVelocity19.92032
+23:20:27.069,INFO,Unity,maxJumpVelocity19.92032
+23:20:27.829,INFO,Unity,사다리 점프
+23:20:29.240,INFO,Unity,사다리 점프
+23:20:29.742,INFO,Unity,maxJumpVelocity19.92032
+23:20:30.772,INFO,Unity,사다리 점프
+23:20:31.387,INFO,Unity,maxJumpVelocity19.92032
+23:20:33.604,INFO,Unity,maxJumpVelocity19.92032
+23:20:36.079,INFO,Unity,maxJumpVelocity19.92032
+23:20:37.461,INFO,Unity,maxJumpVelocity19.92032
+23:20:38.472,INFO,Unity,maxJumpVelocity19.92032
+23:20:39.310,INFO,Unity,maxJumpVelocity19.92032
+23:20:40.166,INFO,Unity,maxJumpVelocity19.92032
+23:20:40.343,INFO,Unity,indexChamge
+23:20:40.343,INFO,Unity,짐 1충돌
+23:20:40.343,INFO,Unity,짐 1충돌
+23:20:41.766,INFO,Unity,maxJumpVelocity20
+23:20:42.661,INFO,Unity,maxJumpVelocity20
+23:20:43.681,INFO,Unity,maxJumpVelocity20
+23:20:44.332,INFO,Unity,maxJumpVelocity20
+23:20:45.104,INFO,Unity,사다리 점프
+23:20:45.941,INFO,Unity,사다리 점프
+23:20:49.556,INFO,Unity,maxJumpVelocity20
+23:20:51.555,INFO,Unity,maxJumpVelocity20
+23:20:52.526,INFO,Unity,maxJumpVelocity20
+23:20:53.162,INFO,Unity,벽 점프
+23:20:53.662,INFO,Unity,벽 점프
+23:20:55.434,INFO,Unity,벽 점프
+23:20:55.884,INFO,Unity,벽 점프
+23:20:57.131,INFO,Unity,maxJumpVelocity20
+23:20:58.061,INFO,Unity,maxJumpVelocity20
+23:20:58.886,INFO,Unity,사다리 점프
+23:20:59.363,INFO,Unity,사다리 점프
+23:20:59.933,INFO,Unity,사다리 점프
+23:21:00.706,INFO,Unity,maxJumpVelocity20
+23:21:01.578,INFO,Unity,maxJumpVelocity20
+23:21:04.712,INFO,Unity,사다리 점프
+23:21:05.488,INFO,Unity,maxJumpVelocity20
+23:21:11.868,INFO,Unity,maxJumpVelocity20
+23:21:12.845,INFO,Unity,maxJumpVelocity20
+23:21:13.887,INFO,Unity,maxJumpVelocity20
+23:21:15.651,INFO,Unity,사다리 코요테 점프
+23:21:16.534,INFO,Unity,maxJumpVelocity20
+23:21:20.000,INFO,Unity,maxJumpVelocity20
+23:21:20.870,INFO,Unity,사다리 점프
+23:21:21.458,INFO,Unity,maxJumpVelocity20
+23:21:22.356,INFO,Unity,maxJumpVelocity20
+23:21:24.422,INFO,Unity,maxJumpVelocity20
+23:21:25.483,INFO,Unity,벽 점프
+23:21:28.180,INFO,Unity,maxJumpVelocity20
+23:21:31.661,INFO,Unity,maxJumpVelocity20
+23:21:34.180,INFO,Unity,사다리 코요테 점프
+23:21:35.324,INFO,Unity,사다리 점프
+23:21:36.467,INFO,Unity,maxJumpVelocity20
+23:21:38.351,DEBUG,PlayerCarrying,쿨타임 지났음
+23:21:39.420,INFO,Unity,maxJumpVelocity20
+23:21:40.761,INFO,Unity,maxJumpVelocity20
+23:21:41.654,INFO,Unity,maxJumpVelocity20
+23:21:42.431,INFO,Unity,maxJumpVelocity20
+23:21:43.122,INFO,Unity,maxJumpVelocity20
+23:21:43.830,INFO,Unity,maxJumpVelocity20
+23:21:44.435,INFO,Unity,벽 점프
+23:21:45.032,INFO,Unity,maxJumpVelocity20
+23:21:45.878,DEBUG,PlayerCarrying,쿨타임 지났음
+23:21:45.879,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+23:21:45.880,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+23:21:45.880,INFO,Unity,_focus is null
+23:21:46.078,INFO,Unity,maxJumpVelocity19.23077
+23:21:47.265,INFO,Unity,maxJumpVelocity19.23077
+23:21:48.098,INFO,Unity,maxJumpVelocity20
+23:21:48.959,DEBUG,PlayerCarrying,쿨타임 지났음
+23:21:48.959,DEBUG,PlayerCarrying,집기 조작완성된 음식(Clone) (UnityEngine.BoxCollider2D)
+23:21:48.960,INFO,Unity,_focus is null
+23:21:49.319,INFO,Unity,maxJumpVelocity20
+23:21:50.124,INFO,Unity,막혔어
+23:21:50.144,INFO,Unity,maxJumpVelocity20
+23:21:50.947,INFO,Unity,막혔어
+23:21:51.456,INFO,Unity,maxJumpVelocity20
+23:21:52.224,DEBUG,PlayerCarrying,쿨타임 지났음
+23:21:52.225,ERROR,PlayerCarrying,0번 인덱스에 있는 아이템이 carryable이 아님
+23:21:52.592,INFO,Unity,maxJumpVelocity20
+23:21:53.572,INFO,Unity,maxJumpVelocity20
+23:21:54.142,DEBUG,PlayerCarrying,쿨타임 지났음
+23:21:54.543,DEBUG,PlayerCarrying,쿨타임 지났음
+23:21:55.187,INFO,Unity,maxJumpVelocity20
+23:21:55.627,DEBUG,PlayerCarrying,쿨타임 지났음
+23:21:56.324,DEBUG,PlayerCarrying,쿨타임 지났음
+23:21:56.325,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+23:21:56.325,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+23:21:56.326,INFO,Unity,_focus is null
+23:21:56.601,DEBUG,PlayerCarrying,쿨타임 지났음
+23:21:56.603,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+23:21:56.603,DEBUG,PlayerCarrying,집기 조작완성된 음식(Clone) (UnityEngine.BoxCollider2D)
+23:21:56.604,INFO,Unity,_focus is null
+23:21:56.964,DEBUG,PlayerCarrying,쿨타임 지났음
+23:21:56.966,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+23:21:57.517,INFO,Unity,maxJumpVelocity19.23077
+23:21:59.021,INFO,Unity,maxJumpVelocity19.23077
+23:22:00.316,INFO,Unity,indexChamge
+23:22:00.317,INFO,Unity,짐 1충돌
+23:22:00.552,INFO,Unity,maxJumpVelocity20
+23:22:01.291,DEBUG,PlayerCarrying,쿨타임 지났음
+23:22:01.291,DEBUG,PlayerCarrying,집기 조작완성된 음식(Clone) (UnityEngine.BoxCollider2D)
+23:22:01.292,INFO,Unity,_focus is null
+23:22:02.872,DEBUG,PlayerCarrying,쿨타임 지났음
+23:22:02.874,ERROR,PlayerCarrying,0번 인덱스에 있는 아이템이 carryable이 아님
+23:22:02.874,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+23:22:02.874,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+23:22:02.874,INFO,Unity,_focus is null
+23:22:05.626,INFO,Unity,maxJumpVelocity19.23077
+23:22:06.718,INFO,Unity,사다리 점프
+23:22:06.837,INFO,Unity,indexChamge
+23:22:06.838,INFO,Unity,짐 2충돌
+23:22:07.676,INFO,Unity,maxJumpVelocity20
+23:22:08.909,DEBUG,PlayerCarrying,쿨타임 지났음
+23:22:08.909,ERROR,PlayerCarrying,0번 인덱스에 있는 아이템이 carryable이 아님
+23:22:08.910,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+23:22:08.910,INFO,Unity,_focus is null
+23:22:09.517,INFO,Unity,maxJumpVelocity19.23077
+23:22:11.395,INFO,Unity,사다리 점프
+23:22:14.442,INFO,Unity,maxJumpVelocity19.23077
+23:22:15.319,INFO,Unity,indexChamge
+23:22:15.320,INFO,Unity,짐 2충돌
+23:22:16.435,DEBUG,PlayerCarrying,쿨타임 지났음
+23:22:16.436,ERROR,PlayerCarrying,0번 인덱스에 있는 아이템이 carryable이 아님
+23:22:16.436,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+23:22:16.436,DEBUG,PlayerCarrying,집기 조작Mimic (UnityEngine.BoxCollider2D)
+23:22:16.438,INFO,Unity,_focus is null
+23:22:16.640,INFO,Unity,indexChamge
+23:22:16.640,INFO,Unity,짐 2충돌
+23:22:18.193,DEBUG,PlayerCarrying,쿨타임 지났음
+23:22:18.194,ERROR,PlayerCarrying,0번 인덱스에 있는 아이템이 carryable이 아님
+23:22:18.625,INFO,Unity,막혔어
+23:22:19.240,DEBUG,PlayerCarrying,쿨타임 지났음
+23:22:19.241,ERROR,PlayerCarrying,0번 인덱스에 있는 아이템이 carryable이 아님
+23:22:19.469,DEBUG,PlayerCarrying,쿨타임 지났음
+23:22:19.470,ERROR,PlayerCarrying,0번 인덱스에 있는 아이템이 carryable이 아님
+23:22:20.791,INFO,Unity,막혔어
+23:22:21.125,INFO,Unity,막혔어
+23:22:21.443,INFO,Unity,maxJumpVelocity20
+23:22:22.308,INFO,Unity,maxJumpVelocity20
+23:22:23.222,INFO,Unity,maxJumpVelocity20
+23:22:23.781,INFO,Unity,사다리 점프
+23:22:27.242,INFO,Unity,maxJumpVelocity20

@@ -1,0 +1,24 @@
+Timestamp, Level, Source, Message
+15:15:15.708,INFO,GameLogger,=== Game Session Started ===
+15:15:15.915,WARNING,Unity,Minimap: no renderers found for bounds. Check includeLayers.
+15:15:23.582,DEBUG,PlayerCarrying,쿨타임 지났음
+15:15:23.585,DEBUG,PlayerCarrying,집기 조작WateringCan (UnityEngine.BoxCollider2D)
+15:15:23.585,DEBUG,PlayerCarrying,집기 조작GrowingTomato (1) (UnityEngine.BoxCollider2D)
+15:15:23.586,INFO,Unity,_focus is null
+15:15:23.932,INFO,Unity,maxJumpVelocity19.84127
+15:15:28.771,INFO,Unity,maxJumpVelocity19.84127
+15:15:35.467,DEBUG,PlayerCarrying,쿨타임 지났음
+15:15:35.469,DEBUG,PlayerCarrying,집기 조작WateringCan (UnityEngine.BoxCollider2D)
+15:15:35.469,INFO,Unity,_focus is null
+15:15:42.104,DEBUG,PlayerCarrying,쿨타임 지났음
+15:15:42.105,DEBUG,PlayerCarrying,집기 조작WateringCan (UnityEngine.BoxCollider2D)
+15:15:42.105,DEBUG,PlayerCarrying,집기 조작TomatoTree (UnityEngine.BoxCollider2D)
+15:15:42.107,DEBUG,PlayerCarrying,집기 조작GrowingTomato (1) (UnityEngine.BoxCollider2D)
+15:15:42.107,INFO,Unity,_focus is null
+15:15:42.496,INFO,Unity,maxJumpVelocity19.84127
+15:15:43.286,INFO,Unity,maxJumpVelocity19.84127
+15:15:44.763,INFO,Unity,maxJumpVelocity19.84127
+15:15:58.511,DEBUG,PlayerCarrying,쿨타임 지났음
+15:15:58.512,DEBUG,PlayerCarrying,집기 조작WateringCan (UnityEngine.BoxCollider2D)
+15:15:58.513,INFO,Unity,_focus is null
+15:15:59.122,INFO,Unity,maxJumpVelocity19.84127

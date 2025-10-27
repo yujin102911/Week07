@@ -1,0 +1,46 @@
+Timestamp, Level, Source, Message
+03:20:10.043,INFO,GameLogger,=== Game Session Started ===
+03:20:10.346,WARNING,Unity,Minimap: no renderers found for bounds. Check includeLayers.
+03:20:14.553,DEBUG,PlayerCarrying,쿨타임 지났음
+03:20:14.555,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+03:20:14.556,INFO,Unity,_focus is null
+03:20:19.401,DEBUG,PlayerCarrying,쿨타임 지났음
+03:20:19.402,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+03:20:19.403,INFO,Unity,_focus is null
+03:20:19.888,INFO,Unity,막혔어
+03:20:20.933,INFO,Unity,maxJumpVelocity19.68504
+03:20:21.743,INFO,Unity,nal닿음
+03:20:21.772,INFO,Unity,Trigger닿음
+03:20:21.858,INFO,Unity,maxJumpVelocity19.68504
+03:20:21.929,INFO,Unity,nal닿음
+03:20:23.247,INFO,Unity,사다리 코요테 점프
+03:20:23.809,INFO,Unity,Trigger닿음
+03:20:23.810,INFO,Unity,nal닿음
+03:20:23.884,INFO,Unity,Trigger닿음
+03:20:23.885,INFO,Unity,nal닿음
+03:20:23.938,INFO,Unity,nal닿음
+03:20:23.939,INFO,Unity,Trigger닿음
+03:20:23.984,INFO,Unity,nal닿음
+03:20:23.984,INFO,Unity,Trigger닿음
+03:20:24.032,INFO,Unity,Trigger닿음
+03:20:24.033,INFO,Unity,nal닿음
+03:20:24.046,INFO,Unity,nal닿음
+03:20:24.047,INFO,Unity,Trigger닿음
+03:20:24.114,INFO,Unity,Trigger닿음
+03:20:24.116,INFO,Unity,nal닿음
+03:20:24.132,INFO,Unity,Trigger닿음
+03:20:24.133,INFO,Unity,nal닿음
+03:20:24.167,INFO,Unity,Trigger닿음
+03:20:24.168,INFO,Unity,nal닿음
+03:20:24.202,INFO,Unity,Trigger닿음
+03:20:24.202,INFO,Unity,nal닿음
+03:20:28.161,INFO,Unity,maxJumpVelocity19.68504
+03:20:33.808,DEBUG,PlayerCarrying,쿨타임 지났음
+03:20:33.808,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+03:20:33.809,DEBUG,PlayerCarrying,집기 조작Wood (13) (UnityEngine.BoxCollider2D)
+03:20:33.810,INFO,Unity,_focus is null
+03:20:34.573,INFO,Unity,maxJumpVelocity19.68504
+03:20:34.653,INFO,Unity,nal닿음
+03:20:34.653,INFO,Unity,Trigger닿음
+03:20:35.624,INFO,Unity,Trigger닿음
+03:20:35.625,INFO,Unity,nal닿음

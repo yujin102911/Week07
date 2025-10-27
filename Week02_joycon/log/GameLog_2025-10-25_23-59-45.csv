@@ -1,0 +1,20 @@
+Timestamp, Level, Source, Message
+23:59:45.847,INFO,GameLogger,=== Game Session Started ===
+23:59:46.662,WARNING,Unity,Minimap: no renderers found for bounds. Check includeLayers.
+23:59:46.685,INFO,Unity,Trigger Entered with: Wall2
+23:59:46.685,INFO,Unity,Trigger Entered with: Wall2
+23:59:46.687,INFO,Unity,Trigger Entered with: Wall2
+23:59:46.687,INFO,Unity,Trigger Entered with: Wall2
+23:59:46.688,INFO,Unity,Trigger Entered with: Wall2
+23:59:49.580,INFO,Unity,maxJumpVelocity20
+23:59:50.532,INFO,Unity,maxJumpVelocity20
+23:59:51.802,INFO,Unity,사다리 점프
+23:59:53.182,INFO,Unity,사다리 점프
+23:59:54.131,INFO,Unity,maxJumpVelocity20
+23:59:54.826,INFO,Unity,사다리 코요테 점프
+00:01:52.048,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+00:01:55.931,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+00:01:57.459,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+00:02:00.217,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+00:02:03.727,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+00:02:05.628,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
