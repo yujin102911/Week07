@@ -149,7 +149,8 @@ public class CarryableMimic : Carryable, IInteractable
 
     public void CleanUp()
     {
-        if (cleanedSprite) spriteRenderer.sprite = cleanedSprite;
+        spriteRenderer.sprite = cleanedSprite;
+        enabled = true;
         isCleaned = true;
 
         CheckQuest();
