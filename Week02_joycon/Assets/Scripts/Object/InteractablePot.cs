@@ -2,16 +2,16 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(Carryable), typeof(Collider2D))]
-public class Pot : MonoBehaviour, IInteractable
+public class InteractablePot : MonoBehaviour, IInteractable
 {
     private Dictionary<ItemName, int> recipe = new()
     {
-        { ItemName.Tomato, 2 },
+        { ItemName.Tomato, 3 },
         { ItemName.Onion, 1 },
     };
 
     [Header("State")]
-    private Stove currentStove = null;
+    private InteractableStove currentStove = null;
     private bool isReadyToCook => recipe.Count == 0;
     private bool isCooked = false;
 
@@ -54,14 +54,26 @@ public class Pot : MonoBehaviour, IInteractable
         return false;
     }
 
-    public void SetCurrentStove(Stove stove) => currentStove = stove;
+    public bool AddIngredient(Carryable carryable)
+    {
+        if (isCooked == true) return false;
+        if (recipe.ContainsKey(carryable.GetItemName()) == false) return false;
+
+        recipe[carryable.GetItemName()]--;
+        if (recipe[carryable.GetItemName()] <= 0) recipe.Remove(carryable.GetItemName());
+        Destroy(carryable.gameObject);
+
+        return true;
+    }
+
+    public void SetCurrentStove(InteractableStove stove) => currentStove = stove;
 
     public void CheckCookingConditions()
     {
         if (isCooked == true) return;
         if (isReadyToCook == false) return;
         if (currentStove == null) return;
-        if (currentStove.isFueled == false) return;
+        if (currentStove.isFireOn == false) return;
 
         Cook();
     }
@@ -77,5 +89,13 @@ public class Pot : MonoBehaviour, IInteractable
     {
         if (selfCarryable.carrying == true) return false;
         return AddIngredient();
+    }
+
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.TryGetComponent<Carryable>(out var carryable) == false) return;
+        if (carryable.carrying == true) return;
+
+        AddIngredient(carryable);
     }
 }

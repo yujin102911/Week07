@@ -1,9 +1,6 @@
 ﻿using Game.Quests;
-using System;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.InputSystem;
-using UnityEngine.UI;
 
 public class PlayerCarrying : MonoBehaviour
 {
@@ -270,6 +267,109 @@ public class PlayerCarrying : MonoBehaviour
         carriedObjects.RemoveAt(carriedObjects.Count - 1);
         collideCarrying = carriedObjects.Count; // 유지되는 카운터라면 업데이트
         WeightUpdate();
+    }
+
+    private bool DropAtIndex(int index)
+    {
+        if (index < 0 || index >= carriedObjects.Count) return false;
+
+        GameObject obj = carriedObjects[index];
+
+        // 파괴되어 null이면 즉시 정리만
+        if (obj == null)
+        {
+            carriedObjects.RemoveAt(index);
+            collideCarrying = carriedObjects.Count;
+            WeightUpdate();
+            return false;
+        }
+
+        // 필요한 컴포넌트/크기 계산
+        Rigidbody2D rb = obj.GetComponent<Rigidbody2D>();
+        var objSize = GetBoundsSize(obj);
+        var playerSize = GetPlayerBoundsSize();
+        int faceDir = controller2D != null ? controller2D.collisions.faceDir : 1;
+
+        // 기존 TryDrop과 동일한 드롭 오프셋 계산
+        dropOffset = new Vector2(
+            (objSize.x + playerSize.x) * faceDir / 2f,
+            (objSize.y - playerSize.y) / 2f + 0.05f
+        );
+
+        Vector2 dropPos = (Vector2)transform.position + dropOffset;
+
+        // 디버그용 기록
+        lastDropPos = dropPos;
+        lastObjSize = objSize * 1.0f;
+        showDropGizmo = true;
+
+        // 장애물 겹침 체크
+        int mask = maskObstacle.value;
+        Collider2D hit = Physics2D.OverlapBox(dropPos, lastObjSize, 0f, mask);
+        if (hit != null)
+        {
+            // 막혀 있으면 드롭 실패 (자리를 못 잡음)
+            return false;
+        }
+
+        // 실제 드롭
+        if (rb != null)
+        {
+            rb.transform.SetParent(null, true);
+            rb.position = dropPos;
+            rb.bodyType = RigidbodyType2D.Dynamic;
+            rb.freezeRotation = false;
+            rb.linearVelocity = Vector2.zero;
+            rb.angularVelocity = 0f;
+        }
+        else
+        {
+            obj.transform.SetParent(null, true);
+            obj.transform.position = dropPos;
+        }
+
+        // Carryable/인벤토리 갱신
+        if (obj.TryGetComponent<Carryable>(out var cy))
+        {
+            cy.carrying = false;
+            if (cy.GetItemName() != ItemName.None)
+                InventoryManager.Instance.RemoveItem(cy.GetItemName());
+        }
+
+        carriedObjects.RemoveAt(index);
+        collideCarrying = carriedObjects.Count;
+        WeightUpdate();
+        return true;
+    }
+
+    // 특정 ItemName을 가진 아이템을 찾아(상단부터 검색) 드롭
+    public bool TryDrop(ItemName target)
+    {
+        // 인터랙션 쿨다운 체크 (기존 TryDrop과 동일 정책)
+        if (Time.time - lastInteractTime < interactCooldown) return false;
+        lastInteractTime = Time.time;
+
+        if (carriedObjects.Count == 0) { WeightUpdate(); return false; }
+
+        // 스택 상단(마지막 인덱스)부터 내려가며 해당 아이템 탐색
+        for (int i = carriedObjects.Count - 1; i >= 0; --i)
+        {
+            var go = carriedObjects[i];
+            if (!go) { carriedObjects.RemoveAt(i); continue; }
+
+            if (go.TryGetComponent<Carryable>(out var c))
+            {
+                if (c.GetItemName() == target)
+                {
+                    // 찾으면 해당 인덱스 드롭 시도
+                    bool dropped = DropAtIndex(i);
+                    return dropped;
+                }
+            }
+        }
+
+        // 못 찾음
+        return false;
     }
 
 

@@ -37,8 +37,8 @@ public class FireWood : MonoBehaviour
                         if (Prefabs[i] != null)
                         {
                             Instantiate(Prefabs[i],
-                                new Vector2(transform.position.x - boxCollider2Dx / 2 * Prefabs.Length + boxCollider2Dx * i, transform.position.y), 
-                                Quaternion.Euler(0,0,transform.localRotation.z+(-90+30-60*i)));
+                                new Vector2(transform.position.x/* - boxCollider2Dx / 2 * Prefabs.Length + boxCollider2Dx * i*/, transform.position.y), 
+                                Quaternion.Euler(0,0,transform.localRotation.z));
                         }
                     }
                     Destroy(gameObject);

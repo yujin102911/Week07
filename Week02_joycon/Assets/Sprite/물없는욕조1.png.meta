@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: efef4e1a9d828a0458363b04017e3187
+guid: 67620f25cad8c8648841abc9b0df3cce
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -506082907168133177
-    second: dirtymimic_0
+      213: 263871169323986790
+    second: "\uBB3C\uC5C6\uB294\uC695\uC8701_0"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,12 +46,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 20
+  spritePixelsToUnits: 500
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -74,7 +74,7 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 4
+    textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: dirtymimic_0
+      name: "\uBB3C\uC5C6\uB294\uC695\uC8701_0"
       rect:
         serializedVersion: 2
-        x: 4
-        y: 2
-        width: 26
-        height: 28
+        x: 288
+        y: 160
+        width: 696
+        height: 339
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7cfa85bf6480af8f0800000000000000
-      internalID: -506082907168133177
+      spriteID: 66fe5023e6579a300800000000000000
+      internalID: 263871169323986790
       vertices: []
       indices: 
       edges: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      dirtymimic_0: -506082907168133177
+      "\uBB3C\uC5C6\uB294\uC695\uC8701_0": 263871169323986790
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

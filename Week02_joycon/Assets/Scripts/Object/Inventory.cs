@@ -12,6 +12,8 @@ public enum ItemName
     Tomato,
     Onion,
     TomatoSoup,
+    Firewood,
+    Pot,
 }
 
 public class Inventory

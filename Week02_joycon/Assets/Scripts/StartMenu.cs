@@ -1,10 +1,11 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class StartMenu : MonoBehaviour
 {
-    public Button startButton;
+    [SerializeField] Button startButton;
+    [SerializeField] string scene;
 
     private void Start()
     {
@@ -13,7 +14,7 @@ public class StartMenu : MonoBehaviour
 
     void OnClickStart()
     {
-        SceneManager.LoadScene("MapDesign");
+        SceneManager.LoadScene(scene);
     }
 
 }

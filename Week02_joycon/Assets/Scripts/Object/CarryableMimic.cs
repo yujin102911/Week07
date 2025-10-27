@@ -1,11 +1,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CarryableMimic : Carryable
+public class CarryableMimic : Carryable, IInteractable
 {
-    [SerializeField] private int requiredCoins;
+    [SerializeField] private int requiredCoins = 4;
     [SerializeField] private SpriteRenderer spriteRenderer;
     [SerializeField] private Sprite cleanedSprite;
+    [SerializeField] private SpriteRenderer coinSpriteRenderer;
+    [SerializeField] private List<Sprite> coinSprites;
     [SerializeField] private MimicBubble coinBubble;
     [SerializeField] private MimicBubble heartBubble;
     [SerializeField] private MimicBubble cleanBubble;
@@ -45,17 +47,44 @@ public class CarryableMimic : Carryable
         }
     }
 
-    private void EatCoin(Carryable coin)
+    private void UpdateCoinSprite()
     {
+        coinSpriteRenderer.sprite = coinSprites[requiredCoins];
+    }
+
+    private bool EatCoin(Carryable coin)
+    {
+        if (requiredCoins <= 0) return false;
+
         requiredCoins--;
         heartBubble.SetOn();
         if (coin) Destroy(coin.gameObject);
 
+        UpdateCoinSprite();
         CheckQuest();
+        return true;
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private bool EatCoin()
     {
+        if (requiredCoins <= 0) return false;
+        if (InventoryManager.Instance.HasItem(ItemName.Coin) == false) return false;
+
+        InventoryManager.Instance.RemoveAndDestroyItem(ItemName.Coin);
+        requiredCoins--;
+        heartBubble.SetOn();
+
+        UpdateCoinSprite();
+        CheckQuest();
+        return true;
+    }
+
+    public bool Interact() => EatCoin();
+
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (requiredCoins <= 0) return;
+
         if (collision.TryGetComponent(out Carryable coin))
         {
             if (coin.GetItemName() != ItemName.Coin) return;
