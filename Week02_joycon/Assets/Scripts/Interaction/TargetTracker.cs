@@ -15,6 +15,14 @@ public class TargetTracker : MonoBehaviour
     {
         transform.position=targetPosition.position+ targetOffset;
         transform.localRotation= targetPosition.localRotation;
-        transform.localScale*= Mathf.Sign(targetPosition.localScale.y);//상대가 뒤집히면 같이 뒤집히기
+        if (Mathf.Sign(targetPosition.localScale.y) < 0)
+        {
+            transform.localScale = -Vector3.one;//상대가 뒤집히면 같이 뒤집히기
+        }
+        else
+        {
+            transform.localScale = Vector3.one;
+        }
+        
     }
 }
