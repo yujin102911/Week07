@@ -1,0 +1,1075 @@
+Timestamp, Level, Source, Message
+23:46:25.068,INFO,GameLogger,=== Game Session Started ===
+23:46:25.848,WARNING,Unity,Minimap: no renderers found for bounds. Check includeLayers.
+23:46:25.867,INFO,Unity,Trigger Entered with: Wall2
+23:46:25.868,INFO,Unity,Trigger Entered with: Wall2
+23:46:25.869,INFO,Unity,Trigger Entered with: Wall2
+23:46:25.869,INFO,Unity,Trigger Entered with: Wall2
+23:46:25.870,INFO,Unity,Trigger Entered with: Wall2
+23:46:29.090,DEBUG,PlayerCarrying,집기 조작샴푸 (UnityEngine.BoxCollider2D)
+23:46:29.092,INFO,Unity,_focus is null
+23:46:29.093,INFO,Unity,Weight Update =0
+23:46:29.094,INFO,Unity,Weight Update2 =1
+23:46:29.184,INFO,Unity,maxJumpVelocity19.92032
+23:46:29.638,INFO,Unity,Weight Update =0
+23:46:32.656,INFO,Unity,maxJumpVelocity20
+23:46:35.174,INFO,Unity,maxJumpVelocity20
+23:46:35.921,INFO,Unity,사다리 점프
+23:46:36.642,INFO,Unity,maxJumpVelocity20
+23:46:37.534,INFO,Unity,maxJumpVelocity20
+23:46:39.185,INFO,Unity,maxJumpVelocity20
+23:46:39.904,INFO,Unity,사다리 점프
+23:46:40.367,INFO,Unity,maxJumpVelocity20
+23:46:40.955,INFO,Unity,maxJumpVelocity20
+23:46:41.190,INFO,Unity,벽 점프
+23:46:41.732,INFO,Unity,maxJumpVelocity20
+23:46:43.517,INFO,Unity,사다리 점프
+23:46:44.210,INFO,Unity,maxJumpVelocity20
+23:46:44.905,INFO,Unity,사다리 점프
+23:46:46.001,INFO,Unity,사다리 점프
+23:46:46.524,DEBUG,PlayerCarrying,집기 조작WateringCan (UnityEngine.BoxCollider2D)
+23:46:46.526,INFO,Unity,_focus is null
+23:46:46.527,INFO,Unity,Weight Update =0
+23:46:46.527,INFO,Unity,Weight Update2 =2
+23:46:46.743,INFO,Unity,No hits detected.
+23:46:46.758,INFO,Unity,No hits detected.
+23:46:46.772,INFO,Unity,No hits detected.
+23:46:46.786,INFO,Unity,No hits detected.
+23:46:46.800,INFO,Unity,No hits detected.
+23:46:46.814,INFO,Unity,No hits detected.
+23:46:46.827,INFO,Unity,No hits detected.
+23:46:46.883,INFO,Unity,Trigger Entered with: Watering
+23:46:46.898,INFO,Unity,Trigger Entered with: ===Player===
+23:46:46.913,INFO,Unity,Trigger Entered with: WateringCan
+23:46:47.757,INFO,Unity,Trigger Entered with: Tomato
+23:46:47.813,INFO,Unity,Trigger Entered with: Tomato (1)
+23:46:47.900,INFO,Unity,Trigger Entered with: Tomato (2)
+23:46:48.754,INFO,Unity,Weight Update =0
+23:46:48.755,INFO,Unity,Trigger Exit with: Watering
+23:46:48.810,INFO,Unity,Trigger Exit with: Tomato (2)
+23:46:48.971,INFO,Unity,Trigger Entered with: Tomato (2)
+23:46:49.533,INFO,Unity,Trigger Exit with: Tomato
+23:46:49.895,INFO,Unity,Trigger Exit with: WateringCan
+23:46:49.935,INFO,Unity,Trigger Entered with: Tomato
+23:46:49.935,INFO,Unity,Trigger Entered with: WateringCan
+23:46:49.976,INFO,Unity,Trigger Entered with: ===Player===
+23:46:50.016,INFO,Unity,Trigger Exit with: ===Player===
+23:46:50.314,INFO,Unity,Trigger Entered with: ===Player===
+23:46:50.346,INFO,Unity,Trigger Exit with: ===Player===
+23:46:50.936,INFO,Unity,Trigger Exit with: Tomato (1)
+23:46:51.134,INFO,Unity,Trigger Exit with: ===Player===
+23:46:51.472,INFO,Unity,maxJumpVelocity20
+23:46:53.051,INFO,Unity,Trigger Entered with: Tomato (1)
+23:46:53.079,INFO,Unity,maxJumpVelocity20
+23:46:53.596,INFO,Unity,Trigger Entered with: ===Player===
+23:46:53.695,INFO,Unity,Trigger Entered with: ===Player===
+23:46:53.708,INFO,Unity,Trigger Exit with: ===Player===
+23:46:53.809,INFO,Unity,Trigger Exit with: Tomato (2)
+23:46:53.848,INFO,Unity,Trigger Entered with: Tomato (2)
+23:46:53.878,INFO,Unity,Trigger Exit with: WateringCan
+23:46:53.878,INFO,Unity,Trigger Exit with: Tomato
+23:46:53.930,INFO,Unity,Trigger Entered with: WateringCan
+23:46:53.956,INFO,Unity,Trigger Entered with: Tomato
+23:46:54.166,INFO,Unity,maxJumpVelocity20
+23:46:54.317,INFO,Unity,Trigger Exit with: ===Player===
+23:46:54.709,INFO,Unity,Trigger Entered with: ===Player===
+23:46:54.734,INFO,Unity,Trigger Entered with: ===Player===
+23:46:54.774,INFO,Unity,Trigger Exit with: ===Player===
+23:46:55.393,DEBUG,PlayerCarrying,집기 조작Tomato (2) (UnityEngine.BoxCollider2D)
+23:46:55.394,INFO,Unity,_focus is null
+23:46:55.394,INFO,Unity,Weight Update =0
+23:46:55.396,INFO,Unity,Weight Update2 =1
+23:46:55.410,INFO,Unity,Trigger Exit with: Tomato (2)
+23:46:55.411,INFO,Unity,Trigger Entered with: Tomato (2)
+23:46:56.067,INFO,Unity,Trigger Exit with: Tomato (2)
+23:46:56.068,INFO,Unity,Trigger Entered with: ===Player===
+23:46:56.136,INFO,Unity,Trigger Exit with: ===Player===
+23:46:56.136,INFO,Unity,Trigger Entered with: Tomato (2)
+23:46:56.136,INFO,Unity,maxJumpVelocity19.92032
+23:46:56.215,INFO,Unity,Trigger Exit with: Tomato (2)
+23:46:56.277,INFO,Unity,Trigger Exit with: ===Player===
+23:46:56.380,INFO,Unity,Weight Update =0
+23:46:56.799,INFO,Unity,Trigger Entered with: Tomato (2)
+23:46:56.812,INFO,Unity,Trigger Entered with: ===Player===
+23:46:56.988,INFO,Unity,Trigger Exit with: Tomato (2)
+23:46:57.334,INFO,Unity,Trigger Entered with: Tomato (2)
+23:46:57.538,INFO,Unity,Trigger Entered with: ===Player===
+23:46:57.616,INFO,Unity,Trigger Exit with: ===Player===
+23:46:58.470,INFO,Unity,Trigger Exit with: Tomato
+23:46:58.471,INFO,Unity,Trigger Exit with: WateringCan
+23:46:58.570,INFO,Unity,Trigger Entered with: Tomato
+23:46:58.570,INFO,Unity,Trigger Entered with: WateringCan
+23:46:59.217,INFO,Unity,Trigger Entered with: ===Player===
+23:46:59.218,INFO,Unity,maxJumpVelocity20
+23:46:59.258,INFO,Unity,Trigger Exit with: ===Player===
+23:46:59.418,INFO,Unity,Trigger Exit with: ===Player===
+23:46:59.593,INFO,Unity,Trigger Entered with: ===Player===
+23:46:59.896,DEBUG,PlayerCarrying,집기 조작Tomato (2) (UnityEngine.BoxCollider2D)
+23:46:59.897,INFO,Unity,_focus is null
+23:46:59.897,INFO,Unity,Weight Update =0
+23:46:59.898,INFO,Unity,Weight Update2 =1
+23:47:00.259,INFO,Unity,maxJumpVelocity19.92032
+23:47:00.335,INFO,Unity,Trigger Exit with: Tomato (2)
+23:47:00.397,INFO,Unity,Trigger Exit with: ===Player===
+23:47:00.463,INFO,Unity,Weight Update =0
+23:47:00.872,INFO,Unity,Trigger Entered with: Tomato (2)
+23:47:00.935,INFO,Unity,Trigger Entered with: ===Player===
+23:47:01.076,INFO,Unity,Trigger Exit with: Tomato (1)
+23:47:01.078,INFO,Unity,Trigger Exit with: Tomato (2)
+23:47:01.775,INFO,Unity,Trigger Exit with: ===Player===
+23:47:02.718,INFO,Unity,벽 점프
+23:47:03.757,INFO,Unity,maxJumpVelocity20
+23:47:04.434,INFO,Unity,Trigger Entered with: ===Player===
+23:47:04.561,INFO,Unity,Trigger Exit with: ===Player===
+23:47:05.370,INFO,Unity,maxJumpVelocity20
+23:47:08.580,INFO,Unity,maxJumpVelocity20
+23:47:09.272,DEBUG,PlayerCarrying,집기 조작Tomato (2) (UnityEngine.BoxCollider2D)
+23:47:09.273,INFO,Unity,_focus is null
+23:47:09.274,INFO,Unity,Weight Update =0
+23:47:09.274,INFO,Unity,Weight Update2 =1
+23:47:09.964,INFO,Unity,maxJumpVelocity19.92032
+23:47:10.187,INFO,Unity,Weight Update =0
+23:47:11.285,DEBUG,PlayerCarrying,집기 조작Tomato (2) (UnityEngine.BoxCollider2D)
+23:47:11.286,INFO,Unity,_focus is null
+23:47:11.286,INFO,Unity,Weight Update =0
+23:47:11.287,INFO,Unity,Weight Update2 =1
+23:47:11.601,INFO,Unity,maxJumpVelocity19.92032
+23:47:12.300,INFO,Unity,사다리 점프
+23:47:13.453,DEBUG,PlayerCarrying,집기 조작Tomato (1) (UnityEngine.BoxCollider2D)
+23:47:13.454,DEBUG,PlayerCarrying,집기 조작Tomato (2) (UnityEngine.BoxCollider2D)
+23:47:13.454,INFO,Unity,_focus is null
+23:47:13.456,INFO,Unity,Weight Update =0
+23:47:13.456,INFO,Unity,Weight Update2 =2
+23:47:13.711,INFO,Unity,Trigger Entered with: ===Player===
+23:47:13.737,INFO,Unity,Trigger Entered with: Tomato (2)
+23:47:13.738,INFO,Unity,Trigger Entered with: Tomato (1)
+23:47:13.940,INFO,Unity,Trigger Exit with: Tomato (2)
+23:47:13.940,INFO,Unity,Trigger Entered with: ===Player===
+23:47:13.941,INFO,Unity,Trigger Exit with: Tomato (1)
+23:47:13.968,INFO,Unity,Trigger Exit with: ===Player===
+23:47:13.968,INFO,Unity,Trigger Entered with: Tomato (1)
+23:47:13.969,INFO,Unity,Trigger Entered with: Tomato (2)
+23:47:14.172,INFO,Unity,Trigger Exit with: Tomato (1)
+23:47:14.172,INFO,Unity,Trigger Entered with: ===Player===
+23:47:14.173,INFO,Unity,Trigger Exit with: Tomato (2)
+23:47:14.214,INFO,Unity,Trigger Exit with: ===Player===
+23:47:14.214,INFO,Unity,Trigger Entered with: Tomato (1)
+23:47:14.215,INFO,Unity,Trigger Entered with: Tomato (2)
+23:47:14.857,INFO,Unity,Trigger Exit with: Tomato (1)
+23:47:14.857,INFO,Unity,Trigger Entered with: ===Player===
+23:47:14.858,INFO,Unity,Trigger Exit with: Tomato (2)
+23:47:14.937,DEBUG,PlayerCarrying,집기 조작Tomato (2) (UnityEngine.BoxCollider2D)
+23:47:14.938,DEBUG,PlayerCarrying,집기 조작WateringCan (UnityEngine.BoxCollider2D)
+23:47:14.938,DEBUG,PlayerCarrying,집기 조작Tomato (UnityEngine.BoxCollider2D)
+23:47:14.940,INFO,Unity,_focus is null
+23:47:14.940,INFO,Unity,Weight Update =0
+23:47:14.940,INFO,Unity,Weight Update2 =3
+23:47:14.956,INFO,Unity,Trigger Exit with: Tomato
+23:47:14.970,INFO,Unity,Trigger Exit with: ===Player===
+23:47:14.995,INFO,Unity,Trigger Entered with: Tomato
+23:47:14.996,INFO,Unity,Trigger Entered with: Tomato (2)
+23:47:14.996,INFO,Unity,Trigger Entered with: Tomato (1)
+23:47:15.165,DEBUG,PlayerCarrying,집기 조작Tomato (2) (UnityEngine.BoxCollider2D)
+23:47:15.166,DEBUG,PlayerCarrying,집기 조작WateringCan (UnityEngine.BoxCollider2D)
+23:47:15.167,INFO,Unity,_focus is null
+23:47:15.168,INFO,Unity,Weight Update =0
+23:47:15.168,INFO,Unity,Weight Update2 =5
+23:47:15.184,INFO,Unity,Trigger Exit with: WateringCan
+23:47:15.203,INFO,Unity,No hits detected.
+23:47:15.220,INFO,Unity,No hits detected.
+23:47:15.235,INFO,Unity,No hits detected.
+23:47:15.250,INFO,Unity,No hits detected.
+23:47:15.264,INFO,Unity,No hits detected.
+23:47:15.281,INFO,Unity,No hits detected.
+23:47:15.301,INFO,Unity,No hits detected.
+23:47:15.314,INFO,Unity,No hits detected.
+23:47:15.328,INFO,Unity,No hits detected.
+23:47:15.343,INFO,Unity,No hits detected.
+23:47:15.360,INFO,Unity,No hits detected.
+23:47:15.377,INFO,Unity,No hits detected.
+23:47:15.391,INFO,Unity,No hits detected.
+23:47:15.405,INFO,Unity,No hits detected.
+23:47:15.418,INFO,Unity,No hits detected.
+23:47:15.432,INFO,Unity,No hits detected.
+23:47:15.447,INFO,Unity,No hits detected.
+23:47:15.461,INFO,Unity,No hits detected.
+23:47:15.475,INFO,Unity,No hits detected.
+23:47:15.488,INFO,Unity,No hits detected.
+23:47:15.505,INFO,Unity,No hits detected.
+23:47:15.518,INFO,Unity,No hits detected.
+23:47:15.533,INFO,Unity,No hits detected.
+23:47:15.546,INFO,Unity,No hits detected.
+23:47:15.558,INFO,Unity,No hits detected.
+23:47:15.573,INFO,Unity,No hits detected.
+23:47:15.586,INFO,Unity,No hits detected.
+23:47:15.601,INFO,Unity,No hits detected.
+23:47:15.615,INFO,Unity,No hits detected.
+23:47:15.628,INFO,Unity,No hits detected.
+23:47:15.641,INFO,Unity,No hits detected.
+23:47:15.656,INFO,Unity,No hits detected.
+23:47:15.670,INFO,Unity,No hits detected.
+23:47:15.684,INFO,Unity,No hits detected.
+23:47:15.699,INFO,Unity,No hits detected.
+23:47:15.717,INFO,Unity,No hits detected.
+23:47:15.730,INFO,Unity,No hits detected.
+23:47:15.744,INFO,Unity,No hits detected.
+23:47:15.758,INFO,Unity,No hits detected.
+23:47:15.772,INFO,Unity,No hits detected.
+23:47:15.788,INFO,Unity,No hits detected.
+23:47:15.801,INFO,Unity,No hits detected.
+23:47:15.816,INFO,Unity,No hits detected.
+23:47:15.831,INFO,Unity,No hits detected.
+23:47:15.843,INFO,Unity,No hits detected.
+23:47:15.857,INFO,Unity,No hits detected.
+23:47:15.871,INFO,Unity,No hits detected.
+23:47:15.887,INFO,Unity,No hits detected.
+23:47:15.902,INFO,Unity,No hits detected.
+23:47:15.918,INFO,Unity,No hits detected.
+23:47:15.933,INFO,Unity,No hits detected.
+23:47:15.946,INFO,Unity,No hits detected.
+23:47:15.961,INFO,Unity,No hits detected.
+23:47:15.976,INFO,Unity,No hits detected.
+23:47:15.993,INFO,Unity,No hits detected.
+23:47:16.010,INFO,Unity,No hits detected.
+23:47:16.023,INFO,Unity,No hits detected.
+23:47:16.036,INFO,Unity,No hits detected.
+23:47:16.051,INFO,Unity,No hits detected.
+23:47:16.064,INFO,Unity,No hits detected.
+23:47:16.078,INFO,Unity,No hits detected.
+23:47:16.092,INFO,Unity,No hits detected.
+23:47:16.106,INFO,Unity,No hits detected.
+23:47:16.122,INFO,Unity,No hits detected.
+23:47:16.136,INFO,Unity,No hits detected.
+23:47:16.151,INFO,Unity,No hits detected.
+23:47:16.165,INFO,Unity,No hits detected.
+23:47:16.179,INFO,Unity,No hits detected.
+23:47:16.193,INFO,Unity,No hits detected.
+23:47:16.206,INFO,Unity,No hits detected.
+23:47:16.220,INFO,Unity,No hits detected.
+23:47:16.233,INFO,Unity,No hits detected.
+23:47:16.247,INFO,Unity,No hits detected.
+23:47:16.261,INFO,Unity,No hits detected.
+23:47:16.276,INFO,Unity,No hits detected.
+23:47:16.290,INFO,Unity,No hits detected.
+23:47:16.305,INFO,Unity,No hits detected.
+23:47:16.320,INFO,Unity,No hits detected.
+23:47:16.336,INFO,Unity,No hits detected.
+23:47:16.350,INFO,Unity,No hits detected.
+23:47:16.363,INFO,Unity,No hits detected.
+23:47:16.377,INFO,Unity,Trigger Exit with: Tomato (1)
+23:47:16.379,INFO,Unity,Trigger Entered with: ===Player===
+23:47:16.379,INFO,Unity,Trigger Exit with: Tomato
+23:47:16.380,INFO,Unity,Trigger Exit with: Tomato (2)
+23:47:16.380,INFO,Unity,No hits detected.
+23:47:16.394,INFO,Unity,No hits detected.
+23:47:16.408,INFO,Unity,No hits detected.
+23:47:16.421,INFO,Unity,No hits detected.
+23:47:16.436,INFO,Unity,Trigger Exit with: ===Player===
+23:47:16.436,INFO,Unity,No hits detected.
+23:47:16.450,INFO,Unity,Trigger Entered with: Tomato (2)
+23:47:16.451,INFO,Unity,Trigger Entered with: Tomato (1)
+23:47:16.451,INFO,Unity,Trigger Entered with: Tomato
+23:47:16.451,INFO,Unity,No hits detected.
+23:47:16.467,INFO,Unity,No hits detected.
+23:47:16.481,INFO,Unity,No hits detected.
+23:47:16.495,INFO,Unity,No hits detected.
+23:47:16.509,INFO,Unity,No hits detected.
+23:47:16.523,INFO,Unity,No hits detected.
+23:47:16.539,INFO,Unity,No hits detected.
+23:47:16.554,INFO,Unity,No hits detected.
+23:47:16.568,INFO,Unity,No hits detected.
+23:47:16.582,INFO,Unity,No hits detected.
+23:47:16.596,INFO,Unity,No hits detected.
+23:47:16.610,INFO,Unity,No hits detected.
+23:47:16.624,INFO,Unity,No hits detected.
+23:47:16.637,INFO,Unity,No hits detected.
+23:47:16.650,INFO,Unity,No hits detected.
+23:47:16.664,INFO,Unity,No hits detected.
+23:47:16.678,INFO,Unity,No hits detected.
+23:47:16.693,INFO,Unity,No hits detected.
+23:47:16.708,INFO,Unity,No hits detected.
+23:47:16.722,INFO,Unity,No hits detected.
+23:47:16.734,INFO,Unity,No hits detected.
+23:47:16.751,INFO,Unity,No hits detected.
+23:47:16.766,INFO,Unity,No hits detected.
+23:47:16.780,INFO,Unity,No hits detected.
+23:47:16.794,INFO,Unity,No hits detected.
+23:47:16.810,INFO,Unity,No hits detected.
+23:47:16.824,INFO,Unity,No hits detected.
+23:47:16.838,INFO,Unity,No hits detected.
+23:47:16.852,INFO,Unity,No hits detected.
+23:47:16.866,INFO,Unity,No hits detected.
+23:47:16.879,INFO,Unity,No hits detected.
+23:47:16.892,INFO,Unity,No hits detected.
+23:47:16.910,INFO,Unity,Weight Update =0
+23:47:16.910,INFO,Unity,Weight Update2 =3
+23:47:17.278,INFO,Unity,Weight Update =0
+23:47:17.279,INFO,Unity,Weight Update2 =2
+23:47:17.294,INFO,Unity,Trigger Exit with: Tomato
+23:47:17.740,INFO,Unity,Weight Update =0
+23:47:17.740,INFO,Unity,Weight Update2 =1
+23:47:17.755,INFO,Unity,Trigger Exit with: Tomato (1)
+23:47:18.092,INFO,Unity,Weight Update =0
+23:47:18.120,INFO,Unity,Trigger Exit with: Tomato (2)
+23:47:18.431,DEBUG,PlayerCarrying,집기 조작Tomato (1) (UnityEngine.BoxCollider2D)
+23:47:18.432,DEBUG,PlayerCarrying,집기 조작Tomato (2) (UnityEngine.BoxCollider2D)
+23:47:18.433,DEBUG,PlayerCarrying,집기 조작WateringCan (UnityEngine.BoxCollider2D)
+23:47:18.433,INFO,Unity,_focus is null
+23:47:18.434,INFO,Unity,Weight Update =0
+23:47:18.435,INFO,Unity,Weight Update2 =2
+23:47:18.451,INFO,Unity,Trigger Entered with: WateringCan
+23:47:18.995,INFO,Unity,Trigger Entered with: Watering
+23:47:19.156,INFO,Unity,Trigger Exit with: WateringCan
+23:47:19.170,INFO,Unity,Trigger Entered with: ===Player===
+23:47:19.892,INFO,Unity,Trigger Entered with: Tomato
+23:47:19.952,INFO,Unity,Trigger Entered with: Tomato (1)
+23:47:20.018,INFO,Unity,Trigger Entered with: Tomato (2)
+23:47:20.355,INFO,Unity,Trigger Exit with: ===Player===
+23:47:20.356,INFO,Unity,Trigger Entered with: WateringCan
+23:47:20.496,INFO,Unity,Trigger Entered with: Tomato (1)
+23:47:20.535,INFO,Unity,Trigger Entered with: Tomato
+23:47:20.573,INFO,Unity,Trigger Entered with: Tomato (2)
+23:47:20.600,INFO,Unity,Trigger Exit with: Watering
+23:47:20.615,INFO,Unity,Trigger Exit with: Tomato (2)
+23:47:20.616,INFO,Unity,Trigger Exit with: Tomato
+23:47:20.658,INFO,Unity,Trigger Entered with: Tomato
+23:47:20.778,INFO,Unity,Trigger Entered with: Watering
+23:47:20.930,INFO,Unity,Trigger Exit with: WateringCan
+23:47:20.930,INFO,Unity,Trigger Entered with: ===Player===
+23:47:20.958,INFO,Unity,Trigger Exit with: ===Player===
+23:47:20.958,INFO,Unity,Trigger Entered with: WateringCan
+23:47:21.000,INFO,Unity,Trigger Exit with: Watering
+23:47:21.013,INFO,Unity,No hits detected.
+23:47:21.029,INFO,Unity,No hits detected.
+23:47:21.044,INFO,Unity,No hits detected.
+23:47:21.059,INFO,Unity,No hits detected.
+23:47:21.089,INFO,Unity,Trigger Entered with: Watering
+23:47:21.971,INFO,Unity,Trigger Entered with: Tomato
+23:47:22.058,INFO,Unity,Trigger Entered with: Tomato (1)
+23:47:22.120,INFO,Unity,Trigger Entered with: Tomato (2)
+23:47:22.508,INFO,Unity,Trigger Exit with: Watering
+23:47:22.522,INFO,Unity,No hits detected.
+23:47:22.550,INFO,Unity,Trigger Exit with: Tomato
+23:47:22.568,INFO,Unity,No hits detected.
+23:47:22.597,INFO,Unity,Trigger Entered with: Watering
+23:47:22.597,INFO,Unity,Trigger Entered with: Tomato
+23:47:22.638,INFO,Unity,Trigger Exit with: WateringCan
+23:47:22.638,INFO,Unity,Trigger Entered with: ===Player===
+23:47:22.652,INFO,Unity,Trigger Exit with: ===Player===
+23:47:22.652,INFO,Unity,Trigger Entered with: WateringCan
+23:47:22.751,INFO,Unity,Trigger Exit with: Watering
+23:47:22.778,INFO,Unity,Trigger Exit with: Tomato
+23:47:22.792,INFO,Unity,Trigger Entered with: Tomato (2)
+23:47:22.820,INFO,Unity,Trigger Entered with: Watering
+23:47:22.820,INFO,Unity,Trigger Entered with: Tomato
+23:47:22.877,INFO,Unity,Trigger Exit with: WateringCan
+23:47:22.878,INFO,Unity,Trigger Entered with: ===Player===
+23:47:22.908,INFO,Unity,Trigger Exit with: ===Player===
+23:47:22.910,INFO,Unity,Trigger Entered with: WateringCan
+23:47:23.016,INFO,Unity,Trigger Exit with: Tomato (2)
+23:47:23.716,INFO,Unity,Trigger Entered with: Tomato
+23:47:23.771,INFO,Unity,Trigger Exit with: Tomato (1)
+23:47:23.772,INFO,Unity,Trigger Entered with: Tomato (1)
+23:47:23.859,INFO,Unity,Trigger Entered with: Tomato (2)
+23:47:24.010,INFO,Unity,Trigger Entered with: Tomato (1)
+23:47:24.098,INFO,Unity,Trigger Exit with: Watering
+23:47:24.113,INFO,Unity,Trigger Exit with: Tomato (2)
+23:47:24.113,INFO,Unity,Trigger Exit with: Tomato
+23:47:24.160,INFO,Unity,Trigger Exit with: Tomato
+23:47:24.160,INFO,Unity,Trigger Entered with: Tomato (2)
+23:47:24.177,INFO,Unity,Trigger Entered with: Tomato
+23:47:24.178,INFO,Unity,Trigger Exit with: Tomato
+23:47:24.192,INFO,Unity,Trigger Entered with: Tomato
+23:47:24.193,INFO,Unity,Trigger Entered with: Watering
+23:47:24.209,INFO,Unity,Trigger Entered with: Tomato
+23:47:24.236,INFO,Unity,Trigger Exit with: WateringCan
+23:47:24.236,INFO,Unity,Trigger Entered with: ===Player===
+23:47:24.320,INFO,Unity,Trigger Exit with: ===Player===
+23:47:24.321,INFO,Unity,Trigger Entered with: WateringCan
+23:47:25.076,INFO,Unity,Trigger Entered with: Tomato
+23:47:25.154,INFO,Unity,Trigger Entered with: Tomato (1)
+23:47:25.209,INFO,Unity,Trigger Entered with: Tomato (2)
+23:47:25.268,INFO,Unity,Trigger Exit with: Tomato (1)
+23:47:25.582,INFO,Unity,maxJumpVelocity19.84127
+23:47:25.658,INFO,Unity,Trigger Exit with: Watering
+23:47:25.658,INFO,Unity,Trigger Exit with: WateringCan
+23:47:25.672,INFO,Unity,No hits detected.
+23:47:25.687,INFO,Unity,No hits detected.
+23:47:25.704,INFO,Unity,No hits detected.
+23:47:25.720,INFO,Unity,Trigger Exit with: ===Player===
+23:47:25.720,INFO,Unity,No hits detected.
+23:47:25.734,INFO,Unity,No hits detected.
+23:47:25.749,INFO,Unity,No hits detected.
+23:47:25.762,INFO,Unity,No hits detected.
+23:47:25.777,INFO,Unity,No hits detected.
+23:47:25.791,INFO,Unity,No hits detected.
+23:47:25.810,INFO,Unity,No hits detected.
+23:47:25.824,INFO,Unity,No hits detected.
+23:47:25.838,INFO,Unity,No hits detected.
+23:47:25.851,INFO,Unity,No hits detected.
+23:47:25.866,INFO,Unity,No hits detected.
+23:47:25.879,INFO,Unity,No hits detected.
+23:47:25.892,INFO,Unity,No hits detected.
+23:47:25.905,INFO,Unity,No hits detected.
+23:47:25.920,INFO,Unity,No hits detected.
+23:47:25.934,INFO,Unity,No hits detected.
+23:47:25.948,INFO,Unity,No hits detected.
+23:47:25.961,INFO,Unity,No hits detected.
+23:47:25.975,INFO,Unity,No hits detected.
+23:47:25.988,INFO,Unity,No hits detected.
+23:47:26.002,INFO,Unity,No hits detected.
+23:47:26.018,INFO,Unity,No hits detected.
+23:47:26.031,INFO,Unity,No hits detected.
+23:47:26.044,INFO,Unity,No hits detected.
+23:47:26.058,INFO,Unity,No hits detected.
+23:47:26.072,INFO,Unity,No hits detected.
+23:47:26.086,INFO,Unity,No hits detected.
+23:47:26.100,INFO,Unity,No hits detected.
+23:47:26.114,INFO,Unity,No hits detected.
+23:47:26.126,INFO,Unity,No hits detected.
+23:47:26.140,INFO,Unity,No hits detected.
+23:47:26.154,INFO,Unity,No hits detected.
+23:47:26.167,INFO,Unity,No hits detected.
+23:47:26.181,INFO,Unity,No hits detected.
+23:47:26.196,INFO,Unity,No hits detected.
+23:47:26.209,INFO,Unity,No hits detected.
+23:47:26.226,INFO,Unity,No hits detected.
+23:47:26.240,INFO,Unity,No hits detected.
+23:47:26.253,INFO,Unity,No hits detected.
+23:47:26.268,INFO,Unity,No hits detected.
+23:47:26.282,INFO,Unity,No hits detected.
+23:47:26.297,INFO,Unity,No hits detected.
+23:47:26.314,INFO,Unity,No hits detected.
+23:47:26.328,INFO,Unity,No hits detected.
+23:47:26.341,INFO,Unity,No hits detected.
+23:47:26.355,INFO,Unity,No hits detected.
+23:47:26.368,INFO,Unity,No hits detected.
+23:47:26.383,INFO,Unity,No hits detected.
+23:47:26.395,INFO,Unity,No hits detected.
+23:47:26.411,INFO,Unity,No hits detected.
+23:47:26.426,INFO,Unity,No hits detected.
+23:47:26.440,INFO,Unity,No hits detected.
+23:47:26.453,INFO,Unity,No hits detected.
+23:47:26.467,INFO,Unity,No hits detected.
+23:47:26.481,INFO,Unity,No hits detected.
+23:47:26.494,INFO,Unity,No hits detected.
+23:47:26.508,INFO,Unity,No hits detected.
+23:47:26.522,INFO,Unity,No hits detected.
+23:47:26.535,INFO,Unity,No hits detected.
+23:47:26.549,INFO,Unity,No hits detected.
+23:47:26.562,INFO,Unity,No hits detected.
+23:47:26.576,INFO,Unity,No hits detected.
+23:47:26.590,INFO,Unity,No hits detected.
+23:47:26.603,INFO,Unity,No hits detected.
+23:47:26.617,INFO,Unity,Trigger Entered with: Tomato (1)
+23:47:26.618,INFO,Unity,No hits detected.
+23:47:26.634,INFO,Unity,No hits detected.
+23:47:26.648,INFO,Unity,Trigger Entered with: ===Player===
+23:47:26.649,INFO,Unity,No hits detected.
+23:47:26.663,INFO,Unity,No hits detected.
+23:47:26.677,INFO,Unity,Trigger Entered with: WateringCan
+23:47:26.678,INFO,Unity,No hits detected.
+23:47:26.692,INFO,Unity,No hits detected.
+23:47:26.706,INFO,Unity,No hits detected.
+23:47:26.722,INFO,Unity,No hits detected.
+23:47:26.737,INFO,Unity,No hits detected.
+23:47:26.751,INFO,Unity,Trigger Exit with: Tomato (1)
+23:47:26.751,INFO,Unity,No hits detected.
+23:47:26.765,INFO,Unity,No hits detected.
+23:47:26.780,INFO,Unity,No hits detected.
+23:47:26.793,INFO,Unity,No hits detected.
+23:47:26.835,INFO,Unity,Trigger Exit with: Tomato
+23:47:26.836,INFO,Unity,Trigger Entered with: Watering
+23:47:26.875,INFO,Unity,Trigger Exit with: Tomato
+23:47:26.889,INFO,Unity,Trigger Exit with: Tomato (1)
+23:47:26.915,INFO,Unity,Trigger Entered with: Tomato
+23:47:26.975,INFO,Unity,Trigger Exit with: Tomato (2)
+23:47:27.014,INFO,Unity,Trigger Entered with: Tomato (1)
+23:47:27.216,INFO,Unity,Trigger Exit with: Watering
+23:47:27.292,INFO,Unity,Trigger Exit with: Tomato
+23:47:27.306,INFO,Unity,No hits detected.
+23:47:27.320,INFO,Unity,No hits detected.
+23:47:27.335,INFO,Unity,No hits detected.
+23:47:27.362,INFO,Unity,No hits detected.
+23:47:27.376,INFO,Unity,Trigger Exit with: WateringCan
+23:47:27.377,INFO,Unity,No hits detected.
+23:47:27.392,INFO,Unity,No hits detected.
+23:47:27.406,INFO,Unity,No hits detected.
+23:47:27.421,INFO,Unity,Weight Update =0
+23:47:27.553,INFO,Unity,Trigger Exit with: ===Player===
+23:47:27.615,INFO,Unity,Trigger Entered with: Tomato (2)
+23:47:27.768,INFO,Unity,Trigger Entered with: ===Player===
+23:47:27.935,INFO,Unity,Trigger Exit with: Tomato (2)
+23:47:27.935,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+23:47:27.996,INFO,Unity,Trigger Exit with: Tomato (2)
+23:47:27.996,INFO,Unity,Trigger Entered with: Tomato
+23:47:28.011,INFO,Unity,Trigger Entered with: Tomato (2)
+23:47:28.029,INFO,Unity,Trigger Entered with: Tomato (2)
+23:47:28.063,INFO,Unity,Trigger Entered with: ===Player===
+23:47:28.137,INFO,Unity,Trigger Exit with: ===Player===
+23:47:28.138,INFO,Unity,Trigger Exit with: Tomato (2)
+23:47:28.301,DEBUG,PlayerCarrying,집기 조작Tomato (2) (UnityEngine.BoxCollider2D)
+23:47:28.302,DEBUG,PlayerCarrying,집기 조작Tomato (UnityEngine.BoxCollider2D)
+23:47:28.304,DEBUG,PlayerCarrying,집기 조작Tomato (2) (UnityEngine.BoxCollider2D)
+23:47:28.304,DEBUG,PlayerCarrying,집기 조작Tomato (1) (UnityEngine.BoxCollider2D)
+23:47:28.305,DEBUG,PlayerCarrying,집기 조작Tomato (1) (UnityEngine.BoxCollider2D)
+23:47:28.305,DEBUG,PlayerCarrying,집기 조작Tomato (2) (UnityEngine.BoxCollider2D)
+23:47:28.306,DEBUG,PlayerCarrying,집기 조작Tomato (2) (UnityEngine.BoxCollider2D)
+23:47:28.306,DEBUG,PlayerCarrying,집기 조작Tomato (UnityEngine.BoxCollider2D)
+23:47:28.308,INFO,Unity,_focus is null
+23:47:28.308,INFO,Unity,Weight Update =0
+23:47:28.309,INFO,Unity,Weight Update2 =1
+23:47:28.614,INFO,Unity,Trigger Entered with: Tomato (2)
+23:47:28.909,INFO,Unity,Trigger Exit with: Tomato (1)
+23:47:29.058,INFO,Unity,Trigger Exit with: Tomato (2)
+23:47:29.059,INFO,Unity,Trigger Entered with: ===Player===
+23:47:29.112,INFO,Unity,Trigger Exit with: ===Player===
+23:47:29.112,INFO,Unity,Trigger Entered with: Tomato (2)
+23:47:29.527,INFO,Unity,maxJumpVelocity19.92032
+23:47:29.615,INFO,Unity,Trigger Exit with: Tomato (2)
+23:47:29.668,INFO,Unity,Trigger Exit with: ===Player===
+23:47:29.669,DEBUG,PlayerCarrying,집기 조작Tomato (2) (UnityEngine.BoxCollider2D)
+23:47:29.713,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+23:47:29.957,DEBUG,PlayerCarrying,집기 조작Tomato (2) (UnityEngine.BoxCollider2D)
+23:47:30.048,INFO,Unity,Trigger Entered with: ===Player===
+23:47:30.074,INFO,Unity,Trigger Entered with: ===Player===
+23:47:30.130,INFO,Unity,Trigger Exit with: ===Player===
+23:47:30.131,INFO,Unity,Trigger Entered with: Tomato (2)
+23:47:30.320,DEBUG,PlayerCarrying,집기 조작Tomato (1) (UnityEngine.BoxCollider2D)
+23:47:30.320,DEBUG,PlayerCarrying,집기 조작Tomato (2) (UnityEngine.BoxCollider2D)
+23:47:30.321,DEBUG,PlayerCarrying,집기 조작Tomato (UnityEngine.BoxCollider2D)
+23:47:30.322,DEBUG,PlayerCarrying,집기 조작Tomato (2) (UnityEngine.BoxCollider2D)
+23:47:30.322,DEBUG,PlayerCarrying,집기 조작Tomato (UnityEngine.BoxCollider2D)
+23:47:30.323,DEBUG,PlayerCarrying,집기 조작Tomato (2) (UnityEngine.BoxCollider2D)
+23:47:30.324,INFO,Unity,_focus is null
+23:47:30.324,INFO,Unity,Weight Update =0
+23:47:30.325,INFO,Unity,Weight Update2 =2
+23:47:30.706,DEBUG,PlayerCarrying,집기 조작Tomato (UnityEngine.BoxCollider2D)
+23:47:30.707,DEBUG,PlayerCarrying,집기 조작Tomato (1) (UnityEngine.BoxCollider2D)
+23:47:30.708,DEBUG,PlayerCarrying,집기 조작Tomato (2) (UnityEngine.BoxCollider2D)
+23:47:30.708,DEBUG,PlayerCarrying,집기 조작Tomato (2) (UnityEngine.BoxCollider2D)
+23:47:30.709,DEBUG,PlayerCarrying,집기 조작Tomato (2) (UnityEngine.BoxCollider2D)
+23:47:30.710,INFO,Unity,_focus is null
+23:47:30.710,INFO,Unity,Weight Update =0
+23:47:30.711,INFO,Unity,Weight Update2 =3
+23:47:30.944,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+23:47:31.153,DEBUG,PlayerCarrying,집기 조작Tomato (2) (UnityEngine.BoxCollider2D)
+23:47:31.154,DEBUG,PlayerCarrying,집기 조작Tomato (UnityEngine.BoxCollider2D)
+23:47:31.154,DEBUG,PlayerCarrying,집기 조작Tomato (1) (UnityEngine.BoxCollider2D)
+23:47:31.154,DEBUG,PlayerCarrying,집기 조작Tomato (2) (UnityEngine.BoxCollider2D)
+23:47:31.154,DEBUG,PlayerCarrying,집기 조작Tomato (2) (UnityEngine.BoxCollider2D)
+23:47:31.156,INFO,Unity,_focus is null
+23:47:31.157,INFO,Unity,Weight Update =0
+23:47:31.157,INFO,Unity,Weight Update2 =4
+23:47:31.172,INFO,Unity,Trigger Exit with: Tomato (2)
+23:47:31.199,INFO,Unity,Trigger Exit with: Tomato
+23:47:31.249,INFO,Unity,Trigger Entered with: Tomato
+23:47:31.277,INFO,Unity,Trigger Entered with: Tomato (1)
+23:47:31.397,INFO,Unity,Trigger Exit with: Tomato
+23:47:31.398,INFO,Unity,Trigger Entered with: ===Player===
+23:47:31.398,INFO,Unity,Trigger Exit with: Tomato (2)
+23:47:31.399,INFO,Unity,Trigger Exit with: Tomato (2)
+23:47:31.512,DEBUG,PlayerCarrying,집기 조작Tomato (2) (UnityEngine.BoxCollider2D)
+23:47:31.513,DEBUG,PlayerCarrying,집기 조작Tomato (2) (UnityEngine.BoxCollider2D)
+23:47:31.514,DEBUG,PlayerCarrying,집기 조작Tomato (1) (UnityEngine.BoxCollider2D)
+23:47:31.514,DEBUG,PlayerCarrying,집기 조작Tomato (UnityEngine.BoxCollider2D)
+23:47:31.515,DEBUG,PlayerCarrying,집기 조작Tomato (UnityEngine.BoxCollider2D)
+23:47:31.515,DEBUG,PlayerCarrying,집기 조작Tomato (1) (UnityEngine.BoxCollider2D)
+23:47:31.516,INFO,Unity,_focus is null
+23:47:31.517,INFO,Unity,Weight Update =0
+23:47:31.518,INFO,Unity,Weight Update2 =5
+23:47:31.533,INFO,Unity,Trigger Exit with: Tomato (1)
+23:47:31.978,INFO,Unity,Trigger Exit with: ===Player===
+23:47:31.978,INFO,Unity,Trigger Entered with: Tomato (2)
+23:47:31.980,INFO,Unity,Trigger Entered with: Tomato
+23:47:31.980,INFO,Unity,Trigger Entered with: Tomato (2)
+23:47:32.070,DEBUG,PlayerCarrying,집기 조작Tomato (2) (UnityEngine.BoxCollider2D)
+23:47:32.071,DEBUG,PlayerCarrying,집기 조작Tomato (2) (UnityEngine.BoxCollider2D)
+23:47:32.072,DEBUG,PlayerCarrying,집기 조작Tomato (UnityEngine.BoxCollider2D)
+23:47:32.072,DEBUG,PlayerCarrying,집기 조작Tomato (1) (UnityEngine.BoxCollider2D)
+23:47:32.074,DEBUG,PlayerCarrying,집기 조작Tomato (2) (UnityEngine.BoxCollider2D)
+23:47:32.074,DEBUG,PlayerCarrying,집기 조작Tomato (UnityEngine.BoxCollider2D)
+23:47:32.074,INFO,Unity,_focus is null
+23:47:32.075,INFO,Unity,Weight Update =0
+23:47:32.076,INFO,Unity,Weight Update2 =6
+23:47:32.091,INFO,Unity,Trigger Exit with: Tomato (2)
+23:47:32.107,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+23:47:32.196,INFO,Unity,Trigger Exit with: Tomato (1)
+23:47:32.378,INFO,Unity,Trigger Entered with: Tomato (2)
+23:47:32.445,DEBUG,PlayerCarrying,집기 조작Tomato (UnityEngine.BoxCollider2D)
+23:47:32.446,DEBUG,PlayerCarrying,집기 조작Tomato (1) (UnityEngine.BoxCollider2D)
+23:47:32.446,DEBUG,PlayerCarrying,집기 조작Tomato (2) (UnityEngine.BoxCollider2D)
+23:47:32.447,DEBUG,PlayerCarrying,집기 조작Tomato (UnityEngine.BoxCollider2D)
+23:47:32.447,DEBUG,PlayerCarrying,집기 조작Tomato (2) (UnityEngine.BoxCollider2D)
+23:47:32.448,DEBUG,PlayerCarrying,집기 조작Tomato (1) (UnityEngine.BoxCollider2D)
+23:47:32.449,INFO,Unity,_focus is null
+23:47:32.449,INFO,Unity,Weight Update =0
+23:47:32.450,INFO,Unity,Weight Update2 =7
+23:47:32.464,INFO,Unity,Trigger Exit with: Tomato
+23:47:32.490,INFO,Unity,Trigger Entered with: Tomato (1)
+23:47:32.818,DEBUG,PlayerCarrying,집기 조작Tomato (UnityEngine.BoxCollider2D)
+23:47:32.820,DEBUG,PlayerCarrying,집기 조작Tomato (1) (UnityEngine.BoxCollider2D)
+23:47:32.820,DEBUG,PlayerCarrying,집기 조작Tomato (2) (UnityEngine.BoxCollider2D)
+23:47:32.821,DEBUG,PlayerCarrying,집기 조작Tomato (2) (UnityEngine.BoxCollider2D)
+23:47:32.821,DEBUG,PlayerCarrying,집기 조작Tomato (1) (UnityEngine.BoxCollider2D)
+23:47:32.821,INFO,Unity,_focus is null
+23:47:32.823,INFO,Unity,Weight Update =0
+23:47:32.823,INFO,Unity,Weight Update2 =8
+23:47:32.838,INFO,Unity,Trigger Exit with: Tomato
+23:47:33.002,INFO,Unity,maxJumpVelocity19.37984
+23:47:33.034,INFO,Unity,Trigger Exit with: Tomato (2)
+23:47:33.047,INFO,Unity,Trigger Exit with: Tomato
+23:47:33.073,INFO,Unity,Trigger Exit with: Tomato (2)
+23:47:33.137,INFO,Unity,Trigger Exit with: ===Player===
+23:47:33.332,INFO,Unity,Weight Update =0
+23:47:33.333,INFO,Unity,Weight Update2 =7
+23:47:33.587,INFO,Unity,Trigger Entered with: ===Player===
+23:47:33.656,INFO,Unity,Trigger Entered with: Tomato (2)
+23:47:33.696,INFO,Unity,Trigger Entered with: Tomato
+23:47:33.697,INFO,Unity,Weight Update =0
+23:47:33.697,INFO,Unity,Weight Update2 =6
+23:47:33.711,INFO,Unity,Trigger Entered with: Tomato
+23:47:33.737,INFO,Unity,Trigger Entered with: Tomato (2)
+23:47:33.930,INFO,Unity,Trigger Entered with: Tomato
+23:47:33.946,INFO,Unity,maxJumpVelocity19.53125
+23:47:33.974,INFO,Unity,Trigger Exit with: Tomato (2)
+23:47:33.999,INFO,Unity,Trigger Exit with: Tomato
+23:47:34.014,INFO,Unity,Trigger Exit with: Tomato (2)
+23:47:34.045,INFO,Unity,Weight Update =0
+23:47:34.046,INFO,Unity,Weight Update2 =5
+23:47:34.061,INFO,Unity,Trigger Entered with: Tomato (2)
+23:47:34.098,INFO,Unity,Trigger Exit with: ===Player===
+23:47:34.139,INFO,Unity,Trigger Exit with: Tomato
+23:47:34.198,INFO,Unity,Trigger Entered with: Tomato
+23:47:34.461,INFO,Unity,Weight Update =0
+23:47:34.461,INFO,Unity,Weight Update2 =4
+23:47:34.553,INFO,Unity,Trigger Entered with: ===Player===
+23:47:34.617,INFO,Unity,Trigger Entered with: Tomato (2)
+23:47:34.658,INFO,Unity,Trigger Entered with: Tomato
+23:47:34.671,INFO,Unity,Trigger Entered with: Tomato (2)
+23:47:34.786,INFO,Unity,Weight Update =0
+23:47:34.787,INFO,Unity,Weight Update2 =3
+23:47:34.802,INFO,Unity,Trigger Entered with: Tomato (2)
+23:47:34.879,INFO,Unity,Trigger Exit with: Tomato (1)
+23:47:34.917,INFO,Unity,Trigger Entered with: Tomato (1)
+23:47:35.194,INFO,Unity,Trigger Entered with: Tomato (1)
+23:47:35.194,INFO,Unity,maxJumpVelocity19.76285
+23:47:35.234,INFO,Unity,Trigger Exit with: Tomato (2)
+23:47:35.247,INFO,Unity,Trigger Exit with: Tomato
+23:47:35.262,INFO,Unity,Weight Update =0
+23:47:35.262,INFO,Unity,Weight Update2 =2
+23:47:35.281,INFO,Unity,Trigger Exit with: Tomato (2)
+23:47:35.281,INFO,Unity,Trigger Entered with: Tomato (2)
+23:47:35.296,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+23:47:35.329,INFO,Unity,Trigger Exit with: ===Player===
+23:47:35.605,INFO,Unity,Weight Update =0
+23:47:35.605,INFO,Unity,Weight Update2 =1
+23:47:35.772,INFO,Unity,Trigger Entered with: ===Player===
+23:47:35.837,INFO,Unity,Trigger Entered with: Tomato (2)
+23:47:35.851,INFO,Unity,Trigger Exit with: Tomato (1)
+23:47:35.876,INFO,Unity,Trigger Entered with: Tomato (1)
+23:47:35.970,INFO,Unity,Weight Update =0
+23:47:35.996,INFO,Unity,Trigger Exit with: Tomato (2)
+23:47:35.997,INFO,Unity,Trigger Entered with: Tomato (2)
+23:47:36.048,INFO,Unity,Trigger Entered with: Tomato
+23:47:36.199,INFO,Unity,maxJumpVelocity20
+23:47:36.325,INFO,Unity,Weight Update =0
+23:47:36.339,INFO,Unity,Trigger Exit with: ===Player===
+23:47:36.779,INFO,Unity,Trigger Entered with: ===Player===
+23:47:37.500,INFO,Unity,Trigger Exit with: Tomato (2)
+23:47:37.589,INFO,Unity,Trigger Exit with: Tomato
+23:47:37.605,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+23:47:37.738,INFO,Unity,Trigger Entered with: Tomato
+23:47:37.788,INFO,Unity,Trigger Entered with: Tomato (2)
+23:47:38.373,INFO,Unity,maxJumpVelocity20
+23:47:38.510,INFO,Unity,Trigger Exit with: ===Player===
+23:47:39.513,INFO,Unity,Trigger Entered with: Tomato
+23:47:39.611,DEBUG,PlayerCarrying,집기 조작Tomato (UnityEngine.BoxCollider2D)
+23:47:39.613,DEBUG,PlayerCarrying,집기 조작Tomato (UnityEngine.BoxCollider2D)
+23:47:39.613,DEBUG,PlayerCarrying,집기 조작Tomato (1) (UnityEngine.BoxCollider2D)
+23:47:39.614,DEBUG,PlayerCarrying,집기 조작Tomato (1) (UnityEngine.BoxCollider2D)
+23:47:39.614,DEBUG,PlayerCarrying,집기 조작WateringCan (UnityEngine.BoxCollider2D)
+23:47:39.615,INFO,Unity,_focus is null
+23:47:39.616,INFO,Unity,Weight Update =0
+23:47:39.616,INFO,Unity,Weight Update2 =2
+23:47:39.635,INFO,Unity,No hits detected.
+23:47:39.650,INFO,Unity,No hits detected.
+23:47:39.664,INFO,Unity,No hits detected.
+23:47:39.677,INFO,Unity,No hits detected.
+23:47:39.691,INFO,Unity,No hits detected.
+23:47:39.705,INFO,Unity,No hits detected.
+23:47:39.720,INFO,Unity,No hits detected.
+23:47:39.734,INFO,Unity,No hits detected.
+23:47:39.750,INFO,Unity,Trigger Exit with: Tomato (1)
+23:47:39.751,INFO,Unity,No hits detected.
+23:47:39.766,INFO,Unity,No hits detected.
+23:47:39.780,INFO,Unity,No hits detected.
+23:47:39.795,INFO,Unity,No hits detected.
+23:47:39.808,INFO,Unity,No hits detected.
+23:47:39.822,INFO,Unity,No hits detected.
+23:47:39.838,INFO,Unity,No hits detected.
+23:47:39.853,INFO,Unity,No hits detected.
+23:47:39.866,INFO,Unity,No hits detected.
+23:47:39.880,INFO,Unity,Trigger Exit with: Tomato
+23:47:39.881,INFO,Unity,No hits detected.
+23:47:39.894,INFO,Unity,No hits detected.
+23:47:39.909,INFO,Unity,No hits detected.
+23:47:39.922,INFO,Unity,No hits detected.
+23:47:39.936,INFO,Unity,No hits detected.
+23:47:39.949,INFO,Unity,No hits detected.
+23:47:39.964,INFO,Unity,No hits detected.
+23:47:39.978,INFO,Unity,No hits detected.
+23:47:39.993,INFO,Unity,No hits detected.
+23:47:40.007,INFO,Unity,No hits detected.
+23:47:40.020,INFO,Unity,No hits detected.
+23:47:40.033,INFO,Unity,No hits detected.
+23:47:40.049,INFO,Unity,No hits detected.
+23:47:40.063,INFO,Unity,No hits detected.
+23:47:40.076,INFO,Unity,No hits detected.
+23:47:40.090,INFO,Unity,No hits detected.
+23:47:40.104,INFO,Unity,No hits detected.
+23:47:40.117,INFO,Unity,No hits detected.
+23:47:40.131,INFO,Unity,No hits detected.
+23:47:40.145,INFO,Unity,No hits detected.
+23:47:40.157,INFO,Unity,No hits detected.
+23:47:40.172,INFO,Unity,No hits detected.
+23:47:40.185,INFO,Unity,No hits detected.
+23:47:40.198,INFO,Unity,No hits detected.
+23:47:40.212,INFO,Unity,No hits detected.
+23:47:40.226,INFO,Unity,No hits detected.
+23:47:40.239,INFO,Unity,No hits detected.
+23:47:40.256,INFO,Unity,No hits detected.
+23:47:40.270,INFO,Unity,No hits detected.
+23:47:40.282,INFO,Unity,No hits detected.
+23:47:40.296,INFO,Unity,No hits detected.
+23:47:40.310,INFO,Unity,No hits detected.
+23:47:40.324,INFO,Unity,No hits detected.
+23:47:40.338,INFO,Unity,No hits detected.
+23:47:40.354,INFO,Unity,No hits detected.
+23:47:40.368,INFO,Unity,No hits detected.
+23:47:40.382,INFO,Unity,No hits detected.
+23:47:40.396,INFO,Unity,No hits detected.
+23:47:40.410,INFO,Unity,No hits detected.
+23:47:40.426,INFO,Unity,No hits detected.
+23:47:40.440,INFO,Unity,No hits detected.
+23:47:40.457,INFO,Unity,No hits detected.
+23:47:40.471,INFO,Unity,No hits detected.
+23:47:40.484,INFO,Unity,No hits detected.
+23:47:40.497,INFO,Unity,No hits detected.
+23:47:40.511,INFO,Unity,No hits detected.
+23:47:40.525,INFO,Unity,No hits detected.
+23:47:40.539,INFO,Unity,No hits detected.
+23:47:40.552,INFO,Unity,No hits detected.
+23:47:40.566,INFO,Unity,No hits detected.
+23:47:40.580,INFO,Unity,No hits detected.
+23:47:40.594,INFO,Unity,No hits detected.
+23:47:40.608,INFO,Unity,No hits detected.
+23:47:40.621,INFO,Unity,No hits detected.
+23:47:40.635,INFO,Unity,No hits detected.
+23:47:40.648,INFO,Unity,No hits detected.
+23:47:40.666,INFO,Unity,No hits detected.
+23:47:40.666,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+23:47:40.684,INFO,Unity,No hits detected.
+23:47:40.701,INFO,Unity,No hits detected.
+23:47:40.714,INFO,Unity,No hits detected.
+23:47:40.728,INFO,Unity,No hits detected.
+23:47:40.748,INFO,Unity,Weight Update =0
+23:47:41.254,INFO,Unity,Trigger Entered with: Tomato
+23:47:41.468,INFO,Unity,Trigger Entered with: Tomato (1)
+23:47:41.719,INFO,Unity,Trigger Entered with: Tomato (1)
+23:47:41.747,INFO,Unity,maxJumpVelocity20
+23:47:41.791,INFO,Unity,Trigger Exit with: Tomato (1)
+23:47:42.211,INFO,Unity,Trigger Entered with: ===Player===
+23:47:42.341,DEBUG,PlayerCarrying,집기 조작Tomato (1) (UnityEngine.BoxCollider2D)
+23:47:42.342,DEBUG,PlayerCarrying,집기 조작Tomato (2) (UnityEngine.BoxCollider2D)
+23:47:42.343,DEBUG,PlayerCarrying,집기 조작Tomato (2) (UnityEngine.BoxCollider2D)
+23:47:42.343,DEBUG,PlayerCarrying,집기 조작Tomato (UnityEngine.BoxCollider2D)
+23:47:42.343,INFO,Unity,_focus is null
+23:47:42.344,INFO,Unity,Weight Update =0
+23:47:42.345,INFO,Unity,Weight Update2 =1
+23:47:42.591,INFO,Unity,Trigger Exit with: Tomato (2)
+23:47:42.619,INFO,Unity,Trigger Exit with: Tomato (2)
+23:47:42.879,INFO,Unity,Trigger Exit with: Tomato
+23:47:43.095,INFO,Unity,maxJumpVelocity19.92032
+23:47:43.175,INFO,Unity,Trigger Exit with: Tomato (1)
+23:47:43.238,INFO,Unity,Trigger Exit with: ===Player===
+23:47:43.711,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+23:47:48.013,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+23:47:50.210,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+23:47:52.884,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+23:47:54.331,INFO,Unity,Weight Update =0
+23:47:57.532,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+23:48:00.661,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+23:48:03.332,DEBUG,PlayerCarrying,집기 조작Tomato (1) (UnityEngine.BoxCollider2D)
+23:48:03.333,INFO,Unity,_focus is null
+23:48:03.334,INFO,Unity,Weight Update =0
+23:48:03.334,INFO,Unity,Weight Update2 =1
+23:48:04.606,INFO,Unity,maxJumpVelocity19.92032
+23:48:04.687,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+23:48:05.434,INFO,Unity,사다리 점프
+23:48:05.937,INFO,Unity,maxJumpVelocity19.92032
+23:48:06.870,INFO,Unity,Weight Update =0
+23:48:07.442,INFO,Unity,maxJumpVelocity20
+23:48:08.201,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+23:48:08.202,INFO,Unity,_focus is null
+23:48:08.203,INFO,Unity,Weight Update =0
+23:48:08.204,INFO,Unity,Weight Update2 =4
+23:48:09.113,INFO,Unity,nal닿음
+23:48:09.114,INFO,Unity,Trigger닿음
+23:48:09.131,INFO,Unity,nal닿음
+23:48:09.150,INFO,Unity,nal닿음
+23:48:09.151,INFO,Unity,Trigger닿음
+23:48:09.348,INFO,Unity,nal닿음
+23:48:09.375,INFO,Unity,Trigger닿음
+23:48:09.376,INFO,Unity,nal닿음
+23:48:09.404,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+23:48:09.774,INFO,Unity,maxJumpVelocity19.68504
+23:48:09.790,INFO,Unity,Collider닿음
+23:48:10.377,INFO,Unity,Trigger닿음
+23:48:10.377,INFO,Unity,nal닿음
+23:48:10.556,INFO,Unity,maxJumpVelocity19.68504
+23:48:10.950,INFO,Unity,Trigger닿음
+23:48:10.952,INFO,Unity,nal닿음
+23:48:11.035,INFO,Unity,nal닿음
+23:48:11.036,INFO,Unity,Trigger닿음
+23:48:11.156,INFO,Unity,nal닿음
+23:48:11.156,INFO,Unity,Trigger닿음
+23:48:11.228,INFO,Unity,Trigger닿음
+23:48:11.230,INFO,Unity,nal닿음
+23:48:11.292,INFO,Unity,Trigger닿음
+23:48:11.293,INFO,Unity,nal닿음
+23:48:11.404,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+23:48:11.675,INFO,Unity,Collider닿음
+23:48:11.690,INFO,Unity,Collider닿음
+23:48:11.935,INFO,Unity,maxJumpVelocity19.68504
+23:48:12.071,INFO,Unity,nal닿음
+23:48:12.073,INFO,Unity,Trigger닿음
+23:48:12.150,INFO,Unity,Collider닿음
+23:48:12.491,INFO,Unity,Collider닿음
+23:48:12.532,INFO,Unity,Trigger닿음
+23:48:12.533,INFO,Unity,nal닿음
+23:48:12.835,INFO,Unity,Collider닿음
+23:48:12.888,INFO,Unity,maxJumpVelocity19.68504
+23:48:13.275,INFO,Unity,nal닿음
+23:48:13.315,INFO,Unity,Trigger닿음
+23:48:13.397,INFO,Unity,nal닿음
+23:48:13.398,INFO,Unity,Trigger닿음
+23:48:13.516,INFO,Unity,Trigger닿음
+23:48:13.517,INFO,Unity,nal닿음
+23:48:13.578,INFO,Unity,nal닿음
+23:48:13.578,INFO,Unity,Trigger닿음
+23:48:13.645,INFO,Unity,nal닿음
+23:48:13.645,INFO,Unity,Trigger닿음
+23:48:14.080,INFO,Unity,maxJumpVelocity19.68504
+23:48:14.431,INFO,Unity,nal닿음
+23:48:14.458,INFO,Unity,nal닿음
+23:48:14.459,INFO,Unity,Trigger닿음
+23:48:14.596,INFO,Unity,Trigger닿음
+23:48:14.596,INFO,Unity,nal닿음
+23:48:14.697,INFO,Unity,Trigger닿음
+23:48:14.698,INFO,Unity,nal닿음
+23:48:14.762,INFO,Unity,nal닿음
+23:48:14.762,INFO,Unity,Trigger닿음
+23:48:15.148,INFO,Unity,maxJumpVelocity19.68504
+23:48:15.311,INFO,Unity,Collider닿음
+23:48:15.398,INFO,Unity,Trigger닿음
+23:48:15.400,INFO,Unity,nal닿음
+23:48:15.439,INFO,Unity,Collider닿음
+23:48:15.440,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:48:15.441,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:48:15.442,DEBUG,PlayerCarrying,집기 조작Wood (23) (UnityEngine.BoxCollider2D)
+23:48:15.442,INFO,Unity,_focus is null
+23:48:15.443,INFO,Unity,Weight Update =0
+23:48:15.443,INFO,Unity,Weight Update2 =8
+23:48:15.661,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:48:15.662,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:48:15.663,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+23:48:15.663,INFO,Unity,_focus is null
+23:48:15.664,INFO,Unity,Weight Update =0
+23:48:15.664,INFO,Unity,Weight Update2 =10
+23:48:15.892,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+23:48:16.043,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+23:48:16.044,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:48:16.044,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:48:16.045,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:48:16.046,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:48:16.046,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:48:16.046,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:48:16.047,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:48:16.047,INFO,Unity,_focus is null
+23:48:16.048,INFO,Unity,Weight Update =0
+23:48:16.049,INFO,Unity,Weight Update2 =12
+23:48:16.080,INFO,Unity,maxJumpVelocity19.08397
+23:48:16.782,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:48:16.782,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:48:16.784,DEBUG,PlayerCarrying,집기 조작Axe (UnityEngine.BoxCollider2D)
+23:48:16.785,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:48:16.785,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:48:16.786,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:48:16.786,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:48:16.787,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:48:16.787,DEBUG,PlayerCarrying,집기 조작WoodLeft(Clone) (UnityEngine.BoxCollider2D)
+23:48:16.788,DEBUG,PlayerCarrying,집기 조작WoodRight(Clone) (UnityEngine.BoxCollider2D)
+23:48:16.788,INFO,Unity,_focus is null
+23:48:16.790,INFO,Unity,Weight Update =0
+23:48:16.790,INFO,Unity,Weight Update2 =14
+23:48:17.057,INFO,Unity,maxJumpVelocity18.93939
+23:48:18.127,INFO,Unity,maxJumpVelocity18.93939
+23:48:18.155,INFO,Unity,nal닿음
+23:48:18.172,INFO,Unity,nal닿음
+23:48:18.197,INFO,Unity,nal닿음
+23:48:18.248,INFO,Unity,Collider닿음
+23:48:18.248,INFO,Unity,nal닿음
+23:48:18.249,INFO,Unity,Trigger닿음
+23:48:18.314,INFO,Unity,Collider닿음
+23:48:18.738,INFO,Unity,nal닿음
+23:48:18.738,INFO,Unity,Trigger닿음
+23:48:18.738,INFO,Unity,Collider닿음
+23:48:18.994,INFO,Unity,Collider닿음
+23:48:18.994,INFO,Unity,Collider닿음
+23:48:19.035,INFO,Unity,maxJumpVelocity18.93939
+23:48:19.074,INFO,Unity,Collider닿음
+23:48:19.074,INFO,Unity,Collider닿음
+23:48:19.115,INFO,Unity,Trigger닿음
+23:48:19.115,INFO,Unity,nal닿음
+23:48:19.179,INFO,Unity,Collider닿음
+23:48:19.208,INFO,Unity,Collider닿음
+23:48:19.371,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+23:48:19.631,INFO,Unity,Trigger닿음
+23:48:19.632,INFO,Unity,nal닿음
+23:48:19.663,INFO,Unity,Collider닿음
+23:48:19.815,INFO,Unity,maxJumpVelocity18.93939
+23:48:19.856,INFO,Unity,Collider닿음
+23:48:20.020,INFO,Unity,Collider닿음
+23:48:20.372,INFO,Unity,Collider닿음
+23:48:20.662,INFO,Unity,maxJumpVelocity18.93939
+23:48:20.693,INFO,Unity,Collider닿음
+23:48:20.829,INFO,Unity,Collider닿음
+23:48:21.041,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+23:48:21.376,INFO,Unity,nal닿음
+23:48:21.377,INFO,Unity,Trigger닿음
+23:48:21.734,INFO,Unity,Weight Update =0
+23:48:21.735,INFO,Unity,Weight Update2 =12
+23:48:21.942,INFO,Unity,maxJumpVelocity19.08397
+23:48:21.970,INFO,Unity,Trigger닿음
+23:48:21.970,INFO,Unity,nal닿음
+23:48:21.996,INFO,Unity,Trigger닿음
+23:48:21.997,INFO,Unity,nal닿음
+23:48:22.533,INFO,Unity,Weight Update =0
+23:48:22.534,INFO,Unity,Weight Update2 =10
+23:48:22.748,INFO,Unity,indexChamge
+23:48:22.748,INFO,Unity,짐 1충돌
+23:48:22.750,DEBUG,Carryable,"충돌로 인해 짐 떨어뜨림. Fall떨어트린 위치 : (-10.14, 23.04, 0.00)"
+23:48:22.751,INFO,Unity,Weight Update =0
+23:48:22.864,INFO,Unity,Weight Update =0
+23:48:23.198,INFO,Unity,Weight Update =0
+23:48:23.452,INFO,Unity,maxJumpVelocity20
+23:48:23.604,INFO,Unity,Weight Update =0
+23:48:23.823,INFO,Unity,Weight Update =0
+23:48:24.481,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+23:48:25.123,INFO,Unity,maxJumpVelocity20
+23:48:25.954,INFO,Unity,사다리 점프
+23:48:26.866,INFO,Unity,maxJumpVelocity20
+23:48:27.903,INFO,Unity,maxJumpVelocity20
+23:48:28.352,INFO,Unity,사다리 점프
+23:48:28.929,INFO,Unity,Trigger Entered with: ===Player===
+23:48:28.930,INFO,Unity,Trigger Entered with: ===Player===
+23:48:28.958,INFO,Unity,Trigger Exit with: ===Player===
+23:48:28.958,INFO,Unity,Trigger Entered with: Tomato
+23:48:29.119,INFO,Unity,Trigger Entered with: ===Player===
+23:48:29.158,INFO,Unity,Trigger Exit with: ===Player===
+23:48:29.233,INFO,Unity,maxJumpVelocity20
+23:48:29.336,INFO,Unity,Trigger Entered with: ===Player===
+23:48:29.350,INFO,Unity,Trigger Exit with: ===Player===
+23:48:29.365,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+23:48:29.383,INFO,Unity,Trigger Exit with: ===Player===
+23:48:29.791,INFO,Unity,Trigger Entered with: ===Player===
+23:48:30.150,INFO,Unity,Trigger Entered with: ===Player===
+23:48:30.176,INFO,Unity,Trigger Exit with: ===Player===
+23:48:30.253,INFO,Unity,Trigger Exit with: Tomato (2)
+23:48:30.295,INFO,Unity,Trigger Exit with: Tomato (1)
+23:48:30.337,INFO,Unity,Trigger Entered with: Tomato (1)
+23:48:30.338,INFO,Unity,Trigger Entered with: Tomato (2)
+23:48:30.379,INFO,Unity,Trigger Entered with: ===Player===
+23:48:30.379,INFO,Unity,Trigger Exit with: ===Player===
+23:48:30.396,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+23:48:30.507,INFO,Unity,Trigger Exit with: Tomato
+23:48:30.559,INFO,Unity,Trigger Entered with: ===Player===
+23:48:30.599,INFO,Unity,Trigger Exit with: ===Player===
+23:48:30.614,INFO,Unity,Trigger Entered with: Tomato
+23:48:30.696,INFO,Unity,Trigger Entered with: Tomato (2)
+23:48:30.710,INFO,Unity,Trigger Exit with: Tomato (1)
+23:48:30.737,INFO,Unity,Trigger Entered with: Tomato (2)
+23:48:30.770,INFO,Unity,Trigger Entered with: ===Player===
+23:48:30.798,INFO,Unity,Trigger Exit with: ===Player===
+23:48:30.813,INFO,Unity,Trigger Entered with: Tomato (1)
+23:48:30.894,INFO,Unity,Trigger Exit with: Tomato
+23:48:30.988,INFO,Unity,Trigger Exit with: ===Player===
+23:48:31.150,INFO,Unity,Trigger Exit with: Tomato
+23:48:31.193,INFO,Unity,Trigger Exit with: Tomato (2)
+23:48:31.295,INFO,Unity,Trigger Entered with: Tomato (2)
+23:48:31.295,INFO,Unity,Trigger Entered with: Tomato
+23:48:32.825,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+23:48:33.075,INFO,Unity,maxJumpVelocity20
+23:48:33.834,INFO,Unity,maxJumpVelocity20
+23:48:34.083,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+23:48:34.306,INFO,Unity,벽 점프
+23:48:34.747,INFO,Unity,벽 점프
+23:48:35.238,INFO,Unity,벽 점프
+23:48:36.623,INFO,Unity,maxJumpVelocity20
+23:48:37.980,INFO,Unity,maxJumpVelocity20
+23:48:38.021,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+23:48:38.623,INFO,Unity,벽 점프
+23:48:39.065,INFO,Unity,벽 점프
+23:48:40.125,INFO,Unity,maxJumpVelocity20
+23:48:40.617,INFO,Unity,벽 점프
+23:48:41.554,INFO,Unity,maxJumpVelocity20
+23:48:42.010,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+23:48:43.705,INFO,Unity,maxJumpVelocity20
+23:48:44.542,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 21
+23:48:44.811,INFO,Unity,maxJumpVelocity20
+23:48:45.702,INFO,Unity,사다리 점프
+23:48:46.013,INFO,Unity,Trigger Entered with: ===Player===
+23:48:46.177,INFO,Unity,Trigger Exit with: Tomato (2)
+23:48:46.178,INFO,Unity,Trigger Exit with: Tomato (2)
+23:48:46.230,INFO,Unity,Trigger Entered with: ===Player===
+23:48:46.245,INFO,Unity,maxJumpVelocity20
+23:48:46.260,INFO,Unity,Trigger Exit with: ===Player===
+23:48:46.276,INFO,Unity,Trigger Entered with: Tomato (2)
+23:48:46.375,INFO,Unity,Trigger Exit with: ===Player===
+23:48:46.543,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 21
+23:48:46.910,INFO,Unity,Trigger Entered with: ===Player===
+23:48:47.076,INFO,Unity,Trigger Exit with: ===Player===
+23:48:47.864,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 21
+23:48:48.636,INFO,Unity,maxJumpVelocity20
+23:48:49.411,INFO,Unity,maxJumpVelocity20
+23:48:49.833,INFO,Unity,벽 점프
+23:48:50.237,INFO,Unity,벽 점프
+23:48:50.943,DEBUG,PlayerCarrying,집기 조작Bedding (UnityEngine.BoxCollider2D)
+23:48:50.945,INFO,Unity,_focus is null
+23:48:50.946,INFO,Unity,Weight Update =0
+23:48:50.946,INFO,Unity,Weight Update2 =1
+23:48:51.017,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 21
+23:48:52.281,INFO,Unity,maxJumpVelocity19.92032
+23:48:52.371,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 21
+23:48:53.020,INFO,Unity,maxJumpVelocity19.92032
+23:48:53.684,INFO,Unity,사다리 점프
+23:48:54.774,INFO,Unity,사다리 점프
+23:48:55.122,INFO,Unity,Weight Update =0
+23:48:56.960,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 21
+23:48:58.808,INFO,Unity,Trigger Exit with: Tomato
+23:48:58.809,INFO,Unity,Trigger Exit with: Tomato (1)
+23:48:58.809,INFO,Unity,Trigger Exit with: Tomato (2)
+23:48:58.810,INFO,Unity,Trigger Exit with: Wall2
+23:48:58.810,INFO,Unity,Trigger Exit with: Tomato
+23:48:58.810,INFO,Unity,Trigger Exit with: Tomato (1)
+23:48:58.810,INFO,Unity,Trigger Exit with: Wall2
+23:48:58.811,INFO,Unity,Trigger Exit with: Tomato
+23:48:58.811,INFO,Unity,Trigger Exit with: Tomato (2)
+23:48:58.812,INFO,Unity,Trigger Exit with: Wall2
+23:48:58.812,INFO,Unity,Trigger Exit with: Tomato (2)
+23:48:58.812,INFO,Unity,Trigger Exit with: Tomato (1)
+23:48:58.813,INFO,Unity,Trigger Exit with: Tomato
+23:48:58.813,INFO,Unity,Trigger Exit with: Tomato (2)
+23:48:58.814,INFO,Unity,Trigger Exit with: Wall2
+23:48:58.814,INFO,Unity,Trigger Exit with: Wall2

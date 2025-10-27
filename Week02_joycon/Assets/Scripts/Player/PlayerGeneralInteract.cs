@@ -1,33 +1,31 @@
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 public class PlayerGeneralInteract : MonoBehaviour
 {
     public float interactionRange = 1.5f;
     public LayerMask interactableMask;
 
-    public void OnInteract(InputAction.CallbackContext context)
+    public bool FindAndInteract()
     {
-        if (context.performed) FindAndInteract();
-    }
-
-    private void FindAndInteract()
-    {
-        Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, interactionRange, interactableMask);
+        Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, interactionRange);
 
         GameObject closestObj = null;
+        IInteractable interactable = null;
         float minDistance = Mathf.Infinity;
 
         foreach (Collider2D hit in hits)
         {
+            if (hit.TryGetComponent(out IInteractable i) == false) continue;
             float distance = Vector2.Distance(transform.position, hit.transform.position);
             if (distance < minDistance)
             {
                 minDistance = distance;
                 closestObj = hit.gameObject;
+                interactable = i;
             }
         }
 
-        if (closestObj != null && closestObj.TryGetComponent<IInteractable>(out IInteractable interactable)) interactable.Interact();
+        if (closestObj == null) return false;
+        else return interactable.Interact();
     }
 }

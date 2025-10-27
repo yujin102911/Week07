@@ -1,28 +1,28 @@
 using UnityEngine;
-using System.Collections; // Coroutine »ç¿ëÀ» À§ÇØ Ãß°¡
+using System.Collections; // Coroutine ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ß°ï¿½
 
 public class BathController : MonoBehaviour, IInteractable
 {
     [Header("WaterTank")]
-    [SerializeField] private GameObject tankSpriteOff; //¹° ÄÑ±â Àü
-    [SerializeField] private GameObject tankSpriteOn; //¹° ÄÔ
+    [SerializeField] private GameObject tankSpriteOff; //ï¿½ï¿½ ï¿½Ñ±ï¿½ ï¿½ï¿½
+    [SerializeField] private GameObject tankSpriteOn; //ï¿½ï¿½ ï¿½ï¿½
 
     [Header("Bath Water")]
-    [SerializeField] private Transform bathtupWater; //¹° ¿ÀºêÁ§Æ®
+    [SerializeField] private Transform bathtupWater; //ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ®
     [SerializeField] private float maxWaterLevelScaleY = 1.0f;
     [SerializeField] private float fillDuration = 5.0f;
 
     [Header("Washing Settings")]
-    [SerializeField] private string shampooId; //¼¤Çª ¾ÆÀÌµð
-    [SerializeField] private string mimicId; //¹Ì¹Í ¾ÆÀÌµð
-    [SerializeField] private GameObject cleanMimicPrefab; //±ú²ýÇÑ ¹Ì¹Í ÇÁ¸®ÆÕ
-    [SerializeField] private Transform spawnPoint; //±ú²ýÇÑ ¹Ì¹Í »ý¼º À§Ä¡
+    [SerializeField] private string shampooId; //ï¿½ï¿½Çª ï¿½ï¿½ï¿½Ìµï¿½
+    [SerializeField] private string mimicId; //ï¿½Ì¹ï¿½ ï¿½ï¿½ï¿½Ìµï¿½
+    [SerializeField] private GameObject cleanMimicPrefab; //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ì¹ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+    [SerializeField] private Transform spawnPoint; //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ì¹ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ä¡
 
-    private bool isTankrOn = false; //¹°ÅÊÅ© Å°½É?
-    private bool isWaterFull = false; //¹° ´ÙÂü?
-    private Vector3 initialWaterScale; //¹°ÀÇ ÃÊ±â ½ºÄÉÀÏ
+    private bool isTankrOn = false; //ï¿½ï¿½ï¿½ï¿½Å© Å°ï¿½ï¿½?
+    private bool isWaterFull = false; //ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½?
+    private Vector3 initialWaterScale; //ï¿½ï¿½ï¿½ï¿½ ï¿½Ê±ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
-    //¿åÁ¶ ¾È¿¡ ³õÀÎ ¾ÆÀÌÅÛ ÃßÀû ¿ë
+    //ï¿½ï¿½ï¿½ï¿½ ï¿½È¿ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½
     private GameObject itemInBath_1 = null;
     private GameObject itemInBath_2 = null;
 
@@ -36,24 +36,24 @@ public class BathController : MonoBehaviour, IInteractable
     #region Initialization
     private void LateInitialize()
     {
-        //²¨ÁüÀÌ ±âº»À¸·Î ÄÑÁ®ÀÖ°í ÄÑÁüÀº ²¨³ö¾ßÇÔ.
+        //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½âº»ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ö°ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
         if (tankSpriteOff != null) tankSpriteOff.SetActive(true);
         if (tankSpriteOn != null) tankSpriteOn.SetActive(false);
 
         if (bathtupWater != null)
         {
-            initialWaterScale = bathtupWater.localScale;//ÃÊ±â »çÀÌÁî ÀúÀå
+            initialWaterScale = bathtupWater.localScale;//ï¿½Ê±ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
             bathtupWater.localScale = new Vector3(initialWaterScale.x, 0f, initialWaterScale.z);
-            bathtupWater.gameObject.SetActive(false); //Ã³À½¿£ ¹° ¾Èº¸ÀÌ°Ô!!
+            bathtupWater.gameObject.SetActive(false); //Ã³ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½Èºï¿½ï¿½Ì°ï¿½!!
         }
         else
         {
-            GameLogger.Instance.LogError(this, "¿åÁ¶ ¹°ÀÌ ¿¬°áµÇÁö ¾Ê¾ÒÀ½");
+            GameLogger.Instance.LogError(this, "ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ê¾ï¿½ï¿½ï¿½");
         }
         Collider2D col = GetComponent<Collider2D>();
         if (col == null || !col.isTrigger)
         {
-            GameLogger.Instance.LogWarning(this, "BathController¿¡ isTriggerÀÌ ÀÖ¾î¾ß µÇ°Å³ª ÄÝ¶óÀÌ´õ°¡ ¾ø¾Æ");
+            GameLogger.Instance.LogWarning(this, "BathControllerï¿½ï¿½ isTriggerï¿½ï¿½ ï¿½Ö¾ï¿½ï¿½ ï¿½Ç°Å³ï¿½ ï¿½Ý¶ï¿½ï¿½Ì´ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
         }
         if (spawnPoint == null)
         {
@@ -65,61 +65,54 @@ public class BathController : MonoBehaviour, IInteractable
 
     #region Public Methods
 
-    ///<summary>ÇÃ·¹ÀÌ¾î°¡ »óÈ£ÀÛ¿ëÇÒ ¶§ È£Ãâ</summary>
-    public void Interact()
-    {
-        FillInter();
-
-    }
-    #endregion
-
-    #region Private Methods
-    ///<summary>Interact½Ã ¿åÁ¶¿¡ ¹° Ã¤¿ì´Â ÇÔ¼ö</summary>
-    private void FillInter()
+    ///<summary>ï¿½Ã·ï¿½ï¿½Ì¾î°¡ ï¿½ï¿½È£ï¿½Û¿ï¿½ï¿½ï¿½ ï¿½ï¿½ È£ï¿½ï¿½</summary>
+    public bool Interact()
     {
         if (isTankrOn)
         {
-            GameLogger.Instance.LogDebug(this, "ÀÌ¹Ì ¹° Â÷´Â Áß");
-            return;
+            GameLogger.Instance.LogDebug(this, "ï¿½Ì¹ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½");
+            return false;
         }
-        //¹° ÅÊÅ© ½ºÇÁ¶óÀÌÆ® ±³Ã¼
+        //ï¿½ï¿½ ï¿½ï¿½Å© ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ® ï¿½ï¿½Ã¼
         if (tankSpriteOff != null) { tankSpriteOff.SetActive(false); }
         if (tankSpriteOn != null) { tankSpriteOn.SetActive(true); }
-        //¿åÁ¶¿¡ ¹° Ã¤¿ì±â ½ÃÀÛ
+        //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ Ã¤ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
         if (bathtupWater != null)
         {
             bathtupWater.gameObject.SetActive(true);
             StartCoroutine(FillBathtubCoroutine());
         }
-        isTankrOn = true; //»óÅÂ º¯°æ
-        GameLogger.Instance.LogDebug(this, "¹°ÅÊÅ©¸¦ ÀÛµ¿½ÃÅ°°í ¿åÁ¶¿¡ ¹°À» Ã¤¿ì±â ½ÃÀÛÇÞ»ï");
+        isTankrOn = true; //ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+        GameLogger.Instance.LogDebug(this, "ï¿½ï¿½ï¿½ï¿½Å©ï¿½ï¿½ ï¿½Ûµï¿½ï¿½ï¿½Å°ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ Ã¤ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Þ»ï¿½");
+        return true;
     }
+    #endregion
 
-    ///<summary>¿åÁ¶¿¡ ¹°À» ¼­¼­È÷ Ã¤¿ì´Â ÄÚ·çÆ¾</summary>
+    ///<summary>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Ã¤ï¿½ï¿½ï¿½ ï¿½Ú·ï¿½Æ¾</summary>
     private IEnumerator FillBathtubCoroutine()
     {
         float elapsedTime = 0f;
-        Vector3 startScale = bathtupWater.localScale; //ÇöÀç ½ºÄÉÀÏ y = 0
-        Vector3 targetScale = new Vector3(initialWaterScale.x,  maxWaterLevelScaleY, initialWaterScale.z);
+        Vector3 startScale = bathtupWater.localScale; //ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ y = 0
+        Vector3 targetScale = new Vector3(initialWaterScale.x, maxWaterLevelScaleY, initialWaterScale.z);
 
-        while(elapsedTime < fillDuration)
+        while (elapsedTime < fillDuration)
         {
             float progress = elapsedTime / fillDuration;
             bathtupWater.localScale = Vector3.Lerp(startScale, targetScale, progress);
 
             elapsedTime += Time.deltaTime;
-            yield return null; //´ÙÀ½ ÇÁ·¹ÀÓ±îÁö ´ë±âÇÏ¼î
+            yield return null; //ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ó±ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ï¼ï¿½
         }
 
         bathtupWater.localScale = targetScale;
-        GameLogger.Instance.LogDebug(this, "¿åÁ¶¿¡ ¹°ÀÌ ´ÙÃ¡´Ù");
+        GameLogger.Instance.LogDebug(this, "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ã¡ï¿½ï¿½");
     }
 
-    ///<summary>¼¼Ã´ Á¶°ÇÀ» È®ÀÎÇÏ´Â ÇÔ¼ö</summary>
+    ///<summary>ï¿½ï¿½Ã´ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ È®ï¿½ï¿½ï¿½Ï´ï¿½ ï¿½Ô¼ï¿½</summary>
     private void CheckWashingConditions()
     {
-        if (!isWaterFull) return; //¹°µµ ´Ù ¾ÈÃ¡À¸¸é ¼¼Ã´ÇÒ ÁØºñ°¡ ¾ÈµÆÀ½
-        
+        if (!isWaterFull) return; //ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½Ã¡ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ã´ï¿½ï¿½ ï¿½Øºï¿½ ï¿½Èµï¿½ï¿½ï¿½
+
         if (itemInBath_1 == null || itemInBath_2 == null) return;
 
         string id1 = itemInBath_1.GetComponent<Carryable>().Id;
@@ -135,10 +128,10 @@ public class BathController : MonoBehaviour, IInteractable
 
     }
 
-    ///<summary>¹Ì¹ÍÀ» ¾Ä±â°í ¾ÆÀÌÅÛÀ» ¼Ò¸ðÇÏ´Â ÇÔ¼ö</summary>
+    ///<summary>ï¿½Ì¹ï¿½ï¿½ï¿½ ï¿½Ä±ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ò¸ï¿½ï¿½Ï´ï¿½ ï¿½Ô¼ï¿½</summary>
     private void WashMimic()
     {
-        GameLogger.Instance.LogDebug(this, "¼¼Ã´ ¼º°ø! ±ú²ýÇÑ ¹Ì¹Í ³ª¿È¿ä");
+        GameLogger.Instance.LogDebug(this, "ï¿½ï¿½Ã´ ï¿½ï¿½ï¿½ï¿½! ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ì¹ï¿½ ï¿½ï¿½ï¿½È¿ï¿½");
 
         if (cleanMimicPrefab != null)
         {
@@ -152,15 +145,15 @@ public class BathController : MonoBehaviour, IInteractable
         ResetBath();
     }
 
-    ///<summary>¿åÁ¶ ¸®¼Â</summary>
+    ///<summary>ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½</summary>
     private void ResetBath()
     {
-        GameLogger.Instance.LogDebug(this, "¿åÁ¶ ¸®¼Â");
+        GameLogger.Instance.LogDebug(this, "ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
         isTankrOn = false;
         isWaterFull = false;
-        
-        if(tankSpriteOff != null) tankSpriteOff.SetActive(true);
-        if(tankSpriteOn != null) tankSpriteOn.SetActive(false);
+
+        if (tankSpriteOff != null) tankSpriteOff.SetActive(true);
+        if (tankSpriteOn != null) tankSpriteOn.SetActive(false);
 
         if (bathtupWater != null)
         {
@@ -172,12 +165,12 @@ public class BathController : MonoBehaviour, IInteractable
 
 
     #region Trigger Methods
-    ///<summary>Æ®¸®°Å ·ÎÁ÷</summary>
+    ///<summary>Æ®ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½</summary>
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (!isWaterFull) return;
 
-        //¸¸¾à Æ®¸®°Å ¾È¿¡ µé¾î¿Â °Ô CarryableÀÌ ¾Æ´Ï°Å³ª, CarryableÀÌÁö¸¸ ÇÃ·¹ÀÌ¾î°¡ µé°íÀÖ´Â »óÅÂ¸é ¹«½Ã
+        //ï¿½ï¿½ï¿½ï¿½ Æ®ï¿½ï¿½ï¿½ï¿½ ï¿½È¿ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ Carryableï¿½ï¿½ ï¿½Æ´Ï°Å³ï¿½, Carryableï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ã·ï¿½ï¿½Ì¾î°¡ ï¿½ï¿½ï¿½ï¿½Ö´ï¿½ ï¿½ï¿½ï¿½Â¸ï¿½ ï¿½ï¿½ï¿½ï¿½
         if (!other.TryGetComponent<Carryable>(out Carryable carryable) || carryable.carrying) return;
 
         if (carryable.Id == shampooId || carryable.Id == mimicId)
@@ -186,16 +179,16 @@ public class BathController : MonoBehaviour, IInteractable
             {
                 itemInBath_1 = other.gameObject;
             }
-            else if(itemInBath_2 == null && other.gameObject != itemInBath_1)
+            else if (itemInBath_2 == null && other.gameObject != itemInBath_1)
             {
                 itemInBath_2 = other.gameObject;
             }
             else
             {
-                //ÀÌ¹Ì ´Ù Ã¡À½
+                //ï¿½Ì¹ï¿½ ï¿½ï¿½ Ã¡ï¿½ï¿½
                 return;
             }
-            GameLogger.Instance.LogDebug(this, $"{carryable.Id} ¾ÆÀÌÅÛÀ» ¿åÁ¶¿¡ ³Ö¾úÀ½");
+            GameLogger.Instance.LogDebug(this, $"{carryable.Id} ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö¾ï¿½ï¿½ï¿½");
             CheckWashingConditions();
         }
     }
@@ -205,14 +198,13 @@ public class BathController : MonoBehaviour, IInteractable
         if (other.gameObject == itemInBath_1)
         {
             itemInBath_1 = null;
-            GameLogger.Instance.LogDebug(this, "¾ÆÀÌÅÛ1À» ¿åÁ¶¿¡¼­ »°À½");
+            GameLogger.Instance.LogDebug(this, "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½1ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
         }
         else if (other.gameObject == itemInBath_2)
         {
             itemInBath_2 = null;
-            GameLogger.Instance.LogDebug(this, "¾ÆÀÌÅÛ2¸¦ ¿åÁ¶¿¡¼­ »°À½");
+            GameLogger.Instance.LogDebug(this, "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½2ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
         }
     }
-    #endregion
     #endregion
 }

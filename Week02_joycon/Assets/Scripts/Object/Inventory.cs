@@ -9,6 +9,9 @@ public enum ItemName
     Bedding,
     Mimic,
     Key,
+    Tomato,
+    Onion,
+    TomatoSoup,
 }
 
 public class Inventory
@@ -40,11 +43,5 @@ public class Inventory
             OwnedItems.Remove(item);
             GameObject.Destroy(item.itemObject);
         }
-    }
-
-    public static bool HasItem(string itemId)
-    {
-        // ex) return SaveData.Items.TryGetValue(itemId, out var count) && count > 0;
-        return false;
     }
 }
