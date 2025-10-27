@@ -5,6 +5,12 @@ TextureImporter:
   - first:
       213: -506082907168133177
     second: dirtymimic_0
+  - first:
+      213: 7330494068405807614
+    second: dirtymimic_1
+  - first:
+      213: -2659702983396673635
+    second: dirtymimic_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,40 +102,27 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: 4
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: dirtymimic_0
+      name: dirtymimic_2
       rect:
         serializedVersion: 2
-        x: 4
+        x: 1
         y: 2
-        width: 26
+        width: 30
         height: 28
-      alignment: 9
-      pivot: {x: 0.4615, y: 0.5}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7cfa85bf6480af8f0800000000000000
-      internalID: -506082907168133177
+      spriteID: d9738927a36d61bd0800000000000000
+      internalID: -2659702983396673635
       vertices: []
       indices: 
       edges: []
@@ -138,7 +131,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 71ff2d83f6b7cd54595be0363e5cf63c
+    spriteID: 6a9bc01d0e71c1f46bafebd739cd3d41
     internalID: 0
     vertices: []
     indices: 
@@ -149,6 +142,8 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       dirtymimic_0: -506082907168133177
+      dirtymimic_1: 7330494068405807614
+      dirtymimic_2: -2659702983396673635
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
