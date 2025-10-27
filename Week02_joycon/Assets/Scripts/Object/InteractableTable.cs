@@ -19,4 +19,20 @@ public class InteractableTable : MonoBehaviour, IInteractable
         GameLogger.Instance.LogDebug(this, "음식 퀘스트 완료");
         return true;
     }
+
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (itemPlaced) return;
+        if (collision.TryGetComponent(out Carryable carryable))
+        {
+            if (carryable.GetItemName() == ItemName.TomatoSoup)
+            {
+                itemPlaced = true;
+                soup.SetActive(true);
+
+                QuestRuntime.Instance.SetFlag(FlagId.Table_Used);
+                GameLogger.Instance.LogDebug(this, "음식 퀘스트 완료");
+            }
+        }
+    }
 }
