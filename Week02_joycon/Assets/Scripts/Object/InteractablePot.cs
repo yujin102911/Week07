@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(Carryable), typeof(Collider2D))]
-public class Pot : MonoBehaviour, IInteractable
+public class InteractablePot : MonoBehaviour, IInteractable
 {
     private Dictionary<ItemName, int> recipe = new()
     {
@@ -11,7 +11,7 @@ public class Pot : MonoBehaviour, IInteractable
     };
 
     [Header("State")]
-    private Stove currentStove = null;
+    private InteractableStove currentStove = null;
     private bool isReadyToCook => recipe.Count == 0;
     private bool isCooked = false;
 
@@ -66,7 +66,7 @@ public class Pot : MonoBehaviour, IInteractable
         return true;
     }
 
-    public void SetCurrentStove(Stove stove) => currentStove = stove;
+    public void SetCurrentStove(InteractableStove stove) => currentStove = stove;
 
     public void CheckCookingConditions()
     {

@@ -6,13 +6,13 @@ using UnityEngine;
 [RequireComponent(typeof(Collider2D))]
 public class IngredientReceiver : MonoBehaviour
 {
-    private Pot parentPot; //�θ� ����
+    private InteractablePot parentPot; //�θ� ����
     [SerializeField] private string RequiredId = "Tomato";
 
     #region Unity Lifecycle
     private void Start()
     {
-        parentPot = GetComponentInParent<Pot>();
+        parentPot = GetComponentInParent<InteractablePot>();
         if (parentPot == null)
         {
             GameLogger.Instance.LogWarning(this, "�θ� ������Ʈ���� Pot.cs�� ã�� �� ����");

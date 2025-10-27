@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class CarryableMimic : Carryable, IInteractable
 {
-    [SerializeField] private int requiredCoins;
+    [SerializeField] private int requiredCoins = 4;
     [SerializeField] private SpriteRenderer spriteRenderer;
     [SerializeField] private Sprite cleanedSprite;
     [SerializeField] private MimicBubble coinBubble;
@@ -47,6 +47,8 @@ public class CarryableMimic : Carryable, IInteractable
 
     private bool EatCoin(Carryable coin)
     {
+        if (requiredCoins <= 0) return false;
+
         requiredCoins--;
         heartBubble.SetOn();
         if (coin) Destroy(coin.gameObject);
@@ -72,6 +74,8 @@ public class CarryableMimic : Carryable, IInteractable
 
     private void OnTriggerStay2D(Collider2D collision)
     {
+        if (requiredCoins <= 0) return;
+
         if (collision.TryGetComponent(out Carryable coin))
         {
             if (coin.GetItemName() != ItemName.Coin) return;
