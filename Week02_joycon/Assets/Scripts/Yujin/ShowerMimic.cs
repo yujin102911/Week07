@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using System.Collections.Generic;
 using System.Collections;
 
@@ -49,6 +49,7 @@ public class ShowerMimic : MonoBehaviour
 
         // 위치/회전 고정
         itemObject.transform.position = snapPoint.position;
+        itemObject.transform.localScale = Vector3.one*1.2f;
         itemObject.transform.rotation = Quaternion.identity;
 
         // 물리 중지(흔들림 방지)
