@@ -5,30 +5,30 @@ using System.Collections.Generic;
 public class AreaZoneDetector : MonoBehaviour
 {
     public AreaNameUI areaUI;
-    public string defaultName = "°Å¸®";
+    public string defaultName = "ï¿½Å¸ï¿½";
 
     [Header("Filter")]
     [SerializeField] private LayerMask zoneMask;
 
     QuestTodoUI questTodoUI;
 
-    // --- Dictionary ¸ÅÇÎ ---
+    // --- Dictionary ï¿½ï¿½ï¿½ï¿½ ---
     private static readonly Dictionary<string, uint> ZoneToQuestId = new()
     {
-        { "º¹µµ", 1000 },
-        { "½Ä´ç", 2000 },
-        { "È­Àå½Ç", 2000 },
-        { "ÈÆ·Ã¼Ò", 2000 },
-        { "¹«±â°í", 3000 },
-        { "º¸¹°Ã¢°í", 3000 },
-        { "Å×½ºÆ®", 9000 },
-        // ÇÊ¿äÇÏ¸é °è¼Ó Ãß°¡
+        { "ï¿½ï¿½ï¿½ï¿½", 1000 },
+        { "ï¿½Ä´ï¿½", 2000 },
+        { "È­ï¿½ï¿½ï¿½", 2000 },
+        { "ï¿½Æ·Ã¼ï¿½", 2000 },
+        { "ï¿½ï¿½ï¿½ï¿½ï¿½", 3000 },
+        { "ï¿½ï¿½ï¿½ï¿½Ã¢ï¿½ï¿½", 3000 },
+        { "ï¿½×½ï¿½Æ®", 9000 },
+        // ï¿½Ê¿ï¿½ï¿½Ï¸ï¿½ ï¿½ï¿½ï¿½ ï¿½ß°ï¿½
     };
 
     void Awake()
     {
         if (areaUI == null)
-            Debug.LogWarning("[AreaZoneDetector] areaUI°¡ ºñ¾ú½À´Ï´Ù.", this);
+            Debug.LogWarning("[AreaZoneDetector] areaUIï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.", this);
 
         questTodoUI = GameObject.FindAnyObjectByType<QuestTodoUI>();
     }
@@ -47,13 +47,7 @@ public class AreaZoneDetector : MonoBehaviour
         var zone = other.GetComponentInParent<AreaZone>();
         if (zone == null) return;
 
-        // UI º¯°æ
+        // UI ï¿½ï¿½ï¿½ï¿½
         areaUI?.SetAreaName(zone.displayName);
-
-        // --- QuestTodoUI º¯°æ ---
-        if (questTodoUI != null && ZoneToQuestId.TryGetValue(zone.displayName, out uint qid))
-        {
-            questTodoUI.SetQuest(qid);
-        }
     }
 }
