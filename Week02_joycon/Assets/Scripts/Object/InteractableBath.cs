@@ -2,58 +2,46 @@
 using System.Collections.Generic;
 using System.Collections;
 
-public class ShowerMimic : MonoBehaviour
+[System.Serializable]
+public class IngredientInfo
 {
-    [Header("Recipe")]
-    [SerializeField] private List<string> requiredItemIds;
+    public ItemName itemName;
+    public GameObject ingredientObject;
+    public Transform snapPoint;
+    public bool isPlaced = false;
+}
+
+public class InteractableBath : MonoBehaviour, IInteractable
+{
     [SerializeField] private float processingTime = 1.0f;
-
-    [Header("Transform")]
-    [SerializeField] private List<Transform> snapPoints;
-    [SerializeField] private Transform resultSpawnPoint;
-
-    [Header("State (Internal)")]
+    [SerializeField] private List<IngredientInfo> requiredIngredients;
     private bool isComplete = false;
-    private HashSet<string> placedItemIds = new();
-    private List<GameObject> placedItemObjects = new();
-
-    #region Lifecycle
-
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (isComplete) return;
-        if (!other.TryGetComponent(out Carryable carryable)) return;
-
-        if (!carryable.carrying && requiredItemIds.Contains(carryable.Id) && !placedItemIds.Contains(carryable.Id))
-            PlaceItem(carryable);
-    }
 
     private void OnTriggerStay2D(Collider2D other)
     {
-        if (isComplete) return;
+        if (isComplete == true) return;
         if (!other.TryGetComponent(out Carryable carryable)) return;
 
-        if (!carryable.carrying && requiredItemIds.Contains(carryable.Id) && !placedItemIds.Contains(carryable.Id))
-            PlaceItem(carryable);
-    }
-    #endregion
+        IngredientInfo ingredient = requiredIngredients.Find(ing => ing.itemName == carryable.GetItemName());
 
-    #region Private Methods
-    // 아이템을 다음 스냅 포인트 위치에 고정/등록
+        if (carryable.carrying == false && ingredient != null && ingredient.isPlaced == false) PlaceItem(carryable);
+    }
+
     private void PlaceItem(Carryable item)
     {
-        GameObject itemObject = item.gameObject;
+        IngredientInfo ingredient = requiredIngredients.Find(ing => ing.itemName == item.GetItemName());
+        if (ingredient == null) return;
 
         // 배치 순서대로 스냅 포인트 선택
-        Transform snapPoint = snapPoints[placedItemObjects.Count];
+        Transform snapPoint = ingredient.snapPoint;
 
         // 위치/회전 고정
-        itemObject.transform.position = snapPoint.position;
-        itemObject.transform.localScale = Vector3.one*1.2f;
-        itemObject.transform.rotation = Quaternion.identity;
+        item.transform.position = snapPoint.position;
+        item.transform.localScale = Vector3.one * 1.2f;
+        item.transform.rotation = Quaternion.identity;
 
         // 물리 중지(흔들림 방지)
-        if (itemObject.TryGetComponent<Rigidbody2D>(out var rb))
+        if (item.TryGetComponent<Rigidbody2D>(out var rb))
         {
             rb.bodyType = RigidbodyType2D.Kinematic;
             rb.linearVelocity = Vector2.zero;
@@ -62,10 +50,8 @@ public class ShowerMimic : MonoBehaviour
 
         // 더 이상 상호작용되지 않게 비활성화
         item.enabled = false;
-
-        // 내부 상태 갱신
-        placedItemIds.Add(item.Id);
-        placedItemObjects.Add(itemObject);
+        ingredient.ingredientObject = item.gameObject;
+        ingredient.isPlaced = true;
 
         GameLogger.Instance.LogDebug(this, $"재료 배치 완료: {item.Id}");
 
@@ -73,23 +59,11 @@ public class ShowerMimic : MonoBehaviour
         CheckForCompletion();
     }
 
-    /// <summary>
-    /// 모든 필요한 재료가 정확히 모였는지 검사하고, 완료 시 처리 시작
-    /// </summary>
     private void CheckForCompletion()
     {
-        // 개수 부족이면 아직 미완료
-        if (placedItemObjects.Count < requiredItemIds.Count) return;
+        foreach (var ingredient in requiredIngredients)
+            if (ingredient.isPlaced == false) return;
 
-        // 필요한 모든 ID가 배치되었는지 확인(중복 없는 고유 ID를 가정)
-        foreach (string requiredId in requiredItemIds)
-        {
-            if (!placedItemIds.Contains(requiredId))
-            {
-                GameLogger.Instance.LogError(this, "필요한 ID가 모두 배치되지 않았습니다. 설정을 확인하세요.");
-                return;
-            }
-        }
 
         // 여기까지 왔으면 완성
         isComplete = true;
@@ -101,7 +75,7 @@ public class ShowerMimic : MonoBehaviour
     {
         yield return new WaitForSeconds(processingTime);
 
-        foreach (GameObject itemObject in placedItemObjects)
+        foreach (GameObject itemObject in requiredIngredients.ConvertAll(ing => ing.ingredientObject))
         {
             if (itemObject.TryGetComponent(out CarryableMimic carryableMimic))
             {
@@ -110,8 +84,21 @@ public class ShowerMimic : MonoBehaviour
             }
             else Destroy(itemObject);
         }
-
-        placedItemObjects.Clear();
     }
-    #endregion
+
+    public bool Interact()
+    {
+        if (isComplete == true) return false;
+        foreach (var ingredient in requiredIngredients)
+        {
+            if (InventoryManager.Instance.HasItem(ingredient.itemName))
+            {
+                PlaceItem(InventoryManager.Instance.GetItemObject(ingredient.itemName).GetComponent<Carryable>());
+                InventoryManager.Instance.GetComponent<PlayerCarrying>().TryDrop(ingredient.itemName);
+                CheckForCompletion();
+                return true;
+            }
+        }
+        return false;
+    }
 }

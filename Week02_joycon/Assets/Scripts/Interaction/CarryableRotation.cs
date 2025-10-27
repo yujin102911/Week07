@@ -1,20 +1,16 @@
-﻿using Unity.Mathematics;
-using UnityEngine;
-using static UnityEngine.RuleTile.TilingRuleOutput;
+﻿using UnityEngine;
 
 public class CarryableRotation : MonoBehaviour
 {
-    [SerializeField]Carryable carryable;
+    [SerializeField] private Carryable carryable;
     bool carried;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    private void Start()
     {
-
-
+        if (carryable == null) TryGetComponent(out carryable);
+        if (carryable == null) carryable = GetComponentInChildren<Carryable>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (carryable.carrying)
