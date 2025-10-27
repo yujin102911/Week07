@@ -107,6 +107,11 @@ public class PlayerCarrying : MonoBehaviour
         if (Time.time - lastInteractTime < interactCooldown) return;
         lastInteractTime = Time.time;
 
+        if (TryUseItemOnWorld())
+        {
+            return; // 상호작용에 성공했다면 (문을 여는 등) 여기서 종료
+        }
+
         // (배달/아이템 상호작용 시스템 비활성) → 바로 픽업 시도
         TryPickUp();
     }
