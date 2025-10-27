@@ -1,0 +1,86 @@
+Timestamp, Level, Source, Message
+23:41:14.311,INFO,GameLogger,=== Game Session Started ===
+23:41:14.676,WARNING,Unity,Minimap: no renderers found for bounds. Check includeLayers.
+23:41:14.694,INFO,Unity,야외닿음
+23:41:14.694,INFO,Unity,Trigger Entered with: 야외
+23:41:14.694,INFO,Unity,Trigger Entered with: Wall3 (1)
+23:41:14.695,INFO,Unity,야외닿음
+23:41:14.695,INFO,Unity,야외닿음
+23:41:14.695,INFO,Unity,Trigger Entered with: 야외
+23:41:14.695,INFO,Unity,Trigger Entered with: Wall3 (1)
+23:41:14.695,INFO,Unity,침실닿음
+23:41:14.697,INFO,Unity,침실닿음
+23:41:14.697,INFO,Unity,Trigger Entered with: 야외
+23:41:14.697,INFO,Unity,Trigger Entered with: Wall3 (1)
+23:41:14.697,INFO,Unity,야외닿음
+23:41:14.697,INFO,Unity,Trigger Entered with: 야외
+23:41:14.697,INFO,Unity,Trigger Entered with: Wall3 (1)
+23:41:14.697,INFO,Unity,야외닿음
+23:41:14.698,INFO,Unity,야외닿음
+23:41:14.698,INFO,Unity,야외닿음
+23:41:14.698,INFO,Unity,야외닿음
+23:41:14.699,INFO,Unity,야외닿음
+23:41:14.699,INFO,Unity,야외닿음
+23:41:14.700,INFO,Unity,Trigger Entered with: 야외
+23:41:14.700,INFO,Unity,Trigger Entered with: Wall3 (1)
+23:41:14.700,INFO,Unity,야외닿음
+23:41:20.464,INFO,Unity,maxJumpVelocity20
+23:41:20.898,INFO,Unity,벽 점프
+23:41:21.311,INFO,Unity,벽 점프
+23:41:21.774,INFO,Unity,벽 점프
+23:41:22.207,INFO,Unity,벽 점프
+23:41:23.855,INFO,Unity,maxJumpVelocity20
+23:41:24.327,INFO,Unity,벽 점프
+23:41:24.767,INFO,Unity,벽 점프
+23:41:25.217,INFO,Unity,벽 점프
+23:41:25.654,INFO,Unity,벽 점프
+23:41:26.176,INFO,Unity,벽 점프
+23:41:26.627,INFO,Unity,벽 점프
+23:41:27.420,INFO,Unity,maxJumpVelocity20
+23:41:27.997,INFO,Unity,maxJumpVelocity20
+23:41:29.690,INFO,Unity,maxJumpVelocity20
+23:41:30.726,DEBUG,PlayerCarrying,집기 조작Key (UnityEngine.BoxCollider2D)
+23:41:30.727,INFO,Unity,Weight Update =0
+23:41:30.728,INFO,Unity,Weight Update2 =10
+23:41:35.243,INFO,Unity,maxJumpVelocity19.23077
+23:41:36.583,INFO,Unity,maxJumpVelocity19.23077
+23:41:40.153,INFO,Unity,사다리 점프
+23:41:40.744,INFO,Unity,maxJumpVelocity19.23077
+23:41:41.483,INFO,Unity,indexChamge
+23:41:41.483,INFO,Unity,짐 1충돌
+23:41:41.483,DEBUG,Carryable,"충돌로 인해 짐 떨어뜨림. Fall떨어트린 위치 : (19.51, 119.71, 0.00)"
+23:41:41.485,INFO,Unity,Weight Update =0
+23:41:42.540,DEBUG,PlayerCarrying,집기 조작Key (UnityEngine.BoxCollider2D)
+23:41:42.540,INFO,Unity,Weight Update =0
+23:41:42.541,INFO,Unity,Weight Update2 =10
+23:41:42.721,INFO,Unity,maxJumpVelocity19.23077
+23:41:43.435,INFO,Unity,maxJumpVelocity19.23077
+23:41:47.841,INFO,Unity,maxJumpVelocity19.23077
+23:41:50.880,INFO,Unity,indexChamge
+23:41:50.880,INFO,Unity,짐 1충돌
+23:41:50.880,DEBUG,Carryable,"충돌로 인해 짐 떨어뜨림. Fall떨어트린 위치 : (-24.14, 112.81, 0.00)"
+23:41:50.881,INFO,Unity,Weight Update =0
+23:41:51.054,INFO,Unity,maxJumpVelocity20
+23:41:52.707,DEBUG,PlayerCarrying,집기 조작Key (UnityEngine.BoxCollider2D)
+23:41:52.708,INFO,Unity,Weight Update =0
+23:41:52.708,INFO,Unity,Weight Update2 =10
+23:41:53.124,INFO,Unity,maxJumpVelocity19.23077
+23:41:53.902,INFO,Unity,maxJumpVelocity19.23077
+23:41:54.595,INFO,Unity,maxJumpVelocity19.23077
+23:41:55.488,INFO,Unity,maxJumpVelocity19.23077
+23:41:59.863,DEBUG,PlayerCarrying,WorldInteractable 감지: Door
+23:41:59.864,DEBUG,WorldInteractable,Door와 Key의 상호작용 성공
+23:41:59.865,INFO,Unity,Weight Update =0
+23:41:59.866,DEBUG,PlayerCarrying,아이템 소모: Key
+23:41:59.866,DEBUG,PlayerCarrying,상호작용 성공함!!
+23:42:03.486,INFO,Unity,Trigger Exit with: Wall3 (1)
+23:42:03.486,INFO,Unity,Trigger Exit with: Wall3 (1)
+23:42:03.487,INFO,Unity,Trigger Exit with: Wall3 (1)
+23:42:03.487,INFO,Unity,Trigger Exit with: Wall3 (1)
+23:42:03.488,INFO,Unity,Trigger Exit with: Wall3 (1)
+23:42:03.488,INFO,Unity,Trigger Exit with: 야외
+23:42:03.488,INFO,Unity,Trigger Exit with: 야외
+23:42:03.489,INFO,Unity,Trigger Exit with: 야외
+23:42:03.489,INFO,Unity,Trigger Exit with: 야외
+23:42:03.489,INFO,Unity,Trigger Exit with: 야외
+23:42:03.495,DEBUG,DirtObject,먼지 퀘스트 완료
