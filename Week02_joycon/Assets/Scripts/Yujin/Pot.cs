@@ -6,7 +6,7 @@ public class Pot : MonoBehaviour, IInteractable
 {
     private Dictionary<ItemName, int> recipe = new()
     {
-        { ItemName.Tomato, 2 },
+        { ItemName.Tomato, 3 },
         { ItemName.Onion, 1 },
     };
 
