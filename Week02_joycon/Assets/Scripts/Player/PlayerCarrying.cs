@@ -133,6 +133,7 @@ public class PlayerCarrying : MonoBehaviour
         {
             GameLogger.Instance.LogDebug(this, "집기 조작" + hit);
             Carryable c = hit.GetComponent<Carryable>();
+            if (c.enabled == false) continue;
             if (c != null && c.carrying) continue;
 
             float distance = Vector2.Distance(transform.position, hit.transform.position);
