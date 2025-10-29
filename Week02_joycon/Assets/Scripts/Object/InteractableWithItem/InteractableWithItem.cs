@@ -78,7 +78,6 @@ public class InteractableWithItem : MonoBehaviour, IInteractable
     {
         if (this.carryable != null && this.carryable.GetIsCarried() == true) return;
         if (collision.TryGetComponent(out Carryable carryable) == false) return;
-        Debug.Log(collision.gameObject.name + " " + carryable.GetIsCarried());
         if (carryable.GetIsCarried() == true) return;
 
         Interact(carryable);

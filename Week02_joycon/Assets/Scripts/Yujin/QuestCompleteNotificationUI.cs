@@ -79,7 +79,6 @@ public class QuestCompleteNotificationUI : MonoBehaviour
                 string objectiveKey = $"{questId}-{objective.def.displayName}";
                 if (_notifiedObjectiveIds.Add(objectiveKey))
                 {
-                    GameLogger.Instance.LogDebug(this, $"새 목표 완료 감지: {objectiveKey}");
                     if (_showHideCo != null) { StopCoroutine(_showHideCo); }
                     _showHideCo = StartCoroutine(ShowAndHidePanel(objective.def.displayName));
                 }
