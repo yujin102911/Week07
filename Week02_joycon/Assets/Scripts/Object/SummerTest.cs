@@ -15,14 +15,14 @@ public class FadeOutOnTrigger : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
         if (spriteRenderer == null)
         {
-            Debug.LogError("FadeOutOnTrigger: SpriteRenderer 컴포넌트를 찾을 수 없습니다! 2D 오브젝트가 아닌가요?", this);
+            //Debug.LogError("FadeOutOnTrigger: SpriteRenderer 컴포넌트를 찾을 수 없습니다! 2D 오브젝트가 아닌가요?", this);
             // 3D 오브젝트라면 MeshRenderer 등으로 변경해야 합니다.
         }
 
         triggerCollider = GetComponent<Collider2D>();
         if (triggerCollider == null)
         {
-            Debug.LogError("FadeOutOnTrigger: Collider2D 컴포넌트를 찾을 수 없습니다! Is Trigger가 체크되어 있나요?", this);
+            //Debug.LogError("FadeOutOnTrigger: Collider2D 컴포넌트를 찾을 수 없습니다! Is Trigger가 체크되어 있나요?", this);
         }
     }
 
@@ -51,7 +51,7 @@ public class FadeOutOnTrigger : MonoBehaviour
         StartCoroutine(FadeOutRoutine());
 
         // (선택 사항) 로그 출력
-        Debug.Log(gameObject.name + "가 " + other.name + "와(과) 닿아서 페이드아웃을 시작합니다.");
+        //Debug.Log(gameObject.name + "가 " + other.name + "와(과) 닿아서 페이드아웃을 시작합니다.");
     }
 
     private IEnumerator FadeOutRoutine()
@@ -75,12 +75,12 @@ public class FadeOutOnTrigger : MonoBehaviour
         if (destroyOnFadeOut)
         {
             Destroy(gameObject); // 오브젝트 파괴
-            Debug.Log(gameObject.name + "가 페이드아웃 후 파괴되었습니다.");
+            //Debug.Log(gameObject.name + "가 페이드아웃 후 파괴되었습니다.");
         }
         else
         {
             gameObject.SetActive(false); // 비활성화
-            Debug.Log(gameObject.name + "가 페이드아웃 후 비활성화되었습니다.");
+            //Debug.Log(gameObject.name + "가 페이드아웃 후 비활성화되었습니다.");
         }
     }
 }
