@@ -1,0 +1,98 @@
+Timestamp, Level, Source, Message
+14:35:10.786,INFO,GameLogger,=== Game Session Started ===
+14:35:11.318,WARNING,Unity,Minimap: no renderers found for bounds. Check includeLayers.
+14:35:11.342,INFO,Unity,야외닿음
+14:35:11.343,INFO,Unity,야외닿음
+14:35:11.345,INFO,Unity,Trigger Entered with: 야외
+14:35:11.345,INFO,Unity,Trigger Entered with: Wall3 (1)
+14:35:11.345,INFO,Unity,야외닿음
+14:35:11.345,INFO,Unity,야외닿음
+14:35:11.347,INFO,Unity,야외닿음
+14:35:11.347,INFO,Unity,야외닿음
+14:35:11.348,INFO,Unity,야외닿음
+14:35:11.348,INFO,Unity,Trigger Entered with: 야외
+14:35:11.348,INFO,Unity,Trigger Entered with: Wall3 (1)
+14:35:11.349,INFO,Unity,야외닿음
+14:35:11.349,INFO,Unity,야외닿음
+14:35:11.350,INFO,Unity,야외닿음
+14:35:11.350,INFO,Unity,야외닿음
+14:35:11.351,INFO,Unity,Trigger Entered with: 야외
+14:35:11.351,INFO,Unity,Trigger Entered with: Wall3 (1)
+14:35:11.351,INFO,Unity,Trigger Entered with: 야외
+14:35:11.352,INFO,Unity,Trigger Entered with: Wall3 (1)
+14:35:11.352,INFO,Unity,Trigger Entered with: 야외
+14:35:11.353,INFO,Unity,Trigger Entered with: Wall3 (1)
+14:35:11.353,INFO,Unity,침실닿음
+14:35:11.353,INFO,Unity,침실닿음
+14:35:16.898,INFO,Unity,벽 점프
+14:35:17.265,INFO,Unity,벽 점프
+14:35:17.655,INFO,Unity,벽 점프
+14:35:18.004,INFO,Unity,벽 점프
+14:35:18.400,INFO,Unity,벽 점프
+14:35:18.748,INFO,Unity,벽 점프
+14:35:22.874,DEBUG,PlayerCarrying,집기 조작 Key (UnityEngine.BoxCollider2D)
+14:35:31.380,INFO,Unity,사다리 점프
+14:35:35.871,DEBUG,PlayerCarrying,집기 조작 Key (UnityEngine.BoxCollider2D)
+14:35:39.317,DEBUG,PlayerCarrying,집기 조작 Key (UnityEngine.BoxCollider2D)
+14:35:51.388,DEBUG,PlayerCarrying,WorldInteractable 감지: Door
+14:35:51.389,DEBUG,WorldInteractable,Door은(는) Key이 필요함
+14:35:51.390,DEBUG,PlayerCarrying,상호작용 실패함 (아이템 불일치 등). 줍기 시도.
+14:35:52.149,DEBUG,PlayerCarrying,WorldInteractable 감지: Door
+14:35:52.150,DEBUG,WorldInteractable,Door은(는) Key이 필요함
+14:35:52.150,DEBUG,PlayerCarrying,상호작용 실패함 (아이템 불일치 등). 줍기 시도.
+14:35:52.152,DEBUG,PlayerCarrying,집기 조작 Key (UnityEngine.BoxCollider2D)
+14:35:52.753,DEBUG,PlayerCarrying,WorldInteractable 감지: Door
+14:35:52.753,DEBUG,WorldInteractable,Door - Key 상호작용 성공
+14:35:52.756,DEBUG,PlayerCarrying,아이템 소모: Key
+14:35:52.756,DEBUG,PlayerCarrying,상호작용 성공함!!
+14:35:54.990,DEBUG,TeleportOnTrigger2D,마왕성 입장 퀘스트 완료
+14:35:57.779,DEBUG,PlayerCarrying,집기 조작 Box (UnityEngine.BoxCollider2D)
+14:35:57.780,INFO,Unity,_focus is null
+14:36:08.143,DEBUG,PlayerCarrying,집기 조작 Onion (UnityEngine.BoxCollider2D)
+14:36:08.144,INFO,Unity,_focus is null
+14:36:09.376,DEBUG,PlayerCarrying,집기 조작 Onion (1) (UnityEngine.BoxCollider2D)
+14:36:09.378,INFO,Unity,_focus is null
+14:36:10.224,DEBUG,PlayerCarrying,집기 조작 Onion (2) (UnityEngine.BoxCollider2D)
+14:36:10.225,INFO,Unity,_focus is null
+14:36:10.381,INFO,Unity,indexChamge
+14:36:10.381,INFO,Unity,짐 3충돌
+14:36:10.383,DEBUG,Carryable,"충돌로 인해 짐 떨어뜨림. Fall떨어트린 위치 : (-17.81, -10.28, 0.00)"
+14:36:12.247,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+14:36:13.771,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+14:36:15.024,DEBUG,PlayerCarrying,집기 조작 Onion (2) (UnityEngine.BoxCollider2D)
+14:36:15.024,DEBUG,PlayerCarrying,집기 조작 Squash (UnityEngine.BoxCollider2D)
+14:36:15.025,INFO,Unity,_focus is null
+14:36:16.416,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+14:36:18.525,ERROR,PlayerCarrying,0번 인덱스 아이템이 Carryable 아님
+14:36:18.527,DEBUG,PlayerCarrying,집기 조작 Pot_new (UnityEngine.BoxCollider2D)
+14:36:18.527,DEBUG,PlayerCarrying,집기 조작 Pot_new (UnityEngine.BoxCollider2D)
+14:36:18.528,INFO,Unity,_focus is null
+14:36:19.468,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 17
+14:36:25.678,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 19
+14:36:54.494,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+14:36:57.547,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+14:36:59.563,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 20
+14:37:04.455,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 21
+14:37:06.539,DEBUG,PlayerCarrying,집기 조작 Onion (1) (UnityEngine.BoxCollider2D)
+14:37:06.540,DEBUG,PlayerCarrying,집기 조작 Pot_new (UnityEngine.BoxCollider2D)
+14:37:06.541,DEBUG,PlayerCarrying,집기 조작 Pot_new (UnityEngine.BoxCollider2D)
+14:37:06.541,INFO,Unity,_focus is null
+14:37:07.276,DEBUG,PlayerCarrying,집기 조작 Pot_new (UnityEngine.BoxCollider2D)
+14:37:07.277,DEBUG,PlayerCarrying,집기 조작 Pot_new (UnityEngine.BoxCollider2D)
+14:37:07.278,INFO,Unity,_focus is null
+14:37:08.660,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 22
+14:37:10.317,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 21
+14:37:11.266,DEBUG,PlayerCarrying,집기 조작 Onion (2) (UnityEngine.BoxCollider2D)
+14:37:11.267,INFO,Unity,_focus is null
+14:37:15.344,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 22
+14:37:18.530,INFO,Unity,Trigger Exit with: 야외
+14:37:18.531,INFO,Unity,Trigger Exit with: Wall3 (1)
+14:37:18.531,INFO,Unity,Trigger Exit with: 야외
+14:37:18.531,INFO,Unity,Trigger Exit with: Wall3 (1)
+14:37:18.533,INFO,Unity,Trigger Exit with: 야외
+14:37:18.533,INFO,Unity,Trigger Exit with: Wall3 (1)
+14:37:18.533,INFO,Unity,Trigger Exit with: 야외
+14:37:18.534,INFO,Unity,Trigger Exit with: Wall3 (1)
+14:37:18.534,INFO,Unity,Trigger Exit with: 야외
+14:37:18.534,INFO,Unity,Trigger Exit with: Wall3 (1)
+14:37:18.542,DEBUG,DirtObject,먼지 퀘스트 완료

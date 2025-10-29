@@ -30,7 +30,7 @@ public class IngredientReceiver : MonoBehaviour
 
         if (other.TryGetComponent<Carryable>(out Carryable carryable)) //���°� Carryable�̸�
         {
-            if (carryable.carrying) return;
+            if (carryable.GetIsCarrying()) return;
 
             if (carryable.Id == RequiredId)
             {
@@ -46,7 +46,7 @@ public class IngredientReceiver : MonoBehaviour
 
         if (other.TryGetComponent<Carryable>(out Carryable carryable)) //���°� Carryable�̸�
         {
-            if (carryable.carrying) return;
+            if (carryable.GetIsCarrying()) return;
 
             if (carryable.Id == RequiredId)
             {

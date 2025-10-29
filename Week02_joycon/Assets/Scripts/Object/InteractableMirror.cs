@@ -5,7 +5,7 @@ public class InteractableMirror : MonoBehaviour, IInteractable
 {
     [SerializeField] private List<GameObject> dirtys;
 
-    public bool Interact()
+    public bool TryInteract()
     {
         // if (InventoryManager.Instance.HasItem(ItemName.Rag) == false) return;
 

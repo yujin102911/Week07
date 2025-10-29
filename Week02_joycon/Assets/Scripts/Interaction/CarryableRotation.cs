@@ -11,7 +11,7 @@ public class CarryableRotation : MonoBehaviour
 
     void Update()
     {
-        if (carryable.carrying)
+        if (carryable.GetIsCarrying() == true)
         {
             float zRot = transform.localEulerAngles.z; // 0~360 도 단위
 

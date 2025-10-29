@@ -1,0 +1,44 @@
+Timestamp, Level, Source, Message
+21:26:13.687,INFO,GameLogger,=== Game Session Started ===
+21:26:13.882,WARNING,Unity,Minimap: no renderers found for bounds. Check includeLayers.
+21:26:13.907,INFO,Unity,야외닿음
+21:26:13.908,INFO,Unity,야외닿음
+21:26:13.909,INFO,Unity,Trigger Entered with: 야외
+21:26:13.909,INFO,Unity,Trigger Entered with: Wall3 (1)
+21:26:13.909,INFO,Unity,야외닿음
+21:26:13.909,INFO,Unity,야외닿음
+21:26:13.909,INFO,Unity,야외닿음
+21:26:13.911,INFO,Unity,야외닿음
+21:26:13.911,INFO,Unity,야외닿음
+21:26:13.912,INFO,Unity,Trigger Entered with: 야외
+21:26:13.912,INFO,Unity,Trigger Entered with: Wall3 (1)
+21:26:13.912,INFO,Unity,야외닿음
+21:26:13.913,INFO,Unity,야외닿음
+21:26:13.913,INFO,Unity,야외닿음
+21:26:13.914,INFO,Unity,야외닿음
+21:26:13.914,INFO,Unity,Trigger Entered with: 야외
+21:26:13.914,INFO,Unity,Trigger Entered with: Wall3 (1)
+21:26:13.914,INFO,Unity,Trigger Entered with: 야외
+21:26:13.916,INFO,Unity,Trigger Entered with: Wall3 (1)
+21:26:13.916,INFO,Unity,Trigger Entered with: 야외
+21:26:13.916,INFO,Unity,Trigger Entered with: Wall3 (1)
+21:26:13.917,INFO,Unity,침실닿음
+21:26:13.917,INFO,Unity,침실닿음
+21:26:19.880,INFO,Unity,벽 점프
+21:26:20.237,INFO,Unity,벽 점프
+21:26:20.573,INFO,Unity,벽 점프
+21:26:20.917,INFO,Unity,벽 점프
+21:26:21.248,INFO,Unity,벽 점프
+21:26:25.426,DEBUG,PlayerCarrying,집기 조작 Key (UnityEngine.BoxCollider2D)
+21:26:27.389,DEBUG,PlayerCarrying,집기 조작 Key (UnityEngine.BoxCollider2D)
+21:26:30.502,INFO,Unity,Trigger Exit with: Wall3 (1)
+21:26:30.503,INFO,Unity,Trigger Exit with: Wall3 (1)
+21:26:30.504,INFO,Unity,Trigger Exit with: Wall3 (1)
+21:26:30.504,INFO,Unity,Trigger Exit with: Wall3 (1)
+21:26:30.504,INFO,Unity,Trigger Exit with: Wall3 (1)
+21:26:30.506,INFO,Unity,Trigger Exit with: 야외
+21:26:30.506,INFO,Unity,Trigger Exit with: 야외
+21:26:30.506,INFO,Unity,Trigger Exit with: 야외
+21:26:30.506,INFO,Unity,Trigger Exit with: 야외
+21:26:30.507,INFO,Unity,Trigger Exit with: 야외
+21:26:30.517,DEBUG,DirtObject,먼지 퀘스트 완료

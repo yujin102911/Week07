@@ -1,0 +1,156 @@
+Timestamp, Level, Source, Message
+14:38:00.141,INFO,GameLogger,=== Game Session Started ===
+14:38:00.532,WARNING,Unity,Minimap: no renderers found for bounds. Check includeLayers.
+14:38:00.556,INFO,Unity,야외닿음
+14:38:00.558,INFO,Unity,야외닿음
+14:38:00.558,INFO,Unity,Trigger Entered with: 야외
+14:38:00.559,INFO,Unity,Trigger Entered with: Wall3 (1)
+14:38:00.559,INFO,Unity,야외닿음
+14:38:00.559,INFO,Unity,야외닿음
+14:38:00.561,INFO,Unity,야외닿음
+14:38:00.561,INFO,Unity,야외닿음
+14:38:00.561,INFO,Unity,야외닿음
+14:38:00.562,INFO,Unity,Trigger Entered with: 야외
+14:38:00.562,INFO,Unity,Trigger Entered with: Wall3 (1)
+14:38:00.563,INFO,Unity,야외닿음
+14:38:00.563,INFO,Unity,야외닿음
+14:38:00.564,INFO,Unity,야외닿음
+14:38:00.564,INFO,Unity,야외닿음
+14:38:00.565,INFO,Unity,Trigger Entered with: 야외
+14:38:00.565,INFO,Unity,Trigger Entered with: Wall3 (1)
+14:38:00.565,INFO,Unity,Trigger Entered with: 야외
+14:38:00.565,INFO,Unity,Trigger Entered with: Wall3 (1)
+14:38:00.567,INFO,Unity,Trigger Entered with: 야외
+14:38:00.567,INFO,Unity,Trigger Entered with: Wall3 (1)
+14:38:00.567,INFO,Unity,침실닿음
+14:38:00.568,INFO,Unity,침실닿음
+14:38:06.762,INFO,Unity,벽 점프
+14:38:07.194,INFO,Unity,벽 점프
+14:38:07.619,INFO,Unity,벽 점프
+14:38:08.069,INFO,Unity,벽 점프
+14:38:08.493,INFO,Unity,벽 점프
+14:38:12.590,DEBUG,PlayerCarrying,집기 조작 Key (UnityEngine.BoxCollider2D)
+14:38:20.709,INFO,Unity,사다리 점프
+14:38:36.509,DEBUG,PlayerCarrying,WorldInteractable 감지: Door
+14:38:36.510,DEBUG,WorldInteractable,Door - Key 상호작용 성공
+14:38:36.512,DEBUG,PlayerCarrying,아이템 소모: Key
+14:38:36.513,DEBUG,PlayerCarrying,상호작용 성공함!!
+14:38:37.026,DEBUG,TeleportOnTrigger2D,마왕성 입장 퀘스트 완료
+14:38:45.771,DEBUG,PlayerCarrying,집기 조작 Onion (1) (UnityEngine.BoxCollider2D)
+14:38:45.772,INFO,Unity,_focus is null
+14:38:46.625,DEBUG,PlayerCarrying,집기 조작 Onion (UnityEngine.BoxCollider2D)
+14:38:46.626,DEBUG,PlayerCarrying,집기 조작 Squash (UnityEngine.BoxCollider2D)
+14:38:46.627,INFO,Unity,_focus is null
+14:38:47.392,DEBUG,PlayerCarrying,집기 조작 Squash (UnityEngine.BoxCollider2D)
+14:38:47.393,INFO,Unity,_focus is null
+14:38:50.789,DEBUG,PlayerCarrying,집기 조작 Onion (2) (UnityEngine.BoxCollider2D)
+14:38:50.790,INFO,Unity,_focus is null
+14:38:54.104,DEBUG,PlayerCarrying,집기 조작 Pot_new (UnityEngine.BoxCollider2D)
+14:38:54.105,DEBUG,PlayerCarrying,집기 조작 Pot_new (UnityEngine.BoxCollider2D)
+14:38:54.105,INFO,Unity,_focus is null
+14:38:54.142,INFO,Unity,indexChamge
+14:38:54.142,INFO,Unity,짐 3충돌
+14:38:54.144,DEBUG,InteractablePot,"충돌로 인해 짐 떨어뜨림. Fall떨어트린 위치 : (-26.33, -11.89, 0.00)"
+14:38:55.258,INFO,Unity,indexChamge
+14:38:55.259,INFO,Unity,짐 2충돌
+14:38:55.259,DEBUG,Carryable,"충돌로 인해 짐 떨어뜨림. Fall떨어트린 위치 : (-26.85, -12.18, 0.00)"
+14:38:55.380,INFO,Unity,indexChamge
+14:38:55.380,INFO,Unity,짐 1충돌
+14:38:55.380,DEBUG,Carryable,"충돌로 인해 짐 떨어뜨림. Fall떨어트린 위치 : (-26.91, -12.22, 0.00)"
+14:38:56.196,DEBUG,PlayerCarrying,집기 조작 Pot_new (UnityEngine.BoxCollider2D)
+14:38:56.198,INFO,Unity,_focus is null
+14:38:57.803,DEBUG,PlayerCarrying,집기 조작 Onion (2) (UnityEngine.BoxCollider2D)
+14:38:57.805,INFO,Unity,_focus is null
+14:38:58.413,DEBUG,PlayerCarrying,집기 조작 Onion (UnityEngine.BoxCollider2D)
+14:38:58.414,INFO,Unity,_focus is null
+14:38:59.644,INFO,Unity,사다리 점프
+14:39:00.247,INFO,Unity,사다리 점프
+14:39:00.450,INFO,Unity,indexChamge
+14:39:00.451,INFO,Unity,짐 1충돌
+14:39:00.451,DEBUG,InteractablePot,"충돌로 인해 짐 떨어뜨림. Fall떨어트린 위치 : (-39.38, -6.07, 0.00)"
+14:39:01.502,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 17
+14:39:02.927,DEBUG,PlayerCarrying,집기 조작 Pot_new (UnityEngine.BoxCollider2D)
+14:39:02.928,DEBUG,PlayerCarrying,집기 조작 Pot_new (UnityEngine.BoxCollider2D)
+14:39:02.928,INFO,Unity,_focus is null
+14:39:04.502,INFO,Unity,사다리 점프
+14:39:04.904,INFO,Unity,indexChamge
+14:39:04.905,INFO,Unity,짐 1충돌
+14:39:04.905,DEBUG,InteractablePot,"충돌로 인해 짐 떨어뜨림. Fall떨어트린 위치 : (-36.64, 1.10, 0.00)"
+14:39:06.268,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+14:39:06.476,DEBUG,PlayerCarrying,집기 조작 Pot_new (UnityEngine.BoxCollider2D)
+14:39:06.477,DEBUG,PlayerCarrying,집기 조작 Pot_new (UnityEngine.BoxCollider2D)
+14:39:06.478,INFO,Unity,_focus is null
+14:39:06.872,INFO,Unity,사다리 점프
+14:39:07.080,INFO,Unity,indexChamge
+14:39:07.081,INFO,Unity,짐 1충돌
+14:39:07.081,DEBUG,InteractablePot,"충돌로 인해 짐 떨어뜨림. Fall떨어트린 위치 : (-39.35, -6.12, 0.00)"
+14:39:08.124,DEBUG,PlayerCarrying,집기 조작 Pot_new (UnityEngine.BoxCollider2D)
+14:39:08.125,INFO,Unity,_focus is null
+14:39:08.971,INFO,Unity,사다리 점프
+14:39:09.478,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+14:39:09.898,INFO,Unity,사다리 점프
+14:39:10.547,DEBUG,InteractableStove,���� ����� ���� �������ϴ�.
+14:39:10.547,DEBUG,InteractableStove,���� ����� ���� �������ϴ�.
+14:39:10.564,DEBUG,InteractableStove,���� ����� ���� �������ϴ�.
+14:39:10.565,DEBUG,InteractableStove,���� ����� ���� �������ϴ�.
+14:39:10.588,DEBUG,InteractableStove,���� ����� ���� �������ϴ�.
+14:39:10.589,DEBUG,InteractableStove,���� ����� ���� �������ϴ�.
+14:39:10.606,DEBUG,InteractableStove,���� ����� ���� �������ϴ�.
+14:39:10.607,DEBUG,InteractableStove,���� ����� ���� �������ϴ�.
+14:39:10.631,DEBUG,InteractableStove,���� ����� ���� �������ϴ�.
+14:39:10.631,DEBUG,InteractableStove,���� ����� ���� �������ϴ�.
+14:39:10.645,DEBUG,InteractableStove,���� ����� ���� �������ϴ�.
+14:39:10.645,DEBUG,InteractableStove,���� ����� ���� �������ϴ�.
+14:39:10.669,DEBUG,InteractableStove,���� ����� ���� �������ϴ�.
+14:39:10.671,DEBUG,InteractableStove,���� ����� ���� �������ϴ�.
+14:39:10.685,DEBUG,InteractableStove,���� ����� ���� �������ϴ�.
+14:39:10.685,DEBUG,InteractableStove,���� ����� ���� �������ϴ�.
+14:39:10.709,DEBUG,InteractableStove,���� ����� ���� �������ϴ�.
+14:39:10.710,DEBUG,InteractableStove,���� ����� ���� �������ϴ�.
+14:39:10.724,DEBUG,InteractableStove,���� ����� ���� �������ϴ�.
+14:39:10.725,DEBUG,InteractableStove,���� ����� ���� �������ϴ�.
+14:39:10.748,DEBUG,InteractableStove,���� ����� ���� �������ϴ�.
+14:39:10.748,DEBUG,InteractableStove,���� ����� ���� �������ϴ�.
+14:39:10.762,DEBUG,InteractableStove,���� ����� ���� �������ϴ�.
+14:39:10.763,DEBUG,InteractableStove,���� ����� ���� �������ϴ�.
+14:39:10.785,DEBUG,InteractableStove,���� ����� ���� �������ϴ�.
+14:39:10.786,DEBUG,InteractableStove,���� ����� ���� �������ϴ�.
+14:39:10.801,DEBUG,InteractableStove,���� ����� ���� �������ϴ�.
+14:39:10.802,DEBUG,InteractableStove,���� ����� ���� �������ϴ�.
+14:39:10.827,DEBUG,InteractableStove,���� ����� ���� �������ϴ�.
+14:39:10.828,DEBUG,InteractableStove,���� ����� ���� �������ϴ�.
+14:39:10.843,DEBUG,InteractableStove,���� ����� ���� �������ϴ�.
+14:39:10.844,DEBUG,InteractableStove,���� ����� ���� �������ϴ�.
+14:39:10.867,DEBUG,InteractableStove,���� ����� ���� �������ϴ�.
+14:39:10.867,DEBUG,InteractableStove,���� ����� ���� �������ϴ�.
+14:39:10.882,DEBUG,InteractableStove,���� ����� ���� �������ϴ�.
+14:39:10.883,DEBUG,InteractableStove,���� ����� ���� �������ϴ�.
+14:39:10.906,DEBUG,InteractableStove,���� ����� ���� �������ϴ�.
+14:39:10.907,DEBUG,InteractableStove,���� ����� ���� �������ϴ�.
+14:39:10.921,DEBUG,InteractableStove,���� ����� ���� �������ϴ�.
+14:39:10.922,DEBUG,InteractableStove,���� ����� ���� �������ϴ�.
+14:39:10.944,DEBUG,InteractableStove,���� ����� ���� �������ϴ�.
+14:39:10.945,DEBUG,InteractableStove,���� ����� ���� �������ϴ�.
+14:39:10.959,DEBUG,InteractableStove,���� ����� ���� �������ϴ�.
+14:39:10.960,DEBUG,InteractableStove,���� ����� ���� �������ϴ�.
+14:39:10.983,DEBUG,InteractableStove,���� ����� ���� �������ϴ�.
+14:39:10.984,DEBUG,InteractableStove,���� ����� ���� �������ϴ�.
+14:39:11.000,DEBUG,InteractableStove,���� ����� ���� �������ϴ�.
+14:39:11.001,DEBUG,InteractableStove,���� ����� ���� �������ϴ�.
+14:39:11.025,DEBUG,InteractableStove,���� ����� ���� �������ϴ�.
+14:39:11.025,DEBUG,InteractableStove,���� ����� ���� �������ϴ�.
+14:39:11.043,DEBUG,InteractableStove,���� ����� ���� �������ϴ�.
+14:39:11.044,DEBUG,InteractableStove,���� ����� ���� �������ϴ�.
+14:39:11.449,INFO,Unity,파괴된 구름을 리스트에서 제거. 현재 구름 수: 18
+14:39:13.496,INFO,Unity,Trigger Exit with: 야외
+14:39:13.496,INFO,Unity,Trigger Exit with: Wall3 (1)
+14:39:13.497,INFO,Unity,Trigger Exit with: 야외
+14:39:13.497,INFO,Unity,Trigger Exit with: Wall3 (1)
+14:39:13.498,INFO,Unity,Trigger Exit with: 야외
+14:39:13.498,INFO,Unity,Trigger Exit with: Wall3 (1)
+14:39:13.498,INFO,Unity,Trigger Exit with: 야외
+14:39:13.499,INFO,Unity,Trigger Exit with: Wall3 (1)
+14:39:13.500,INFO,Unity,Trigger Exit with: 야외
+14:39:13.500,INFO,Unity,Trigger Exit with: Wall3 (1)
+14:39:13.503,DEBUG,InteractableStove,���� ����꿡�� ������ϴ�.
+14:39:13.505,DEBUG,DirtObject,먼지 퀘스트 완료

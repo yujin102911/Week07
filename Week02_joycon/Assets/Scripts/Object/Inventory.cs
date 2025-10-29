@@ -1,5 +1,4 @@
 using System.Collections.Generic;
-using UnityEngine;
 
 public enum ItemName
 {
@@ -19,29 +18,29 @@ public enum ItemName
 
 public class Inventory
 {
-    private List<(ItemName itemName, GameObject itemObject)> OwnedItems;
+    private List<Carryable> OwnedItems;
 
     public void Initialize()
     {
         OwnedItems = new();
     }
 
-    public bool HasItem(ItemName itemName) => OwnedItems.Exists(item => item.itemName == itemName);
-    public bool HasItem(GameObject itemObject) => OwnedItems.Exists(item => item.itemObject == itemObject);
-    public void AddItem(ItemName itemName, GameObject itemObject) => OwnedItems.Add((itemName, itemObject));
-    public GameObject GetItemObject(ItemName itemName)
+    public List<Carryable> GetOwnedItems() => OwnedItems;
+    public bool HasItem(ItemName itemName) => OwnedItems.Exists(item => item.GetItemName() == itemName);
+    public bool HasItem(Carryable itemObject) => OwnedItems.Exists(item => item == itemObject);
+    public void AddItem(Carryable itemObject) => OwnedItems.Add(itemObject);
+    public Carryable GetItem(ItemName itemName)
     {
-        var item = OwnedItems.Find(i => i.itemName == itemName);
-        return item != default ? item.itemObject : null;
+        return OwnedItems.Find(i => i.GetItemName() == itemName);
     }
     public void RemoveItem(ItemName itemName)
     {
-        var item = OwnedItems.Find(i => i.itemName == itemName);
+        var item = OwnedItems.Find(i => i.GetItemName() == itemName);
         if (item != default) OwnedItems.Remove(item);
     }
-    public void RemoveItem(GameObject itemObject)
+    public void RemoveItem(Carryable itemObject)
     {
-        var item = OwnedItems.Find(i => i.itemObject == itemObject);
+        var item = OwnedItems.Find(i => i == itemObject);
         if (item != default) OwnedItems.Remove(item);
     }
 }

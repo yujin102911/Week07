@@ -197,8 +197,7 @@ public sealed class TeleportOnTrigger2D : MonoBehaviour
 
     private void Teleport(Collider2D other)
     {
-        if (!preserveCarryable) //짐 보존 상태가 아니면
-            other.GetComponent<PlayerCarrying>().collideCarrying = 0;//들고있는 짐 내려놓기
+        if (!preserveCarryable) other.GetComponent<PlayerCarrying>().DropAllForce();
 
         // 이동시킬 루트 트랜스폼(리지드바디가 있으면 그 쪽으로)
         Transform root = other.attachedRigidbody ? other.attachedRigidbody.transform : other.transform;

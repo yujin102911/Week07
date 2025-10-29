@@ -1,6 +1,4 @@
 ﻿using UnityEngine;
-using UnityEngine.PlayerLoop;
-using UnityEngine.UIElements;
 
 public class Watering : MonoBehaviour
 {
@@ -16,10 +14,10 @@ public class Watering : MonoBehaviour
     }
     void Update()
     {
-        if (carryable.carrying)
+        if (carryable.GetIsCarrying() == true)
         {
             wateringOffset = new Vector3(1.5f * -transform.localScale.y, 0, 0);//내 y스케일에 따라 오른쪽이나 왼쪽
-            wateringSize = new Vector2(transform.localScale.x/2, Mathf.Abs(transform.localScale.y));
+            wateringSize = new Vector2(transform.localScale.x / 2, Mathf.Abs(transform.localScale.y));
             Collider2D[] hits = Physics2D.OverlapBoxAll((Vector2)transform.position + wateringOffset, wateringSize, 0);
             if (hits.Length == 0)
             {

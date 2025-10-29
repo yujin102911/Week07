@@ -6,7 +6,7 @@ public class InteractableTable : MonoBehaviour, IInteractable
     [SerializeField] private GameObject soup;
     [SerializeField] private bool itemPlaced = false;
 
-    public bool Interact()
+    public bool TryInteract()
     {
         if (itemPlaced) return false;
         if (InventoryManager.Instance.HasItem(ItemName.TomatoSoup) == false) return false;

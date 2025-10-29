@@ -204,7 +204,7 @@ public class Player : Singleton<Player>
 
         if (wallSliding)
         {
-            if (playerCarrying.CarryAbleWeight > 0)
+            if (playerCarrying.CarryableWeight > 0)
                 return false;
             Debug.Log("벽 점프");
             _jumpBufferTimer = 0f;
@@ -231,7 +231,7 @@ public class Player : Singleton<Player>
         {
 
             _jumpBufferTimer = 0f;
-            maxJumpVelocity = 2f * maxJumpHeight / timeToJumpApex / (1 + playerCarrying.CarryAbleWeight * gravityWeight);
+            maxJumpVelocity = 2f * maxJumpHeight / timeToJumpApex / (1 + playerCarrying.CarryableWeight * gravityWeight);
 
             if (controller.collisions.slidingDownMaxSlope)
             {
@@ -284,7 +284,7 @@ public class Player : Singleton<Player>
     {
         float targetVelocityX = directionalInput.x * moveSpeed
 
-                     / (1f + playerCarrying.CarryAbleWeight * moveSpeedWeight);
+                     / (1f + playerCarrying.CarryableWeight * moveSpeedWeight);
 
         velocity.x = Mathf.SmoothDamp(
          velocity.x, targetVelocityX, ref velocityXSmoothing,
