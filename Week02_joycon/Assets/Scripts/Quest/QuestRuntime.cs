@@ -63,6 +63,8 @@ public sealed class QuestRuntime : MonoBehaviour
         {
             OnFlagRaised?.Invoke(flag);
             QuestEvents.RaiseFlag(flag);
+            QuestManager.Instance.TryGetFirstQuestTitleByFlag(flag, out var questTitle);
+            GameLogger.Instance.LogDebug(this, $"[{questTitle}] 퀘스트 완료");
             return true;
         }
         return false;

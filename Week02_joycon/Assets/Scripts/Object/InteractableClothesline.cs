@@ -15,7 +15,6 @@ public class InteractableClothesline : MonoBehaviour, IInteractable
         InventoryManager.Instance.RemoveAndDestroyItem(ItemName.Bedding);
 
         QuestRuntime.Instance.SetFlag(FlagId.DryingRack);
-        GameLogger.Instance.LogDebug(this, "이불 퀘스트 완료");
 
         return true;
     }
@@ -32,7 +31,6 @@ public class InteractableClothesline : MonoBehaviour, IInteractable
             Destroy(collision.gameObject);
 
             QuestRuntime.Instance.SetFlag(FlagId.DryingRack);
-            GameLogger.Instance.LogDebug(this, "이불 퀘스트 완료");
         }
     }
 }

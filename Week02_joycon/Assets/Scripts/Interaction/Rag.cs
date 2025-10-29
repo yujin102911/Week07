@@ -2,8 +2,6 @@
 
 public class Rag : MonoBehaviour
 {
-    [SerializeField] GameObject dirty;
-    [SerializeField] GameObject water;
     [SerializeField] SpriteRenderer spriteRenderer;
     [SerializeField] int cleanMax = 200;//청결도 최대치
     [SerializeField] int cleanMin = 20;//청결도 최소치
@@ -17,38 +15,35 @@ public class Rag : MonoBehaviour
 
     void Start()
     {
-        ColorUpdate();
+        UpdateColor();
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    public bool TryCleanDirt()
     {
-        if (collision.gameObject.CompareTag("Dirty"))
-        {
-            if (cleanCurrent > cleanMin)
-            {
-                Destroy(collision.gameObject);
-                cleanCurrent -= cleanDecrase;
+        if (cleanCurrent == cleanMin) return false;
 
-                if (cleanCurrent < cleanMin) cleanCurrent = cleanMin;
-            }
-        }
-        ColorUpdate();
+        cleanCurrent = Mathf.Max(cleanMin, cleanCurrent - cleanDecrase);
+        UpdateColor();
+        return true;
     }
+
     private void OnTriggerStay2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Water"))
         {
             if (cleanCurrent < cleanMax) cleanCurrent += cleanSpeed * Time.deltaTime;
         }
-        ColorUpdate();
+        UpdateColor();
     }
+
     private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Water")) cleanCurrent = (int)cleanCurrent;
 
-        ColorUpdate();
+        UpdateColor();
     }
-    void ColorUpdate()
+
+    void UpdateColor()
     {
         float t = Mathf.InverseLerp(cleanMin, cleanMax, cleanCurrent);
         Color newColor = Color.Lerp(dirtyColor, cleanColor, t);

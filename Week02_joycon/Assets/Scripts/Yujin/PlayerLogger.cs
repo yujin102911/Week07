@@ -4,18 +4,13 @@ using UnityEngine;
 
 public class PlayerLogger : MonoBehaviour
 {
-    [SerializeField] private float logInterval = 3f;
-
     [Header("Optional Custom File Name")]
     [SerializeField] private string customFileName = "";
-
+    [SerializeField] private float logInterval = 3f;
     private string positionLogPath;
-    private PlayerCarrying playerCarrying;
 
     private void Start()
     {
-        playerCarrying = GetComponent<PlayerCarrying>();
-
         string exeDir = Path.GetDirectoryName(Application.dataPath); //���� ���� ����
         string logDir = Path.Combine(exeDir, "playerlog");
         Directory.CreateDirectory(logDir);
@@ -34,7 +29,7 @@ public class PlayerLogger : MonoBehaviour
             Vector3 pos = transform.position;
 
             string itemId = "null";
-            if (playerCarrying != null && InventoryManager.Instance.GetOwnedItems().Count > 0)
+            if (InventoryManager.Instance.GetOwnedItems().Count > 0)
             {
                 var firstItem = InventoryManager.Instance.GetOwnedItems()[0];
                 if (firstItem != null)

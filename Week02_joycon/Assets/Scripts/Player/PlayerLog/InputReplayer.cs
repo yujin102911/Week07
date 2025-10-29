@@ -10,7 +10,7 @@ public class InputReplayer : MonoBehaviour
     private Rigidbody2D rb;
 
     private Player player;
-    private PlayerCarrying playerCarrying;
+    private PlayerInteractCarryable playerCarrying;
 
     private struct Row
     {
@@ -37,7 +37,7 @@ public class InputReplayer : MonoBehaviour
     void Awake()
     {
         player = GetComponent<Player>();
-        playerCarrying = GetComponent<PlayerCarrying>();
+        playerCarrying = GetComponent<PlayerInteractCarryable>();
         rb = GetComponent<Rigidbody2D>();
 
         startPos = transform.position;
@@ -129,8 +129,8 @@ public class InputReplayer : MonoBehaviour
             player.SetDirectionalInput(new Vector2(r.mx, r.my));
             if (r.jumpDown == 1) player.OnJumpInputDown();
             if (r.jumpUp == 1) player.OnJumpInputUp();
-            if (r.interact == 1) playerCarrying.TryInteract();
-            if (r.drop == 1) playerCarrying.TryDrop();
+            if (r.interact == 1) Player.TryInteract();
+            if (r.drop == 1) Player.TryDrop();
         }
 
         currentTick++;

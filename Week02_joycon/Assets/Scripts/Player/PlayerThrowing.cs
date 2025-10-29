@@ -4,8 +4,6 @@ using UnityEngine.InputSystem;
 
 public class PlayerThrowing : MonoBehaviour
 {
-    [SerializeField] Player player;
-    [SerializeField] PlayerCarrying playerCarrying;
     [SerializeField] Controller2D controller2D;
     [SerializeField] float throwForce = 10;
     float lastThrowTime = 0f;
@@ -54,7 +52,7 @@ public class PlayerThrowing : MonoBehaviour
             rb.transform.SetParent(null, true);//<<부모로 설정하는 것도 없는데 왜 있지??
             rb.bodyType = RigidbodyType2D.Dynamic;
             rb.freezeRotation = false;
-            rb.AddForce(Vector2.right * faceDir * (throwForce) + new Vector2(player.velocity.x, 0f), ForceMode2D.Impulse);//던지기 힘 적용
+            rb.AddForce(Vector2.right * faceDir * throwForce + new Vector2(Player.Instance.velocity.x, 0f), ForceMode2D.Impulse);//던지기 힘 적용
             Debug.Log(rb.linearVelocity);
         }
 
@@ -69,6 +67,6 @@ public class PlayerThrowing : MonoBehaviour
         }
 
         // 스택에서 제거 및 부가 상태 갱신
-        playerCarrying.TryDrop(carryable);
+        Player.TryDrop(carryable);
     }
 }

@@ -197,7 +197,7 @@ public sealed class TeleportOnTrigger2D : MonoBehaviour
 
     private void Teleport(Collider2D other)
     {
-        if (!preserveCarryable) other.GetComponent<PlayerCarrying>().DropAllForce();
+        if (!preserveCarryable) other.GetComponent<PlayerInteractCarryable>().DropAllForce();
 
         // 이동시킬 루트 트랜스폼(리지드바디가 있으면 그 쪽으로)
         Transform root = other.attachedRigidbody ? other.attachedRigidbody.transform : other.transform;
@@ -225,7 +225,6 @@ public sealed class TeleportOnTrigger2D : MonoBehaviour
         Physics2D.SyncTransforms();
 
         QuestRuntime.Instance.SetFlag(FlagId.EnterCastle);
-        GameLogger.Instance.LogDebug(this, $"마왕성 입장 퀘스트 완료");
     }
 
     void OnMouseDown() => showGizmo = !showGizmo;

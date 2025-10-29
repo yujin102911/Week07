@@ -7,7 +7,6 @@ public class Carryable : MonoBehaviour
     [SerializeField] private float weight = 1;
     private Rigidbody2D _rigidbody;
     protected LayerMask obstacleMask;
-    protected float lxw;
     protected bool isCarried = false;
 
     public ItemName GetItemName() => itemName;
@@ -22,12 +21,11 @@ public class Carryable : MonoBehaviour
     protected virtual void Start()
     {
         if (large < 0) large = transform.localScale.x * transform.localScale.y;
-        lxw = large * weight;
         obstacleMask = LayerMask.GetMask(PlayerConstant.ObstacleMask);
 
         _rigidbody = GetComponent<Rigidbody2D>();
         _rigidbody.gravityScale = 1f + weight * 0.1f;
-        _rigidbody.mass = lxw;
+        _rigidbody.mass = large * weight;
     }
 
     private void OnCollisionStay2D(Collision2D collision)

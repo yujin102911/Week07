@@ -23,7 +23,7 @@ public class InteractableStove : MonoBehaviour, IInteractable
             if (InventoryManager.Instance.HasItem(ItemName.Firewood) == false)
             {
                 if (InventoryManager.Instance.HasItem(ItemName.Pot) == false) return false;
-                InventoryManager.Instance.GetComponent<PlayerCarrying>().TryDrop(ItemName.Pot);
+                InventoryManager.Instance.GetComponent<PlayerInteractCarryable>().TryDrop(ItemName.Pot);
                 return true;
             }
 

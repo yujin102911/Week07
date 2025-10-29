@@ -117,11 +117,25 @@ public sealed class QuestManager : Singleton<QuestManager>
         return qs;
     }
 
-    static int GetFirstIncompleteObjectiveIndex(QuestState qs)
+    public bool TryGetFirstQuestTitleByFlag(FlagId flag, out string title)
     {
-        for (int i = 0; i < qs.objectives.Length; ++i)
-            if (!qs.objectives[i].completed) return i;
-        return -1;
+        title = null;
+        if (questDB == null || questDB.Length == 0) return false;
+
+        foreach (var so in questDB)
+        {
+            if (so == null || so.objectives == null) continue;
+
+            foreach (var obj in so.objectives)
+            {
+                if (obj.requiredFlagEnum.Equals(flag))
+                {
+                    title = obj.displayName;
+                    return true;
+                }
+            }
+        }
+        return false;
     }
 
     static bool AreMandatoryObjectivesCompleted(QuestState qs)
