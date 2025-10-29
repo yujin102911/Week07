@@ -54,5 +54,9 @@ public class Carryable : MonoBehaviour
         var localScale = transform.localScale;
         localScale.y = Mathf.Abs(localScale.y) * sign;
         transform.localScale = localScale;
+
+        var rot = transform.eulerAngles;
+        rot.z = (rot.z < 90f || rot.z > 270f) ? 0f : 180f;
+        transform.eulerAngles = rot;
     }
 }

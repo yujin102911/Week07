@@ -22,5 +22,6 @@ public class DirtObject : MonoBehaviour
             QuestRuntime.Instance.SetFlag(FlagId.WipingDust);
             GameLogger.Instance.LogDebug(this, "먼지 퀘스트 완료");
         }
+        Destroy(gameObject);
     }
 }
