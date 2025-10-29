@@ -5,7 +5,7 @@ public class InteractableClothesline : MonoBehaviour, IInteractable
     [SerializeField] private GameObject emptyLine;
     [SerializeField] private GameObject fullLine;
 
-    public bool Interact()
+    public bool TryInteract()
     {
         if (InventoryManager.Instance.HasItem(ItemName.Bedding) == false) return false;
 
@@ -26,7 +26,7 @@ public class InteractableClothesline : MonoBehaviour, IInteractable
             Debug.Log("Clothesline Collision with Bedding");
             var carryable = collision.gameObject.GetComponent<Carryable>();
             if (carryable == null) return; // carryable 없으면 종료
-            if (carryable.carrying) return; // 플레이어가 들고 있으면 무시
+            if (carryable.GetIsCarrying() == true) return; // 플레이어가 들고 있으면 무시
             emptyLine.SetActive(false);
             fullLine.SetActive(true);
             Destroy(collision.gameObject);

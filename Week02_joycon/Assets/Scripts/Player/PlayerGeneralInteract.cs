@@ -26,6 +26,6 @@ public class PlayerGeneralInteract : MonoBehaviour
         }
 
         if (closestObj == null) return false;
-        else return interactable.Interact();
+        else return interactable.TryInteract();
     }
 }

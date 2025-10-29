@@ -1,4 +1,4 @@
 public interface IInteractable
 {
-    public bool Interact();
+    public bool TryInteract();
 }

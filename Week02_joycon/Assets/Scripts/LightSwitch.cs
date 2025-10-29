@@ -13,7 +13,7 @@ public class LightSwitch : MonoBehaviour, IInteractable
             targetLight.enabled = false;
         }
     }
-    public bool Interact()
+    public bool TryInteract()
     {
         if (isLightOn || targetLight == null) return false;
         targetLight.enabled = true;

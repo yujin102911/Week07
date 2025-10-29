@@ -87,17 +87,17 @@ public class InteractablePot : Carryable, IInteractable
         currentStove.ResetStove();
     }
 
-    public bool Interact()
+    public bool TryInteract()
     {
-        if (carrying == true) return false;
+        if (isCarrying == true) return false;
         return AddIngredient();
     }
 
     private void OnTriggerStay2D(Collider2D collision)
     {
-        if (carrying == true) return;
+        if (isCarrying == true) return;
         if (collision.TryGetComponent<Carryable>(out var carryable) == false) return;
-        if (carryable.carrying == true) return;
+        if (carryable.GetIsCarrying() == true) return;
 
         AddIngredient(carryable);
     }

@@ -14,16 +14,16 @@ public class PlayerLogger : MonoBehaviour
 
     private void Start()
     {
-        playerCarrying = GetComponent<PlayerCarrying>(); 
+        playerCarrying = GetComponent<PlayerCarrying>();
 
-        string exeDir = Path.GetDirectoryName(Application.dataPath); //º°µµ ÆÄÀÏ »ý¼º
+        string exeDir = Path.GetDirectoryName(Application.dataPath); //ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
         string logDir = Path.Combine(exeDir, "playerlog");
         Directory.CreateDirectory(logDir);
 
         string filePrefix = string.IsNullOrWhiteSpace(customFileName) ? "PlayerPositions" : customFileName.Trim();
         string fileName = $"{filePrefix}_{System.DateTime.Now:yyyy-MM-dd_HH-mm-ss}.csv";
         positionLogPath = Path.Combine(logDir, fileName);
-        File.AppendAllText(positionLogPath, "Time,X,Y,Z,ItemId\n"); // Çì´õ Ãß°¡
+        File.AppendAllText(positionLogPath, "Time,X,Y,Z,ItemId\n"); // ï¿½ï¿½ï¿½ ï¿½ß°ï¿½
 
         StartCoroutine(LogPlayerPositionRoutine());
     }
@@ -34,9 +34,9 @@ public class PlayerLogger : MonoBehaviour
             Vector3 pos = transform.position;
 
             string itemId = "null";
-            if (playerCarrying != null && playerCarrying.carriedObjects.Count > 0)
+            if (playerCarrying != null && InventoryManager.Instance.GetOwnedItems().Count > 0)
             {
-                var firstItem = playerCarrying.carriedObjects[0];
+                var firstItem = InventoryManager.Instance.GetOwnedItems()[0];
                 if (firstItem != null)
                 {
                     var carryable = firstItem.GetComponent<Carryable>();
@@ -49,10 +49,9 @@ public class PlayerLogger : MonoBehaviour
             File.AppendAllText(positionLogPath, line);
 
             //if (GameLogger.Instance != null)
-                //GameLogger.Instance.LogDebug(this, $"Player position: {pos}");
+            //GameLogger.Instance.LogDebug(this, $"Player position: {pos}");
 
             yield return new WaitForSeconds(logInterval);
         }
     }
-
 }

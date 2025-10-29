@@ -3,59 +3,64 @@
 public class Carryable : MonoBehaviour
 {
     [SerializeField] protected ItemName itemName;
+    [SerializeField] private float large = -1;
+    [SerializeField] private float weight = 1;
+    private Rigidbody2D _rigidbody;
+    protected LayerMask obstacleMask;
+    protected float lxw;
+    protected bool isCarrying = false;
+
     public ItemName GetItemName() => itemName;
+    public float GetWeight() => weight;
+    public bool GetIsCarrying() => isCarrying;
+    public void SetIsCarrying(bool isCarrying)
+    {
+        this.isCarrying = isCarrying;
+        SetUpRigidbody();
+    }
 
-    public bool carrying = false;
-    public float large = -1;
-    public float weight = 1;
-    private float lxw;
-
-    [Header("Event - Quest")]
     public string Id;
     public int ScannerID;
 
-    private PlayerCarrying player;
-    protected LayerMask maskObstacle;
-    [SerializeField] private Rigidbody2D rb;
-
     protected virtual void Start()
     {
-        if (large < 0)//크기 설정 따로 안했으면
-        {
-            large = transform.localScale.x * transform.localScale.y;//크기 x*y로 저장
-        }
-        lxw = large * weight;//크기*무게=실제 무게
-        if (rb == null)
-            rb = GetComponent<Rigidbody2D>();
-        rb.gravityScale = 1f+weight * 0.1f;//무게 적용 
-        GetComponent<Rigidbody2D>().mass = lxw;//무게 적용
-        player = GameObject.FindWithTag("Player").GetComponent<PlayerCarrying>();//플레이어 찾아넣기
-        maskObstacle = LayerMask.GetMask("Obstacle");
-    }
-    private void OnCollisionStay2D(Collision2D collision)
-    {
-        if (carrying)
-        {
-            if (collision.gameObject.layer == LayerMask.NameToLayer("Obstacle"))
-            {
-                // 플레이어가 들고 있는 오브젝트 리스트에서 상대 오브젝트의 인덱스 확인
-                int myIndex = player.carriedObjects.IndexOf(gameObject); // 자기 자신이 몇번째 짐인지
-                if (myIndex != -1)
-                {
-                    if (player.collideCarrying > myIndex)
-                    {
-                        Debug.Log("indexChamge");
-                        player.collideCarrying = myIndex;
-                    }
-                    Debug.Log($"짐 {myIndex + 1}충돌");
-                }
-                else
-                {
-                    Debug.Log("조졌" + myIndex);
-                }
-                GameLogger.Instance.LogDebug(this, $"충돌로 인해 짐 떨어뜨림. Fall떨어트린 위치 : {transform.position}");
-            }
-        }
+        if (large < 0) large = transform.localScale.x * transform.localScale.y;
+        lxw = large * weight;
+        obstacleMask = LayerMask.GetMask(PlayerConstant.ObstacleMask);
+
+        _rigidbody = GetComponent<Rigidbody2D>();
+        _rigidbody.gravityScale = 1f + weight * 0.1f;
+        _rigidbody.mass = lxw;
     }
 
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (isCarrying == false) return;
+        if (collision.gameObject.layer != obstacleMask) return;
+
+        SetIsCarrying(false);
+        GameLogger.Instance.LogDebug(this, $"충돌로 인해 짐 떨어뜨림. 위치 : {transform.position}");
+    }
+
+    private void SetUpRigidbody()
+    {
+        if (isCarrying == false) _rigidbody.transform.SetParent(null, true);
+        _rigidbody.bodyType = isCarrying ? RigidbodyType2D.Kinematic : RigidbodyType2D.Dynamic;
+        _rigidbody.freezeRotation = isCarrying;
+        _rigidbody.linearVelocity = Vector2.zero;
+        _rigidbody.angularVelocity = 0.0f;
+
+
+        // Rotation
+        var localScale = transform.localScale;
+        float zRot = transform.localEulerAngles.z;
+
+        if (zRot > 90f && zRot < 270f)
+        {
+            if (localScale.y > 0) localScale.y = -Mathf.Abs(localScale.y);
+        }
+        else if (localScale.y < 0) localScale.y = Mathf.Abs(localScale.y);
+
+        transform.localScale = localScale;
+    }
 }

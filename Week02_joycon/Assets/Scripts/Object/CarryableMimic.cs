@@ -21,7 +21,7 @@ public class CarryableMimic : Carryable, IInteractable
     private void Update()
     {
         if (coins.Count == 0) return;
-        if (carrying == true) return;
+        if (isCarrying == true) return;
 
         isEnumerating = true;
         toRemove.Clear();
@@ -34,7 +34,7 @@ public class CarryableMimic : Carryable, IInteractable
                 continue;
             }
 
-            if (coin.carrying == true) continue;
+            if (coin.GetIsCarrying() == true) continue;
 
             EatCoin(coin);
             toRemove.Add(coin);
@@ -81,7 +81,7 @@ public class CarryableMimic : Carryable, IInteractable
         return true;
     }
 
-    public bool Interact()
+    public bool TryInteract()
     {
         var coin = EatCoin();
         if (coin == false) return ShampooInteract();
@@ -106,7 +106,7 @@ public class CarryableMimic : Carryable, IInteractable
         if (collision.TryGetComponent(out Carryable carryable))
         {
             if (carryable.GetItemName() == ItemName.Coin) coins.Add(carryable);
-            else if (carryable.GetItemName() == ItemName.Shampoo && carryable.carrying == false)
+            else if (carryable.GetItemName() == ItemName.Shampoo && carryable.GetIsCarrying() == false)
             {
                 addShampoo = true;
                 bubbles.SetActive(true);

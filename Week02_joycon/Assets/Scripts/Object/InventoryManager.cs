@@ -1,4 +1,4 @@
-using UnityEngine;
+using System.Collections.Generic;
 
 public class InventoryManager : Singleton<InventoryManager>
 {
@@ -9,33 +9,43 @@ public class InventoryManager : Singleton<InventoryManager>
         inventory.Initialize();
     }
 
+    private void Update()
+    {
+        RemoveInvalidOwnedItems();
+    }
+
+    public List<Carryable> GetOwnedItems() => inventory.GetOwnedItems();
     public bool HasItem(ItemName itemName) => inventory.HasItem(itemName);
-    public bool HasItem(GameObject itemObject) => inventory.HasItem(itemObject);
-    public void AddItem(ItemName itemName, GameObject itemObject) => inventory.AddItem(itemName, itemObject);
-    public GameObject GetItemObject(ItemName itemName) => inventory.GetItemObject(itemName);
+    public bool HasItem(Carryable item) => inventory.HasItem(item);
+    public void AddItem(Carryable item) => inventory.AddItem(item);
+    public Carryable GetItem(ItemName itemName) => inventory.GetItem(itemName);
     public void RemoveItem(ItemName itemName) => inventory.RemoveItem(itemName);
-    public void RemoveItem(GameObject itemObject) => inventory.RemoveItem(itemObject);
+    public void RemoveItem(Carryable item) => inventory.RemoveItem(item);
     public void RemoveAndDestroyItem(ItemName itemName)
     {
-        var itemObject = GetItemObject(itemName);
-        if (itemObject != null)
+        var item = GetItem(itemName);
+        if (item == null) return;
+
+        RemoveItem(item);
+        Destroy(item.gameObject);
+    }
+    public void RemoveAndDestroyItem(Carryable item)
+    {
+        if (HasItem(item) == false) return;
+
+        RemoveItem(item);
+        Destroy(item.gameObject);
+    }
+
+    public void RemoveInvalidOwnedItems()
+    {
+        var items = GetOwnedItems();
+        if (items == null) return;
+
+        for (int i = items.Count - 1; i >= 0; --i)
         {
-            RemoveItem(itemName);
-            Destroy(itemObject);
+            var item = items[i];
+            if (item == null || item.GetIsCarrying() == false) items.RemoveAt(i);
         }
-    }
-    public void RemoveAndDestroyItem(GameObject itemObject)
-    {
-        if (HasItem(itemObject) == false) return;
-
-        RemoveItem(itemObject);
-        Destroy(itemObject);
-    }
-    public void DropItem(GameObject itemObject)
-    {
-        if (HasItem(itemObject) == false) return;
-
-        RemoveItem(itemObject);
-        Instance.GetComponent<PlayerCarrying>().TryDrop(itemObject);
     }
 }

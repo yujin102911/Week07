@@ -151,11 +151,11 @@ public sealed class StayScanner2D : MonoBehaviour
 
     private static readonly List<Carryable> _toRemove = new(32);
 
-    private bool IsEligible(Carryable c)
+    private bool IsEligible(Carryable carryable)
     {
-        if (!c) return false;
-        if (excludeCarried && c.carrying) return false;
-        if (c.ScannerID != scannerId) return false;
+        if (!carryable) return false;
+        if (excludeCarried && carryable.GetIsCarrying()) return false;
+        if (carryable.ScannerID != scannerId) return false;
         return true;
     }
 
