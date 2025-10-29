@@ -1,35 +1,38 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 using UnityEngine.InputSystem;
 using System.Collections;
 
 [DisallowMultipleComponent]
 public sealed class UISlideToggleOnFire : MonoBehaviour
 {
-    [Header("Input (New Input System)")]
-    [SerializeField] private InputActionReference fireAction;
+    //[Header("Input (New Input System)")]
+    //[SerializeField] private InputActionReference fireAction;
 
     [Header("Target UI")]
-    [SerializeField] private RectTransform panel;       // ½½¶óÀÌµåÇÒ ÆĞ³Î
-    [SerializeField] private CanvasGroup cg;            // Raycast/Interactable Á¦¾î¿ë(¼±ÅÃ)
+    [SerializeField] private RectTransform panel;       // ìŠ¬ë¼ì´ë“œí•  íŒ¨ë„
+    [SerializeField] private CanvasGroup cg;            // Raycast/Interactable ì œì–´ìš©(ì„ íƒ)
 
     [Header("Slide Settings")]
     [SerializeField] private float duration = 0.35f;
     [SerializeField] private bool useUnscaledTime = true;
     [SerializeField] private AnimationCurve ease = AnimationCurve.EaseInOut(0, 0, 1, 1);
 
-    [Tooltip("º¸ÀÌ´Â »óÅÂÀÇ X(anchoredPosition.x). º¸Åë 0")]
+    [Tooltip("ë³´ì´ëŠ” ìƒíƒœì˜ X(anchoredPosition.x). ë³´í†µ 0")]
     [SerializeField] private float shownX = 0f;
 
-    [Tooltip("¼û±è »óÅÂÀÇ X(¿ŞÂÊ ¿ÀÇÁ½ºÅ©¸°). ºñ¿öµÎ¸é ·±Å¸ÀÓ¿¡ ÀÚµ¿ °è»ê")]
+    [Tooltip("ìˆ¨ê¹€ ìƒíƒœì˜ X(ì™¼ìª½ ì˜¤í”„ìŠ¤í¬ë¦°). ë¹„ì›Œë‘ë©´ ëŸ°íƒ€ì„ì— ìë™ ê³„ì‚°")]
     [SerializeField] private float hiddenX = float.NaN;
 
     [Header("Options")]
-    [SerializeField] private bool startHidden = true;   // ½ÃÀÛ ½Ã ¼û±è
-    [SerializeField] private bool replayIfRunning = true; // ÀçÀÔ·Â ½Ã Àç»ı Àç½ÃÀÛ
+    [SerializeField] private bool startHidden = true;   // ì‹œì‘ ì‹œ ìˆ¨ê¹€
+    [SerializeField] private bool replayIfRunning = true; // ì¬ì…ë ¥ ì‹œ ì¬ìƒ ì¬ì‹œì‘
 
     Vector2 _shownPos, _hiddenPos;
     bool _isShown;
     Coroutine _slideCo;
+
+    public float SlideDuration => duration;
+    public bool IsShown => _isShown;
 
     void Awake()
     {
@@ -38,13 +41,13 @@ public sealed class UISlideToggleOnFire : MonoBehaviour
 
         float y = panel != null ? panel.anchoredPosition.y : 0f;
 
-        // hiddenX ÀÚµ¿ °è»ê: ÆĞ³Î+ºÎ¸ğ Å©±â·Î ¿ŞÂÊ ¹Ù±ù °ª »êÃâ
+        // hiddenX ìë™ ê³„ì‚°: íŒ¨ë„+ë¶€ëª¨ í¬ê¸°ë¡œ ì™¼ìª½ ë°”ê¹¥ ê°’ ì‚°ì¶œ
         if (float.IsNaN(hiddenX) && panel != null)
         {
             var parent = panel.parent as RectTransform;
             float parentWidth = parent ? parent.rect.width : Screen.width;
             float panelWidth = panel.rect.width;
-            hiddenX = -(parentWidth * 0.5f + panelWidth); // ³Ë³ËÈ÷ ¿ŞÂÊ ¹Ù±ù
+            hiddenX = -(parentWidth * 0.5f + panelWidth); // ë„‰ë„‰íˆ ì™¼ìª½ ë°”ê¹¥
         }
 
         _shownPos = new Vector2(shownX, y);
@@ -53,42 +56,59 @@ public sealed class UISlideToggleOnFire : MonoBehaviour
 
     void OnEnable()
     {
-        if (fireAction && fireAction.action != null)
-        {
-            fireAction.action.Enable();
-            fireAction.action.performed += OnFire;
-        }
+        //if (fireAction && fireAction.action != null)
+        //{
+            //fireAction.action.Enable();
+            //fireAction.action.performed += OnFire;
+        //}
 
         SetInstant(startHidden ? _hiddenPos : _shownPos, !startHidden);
     }
 
     void OnDisable()
     {
-        if (fireAction && fireAction.action != null)
-        {
-            fireAction.action.performed -= OnFire;
-            fireAction.action.Disable();
-        }
+        //if (fireAction && fireAction.action != null)
+        //{
+        //    fireAction.action.performed -= OnFire;
+        //    fireAction.action.Disable();
+        //}
         if (_slideCo != null) { StopCoroutine(_slideCo); _slideCo = null; }
     }
 
-    void OnFire(InputAction.CallbackContext _)
-    {
-        Toggle();
-    }
+    //void OnFire(InputAction.CallbackContext _)
+    //{
+    //    Toggle();
+    //}
 
     public void Toggle()
     {
-        if (!panel) return;
+        if (_isShown) Hide();
+        else Show();
+    }
 
-        Vector2 target = _isShown ? _hiddenPos : _shownPos;
+    public void Show()
+    {
+        if (_isShown && !replayIfRunning) { return; } //ì´ë¯¸ ë³´ì—¬ì§„ ìƒíƒœë©´ ë¬´ì‹œ
+        if (!panel) { return; }
 
         if (_slideCo != null)
         {
             if (!replayIfRunning) return;
             StopCoroutine(_slideCo);
         }
-        _slideCo = StartCoroutine(SlideTo(target));
+        _slideCo = StartCoroutine(SlideTo(_shownPos));
+    }
+
+    public void Hide()
+    {
+        if (!_isShown && !replayIfRunning) { return; }
+        if (!panel) { return; }
+        if (_slideCo != null)
+        {
+            if (!replayIfRunning) return;
+            StopCoroutine(_slideCo);
+        }
+        _slideCo = StartCoroutine(SlideTo(_hiddenPos));
     }
 
     IEnumerator SlideTo(Vector2 target)
@@ -97,8 +117,14 @@ public sealed class UISlideToggleOnFire : MonoBehaviour
         float t = 0f;
         float dur = Mathf.Max(0.0001f, duration);
 
-        // ¸ñÇ¥ »óÅÂ¿¡ µû¶ó »óÈ£ÀÛ¿ë/·¹ÀÌÄ³½ºÆ® ¼±¹İ¿µµµ °¡´É(¿øÇÏ¸é ÁÖ¼® ÇØÁ¦)
+        // ëª©í‘œ ìƒíƒœì— ë”°ë¼ ìƒí˜¸ì‘ìš©/ë ˆì´ìºìŠ¤íŠ¸ ì„ ë°˜ì˜ë„ ê°€ëŠ¥(ì›í•˜ë©´ ì£¼ì„ í•´ì œ)
         // if (cg) { cg.blocksRaycasts = true; cg.interactable = true; }
+        bool targetIsShown = Approximately(target, _shownPos);
+        if (cg && targetIsShown)
+        {
+            cg.blocksRaycasts = true;
+            cg.interactable = true;
+        }
 
         while (t < 1f)
         {
@@ -111,14 +137,14 @@ public sealed class UISlideToggleOnFire : MonoBehaviour
             yield return null;
         }
 
-        // ½º³À + »óÅÂ ¹İ¿µ
+        // ìŠ¤ëƒ… + ìƒíƒœ ë°˜ì˜
         panel.anchoredPosition = target;
-        _isShown = Approximately(target, _shownPos);
+        _isShown = targetIsShown;
 
         if (cg)
         {
-            // º¸ÀÏ ¶§¸¸ »óÈ£ÀÛ¿ë Çã¿ë
-            cg.alpha = 1f; // ÇÊ¿ä ½Ã ÆäÀÌµå¿Í ÇÔ²² ¾²¸é ÁÁÀ½
+            // ë³´ì¼ ë•Œë§Œ ìƒí˜¸ì‘ìš© í—ˆìš©
+            cg.alpha = 1f; // í•„ìš” ì‹œ í˜ì´ë“œì™€ í•¨ê»˜ ì“°ë©´ ì¢‹ìŒ
             cg.blocksRaycasts = _isShown;
             cg.interactable = _isShown;
         }

@@ -51,7 +51,6 @@ public sealed class QuestTodoUI : MonoBehaviour
             bool strikeTitle = qs.completed;
             if (!strikeTitle && !strikeTitleOnlyWhenAllDone)
             {
-                // 목표 중 하나라도 완료되면 제목에 취소선(옵션)
                 for (int i = 0; i < qs.objectives.Length; ++i)
                     if (qs.objectives[i].completed) { strikeTitle = true; break; }
             }
@@ -63,18 +62,32 @@ public sealed class QuestTodoUI : MonoBehaviour
         if (ContentsText)
         {
             var sb = new StringBuilder(256);
+
+            ContentsText.richText = true;
+
             for (int i = 0; i < qs.objectives.Length; ++i)
             {
                 var os = qs.objectives[i];
                 var name = os.def.displayName;
 
                 if (strikeEachObjectiveWhenDone && os.completed)
-                    sb.Append(" - ").Append(S_OPEN).Append(name).Append(S_CLOSE).AppendLine();
+                {
+
+                    string lineToStrike = $" - {name}";
+
+                    foreach (char c in lineToStrike)
+                    {
+                        sb.Append(c);      
+                        sb.Append('\u0336');
+                    }
+                    sb.AppendLine();
+                }
                 else
+                {
                     sb.Append(" - ").Append(name).AppendLine();
+                }
             }
 
-            ContentsText.richText = true;
             ContentsText.text = sb.ToString();
         }
     }
