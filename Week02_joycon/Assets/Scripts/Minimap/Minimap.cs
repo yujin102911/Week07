@@ -10,13 +10,13 @@ public class Minimap : MonoBehaviour
     [Range(0f, 1f)] public float followLerp = 0.25f;
 
     [Header("View")]
-    public float orthoSize = 18f; // °ªÀÌ ÀÛÀ»¼ö·Ï ´õ È®´ë
-    public bool northUp = true;   // true: È¸Àü °íÁ¤, false: ÇÃ·¹ÀÌ¾î È¸Àü°ú ÇÔ²²
+    public float orthoSize = 18f; // ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ È®ï¿½ï¿½
+    public bool northUp = true;   // true: È¸ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½, false: ï¿½Ã·ï¿½ï¿½Ì¾ï¿½ È¸ï¿½ï¿½ï¿½ï¿½ ï¿½Ô²ï¿½
     public bool rotateWithPlayer = false;
 
     [Header("Bounds (what minimap can show)")]
-    public string[] includeLayers = { "MinimapTerrain" }; // °æ°è ÀâÀ» ·¹ÀÌ¾îµé
-    public float paddingWorld = 2f;                       // °æ°è¿¡ ¿©À¯
+    public string[] includeLayers = { "MinimapTerrain" }; // ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ì¾ï¿½ï¿½
+    public float paddingWorld = 2f;                       // ï¿½ï¿½è¿¡ ï¿½ï¿½ï¿½ï¿½
 
     private Camera _cam;
     private Bounds _mapBounds;
@@ -62,20 +62,20 @@ public class Minimap : MonoBehaviour
     {
         if (!target) return;
 
-        // È¸Àü
+        // È¸ï¿½ï¿½
         if (northUp) transform.rotation = Quaternion.identity;
         else if (rotateWithPlayer) transform.rotation = Quaternion.Euler(0f, 0f, target.eulerAngles.z);
 
-        // ¿øÇÏ´Â À§Ä¡(ÇÃ·¹ÀÌ¾î ÃßÁ¾)
+        // ï¿½ï¿½ï¿½Ï´ï¿½ ï¿½ï¿½Ä¡(ï¿½Ã·ï¿½ï¿½Ì¾ï¿½ ï¿½ï¿½ï¿½ï¿½)
         Vector3 desired = target.position + offset;
 
-        // ¸Ê °æ°è ¾ÈÀ¸·Î Ä«¸Þ¶ó À§Ä¡ Å¬·¥ÇÁ
+        // ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Ä«ï¿½Þ¶ï¿½ ï¿½ï¿½Ä¡ Å¬ï¿½ï¿½ï¿½ï¿½
         if (_hasBounds)
         {
             float halfH = _cam.orthographicSize;
             float halfW = halfH * _cam.aspect;
 
-            // ¸ÊÀÌ Ä«¸Þ¶óº¸´Ù ÀÛÀ» ¶§ ´ëºñ: Áß¾Ó °íÁ¤
+            // ï¿½ï¿½ï¿½ï¿½ Ä«ï¿½Þ¶óº¸´ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½: ï¿½ß¾ï¿½ ï¿½ï¿½ï¿½ï¿½
             float minX = _mapBounds.min.x + halfW;
             float maxX = _mapBounds.max.x - halfW;
             float minY = _mapBounds.min.y + halfH;
@@ -88,11 +88,11 @@ public class Minimap : MonoBehaviour
             else desired.y = Mathf.Clamp(desired.y, minY, maxY);
         }
 
-        // ºÎµå·´°Ô ÀÌµ¿
+        // ï¿½Îµå·´ï¿½ï¿½ ï¿½Ìµï¿½
         transform.position = Vector3.Lerp(transform.position, desired, followLerp);
     }
 
-    // ·±Å¸ÀÓ È®´ë/Ãà¼Ò
+    // ï¿½ï¿½Å¸ï¿½ï¿½ È®ï¿½ï¿½/ï¿½ï¿½ï¿½
     public void SetZoom(float size)
     {
         orthoSize = Mathf.Max(0.1f, size);

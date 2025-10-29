@@ -22,7 +22,6 @@ public class PlayerCarrying : MonoBehaviour
     Vector2 pickUpBox;
     Vector2 lastDropPos;
     Vector2 dropPos;
-    float lastObjRadius = 0.25f;
     public int collideCarrying = 0;//충돌한 짐 넘버 (현재 들고있는 것보다 높게 유지해야 안떨어짐)닿은거 이상 다 떨어질거야
     BoxCollider2D boxCollider2D;
 
@@ -34,9 +33,7 @@ public class PlayerCarrying : MonoBehaviour
     private float lastInteractTime = 0;
 
     [Header("World Interaction")]
-    [SerializeField] private float interactionRange = 1.5f;
     [SerializeField] private LayerMask interactableMask;
-    private Collider2D[] interactableHits = new Collider2D[3];
     private ContactFilter2D interactableFilter;
 
     [Header("General Interaction")]
@@ -78,7 +75,7 @@ public class PlayerCarrying : MonoBehaviour
         if (removedNull)
         {
             collideCarrying = carriedObjects.Count;
-            WeightUpdate();
+            UpdateWeight();
         }
 
         if (collideCarrying < carriedObjects.Count)
@@ -107,12 +104,7 @@ public class PlayerCarrying : MonoBehaviour
         if (Time.time - lastInteractTime < interactCooldown) return;
         lastInteractTime = Time.time;
 
-        if (TryUseItemOnWorld())
-        {
-            return; // 상호작용에 성공했다면 (문을 여는 등) 여기서 종료
-        }
-
-        // (배달/아이템 상호작용 시스템 비활성) → 바로 픽업 시도
+        if (TryUseItemOnWorld() == true) return;
         TryPickUp();
     }
 
@@ -177,7 +169,7 @@ public class PlayerCarrying : MonoBehaviour
             }
             // ---------------------------------
 
-            WeightUpdate();
+            UpdateWeight();
         }
     }
 
@@ -188,7 +180,7 @@ public class PlayerCarrying : MonoBehaviour
 
         if (carriedObjects.Count <= 0)
         {
-            WeightUpdate();
+            UpdateWeight();
             return;
         }
 
@@ -200,7 +192,7 @@ public class PlayerCarrying : MonoBehaviour
         {
             carriedObjects.RemoveAt(carriedObjects.Count - 1);
             collideCarrying = carriedObjects.Count; // 필요 시 유지되는 필드
-            WeightUpdate();
+            UpdateWeight();
             return;
         }
 
@@ -230,33 +222,18 @@ public class PlayerCarrying : MonoBehaviour
         int mask = maskObstacle.value;
         Collider2D hit = Physics2D.OverlapBox(dropPos, lastObjSize, 0f, mask);
 
-        if (hit != null)
-        {
-            // 막혔으면 드롭하지 않고 종료
-            Debug.Log("막혔어");
-            return;
-        }
+        if (hit != null) return;
 
-        // 실제 드롭 수행
+        obj.transform.SetParent(null, true);
+        obj.transform.position = dropPos;
+
         if (rb != null)
         {
-            // 들고 있을 때 parent가 플레이어였다면 떼어내기
             rb.transform.SetParent(null, true);
-
-            // 위치 배치 후 물리 되살리기
-            obj.transform.position = dropPos;
             rb.bodyType = RigidbodyType2D.Dynamic;
             rb.freezeRotation = false;
-
-            // 직전의 속도/회전 관성 제거하고 싶다면(옵션):
             rb.linearVelocity = Vector2.zero;
             rb.angularVelocity = 0f;
-        }
-        else
-        {
-            // Rigidbody2D가 없더라도 위치만은 내려놓기
-            obj.transform.SetParent(null, true);
-            obj.transform.position = dropPos;
         }
 
         // Carryable 상태 갱신
@@ -272,7 +249,7 @@ public class PlayerCarrying : MonoBehaviour
         // 스택에서 제거 및 부가 상태 갱신
         carriedObjects.RemoveAt(carriedObjects.Count - 1);
         collideCarrying = carriedObjects.Count; // 유지되는 카운터라면 업데이트
-        WeightUpdate();
+        UpdateWeight();
     }
 
     private bool DropAtIndex(int index)
@@ -286,7 +263,7 @@ public class PlayerCarrying : MonoBehaviour
         {
             carriedObjects.RemoveAt(index);
             collideCarrying = carriedObjects.Count;
-            WeightUpdate();
+            UpdateWeight();
             return false;
         }
 
@@ -344,7 +321,7 @@ public class PlayerCarrying : MonoBehaviour
 
         carriedObjects.RemoveAt(index);
         collideCarrying = carriedObjects.Count;
-        WeightUpdate();
+        UpdateWeight();
         return true;
     }
 
@@ -355,7 +332,7 @@ public class PlayerCarrying : MonoBehaviour
         if (Time.time - lastInteractTime < interactCooldown) return false;
         lastInteractTime = Time.time;
 
-        if (carriedObjects.Count == 0) { WeightUpdate(); return false; }
+        if (carriedObjects.Count == 0) { UpdateWeight(); return false; }
 
         // 스택 상단(마지막 인덱스)부터 내려가며 해당 아이템 탐색
         for (int i = carriedObjects.Count - 1; i >= 0; --i)
@@ -376,6 +353,28 @@ public class PlayerCarrying : MonoBehaviour
 
         // 못 찾음
         return false;
+    }
+
+    public void TryDrop(GameObject obj)
+    {
+        if (Time.time - lastInteractTime < interactCooldown) return;
+        lastInteractTime = Time.time;
+
+        if (carriedObjects.Count <= 0)
+        {
+            UpdateWeight();
+            return;
+        }
+
+        int index = carriedObjects.IndexOf(obj);
+        if (index == -1)
+        {
+            Debug.Log("해당 오브젝트를 들고 있지 않습니다.");
+            return;
+        }
+
+        // 해당 인덱스 드롭 시도
+        DropAtIndex(index);
     }
 
 
@@ -455,7 +454,7 @@ public class PlayerCarrying : MonoBehaviour
         }
 
         collideCarrying = carriedObjects.Count;
-        WeightUpdate();
+        UpdateWeight();
     }
 
     private void OnDrawGizmos()
@@ -469,10 +468,9 @@ public class PlayerCarrying : MonoBehaviour
         Gizmos.DrawWireCube(pickUpPos, pickUpBox);
     }
 
-    public void WeightUpdate()
+    public void UpdateWeight()
     {
         CarryAbleWeight = 0;
-        Debug.Log("Weight Update =" + CarryAbleWeight);
 
         if (carriedObjects.Count <= 0) return;
 
@@ -481,7 +479,6 @@ public class PlayerCarrying : MonoBehaviour
             var c = carriedObjects[i]?.GetComponent<Carryable>();
             if (c) CarryAbleWeight += c.weight;
         }
-        Debug.Log("Weight Update2 =" + CarryAbleWeight);
     }
 
     /// <summary>
@@ -499,7 +496,7 @@ public class PlayerCarrying : MonoBehaviour
                 // 외부 파괴 → 정리 후 실패 처리
                 carriedObjects.RemoveAt(0);
                 collideCarrying = carriedObjects.Count;
-                WeightUpdate();
+                UpdateWeight();
                 return false;
             }
 
@@ -564,13 +561,13 @@ public class PlayerCarrying : MonoBehaviour
         {
             carriedObjects.RemoveAt(index);
             collideCarrying = carriedObjects.Count;
-            WeightUpdate();
+            UpdateWeight();
             return;
         }
 
         carriedObjects.RemoveAt(index);
         collideCarrying = carriedObjects.Count;
-        WeightUpdate();
+        UpdateWeight();
 
         Destroy(itemToConsume);
         GameLogger.Instance.LogDebug(this, $"아이템 소모: {itemToConsume.name}");

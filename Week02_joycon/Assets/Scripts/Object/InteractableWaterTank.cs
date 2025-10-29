@@ -13,7 +13,6 @@ public class InteractableWaterTank : MonoBehaviour, IInteractable
     [SerializeField] private float fillDuration = 5.0f;
 
     private bool isTankOn = false;
-    private bool isWaterFull = false;
     private Vector3 initialWaterScale;
 
     private void Start()
@@ -78,7 +77,6 @@ public class InteractableWaterTank : MonoBehaviour, IInteractable
         }
 
         bathtupWater.localScale = targetScale;
-        isWaterFull = true;
         GameLogger.Instance.LogDebug(this, "욕조가 가득 참");
     }
 }
