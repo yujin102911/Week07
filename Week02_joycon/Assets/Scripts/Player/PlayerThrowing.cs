@@ -34,9 +34,9 @@ public class PlayerThrowing : MonoBehaviour
 
     public void OnThrow()
     {
-        if (Time.time - lastThrowTime < playerCarrying.interactCooldown) return;
+        if (Time.time - lastThrowTime < PlayerConstant.InteractCoolTime) return;
         lastThrowTime = Time.time;//던지는 타임 쿨타임 갱신, 쿨타임 없으면 유니티 병신 인풋 시스템이 한번 눌러도 3번 호출됨 ㅅㅂ
-        if (playerCarrying.carriedObjects.Count <= 0)
+        if (playerCarrying.OwnedItems.Count <= 0)
         {
             Debug.Log("던질거 없음");
             return;
@@ -70,7 +70,7 @@ public class PlayerThrowing : MonoBehaviour
 
         // 스택에서 제거 및 부가 상태 갱신
         playerCarrying.carriedObjects.RemoveAt(playerCarrying.carriedObjects.Count - 1);
-        playerCarrying.collideCarrying = playerCarrying.carriedObjects.Count; // 유지되는 카운터라면 업데이트<<??
+        //playerCarrying.collideCarrying = playerCarrying.carriedObjects.Count; // 유지되는 카운터라면 업데이트<<??
         playerCarrying.UpdateWeight();
     }
 }
