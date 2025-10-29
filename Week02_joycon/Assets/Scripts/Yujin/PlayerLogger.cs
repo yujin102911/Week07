@@ -40,8 +40,8 @@ public class PlayerLogger : MonoBehaviour
                 if (firstItem != null)
                 {
                     var carryable = firstItem.GetComponent<Carryable>();
-                    if (carryable != null && !string.IsNullOrEmpty(carryable.Id))
-                        itemId = carryable.Id;
+                    if (carryable != null && !string.IsNullOrEmpty(carryable.GetItemName().ToString()))
+                        itemId = carryable.GetItemName().ToString();
                 }
             }
 

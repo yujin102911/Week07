@@ -26,6 +26,4 @@ public class PlayerParticleController : MonoBehaviour
 
         lastPosition = transform.position;
     }
-
-
 }

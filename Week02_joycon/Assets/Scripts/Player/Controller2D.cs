@@ -1,23 +1,17 @@
-﻿using System.Collections;
-using System.Runtime.CompilerServices;
+﻿using System.Runtime.CompilerServices;
 using UnityEngine;
-using UnityEngine.InputSystem;
-using UnityEngine.U2D.IK;
 
 public class Controller2D : RaycastController
 {
-
     public float maxSlopeAngle = 80;
 
     public CollisionInfo collisions;
-    [HideInInspector]
-    public Vector2 playerInput;
+    [HideInInspector] public Vector2 playerInput;
     public bool isFalling;
     public override void Start()
     {
         base.Start();
         collisions.faceDir = 1;
-
     }
 
     public void Move(Vector2 moveAmount, bool standingOnPlatform)
@@ -27,45 +21,24 @@ public class Controller2D : RaycastController
 
     public void Move(Vector2 moveAmount, Vector2 input, bool standingOnPlatform = false)
     {
-
-        //Debug.Log($"move {moveAmount},input {input},  ");
-
         UpdateRaycastOrigins();
 
         collisions.Reset();
         collisions.moveAmountOld = moveAmount;
         playerInput = input;
 
-        if (moveAmount.y < 0)
-        {
-            DescendSlope(ref moveAmount);
-        }
-
-        if (moveAmount.x != 0)
-        {
-            collisions.faceDir = (int)Mathf.Sign(moveAmount.x);
-        }
+        if (moveAmount.y < 0) DescendSlope(ref moveAmount);
+        if (moveAmount.x != 0) collisions.faceDir = (int)Mathf.Sign(moveAmount.x);
 
         HorizontalCollisions(ref moveAmount);
-        if (moveAmount.y != 0)
-        {
-            VerticalCollisions(ref moveAmount);
-        }
+        if (moveAmount.y != 0) VerticalCollisions(ref moveAmount);
 
         transform.Translate(moveAmount);
 
-        if (standingOnPlatform)
-        {
-            collisions.below = true;//지면에 있는가?
-        }
-        if (!collisions.below && moveAmount.y < 0)
-        {
-            isFalling = true;
-        }
-        else
-        {
-            isFalling = false;
-        }
+        if (standingOnPlatform) collisions.below = true;
+
+        if (!collisions.below && moveAmount.y < 0) isFalling = true;
+        else isFalling = false;
     }
 
     void HorizontalCollisions(ref Vector2 moveAmount)

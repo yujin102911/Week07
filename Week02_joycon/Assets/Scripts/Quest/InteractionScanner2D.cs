@@ -163,7 +163,7 @@ public sealed class InteractionScanner2D : MonoBehaviour
 
             // ignore carryables currently being carried (legacy behavior)
             var cb = it.GetComponent<Carryable>();
-            if (cb != null && cb.GetIsCarrying()) continue;
+            if (cb != null && cb.GetIsCarried()) continue;
 
             // only consider press interactions in this slim scanner
             if (it.Kind != InteractionKind.Press) continue;

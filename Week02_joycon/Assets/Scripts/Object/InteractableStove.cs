@@ -64,7 +64,7 @@ public class InteractableStove : MonoBehaviour, IInteractable
     {
         if (collision.TryGetComponent(out InteractablePot pot))
         {
-            if (pot.GetComponent<Carryable>() != null && !pot.GetComponent<Carryable>().GetIsCarrying())
+            if (pot.GetComponent<Carryable>() != null && !pot.GetComponent<Carryable>().GetIsCarried())
             {
                 potOnStove = pot;
                 pot.SetCurrentStove(this);
@@ -85,7 +85,7 @@ public class InteractableStove : MonoBehaviour, IInteractable
         }
         else if (collision.TryGetComponent(out Carryable carryable))
         {
-            if (carryable.Id == "Firewood" && !carryable.GetIsCarrying())
+            if (carryable.GetItemName() == ItemName.Firewood && !carryable.GetIsCarried())
             {
                 AddFirewood();
                 Destroy(collision.gameObject);
