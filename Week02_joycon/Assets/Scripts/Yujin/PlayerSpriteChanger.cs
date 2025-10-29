@@ -4,7 +4,7 @@ public class PlayerSpriteChanger : MonoBehaviour, IInteractable
 {
     [SerializeField] private Sprite newLookSprite;
 
-    public bool Interact()
+    public bool TryInteract()
     {
         Player playerScript = Player.Instance;
         ChangePlayerSpriteOnInteract(playerScript);

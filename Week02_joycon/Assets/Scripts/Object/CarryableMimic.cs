@@ -81,7 +81,7 @@ public class CarryableMimic : Carryable, IInteractable
         return true;
     }
 
-    public bool Interact()
+    public bool TryInteract()
     {
         var coin = EatCoin();
         if (coin == false) return ShampooInteract();

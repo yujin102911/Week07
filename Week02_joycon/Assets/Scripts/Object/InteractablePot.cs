@@ -87,7 +87,7 @@ public class InteractablePot : Carryable, IInteractable
         currentStove.ResetStove();
     }
 
-    public bool Interact()
+    public bool TryInteract()
     {
         if (carrying == true) return false;
         return AddIngredient();

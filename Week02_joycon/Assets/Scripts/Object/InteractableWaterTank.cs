@@ -42,7 +42,7 @@ public class InteractableWaterTank : MonoBehaviour, IInteractable
         }
     }
 
-    public bool Interact()
+    public bool TryInteract()
     {
         if (isTankOn)
         {

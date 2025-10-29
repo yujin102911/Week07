@@ -5,7 +5,7 @@ public class InteractableClothesline : MonoBehaviour, IInteractable
     [SerializeField] private GameObject emptyLine;
     [SerializeField] private GameObject fullLine;
 
-    public bool Interact()
+    public bool TryInteract()
     {
         if (InventoryManager.Instance.HasItem(ItemName.Bedding) == false) return false;
 

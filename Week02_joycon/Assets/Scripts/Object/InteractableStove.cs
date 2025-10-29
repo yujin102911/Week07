@@ -16,7 +16,7 @@ public class InteractableStove : MonoBehaviour, IInteractable
         UpdateSprite();
     }
 
-    public bool Interact()
+    public bool TryInteract()
     {
         if (potOnStove == null)
         {
@@ -31,7 +31,7 @@ public class InteractableStove : MonoBehaviour, IInteractable
             return AddFirewood();
         }
 
-        if (potOnStove.Interact() == true) return true;
+        if (potOnStove.TryInteract() == true) return true;
         if (InventoryManager.Instance.HasItem(ItemName.Firewood) == false) return false;
 
         InventoryManager.Instance.RemoveAndDestroyItem(ItemName.Firewood);

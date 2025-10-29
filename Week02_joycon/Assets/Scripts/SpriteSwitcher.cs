@@ -19,7 +19,7 @@ public class SpriteSwitcher : MonoBehaviour, IInteractable
         }
     }
 
-    public bool Interact()
+    public bool TryInteract()
     {
         if (!hasSwithced)
         {

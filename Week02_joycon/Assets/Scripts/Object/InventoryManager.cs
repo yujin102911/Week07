@@ -1,5 +1,3 @@
-using UnityEngine;
-
 public class InventoryManager : Singleton<InventoryManager>
 {
     private Inventory inventory;
@@ -10,32 +8,24 @@ public class InventoryManager : Singleton<InventoryManager>
     }
 
     public bool HasItem(ItemName itemName) => inventory.HasItem(itemName);
-    public bool HasItem(GameObject itemObject) => inventory.HasItem(itemObject);
-    public void AddItem(ItemName itemName, GameObject itemObject) => inventory.AddItem(itemName, itemObject);
-    public GameObject GetItemObject(ItemName itemName) => inventory.GetItemObject(itemName);
+    public bool HasItem(Carryable item) => inventory.HasItem(item);
+    public void AddItem(Carryable item) => inventory.AddItem(item);
+    public Carryable GetItem(ItemName itemName) => inventory.GetItem(itemName);
     public void RemoveItem(ItemName itemName) => inventory.RemoveItem(itemName);
-    public void RemoveItem(GameObject itemObject) => inventory.RemoveItem(itemObject);
+    public void RemoveItem(Carryable item) => inventory.RemoveItem(item);
     public void RemoveAndDestroyItem(ItemName itemName)
     {
-        var itemObject = GetItemObject(itemName);
-        if (itemObject != null)
-        {
-            RemoveItem(itemName);
-            Destroy(itemObject);
-        }
-    }
-    public void RemoveAndDestroyItem(GameObject itemObject)
-    {
-        if (HasItem(itemObject) == false) return;
+        var item = GetItem(itemName);
+        if (item == null) return;
 
-        RemoveItem(itemObject);
-        Destroy(itemObject);
+        RemoveItem(item);
+        Destroy(item.gameObject);
     }
-    public void DropItem(GameObject itemObject)
+    public void RemoveAndDestroyItem(Carryable item)
     {
-        if (HasItem(itemObject) == false) return;
+        if (HasItem(item) == false) return;
 
-        RemoveItem(itemObject);
-        Instance.GetComponent<PlayerCarrying>().TryDrop(itemObject);
+        RemoveItem(item);
+        Destroy(item.gameObject);
     }
 }

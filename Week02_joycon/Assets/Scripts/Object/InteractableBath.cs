@@ -86,14 +86,14 @@ public class InteractableBath : MonoBehaviour, IInteractable
         }
     }
 
-    public bool Interact()
+    public bool TryInteract()
     {
         if (isComplete == true) return false;
         foreach (var ingredient in requiredIngredients)
         {
             if (InventoryManager.Instance.HasItem(ingredient.itemName))
             {
-                var item = InventoryManager.Instance.GetItemObject(ingredient.itemName).GetComponent<Carryable>();
+                var item = InventoryManager.Instance.GetItem(ingredient.itemName).GetComponent<Carryable>();
                 InventoryManager.Instance.GetComponent<PlayerCarrying>().TryDrop(ingredient.itemName);
                 PlaceItem(item);
                 CheckForCompletion();
