@@ -8,19 +8,16 @@ public class Carryable : MonoBehaviour
     private Rigidbody2D _rigidbody;
     protected LayerMask obstacleMask;
     protected float lxw;
-    protected bool isCarrying = false;
+    protected bool isCarried = false;
 
     public ItemName GetItemName() => itemName;
     public float GetWeight() => weight;
-    public bool GetIsCarrying() => isCarrying;
-    public void SetIsCarrying(bool isCarrying)
+    public bool GetIsCarried() => isCarried;
+    public void SetIsCarried(bool isCarried)
     {
-        this.isCarrying = isCarrying;
-        SetUpRigidbody();
+        this.isCarried = isCarried;
+        SetState();
     }
-
-    public string Id;
-    public int ScannerID;
 
     protected virtual void Start()
     {
@@ -33,34 +30,33 @@ public class Carryable : MonoBehaviour
         _rigidbody.mass = lxw;
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnCollisionStay2D(Collision2D collision)
     {
-        if (isCarrying == false) return;
+        if (isCarried == false) return;
         if (collision.gameObject.layer != obstacleMask) return;
 
-        SetIsCarrying(false);
-        GameLogger.Instance.LogDebug(this, $"충돌로 인해 짐 떨어뜨림. 위치 : {transform.position}");
+        SetIsCarried(false);
+        GameLogger.Instance.LogDebug(this, $"충돌로 떨어뜨림. 위치 : {transform.position}");
     }
 
-    private void SetUpRigidbody()
+    private void SetState()
     {
-        if (isCarrying == false) _rigidbody.transform.SetParent(null, true);
-        _rigidbody.bodyType = isCarrying ? RigidbodyType2D.Kinematic : RigidbodyType2D.Dynamic;
-        _rigidbody.freezeRotation = isCarrying;
+        if (isCarried == false) _rigidbody.transform.SetParent(null, true);
+        _rigidbody.bodyType = isCarried ? RigidbodyType2D.Kinematic : RigidbodyType2D.Dynamic;
+        _rigidbody.freezeRotation = isCarried;
         _rigidbody.linearVelocity = Vector2.zero;
         _rigidbody.angularVelocity = 0.0f;
 
-
         // Rotation
-        var localScale = transform.localScale;
         float zRot = transform.localEulerAngles.z;
+        int sign = zRot > 90f && zRot < 270f ? -1 : 1;
 
-        if (zRot > 90f && zRot < 270f)
-        {
-            if (localScale.y > 0) localScale.y = -Mathf.Abs(localScale.y);
-        }
-        else if (localScale.y < 0) localScale.y = Mathf.Abs(localScale.y);
-
+        var localScale = transform.localScale;
+        localScale.y = Mathf.Abs(localScale.y) * sign;
         transform.localScale = localScale;
+
+        var rot = transform.eulerAngles;
+        rot.z = (rot.z < 90f || rot.z > 270f) ? 0f : 180f;
+        transform.eulerAngles = rot;
     }
 }

@@ -1,7 +1,6 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
-using Game.Quests;
 
 [DefaultExecutionOrder(-500)]
 public sealed class QuestRuntime : MonoBehaviour

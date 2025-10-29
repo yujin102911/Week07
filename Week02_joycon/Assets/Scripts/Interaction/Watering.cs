@@ -14,7 +14,7 @@ public class Watering : MonoBehaviour
     }
     void Update()
     {
-        if (carryable.GetIsCarrying() == true)
+        if (carryable.GetIsCarried() == true)
         {
             wateringOffset = new Vector3(1.5f * -transform.localScale.y, 0, 0);//내 y스케일에 따라 오른쪽이나 왼쪽
             wateringSize = new Vector2(transform.localScale.x / 2, Mathf.Abs(transform.localScale.y));

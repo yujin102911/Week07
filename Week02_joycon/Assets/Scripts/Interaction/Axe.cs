@@ -13,6 +13,6 @@ public class Axe : MonoBehaviour
 
     void Update()
     {
-        falling = controller2D.isFalling && carryable.GetIsCarrying();
+        falling = controller2D.isFalling && carryable.GetIsCarried();
     }
 }

@@ -1,6 +1,5 @@
 using System.Collections.Generic;
 using UnityEngine;
-using Game.Quests; // FlagId, QuestRuntime
 
 /// <summary>
 /// StayScanner2D (enum-only):
@@ -154,8 +153,7 @@ public sealed class StayScanner2D : MonoBehaviour
     private bool IsEligible(Carryable carryable)
     {
         if (!carryable) return false;
-        if (excludeCarried && carryable.GetIsCarrying()) return false;
-        if (carryable.ScannerID != scannerId) return false;
+        if (excludeCarried && carryable.GetIsCarried()) return false;
         return true;
     }
 

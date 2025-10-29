@@ -24,7 +24,7 @@ public class InteractableBath : MonoBehaviour, IInteractable
 
         IngredientInfo ingredient = requiredIngredients.Find(ing => ing.itemName == carryable.GetItemName());
 
-        if (carryable.GetIsCarrying() == false && ingredient != null && ingredient.isPlaced == false) PlaceItem(carryable);
+        if (carryable.GetIsCarried() == false && ingredient != null && ingredient.isPlaced == false) PlaceItem(carryable);
     }
 
     private void PlaceItem(Carryable item)
@@ -53,7 +53,7 @@ public class InteractableBath : MonoBehaviour, IInteractable
         ingredient.ingredientObject = item.gameObject;
         ingredient.isPlaced = true;
 
-        GameLogger.Instance.LogDebug(this, $"재료 배치 완료: {item.Id}");
+        GameLogger.Instance.LogDebug(this, $"재료 배치 완료: {item.GetItemName()}");
 
         // 모두 모였는지 검사
         CheckForCompletion();

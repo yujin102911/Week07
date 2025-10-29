@@ -11,13 +11,3 @@ public sealed class Deliverable2D : MonoBehaviour
     public string ItemId => itemId;
     public bool Consume => consumeOnDelivery;
 }
-
-
-/*if (_focus.TryGetComponent<Deliverable2D>(out var del))
-{
-    if (Inventory.HasItem(del.ItemId))
-    {
-        QuestEvents.RaiseDelivery(del.ItemId, del.ReceiverId, _focus.transform.position);
-        if (del.Consume) Inventory.Consume(del.ItemId);
-    }
-}*/

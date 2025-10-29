@@ -1,6 +1,5 @@
 using System;
 using UnityEngine;
-using Game.Quests;
 
 public static class QuestEvents
 {

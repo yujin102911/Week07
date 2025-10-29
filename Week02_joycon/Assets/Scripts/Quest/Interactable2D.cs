@@ -1,5 +1,4 @@
 using UnityEngine;
-using Game.Quests; // InteractableId, FlagId
 
 public enum InteractionKind : byte
 {

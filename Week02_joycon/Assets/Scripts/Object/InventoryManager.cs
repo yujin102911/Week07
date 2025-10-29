@@ -31,9 +31,7 @@ public class InventoryManager : Singleton<InventoryManager>
     }
     public void RemoveAndDestroyItem(Carryable item)
     {
-        if (HasItem(item) == false) return;
-
-        RemoveItem(item);
+        if (HasItem(item) == true) RemoveItem(item);
         Destroy(item.gameObject);
     }
 
@@ -45,7 +43,7 @@ public class InventoryManager : Singleton<InventoryManager>
         for (int i = items.Count - 1; i >= 0; --i)
         {
             var item = items[i];
-            if (item == null || item.GetIsCarrying() == false) items.RemoveAt(i);
+            if (item == null || item.GetIsCarried() == false) items.RemoveAt(i);
         }
     }
 }

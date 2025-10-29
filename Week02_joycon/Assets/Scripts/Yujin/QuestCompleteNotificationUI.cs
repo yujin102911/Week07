@@ -3,7 +3,6 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine.InputSystem;
-using System.Diagnostics.CodeAnalysis;
 
 
 [RequireComponent(typeof(UISlideToggleOnFire))]
@@ -52,7 +51,7 @@ public class QuestCompleteNotificationUI : MonoBehaviour
         if (QuestManager.Instance != null) { QuestManager.Instance.OnQuestUpdated -= OnQuestUpdated; }
         if (manualToggleAction && manualToggleAction.action != null)
         {
-            manualToggleAction.action.performed -= OnManualToggle;            
+            manualToggleAction.action.performed -= OnManualToggle;
             manualToggleAction.action.Disable();
         }
     }

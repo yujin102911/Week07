@@ -7,16 +7,12 @@ public class PlayerCarrying : MonoBehaviour
     private Vector2 dropPoint;
     private LayerMask carryableMask;
     private LayerMask obstacleMask;
-    public float CarryableWeight;
-    private float carryingTotalHeight;
+    private float totalHeight;
+    private float totalWeight;
+    public float GetTotalWeight() => totalWeight;
 
-    private Vector2 lastObjSize;
     private Controller2D controller2D;
-    private bool showDropGizmo = false;
-    private Vector2 pickUpPos;
-    private Vector2 pickUpBox;
-    private Vector2 lastDropPos;
-    private BoxCollider2D boxCollider2D;
+    private Vector2 playerSize;
 
     private float lastInteractTime = 0;
 
@@ -36,9 +32,9 @@ public class PlayerCarrying : MonoBehaviour
         carryableMask = LayerMask.GetMask(PlayerConstant.CarryableMask);
         obstacleMask = LayerMask.GetMask(PlayerConstant.ObstacleMask);
 
-        carryingTotalHeight = 0.0f;
+        totalHeight = 0.0f;
         controller2D = GetComponent<Controller2D>();
-        boxCollider2D = GetComponent<BoxCollider2D>();
+        playerSize = GetComponent<BoxCollider2D>().bounds.size;
 
         interactableFilter = new ContactFilter2D();
         interactableFilter.SetLayerMask(interactableMask);
@@ -50,23 +46,10 @@ public class PlayerCarrying : MonoBehaviour
         PlaceCarriedStack();
     }
 
-    private void OnDrawGizmos()
+    public bool TryInteract()
     {
-        if (showDropGizmo)
-        {
-            Gizmos.color = Color.red;
-            Gizmos.DrawWireCube(lastDropPos, lastObjSize);
-        }
-        Gizmos.color = Color.green;
-        Gizmos.DrawWireCube(pickUpPos, pickUpBox);
-    }
-
-    // ===== Public API =====
-    public void TryInteract()
-    {
-        if (EnsureCooldown() == false) return;
-        if (TryUseItemOnWorld()) return;
-        TryPickUp();
+        if (EnsureCooldown() == false) return false;
+        return TryPickUp();
     }
 
     public bool TryDrop()
@@ -104,35 +87,18 @@ public class PlayerCarrying : MonoBehaviour
         return true;
     }
 
-    public void UpdateWeight()
+    private void UpdateWeight()
     {
-        CarryableWeight = 0;
+        totalWeight = 0;
         if (StackCount == 0) return;
 
         for (int i = 0; i < StackCount; i++)
         {
             var carryable = OwnedItems[i];
-            if (carryable) CarryableWeight += carryable.GetWeight();
+            if (carryable) totalWeight += carryable.GetWeight();
         }
     }
 
-    public void ConsumeItem(int index)
-    {
-        if (index < 0 || index >= StackCount) return;
-        var item = OwnedItems[index];
-        if (!item)
-        {
-            // 이미 파괴됨 → 인벤토리에서만 제거
-            InventoryManager.Instance.RemoveItem(item);
-            return;
-        }
-
-        InventoryManager.Instance.RemoveItem(item);
-        Destroy(item.gameObject);
-        GameLogger.Instance.LogDebug(this, $"아이템 소모: {item.name}");
-    }
-
-    // ===== Pick Up =====
     private bool TryPickUp()
     {
         if (StackCount >= PlayerConstant.CarryableMaxCount)
@@ -146,11 +112,10 @@ public class PlayerCarrying : MonoBehaviour
 
         Carryable closest = FindClosestCarryable(hits);
         if (closest == null) return false;
-        if (closest.GetIsCarrying() == true) return false;
+        if (closest.GetIsCarried() == true) return false;
 
         InventoryManager.Instance.AddItem(closest);
-        SetupRigidOnPickup(closest);
-        closest.SetIsCarrying(true);
+        closest.SetIsCarried(true);
 
         UpdateWeight();
         return true;
@@ -173,7 +138,7 @@ public class PlayerCarrying : MonoBehaviour
         if (!ComputeDropPose(obj, out Vector2 dropPos, out Vector2 dropSize)) return false;
         if (!CanPlace(dropPos, dropSize)) return false;
 
-        PlaceAndRelease(obj, dropPos);
+        PlaceAndRelease(carryable, dropPos);
 
         InventoryManager.Instance.RemoveItem(carryable);
         UpdateWeight();
@@ -184,62 +149,11 @@ public class PlayerCarrying : MonoBehaviour
     {
         foreach (var carryable in OwnedItems)
         {
-            if (!carryable) continue;
-            carryable.SetIsCarrying(false);
-            SetupRigidOnPickup(carryable);
+            if (carryable == false) continue;
+            carryable.SetIsCarried(false);
         }
     }
 
-    // ===== World Interact (kept, but unified area calc) =====
-    private bool TryUseItemOnWorld()
-    {
-        // 들고 있는 최상단 아이템 ID (정책: 0번을 최상단으로 사용)
-        string heldItemId = null;
-        if (StackCount > 0)
-        {
-            var top = OwnedItems[0];
-            if (!top) return false;
-            heldItemId = top.Id;
-        }
-
-        var area = BuildForwardBox();
-        Collider2D[] hits = Physics2D.OverlapBoxAll(area.pos, area.size, 0f, interactableMask);
-        if (hits.Length == 0) return false;
-
-        GameObject closestObj = null;
-        float minD = Mathf.Infinity;
-        WorldInteractable wi = null;
-
-        foreach (var hit in hits)
-        {
-            if (!hit) continue;
-            if (hit.TryGetComponent<WorldInteractable>(out var temp))
-            {
-                float d = Vector2.Distance(transform.position, hit.transform.position);
-                if (d < minD)
-                {
-                    minD = d;
-                    closestObj = hit.gameObject;
-                    wi = temp;
-                }
-            }
-        }
-
-        if (wi != null)
-        {
-            GameLogger.Instance.LogDebug(this, $"WorldInteractable 감지: {closestObj.name}");
-            bool ok = wi.AttemptInteraction(heldItemId, this);
-            if (ok)
-            {
-                GameLogger.Instance.LogDebug(this, "상호작용 성공함!!");
-                return true;
-            }
-            GameLogger.Instance.LogDebug(this, "상호작용 실패함 (아이템 불일치 등). 줍기 시도.");
-        }
-        return false;
-    }
-
-    // 1) 공통 쿨타임
     private bool EnsureCooldown()
     {
         if (Time.time - lastInteractTime < PlayerConstant.InteractCoolTime) return false;
@@ -248,16 +162,12 @@ public class PlayerCarrying : MonoBehaviour
         return true;
     }
 
-    // 3) 드롭 포즈 계산(공통)
+    // 드롭 포즈 계산
     private bool ComputeDropPose(GameObject obj, out Vector2 dropPos, out Vector2 dropSize)
     {
-        dropPos = default;
-        dropSize = default;
         var objSize = GetBoundsSize(obj);
-        var playerSize = GetPlayerBoundsSize();
         int faceDir = GetFaceDir();
 
-        // 드롭 오프셋
         dropPoint = new Vector2(
             (objSize.x + playerSize.x) * faceDir / 2f,
             (objSize.y - playerSize.y) / 2f + 0.05f
@@ -266,54 +176,33 @@ public class PlayerCarrying : MonoBehaviour
         dropPos = (Vector2)transform.position + dropPoint;
         dropSize = objSize * 1.0f;
 
-        // 디버그
-        lastDropPos = dropPos;
-        lastObjSize = dropSize;
-        showDropGizmo = true;
-
         return true;
     }
 
-    // 4) 배치 가능 여부(장애물 겹침)
+    // 배치 가능 여부(장애물 겹침)
     private bool CanPlace(Vector2 pos, Vector2 size)
     {
         int mask = obstacleMask.value;
         return Physics2D.OverlapBox(pos, size, 0f, mask) == null;
     }
 
-    // 5) 실제 배치 + 해제
-    private void PlaceAndRelease(GameObject obj, Vector2 pos)
+    // 실제 배치 + 해제
+    private void PlaceAndRelease(Carryable carryable, Vector2 pos)
     {
-        if (obj.TryGetComponent<Rigidbody2D>(out var rb))
-        {
-            rb.transform.SetParent(null, true);
-            rb.position = pos;
-            rb.bodyType = RigidbodyType2D.Dynamic;
-            rb.freezeRotation = false;
-            rb.linearVelocity = Vector2.zero;
-            rb.angularVelocity = 0f;
-        }
-        else
-        {
-            obj.transform.SetParent(null, true);
-            obj.transform.position = pos;
-        }
-
-        if (obj.TryGetComponent<Carryable>(out var c))
-            c.SetIsCarrying(false);
+        carryable.transform.position = pos;
+        carryable.SetIsCarried(false);
     }
 
-    // 6) 전방 박스(픽업/인터랙트 공용)
+    // 전방 박스
     private (Vector2 pos, Vector2 size) BuildForwardBox()
     {
         int faceDir = GetFaceDir();
-        pickUpPos = new Vector2(transform.position.x + (PlayerConstant.InteractableRange / 2f * faceDir),
-                                transform.position.y);
-        pickUpBox = new Vector2(PlayerConstant.InteractableRange, boxCollider2D.bounds.size.y * 1.1f);
+        var pickUpPos = new Vector2(transform.position.x + (PlayerConstant.InteractableRange / 2f * faceDir), transform.position.y);
+        var pickUpBox = new Vector2(PlayerConstant.InteractableRange, playerSize.y * 1.1f);
         return (pickUpPos, pickUpBox);
     }
 
-    // 7) 가장 가까운 Carryable 탐색
+    // 가장 가까운 Carryable 탐색
     private Carryable FindClosestCarryable(Collider2D[] hits)
     {
         Carryable closest = null;
@@ -323,7 +212,7 @@ public class PlayerCarrying : MonoBehaviour
         {
             if (!hit) continue;
             if (!hit.TryGetComponent<Carryable>(out var carryable)) continue;
-            if (!carryable.enabled || carryable.GetIsCarrying() == true) continue;
+            if (!carryable.enabled || carryable.GetIsCarried() == true) continue;
 
             float d = Vector2.Distance(transform.position, hit.transform.position);
             if (d < minD) { minD = d; closest = carryable; }
@@ -332,26 +221,10 @@ public class PlayerCarrying : MonoBehaviour
         return closest;
     }
 
-    // 8) 픽업 시 Rigidbody 상태 통일
-    private static void SetupRigidOnPickup(Carryable carryable)
-    {
-        if (!carryable.TryGetComponent<Rigidbody2D>(out var rb)) return;
-
-        // 정방향/역방향으로 바로 세워 놓기
-        var rot = carryable.transform.eulerAngles;
-        rot.z = (rot.z < 90f || rot.z >= 270f) ? 0f : 180f;
-        carryable.transform.eulerAngles = rot;
-
-        rb.bodyType = RigidbodyType2D.Dynamic;
-        rb.freezeRotation = true;
-        rb.linearVelocity = Vector2.zero;
-        rb.angularVelocity = 0f;
-    }
-
     // 9) 스택 배치 (Inventory 순서대로 쌓기)
     private void PlaceCarriedStack()
     {
-        carryingTotalHeight = 0f;
+        totalHeight = 0f;
         if (StackCount == 0) return;
 
         for (int i = 0; i < StackCount; i++)
@@ -363,8 +236,8 @@ public class PlayerCarrying : MonoBehaviour
             if (!col) continue;
 
             float objH = col.bounds.size.y;
-            c.transform.position = holdPoint.position + new Vector3(0, carryingTotalHeight + objH / 2f, 0);
-            carryingTotalHeight += objH;
+            c.transform.position = holdPoint.position + new Vector3(0, totalHeight + objH / 2f, 0);
+            totalHeight += objH;
         }
     }
 
@@ -383,27 +256,6 @@ public class PlayerCarrying : MonoBehaviour
             if (s != Vector3.zero) return (Vector2)s;
         }
         var ls = go.transform.lossyScale;
-        return new Vector2(Mathf.Abs(ls.x), Mathf.Abs(ls.y));
-    }
-
-    private Vector2 GetPlayerBoundsSize()
-    {
-        if (boxCollider2D != null)
-        {
-            var s = boxCollider2D.bounds.size;
-            if (s != Vector3.zero) return (Vector2)s;
-        }
-        if (TryGetComponent<Collider2D>(out var selfCol))
-        {
-            var s = selfCol.bounds.size;
-            if (s != Vector3.zero) return (Vector2)s;
-        }
-        if (TryGetComponent<SpriteRenderer>(out var sr))
-        {
-            var s = sr.bounds.size;
-            if (s != Vector3.zero) return (Vector2)s;
-        }
-        var ls = transform.lossyScale;
         return new Vector2(Mathf.Abs(ls.x), Mathf.Abs(ls.y));
     }
 

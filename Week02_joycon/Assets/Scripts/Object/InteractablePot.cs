@@ -89,15 +89,15 @@ public class InteractablePot : Carryable, IInteractable
 
     public bool TryInteract()
     {
-        if (isCarrying == true) return false;
+        if (isCarried == true) return false;
         return AddIngredient();
     }
 
     private void OnTriggerStay2D(Collider2D collision)
     {
-        if (isCarrying == true) return;
+        if (isCarried == true) return;
         if (collision.TryGetComponent<Carryable>(out var carryable) == false) return;
-        if (carryable.GetIsCarrying() == true) return;
+        if (carryable.GetIsCarried() == true) return;
 
         AddIngredient(carryable);
     }
