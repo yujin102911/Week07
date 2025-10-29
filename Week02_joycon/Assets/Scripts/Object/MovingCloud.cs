@@ -34,7 +34,7 @@ public class CloudManager : MonoBehaviour
             {
                 // 리스트에서 해당 항목을 제거합니다.
                 activeClouds.RemoveAt(i);
-                Debug.Log("파괴된 구름을 리스트에서 제거. 현재 구름 수: " + activeClouds.Count);
+                //Debug.Log("파괴된 구름을 리스트에서 제거. 현재 구름 수: " + activeClouds.Count);
             }
         }
     }
