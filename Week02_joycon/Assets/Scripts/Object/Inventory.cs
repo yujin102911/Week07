@@ -1,21 +1,5 @@
 using System.Collections.Generic;
 
-public enum ItemName
-{
-    None,
-    Rag,
-    Coin,
-    Bedding,
-    Mimic,
-    Key,
-    Tomato,
-    Onion,
-    TomatoSoup,
-    Firewood,
-    Pot,
-    Shampoo,
-}
-
 public class Inventory
 {
     private List<Carryable> OwnedItems;
