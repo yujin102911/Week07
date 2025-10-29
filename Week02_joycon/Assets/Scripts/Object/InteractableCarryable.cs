@@ -7,7 +7,7 @@ public class InteractableCarryable : Carryable, IInteractable
 
     public bool TryInteract()
     {
-        if (carrying == true) return false;
+        if (isCarrying == true) return false;
         foreach (var item in interactableItems)
         {
             if (InventoryManager.Instance.HasItem(item) == false) continue;
@@ -29,7 +29,7 @@ public class InteractableCarryable : Carryable, IInteractable
 
     protected virtual void OnTriggerStay2D(Collider2D collision)
     {
-        if (carrying == true) return;
+        if (isCarrying == true) return;
         if (collision.TryGetComponent(out Carryable carryable)) Interact(carryable);
     }
 }

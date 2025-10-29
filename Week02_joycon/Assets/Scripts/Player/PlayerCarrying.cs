@@ -1,10 +1,8 @@
-﻿using Game.Quests;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerCarrying : MonoBehaviour
 {
-    // ===== Fields =====
     private Transform holdPoint;
     private Vector2 dropPoint;
     private LayerMask carryableMask;
@@ -13,30 +11,30 @@ public class PlayerCarrying : MonoBehaviour
     private float carryingTotalHeight;
 
     private Vector2 lastObjSize;
-    Controller2D controller2D;
+    private Controller2D controller2D;
     private bool showDropGizmo = false;
-    Vector2 pickUpPos;
-    Vector2 pickUpBox;
-    Vector2 lastDropPos;
-    public int collideCarrying = 0;
+    private Vector2 pickUpPos;
+    private Vector2 pickUpBox;
+    private Vector2 lastDropPos;
     private BoxCollider2D boxCollider2D;
 
-    public List<GameObject> carriedObjects = new();
     private float lastInteractTime = 0;
 
-    [Header("World Interaction")]
     [SerializeField] private LayerMask interactableMask;
     private ContactFilter2D interactableFilter;
+
+    private List<Carryable> OwnedItems => InventoryManager.Instance.GetOwnedItems();
+    private int StackCount => OwnedItems?.Count ?? 0;
 
     // ===== Unity =====
     private void Start()
     {
-        carryableMask = LayerMask.GetMask(PlayerConstant.CarryableMask);
-        obstacleMask = LayerMask.GetMask(PlayerConstant.ObstacleMask);
-
         holdPoint = new GameObject("HoldPoint").transform;
         holdPoint.parent = transform;
         holdPoint.localPosition = PlayerConstant.HoldPointOffset;
+
+        carryableMask = LayerMask.GetMask(PlayerConstant.CarryableMask);
+        obstacleMask = LayerMask.GetMask(PlayerConstant.ObstacleMask);
 
         carryingTotalHeight = 0.0f;
         controller2D = GetComponent<Controller2D>();
@@ -45,17 +43,6 @@ public class PlayerCarrying : MonoBehaviour
         interactableFilter = new ContactFilter2D();
         interactableFilter.SetLayerMask(interactableMask);
         interactableFilter.useTriggers = true;
-    }
-
-    private void Update()
-    {
-        if (PruneCarriedNulls() == true)
-        {
-            collideCarrying = carriedObjects.Count;
-            UpdateWeight();
-        }
-
-        if (collideCarrying < carriedObjects.Count) CarryingDrop();
     }
 
     private void LateUpdate()
@@ -78,165 +65,140 @@ public class PlayerCarrying : MonoBehaviour
     public void TryInteract()
     {
         if (EnsureCooldown() == false) return;
-        if (TryUseItemOnWorld() == true) return;
-
+        if (TryUseItemOnWorld()) return;
         TryPickUp();
     }
 
     public bool TryDrop()
     {
         if (IsReadyToDrop() == false) return false;
-
-        DropAtIndex(carriedObjects.Count - 1);
-        return true;
+        return DropAtIndex(StackCount - 1);
     }
 
-    public bool TryDrop(ItemName target)
+    public bool TryDrop(ItemName itemName)
     {
         if (IsReadyToDrop() == false) return false;
 
-        for (int i = carriedObjects.Count - 1; i >= 0; --i)
+        for (int i = StackCount - 1; i >= 0; --i)
         {
-            var go = carriedObjects[i];
-            if (!go) { carriedObjects.RemoveAt(i); continue; }
-            if (go.TryGetComponent<Carryable>(out var c) && c.GetItemName() == target)
-                return DropAtIndex(i);
+            var carryable = OwnedItems[i];
+            if (carryable && carryable.GetItemName() == itemName) return DropAtIndex(i);
         }
-
         return false;
     }
 
-    public bool TryDrop(Carryable obj)
+    public bool TryDrop(Carryable carryable)
     {
-        if (IsReadyToDrop() == false) return false;
+        if (IsReadyToDrop() == false || !carryable) return false;
 
-        int index = carriedObjects.IndexOf(obj ? obj.gameObject : null);
+        int index = OwnedItems.IndexOf(carryable);
         if (index < 0) return false;
-        DropAtIndex(index);
-        return true;
+        return DropAtIndex(index);
     }
 
     private bool IsReadyToDrop()
     {
         if (EnsureCooldown() == false) return false;
-        if (carriedObjects.Count == 0) { UpdateWeight(); return false; }
+        if (StackCount == 0) return false;
+
         return true;
     }
 
     public void UpdateWeight()
     {
         CarryableWeight = 0;
-        if (carriedObjects.Count <= 0) return;
+        if (StackCount == 0) return;
 
-        for (int i = 0; i < carriedObjects.Count; i++)
+        for (int i = 0; i < StackCount; i++)
         {
-            var carryable = carriedObjects[i]?.GetComponent<Carryable>();
-            if (carryable != null) CarryableWeight += carryable.weight;
+            var carryable = OwnedItems[i];
+            if (carryable) CarryableWeight += carryable.GetWeight();
         }
-    }
-
-    public void CarryingDrop()
-    {
-        int count = carriedObjects.Count;
-        if (count == 0) { collideCarrying = 0; return; }
-
-        int startIndex = Mathf.Clamp(collideCarrying, 0, count);
-        for (int i = count - 1; i >= startIndex; --i)
-        {
-            var go = carriedObjects[i];
-            if (go == null) { carriedObjects.RemoveAt(i); continue; }
-
-            if (go.TryGetComponent<Rigidbody2D>(out var rb))
-            {
-                rb.bodyType = RigidbodyType2D.Dynamic;
-                rb.freezeRotation = false;
-            }
-            if (go.TryGetComponent<Carryable>(out var car))
-                car.carrying = false;
-
-            carriedObjects.RemoveAt(i);
-        }
-        collideCarrying = carriedObjects.Count;
-        UpdateWeight();
     }
 
     public void ConsumeItem(int index)
     {
-        if (index < 0 || index >= carriedObjects.Count) return;
-        var item = carriedObjects[index];
-        if (!item) { carriedObjects.RemoveAt(index); collideCarrying = carriedObjects.Count; UpdateWeight(); return; }
+        if (index < 0 || index >= StackCount) return;
+        var item = OwnedItems[index];
+        if (!item)
+        {
+            // 이미 파괴됨 → 인벤토리에서만 제거
+            InventoryManager.Instance.RemoveItem(item);
+            return;
+        }
 
-        carriedObjects.RemoveAt(index);
-        collideCarrying = carriedObjects.Count;
-        UpdateWeight();
-
-        Destroy(item);
+        InventoryManager.Instance.RemoveItem(item);
+        Destroy(item.gameObject);
         GameLogger.Instance.LogDebug(this, $"아이템 소모: {item.name}");
     }
 
     // ===== Pick Up =====
-    void TryPickUp()
+    private bool TryPickUp()
     {
-        if (carriedObjects.Count >= PlayerConstant.CarryableMaxCount)
+        if (StackCount >= PlayerConstant.CarryableMaxCount)
         {
             Debug.Log("Cannot pick up: Max carry count reached");
-            return;
+            return false;
         }
 
         var area = BuildForwardBox();
         Collider2D[] hits = Physics2D.OverlapBoxAll(area.pos, area.size, 0f, carryableMask);
 
-        GameObject closest = FindClosestCarryable(hits);
-        if (closest == null) return;
+        Carryable closest = FindClosestCarryable(hits);
+        if (closest == null) return false;
+        if (closest.GetIsCarrying() == true) return false;
 
+        InventoryManager.Instance.AddItem(closest);
         SetupRigidOnPickup(closest);
-
-        carriedObjects.Add(closest);
-        collideCarrying++;
-
-        if (closest.TryGetComponent<Carryable>(out var carryable))
-        {
-            carryable.carrying = true;
-            InventoryManager.Instance.AddItem(carryable);
-        }
+        closest.SetIsCarrying(true);
 
         UpdateWeight();
+        return true;
     }
 
     // ===== Drop (Single Path) =====
     private bool DropAtIndex(int index)
     {
-        if (index < 0 || index >= carriedObjects.Count) return false;
+        if (index < 0 || index >= StackCount) return false;
 
-        GameObject obj = carriedObjects[index];
-
-        // 파괴되어 null이면 즉시 정리
-        if (!obj)
+        var carryable = OwnedItems[index];
+        if (!carryable)
         {
-            RemoveFromStack(index);
+            InventoryManager.Instance.RemoveItem(carryable);
             return false;
         }
+
+        GameObject obj = carryable.gameObject;
 
         if (!ComputeDropPose(obj, out Vector2 dropPos, out Vector2 dropSize)) return false;
         if (!CanPlace(dropPos, dropSize)) return false;
 
         PlaceAndRelease(obj, dropPos);
-        UpdateInventoryOnDrop(obj);
-        RemoveFromStack(index);
+
+        InventoryManager.Instance.RemoveItem(carryable);
+        UpdateWeight();
         return true;
+    }
+
+    public void DropAllForce()
+    {
+        foreach (var carryable in OwnedItems)
+        {
+            if (!carryable) continue;
+            carryable.SetIsCarrying(false);
+            SetupRigidOnPickup(carryable);
+        }
     }
 
     // ===== World Interact (kept, but unified area calc) =====
     private bool TryUseItemOnWorld()
     {
-        // 들고 있는 최상단 아이템 ID
+        // 들고 있는 최상단 아이템 ID (정책: 0번을 최상단으로 사용)
         string heldItemId = null;
-        if (carriedObjects.Count > 0)
+        if (StackCount > 0)
         {
-            var go0 = carriedObjects[0];
-            if (!go0) { carriedObjects.RemoveAt(0); collideCarrying = carriedObjects.Count; UpdateWeight(); return false; }
-            var top = go0.GetComponent<Carryable>();
-            if (!top) { GameLogger.Instance.LogError(this, "0번 인덱스 아이템이 Carryable 아님"); return false; }
+            var top = OwnedItems[0];
+            if (!top) return false;
             heldItemId = top.Id;
         }
 
@@ -248,16 +210,16 @@ public class PlayerCarrying : MonoBehaviour
         float minD = Mathf.Infinity;
         WorldInteractable wi = null;
 
-        foreach (var h in hits)
+        foreach (var hit in hits)
         {
-            if (!h) continue;
-            if (h.TryGetComponent<WorldInteractable>(out var temp))
+            if (!hit) continue;
+            if (hit.TryGetComponent<WorldInteractable>(out var temp))
             {
-                float d = Vector2.Distance(transform.position, h.transform.position);
+                float d = Vector2.Distance(transform.position, hit.transform.position);
                 if (d < minD)
                 {
                     minD = d;
-                    closestObj = h.gameObject;
+                    closestObj = hit.gameObject;
                     wi = temp;
                 }
             }
@@ -277,40 +239,16 @@ public class PlayerCarrying : MonoBehaviour
         return false;
     }
 
-    // ===== Helpers (Shared) =====
-
     // 1) 공통 쿨타임
     private bool EnsureCooldown()
     {
         if (Time.time - lastInteractTime < PlayerConstant.InteractCoolTime) return false;
+
         lastInteractTime = Time.time;
         return true;
     }
 
-    // 2) 널 제거
-    private bool PruneCarriedNulls()
-    {
-        bool removed = false;
-        for (int i = carriedObjects.Count - 1; i >= 0; --i)
-        {
-            if (!carriedObjects[i])
-            {
-                carriedObjects.RemoveAt(i);
-                removed = true;
-            }
-        }
-        return removed;
-    }
-
-    // 3) 스택 제거 + 무게 갱신
-    private void RemoveFromStack(int index)
-    {
-        carriedObjects.RemoveAt(index);
-        collideCarrying = carriedObjects.Count;
-        UpdateWeight();
-    }
-
-    // 4) 드롭 포즈 계산(공통)
+    // 3) 드롭 포즈 계산(공통)
     private bool ComputeDropPose(GameObject obj, out Vector2 dropPos, out Vector2 dropSize)
     {
         dropPos = default;
@@ -336,14 +274,14 @@ public class PlayerCarrying : MonoBehaviour
         return true;
     }
 
-    // 5) 배치 가능 여부(장애물 겹침)
+    // 4) 배치 가능 여부(장애물 겹침)
     private bool CanPlace(Vector2 pos, Vector2 size)
     {
         int mask = obstacleMask.value;
         return Physics2D.OverlapBox(pos, size, 0f, mask) == null;
     }
 
-    // 6) 실제 배치 + 해제
+    // 5) 실제 배치 + 해제
     private void PlaceAndRelease(GameObject obj, Vector2 pos)
     {
         if (obj.TryGetComponent<Rigidbody2D>(out var rb))
@@ -362,20 +300,10 @@ public class PlayerCarrying : MonoBehaviour
         }
 
         if (obj.TryGetComponent<Carryable>(out var c))
-            c.carrying = false;
+            c.SetIsCarrying(false);
     }
 
-    // 7) 인벤토리 드롭 반영
-    private void UpdateInventoryOnDrop(GameObject obj)
-    {
-        if (obj.TryGetComponent<Carryable>(out var cy))
-        {
-            if (cy.GetItemName() != ItemName.None)
-                InventoryManager.Instance.RemoveItem(cy.GetItemName());
-        }
-    }
-
-    // 8) 전방 박스(픽업/인터랙트 공용)
+    // 6) 전방 박스(픽업/인터랙트 공용)
     private (Vector2 pos, Vector2 size) BuildForwardBox()
     {
         int faceDir = GetFaceDir();
@@ -385,57 +313,62 @@ public class PlayerCarrying : MonoBehaviour
         return (pickUpPos, pickUpBox);
     }
 
-    // 9) 가장 가까운 Carryable 탐색
-    private GameObject FindClosestCarryable(Collider2D[] hits)
+    // 7) 가장 가까운 Carryable 탐색
+    private Carryable FindClosestCarryable(Collider2D[] hits)
     {
-        GameObject closest = null;
+        Carryable closest = null;
         float minD = Mathf.Infinity;
 
-        foreach (var h in hits)
+        foreach (var hit in hits)
         {
-            if (!h) continue;
-            if (!h.TryGetComponent<Carryable>(out var c)) continue;
-            if (!c.enabled || c.carrying) continue;
+            if (!hit) continue;
+            if (!hit.TryGetComponent<Carryable>(out var carryable)) continue;
+            if (!carryable.enabled || carryable.GetIsCarrying() == true) continue;
 
-            float d = Vector2.Distance(transform.position, h.transform.position);
-            if (d < minD) { minD = d; closest = h.gameObject; }
-            GameLogger.Instance.LogDebug(this, "집기 조작 " + h);
+            float d = Vector2.Distance(transform.position, hit.transform.position);
+            if (d < minD) { minD = d; closest = carryable; }
+            GameLogger.Instance.LogDebug(this, "집기 조작 " + hit);
         }
         return closest;
     }
 
-    // 10) 픽업 시 Rigidbody 상태 통일
-    private static void SetupRigidOnPickup(GameObject go)
+    // 8) 픽업 시 Rigidbody 상태 통일
+    private static void SetupRigidOnPickup(Carryable carryable)
     {
-        if (!go.TryGetComponent<Rigidbody2D>(out var rb)) return;
+        if (!carryable.TryGetComponent<Rigidbody2D>(out var rb)) return;
 
-        var rot = go.transform.eulerAngles;
+        // 정방향/역방향으로 바로 세워 놓기
+        var rot = carryable.transform.eulerAngles;
         rot.z = (rot.z < 90f || rot.z >= 270f) ? 0f : 180f;
-        go.transform.eulerAngles = rot;
+        carryable.transform.eulerAngles = rot;
 
         rb.bodyType = RigidbodyType2D.Dynamic;
         rb.freezeRotation = true;
+        rb.linearVelocity = Vector2.zero;
+        rb.angularVelocity = 0f;
     }
 
-    // 11) 스택 배치
+    // 9) 스택 배치 (Inventory 순서대로 쌓기)
     private void PlaceCarriedStack()
     {
         carryingTotalHeight = 0f;
-        for (int i = 0; i < carriedObjects.Count; i++)
-        {
-            var go = carriedObjects[i];
-            if (!go) continue;
+        if (StackCount == 0) return;
 
-            var col = go.GetComponent<Collider2D>();
+        for (int i = 0; i < StackCount; i++)
+        {
+            var c = OwnedItems[i];
+            if (!c) continue;
+
+            var col = c.GetComponent<Collider2D>();
             if (!col) continue;
 
             float objH = col.bounds.size.y;
-            go.transform.position = holdPoint.position + new Vector3(0, carryingTotalHeight + objH / 2f, 0);
+            c.transform.position = holdPoint.position + new Vector3(0, carryingTotalHeight + objH / 2f, 0);
             carryingTotalHeight += objH;
         }
     }
 
-    // 12) 크기 계산 (오브젝트/플레이어)
+    // 10) 크기 계산 (오브젝트/플레이어)
     private static Vector2 GetBoundsSize(GameObject go)
     {
         if (!go) return Vector2.zero;
@@ -474,6 +407,6 @@ public class PlayerCarrying : MonoBehaviour
         return new Vector2(Mathf.Abs(ls.x), Mathf.Abs(ls.y));
     }
 
-    // 13) 진행 방향
+    // 11) 진행 방향
     private int GetFaceDir() => controller2D != null ? controller2D.collisions.faceDir : 1;
 }

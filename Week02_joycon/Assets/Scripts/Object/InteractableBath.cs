@@ -24,7 +24,7 @@ public class InteractableBath : MonoBehaviour, IInteractable
 
         IngredientInfo ingredient = requiredIngredients.Find(ing => ing.itemName == carryable.GetItemName());
 
-        if (carryable.carrying == false && ingredient != null && ingredient.isPlaced == false) PlaceItem(carryable);
+        if (carryable.GetIsCarrying() == false && ingredient != null && ingredient.isPlaced == false) PlaceItem(carryable);
     }
 
     private void PlaceItem(Carryable item)

@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+
 public class InventoryManager : Singleton<InventoryManager>
 {
     private Inventory inventory;
@@ -7,6 +9,12 @@ public class InventoryManager : Singleton<InventoryManager>
         inventory.Initialize();
     }
 
+    private void Update()
+    {
+        RemoveInvalidOwnedItems();
+    }
+
+    public List<Carryable> GetOwnedItems() => inventory.GetOwnedItems();
     public bool HasItem(ItemName itemName) => inventory.HasItem(itemName);
     public bool HasItem(Carryable item) => inventory.HasItem(item);
     public void AddItem(Carryable item) => inventory.AddItem(item);
@@ -27,5 +35,17 @@ public class InventoryManager : Singleton<InventoryManager>
 
         RemoveItem(item);
         Destroy(item.gameObject);
+    }
+
+    public void RemoveInvalidOwnedItems()
+    {
+        var items = GetOwnedItems();
+        if (items == null) return;
+
+        for (int i = items.Count - 1; i >= 0; --i)
+        {
+            var item = items[i];
+            if (item == null || item.GetIsCarrying() == false) items.RemoveAt(i);
+        }
     }
 }

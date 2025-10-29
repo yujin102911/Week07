@@ -25,6 +25,7 @@ public class Inventory
         OwnedItems = new();
     }
 
+    public List<Carryable> GetOwnedItems() => OwnedItems;
     public bool HasItem(ItemName itemName) => OwnedItems.Exists(item => item.GetItemName() == itemName);
     public bool HasItem(Carryable itemObject) => OwnedItems.Exists(item => item == itemObject);
     public void AddItem(Carryable itemObject) => OwnedItems.Add(itemObject);
