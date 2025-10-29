@@ -162,6 +162,5 @@ public class CarryableMimic : Carryable, IInteractable
         if (isCleaned == false) return;
 
         QuestRuntime.Instance.SetFlag(FlagId.ManagingMimic);
-        GameLogger.Instance.LogDebug(this, "미믹 퀘스트 완료");
     }
 }

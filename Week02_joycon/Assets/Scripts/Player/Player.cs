@@ -6,7 +6,6 @@ using UnityEngine;
 [DisallowMultipleComponent]
 public class Player : Singleton<Player>
 {
-
     [Header("Jump / Move")]
     public float maxJumpHeight = 4f;
     public float minJumpHeight = 1f;
@@ -20,9 +19,21 @@ public class Player : Singleton<Player>
     public Vector2 wallJumpOff = new Vector2(8f, 7f);
     public Vector2 wallLeap = new Vector2(18f, 17f);
 
-    [SerializeField] float wallSlideSpeedMax = 3f;
-    [SerializeField] float wallStickTime = .25f;
-    [SerializeField] PlayerCarrying playerCarrying;
+    [SerializeField] float wallSlideSpeedMax = 3.0f;
+    [SerializeField] float wallStickTime = 0.25f;
+
+    [SerializeField] private PlayerInteractGeneral playerInteractGeneral;
+    public static bool TryInteract() => Instance.playerInteractGeneral.TryInteract();
+
+    [SerializeField] private PlayerInteractCarryable playerInteractCarryable;
+    public static bool TryPickUp() => Instance.playerInteractCarryable.TryPickUp();
+    public static bool TryDrop() => Instance.playerInteractCarryable.TryDrop();
+    public static bool TryDrop(ItemName itemName) => Instance.playerInteractCarryable.TryDrop(itemName);
+    public static bool TryDrop(Carryable carryable) => Instance.playerInteractCarryable.TryDrop(carryable);
+    public static void TryDropAll() => Instance.playerInteractCarryable.DropAllForce();
+
+    [SerializeField] private Controller2D controller2D;
+    public static int GetFaceDir() => Instance.controller2D.collisions.faceDir;
 
     float timeToWallUnstick;
     float gravity;
@@ -204,7 +215,7 @@ public class Player : Singleton<Player>
 
         if (wallSliding)
         {
-            if (playerCarrying.GetTotalWeight() > 0)
+            if (playerInteractCarryable.GetTotalWeight() > 0)
                 return false;
             Debug.Log("벽 점프");
             _jumpBufferTimer = 0f;
@@ -231,7 +242,7 @@ public class Player : Singleton<Player>
         {
 
             _jumpBufferTimer = 0f;
-            maxJumpVelocity = 2f * maxJumpHeight / timeToJumpApex / (1 + playerCarrying.GetTotalWeight() * gravityWeight);
+            maxJumpVelocity = 2f * maxJumpHeight / timeToJumpApex / (1 + playerInteractCarryable.GetTotalWeight() * gravityWeight);
 
             if (controller.collisions.slidingDownMaxSlope)
             {
@@ -284,7 +295,7 @@ public class Player : Singleton<Player>
     {
         float targetVelocityX = directionalInput.x * moveSpeed
 
-                     / (1f + playerCarrying.GetTotalWeight() * moveSpeedWeight);
+                     / (1f + playerInteractCarryable.GetTotalWeight() * moveSpeedWeight);
 
         velocity.x = Mathf.SmoothDamp(
          velocity.x, targetVelocityX, ref velocityXSmoothing,

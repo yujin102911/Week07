@@ -1,13 +1,10 @@
 using UnityEngine;
 
-public class PlayerGeneralInteract : MonoBehaviour
+public class PlayerInteractGeneral : MonoBehaviour
 {
-    public float interactionRange = 1.5f;
-    public LayerMask interactableMask;
-
-    public bool FindAndInteract()
+    public bool TryInteract()
     {
-        Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, interactionRange);
+        Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, PlayerConstant.InteractableRange);
 
         GameObject closestObj = null;
         IInteractable interactable = null;

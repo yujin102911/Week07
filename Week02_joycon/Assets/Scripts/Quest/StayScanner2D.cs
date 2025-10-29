@@ -11,7 +11,6 @@ using UnityEngine;
 public sealed class StayScanner2D : MonoBehaviour
 {
     [Header("Match")]
-    [SerializeField] private uint scannerId = 1;
     [SerializeField] private LayerMask actorMask = ~0;
     [SerializeField] private bool excludeCarried = true;
 

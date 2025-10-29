@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerCarrying : MonoBehaviour
+public class PlayerInteractCarryable : MonoBehaviour
 {
     private Transform holdPoint;
     private Vector2 dropPoint;
@@ -11,18 +11,12 @@ public class PlayerCarrying : MonoBehaviour
     private float totalWeight;
     public float GetTotalWeight() => totalWeight;
 
-    private Controller2D controller2D;
     private Vector2 playerSize;
-
     private float lastInteractTime = 0;
-
-    [SerializeField] private LayerMask interactableMask;
-    private ContactFilter2D interactableFilter;
 
     private List<Carryable> OwnedItems => InventoryManager.Instance.GetOwnedItems();
     private int StackCount => OwnedItems?.Count ?? 0;
 
-    // ===== Unity =====
     private void Start()
     {
         holdPoint = new GameObject("HoldPoint").transform;
@@ -33,12 +27,7 @@ public class PlayerCarrying : MonoBehaviour
         obstacleMask = LayerMask.GetMask(PlayerConstant.ObstacleMask);
 
         totalHeight = 0.0f;
-        controller2D = GetComponent<Controller2D>();
         playerSize = GetComponent<BoxCollider2D>().bounds.size;
-
-        interactableFilter = new ContactFilter2D();
-        interactableFilter.SetLayerMask(interactableMask);
-        interactableFilter.useTriggers = true;
     }
 
     private void LateUpdate()
@@ -46,10 +35,27 @@ public class PlayerCarrying : MonoBehaviour
         PlaceCarriedStack();
     }
 
-    public bool TryInteract()
+    public bool TryPickUp()
     {
         if (EnsureCooldown() == false) return false;
-        return TryPickUp();
+        if (StackCount >= PlayerConstant.CarryableMaxCount)
+        {
+            Debug.Log("Cannot pick up: Max carry count reached");
+            return false;
+        }
+
+        var area = BuildForwardBox();
+        Collider2D[] hits = Physics2D.OverlapBoxAll(area.pos, area.size, 0f, carryableMask);
+
+        Carryable closest = FindClosestCarryable(hits);
+        if (closest == null) return false;
+        if (closest.GetIsCarried() == true) return false;
+
+        InventoryManager.Instance.AddItem(closest);
+        closest.SetIsCarried(true);
+
+        UpdateWeight();
+        return true;
     }
 
     public bool TryDrop()
@@ -99,28 +105,6 @@ public class PlayerCarrying : MonoBehaviour
         }
     }
 
-    private bool TryPickUp()
-    {
-        if (StackCount >= PlayerConstant.CarryableMaxCount)
-        {
-            Debug.Log("Cannot pick up: Max carry count reached");
-            return false;
-        }
-
-        var area = BuildForwardBox();
-        Collider2D[] hits = Physics2D.OverlapBoxAll(area.pos, area.size, 0f, carryableMask);
-
-        Carryable closest = FindClosestCarryable(hits);
-        if (closest == null) return false;
-        if (closest.GetIsCarried() == true) return false;
-
-        InventoryManager.Instance.AddItem(closest);
-        closest.SetIsCarried(true);
-
-        UpdateWeight();
-        return true;
-    }
-
     // ===== Drop (Single Path) =====
     private bool DropAtIndex(int index)
     {
@@ -166,10 +150,9 @@ public class PlayerCarrying : MonoBehaviour
     private bool ComputeDropPose(GameObject obj, out Vector2 dropPos, out Vector2 dropSize)
     {
         var objSize = GetBoundsSize(obj);
-        int faceDir = GetFaceDir();
 
         dropPoint = new Vector2(
-            (objSize.x + playerSize.x) * faceDir / 2f,
+            (objSize.x + playerSize.x) * Player.GetFaceDir() / 2f,
             (objSize.y - playerSize.y) / 2f + 0.05f
         );
 
@@ -196,8 +179,8 @@ public class PlayerCarrying : MonoBehaviour
     // 전방 박스
     private (Vector2 pos, Vector2 size) BuildForwardBox()
     {
-        int faceDir = GetFaceDir();
-        var pickUpPos = new Vector2(transform.position.x + (PlayerConstant.InteractableRange / 2f * faceDir), transform.position.y);
+        var pickUpPos = transform.position;
+        pickUpPos.x += PlayerConstant.InteractableRange / 2f * Player.GetFaceDir();
         var pickUpBox = new Vector2(PlayerConstant.InteractableRange, playerSize.y * 1.1f);
         return (pickUpPos, pickUpBox);
     }
@@ -211,8 +194,8 @@ public class PlayerCarrying : MonoBehaviour
         foreach (var hit in hits)
         {
             if (!hit) continue;
-            if (!hit.TryGetComponent<Carryable>(out var carryable)) continue;
-            if (!carryable.enabled || carryable.GetIsCarried() == true) continue;
+            if (hit.TryGetComponent(out Carryable carryable) == false) continue;
+            if (carryable.enabled == false || carryable.GetIsCarried() == true) continue;
 
             float d = Vector2.Distance(transform.position, hit.transform.position);
             if (d < minD) { minD = d; closest = carryable; }
@@ -258,7 +241,4 @@ public class PlayerCarrying : MonoBehaviour
         var ls = go.transform.lossyScale;
         return new Vector2(Mathf.Abs(ls.x), Mathf.Abs(ls.y));
     }
-
-    // 11) 진행 방향
-    private int GetFaceDir() => controller2D != null ? controller2D.collisions.faceDir : 1;
 }

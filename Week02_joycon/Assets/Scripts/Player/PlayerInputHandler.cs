@@ -1,26 +1,12 @@
 ﻿using UnityEngine;
 using UnityEngine.InputSystem;
 
-[RequireComponent(typeof(Player))]
-[RequireComponent(typeof(PlayerCarrying))]
-[RequireComponent(typeof(PlayerInput))]
 public class PlayerInputHandler : MonoBehaviour
 {
-    private Player player;
-    private PlayerCarrying playerCarrying;
-    private PlayerGeneralInteract playerGeneralInteract;
-
-    private void Awake()
-    {
-        player = GetComponent<Player>();
-        playerCarrying = GetComponent<PlayerCarrying>();
-        playerGeneralInteract = GetComponent<PlayerGeneralInteract>();
-    }
-
     public void OnMove(InputAction.CallbackContext context)
     {
         var move = context.ReadValue<Vector2>();
-        player.SetDirectionalInput(move);
+        Player.Instance.SetDirectionalInput(move);
         InputSnapshot.Move = move;
     }
 
@@ -28,14 +14,14 @@ public class PlayerInputHandler : MonoBehaviour
     {
         if (context.started)
         {
-            player.OnJumpInputDown();
+            Player.Instance.OnJumpInputDown();
             InputSnapshot.JumpHeld = true;
             InputSnapshot.JumpDown = true;
         }
 
         if (context.canceled)
         {
-            player.OnJumpInputUp();
+            Player.Instance.OnJumpInputUp();
             InputSnapshot.JumpHeld = false;
             InputSnapshot.JumpUp = true;
         }
@@ -45,7 +31,7 @@ public class PlayerInputHandler : MonoBehaviour
     {
         if (context.performed)
         {
-            if (playerGeneralInteract.FindAndInteract() == false) playerCarrying.TryInteract();
+            if (Player.TryInteract() == false) Player.TryPickUp();
             InputSnapshot.Interact = true;
         }
     }
@@ -54,7 +40,7 @@ public class PlayerInputHandler : MonoBehaviour
     {
         if (context.performed)
         {
-            playerCarrying.TryDrop();
+            Player.TryDrop();
             InputSnapshot.Drop = true;
         }
     }

@@ -16,7 +16,6 @@ public class InteractableTable : MonoBehaviour, IInteractable
         soup.SetActive(true);
 
         QuestRuntime.Instance.SetFlag(FlagId.PreparingFood);
-        GameLogger.Instance.LogDebug(this, "음식 퀘스트 완료");
         return true;
     }
 
@@ -33,7 +32,6 @@ public class InteractableTable : MonoBehaviour, IInteractable
                 Destroy(collision.gameObject);
 
                 QuestRuntime.Instance.SetFlag(FlagId.PreparingFood);
-                GameLogger.Instance.LogDebug(this, "음식 퀘스트 완료");
             }
         }
     }
