@@ -3,24 +3,10 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-/// <summary>
-/// Minimal manager: InteractSet + TriggerFlags (enum-only)
-/// - 씬 시작 시 questDB[0] 자동 시작 (옵션)
-/// - 퀘스트 완료될 때 자동으로 다음 퀘스트 시작 (옵션)
-/// - 마지막 퀘스트까지 완료되면 OnAllQuestsCompleted 한 번만 발생
-/// </summary>
 [DisallowMultipleComponent]
 public sealed class QuestManager : Singleton<QuestManager>
 {
     [SerializeField] private QuestSO[] questDB;
-
-    [Header("Sequence Options")]
-    [Tooltip("씬 시작 시 questDB의 첫 번째 퀘스트를 자동 시작")]
-    [SerializeField] private bool autoStartFirstQuest = true;
-
-    [Tooltip("현재 퀘스트 완료 시 다음 퀘스트를 자동 시작")]
-    [SerializeField] private bool autoStartNextOnComplete = true;
-
     [Serializable]
     public struct SubTaskState
     {
@@ -47,32 +33,25 @@ public sealed class QuestManager : Singleton<QuestManager>
     }
 
     private readonly Dictionary<uint, QuestState> _states = new(16);
-
     public event Action<uint> OnQuestUpdated;
-
-    // === All-quests completed ===
     public static event Action OnAllQuestsCompleted;
     private bool _allQuestsRaised;
 
     void OnEnable()
     {
-        QuestEvents.OnInteract += OnInteract;
         QuestEvents.OnFlagRaised += OnFlagChanged;
         QuestEvents.OnFlagCleared += OnFlagChanged;
     }
 
     void OnDisable()
     {
-        QuestEvents.OnInteract -= OnInteract;
         QuestEvents.OnFlagRaised -= OnFlagChanged;
         QuestEvents.OnFlagCleared -= OnFlagChanged;
     }
 
     private void Start()
     {
-        // ▶ 시작 시 첫 퀘스트 자동 시작
-        if (autoStartFirstQuest)
-            TryAutoStartFirstNotStarted();
+        TryAutoStartFirstNotStarted();
     }
 
     // --- Public API ---
@@ -103,10 +82,8 @@ public sealed class QuestManager : Singleton<QuestManager>
         return true;
     }
 
-    public bool TryGetSnapshot(uint questId, out QuestState qs)
-        => _states.TryGetValue(questId, out qs);
+    public bool TryGetSnapshot(uint questId, out QuestState qs) => _states.TryGetValue(questId, out qs);
 
-    // --- Internals ---
     QuestSO FindQuestSO(uint id)
     {
         if (questDB == null) return null;
@@ -135,19 +112,6 @@ public sealed class QuestManager : Singleton<QuestManager>
         {
             ref var def = ref objs[i];
             var os = new ObjectiveState { def = def, completed = false };
-
-            var targets = (def.targetEnums != null && def.targetEnums.Length > 0)
-                ? def.targetEnums
-                : (def.targetEnum.Equals(default(InteractableId)) ? null : new[] { def.targetEnum });
-
-            if (targets != null && targets.Length > 0)
-            {
-                os.subs = new SubTaskState[targets.Length];
-                for (int s = 0; s < targets.Length; ++s)
-                    os.subs[s] = new SubTaskState { target = targets[s], done = false };
-            }
-            else os.subs = Array.Empty<SubTaskState>();
-
             qs.objectives[i] = os;
         }
         return qs;
@@ -165,7 +129,6 @@ public sealed class QuestManager : Singleton<QuestManager>
         for (int i = 0; i < qs.objectives.Length; ++i)
         {
             var o = qs.objectives[i];
-            if (o.def.optional) continue;
             if (!o.completed) return false;
         }
         return true;
@@ -188,9 +151,7 @@ public sealed class QuestManager : Singleton<QuestManager>
             s.completionEventRaised = true;
             _states[questId] = s;
 
-            // ▶ 현재 퀘스트 완료 시 다음 퀘스트 자동 시작
-            if (autoStartNextOnComplete)
-                TryStartNextChain(questId);
+            TryStartNextChain(questId);
         }
     }
 
@@ -266,52 +227,6 @@ public sealed class QuestManager : Singleton<QuestManager>
         }
     }
 
-    // --- Event handlers ---
-    void OnInteract(QuestEvents.InteractMsg msg)
-    {
-        _keysScratch.Clear();
-        foreach (var id in _states.Keys) _keysScratch.Add(id);
-        _changedIds.Clear();
-
-        for (int k = 0; k < _keysScratch.Count; ++k)
-        {
-            var questId = _keysScratch[k];
-            if (!_states.TryGetValue(questId, out var qs)) continue;
-            if (!qs.started || qs.completed) continue;
-
-            bool changed = false;
-
-            if (qs.so.sequentialObjectives)
-            {
-                int idx = GetFirstIncompleteObjectiveIndex(qs);
-                if (idx >= 0) changed |= TryProgressObjective_OnInteract(qs.objectives[idx], msg);
-            }
-            else
-            {
-                for (int i = 0; i < qs.objectives.Length; ++i)
-                {
-                    var o = qs.objectives[i];
-                    if (!o.completed) changed |= TryProgressObjective_OnInteract(o, msg);
-                }
-            }
-
-            if (changed)
-            {
-                qs.completed = AreMandatoryObjectivesCompleted(qs);
-                _states[questId] = qs;
-                _changedIds.Add(questId);
-            }
-        }
-
-        for (int i = 0; i < _changedIds.Count; ++i)
-        {
-            var qid = _changedIds[i];
-            OnQuestUpdated?.Invoke(qid);
-            TryRaiseCompletedFor(qid);
-            MaybeRaiseAllCompleted();
-        }
-    }
-
     void OnFlagChanged(FlagId _flag) => RecheckAllFlagsAndNotify();
 
     void RecheckAllFlagsAndNotify()
@@ -351,7 +266,6 @@ public sealed class QuestManager : Singleton<QuestManager>
     static bool TryProgressObjective_OnInteract(ObjectiveState os, QuestEvents.InteractMsg msg)
     {
         if (os.completed) return false;
-        if (os.def.type != ObjectiveType.InteractSet) return false;
         if (os.subs.Length == 0) return false;
 
         bool touched = false;
@@ -365,17 +279,15 @@ public sealed class QuestManager : Singleton<QuestManager>
         }
         if (!touched) return false;
 
-        int need = os.def.requiredCount <= 0 ? os.subs.Length : Mathf.Min(os.def.requiredCount, os.subs.Length);
+        int need = os.subs.Length;
         int doneCnt = 0;
         for (int k = 0; k < os.subs.Length; ++k) if (os.subs[k].done) doneCnt++;
-        os.completed = (doneCnt >= Mathf.Max(1, need));
+        os.completed = doneCnt >= Mathf.Max(1, need);
         return true;
     }
 
     static bool TryProgressObjective_RecheckFlags(ObjectiveState os)
     {
-        if (os.def.type != ObjectiveType.TriggerFlags) return false;
-
         var flags = (os.def.requiredFlagEnums != null && os.def.requiredFlagEnums.Length > 0)
             ? os.def.requiredFlagEnums
             : (os.def.requiredFlagEnum.Equals(default(FlagId)) ? null : new FlagId[] { os.def.requiredFlagEnum });

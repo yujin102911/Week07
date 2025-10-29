@@ -27,6 +27,7 @@ public class Inventory
     }
 
     public bool HasItem(ItemName itemName) => OwnedItems.Exists(item => item.itemName == itemName);
+    public bool HasItem(GameObject itemObject) => OwnedItems.Exists(item => item.itemObject == itemObject);
     public void AddItem(ItemName itemName, GameObject itemObject) => OwnedItems.Add((itemName, itemObject));
     public GameObject GetItemObject(ItemName itemName)
     {
@@ -38,13 +39,9 @@ public class Inventory
         var item = OwnedItems.Find(i => i.itemName == itemName);
         if (item != default) OwnedItems.Remove(item);
     }
-    public void RemoveAndDestroyItem(ItemName itemName)
+    public void RemoveItem(GameObject itemObject)
     {
-        var item = OwnedItems.Find(i => i.itemName == itemName);
-        if (item != default)
-        {
-            OwnedItems.Remove(item);
-            GameObject.Destroy(item.itemObject);
-        }
+        var item = OwnedItems.Find(i => i.itemObject == itemObject);
+        if (item != default) OwnedItems.Remove(item);
     }
 }

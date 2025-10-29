@@ -19,7 +19,7 @@ public class DirtObject : MonoBehaviour
         dirtamount--;
         if (dirtamount <= 0)
         {
-            QuestRuntime.Instance.SetFlag(FlagId.Dust_AllCleared);
+            QuestRuntime.Instance.SetFlag(FlagId.WipingDust);
             GameLogger.Instance.LogDebug(this, "먼지 퀘스트 완료");
         }
     }
