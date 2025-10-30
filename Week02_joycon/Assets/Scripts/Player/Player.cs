@@ -31,6 +31,7 @@ public class Player : Singleton<Player>
     public static bool TryDrop(ItemName itemName) => Instance.playerInteractCarryable.TryDrop(itemName);
     public static bool TryDrop(Carryable carryable) => Instance.playerInteractCarryable.TryDrop(carryable);
     public static void TryDropAll() => Instance.playerInteractCarryable.DropAllForce();
+    public static void UpdateWeight() => Instance.playerInteractCarryable.UpdateWeight();
 
     [SerializeField] private Controller2D controller2D;
     public static int GetFaceDir() => Instance.controller2D.collisions.faceDir;

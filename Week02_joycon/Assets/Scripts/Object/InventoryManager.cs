@@ -45,5 +45,7 @@ public class InventoryManager : Singleton<InventoryManager>
             var item = items[i];
             if (item == null || item.GetIsCarried() == false) items.RemoveAt(i);
         }
+
+        Player.UpdateWeight();
     }
 }

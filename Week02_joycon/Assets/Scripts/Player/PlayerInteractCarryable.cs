@@ -93,7 +93,7 @@ public class PlayerInteractCarryable : MonoBehaviour
         return true;
     }
 
-    private void UpdateWeight()
+    public void UpdateWeight()
     {
         totalWeight = 0;
         if (StackCount == 0) return;
@@ -105,7 +105,6 @@ public class PlayerInteractCarryable : MonoBehaviour
         }
     }
 
-    // ===== Drop (Single Path) =====
     private bool DropAtIndex(int index)
     {
         if (index < 0 || index >= StackCount) return false;
