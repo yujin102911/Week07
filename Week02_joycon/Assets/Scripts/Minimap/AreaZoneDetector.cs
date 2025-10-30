@@ -10,7 +10,7 @@ public class AreaZoneDetector : MonoBehaviour
     [Header("Filter")]
     [SerializeField] private LayerMask zoneMask;
 
-    QuestTodoUI questTodoUI;
+    QuestUI questTodoUI;
 
     // --- Dictionary ���� ---
     private static readonly Dictionary<string, uint> ZoneToQuestId = new()
@@ -30,7 +30,7 @@ public class AreaZoneDetector : MonoBehaviour
         if (areaUI == null)
             Debug.LogWarning("[AreaZoneDetector] areaUI�� ������ϴ�.", this);
 
-        questTodoUI = GameObject.FindAnyObjectByType<QuestTodoUI>();
+        questTodoUI = GameObject.FindAnyObjectByType<QuestUI>();
     }
 
     void Start()
