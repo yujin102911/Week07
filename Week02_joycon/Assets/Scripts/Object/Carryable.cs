@@ -5,6 +5,7 @@ public class Carryable : MonoBehaviour
     [SerializeField] protected ItemName itemName;
     [SerializeField] private float large = -1;
     [SerializeField] private float weight = 1;
+    [SerializeField] private float gravityScale = 1;
     private Rigidbody2D _rigidbody;
     protected LayerMask obstacleMask;
     protected bool isCarried = false;
@@ -24,7 +25,7 @@ public class Carryable : MonoBehaviour
         obstacleMask = LayerMask.GetMask(PlayerConstant.ObstacleMask);
 
         _rigidbody = GetComponent<Rigidbody2D>();
-        _rigidbody.gravityScale = 1f + weight * 0.1f;
+        _rigidbody.gravityScale = weight *  gravityScale;
         _rigidbody.mass = large * weight;
     }
 
