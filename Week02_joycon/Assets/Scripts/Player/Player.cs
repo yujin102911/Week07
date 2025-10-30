@@ -33,6 +33,10 @@ public class Player : Singleton<Player>
     public static void TryDropAll() => Instance.playerInteractCarryable.DropAllForce();
     public static void UpdateWeight() => Instance.playerInteractCarryable.UpdateWeight();
 
+    [SerializeField] private PlayerHatController playerHatController;
+    public static void ChangeHat(Sprite newHatSprite, GameObject hatPrefab)
+    => Instance.playerHatController.ChangeHat(newHatSprite, hatPrefab);
+
     [SerializeField] private Controller2D controller2D;
     public static int GetFaceDir() => Instance.controller2D.collisions.faceDir;
 
@@ -87,9 +91,6 @@ public class Player : Singleton<Player>
     [SerializeField] private SpriteRenderer hatSprite;
     [SerializeField] private Transform visualsParent;
 
-    [SerializeField] private GameObject currentHatPrefab;
-    [SerializeField] private Sprite startingHatSprite;
-
     float wallLockTimer;
     bool wasGrounded;
 
@@ -127,11 +128,6 @@ public class Player : Singleton<Player>
         gravity = -(2f * maxJumpHeight) / Mathf.Pow(timeToJumpApex, 2f);
         maxJumpVelocity = Mathf.Abs(gravity) * timeToJumpApex;
         minJumpVelocity = Mathf.Sqrt(2f * Mathf.Abs(gravity) * minJumpHeight);
-        if (startingHatSprite != null)
-        {
-            hatSprite.sprite = startingHatSprite;
-            GameLogger.Instance.LogDebug(this, $"시작 모자 {startingHatSprite.name}(으)로 설정");
-        }
     }
 
     void Update()
@@ -648,41 +644,9 @@ public class Player : Singleton<Player>
         }
     }
 
-    public void ChangeHat(HatItem newHatItem)
-    {
-        if (hatSprite == null)
-        {
-            GameLogger.Instance.LogError(this, "플레이어의 hatSprite가 비어있음");
-            return;
-        }
-
-        Sprite newSprite = (newHatItem != null) ? newHatItem.GetHatSprite() : null;
-        GameObject newPrefab = (newHatItem != null) ? newHatItem.GetHatPrefab() : null;
-
-        if (currentHatPrefab != null)
-        {
-            Vector2 dropPosition = (Vector2)transform.position + new Vector2(GetFaceDir() * -1.0f, 0.5f);
-
-            GameObject droppedHat = Instantiate(currentHatPrefab, dropPosition, Quaternion.identity);
-            droppedHat.SetActive(true);
-
-            GameLogger.Instance.LogDebug(this, $"이전 모자 {currentHatPrefab.name} 생성");
-        }
-
-        hatSprite.sprite = newSprite;
-        currentHatPrefab = newPrefab; 
-
-        HandleSpriteFlip(directionalInput.x);
-
-        if (newSprite != null)
-            GameLogger.Instance.LogDebug(this, $"플레이어 모자 {newSprite.name}(으)로 변경");
-        else
-            GameLogger.Instance.LogDebug(this, "플레이어 모자 벗음");
-    }
-
     private void HandleSpriteFlip(float horizontalInput)
     {
-        if (horizontalInput == 0) return; 
+        if (horizontalInput == 0) return;
 
         bool shouldFlip = horizontalInput < 0;
 
@@ -696,5 +660,4 @@ public class Player : Singleton<Player>
             if (hatSprite != null) hatSprite.flipX = shouldFlip;
         }
     }
-
 }
