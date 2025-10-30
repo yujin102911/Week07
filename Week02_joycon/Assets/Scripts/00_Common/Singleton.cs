@@ -10,7 +10,7 @@ public class Singleton<T> : MonoBehaviour where T : MonoBehaviour
             if (_instance == null)
             {
                 _instance = FindAnyObjectByType<T>();
-                if (_instance == null) Debug.LogError($"Singleton<{typeof(T)}> instance not found in scene.");
+                if (_instance == null) Debug.LogWarning($"Singleton<{typeof(T)}> instance not found in scene.");
             }
             return _instance;
         }
