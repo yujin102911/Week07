@@ -1,0 +1,16 @@
+Timestamp, Level, Source, Message
+11:20:36.818,INFO,GameLogger,=== Game Session Started ===
+11:20:37.065,WARNING,Unity,Minimap: no renderers found for bounds. Check includeLayers.
+11:20:42.522,INFO,Unity,벽 점프
+11:20:42.837,INFO,Unity,벽 점프
+11:20:43.150,INFO,Unity,벽 점프
+11:20:43.478,INFO,Unity,벽 점프
+11:20:46.365,DEBUG,PlayerInteractCarryable,집기 조작 Key (UnityEngine.BoxCollider2D)
+11:20:54.086,INFO,Unity,사다리 점프
+11:20:59.612,DEBUG,DoorClosed,Door opened.
+11:20:59.895,DEBUG,QuestRuntime,[마왕성 들어가기] 퀘스트 완료
+11:21:02.500,ERROR,Unity,"Singleton<QuestManager> instance not found in scene.
+UnityEngine.Debug:LogError (object)
+Singleton`1<QuestManager>:get_Instance () (at Assets/Scripts/Object/Singleton.cs:13)
+QuestCompleteNotificationUI:OnDisable () (at Assets/Scripts/Yujin/QuestCompleteNotificationUI.cs:51)
+"
