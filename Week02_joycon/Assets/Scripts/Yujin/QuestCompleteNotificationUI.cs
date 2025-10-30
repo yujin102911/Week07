@@ -20,8 +20,6 @@ public class QuestCompleteNotificationUI : MonoBehaviour
 
     [Header("Manual Toggle Input")]
     [SerializeField] private InputActionReference manualToggleAction;
-    [SerializeField] private bool clearTextOnManualToggle = true;
-
     #endregion
 
     #region Private Fields
