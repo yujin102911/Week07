@@ -84,7 +84,6 @@ public class InteractablePot : Carryable, IInteractable
     {
         if (cookedMealPrefab != null) Instantiate(cookedMealPrefab, spawnPoint.position, Quaternion.identity);
         isCooked = true;
-        currentStove.ResetStove();
     }
 
     public bool TryInteract()
