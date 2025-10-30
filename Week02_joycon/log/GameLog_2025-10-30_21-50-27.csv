@@ -1,0 +1,25 @@
+Timestamp, Level, Source, Message
+21:50:27.842,INFO,GameLogger,=== Game Session Started ===
+21:50:28.042,WARNING,Unity,Minimap: no renderers found for bounds. Check includeLayers.
+21:51:06.471,DEBUG,PlayerInteractCarryable,집기 조작 box (UnityEngine.BoxCollider2D)
+21:51:07.832,DEBUG,Carryable,"충돌로 떨어뜨림. 위치 : (-68.89, 97.43, 0.00)"
+21:51:18.189,DEBUG,PlayerInteractCarryable,집기 조작 Key (UnityEngine.BoxCollider2D)
+21:51:25.442,DEBUG,PlayerInteractCarryable,집기 조작 Key (UnityEngine.BoxCollider2D)
+21:51:38.353,DEBUG,DoorClosed,Door opened.
+21:51:39.111,DEBUG,QuestCompleteNotificationUI,빵빠레 터짐용
+21:51:39.112,DEBUG,QuestRuntime,[마왕성 들어가기] 퀘스트 완료
+21:51:48.726,DEBUG,PlayerInteractCarryable,집기 조작 Bedding (UnityEngine.BoxCollider2D)
+21:51:53.753,INFO,Unity,Clothesline Collision with Bedding
+21:51:53.770,INFO,Unity,Clothesline Collision with Bedding
+21:51:53.791,INFO,Unity,Clothesline Collision with Bedding
+21:51:53.806,DEBUG,QuestCompleteNotificationUI,빵빠레 터짐용
+21:51:53.808,DEBUG,QuestRuntime,[이불 널기] 퀘스트 완료
+21:52:01.599,DEBUG,PlayerInteractCarryable,집기 조작 Rag (UnityEngine.BoxCollider2D)
+21:52:05.362,WARNING,Unity,Internal: JobTempAlloc has allocations that are more than the maximum lifespan of 4 frames old - this is not allowed and likely a leak
+21:52:05.362,WARNING,Unity,"To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations."
+21:52:18.270,DEBUG,Carryable,"충돌로 떨어뜨림. 위치 : (46.20, -2.17, 0.00)"
+21:52:24.121,DEBUG,InteractableWaterTank,물탱크 작동 시작
+21:52:24.874,DEBUG,PlayerInteractCarryable,집기 조작 Rag (UnityEngine.BoxCollider2D)
+21:52:25.451,DEBUG,QuestCompleteNotificationUI,빵빠레 터짐용
+21:52:25.452,DEBUG,QuestRuntime,[욕실 곰팡이 닦기] 퀘스트 완료
+21:52:29.120,DEBUG,InteractableWaterTank,욕조가 가득 참
