@@ -34,8 +34,7 @@ public class Player : Singleton<Player>
     public static void UpdateWeight() => Instance.playerInteractCarryable.UpdateWeight();
 
     [SerializeField] private PlayerHatController playerHatController;
-    public static void ChangeHat(Sprite newHatSprite, GameObject hatPrefab)
-    => Instance.playerHatController.ChangeHat(newHatSprite, hatPrefab);
+    public static void ChangeHat(HatType hatType) => Instance.playerHatController.ChangeHat(hatType);
 
     [SerializeField] private Controller2D controller2D;
     public static int GetFaceDir() => Instance.controller2D.collisions.faceDir;
