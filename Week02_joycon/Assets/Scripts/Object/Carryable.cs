@@ -25,14 +25,14 @@ public class Carryable : MonoBehaviour
         obstacleMask = LayerMask.GetMask(PlayerConstant.ObstacleMask);
 
         _rigidbody = GetComponent<Rigidbody2D>();
-        _rigidbody.gravityScale = weight *  gravityScale;
+        _rigidbody.gravityScale = weight * gravityScale;
         _rigidbody.mass = large * weight;
     }
 
     private void OnCollisionStay2D(Collision2D collision)
     {
         if (isCarried == false) return;
-        if (collision.gameObject.layer != obstacleMask) return;
+        if ((obstacleMask.value & (1 << collision.gameObject.layer)) == 0) return;
 
         SetIsCarried(false);
         GameLogger.Instance.LogDebug(this, $"충돌로 떨어뜨림. 위치 : {transform.position}");
@@ -40,8 +40,7 @@ public class Carryable : MonoBehaviour
 
     private void SetState()
     {
-        if (isCarried == false) _rigidbody.transform.SetParent(null, true);
-        _rigidbody.bodyType = isCarried ? RigidbodyType2D.Kinematic : RigidbodyType2D.Dynamic;
+        _rigidbody.bodyType = RigidbodyType2D.Dynamic;
         _rigidbody.freezeRotation = isCarried;
         _rigidbody.linearVelocity = Vector2.zero;
         _rigidbody.angularVelocity = 0.0f;
