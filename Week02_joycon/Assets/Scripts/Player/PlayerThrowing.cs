@@ -1,10 +1,8 @@
 ﻿using UnityEngine;
 using UnityEngine.InputSystem;
 
-
 public class PlayerThrowing : MonoBehaviour
 {
-    [SerializeField] Controller2D controller2D;
     [SerializeField] float throwForce = 10;
     float lastThrowTime = 0f;
 
@@ -33,40 +31,18 @@ public class PlayerThrowing : MonoBehaviour
     {
         if (Time.time - lastThrowTime < PlayerConstant.InteractCoolTime) return;
         lastThrowTime = Time.time;//던지는 타임 쿨타임 갱신, 쿨타임 없으면 유니티 병신 인풋 시스템이 한번 눌러도 3번 호출됨 ㅅㅂ
+
         var ownedItems = InventoryManager.Instance.GetOwnedItems();
-        if (ownedItems.Count <= 0)
-        {
-            Debug.Log("던질거 없음");
-            return;
-        }
+        if (ownedItems.Count <= 0) return;
 
-        // 스택의 최상단(마지막) 아이템 정보 획득
         GameObject obj = ownedItems[ownedItems.Count - 1].gameObject;
-        Debug.Log(obj);
-        // 필요한 컴포넌트들
-        Rigidbody2D rb = obj.GetComponent<Rigidbody2D>();
-        if (rb != null)
+
+        if (obj.TryGetComponent(out Carryable carryable) == true) carryable.SetIsCarried(false);
+        if (obj.TryGetComponent(out Rigidbody2D rigidbody) == true)
         {
-            int faceDir = controller2D != null ? controller2D.collisions.faceDir : 1;//플레이어가 바라보는 방향
-
-            rb.transform.SetParent(null, true);//<<부모로 설정하는 것도 없는데 왜 있지??
-            rb.bodyType = RigidbodyType2D.Dynamic;
-            rb.freezeRotation = false;
-            rb.AddForce(Vector2.right * faceDir * throwForce + new Vector2(Player.Instance.velocity.x, 0f), ForceMode2D.Impulse);//던지기 힘 적용
-            Debug.Log(rb.linearVelocity);
+            var force = Vector2.right * Player.GetFaceDir() * throwForce;
+            force.x += Player.Instance.velocity.x;
+            rigidbody.AddForce(force, ForceMode2D.Impulse);
         }
-
-        // Carryable 상태 갱신
-        if (obj.TryGetComponent<Carryable>(out var carryable))
-        {
-            carryable.SetIsCarried(false);
-            if (carryable.GetItemName() != ItemName.None)
-            {
-                InventoryManager.Instance.RemoveItem(carryable.GetItemName());
-            }
-        }
-
-        // 스택에서 제거 및 부가 상태 갱신
-        Player.TryDrop(carryable);
     }
 }
