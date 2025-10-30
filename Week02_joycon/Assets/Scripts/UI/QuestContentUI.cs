@@ -11,6 +11,8 @@ public class QuestContentUI : MonoBehaviour
 
     void Awake()
     {
+        isCompleted = false;
+
         questCompleteLine.type = Image.Type.Filled;
         questCompleteLine.fillMethod = Image.FillMethod.Horizontal;
         questCompleteLine.fillOrigin = 0;
