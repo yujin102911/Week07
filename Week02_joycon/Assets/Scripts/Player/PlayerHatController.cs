@@ -1,4 +1,4 @@
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
 [System.Serializable]
@@ -15,6 +15,11 @@ public class PlayerHatController : MonoBehaviour
     [SerializeField] private HatType currentHatType;
     [SerializeField] private List<HatData> hatDatas;
 
+    public HatType CurrentHatType
+    {
+        get { return currentHatType; }
+        private set { currentHatType = value; } 
+    }
     public void ChangeHat(HatType hatType)
     {
         Vector2 dropPosition = (Vector2)transform.position + new Vector2(Player.GetFaceDir() * -1.0f, 0.5f);
