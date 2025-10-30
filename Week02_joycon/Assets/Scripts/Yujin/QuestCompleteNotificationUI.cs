@@ -115,8 +115,6 @@ public class QuestCompleteNotificationUI : MonoBehaviour
 
         slidePanel.Hide();
         _showHideCo = null;
-
-
     }
 
     private void PlayFanfare()
