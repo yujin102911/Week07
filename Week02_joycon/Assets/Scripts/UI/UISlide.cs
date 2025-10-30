@@ -27,6 +27,9 @@ public sealed class UISlideToggleOnFire : MonoBehaviour
     [SerializeField] private bool startHidden = true;   // 시작 시 숨김
     [SerializeField] private bool replayIfRunning = true; // 재입력 시 재생 재시작
 
+    public event System.Action OnSlideShown;
+    public event System.Action OnSlideHidden;
+
     Vector2 _shownPos, _hiddenPos;
     bool _isShown;
     Coroutine _slideCo;
@@ -140,6 +143,9 @@ public sealed class UISlideToggleOnFire : MonoBehaviour
         // 스냅 + 상태 반영
         panel.anchoredPosition = target;
         _isShown = targetIsShown;
+
+        if (_isShown) OnSlideShown?.Invoke();
+        else OnSlideHidden?.Invoke();
 
         if (cg)
         {
