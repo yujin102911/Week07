@@ -51,13 +51,6 @@ public class InteractableStove : MonoBehaviour, IInteractable
         return true;
     }
 
-    public void ResetStove()
-    {
-        currentFirewood = 0;
-        UpdateSprite();
-        GameLogger.Instance.LogDebug(this, "아궁이 초기화 완료!");
-    }
-
     private void UpdateSprite() => spriteRenderer.sprite = firewoodSprites[currentFirewood];
 
     private void OnTriggerStay2D(Collider2D collision)
@@ -68,7 +61,6 @@ public class InteractableStove : MonoBehaviour, IInteractable
             {
                 potOnStove = pot;
                 pot.SetCurrentStove(this);
-                GameLogger.Instance.LogDebug(this, "���� ����� ���� �������ϴ�.");
 
                 pot.transform.position = potSnapPoint.position;
                 pot.transform.localScale = Vector2.one * 1.2f;
@@ -99,7 +91,6 @@ public class InteractableStove : MonoBehaviour, IInteractable
         {
             potOnStove = null;
             pot.SetCurrentStove(null);
-            GameLogger.Instance.LogDebug(this, "���� ����꿡�� ������ϴ�.");
         }
     }
 }

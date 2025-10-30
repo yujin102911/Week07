@@ -35,7 +35,7 @@ public sealed class KinematicGrapple2D : MonoBehaviour
     [Header("Auto Detach")]
     [SerializeField] bool autoDetachOnTooClose = true;           // 앵커 지나치게 가까우면 해제
     [SerializeField, Range(0.1f, 2f)] float tooCloseDist = 0.6f;
-    [SerializeField] bool checkLineObstruction = true;           // 앵커-플레이어 사이 가림 시 해제
+    // [SerializeField] bool checkLineObstruction = true;           // 앵커-플레이어 사이 가림 시 해제
     #endregion
 
     #region Inspector - Action Tuning
@@ -262,25 +262,25 @@ public sealed class KinematicGrapple2D : MonoBehaviour
             return;
         }
 
-        // 라인 가림 체크
-        if (checkLineObstruction && _grappling)
-        {
-            Vector2 from = transform.position;
-            int hitCount = Physics2D.LinecastNonAlloc(from, _anchor, sLineHits, grappleMask);
-            if (hitCount > 0)
-            {
-                bool obstructed = true;
-                for (int i = 0; i < hitCount; i++)
-                {
-                    // 앵커 지점 히트는 허용
-                    if ((sLineHits[i].point - _anchor).sqrMagnitude < 0.0001f)
-                    {
-                        obstructed = false; break;
-                    }
-                }
-                if (obstructed) Detach();
-            }
-        }
+        // // 라인 가림 체크
+        // if (checkLineObstruction && _grappling)
+        // {
+        //     Vector2 from = transform.position;
+        //     int hitCount = Physics2D.LinecastNonAlloc(from, _anchor, sLineHits, grappleMask);
+        //     if (hitCount > 0)
+        //     {
+        //         bool obstructed = true;
+        //         for (int i = 0; i < hitCount; i++)
+        //         {
+        //             // 앵커 지점 히트는 허용
+        //             if ((sLineHits[i].point - _anchor).sqrMagnitude < 0.0001f)
+        //             {
+        //                 obstructed = false; break;
+        //             }
+        //         }
+        //         if (obstructed) Detach();
+        //     }
+        // }
     }
     #endregion
 
