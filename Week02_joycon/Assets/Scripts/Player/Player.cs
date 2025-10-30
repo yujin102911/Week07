@@ -199,8 +199,6 @@ public class Player : Singleton<Player>
 
         if (onLadder && allowLadderJump)
         {
-            Debug.Log("사다리 점프");
-
             _jumpBufferTimer = 0f;
             LadderJump();
             return true;
@@ -208,8 +206,6 @@ public class Player : Singleton<Player>
 
         if (!onLadder && _ladderCoyoteTimer > 0f && allowLadderJump)
         {
-            Debug.Log("사다리 코요테 점프");
-
             _jumpBufferTimer = 0f;
             _ladderCoyoteTimer = 0f;
             velocity.y = Mathf.Max(velocity.y, ladderJumpUp);
@@ -218,9 +214,7 @@ public class Player : Singleton<Player>
 
         if (wallSliding)
         {
-            if (playerInteractCarryable.GetTotalWeight() > 0)
-                return false;
-            Debug.Log("벽 점프");
+            if (playerInteractCarryable.GetTotalWeight() > 0) return false;
             _jumpBufferTimer = 0f;
 
             if (wallDirX == Mathf.RoundToInt(directionalInput.x))
@@ -310,7 +304,7 @@ public class Player : Singleton<Player>
 
     void HandleWallSliding()
     {
-        wallDirX = (controller.collisions.left) ? -1 : 1;
+        wallDirX = controller.collisions.left ? -1 : 1;
         wallSliding = false;
 
         if ((controller.collisions.left || controller.collisions.right) &&

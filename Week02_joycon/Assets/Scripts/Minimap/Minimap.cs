@@ -10,13 +10,13 @@ public class Minimap : MonoBehaviour
     [Range(0f, 1f)] public float followLerp = 0.25f;
 
     [Header("View")]
-    public float orthoSize = 18f; // ���� �������� �� Ȯ��
-    public bool northUp = true;   // true: ȸ�� ����, false: �÷��̾� ȸ���� �Բ�
+    public float orthoSize = 18f;
+    public bool northUp = true;
     public bool rotateWithPlayer = false;
 
     [Header("Bounds (what minimap can show)")]
-    public string[] includeLayers = { "MinimapTerrain" }; // ��� ���� ���̾��
-    public float paddingWorld = 2f;                       // ��迡 ����
+    public string[] includeLayers = { "MinimapTerrain" };
+    public float paddingWorld = 2f;
 
     private Camera _cam;
     private Bounds _mapBounds;
@@ -37,12 +37,11 @@ public class Minimap : MonoBehaviour
     public void RefreshBounds()
     {
         int mask = 0;
-        foreach (var ln in includeLayers)
-            mask |= 1 << LayerMask.NameToLayer(ln);
+        foreach (var ln in includeLayers) mask |= 1 << LayerMask.NameToLayer(ln);
 
-        var rs = FindObjectsOfType<Renderer>()
-            .Where(r => r.enabled && ((1 << r.gameObject.layer) & mask) != 0)
-            .ToArray();
+        Renderer[] rs;
+        rs = FindObjectsByType<Renderer>(FindObjectsInactive.Exclude, FindObjectsSortMode.None);
+        rs = rs.Where(r => r.enabled && ((1 << r.gameObject.layer) & mask) != 0).ToArray();
 
         if (rs.Length == 0)
         {
@@ -61,21 +60,16 @@ public class Minimap : MonoBehaviour
     void LateUpdate()
     {
         if (!target) return;
-
-        // ȸ��
         if (northUp) transform.rotation = Quaternion.identity;
         else if (rotateWithPlayer) transform.rotation = Quaternion.Euler(0f, 0f, target.eulerAngles.z);
 
-        // ���ϴ� ��ġ(�÷��̾� ����)
         Vector3 desired = target.position + offset;
 
-        // �� ��� ������ ī�޶� ��ġ Ŭ����
         if (_hasBounds)
         {
             float halfH = _cam.orthographicSize;
             float halfW = halfH * _cam.aspect;
 
-            // ���� ī�޶󺸴� ���� �� ���: �߾� ����
             float minX = _mapBounds.min.x + halfW;
             float maxX = _mapBounds.max.x - halfW;
             float minY = _mapBounds.min.y + halfH;
@@ -87,12 +81,9 @@ public class Minimap : MonoBehaviour
             if (minY > maxY) desired.y = _mapBounds.center.y;
             else desired.y = Mathf.Clamp(desired.y, minY, maxY);
         }
-
-        // �ε巴�� �̵�
         transform.position = Vector3.Lerp(transform.position, desired, followLerp);
     }
 
-    // ��Ÿ�� Ȯ��/���
     public void SetZoom(float size)
     {
         orthoSize = Mathf.Max(0.1f, size);
