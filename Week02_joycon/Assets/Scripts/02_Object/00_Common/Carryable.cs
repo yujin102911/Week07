@@ -15,6 +15,7 @@ public class Carryable : MonoBehaviour
     private int throwingCollisionCurrent;
 
     public ItemName GetItemName() => itemName;
+    public bool NameIs(ItemName name) => itemName == name;
     public float GetWeight() => weight;
     public bool GetIsCarried() => isCarried;
     public void SetIsCarried(bool isCarried)
