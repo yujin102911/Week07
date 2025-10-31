@@ -37,7 +37,7 @@ public class PlayerInteractCarryable : MonoBehaviour
 
     public bool TryPickUp()
     {
-        if (EnsureCooldown() == false) return false;
+        if (isReadyToAction() == false) return false;
         if (StackCount >= PlayerConstant.CarryableMaxCount)
         {
             Debug.Log("Cannot pick up: Max carry count reached");
@@ -55,6 +55,8 @@ public class PlayerInteractCarryable : MonoBehaviour
         closest.SetIsCarried(true);
 
         UpdateWeight();
+        EnsureCooldown();
+
         return true;
     }
 
@@ -87,7 +89,7 @@ public class PlayerInteractCarryable : MonoBehaviour
 
     private bool IsReadyToDrop()
     {
-        if (EnsureCooldown() == false) return false;
+        if (isReadyToAction() == false) return false;
         if (StackCount == 0) return false;
 
         return true;
@@ -125,6 +127,8 @@ public class PlayerInteractCarryable : MonoBehaviour
 
         InventoryManager.Instance.RemoveItem(carryable);
         UpdateWeight();
+        EnsureCooldown();
+
         return true;
     }
 
@@ -137,13 +141,9 @@ public class PlayerInteractCarryable : MonoBehaviour
         }
     }
 
-    private bool EnsureCooldown()
-    {
-        if (Time.time - lastInteractTime < PlayerConstant.InteractCoolTime) return false;
+    private bool isReadyToAction() => Time.time - lastInteractTime > PlayerConstant.InteractCoolTime;
+    private void EnsureCooldown() => lastInteractTime = Time.time;
 
-        lastInteractTime = Time.time;
-        return true;
-    }
 
     // 드롭 포즈 계산
     private bool ComputeDropPose(GameObject obj, out Vector2 dropPos, out Vector2 dropSize)
