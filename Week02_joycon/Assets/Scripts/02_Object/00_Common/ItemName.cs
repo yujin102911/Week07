@@ -1,4 +1,4 @@
-public enum ItemName
+﻿public enum ItemName
 {
     None,
     Rag,
@@ -12,4 +12,6 @@ public enum ItemName
     Firewood,
     Pot,
     Shampoo,
+    dart,
+    GarlandBox,
 }
