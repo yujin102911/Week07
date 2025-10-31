@@ -68,9 +68,10 @@ public class Carryable : MonoBehaviour
 
     private void SetState()
     {
-        _rigidbody.bodyType = RigidbodyType2D.Dynamic;
+        Debug.Log("sdf");
         _rigidbody.transform.SetParent(null);
         _rigidbody.bodyType = RigidbodyType2D.Dynamic;
+        _rigidbody.constraints = RigidbodyConstraints2D.None;
         _rigidbody.freezeRotation = isCarried;
         _rigidbody.linearVelocity = Vector2.zero;
         _rigidbody.angularVelocity = 0.0f;
