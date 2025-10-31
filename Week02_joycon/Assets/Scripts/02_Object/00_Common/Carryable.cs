@@ -27,23 +27,20 @@ public class Carryable : MonoBehaviour
         obstacleMask = LayerMask.GetMask(PlayerConstant.ObstacleMask);
 
         _rigidbody = GetComponent<Rigidbody2D>();
-        _rigidbody.bodyType = RigidbodyType2D.Dynamic;
         _rigidbody.gravityScale = weight * gravityScale;
         _rigidbody.mass = large * weight;
-        if (throwing) { transform.Rotate(0f, 0f, spinAngle * Time.deltaTime); }//투척중이면 회전
+        if (throwing) { transform.Rotate(0f, 0f, spinAngle * Time.deltaTime); }
     }
 
     private void Update()
     {
-        if (isCarried)
-        {
-            throwing=false;//들고 있으면 투척 상태 해제
-        }
+        if (isCarried) throwing = false;
     }
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (throwing)
-        if (collision.gameObject.layer == LayerMask.NameToLayer("Obstacle")) throwing = false;//충돌하면 투척 상태 해제
+            if (collision.gameObject.layer == LayerMask.NameToLayer("Obstacle")) throwing = false;//충돌하면 투척 상태 해제
     }
 
     private void OnCollisionStay2D(Collision2D collision)
@@ -59,6 +56,7 @@ public class Carryable : MonoBehaviour
     private void SetState()
     {
         _rigidbody.transform.SetParent(null);
+        _rigidbody.bodyType = RigidbodyType2D.Dynamic;
         _rigidbody.freezeRotation = isCarried;
         _rigidbody.linearVelocity = Vector2.zero;
         _rigidbody.angularVelocity = 0.0f;
