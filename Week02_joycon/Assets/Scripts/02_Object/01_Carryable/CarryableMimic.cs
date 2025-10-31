@@ -105,8 +105,8 @@ public class CarryableMimic : Carryable, IInteractable
 
         if (collision.TryGetComponent(out Carryable carryable))
         {
-            if (carryable.GetItemName() == ItemName.Coin) coins.Add(carryable);
-            else if (carryable.GetItemName() == ItemName.Shampoo && carryable.GetIsCarried() == false)
+            if (carryable.NameIs(ItemName.Coin) == true) coins.Add(carryable);
+            else if (carryable.NameIs(ItemName.Shampoo) == true && carryable.GetIsCarried() == false)
             {
                 addShampoo = true;
                 bubbles.SetActive(true);
@@ -132,7 +132,7 @@ public class CarryableMimic : Carryable, IInteractable
 
         if (collision.TryGetComponent(out Carryable coin))
         {
-            if (coin.GetItemName() != ItemName.Coin) return;
+            if (coin.NameIs(ItemName.Coin) == false) return;
 
             if (isEnumerating == false) coins.Remove(coin);
             else if (toRemove.Contains(coin) == false) toRemove.Add(coin);

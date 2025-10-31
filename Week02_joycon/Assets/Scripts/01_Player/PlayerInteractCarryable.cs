@@ -71,7 +71,7 @@ public class PlayerInteractCarryable : MonoBehaviour
         for (int i = StackCount - 1; i >= 0; --i)
         {
             var carryable = OwnedItems[i];
-            if (carryable && carryable.GetItemName() == itemName) return DropAtIndex(i);
+            if (carryable && carryable.NameIs(itemName) == true) return DropAtIndex(i);
         }
         return false;
     }

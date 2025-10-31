@@ -28,8 +28,8 @@ public class Stove : InteractableWithItem
 
     protected override bool InteractMethod(Carryable carryable)
     {
-        if (carryable.GetItemName() == ItemName.Firewood) return AddFirewood();
-        if (carryable.GetItemName() == ItemName.Pot) return PutOnPot(carryable.GetComponent<Pot>());
+        if (carryable.NameIs(ItemName.Firewood) == true) return AddFirewood();
+        if (carryable.NameIs(ItemName.Pot) == true) return PutOnPot(carryable.GetComponent<Pot>());
 
         return false;
     }
