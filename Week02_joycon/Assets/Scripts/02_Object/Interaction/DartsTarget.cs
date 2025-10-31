@@ -30,6 +30,7 @@ public class DartsTarget : MonoBehaviour
     private float currentMovementSpeed; // 현재 속도 (점점 빨라짐)
     private int dartScore;              // 현재 다트 스코어
     private int nextSpeedIncreaseThreshold; // 다음 속도 증가가 일어날 목표 점수
+    private bool hasSpawnedReward = false;
 
     // ▼▼▼ 위치 초기화(점프) 현상을 막기 위한 누적 시간 변수 ▼▼▼
     private float cycleTime = 0f;
@@ -112,6 +113,25 @@ public class DartsTarget : MonoBehaviour
         dartScore += amount;
         UpdateScoreText();
         CheckForSpeedIncrease();
+
+        // ▼▼▼ 2. 100점 달성 및 일회성 보상 스폰 로직 추가 ▼▼▼
+        // 100점 이상이 되었고, 보상을 아직 스폰한 적이 없다면
+        if (dartScore >= 100 && !hasSpawnedReward)
+        {
+            // 1. 보상을 스폰했다고 즉시 체크 (다시는 실행되지 않도록)
+            hasSpawnedReward = true;
+
+            // 2. DartMaker가 연결되어 있는지 확인
+            if (dartMaker != null)
+            {
+                // 3. DartMaker의 새 보상 스폰 함수 호출
+                dartMaker.SpawnSpecialReward();
+            }
+            else
+            {
+                Debug.LogWarning("100점 달성! 하지만 DartsTarget에 DartMaker가 연결되지 않았습니다.", this);
+            }
+        }
     }
 
     /// <summary>
