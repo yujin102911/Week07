@@ -1,0 +1,5837 @@
+fileFormatVersion: 2
+guid: 0329bb26808e077409e03cfeb78e46fc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2599780441158284925
+    second: LineGarland_0
+  - first:
+      213: -8293811866879692091
+    second: LineGarland_1
+  - first:
+      213: 5724458273101984878
+    second: LineGarland_2
+  - first:
+      213: -3415931916669536067
+    second: LineGarland_3
+  - first:
+      213: 153536726234139979
+    second: LineGarland_4
+  - first:
+      213: 3148554802018417242
+    second: LineGarland_5
+  - first:
+      213: -8500514404603434849
+    second: LineGarland_6
+  - first:
+      213: 2398046378156974417
+    second: LineGarland_7
+  - first:
+      213: -4201003445562826452
+    second: LineGarland_8
+  - first:
+      213: -81068756050389823
+    second: LineGarland_9
+  - first:
+      213: 4522680065591181668
+    second: LineGarland_10
+  - first:
+      213: -9078770351539144919
+    second: LineGarland_11
+  - first:
+      213: -7997700610499551573
+    second: LineGarland_12
+  - first:
+      213: -6505120707458056663
+    second: LineGarland_13
+  - first:
+      213: -6810442553063273149
+    second: LineGarland_14
+  - first:
+      213: -8063575324735171745
+    second: LineGarland_15
+  - first:
+      213: 8799814730116117698
+    second: LineGarland_16
+  - first:
+      213: -5364495627021612118
+    second: LineGarland_17
+  - first:
+      213: -5105082960942625696
+    second: LineGarland_18
+  - first:
+      213: -3368782899249142167
+    second: LineGarland_19
+  - first:
+      213: -3447481706604797337
+    second: LineGarland_20
+  - first:
+      213: -8445851862216636559
+    second: LineGarland_21
+  - first:
+      213: -1962354835271493656
+    second: LineGarland_22
+  - first:
+      213: 495176688855129560
+    second: LineGarland_23
+  - first:
+      213: 1872027876828838333
+    second: LineGarland_24
+  - first:
+      213: 5820009689821440470
+    second: LineGarland_25
+  - first:
+      213: -4272433393429716278
+    second: LineGarland_26
+  - first:
+      213: 131197577318249421
+    second: LineGarland_27
+  - first:
+      213: 2718914074894323060
+    second: LineGarland_28
+  - first:
+      213: 5483354246070784681
+    second: LineGarland_29
+  - first:
+      213: 7808768332081995680
+    second: LineGarland_30
+  - first:
+      213: 2405389131921083736
+    second: LineGarland_31
+  - first:
+      213: -1587489933817178465
+    second: LineGarland_32
+  - first:
+      213: 3448289220932730583
+    second: LineGarland_33
+  - first:
+      213: -3710617286361369103
+    second: LineGarland_34
+  - first:
+      213: 7660266073890029910
+    second: LineGarland_35
+  - first:
+      213: -4928829398805215443
+    second: LineGarland_36
+  - first:
+      213: -8253557792684224472
+    second: LineGarland_37
+  - first:
+      213: 6007308304181371978
+    second: LineGarland_38
+  - first:
+      213: 1556371898090031634
+    second: LineGarland_39
+  - first:
+      213: -2590191789555715541
+    second: LineGarland_40
+  - first:
+      213: -184965868741312593
+    second: LineGarland_41
+  - first:
+      213: 7468348569724134063
+    second: LineGarland_42
+  - first:
+      213: 1439319200375431696
+    second: LineGarland_43
+  - first:
+      213: 5836400836784530025
+    second: LineGarland_44
+  - first:
+      213: 3554791367837255742
+    second: LineGarland_45
+  - first:
+      213: 6582212562497504592
+    second: LineGarland_46
+  - first:
+      213: 8785793707972852676
+    second: LineGarland_47
+  - first:
+      213: -95797570179280506
+    second: LineGarland_48
+  - first:
+      213: -7154594338042138387
+    second: LineGarland_49
+  - first:
+      213: -5609504838424069230
+    second: LineGarland_50
+  - first:
+      213: -1765457044325380311
+    second: LineGarland_51
+  - first:
+      213: -6887661615078332518
+    second: LineGarland_52
+  - first:
+      213: 5704896168955592064
+    second: LineGarland_53
+  - first:
+      213: -6836898915476282461
+    second: LineGarland_54
+  - first:
+      213: 3858505636401822052
+    second: LineGarland_55
+  - first:
+      213: 4586441561402517729
+    second: LineGarland_56
+  - first:
+      213: 4698841400036357794
+    second: LineGarland_57
+  - first:
+      213: -8176740973782483403
+    second: LineGarland_58
+  - first:
+      213: -4456597385488875167
+    second: LineGarland_59
+  - first:
+      213: -880295882141575692
+    second: LineGarland_60
+  - first:
+      213: 4498915419494456667
+    second: LineGarland_61
+  - first:
+      213: 7302712109320802059
+    second: LineGarland_62
+  - first:
+      213: -6644634722067880076
+    second: LineGarland_63
+  - first:
+      213: -6104351507710209003
+    second: LineGarland_64
+  - first:
+      213: -3844875696643591557
+    second: LineGarland_65
+  - first:
+      213: 6933752430545783433
+    second: LineGarland_66
+  - first:
+      213: 865081315034483
+    second: LineGarland_67
+  - first:
+      213: 4642029366732370921
+    second: LineGarland_68
+  - first:
+      213: -7171723418061135165
+    second: LineGarland_69
+  - first:
+      213: -1756216633217610312
+    second: LineGarland_70
+  - first:
+      213: -3407627363902027970
+    second: LineGarland_71
+  - first:
+      213: -2600085679313248409
+    second: LineGarland_72
+  - first:
+      213: 2392184570235809920
+    second: LineGarland_73
+  - first:
+      213: 4920632583402260342
+    second: LineGarland_74
+  - first:
+      213: 4782986227996985169
+    second: LineGarland_75
+  - first:
+      213: 8774183332230788478
+    second: LineGarland_76
+  - first:
+      213: 401027007308568583
+    second: LineGarland_77
+  - first:
+      213: -6795269385805711060
+    second: LineGarland_78
+  - first:
+      213: 4016996357084288768
+    second: LineGarland_79
+  - first:
+      213: -7360643164337146891
+    second: LineGarland_80
+  - first:
+      213: -5670091073154902351
+    second: LineGarland_81
+  - first:
+      213: 3584925629438174475
+    second: LineGarland_82
+  - first:
+      213: -5726614499818248828
+    second: LineGarland_83
+  - first:
+      213: 3859232781512527347
+    second: LineGarland_84
+  - first:
+      213: 1444939952801213672
+    second: LineGarland_85
+  - first:
+      213: -8116469111554654192
+    second: LineGarland_86
+  - first:
+      213: -410818298106959324
+    second: LineGarland_87
+  - first:
+      213: 7518446057819376268
+    second: LineGarland_88
+  - first:
+      213: -8576717787239823032
+    second: LineGarland_89
+  - first:
+      213: -4361718172957055291
+    second: LineGarland_90
+  - first:
+      213: -985850916116873061
+    second: LineGarland_91
+  - first:
+      213: -6000765469421073672
+    second: LineGarland_92
+  - first:
+      213: -5810977729168767393
+    second: LineGarland_93
+  - first:
+      213: -6325759438050522721
+    second: LineGarland_94
+  - first:
+      213: -3372856538505767712
+    second: LineGarland_95
+  - first:
+      213: -2846151295968821816
+    second: LineGarland_96
+  - first:
+      213: 7267030399262098308
+    second: LineGarland_97
+  - first:
+      213: -5062757965697656632
+    second: LineGarland_98
+  - first:
+      213: 585284040751794299
+    second: LineGarland_99
+  - first:
+      213: 395562897649748895
+    second: LineGarland_100
+  - first:
+      213: -2391057501719583132
+    second: LineGarland_101
+  - first:
+      213: -4285058956614497117
+    second: LineGarland_102
+  - first:
+      213: -2206585745828993401
+    second: LineGarland_103
+  - first:
+      213: -3210206009539001830
+    second: LineGarland_104
+  - first:
+      213: -6372143623344785211
+    second: LineGarland_105
+  - first:
+      213: -9205777004603368893
+    second: LineGarland_106
+  - first:
+      213: 626063288934694170
+    second: LineGarland_107
+  - first:
+      213: -8109502766564364723
+    second: LineGarland_108
+  - first:
+      213: -3047474057977159059
+    second: LineGarland_109
+  - first:
+      213: 3595660008563950778
+    second: LineGarland_110
+  - first:
+      213: 6643248721619813535
+    second: LineGarland_111
+  - first:
+      213: -5415694478959579026
+    second: LineGarland_112
+  - first:
+      213: -196603046989216804
+    second: LineGarland_113
+  - first:
+      213: 3635587335200524155
+    second: LineGarland_114
+  - first:
+      213: 2950989202811337049
+    second: LineGarland_115
+  - first:
+      213: -6688924111673708853
+    second: LineGarland_116
+  - first:
+      213: -2488295440730844752
+    second: LineGarland_117
+  - first:
+      213: -3819443643122231823
+    second: LineGarland_118
+  - first:
+      213: -5487093641162115454
+    second: LineGarland_119
+  - first:
+      213: -6852557631372881686
+    second: LineGarland_120
+  - first:
+      213: 5004374599409570507
+    second: LineGarland_121
+  - first:
+      213: -3123648373404893280
+    second: LineGarland_122
+  - first:
+      213: -794920286362276442
+    second: LineGarland_123
+  - first:
+      213: 668785945492513440
+    second: LineGarland_124
+  - first:
+      213: -5167574694678323679
+    second: LineGarland_125
+  - first:
+      213: 3269270106321475198
+    second: LineGarland_126
+  - first:
+      213: -8851922409756889848
+    second: LineGarland_127
+  - first:
+      213: -974601152725047232
+    second: LineGarland_128
+  - first:
+      213: -1053251724406532196
+    second: LineGarland_129
+  - first:
+      213: 6299488553528346927
+    second: LineGarland_130
+  - first:
+      213: -1175642057025672069
+    second: LineGarland_131
+  - first:
+      213: -7544470251660446536
+    second: LineGarland_132
+  - first:
+      213: 4541242151289517184
+    second: LineGarland_133
+  - first:
+      213: 4595688198474169062
+    second: LineGarland_134
+  - first:
+      213: -7093455568119201833
+    second: LineGarland_135
+  - first:
+      213: -7120317330889735195
+    second: LineGarland_136
+  - first:
+      213: 1714224122265813740
+    second: LineGarland_137
+  - first:
+      213: 7784822485986139088
+    second: LineGarland_138
+  - first:
+      213: -8628202523226728714
+    second: LineGarland_139
+  - first:
+      213: 2261883658861654395
+    second: LineGarland_140
+  - first:
+      213: 7569485592262926789
+    second: LineGarland_141
+  - first:
+      213: -4902389328279943190
+    second: LineGarland_142
+  - first:
+      213: 7849781878198770656
+    second: LineGarland_143
+  - first:
+      213: 5274571931497243442
+    second: LineGarland_144
+  - first:
+      213: -759336832473920198
+    second: LineGarland_145
+  - first:
+      213: -805682818997802177
+    second: LineGarland_146
+  - first:
+      213: -8888941635321182673
+    second: LineGarland_147
+  - first:
+      213: -7174528374611293496
+    second: LineGarland_148
+  - first:
+      213: -1519892186607711906
+    second: LineGarland_149
+  - first:
+      213: -8183452327805299406
+    second: LineGarland_150
+  - first:
+      213: -787173153398274856
+    second: LineGarland_151
+  - first:
+      213: 5979539255749426668
+    second: LineGarland_152
+  - first:
+      213: -1899658478372098367
+    second: LineGarland_153
+  - first:
+      213: -690616582448065362
+    second: LineGarland_154
+  - first:
+      213: 2100421371396738181
+    second: LineGarland_155
+  - first:
+      213: 7004089235686880240
+    second: LineGarland_156
+  - first:
+      213: 6031751004715709479
+    second: LineGarland_157
+  - first:
+      213: 5399748054007044309
+    second: LineGarland_158
+  - first:
+      213: -1177404309494953644
+    second: LineGarland_159
+  - first:
+      213: -1063966485897365887
+    second: LineGarland_160
+  - first:
+      213: 7100058160030688549
+    second: LineGarland_161
+  - first:
+      213: -3279323948927315338
+    second: LineGarland_162
+  - first:
+      213: -174934684971483219
+    second: LineGarland_163
+  - first:
+      213: 2805104823900097513
+    second: LineGarland_164
+  - first:
+      213: 6570507037588529750
+    second: LineGarland_165
+  - first:
+      213: -6842064403018688154
+    second: LineGarland_166
+  - first:
+      213: -4780835999916868404
+    second: LineGarland_167
+  - first:
+      213: -2286510456791584473
+    second: LineGarland_168
+  - first:
+      213: -5834967795835084073
+    second: LineGarland_169
+  - first:
+      213: 6851441321299340773
+    second: LineGarland_170
+  - first:
+      213: 8241115109886482852
+    second: LineGarland_171
+  - first:
+      213: 8113206217679113889
+    second: LineGarland_172
+  - first:
+      213: -5546550444241304233
+    second: LineGarland_173
+  - first:
+      213: -354126768012905008
+    second: LineGarland_174
+  - first:
+      213: 1090099430279229086
+    second: LineGarland_175
+  - first:
+      213: 5191955653381459153
+    second: LineGarland_176
+  - first:
+      213: -6695081352068649919
+    second: LineGarland_177
+  - first:
+      213: -8631742090002714299
+    second: LineGarland_178
+  - first:
+      213: 5950897685803372651
+    second: LineGarland_179
+  - first:
+      213: -1992546234296698397
+    second: LineGarland_180
+  - first:
+      213: 4128024514899872334
+    second: LineGarland_181
+  - first:
+      213: 2719413518901910172
+    second: LineGarland_182
+  - first:
+      213: 938772157737213639
+    second: LineGarland_183
+  - first:
+      213: -1016277726104635675
+    second: LineGarland_184
+  - first:
+      213: -494824227234827083
+    second: LineGarland_185
+  - first:
+      213: 7275581815511513386
+    second: LineGarland_186
+  - first:
+      213: 8112405288450575547
+    second: LineGarland_187
+  - first:
+      213: -3509632306999509488
+    second: LineGarland_188
+  - first:
+      213: -6690717818908300861
+    second: LineGarland_189
+  - first:
+      213: 3986075312481020744
+    second: LineGarland_190
+  - first:
+      213: 1176985603169546678
+    second: LineGarland_191
+  - first:
+      213: -3188700091166316491
+    second: LineGarland_192
+  - first:
+      213: 4917002456590615719
+    second: LineGarland_193
+  - first:
+      213: -1927238174617404603
+    second: LineGarland_194
+  - first:
+      213: 4608464961627803589
+    second: LineGarland_195
+  - first:
+      213: -5832508717592938213
+    second: LineGarland_196
+  - first:
+      213: 5029501890005509902
+    second: LineGarland_197
+  - first:
+      213: 1605384132748155221
+    second: LineGarland_198
+  - first:
+      213: 6426410832269595486
+    second: LineGarland_199
+  - first:
+      213: -1267360881753608683
+    second: LineGarland_200
+  - first:
+      213: -4336716722043105335
+    second: LineGarland_201
+  - first:
+      213: -360274824132184229
+    second: LineGarland_202
+  - first:
+      213: -4468797973802764933
+    second: LineGarland_203
+  - first:
+      213: -5293396843989296190
+    second: LineGarland_204
+  - first:
+      213: -7255491813768407329
+    second: LineGarland_205
+  - first:
+      213: -5615405692256400050
+    second: LineGarland_206
+  - first:
+      213: 2467258199230393626
+    second: LineGarland_207
+  - first:
+      213: 1866217405623656462
+    second: LineGarland_208
+  - first:
+      213: -6917896042547463012
+    second: LineGarland_209
+  - first:
+      213: 3486515636652295316
+    second: LineGarland_210
+  - first:
+      213: 8993246049338228332
+    second: LineGarland_211
+  - first:
+      213: -3401802603808538446
+    second: LineGarland_212
+  - first:
+      213: 4917891212842805136
+    second: LineGarland_213
+  - first:
+      213: -2498102578497350040
+    second: LineGarland_214
+  - first:
+      213: 6911858092730459181
+    second: LineGarland_215
+  - first:
+      213: 4923240200134573303
+    second: LineGarland_216
+  - first:
+      213: -2901597672029704959
+    second: LineGarland_217
+  - first:
+      213: -3362638004016899651
+    second: LineGarland_218
+  - first:
+      213: 1176222919166862969
+    second: LineGarland_219
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 150
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LineGarland_0
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 613
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d767f397986441420800000000000000
+      internalID: 2599780441158284925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_1
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 601
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c277b0bc0676ec80800000000000000
+      internalID: -8293811866879692091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_2
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 613
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e643acb487c517f40800000000000000
+      internalID: 5724458273101984878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_3
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 596
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db83ef9250c2890d0800000000000000
+      internalID: -3415931916669536067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_4
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 583
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4d892bc6d8712200800000000000000
+      internalID: 153536726234139979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_5
+      rect:
+        serializedVersion: 2
+        x: 1213
+        y: 613
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5a782229e9e1bb20800000000000000
+      internalID: 3148554802018417242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_6
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 601
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f986589cf2b180a80800000000000000
+      internalID: -8500514404603434849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_7
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 613
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15165fcb972974120800000000000000
+      internalID: 2398046378156974417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_8
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 577
+        width: 46
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c212907cf9903b5c0800000000000000
+      internalID: -4201003445562826452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_9
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 594
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c4db39556cffdef0800000000000000
+      internalID: -81068756050389823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_10
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 577
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4618d46be89c3ce30800000000000000
+      internalID: 4522680065591181668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_11
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 594
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9273927777ab10280800000000000000
+      internalID: -9078770351539144919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_12
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 562
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baedf3b1ba5720190800000000000000
+      internalID: -7997700610499551573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_13
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 577
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92ebce2ae2b29b5a0800000000000000
+      internalID: -6505120707458056663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_14
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 562
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34d857dc4927c71a0800000000000000
+      internalID: -6810442553063273149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_15
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 561
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f531e8df6fc681090800000000000000
+      internalID: -8063575324735171745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_16
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 561
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c432d5afd83f1a70800000000000000
+      internalID: 8799814730116117698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_17
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 544
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aab8d3846ab7d85b0800000000000000
+      internalID: -5364495627021612118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_18
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 557
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06c8d1c481a1729b0800000000000000
+      internalID: -5105082960942625696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_19
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 562
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96628dc3dcdaf31d0800000000000000
+      internalID: -3368782899249142167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_20
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 562
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 762e92447a51820d0800000000000000
+      internalID: -3447481706604797337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_21
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 546
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1778107ba7e4aca80800000000000000
+      internalID: -8445851862216636559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_22
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 540
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e75f50aca054c4e0800000000000000
+      internalID: -1962354835271493656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_23
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 525
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dd934033983fd600800000000000000
+      internalID: 495176688855129560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_24
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 544
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db9f2008f67caf910800000000000000
+      internalID: 1872027876828838333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_25
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 546
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d963272af3d4c050800000000000000
+      internalID: 5820009689821440470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_26
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 533
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac2ea1a077445b4c0800000000000000
+      internalID: -4272433393429716278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_27
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 526
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc3327f508b12d100800000000000000
+      internalID: 131197577318249421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_28
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 508
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47dc2e812f58bb520800000000000000
+      internalID: 2718914074894323060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_29
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 508
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a2ddae72a9c81c40800000000000000
+      internalID: 5483354246070784681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_30
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 533
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0af1117ec615e5c60800000000000000
+      internalID: 7808768332081995680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_31
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 517
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85dcdb2dba8a16120800000000000000
+      internalID: 2405389131921083736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_32
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 517
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f96915ae05a18f9e0800000000000000
+      internalID: -1587489933817178465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_33
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 503
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7def080d6c8cadf20800000000000000
+      internalID: 3448289220932730583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_34
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 507
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f5b10ddc3d318cc0800000000000000
+      internalID: -3710617286361369103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_35
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 503
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 651013b886bbe4a60800000000000000
+      internalID: 7660266073890029910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_36
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 503
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2786bd96c7499bb0800000000000000
+      internalID: -4928829398805215443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_37
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 507
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82056e1bae8757d80800000000000000
+      internalID: -8253557792684224472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_38
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 503
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a442cf6131f3e5350800000000000000
+      internalID: 6007308304181371978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_39
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 488
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21a8e0ccef7599510800000000000000
+      internalID: 1556371898090031634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_40
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 486
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b22f5637a4acd0cd0800000000000000
+      internalID: -2590191789555715541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_41
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 488
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faf3a1ab58ede6df0800000000000000
+      internalID: -184965868741312593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_42
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 473
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa224358477e4a760800000000000000
+      internalID: 7468348569724134063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_43
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 478
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 012e6c8df2d79f310800000000000000
+      internalID: 1439319200375431696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_44
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 478
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 962a55373af0ff050800000000000000
+      internalID: 5836400836784530025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_45
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 489
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e38809a3ae7255130800000000000000
+      internalID: 3554791367837255742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_46
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 486
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05507c79377b85b50800000000000000
+      internalID: 6582212562497504592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_47
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 476
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cb759904d86de970800000000000000
+      internalID: 8785793707972852676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_48
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 488
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6815e131e98abaef0800000000000000
+      internalID: -95797570179280506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_49
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 474
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de03af03b56c5bc90800000000000000
+      internalID: -7154594338042138387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_50
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 431
+        width: 48
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29bf5e3e1190722b0800000000000000
+      internalID: -5609504838424069230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_51
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 476
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92f46c60c26df77e0800000000000000
+      internalID: -1765457044325380311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_52
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 461
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a97a924e04c1a60a0800000000000000
+      internalID: -6887661615078332518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_53
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 474
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08db51ff6dcdb2f40800000000000000
+      internalID: 5704896168955592064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_54
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 474
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a368c9e8a47e11a0800000000000000
+      internalID: -6836898915476282461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_55
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 446
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 469b29dde6a2c8530800000000000000
+      internalID: 3858505636401822052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_56
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 474
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e82c72dc4056af30800000000000000
+      internalID: 4586441561402517729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_57
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 460
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a6f0199b53a53140800000000000000
+      internalID: 4698841400036357794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_58
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 460
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53e30551861668e80800000000000000
+      internalID: -8176740973782483403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_59
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 462
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 161400b3a4cf622c0800000000000000
+      internalID: -4456597385488875167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_60
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 446
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f556b72f8f88c3f0800000000000000
+      internalID: -880295882141575692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_61
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 446
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5d9e7ddcbb5f6e30800000000000000
+      internalID: 4498915419494456667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_62
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 462
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0f8205d8f1785560800000000000000
+      internalID: 7302712109320802059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_63
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 460
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 477eae0dce389c3a0800000000000000
+      internalID: -6644634722067880076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_64
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 460
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51410de55acf84ba0800000000000000
+      internalID: -6104351507710209003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_65
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 446
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b72b608cce144aac0800000000000000
+      internalID: -3844875696643591557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_66
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 446
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98ace275913a93060800000000000000
+      internalID: 6933752430545783433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_67
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 441
+        width: 28
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3750c7079c2130000800000000000000
+      internalID: 865081315034483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_68
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 441
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e3b3015d1dcb6040800000000000000
+      internalID: 4642029366732370921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_69
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 446
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c2ad177c8be87c90800000000000000
+      internalID: -7171723418061135165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_70
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 446
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bd8e64e64aa0a7e0800000000000000
+      internalID: -1756216633217610312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_71
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 431
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3708b787fca5b0d0800000000000000
+      internalID: -3407627363902027970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_72
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 445
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76f14fab9d3aaebd0800000000000000
+      internalID: -2600085679313248409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_73
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 431
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 080731a313fb23120800000000000000
+      internalID: 2392184570235809920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_74
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 415
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67787e39349994440800000000000000
+      internalID: 4920632583402260342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_75
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 431
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 157885d02a4906240800000000000000
+      internalID: 4782986227996985169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_76
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 425
+        width: 31
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e75f4c7c04924c970800000000000000
+      internalID: 8774183332230788478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_77
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 409
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70817fb30fbb09500800000000000000
+      internalID: 401027007308568583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_78
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 425
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c29b6f91f7a52b1a0800000000000000
+      internalID: -6795269385805711060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_79
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 425
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0071c0067ec3fb730800000000000000
+      internalID: 4016996357084288768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_80
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 424
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f3f6475a0eb9d990800000000000000
+      internalID: -7360643164337146891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_81
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 428
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b61d7cd53acf41b0800000000000000
+      internalID: -5670091073154902351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_82
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 424
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b052bd0cdd630c130800000000000000
+      internalID: 3584925629438174475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_83
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 430
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4856bbc047af680b0800000000000000
+      internalID: -5726614499818248828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_84
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 386
+        width: 46
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fdc89784cfbe8530800000000000000
+      internalID: 3859232781512527347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_85
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 431
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ec6c704b357d0410800000000000000
+      internalID: 1444939952801213672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_86
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 415
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 010ca5f88528c5f80800000000000000
+      internalID: -8116469111554654192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_87
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 401
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42aaa1a3fea7c4af0800000000000000
+      internalID: -410818298106959324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_88
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 414
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8a824bead2e65860800000000000000
+      internalID: 7518446057819376268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_89
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 394
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 849cbc82d9069f880800000000000000
+      internalID: -8576717787239823032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_90
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 411
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c6678a5e601873c0800000000000000
+      internalID: -4361718172957055291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_91
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 413
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b904c57a0dd8152f0800000000000000
+      internalID: -985850916116873061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_92
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 413
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fa0ab6599ff8bca0800000000000000
+      internalID: -6000765469421073672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_93
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 413
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f56803f0b824b5fa0800000000000000
+      internalID: -5810977729168767393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_94
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 409
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f998c607e436638a0800000000000000
+      internalID: -6325759438050522721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_95
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 409
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e4920039d43131d0800000000000000
+      internalID: -3372856538505767712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_96
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 413
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cdb2c2d9707088d0800000000000000
+      internalID: -2846151295968821816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_97
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 413
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4838bff45ada9d460800000000000000
+      internalID: 7267030399262098308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_98
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 413
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c8dfce24787db9b0800000000000000
+      internalID: -5062757965697656632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_99
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 408
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7847bdebb85f1800800000000000000
+      internalID: 585284040751794299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_100
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 411
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9bccb01c525d7500800000000000000
+      internalID: 395562897649748895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_101
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 394
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 466a87cded141ded0800000000000000
+      internalID: -2391057501719583132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_102
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 415
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ac036905996884c0800000000000000
+      internalID: -4285058956614497117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_103
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 415
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7862c6584f1a061e0800000000000000
+      internalID: -2206585745828993401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_104
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 401
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a128a9984ae0373d0800000000000000
+      internalID: -3210206009539001830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_105
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 386
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c873c8b2299197a0800000000000000
+      internalID: -6372143623344785211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_106
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 399
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34a182fa6928e3080800000000000000
+      internalID: -9205777004603368893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_107
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 393
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1d7dd78e3930b800800000000000000
+      internalID: 626063288934694170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_108
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 378
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4e22e52332457f80800000000000000
+      internalID: -8109502766564364723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_109
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 394
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d62ad009d7235b5d0800000000000000
+      internalID: -3047474057977159059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_110
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 398
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab448872ab956e130800000000000000
+      internalID: 3595660008563950778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_111
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 398
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9487bec38f813c50800000000000000
+      internalID: 6643248721619813535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_112
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 398
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e60f191a09697d4b0800000000000000
+      internalID: -5415694478959579026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_113
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 363
+        width: 26
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd3c2760296854df0800000000000000
+      internalID: -196603046989216804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_114
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 363
+        width: 26
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7749805b63347230800000000000000
+      internalID: 3635587335200524155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_115
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 398
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95935918b0504f820800000000000000
+      internalID: 2950989202811337049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_116
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 398
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcea42ab5fa2c23a0800000000000000
+      internalID: -6688924111673708853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_117
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 393
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b1930fea7cc77dd0800000000000000
+      internalID: -2488295440730844752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_118
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 378
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f5531c2e3c9efac0800000000000000
+      internalID: -3819443643122231823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_119
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 396
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2863a3db76de9d3b0800000000000000
+      internalID: -5487093641162115454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_120
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 401
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae090230423d6e0a0800000000000000
+      internalID: -6852557631372881686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_121
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 386
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc29bc01f2c137540800000000000000
+      internalID: 5004374599409570507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_122
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 380
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0af79fbaa5296a4d0800000000000000
+      internalID: -3123648373404893280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_123
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 362
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6adef921630e7f4f0800000000000000
+      internalID: -794920286362276442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_124
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 379
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a2ead72641084900800000000000000
+      internalID: 668785945492513440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_125
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 361
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12e9665b1361948b0800000000000000
+      internalID: -5167574694678323679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_126
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 381
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e76581227d7ce5d20800000000000000
+      internalID: 3269270106321475198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_127
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 381
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80dee13c777a72580800000000000000
+      internalID: -8851922409756889848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_128
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 381
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 048232e4a658972f0800000000000000
+      internalID: -974601152725047232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_129
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 377
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c975ea313291261f0800000000000000
+      internalID: -1053251724406532196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_130
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 377
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2942bb96774c6750800000000000000
+      internalID: 6299488553528346927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_131
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 381
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7ca9f727c74fafe0800000000000000
+      internalID: -1175642057025672069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_132
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 381
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b4f6474748ac4790800000000000000
+      internalID: -7544470251660446536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_133
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 382
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08474a21dabb50f30800000000000000
+      internalID: 4541242151289517184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_134
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 362
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eaf188411a27cf30800000000000000
+      internalID: 4595688198474169062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_135
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 378
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dffc385ebbfe8d90800000000000000
+      internalID: -7093455568119201833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_136
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 362
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e38244dc1d8f2d90800000000000000
+      internalID: -7120317330889735195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_137
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 380
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce24f01c1c52ac710800000000000000
+      internalID: 1714224122265813740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_138
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 386
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0db5da42ece390c60800000000000000
+      internalID: 7784822485986139088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_139
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 365
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f611f0f487724880800000000000000
+      internalID: -8628202523226728714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_140
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 359
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b71b5b92433d36f10800000000000000
+      internalID: 2261883658861654395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_141
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 365
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c1e4439a073c0960800000000000000
+      internalID: 7569485592262926789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_142
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 330
+        width: 33
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae7453141e637fbb0800000000000000
+      internalID: -4902389328279943190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_143
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 365
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eb165e370700fc60800000000000000
+      internalID: 7849781878198770656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_144
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 365
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 233a32fc93b033940800000000000000
+      internalID: 5274571931497243442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_145
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 359
+        width: 27
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3d858b8c2b4675f0800000000000000
+      internalID: -759336832473920198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_146
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 357
+        width: 28
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3b200caeb3a1d4f0800000000000000
+      internalID: -805682818997802177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_147
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 365
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f264085ada224a480800000000000000
+      internalID: -8888941635321182673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_148
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 365
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ca4550a474fe6c90800000000000000
+      internalID: -7174528374611293496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_149
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 365
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e590b58eb1248eae0800000000000000
+      internalID: -1519892186607711906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_150
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 365
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23552d437798e6e80800000000000000
+      internalID: -8183452327805299406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_151
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 365
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d4c8f600366315f0800000000000000
+      internalID: -787173153398274856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_152
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 359
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cedb27ba5479bf250800000000000000
+      internalID: 5979539255749426668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_153
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 340
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ce6212cdae03a5e0800000000000000
+      internalID: -1899658478372098367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_154
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 365
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea4503790ef6a66f0800000000000000
+      internalID: -690616582448065362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_155
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 365
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58ccdb8db12362d10800000000000000
+      internalID: 2100421371396738181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_156
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 342
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f3f044fc06833160800000000000000
+      internalID: 7004089235686880240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_157
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 365
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7247fa9c49515b350800000000000000
+      internalID: 6031751004715709479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_158
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 359
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d852bbfe32cfea40800000000000000
+      internalID: 5399748054007044309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_159
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 365
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4590a87c40509afe0800000000000000
+      internalID: -1177404309494953644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_160
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 320
+        width: 20
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 186ba234e180c31f0800000000000000
+      internalID: -1063966485897365887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_161
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 347
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5252e316749788260800000000000000
+      internalID: 7100058160030688549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_162
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 350
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67291c83e308d72d0800000000000000
+      internalID: -3279323948927315338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_163
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 344
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daf3163b4d1829df0800000000000000
+      internalID: -174934684971483219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_164
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 339
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ebcc4aa9fbbde620800000000000000
+      internalID: 2805104823900097513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_165
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 346
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6522ba1b6512f2b50800000000000000
+      internalID: 6570507037588529750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_166
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 344
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 669d9bf1daa1c01a0800000000000000
+      internalID: -6842064403018688154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_167
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 340
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccc3e8fecfe07adb0800000000000000
+      internalID: -4780835999916868404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_168
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 347
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 721b8bf9adea440e0800000000000000
+      internalID: -2286510456791584473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_169
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 336
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d2e76564b7060fa0800000000000000
+      internalID: -5834967795835084073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_170
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 349
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5edea7bc495351f50800000000000000
+      internalID: 6851441321299340773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_171
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 347
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a953e577825e5270800000000000000
+      internalID: 8241115109886482852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_172
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 321
+        width: 20
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ae0142c116e79070800000000000000
+      internalID: 8113206217679113889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_173
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 335
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 755463202c1b603b0800000000000000
+      internalID: -5546550444241304233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_174
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 302
+        width: 11
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d5322ba493e51bf0800000000000000
+      internalID: -354126768012905008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_175
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 313
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9e26aff7afc02f00800000000000000
+      internalID: 1090099430279229086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_176
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 325
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dc026998288d0840800000000000000
+      internalID: 5191955653381459153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_177
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 312
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14c2b9b7bfa4613a0800000000000000
+      internalID: -6695081352068649919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_178
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 320
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 541b9945d44e53880800000000000000
+      internalID: -8631742090002714299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_179
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 326
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6011018ae5d59250800000000000000
+      internalID: 5950897685803372651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_180
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 296
+        width: 46
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e9f332c1cd0954e0800000000000000
+      internalID: -1992546234296698397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_181
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 333
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4a06b2dc60b94930800000000000000
+      internalID: 4128024514899872334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_182
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 326
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9a1b87ff2c4db520800000000000000
+      internalID: 2719413518901910172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_183
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 316
+        width: 11
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ce14fabd40370d00800000000000000
+      internalID: 938772157737213639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_184
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 309
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e63466eac475e1f0800000000000000
+      internalID: -1016277726104635675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_185
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 311
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b4396dacf70229f0800000000000000
+      internalID: -494824227234827083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_186
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 291
+        width: 12
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a29fadf0d1f08f460800000000000000
+      internalID: 7275581815511513386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_187
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 293
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbcc814e0ad059070800000000000000
+      internalID: 8112405288450575547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_188
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 307
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01e3f09f2084b4fc0800000000000000
+      internalID: -3509632306999509488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_189
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 298
+        width: 11
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c92897b79bc523a0800000000000000
+      internalID: -6690717818908300861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_190
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 293
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84ba268a062615730800000000000000
+      internalID: 3986075312481020744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_191
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 312
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b17bae8b2e755010800000000000000
+      internalID: 1176985603169546678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_192
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 313
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 538a6ca59267fb3d0800000000000000
+      internalID: -3188700091166316491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_193
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 297
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a48ec0dea3bc3440800000000000000
+      internalID: 4917002456590615719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_194
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 272
+        width: 18
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54b7b5457131145e0800000000000000
+      internalID: -1927238174617404603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_195
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 272
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cfc8a5477e84ff30800000000000000
+      internalID: 4608464961627803589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_196
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 297
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b19f08a2934ce0fa0800000000000000
+      internalID: -5832508717592938213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_197
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 274
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e072fee42516cc540800000000000000
+      internalID: 5029501890005509902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_198
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 295
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5599080fc58774610800000000000000
+      internalID: 1605384132748155221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_199
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 293
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e53d6267a923f2950800000000000000
+      internalID: 6426410832269595486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_200
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 276
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51ea9d82efd696ee0800000000000000
+      internalID: -1267360881753608683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_201
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 258
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cfcf134e13e0d3c0800000000000000
+      internalID: -4336716722043105335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_202
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 279
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b57b51ec4fb000bf0800000000000000
+      internalID: -360274824132184229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_203
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 277
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7530866be3abf1c0800000000000000
+      internalID: -4468797973802764933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_204
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 278
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cb18d2bd931a86b0800000000000000
+      internalID: -5293396843989296190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_205
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 259
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd65499f2a05f4b90800000000000000
+      internalID: -7255491813768407329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_206
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 254
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4dc95b46421212b0800000000000000
+      internalID: -5615405692256400050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_207
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 258
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1d2c4692467d3220800000000000000
+      internalID: 2467258199230393626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_208
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 239
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0069dfb7d226e910800000000000000
+      internalID: 1866217405623656462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_209
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 245
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9cb0eea332beff90800000000000000
+      internalID: -6917896042547463012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_210
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 263
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 494418acf77926030800000000000000
+      internalID: 3486515636652295316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_211
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 257
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6e7d7432ad6ecc70800000000000000
+      internalID: 8993246049338228332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_212
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 262
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b04efb2e8e5ac0d0800000000000000
+      internalID: -3401802603808538446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_213
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 242
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 097a281800cdf3440800000000000000
+      internalID: 4917891212842805136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_214
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 244
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8669d2cb0f4f45dd0800000000000000
+      internalID: -2498102578497350040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_215
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 228
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d24ab13905adbef50800000000000000
+      internalID: 6911858092730459181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_216
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 244
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fcb1f8a0ecd25440800000000000000
+      internalID: 4923240200134573303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_217
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 244
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10da1956a447bb7d0800000000000000
+      internalID: -2901597672029704959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_218
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 230
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db918562d828551d0800000000000000
+      internalID: -3362638004016899651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LineGarland_219
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 228
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9762d995388c25010800000000000000
+      internalID: 1176222919166862969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      LineGarland_0: 2599780441158284925
+      LineGarland_1: -8293811866879692091
+      LineGarland_10: 4522680065591181668
+      LineGarland_100: 395562897649748895
+      LineGarland_101: -2391057501719583132
+      LineGarland_102: -4285058956614497117
+      LineGarland_103: -2206585745828993401
+      LineGarland_104: -3210206009539001830
+      LineGarland_105: -6372143623344785211
+      LineGarland_106: -9205777004603368893
+      LineGarland_107: 626063288934694170
+      LineGarland_108: -8109502766564364723
+      LineGarland_109: -3047474057977159059
+      LineGarland_11: -9078770351539144919
+      LineGarland_110: 3595660008563950778
+      LineGarland_111: 6643248721619813535
+      LineGarland_112: -5415694478959579026
+      LineGarland_113: -196603046989216804
+      LineGarland_114: 3635587335200524155
+      LineGarland_115: 2950989202811337049
+      LineGarland_116: -6688924111673708853
+      LineGarland_117: -2488295440730844752
+      LineGarland_118: -3819443643122231823
+      LineGarland_119: -5487093641162115454
+      LineGarland_12: -7997700610499551573
+      LineGarland_120: -6852557631372881686
+      LineGarland_121: 5004374599409570507
+      LineGarland_122: -3123648373404893280
+      LineGarland_123: -794920286362276442
+      LineGarland_124: 668785945492513440
+      LineGarland_125: -5167574694678323679
+      LineGarland_126: 3269270106321475198
+      LineGarland_127: -8851922409756889848
+      LineGarland_128: -974601152725047232
+      LineGarland_129: -1053251724406532196
+      LineGarland_13: -6505120707458056663
+      LineGarland_130: 6299488553528346927
+      LineGarland_131: -1175642057025672069
+      LineGarland_132: -7544470251660446536
+      LineGarland_133: 4541242151289517184
+      LineGarland_134: 4595688198474169062
+      LineGarland_135: -7093455568119201833
+      LineGarland_136: -7120317330889735195
+      LineGarland_137: 1714224122265813740
+      LineGarland_138: 7784822485986139088
+      LineGarland_139: -8628202523226728714
+      LineGarland_14: -6810442553063273149
+      LineGarland_140: 2261883658861654395
+      LineGarland_141: 7569485592262926789
+      LineGarland_142: -4902389328279943190
+      LineGarland_143: 7849781878198770656
+      LineGarland_144: 5274571931497243442
+      LineGarland_145: -759336832473920198
+      LineGarland_146: -805682818997802177
+      LineGarland_147: -8888941635321182673
+      LineGarland_148: -7174528374611293496
+      LineGarland_149: -1519892186607711906
+      LineGarland_15: -8063575324735171745
+      LineGarland_150: -8183452327805299406
+      LineGarland_151: -787173153398274856
+      LineGarland_152: 5979539255749426668
+      LineGarland_153: -1899658478372098367
+      LineGarland_154: -690616582448065362
+      LineGarland_155: 2100421371396738181
+      LineGarland_156: 7004089235686880240
+      LineGarland_157: 6031751004715709479
+      LineGarland_158: 5399748054007044309
+      LineGarland_159: -1177404309494953644
+      LineGarland_16: 8799814730116117698
+      LineGarland_160: -1063966485897365887
+      LineGarland_161: 7100058160030688549
+      LineGarland_162: -3279323948927315338
+      LineGarland_163: -174934684971483219
+      LineGarland_164: 2805104823900097513
+      LineGarland_165: 6570507037588529750
+      LineGarland_166: -6842064403018688154
+      LineGarland_167: -4780835999916868404
+      LineGarland_168: -2286510456791584473
+      LineGarland_169: -5834967795835084073
+      LineGarland_17: -5364495627021612118
+      LineGarland_170: 6851441321299340773
+      LineGarland_171: 8241115109886482852
+      LineGarland_172: 8113206217679113889
+      LineGarland_173: -5546550444241304233
+      LineGarland_174: -354126768012905008
+      LineGarland_175: 1090099430279229086
+      LineGarland_176: 5191955653381459153
+      LineGarland_177: -6695081352068649919
+      LineGarland_178: -8631742090002714299
+      LineGarland_179: 5950897685803372651
+      LineGarland_18: -5105082960942625696
+      LineGarland_180: -1992546234296698397
+      LineGarland_181: 4128024514899872334
+      LineGarland_182: 2719413518901910172
+      LineGarland_183: 938772157737213639
+      LineGarland_184: -1016277726104635675
+      LineGarland_185: -494824227234827083
+      LineGarland_186: 7275581815511513386
+      LineGarland_187: 8112405288450575547
+      LineGarland_188: -3509632306999509488
+      LineGarland_189: -6690717818908300861
+      LineGarland_19: -3368782899249142167
+      LineGarland_190: 3986075312481020744
+      LineGarland_191: 1176985603169546678
+      LineGarland_192: -3188700091166316491
+      LineGarland_193: 4917002456590615719
+      LineGarland_194: -1927238174617404603
+      LineGarland_195: 4608464961627803589
+      LineGarland_196: -5832508717592938213
+      LineGarland_197: 5029501890005509902
+      LineGarland_198: 1605384132748155221
+      LineGarland_199: 6426410832269595486
+      LineGarland_2: 5724458273101984878
+      LineGarland_20: -3447481706604797337
+      LineGarland_200: -1267360881753608683
+      LineGarland_201: -4336716722043105335
+      LineGarland_202: -360274824132184229
+      LineGarland_203: -4468797973802764933
+      LineGarland_204: -5293396843989296190
+      LineGarland_205: -7255491813768407329
+      LineGarland_206: -5615405692256400050
+      LineGarland_207: 2467258199230393626
+      LineGarland_208: 1866217405623656462
+      LineGarland_209: -6917896042547463012
+      LineGarland_21: -8445851862216636559
+      LineGarland_210: 3486515636652295316
+      LineGarland_211: 8993246049338228332
+      LineGarland_212: -3401802603808538446
+      LineGarland_213: 4917891212842805136
+      LineGarland_214: -2498102578497350040
+      LineGarland_215: 6911858092730459181
+      LineGarland_216: 4923240200134573303
+      LineGarland_217: -2901597672029704959
+      LineGarland_218: -3362638004016899651
+      LineGarland_219: 1176222919166862969
+      LineGarland_22: -1962354835271493656
+      LineGarland_23: 495176688855129560
+      LineGarland_24: 1872027876828838333
+      LineGarland_25: 5820009689821440470
+      LineGarland_26: -4272433393429716278
+      LineGarland_27: 131197577318249421
+      LineGarland_28: 2718914074894323060
+      LineGarland_29: 5483354246070784681
+      LineGarland_3: -3415931916669536067
+      LineGarland_30: 7808768332081995680
+      LineGarland_31: 2405389131921083736
+      LineGarland_32: -1587489933817178465
+      LineGarland_33: 3448289220932730583
+      LineGarland_34: -3710617286361369103
+      LineGarland_35: 7660266073890029910
+      LineGarland_36: -4928829398805215443
+      LineGarland_37: -8253557792684224472
+      LineGarland_38: 6007308304181371978
+      LineGarland_39: 1556371898090031634
+      LineGarland_4: 153536726234139979
+      LineGarland_40: -2590191789555715541
+      LineGarland_41: -184965868741312593
+      LineGarland_42: 7468348569724134063
+      LineGarland_43: 1439319200375431696
+      LineGarland_44: 5836400836784530025
+      LineGarland_45: 3554791367837255742
+      LineGarland_46: 6582212562497504592
+      LineGarland_47: 8785793707972852676
+      LineGarland_48: -95797570179280506
+      LineGarland_49: -7154594338042138387
+      LineGarland_5: 3148554802018417242
+      LineGarland_50: -5609504838424069230
+      LineGarland_51: -1765457044325380311
+      LineGarland_52: -6887661615078332518
+      LineGarland_53: 5704896168955592064
+      LineGarland_54: -6836898915476282461
+      LineGarland_55: 3858505636401822052
+      LineGarland_56: 4586441561402517729
+      LineGarland_57: 4698841400036357794
+      LineGarland_58: -8176740973782483403
+      LineGarland_59: -4456597385488875167
+      LineGarland_6: -8500514404603434849
+      LineGarland_60: -880295882141575692
+      LineGarland_61: 4498915419494456667
+      LineGarland_62: 7302712109320802059
+      LineGarland_63: -6644634722067880076
+      LineGarland_64: -6104351507710209003
+      LineGarland_65: -3844875696643591557
+      LineGarland_66: 6933752430545783433
+      LineGarland_67: 865081315034483
+      LineGarland_68: 4642029366732370921
+      LineGarland_69: -7171723418061135165
+      LineGarland_7: 2398046378156974417
+      LineGarland_70: -1756216633217610312
+      LineGarland_71: -3407627363902027970
+      LineGarland_72: -2600085679313248409
+      LineGarland_73: 2392184570235809920
+      LineGarland_74: 4920632583402260342
+      LineGarland_75: 4782986227996985169
+      LineGarland_76: 8774183332230788478
+      LineGarland_77: 401027007308568583
+      LineGarland_78: -6795269385805711060
+      LineGarland_79: 4016996357084288768
+      LineGarland_8: -4201003445562826452
+      LineGarland_80: -7360643164337146891
+      LineGarland_81: -5670091073154902351
+      LineGarland_82: 3584925629438174475
+      LineGarland_83: -5726614499818248828
+      LineGarland_84: 3859232781512527347
+      LineGarland_85: 1444939952801213672
+      LineGarland_86: -8116469111554654192
+      LineGarland_87: -410818298106959324
+      LineGarland_88: 7518446057819376268
+      LineGarland_89: -8576717787239823032
+      LineGarland_9: -81068756050389823
+      LineGarland_90: -4361718172957055291
+      LineGarland_91: -985850916116873061
+      LineGarland_92: -6000765469421073672
+      LineGarland_93: -5810977729168767393
+      LineGarland_94: -6325759438050522721
+      LineGarland_95: -3372856538505767712
+      LineGarland_96: -2846151295968821816
+      LineGarland_97: 7267030399262098308
+      LineGarland_98: -5062757965697656632
+      LineGarland_99: 585284040751794299
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
