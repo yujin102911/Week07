@@ -17,6 +17,7 @@ public enum FlagId
     PreparingFood,
     DryingRack,
     EnterCastle,
+    PlaceMimic,
 }
 
 [CreateAssetMenu(menuName = "Quest/Quest")]

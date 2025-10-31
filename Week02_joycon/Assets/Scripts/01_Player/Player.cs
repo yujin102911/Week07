@@ -131,11 +131,17 @@ public class Player : Singleton<Player>
 
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.T)) transform.position = new Vector3(-30f, -16f, 0f);
 
-        if (Input.GetKeyDown(KeyCode.T))
+        if (Input.GetKeyDown(KeyCode.B)) QuestRuntime.Instance.SetFlag(FlagId.EnterCastle);
+        if (Input.GetKeyDown(KeyCode.N))
         {
-            transform.position = new Vector3(-30f, -16f, 0f);
+            QuestRuntime.Instance.SetFlag(FlagId.ManagingMimic);
+            QuestRuntime.Instance.SetFlag(FlagId.DryingRack);
+            QuestRuntime.Instance.SetFlag(FlagId.WipingDust);
+            QuestRuntime.Instance.SetFlag(FlagId.PreparingFood);
         }
+        if (Input.GetKeyDown(KeyCode.M)) QuestRuntime.Instance.SetFlag(FlagId.PlaceMimic);
 
         float dt = Time.deltaTime;
 
