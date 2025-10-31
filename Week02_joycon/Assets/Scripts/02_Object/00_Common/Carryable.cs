@@ -25,6 +25,7 @@ public class Carryable : MonoBehaviour
         obstacleMask = LayerMask.GetMask(PlayerConstant.ObstacleMask);
 
         _rigidbody = GetComponent<Rigidbody2D>();
+        _rigidbody.bodyType = RigidbodyType2D.Dynamic;
         _rigidbody.gravityScale = weight * gravityScale;
         _rigidbody.mass = large * weight;
     }
@@ -40,7 +41,7 @@ public class Carryable : MonoBehaviour
 
     private void SetState()
     {
-        _rigidbody.bodyType = RigidbodyType2D.Dynamic;
+        _rigidbody.transform.SetParent(null);
         _rigidbody.freezeRotation = isCarried;
         _rigidbody.linearVelocity = Vector2.zero;
         _rigidbody.angularVelocity = 0.0f;
