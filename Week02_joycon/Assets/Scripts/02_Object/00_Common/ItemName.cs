@@ -12,4 +12,5 @@ public enum ItemName
     Firewood,
     Pot,
     Shampoo,
+    dart,
 }
