@@ -44,7 +44,7 @@ public class PlayerThrowing : MonoBehaviour
             var force = Vector2.right * Player.GetFaceDir() * throwForce;
             force.x += Player.Instance.velocity.x;
             rigidbody.AddForce(force, ForceMode2D.Impulse);
-            carryable.spinAngle = Mathf.Sign(carryable.spinAngle) * Player.GetFaceDir();//던질때 회전 방향 설정
+            carryable.spinAngle = Mathf.Abs(carryable.spinAngle) * Player.GetFaceDir();//던질때 회전 방향 설정
             carryable.throwing = true;
         }
     }

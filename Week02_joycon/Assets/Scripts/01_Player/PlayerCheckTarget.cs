@@ -24,7 +24,6 @@ public class PlayerCheckTarget : MonoBehaviour
         Carryable closest = FindClosestCarryable(hits);
         if (closest == null) { highlight = null; }
         else { closest.TryGetComponent(out highlight); }
-        Debug.Log(highlight);
         if (highlighted != highlight)//이전 하이라이트랑 다르면
         {
             if (highlighted != null) highlighted.color = Color.black;//이전 하이라이트 끄기
