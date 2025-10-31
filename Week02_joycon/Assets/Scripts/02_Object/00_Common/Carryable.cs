@@ -30,7 +30,6 @@ public class Carryable : MonoBehaviour
         _rigidbody.bodyType = RigidbodyType2D.Dynamic;
         _rigidbody.gravityScale = weight * gravityScale;
         _rigidbody.mass = large * weight;
-        if (throwing) { transform.Rotate(0f, 0f, spinAngle * Time.deltaTime); }//투척중이면 회전
     }
 
     private void Update()
@@ -39,6 +38,11 @@ public class Carryable : MonoBehaviour
         {
             throwing=false;//들고 있으면 투척 상태 해제
         }
+        if (throwing) 
+        {
+            transform.Rotate(0f, 0f, -spinAngle * Time.deltaTime);
+            Debug.Log(transform.eulerAngles);
+        }//투척중이면 회전
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
