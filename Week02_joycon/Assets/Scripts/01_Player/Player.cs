@@ -132,6 +132,11 @@ public class Player : Singleton<Player>
     void Update()
     {
 
+        if (Input.GetKeyDown(KeyCode.T))
+        {
+            transform.position = new Vector3(-30f, -16f, 0f);
+        }
+
         float dt = Time.deltaTime;
 
         if (_ladderAttachBlockTimer > 0f) _ladderAttachBlockTimer = Mathf.Max(0f, _ladderAttachBlockTimer - dt);

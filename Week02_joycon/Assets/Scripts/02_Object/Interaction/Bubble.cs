@@ -6,23 +6,22 @@ public class Bubble : MonoBehaviour
 
     [SerializeField] int cleanSpeedmin = 3;
     [SerializeField] int cleanSpeedmax = 5;
-    Vector2 firstScale;
     [SerializeField] bool Watering = false;
     [SerializeField] float bubbleCount;
 
     void Start()
     {
-        bubbleCount= bubbles.Length;
+        bubbleCount = bubbles.Length;
     }
 
     void Update()
     {
         if (Watering)
         {
-            int cleanSpeed = Random.Range(cleanSpeedmin, cleanSpeedmax+1);
-            bubbleCount -= cleanSpeed* Time.deltaTime;
+            int cleanSpeed = Random.Range(cleanSpeedmin, cleanSpeedmax + 1);
+            bubbleCount -= cleanSpeed * Time.deltaTime;
 
-            if ((int)bubbleCount>=0 && (int)bubbleCount< bubbles.Length && bubbles[(int)bubbleCount].activeSelf)
+            if ((int)bubbleCount >= 0 && (int)bubbleCount < bubbles.Length && bubbles[(int)bubbleCount].activeSelf)
             {
                 bubbles[(int)bubbleCount].SetActive(false);
             }

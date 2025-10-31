@@ -46,8 +46,8 @@ public class PlayerInteractCarryable : MonoBehaviour
 
         var area = BuildForwardBox();
         Collider2D[] hits = Physics2D.OverlapBoxAll(area.pos, area.size, 0f, carryableMask);
-
         Carryable closest = FindClosestCarryable(hits);
+
         if (closest == null) return false;
         if (closest.GetIsCarried() == true) return false;
 
