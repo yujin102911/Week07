@@ -10,7 +10,7 @@ public sealed class QuestUI : MonoBehaviour
 
     private QuestManager questManager => QuestManager.Instance;
     private readonly List<QuestContentUI> _entries = new();
-    private uint questId;
+    public static uint questId;
     private uint _builtForQuestId;
 
     void OnEnable() { if (questManager) questManager.OnQuestUpdated += OnQuestUpdated; Redraw(); }
