@@ -1,8 +1,8 @@
 ﻿using UnityEngine;
 
-public class TomatoTree : MonoBehaviour
+public class PlantTree : MonoBehaviour
 {
-    [SerializeField] TomatoGrow[] tomatos;
+    [SerializeField] PlantGrow[] plants;
     [SerializeField] int growSpeed = 255;
     [SerializeField] bool Watering = false;
 
@@ -10,9 +10,9 @@ public class TomatoTree : MonoBehaviour
     {
         if (Watering)
         {
-            foreach (var tomato in tomatos)
+            foreach (var tomato in plants)
             {
-                if (tomato != null)
+                if (tomato != null && tomato.spriteRender.enabled)
                     tomato.growCurrent += growSpeed * Time.deltaTime;
             }
         }
