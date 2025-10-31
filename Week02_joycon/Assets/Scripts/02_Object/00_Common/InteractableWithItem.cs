@@ -5,7 +5,7 @@ using UnityEngine;
 public class InteractableItems
 {
     public ItemName itemName;
-    public int itemCount;
+    public int interactableCount;
     public bool destroyItem;
 }
 
@@ -14,6 +14,8 @@ public class InteractableWithItem : MonoBehaviour, IInteractable
     [SerializeField] protected List<InteractableItems> interactableItems;
     protected Carryable carryable;
     protected bool _isInteracting;
+
+    protected const int InteractableAlways = -1;
 
     protected virtual void Start()
     {
@@ -28,7 +30,7 @@ public class InteractableWithItem : MonoBehaviour, IInteractable
 
         foreach (var item in interactableItems)
         {
-            if (item.itemCount <= 0) continue;
+            if (item.interactableCount == 0) continue;
             if (InventoryManager.Instance.HasItem(item.itemName) == false) continue;
 
             var target = InventoryManager.Instance.GetItem(item.itemName);
@@ -53,15 +55,14 @@ public class InteractableWithItem : MonoBehaviour, IInteractable
             if (idx < 0) return false;
 
             var item = interactableItems[idx];
-            if (item.itemCount <= 0) return false;
+            if (item.interactableCount == 0) return false;
 
             if (item.destroyItem) InventoryManager.Instance.RemoveAndDestroyItem(target);
             else Player.TryDrop(target);
 
-            InteractMethod(target);
-
-            item.itemCount--;
-            if (item.itemCount <= 0) interactableItems.RemoveAt(idx);
+            if (InteractMethod(target) == false) return false;
+            if (item.interactableCount != InteractableAlways) item.interactableCount--;
+            if (item.interactableCount == 0) interactableItems.RemoveAt(idx);
 
             return true;
         }

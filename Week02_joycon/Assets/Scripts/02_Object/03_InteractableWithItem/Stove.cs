@@ -22,6 +22,7 @@ public class Stove : InteractableWithItem
     {
         if (base.Interact(target) == true) return true;
         if (currentPot != null) return currentPot.Interact(target);
+
         return false;
     }
 
@@ -49,7 +50,7 @@ public class Stove : InteractableWithItem
     private bool PutOnPot(Pot pot)
     {
         if (currentPot != null) return false;
-
+        Debug.Log("PutOnPot " + pot);
         currentPot = pot;
 
         currentPot.transform.position = potSnapPoint.position;
