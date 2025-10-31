@@ -50,11 +50,11 @@ public class Stove : InteractableWithItem
     private bool PutOnPot(Pot pot)
     {
         if (currentPot != null) return false;
-        Debug.Log("PutOnPot " + pot);
+
         currentPot = pot;
 
         currentPot.transform.position = potSnapPoint.position;
-        currentPot.transform.localScale = Vector2.one * 1.2f;
+        currentPot.transform.parent = potSnapPoint;
         currentPot.transform.rotation = Quaternion.identity;
 
         if (currentPot.TryGetComponent(out Rigidbody2D rigidbody))
