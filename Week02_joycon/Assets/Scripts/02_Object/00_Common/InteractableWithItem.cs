@@ -58,7 +58,7 @@ public class InteractableWithItem : MonoBehaviour, IInteractable
             if (item.interactableCount == 0) return false;
 
             if (item.destroyItem == true) InventoryManager.Instance.RemoveAndDestroyItem(target);
-            else Player.TryDrop(target);
+            else InventoryManager.Instance.RemoveItem(target);
 
             if (InteractMethod(target) == false) return false;
             if (item.interactableCount != InteractableAlways)

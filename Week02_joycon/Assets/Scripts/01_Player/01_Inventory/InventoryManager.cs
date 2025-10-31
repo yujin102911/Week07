@@ -20,7 +20,11 @@ public class InventoryManager : Singleton<InventoryManager>
     public void AddItem(Carryable item) => inventory.AddItem(item);
     public Carryable GetItem(ItemName itemName) => inventory.GetItem(itemName);
     public void RemoveItem(ItemName itemName) => inventory.RemoveItem(itemName);
-    public void RemoveItem(Carryable item) => inventory.RemoveItem(item);
+    public void RemoveItem(Carryable item)
+    {
+        inventory.RemoveItem(item);
+        item.SetIsCarried(false);
+    }
     public void RemoveAndDestroyItem(ItemName itemName)
     {
         var item = GetItem(itemName);
