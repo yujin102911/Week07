@@ -5,6 +5,7 @@ public class Axe : MonoBehaviour
     [SerializeField] Carryable carryable;
     private Controller2D controller2D;
     public bool falling;
+    public bool throwing;
 
     void Start()
     {
@@ -14,5 +15,6 @@ public class Axe : MonoBehaviour
     void Update()
     {
         falling = controller2D.isFalling && carryable.GetIsCarried();
+        throwing = carryable.throwing;
     }
 }

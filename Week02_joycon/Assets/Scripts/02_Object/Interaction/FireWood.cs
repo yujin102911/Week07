@@ -15,7 +15,8 @@ public class FireWood : MonoBehaviour
         Transform[] childs = collision.transform.GetComponentsInChildren<Transform>();
         foreach (Transform t in childs)
         {
-            if (t.gameObject.CompareTag("Axe") && t.GetComponent<Axe>().falling == true)
+            if (!t.TryGetComponent<Axe>(out Axe axe)) continue;
+            if (axe.falling == true||axe.throwing)
             {
                 for (int i = 0; i < Prefabs.Length; i++)
                 {
@@ -27,7 +28,7 @@ public class FireWood : MonoBehaviour
                     }
                 }
                 Destroy(gameObject);
-
+                return;
             }
         }
     }
