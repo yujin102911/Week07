@@ -68,7 +68,6 @@ public class Carryable : MonoBehaviour
 
     private void SetState()
     {
-        Debug.Log("sdf");
         _rigidbody.transform.SetParent(null);
         _rigidbody.bodyType = RigidbodyType2D.Dynamic;
         _rigidbody.constraints = RigidbodyConstraints2D.None;

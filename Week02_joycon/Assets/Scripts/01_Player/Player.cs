@@ -131,7 +131,7 @@ public class Player : Singleton<Player>
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.T)) transform.position = new Vector3(-30f, -16f, 0f);
+        if (Input.GetKeyDown(KeyCode.T)) transform.position = new Vector3(43, 20, 0f);
 
         if (Input.GetKeyDown(KeyCode.B)) QuestRuntime.Instance.SetFlag(FlagId.EnterCastle);
         if (Input.GetKeyDown(KeyCode.N))
@@ -140,6 +140,7 @@ public class Player : Singleton<Player>
             QuestRuntime.Instance.SetFlag(FlagId.DryingRack);
             QuestRuntime.Instance.SetFlag(FlagId.WipingDust);
             QuestRuntime.Instance.SetFlag(FlagId.PreparingFood);
+            QuestRuntime.Instance.SetFlag(FlagId.InstallGarlander);
         }
         if (Input.GetKeyDown(KeyCode.M)) QuestRuntime.Instance.SetFlag(FlagId.PlaceMimic);
 

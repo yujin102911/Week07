@@ -18,6 +18,7 @@ public enum FlagId
     DryingRack,
     EnterCastle,
     PlaceMimic,
+    InstallGarlander,
 }
 
 [CreateAssetMenu(menuName = "Quest/Quest")]
