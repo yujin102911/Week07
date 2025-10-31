@@ -6,9 +6,11 @@ public class Carryable : MonoBehaviour
     [SerializeField] private float large = -1;
     [SerializeField] private float weight = 1;
     [SerializeField] private float gravityScale = 1;
+    public float spinAngle = 10;
     private Rigidbody2D _rigidbody;
     protected LayerMask obstacleMask;
     protected bool isCarried = false;
+    public bool throwing = false;
 
     public ItemName GetItemName() => itemName;
     public float GetWeight() => weight;
@@ -25,8 +27,23 @@ public class Carryable : MonoBehaviour
         obstacleMask = LayerMask.GetMask(PlayerConstant.ObstacleMask);
 
         _rigidbody = GetComponent<Rigidbody2D>();
+        _rigidbody.bodyType = RigidbodyType2D.Dynamic;
         _rigidbody.gravityScale = weight * gravityScale;
         _rigidbody.mass = large * weight;
+        if (throwing) { transform.Rotate(0f, 0f, spinAngle * Time.deltaTime); }//투척중이면 회전
+    }
+
+    private void Update()
+    {
+        if (isCarried)
+        {
+            throwing=false;//들고 있으면 투척 상태 해제
+        }
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (throwing)
+        if (collision.gameObject.layer == LayerMask.NameToLayer("Obstacle")) throwing = false;//충돌하면 투척 상태 해제
     }
 
     private void OnCollisionStay2D(Collision2D collision)
@@ -36,11 +53,12 @@ public class Carryable : MonoBehaviour
 
         SetIsCarried(false);
         GameLogger.Instance.LogDebug(this, $"충돌로 떨어뜨림. 위치 : {transform.position}");
+
     }
 
     private void SetState()
     {
-        _rigidbody.bodyType = RigidbodyType2D.Dynamic;
+        _rigidbody.transform.SetParent(null);
         _rigidbody.freezeRotation = isCarried;
         _rigidbody.linearVelocity = Vector2.zero;
         _rigidbody.angularVelocity = 0.0f;

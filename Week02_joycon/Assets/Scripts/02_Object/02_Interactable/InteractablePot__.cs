@@ -1,14 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[System.Serializable]
-public class IngredientObject
-{
-    public ItemName itemName;
-    public GameObject ingredientObject;
-}
-
-public class InteractablePot : Carryable, IInteractable
+public class InteractablePot_ : Carryable, IInteractable
 {
     private Dictionary<ItemName, int> recipe = new()
     {
@@ -19,7 +12,7 @@ public class InteractablePot : Carryable, IInteractable
     [SerializeField] private List<IngredientObject> ingredients;
 
     [Header("State")]
-    private InteractableStove currentStove = null;
+    private Stove currentStove = null;
     private bool isReadyToCook => recipe.Count == 0;
     private bool isCooked = false;
 
@@ -68,7 +61,7 @@ public class InteractablePot : Carryable, IInteractable
         return true;
     }
 
-    public void SetCurrentStove(InteractableStove stove) => currentStove = stove;
+    public void SetCurrentStove(Stove stove) => currentStove = stove;
 
     public void CheckCookingConditions()
     {

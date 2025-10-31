@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: fe677bcc9833a024eacdafc11757ae77
+guid: 5a099162cdeda294ca1c1487a5b6a074
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6913092719448603069
-    second: pot_front_0
+      213: -6344134218435428184
+    second: pot_back_0
+  - first:
+      213: 7238478922532276510
+    second: pot_back_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +40,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -47,11 +50,11 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
-  spriteExtrude: 2
+  spriteExtrude: 12
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 256
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -74,7 +77,7 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 4
+    textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -100,7 +103,7 @@ TextureImporter:
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 4
+    textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -113,13 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pot_front_0
+      name: pot_back_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 11
-        width: 64
-        height: 39
+        y: 0
+        width: 500
+        height: 499
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +131,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3464ded7cc2cf00a0800000000000000
-      internalID: -6913092719448603069
+      spriteID: 8a081ce7a8b15f7a0800000000000000
+      internalID: -6344134218435428184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pot_back_1
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 209
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1940bb9a3e347460800000000000000
+      internalID: 7238478922532276510
       vertices: []
       indices: 
       edges: []
@@ -138,7 +163,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 4634f176b18bd7640938fb9e65f64013
+    spriteID: 63a5ca20ab1bba640ad7dbd866d207a3
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +173,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      pot_front_0: -6913092719448603069
+      pot_back_0: -6344134218435428184
+      pot_back_1: 7238478922532276510
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
