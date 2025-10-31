@@ -22,13 +22,14 @@ public class Stove : InteractableWithItem
     {
         if (base.Interact(target) == true) return true;
         if (currentPot != null) return currentPot.Interact(target);
+
         return false;
     }
 
     protected override bool InteractMethod(Carryable carryable)
     {
-        if (carryable.GetItemName() == ItemName.Firewood) return AddFirewood();
-        if (carryable.GetItemName() == ItemName.Pot) return PutOnPot(carryable.GetComponent<Pot>());
+        if (carryable.NameIs(ItemName.Firewood) == true) return AddFirewood();
+        if (carryable.NameIs(ItemName.Pot) == true) return PutOnPot(carryable.GetComponent<Pot>());
 
         return false;
     }
@@ -53,7 +54,7 @@ public class Stove : InteractableWithItem
         currentPot = pot;
 
         currentPot.transform.position = potSnapPoint.position;
-        currentPot.transform.localScale = Vector2.one * 1.2f;
+        currentPot.transform.parent = potSnapPoint;
         currentPot.transform.rotation = Quaternion.identity;
 
         if (currentPot.TryGetComponent(out Rigidbody2D rigidbody))

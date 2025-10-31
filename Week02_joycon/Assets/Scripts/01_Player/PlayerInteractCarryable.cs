@@ -46,8 +46,8 @@ public class PlayerInteractCarryable : MonoBehaviour
 
         var area = BuildForwardBox();
         Collider2D[] hits = Physics2D.OverlapBoxAll(area.pos, area.size, 0f, carryableMask);
-
         Carryable closest = FindClosestCarryable(hits);
+
         if (closest == null) return false;
         if (closest.GetIsCarried() == true) return false;
 
@@ -71,7 +71,7 @@ public class PlayerInteractCarryable : MonoBehaviour
         for (int i = StackCount - 1; i >= 0; --i)
         {
             var carryable = OwnedItems[i];
-            if (carryable && carryable.GetItemName() == itemName) return DropAtIndex(i);
+            if (carryable && carryable.NameIs(itemName) == true) return DropAtIndex(i);
         }
         return false;
     }

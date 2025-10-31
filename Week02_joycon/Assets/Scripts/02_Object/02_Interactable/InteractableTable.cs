@@ -24,7 +24,7 @@ public class InteractableTable : MonoBehaviour, IInteractable
         if (itemPlaced) return;
         if (collision.TryGetComponent(out Carryable carryable))
         {
-            if (carryable.GetItemName() == ItemName.TomatoSoup)
+            if (carryable.NameIs(ItemName.TomatoSoup) == true)
             {
                 itemPlaced = true;
                 soup.SetActive(true);

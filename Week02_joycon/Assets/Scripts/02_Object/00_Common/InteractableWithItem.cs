@@ -5,12 +5,14 @@ using UnityEngine;
 public class InteractableItems
 {
     public ItemName itemName;
-    public int itemCount;
+    public int interactableCount;
     public bool destroyItem;
 }
 
 public class InteractableWithItem : MonoBehaviour, IInteractable
 {
+    protected const int InteractableAlways = -1;
+
     [SerializeField] protected List<InteractableItems> interactableItems;
     protected Carryable carryable;
     protected bool _isInteracting;
@@ -28,7 +30,7 @@ public class InteractableWithItem : MonoBehaviour, IInteractable
 
         foreach (var item in interactableItems)
         {
-            if (item.itemCount <= 0) continue;
+            if (item.interactableCount == 0) continue;
             if (InventoryManager.Instance.HasItem(item.itemName) == false) continue;
 
             var target = InventoryManager.Instance.GetItem(item.itemName);
@@ -53,15 +55,17 @@ public class InteractableWithItem : MonoBehaviour, IInteractable
             if (idx < 0) return false;
 
             var item = interactableItems[idx];
-            if (item.itemCount <= 0) return false;
+            if (item.interactableCount == 0) return false;
 
-            if (item.destroyItem) InventoryManager.Instance.RemoveAndDestroyItem(target);
+            if (item.destroyItem == true) InventoryManager.Instance.RemoveAndDestroyItem(target);
             else Player.TryDrop(target);
 
-            InteractMethod(target);
-
-            item.itemCount--;
-            if (item.itemCount <= 0) interactableItems.RemoveAt(idx);
+            if (InteractMethod(target) == false) return false;
+            if (item.interactableCount != InteractableAlways)
+            {
+                item.interactableCount--;
+                if (item.interactableCount == 0) interactableItems.RemoveAt(idx);
+            }
 
             return true;
         }
@@ -77,10 +81,10 @@ public class InteractableWithItem : MonoBehaviour, IInteractable
 
     protected virtual void OnTriggerStay2D(Collider2D collision)
     {
-        if (this.carryable != null && this.carryable.GetIsCarried() == true) return;
-        if (collision.TryGetComponent(out Carryable carryable) == false) return;
-        if (carryable.GetIsCarried() == true) return;
+        if (carryable != null && carryable.GetIsCarried() == true) return;
+        if (collision.TryGetComponent(out Carryable target) == false) return;
+        if (target.GetIsCarried() == true) return;
 
-        Interact(carryable);
+        Interact(target);
     }
 }
