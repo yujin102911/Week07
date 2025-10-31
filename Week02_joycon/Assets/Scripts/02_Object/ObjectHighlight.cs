@@ -6,14 +6,14 @@ public class ObjectHighlight : MonoBehaviour
 
     MaterialPropertyBlock block;
     [SerializeField] InteractionType type;
-    [SerializeField] SpriteRenderer renderer;
+    [SerializeField] SpriteRenderer spriteRenderer;
     [SerializeField] float thickness = 0.02f;//만들어 두긴 했는데 쓰지 마셈
     [SerializeField] public bool isHighlighted = false;
     public Color color = Color.black;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        if (renderer == null)   renderer = GetComponent<SpriteRenderer>();
+        if (spriteRenderer == null) spriteRenderer = GetComponent<SpriteRenderer>();
         block = new MaterialPropertyBlock();
 
     }
@@ -23,7 +23,7 @@ public class ObjectHighlight : MonoBehaviour
     {
         block.SetFloat("_Thickness", thickness);
         block.SetColor("_Color", color);
-        renderer.SetPropertyBlock(block);
+        spriteRenderer.SetPropertyBlock(block);
     }
     public void SwitchColor()
     {
