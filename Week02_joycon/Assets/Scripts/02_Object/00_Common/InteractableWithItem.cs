@@ -12,8 +12,8 @@ public class InteractableItems
 public class InteractableWithItem : MonoBehaviour, IInteractable
 {
     [SerializeField] protected List<InteractableItems> interactableItems;
-    private Carryable carryable;
-    private bool _isInteracting;
+    protected Carryable carryable;
+    protected bool _isInteracting;
 
     protected virtual void Start()
     {
@@ -21,7 +21,7 @@ public class InteractableWithItem : MonoBehaviour, IInteractable
         _isInteracting = false;
     }
 
-    public bool TryInteract()
+    public virtual bool TryInteract()
     {
         if (_isInteracting == true) return false;
         if (carryable != null && carryable.GetIsCarried() == true) return false;
@@ -29,17 +29,17 @@ public class InteractableWithItem : MonoBehaviour, IInteractable
         foreach (var item in interactableItems)
         {
             if (item.itemCount <= 0) continue;
-            if (!InventoryManager.Instance.HasItem(item.itemName)) continue;
+            if (InventoryManager.Instance.HasItem(item.itemName) == false) continue;
 
             var target = InventoryManager.Instance.GetItem(item.itemName);
             if (target == null) continue;
 
-            if (Interact(target)) return true;
+            if (Interact(target) == true) return true;
         }
         return false;
     }
 
-    protected virtual bool Interact(Carryable target)
+    public virtual bool Interact(Carryable target)
     {
         if (_isInteracting == true) return false;
         _isInteracting = true;
@@ -50,12 +50,13 @@ public class InteractableWithItem : MonoBehaviour, IInteractable
             if (CanInteract(target) == false) return false;
 
             int idx = GetIdxOfInteractableItem(target.GetItemName());
-            var item = interactableItems[idx];
             if (idx < 0) return false;
+
+            var item = interactableItems[idx];
             if (item.itemCount <= 0) return false;
 
             if (item.destroyItem) InventoryManager.Instance.RemoveAndDestroyItem(target);
-            else InventoryManager.Instance.RemoveItem(target);
+            else Player.TryDrop(target);
 
             InteractMethod(target);
 
@@ -71,7 +72,7 @@ public class InteractableWithItem : MonoBehaviour, IInteractable
     }
 
     protected int GetIdxOfInteractableItem(ItemName itemName) => interactableItems.FindIndex(x => x.itemName == itemName);
-    protected virtual bool CanInteract(Carryable carryable) => false;
+    protected virtual bool CanInteract(Carryable carryable) => true;
     protected virtual bool InteractMethod(Carryable carryable) => false;
 
     protected virtual void OnTriggerStay2D(Collider2D collision)
