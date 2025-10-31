@@ -29,7 +29,7 @@ public class PlayerInputHandler : MonoBehaviour
 
     public void OnInteract(InputAction.CallbackContext context)
     {
-        if (context.performed)
+        if (context.started)
         {
             if (Player.TryInteract() == false) Player.TryPickUp();
             InputSnapshot.Interact = true;
