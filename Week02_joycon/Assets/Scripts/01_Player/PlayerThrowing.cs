@@ -40,9 +40,12 @@ public class PlayerThrowing : MonoBehaviour
         if (obj.TryGetComponent(out Carryable carryable) == true) carryable.SetIsCarried(false);
         if (obj.TryGetComponent(out Rigidbody2D rigidbody) == true)
         {
+            
             var force = Vector2.right * Player.GetFaceDir() * throwForce;
             force.x += Player.Instance.velocity.x;
             rigidbody.AddForce(force, ForceMode2D.Impulse);
+            carryable.spinAngle = Mathf.Sign(carryable.spinAngle) * Player.GetFaceDir();//던질때 회전 방향 설정
+            carryable.throwing = true;
         }
     }
 }
