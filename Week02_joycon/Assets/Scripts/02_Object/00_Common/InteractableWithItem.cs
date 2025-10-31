@@ -11,11 +11,11 @@ public class InteractableItems
 
 public class InteractableWithItem : MonoBehaviour, IInteractable
 {
+    protected const int InteractableAlways = -1;
+
     [SerializeField] protected List<InteractableItems> interactableItems;
     protected Carryable carryable;
     protected bool _isInteracting;
-
-    protected const int InteractableAlways = -1;
 
     protected virtual void Start()
     {
@@ -57,12 +57,15 @@ public class InteractableWithItem : MonoBehaviour, IInteractable
             var item = interactableItems[idx];
             if (item.interactableCount == 0) return false;
 
-            if (item.destroyItem) InventoryManager.Instance.RemoveAndDestroyItem(target);
+            if (item.destroyItem == true) InventoryManager.Instance.RemoveAndDestroyItem(target);
             else Player.TryDrop(target);
 
             if (InteractMethod(target) == false) return false;
-            if (item.interactableCount != InteractableAlways) item.interactableCount--;
-            if (item.interactableCount == 0) interactableItems.RemoveAt(idx);
+            if (item.interactableCount != InteractableAlways)
+            {
+                item.interactableCount--;
+                if (item.interactableCount == 0) interactableItems.RemoveAt(idx);
+            }
 
             return true;
         }
@@ -78,10 +81,10 @@ public class InteractableWithItem : MonoBehaviour, IInteractable
 
     protected virtual void OnTriggerStay2D(Collider2D collision)
     {
-        if (this.carryable != null && this.carryable.GetIsCarried() == true) return;
-        if (collision.TryGetComponent(out Carryable carryable) == false) return;
-        if (carryable.GetIsCarried() == true) return;
+        if (carryable != null && carryable.GetIsCarried() == true) return;
+        if (collision.TryGetComponent(out Carryable target) == false) return;
+        if (target.GetIsCarried() == true) return;
 
-        Interact(carryable);
+        Interact(target);
     }
 }
