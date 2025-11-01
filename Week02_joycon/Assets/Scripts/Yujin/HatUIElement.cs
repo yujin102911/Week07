@@ -6,6 +6,8 @@ public class HatUIElement : MonoBehaviour
 {
     [SerializeField] private HatType hatType;
     [SerializeField] private PlayerHatController playerHatController;
+    [SerializeField] private float notGetAlpha = 50f;
+    [SerializeField] private float getAlpha = 255f;
 
     private Image uiImage;
 
@@ -55,13 +57,11 @@ public class HatUIElement : MonoBehaviour
 
         if (isUsed)
         {
-            // 쓴 적이 있다면 알파값 255
-            currentColor.a = 1.0f;
+            currentColor.a = getAlpha / 255f;
         }
         else
         {
-            // 쓴 적이 없다면 알파값 100
-            currentColor.a = 100f / 255f;
+            currentColor.a = notGetAlpha / 255f;
         }
 
         uiImage.color = currentColor;
