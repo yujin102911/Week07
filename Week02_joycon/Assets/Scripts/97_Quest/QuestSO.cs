@@ -19,6 +19,7 @@ public enum FlagId
     EnterCastle,
     PlaceMimic,
     InstallGarlander,
+    InstallBallon,
 }
 
 [CreateAssetMenu(menuName = "Quest/Quest")]
