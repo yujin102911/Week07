@@ -16,8 +16,8 @@ public class Watering : MonoBehaviour
     {
         if (carryable.GetIsCarried() == true)
         {
-            wateringOffset = new Vector3(1.5f * -transform.localScale.y, 0, 0);//내 y스케일에 따라 오른쪽이나 왼쪽
-            wateringSize = new Vector2(transform.localScale.x / 2, Mathf.Abs(transform.localScale.y));
+            wateringOffset = new Vector3(1.5f * transform.localScale.y, 0, 0);//내 y스케일에 따라 오른쪽이나 왼쪽
+            wateringSize = new Vector2(transform.localScale.x , Mathf.Abs(transform.localScale.y));
             Collider2D[] hits = Physics2D.OverlapBoxAll((Vector2)transform.position + wateringOffset, wateringSize, 0);
             if (hits.Length == 0)
             {

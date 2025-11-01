@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 7d98f2c2065ce50409622c1f824c5883
+guid: d3f29e398a34af34394492c646b95da7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2334245984300955657
-    second: GarlandBox_0
+      213: -2393659537220419194
+    second: Watering3.png 2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -47,11 +47,11 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
-  spriteExtrude: 7
+  spriteExtrude: 12
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 400
+  spritePixelsToUnits: 512
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -113,23 +113,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: GarlandBox_0
+      name: Watering3.png 2_0
       rect:
         serializedVersion: 2
-        x: 81
-        y: 191
-        width: 883
-        height: 636
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 160
+        y: 133
+        width: 798
+        height: 703
+      alignment: 9
+      pivot: {x: 0.29026628, y: 0.3924083}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7f70c5705a71b9fd0800000000000000
-      internalID: -2334245984300955657
+      spriteID: 68140c2455308ced0800000000000000
+      internalID: -2393659537220419194
       vertices: []
       indices: 
       edges: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 76d6d1477f7385746892a1036c879e34
+    spriteID: a1657ff794375f746b433522f88031c2
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      GarlandBox_0: -2334245984300955657
+      Watering3.png 2_0: -2393659537220419194
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
