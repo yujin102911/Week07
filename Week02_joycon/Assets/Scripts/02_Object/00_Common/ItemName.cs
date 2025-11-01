@@ -14,4 +14,9 @@
     Shampoo,
     dart,
     GarlandBox,
+    Ballon,
+    PiggieBank,
+    WateringCan,
+    Wood,
+    Axe,
 }
