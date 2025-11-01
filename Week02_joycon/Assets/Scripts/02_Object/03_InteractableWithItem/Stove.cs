@@ -47,6 +47,12 @@ public class Stove : InteractableWithItem
         return true;
     }
 
+    protected override bool CanInteract(Carryable carryable)
+    {
+        if (carryable.NameIs(ItemName.Pot) == true && currentPot != null) return false;
+        return true;
+    }
+
     private bool PutOnPot(Pot pot)
     {
         if (currentPot != null) return false;
@@ -61,7 +67,8 @@ public class Stove : InteractableWithItem
         {
             rigidbody.bodyType = RigidbodyType2D.Kinematic;
             rigidbody.linearVelocity = Vector2.zero;
-            rigidbody.angularVelocity = 0f;
+            rigidbody.angularVelocity = 0.0f;
+            rigidbody.constraints = RigidbodyConstraints2D.FreezePosition | RigidbodyConstraints2D.FreezeRotation;
         }
 
         CheckCookingConditions();

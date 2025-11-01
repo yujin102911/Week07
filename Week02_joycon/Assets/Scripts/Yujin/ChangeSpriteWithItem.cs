@@ -5,12 +5,25 @@ public class ChangeSpriteWithItem : InteractableWithItem
     [Header("Sprite Settings")]
     [SerializeField] private SpriteRenderer targetRenderer;
     [SerializeField] private Sprite newSprite;
+    private static int interactionCount = 0;
+
+    private void OnEnable()
+    {
+        interactionCount++;
+    }
+
+    private void CountInteractions()
+    {
+        interactionCount--;
+        if (interactionCount == 0) QuestRuntime.Instance.SetFlag(FlagId.InstallGarlander);
+    }
 
     protected override bool InteractMethod(Carryable carryable)
     {
         if (targetRenderer == null) { GameLogger.Instance.LogError(this, $"{gameObject.name}의 Sprite Renderer가 할당되지 않았습니다."); return false; }
         if (newSprite == null) { GameLogger.Instance.LogError(this, $"{gameObject.name}을 바꿀 New Sprite가 할당되지 안핫삼"); return false; }
         targetRenderer.sprite = newSprite;
+        CountInteractions();
         return true;
     }
 

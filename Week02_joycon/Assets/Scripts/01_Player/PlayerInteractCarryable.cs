@@ -180,7 +180,7 @@ public class PlayerInteractCarryable : MonoBehaviour
     {
         var pickUpPos = transform.position;
         pickUpPos.x += PlayerConstant.InteractableRange / 2f * Player.GetFaceDir();
-        var pickUpBox = new Vector2(PlayerConstant.InteractableRange, playerSize.y * 1.1f);
+        var pickUpBox = new Vector2(PlayerConstant.InteractableRange, playerSize.y * 1.3f);
         return (pickUpPos, pickUpBox);
     }
 

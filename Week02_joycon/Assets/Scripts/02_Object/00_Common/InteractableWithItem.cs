@@ -57,8 +57,23 @@ public class InteractableWithItem : MonoBehaviour, IInteractable
             var item = interactableItems[idx];
             if (item.interactableCount == 0) return false;
 
-            if (item.destroyItem == true) InventoryManager.Instance.RemoveAndDestroyItem(target);
-            else Player.TryDrop(target);
+
+            //n회 하고선 파괴되는 아이템 넣고 싶어서 약간 건드렸어요 오류나면 그냥 지워주세요 ▼▼▼
+            // if (InteractMethod(target) == false) return false;
+            if (target.TryGetComponent<ItemDurability>(out var durability))
+            {
+                if (durability.Use()) InventoryManager.Instance.RemoveAndDestroyItem(target);
+            }
+            else
+            {
+                if (item.destroyItem == true) InventoryManager.Instance.RemoveAndDestroyItem(target);
+                else InventoryManager.Instance.RemoveItem(target);
+            }
+            //▲▲▲ 여기까지 추가
+
+            //기존 구문
+            // if (item.destroyItem == true) InventoryManager.Instance.RemoveAndDestroyItem(target);
+            // else InventoryManager.Instance.RemoveItem(target);
 
             if (InteractMethod(target) == false) return false;
             if (item.interactableCount != InteractableAlways)

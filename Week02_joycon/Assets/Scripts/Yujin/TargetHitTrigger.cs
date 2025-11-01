@@ -7,6 +7,7 @@ public class TargetHIt : MonoBehaviour
     public string targetLayerName = "carryable";
     public SpriteRenderer targetSpriteRenderer;
     public Sprite newSprite;
+    public ParticleSystem hitParticleEffect;
     public ParticleSystem particleEffect;
 
     private int currentHitCount = 0;
@@ -24,6 +25,10 @@ public class TargetHIt : MonoBehaviour
         if (newSprite == null)
         {
             GameLogger.Instance.LogError(this, $"New Sprite가 연결되지 않았습니다!: {this.gameObject}");
+        }
+        if (hitParticleEffect == null)
+        {
+            GameLogger.Instance.LogError(this, $"Hit Particle Effect가 연결되지 않았습니다.: {this.gameObject}");
         }
         if (particleEffect == null)
         {
@@ -48,6 +53,7 @@ public class TargetHIt : MonoBehaviour
             if (carryableScript != null && carryableScript.GetIsCarried() == false)
             {
                 currentHitCount++; // 카운트 증가
+                hitParticleEffect.Play();
                 GameLogger.Instance.LogDebug(this, "파타냐 한대 맞았아요");
 
                 //카운트가 목표 횟수에 도달했는지 확인

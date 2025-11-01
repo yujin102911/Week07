@@ -1,0 +1,3 @@
+Timestamp, Level, Source, Message
+10:55:34.215,INFO,GameLogger,=== Game Session Started ===
+10:55:34.448,WARNING,Unity,Minimap: no renderers found for bounds. Check includeLayers.
