@@ -14,4 +14,5 @@
     Shampoo,
     dart,
     GarlandBox,
+    Ballon,
 }
