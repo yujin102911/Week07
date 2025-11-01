@@ -22,6 +22,14 @@ public class Carryable : MonoBehaviour
     {
         this.isCarried = isCarried;
         SetState();
+        if (isCarried == true)
+        {
+            GameLogger.Instance.LogInfo(this, $"Event:PickUp, Item:{itemName}, InstanceID:{this.GetInstanceID()}, Time:{Time.time}");
+        }
+        else
+        {
+            GameLogger.Instance.LogInfo(this, $"Event:Drop, Item:{itemName}, InstanceID:{this.GetInstanceID()}, Time:{Time.time}");
+        }
     }
 
     protected virtual void Start()
