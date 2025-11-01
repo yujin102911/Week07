@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 680e29f305b8c014c9c4cecaaf8ef104
+guid: cff125bed2b56e1468da870a5edfc52a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4004708080983207187
-    second: Ring_0
+      213: 9053838605538260231
+    second: dart2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -47,11 +47,11 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
-  spriteExtrude: 32
+  spriteExtrude: 16
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 512
+  spritePixelsToUnits: 800
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Ring_0
+      name: dart2_0
       rect:
         serializedVersion: 2
-        x: 236
-        y: 236
-        width: 552
-        height: 552
+        x: 4
+        y: 0
+        width: 1131
+        height: 361
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 31de32428c4939730800000000000000
-      internalID: 4004708080983207187
+      spriteID: 70573d01e32b5ad70800000000000000
+      internalID: 9053838605538260231
       vertices: []
       indices: 
       edges: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 6db6133e27e9c6a46a3cbf2fc2416fee
+    spriteID: 84a34c38e667aae4bb10d6da4bd32faf
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Ring_0: 4004708080983207187
+      dart2_0: 9053838605538260231
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
