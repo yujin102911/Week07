@@ -34,10 +34,10 @@ public class InteractablePump : MonoBehaviour
             }
             transform.position += Vector3.up * Time.deltaTime * returnSpeed;
         }
-        else
+        else//펌프 넘기면
         {
             transform.position = new Vector3 (transform.position.x,startY);//넘어가면 위치 되돌리기
-
+            pushedY=0f;//눌린 높이 초기화
         }
     }
 
