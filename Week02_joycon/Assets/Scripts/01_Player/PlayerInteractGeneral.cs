@@ -13,6 +13,8 @@ public class PlayerInteractGeneral : MonoBehaviour
         foreach (Collider2D hit in hits)
         {
             if (hit.TryGetComponent(out IInteractable i) == false) continue;
+            if (hit.TryGetComponent(out Carryable carryable) == true && carryable.GetIsCarried() == true) continue;
+
             float distance = Vector2.Distance(transform.position, hit.transform.position);
             if (distance < minDistance)
             {
