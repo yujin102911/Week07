@@ -59,6 +59,8 @@ public class Stove : InteractableWithItem
 
         currentPot = pot;
 
+        currentPot.GetComponent<Carryable>().throwing = false;
+
         currentPot.transform.position = potSnapPoint.position;
         currentPot.transform.parent = potSnapPoint;
         currentPot.transform.rotation = Quaternion.identity;
