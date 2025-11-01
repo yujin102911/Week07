@@ -60,6 +60,9 @@ public class Stove : InteractableWithItem
         currentPot = pot;
 
         currentPot.GetComponent<Carryable>().throwing = false;
+        currentPot.GetComponent<Carryable>().enabled = false;
+
+        currentPot.SetCurrentStove(this);
 
         currentPot.transform.position = potSnapPoint.position;
         currentPot.transform.parent = potSnapPoint;

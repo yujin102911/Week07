@@ -12,7 +12,10 @@ public class Pot : InteractableWithItem
 {
     [SerializeField] private List<IngredientObject> ingredients;
     [SerializeField] private GameObject cookedMealPrefab;
+    private Stove currentStove = null;
     private bool isCooked = false;
+
+    public void SetCurrentStove(Stove stove) => currentStove = stove;
 
     protected override bool InteractMethod(Carryable carryable)
     {
@@ -22,13 +25,15 @@ public class Pot : InteractableWithItem
         if (ingredientObject != null) ingredientObject.ingredientObject.SetActive(true);
         ingredients.Remove(ingredientObject);
 
+        CheckCookingConditions();
         return true;
     }
 
     public void CheckCookingConditions()
     {
         if (isCooked == true) return;
-        if (interactableItems.Count > 0) return;
+        if (ingredients.Count > 0) return;
+        if (currentStove == null || currentStove.isFireOn == false) return;
 
         Cook();
     }
