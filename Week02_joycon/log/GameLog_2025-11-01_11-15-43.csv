@@ -1,0 +1,12 @@
+Timestamp, Level, Source, Message
+11:15:43.607,INFO,GameLogger,=== Game Session Started ===
+11:15:44.007,WARNING,Unity,Minimap: no renderers found for bounds. Check includeLayers.
+11:15:48.528,WARNING,Unity,Internal: JobTempAlloc has allocations that are more than the maximum lifespan of 4 frames old - this is not allowed and likely a leak
+11:15:48.528,WARNING,Unity,"To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations."
+11:15:54.418,DEBUG,PlayerInteractCarryable,집기 조작 box (UnityEngine.BoxCollider2D)
+11:15:58.180,DEBUG,PlayerInteractCarryable,집기 조작 box (UnityEngine.BoxCollider2D)
+11:16:01.621,DEBUG,PlayerInteractCarryable,집기 조작 box (UnityEngine.BoxCollider2D)
+11:16:13.570,DEBUG,PlayerInteractCarryable,집기 조작 Key (UnityEngine.BoxCollider2D)
+11:16:14.725,DEBUG,PlayerInteractCarryable,집기 조작 Key (UnityEngine.BoxCollider2D)
+11:16:16.726,DEBUG,PlayerInteractCarryable,집기 조작 Key (UnityEngine.BoxCollider2D)
+11:16:18.671,DEBUG,PlayerInteractCarryable,집기 조작 Key (UnityEngine.BoxCollider2D)
