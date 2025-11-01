@@ -1,23 +1,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-/// <summary>
-/// StayScanner2D (enum-only):
-/// - 지정 ScannerID의 Carryable이 영역에 requiredCount개, requiredStaySeconds 이상 머물면 flagEnum 세트
-/// - 빠지면(조건 해제) 자동 Clear (oneShot=false인 경우)
-/// </summary>
 [DisallowMultipleComponent]
 [RequireComponent(typeof(Rigidbody2D), typeof(Collider2D))]
 public sealed class StayScanner2D : MonoBehaviour
 {
     [Header("Match")]
-    [SerializeField] private LayerMask actorMask = ~0;
+    [SerializeField] private ItemName targetItem = ItemName.None;
     [SerializeField] private bool excludeCarried = true;
 
     [Header("Goal")]
-    [SerializeField] private int requiredCount = 1;
+    [SerializeField] private int requiredCount;
     [SerializeField] private float requiredStaySeconds = 0.8f;
-    [SerializeField] private FlagId flagEnum = FlagId.Boxes_StoredAll;
+    [SerializeField] private FlagId flagEnum;
 
     [Header("Policy")]
     [SerializeField] private bool oneShot = false;
@@ -27,7 +22,6 @@ public sealed class StayScanner2D : MonoBehaviour
     [SerializeField] private bool scanOnEnable = true;
 
     private Collider2D _trigger;
-    private ContactFilter2D _filter;
     private float _lastFireAt = -999f;
     private bool _firedOnce;
     private bool _flagActive;
@@ -35,6 +29,7 @@ public sealed class StayScanner2D : MonoBehaviour
     private readonly Dictionary<Carryable, float> _insideSince = new(64);
     private readonly Dictionary<Collider2D, Carryable> _col2Carry = new(128);
     private static readonly Collider2D[] _hits = new Collider2D[64];
+    private static readonly List<Carryable> _toRemove = new(32);
 
     void Awake()
     {
@@ -45,8 +40,6 @@ public sealed class StayScanner2D : MonoBehaviour
         rb.bodyType = RigidbodyType2D.Kinematic;
         rb.freezeRotation = true;
         rb.simulated = true;
-
-        _filter = new ContactFilter2D { useTriggers = true, useLayerMask = true, layerMask = actorMask };
     }
 
     void OnEnable()
@@ -55,9 +48,9 @@ public sealed class StayScanner2D : MonoBehaviour
         if (!scanOnEnable || _trigger == null) return;
 
 #if UNITY_6000_0_OR_NEWER
-        int count = _trigger.Overlap(_filter, _hits);
+        int count = _trigger.Overlap(new ContactFilter2D { useTriggers = true }, _hits);
 #else
-        int count = _trigger.OverlapCollider(_filter, _hits);
+        int count = _trigger.OverlapCollider(new ContactFilter2D { useTriggers = true }, _hits);
 #endif
         for (int i = 0; i < count; ++i)
         {
@@ -77,14 +70,15 @@ public sealed class StayScanner2D : MonoBehaviour
     {
         if (oneShot && _firedOnce) return;
 
-        // Purge ineligible
+        // Purge invalid
         _toRemove.Clear();
         foreach (var kv in _insideSince)
         {
             var carry = kv.Key;
             if (!IsEligible(carry)) _toRemove.Add(carry);
         }
-        for (int i = 0; i < _toRemove.Count; ++i) _insideSince.Remove(_toRemove[i]);
+        for (int i = 0; i < _toRemove.Count; ++i)
+            _insideSince.Remove(_toRemove[i]);
 
         float now = Time.time;
         bool allowFireNow = (now - _lastFireAt) >= cooldown;
@@ -116,8 +110,6 @@ public sealed class StayScanner2D : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (((1 << other.gameObject.layer) & actorMask.value) == 0) return;
-
         var carry = ResolveCarryable(other);
         if (!IsEligible(carry)) return;
 
@@ -147,12 +139,11 @@ public sealed class StayScanner2D : MonoBehaviour
         _insideSince.Remove(carry);
     }
 
-    private static readonly List<Carryable> _toRemove = new(32);
-
     private bool IsEligible(Carryable carryable)
     {
         if (!carryable) return false;
         if (excludeCarried && carryable.GetIsCarried()) return false;
+        if (targetItem != ItemName.None && carryable.GetItemName() != targetItem) return false;
         return true;
     }
 
