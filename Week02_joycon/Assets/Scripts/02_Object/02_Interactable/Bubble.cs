@@ -30,15 +30,10 @@ public class Bubble : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("Trigger Entered with: " + collision.gameObject.name);
-        if (collision.transform.CompareTag("Water"))
-            Watering = true;
+        if (collision.transform.CompareTag("Water")) Watering = true;
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
-        Debug.Log("Trigger Exit with: " + collision.gameObject.name);
-
-        if (collision.CompareTag("Water"))
-            Watering = false;
+        if (collision.CompareTag("Water")) Watering = false;
     }
 }
