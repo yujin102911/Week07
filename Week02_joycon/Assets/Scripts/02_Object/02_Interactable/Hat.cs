@@ -10,6 +10,7 @@ public enum HatType
     Witch,
     Cloud,
     Candy,
+    Cooker,
 }
 
 public class Hat : MonoBehaviour, IInteractable
