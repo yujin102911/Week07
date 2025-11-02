@@ -8,6 +8,8 @@ public enum HatType
     JOL,
     King,
     Witch,
+    Cloud,
+    Candy,
 }
 
 public class Hat : MonoBehaviour, IInteractable
