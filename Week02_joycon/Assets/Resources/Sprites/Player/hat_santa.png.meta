@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 658056ddd350e554b9f32332d4f9c05c
+guid: c0ebde28d6a9efa408b1ada34350b9ad
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8851858493722612975
-    second: hat_cloud_0
+      213: -6646046839704351050
+    second: hat_santa_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: hat_cloud_0
+      name: hat_santa_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 39
-        width: 135
-        height: 87
+        x: 18
+        y: 26
+        width: 120
+        height: 104
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fe45c50a66e18da70800000000000000
-      internalID: 8851858493722612975
+      spriteID: 6be80de8c9f74c3a0800000000000000
+      internalID: -6646046839704351050
       vertices: []
       indices: 
       edges: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      hat_cloud_0: 8851858493722612975
+      hat_santa_0: -6646046839704351050
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

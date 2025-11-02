@@ -11,6 +11,7 @@ public enum HatType
     Cloud,
     Candy,
     Cooker,
+    Santa,
 }
 
 public class Hat : MonoBehaviour, IInteractable
