@@ -631,6 +631,11 @@ public class Player : Singleton<Player>
         return (bestIdx >= 0) ? sHits[bestIdx] : null;
     }
 
+    public Sprite CurrentPlayerSprite
+    {
+        get { return playerSprite.sprite; }
+    }
+
     public void ChangeSprite(Sprite newSprite)
     {
         if (newSprite == null)
