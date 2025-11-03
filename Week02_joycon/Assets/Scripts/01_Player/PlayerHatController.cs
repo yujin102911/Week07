@@ -44,7 +44,7 @@ public class PlayerHatController : MonoBehaviour
         if (currentHatType != HatType.None && dropPreviousHat)
         {
             Vector2 dropPosition = (Vector2)transform.position + new Vector2(Player.GetFaceDir() * -1.0f, 0.5f);
-            Instantiate(GetHatData(currentHatType).hatPrefab, dropPosition, Quaternion.identity);
+            // Instantiate(GetHatData(currentHatType).hatPrefab, dropPosition, Quaternion.identity);
         }
 
         currentHatType = hatType;
