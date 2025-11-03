@@ -21,6 +21,8 @@ public class MinimapToggle : MonoBehaviour
 
     private void OnToggleMinimap(InputAction.CallbackContext context)
     {
+        if (QuestUI.questId == 1000) return;
+
         if (minimapPanel != null)
         {
             minimapPanel.SetActive(!minimapPanel.activeSelf);
