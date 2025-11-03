@@ -1,0 +1,47 @@
+Timestamp, Level, Source, Message
+14:09:17.554,INFO,GameLogger,=== Game Session Started ===
+14:09:17.901,INFO,Carryable,"Event:Drop, Item:Onion, InstanceID:1195584, Time:0"
+14:09:17.906,WARNING,Unity,Minimap: no renderers found for bounds. Check includeLayers.
+14:09:17.906,INFO,Carryable,"Event:Drop, Item:GarlandBox, InstanceID:1196474, Time:0"
+14:09:17.907,INFO,Carryable,"Event:Drop, Item:Wood, InstanceID:1200364, Time:0"
+14:09:17.908,INFO,CarryableMimic,"Event:Drop, Item:Mimic, InstanceID:1203216, Time:0"
+14:09:17.908,INFO,Carryable,"Event:Drop, Item:Shampoo, InstanceID:1204076, Time:0"
+14:09:17.909,INFO,Carryable,"Event:Drop, Item:Wood, InstanceID:1204106, Time:0"
+14:09:17.910,INFO,Carryable,"Event:Drop, Item:Wood, InstanceID:1210198, Time:0"
+14:09:17.912,INFO,Carryable,"Event:Drop, Item:Onion, InstanceID:1211286, Time:0"
+14:09:17.912,INFO,Carryable,"Event:Drop, Item:Wood, InstanceID:1211468, Time:0"
+14:09:17.912,INFO,Carryable,"Event:Drop, Item:Key, InstanceID:1212206, Time:0"
+14:09:17.913,INFO,Carryable,"Event:Drop, Item:GarlandBox, InstanceID:1215076, Time:0"
+14:09:17.913,INFO,CarryablePiggyBank,"Event:Drop, Item:PiggieBank, InstanceID:1215380, Time:0"
+14:09:17.913,INFO,Carryable,"Event:Drop, Item:None, InstanceID:1216314, Time:0"
+14:09:17.914,INFO,Carryable,"Event:Drop, Item:Rag, InstanceID:1217104, Time:0"
+14:09:17.914,INFO,Carryable,"Event:Drop, Item:Wood, InstanceID:1219278, Time:0"
+14:09:17.914,INFO,Carryable,"Event:Drop, Item:Wood, InstanceID:1220028, Time:0"
+14:09:17.915,INFO,Carryable,"Event:Drop, Item:Axe, InstanceID:1222296, Time:0"
+14:09:17.915,INFO,Carryable,"Event:Drop, Item:GarlandBox, InstanceID:1222714, Time:0"
+14:09:17.916,INFO,Carryable,"Event:Drop, Item:None, InstanceID:1226482, Time:0"
+14:09:17.916,INFO,Carryable,"Event:Drop, Item:Wood, InstanceID:1226566, Time:0"
+14:09:17.916,INFO,Carryable,"Event:Drop, Item:Wood, InstanceID:1230108, Time:0"
+14:09:17.917,INFO,Carryable,"Event:Drop, Item:Wood, InstanceID:1230502, Time:0"
+14:09:17.917,INFO,Carryable,"Event:Drop, Item:Bedding, InstanceID:1231106, Time:0"
+14:09:17.918,INFO,Carryable,"Event:Drop, Item:dart, InstanceID:1231376, Time:0"
+14:09:17.918,INFO,Carryable,"Event:Drop, Item:Wood, InstanceID:1233132, Time:0"
+14:09:17.918,INFO,Carryable,"Event:Drop, Item:Onion, InstanceID:1233912, Time:0"
+14:09:17.919,INFO,Carryable,"Event:Drop, Item:Wood, InstanceID:1236110, Time:0"
+14:09:17.920,INFO,Carryable,"Event:Drop, Item:Pot, InstanceID:1236250, Time:0"
+14:09:17.922,INFO,Carryable,"Event:Drop, Item:WateringCan, InstanceID:1237042, Time:0"
+14:09:55.966,DEBUG,PlayerInteractCarryable,집기 조작 Key (UnityEngine.BoxCollider2D)
+14:09:55.968,INFO,Carryable,"Event:PickUp, Item:Key, InstanceID:1212206, Time:34.75885"
+14:09:56.958,INFO,Carryable,"Event:Drop, Item:Key, InstanceID:1212206, Time:35.75032"
+14:09:59.997,DEBUG,PlayerInteractCarryable,집기 조작 Key (UnityEngine.BoxCollider2D)
+14:09:59.997,INFO,Carryable,"Event:PickUp, Item:Key, InstanceID:1212206, Time:38.79083"
+14:10:11.132,INFO,Carryable,"Event:Drop, Item:Key, InstanceID:1212206, Time:49.92391"
+14:10:11.888,DEBUG,DoorClosed,Door opened.
+14:10:12.803,DEBUG,QuestCompleteNotificationUI,빵빠레 터짐용
+14:10:12.811,DEBUG,QuestRuntime,[마왕성 들어가기] 퀘스트 완료
+14:10:20.591,DEBUG,Player,플레이어 sprite Slime_wink_0으로 변경 성공
+14:10:21.795,DEBUG,Player,플레이어 sprite 슬라임_0으로 변경 성공
+14:10:22.552,DEBUG,Player,플레이어 sprite Slime_wink_0으로 변경 성공
+14:10:23.752,DEBUG,Player,플레이어 sprite 슬라임_0으로 변경 성공
+14:10:25.367,DEBUG,Player,플레이어 sprite Slime_wink_0으로 변경 성공
+14:10:26.568,DEBUG,Player,플레이어 sprite 슬라임_0으로 변경 성공
