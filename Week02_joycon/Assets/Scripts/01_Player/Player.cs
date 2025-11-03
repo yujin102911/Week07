@@ -141,8 +141,9 @@ public class Player : Singleton<Player>
             QuestRuntime.Instance.SetFlag(FlagId.WipingDust);
             QuestRuntime.Instance.SetFlag(FlagId.PreparingFood);
             QuestRuntime.Instance.SetFlag(FlagId.InstallGarlander);
+            QuestRuntime.Instance.SetFlag(FlagId.InstallBallon);
         }
-        if (Input.GetKeyDown(KeyCode.M)) QuestRuntime.Instance.SetFlag(FlagId.PlaceMimic);
+        // if (Input.GetKeyDown(KeyCode.M)) QuestRuntime.Instance.SetFlag(FlagId.PlaceMimic);
 
         float dt = Time.deltaTime;
 

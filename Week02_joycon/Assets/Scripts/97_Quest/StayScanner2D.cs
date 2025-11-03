@@ -100,12 +100,12 @@ public sealed class StayScanner2D : MonoBehaviour
             _lastFireAt = now;
             _firedOnce = true;
         }
-        else if (!meets && _flagActive && !oneShot)
-        {
-            QuestRuntime.Instance.ClearFlag(flagEnum);
-            _flagActive = false;
-            _lastFireAt = now;
-        }
+        // else if (!meets && _flagActive && !oneShot)
+        // {
+        //     QuestRuntime.Instance.ClearFlag(flagEnum);
+        //     _flagActive = false;
+        //     _lastFireAt = now;
+        // }
     }
 
     void OnTriggerEnter2D(Collider2D other)
