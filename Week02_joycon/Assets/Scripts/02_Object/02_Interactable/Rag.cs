@@ -8,6 +8,7 @@ public class Rag : MonoBehaviour
     [SerializeField] int cleanDecrase = 20;//청결도 감소량
     [SerializeField] float cleanCurrent = 200;//청결도 현재치
     [SerializeField] int cleanSpeed = 200;//청결도 회복 속도
+     bool onWater = false;
 
     [Header("색상 설정")]
     [SerializeField] Color cleanColor = Color.white; // 가장 깨끗할 때의 색
@@ -26,21 +27,35 @@ public class Rag : MonoBehaviour
         UpdateColor();
         return true;
     }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Water"))
+        {
+            onWater= true;
+        }
+    }
 
-    private void OnTriggerStay2D(Collider2D collision)
+   /* private void OnTriggerStay2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Water"))
         {
             if (cleanCurrent < cleanMax) cleanCurrent += cleanSpeed * Time.deltaTime;
         }
         UpdateColor();
-    }
+    }*/
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Water")) cleanCurrent = (int)cleanCurrent;
+        onWater = false;
 
-        UpdateColor();
+    }
+    void Update()
+    {
+        if (onWater)
+        {
+            if (cleanCurrent < cleanMax) cleanCurrent += cleanSpeed * Time.deltaTime;
+            UpdateColor();
+        }
     }
 
     void UpdateColor()
