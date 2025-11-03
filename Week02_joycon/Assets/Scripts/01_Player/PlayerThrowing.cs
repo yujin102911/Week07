@@ -6,7 +6,7 @@ public class PlayerThrowing : MonoBehaviour
     [SerializeField] float throwForce = 10;
     float lastThrowTime = 0f;
 
-    public InputActionReference throwAction; // 액션 컴포넌트에서 참조
+    /*public InputActionReference throwAction; // 액션 컴포넌트에서 참조
 
     private void OnEnable()
     {
@@ -18,7 +18,7 @@ public class PlayerThrowing : MonoBehaviour
     {
         throwAction.action.performed -= OnThrowPerformed;
         throwAction.action.Disable();
-    }
+    }*/
 
     private void OnThrowPerformed(InputAction.CallbackContext ctx)
     {
