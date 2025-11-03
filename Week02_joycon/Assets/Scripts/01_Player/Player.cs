@@ -131,7 +131,7 @@ public class Player : Singleton<Player>
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.T)) transform.position = new Vector3(43, 20, 0f);
+        //if (Input.GetKeyDown(KeyCode.T)) transform.position = new Vector3(43, 20, 0f);
 
         //if (Input.GetKeyDown(KeyCode.B)) QuestRuntime.Instance.SetFlag(FlagId.EnterCastle);
         //if (Input.GetKeyDown(KeyCode.N))
