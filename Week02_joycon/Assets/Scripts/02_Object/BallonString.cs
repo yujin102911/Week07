@@ -14,6 +14,8 @@ public class BallonString : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (transform.parent == null || Target == null)
+            return;
         Vector3 localA = transform.parent.InverseTransformPoint(transform.position);
         Vector3 localB = transform.parent.InverseTransformPoint(Target.position);
         float localDistance = Vector2.Distance(localA, localB);
