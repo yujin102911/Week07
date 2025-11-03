@@ -21,7 +21,6 @@ public class Rag : MonoBehaviour
 
     void Update()
     {
-        Debug.Log(onWater);
         if (onWater)
         {
             if (cleanCurrent < cleanMax) cleanCurrent += cleanSpeed * Time.deltaTime;
