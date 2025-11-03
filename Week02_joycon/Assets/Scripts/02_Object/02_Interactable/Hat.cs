@@ -12,7 +12,9 @@ public enum HatType
     Candy,
     Cooker,
     Santa,
-    Clown
+    Clown,
+    Clean,
+    Kira,
 }
 
 public class Hat : MonoBehaviour, IInteractable
