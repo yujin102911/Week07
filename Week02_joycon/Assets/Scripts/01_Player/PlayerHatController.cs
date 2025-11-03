@@ -39,9 +39,9 @@ public class PlayerHatController : MonoBehaviour
         }
     }
 
-    public void ChangeHat(HatType hatType)
+    public void ChangeHat(HatType hatType, bool dropPreviousHat = true)
     {
-        if (currentHatType != HatType.None)
+        if (currentHatType != HatType.None && dropPreviousHat)
         {
             Vector2 dropPosition = (Vector2)transform.position + new Vector2(Player.GetFaceDir() * -1.0f, 0.5f);
             Instantiate(GetHatData(currentHatType).hatPrefab, dropPosition, Quaternion.identity);
@@ -129,7 +129,7 @@ public class PlayerHatController : MonoBehaviour
         HatUIElement[] allHatUI = FindObjectsOfType<HatUIElement>();
         foreach (HatUIElement uiElement in allHatUI)
         {
-            uiElement.UpdateAlpha(); // 각 UI 요소의 알파 값 업데이트 실행
+            uiElement.UpdateUIState(); // 각 UI 요소의 알파 값 업데이트 실행
         }
 
         Debug.Log("모자 기록 초기화 및 UI 갱신 완료!");

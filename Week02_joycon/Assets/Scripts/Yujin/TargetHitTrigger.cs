@@ -9,6 +9,7 @@ public class TargetHIt : MonoBehaviour
     public Sprite newSprite;
     public ParticleSystem hitParticleEffect;
     public ParticleSystem particleEffect;
+    public GameObject rewardHatPrefab;
 
     private int currentHitCount = 0;
     private bool isTriggered = false;
@@ -37,6 +38,10 @@ public class TargetHIt : MonoBehaviour
         if (carryableLayer == -1)
         {
             GameLogger.Instance.LogError(this, "'" + targetLayerName + "' 레이어가 존재하지 않습니다. Project Settings > Tags and Layers에서 먼저 생성해주세요.: {this.gameObject}");
+        }
+        if (rewardHatPrefab == null)
+        {
+            GameLogger.Instance.LogError(this, "RewardHatPrefab이 연결안됨");
         }
     }
 
@@ -80,6 +85,12 @@ public class TargetHIt : MonoBehaviour
         if (particleEffect != null)
         {
             particleEffect.Play();
+        }
+
+        //보상 프리팹
+        if (rewardHatPrefab != null)
+        {
+            Instantiate(rewardHatPrefab, transform.position, Quaternion.identity);
         }
 
         GameLogger.Instance.LogDebug(this, "목표 달성! 스프라이트 변경 및 파티클 재생 완료.");
