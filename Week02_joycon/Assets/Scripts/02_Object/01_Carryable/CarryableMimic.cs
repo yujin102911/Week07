@@ -11,7 +11,7 @@ public class CarryableMimic : Carryable, IInteractable
     [SerializeField] private MimicBubble coinBubble;
     [SerializeField] private MimicBubble heartBubble;
     [SerializeField] private MimicBubble cleanBubble;
-    [SerializeField] private GameObject bubbles;
+    [SerializeField] public GameObject bubbles;
     private HashSet<Carryable> coins = new();
     private List<Carryable> toRemove = new();
     private bool isEnumerating;

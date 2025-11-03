@@ -2,32 +2,31 @@
 using UnityEngine.UI;
 using System.Collections;
 
-[RequireComponent(typeof(Image))]
+[RequireComponent(typeof(Button))]
 public class HatUIElement : MonoBehaviour
 {
     [SerializeField] private HatType hatType;
     [SerializeField] private PlayerHatController playerHatController;
-    [SerializeField] private float notGetAlpha = 50f;
-    [SerializeField] private float getAlpha = 255f;
+    //[SerializeField] private float notGetAlpha = 50f;
+    //[SerializeField] private float getAlpha = 255f;
     [SerializeField] private float panelDuration = 3f;
-
     [SerializeField] private UISlideToggleOnFire panelSlider;
 
-    private Image uiImage;
+    private Button uiButton;
 
     private static Coroutine _autoCloseCo;
 
     private void Start()
     {
-        uiImage = GetComponent<Image>();
+        uiButton = GetComponent<Button>();
 
         if (playerHatController == null)
         {
             playerHatController = FindObjectOfType<PlayerHatController>();
         }
-
         if (playerHatController == null)
         {
+            GameLogger.Instance.LogError(this, "PlayerHatController를 찾을 수 없음");
             return;
         }
         if (panelSlider == null)
@@ -38,10 +37,10 @@ public class HatUIElement : MonoBehaviour
         {
             GameLogger.Instance.LogError(this, "UISlideToggleOnFire를 찾을 수 없음");
         }
+        uiButton.onClick.AddListener(OnHatButtonClick);
         playerHatController.OnHatAcquired += HandleHatAcquired;
+        UpdateUIState();
 
-        // UI 알파 값 초기 업데이트
-        UpdateAlpha();
     }
 
     /// <summary>
@@ -53,7 +52,7 @@ public class HatUIElement : MonoBehaviour
         if (acquiredHat == this.hatType)
         {
             // 즉시 알파 값을 업데이트
-            UpdateAlpha();
+            UpdateUIState();
             if (panelSlider != null)
             {
                 panelSlider.Show();
@@ -67,33 +66,38 @@ public class HatUIElement : MonoBehaviour
     }
 
     /// <summary>
-    /// 획득 여부에 따라 알파 값을 조절
+    /// 획득 여부에 따라 버튼 활성화
     /// </summary>
-    public void UpdateAlpha()
+    public void UpdateUIState()
     {
-        if (uiImage == null || playerHatController == null) return;
+        if (uiButton == null || playerHatController == null) return;
 
+        // 모자를 획득한 적이 있는지 확인
         bool isUsed = playerHatController.IsHatUsed(hatType);
-        Color currentColor = uiImage.color;
 
-        if (isUsed)
-        {
-            currentColor.a = getAlpha / 255f;
-        }
-        else
-        {
-            currentColor.a = notGetAlpha / 255f;
-        }
-
-        uiImage.color = currentColor;
+        uiButton.interactable = isUsed;
     }
 
+    /// <summary>
+    /// 버튼 눌리면 호출될 메서드
+    /// </summary>
+    private void OnHatButtonClick()
+    {
+        if (playerHatController != null)
+        {
+            playerHatController.ChangeHat(hatType, false);
+        }
+    }
 
     private void OnDestroy()
     {
         if (playerHatController != null)
         {
             playerHatController.OnHatAcquired -= HandleHatAcquired;
+        }
+        if (uiButton != null)
+        {
+            uiButton.onClick.RemoveListener(OnHatButtonClick);
         }
     }
 
