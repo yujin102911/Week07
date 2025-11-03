@@ -68,19 +68,17 @@ public class InteractableBath : MonoBehaviour, IInteractable
         // 여기까지 왔으면 완성
         isComplete = true;
         GameLogger.Instance.LogDebug(this, "조합 완료! 결과 생성 절차를 시작합니다...");
-        StartCoroutine(ProcessCombination());
+        ProcessCombination();
     }
 
-    private IEnumerator ProcessCombination()
+    private void ProcessCombination()
     {
-        yield return new WaitForSeconds(processingTime);
-
         foreach (GameObject itemObject in requiredIngredients.ConvertAll(ing => ing.ingredientObject))
         {
             if (itemObject.TryGetComponent(out CarryableMimic carryableMimic))
             {
+                carryableMimic.bubbles.SetActive(true);
                 carryableMimic.enabled = true;
-                carryableMimic.CleanUp();
             }
             else Destroy(itemObject);
         }
