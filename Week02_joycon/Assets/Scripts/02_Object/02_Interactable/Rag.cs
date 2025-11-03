@@ -19,6 +19,16 @@ public class Rag : MonoBehaviour
         UpdateColor();
     }
 
+    void Update()
+    {
+        Debug.Log(onWater);
+        if (onWater)
+        {
+            if (cleanCurrent < cleanMax) cleanCurrent += cleanSpeed * Time.deltaTime;
+            UpdateColor();
+        }
+    }
+
     public bool TryCleanDirt()
     {
         if (cleanCurrent == cleanMin) return false;
@@ -27,38 +37,20 @@ public class Rag : MonoBehaviour
         UpdateColor();
         return true;
     }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Water"))
-        {
-            onWater = true;
-        }
+        if (collision.gameObject.CompareTag("Water")) onWater = true;
     }
 
-    /* private void OnTriggerStay2D(Collider2D collision)
-     {
-         if (collision.gameObject.CompareTag("Water"))
-         {
-             if (cleanCurrent < cleanMax) cleanCurrent += cleanSpeed * Time.deltaTime;
-         }
-         UpdateColor();
-     }*/
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Water")) onWater = true;
+    }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Water"))
-        {
-            onWater = false;
-        }
-
-    }
-    void Update()
-    {
-        if (onWater)
-        {
-            if (cleanCurrent < cleanMax) cleanCurrent += cleanSpeed * Time.deltaTime;
-            UpdateColor();
-        }
+        if (collision.gameObject.CompareTag("Water")) onWater = false;
     }
 
     void UpdateColor()

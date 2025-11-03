@@ -142,7 +142,7 @@ public sealed class StayScanner2D : MonoBehaviour
     private bool IsEligible(Carryable carryable)
     {
         if (!carryable) return false;
-        if (excludeCarried && carryable.GetIsCarried()) return false;
+        // if (excludeCarried && carryable.GetIsCarried()) return false;
         if (targetItem != ItemName.None && carryable.GetItemName() != targetItem) return false;
         return true;
     }
